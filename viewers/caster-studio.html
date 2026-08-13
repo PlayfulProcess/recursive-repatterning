@@ -554,7 +554,7 @@ const $ = id => document.getElementById(id);
 
 function currentPool(){ const v = $('deck').value; return v === ALL ? leaves : (byDeck[v] || []); }
 function updateDeckMeta(){ const v = $('deck').value;
-  $('deckmeta').textContent = v === ALL ? 'One card may come from each of several centuries — only the meta can do this.' : `${(byDeck[v]||[]).length} castable cards in this deck.`; }
+  $('deckmeta').textContent = v === ALL ? 'One item may come from each of several schools at once — only the pooled draw does that.' : `${(byDeck[v]||[]).length} castable items in this school.`; }
 
 // ── the working spread's identity ──
 // NAME and DESCRIPTION are separate. The name goes in the always-visible #spreadName field (and
