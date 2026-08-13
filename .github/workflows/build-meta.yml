@@ -17,12 +17,14 @@ name: Rebuild meta-grammar
 # Only re-add `pages: write` / `deploy-pages` here if Pages is first switched to build_type
 # "workflow" — and then nothing else may deploy.
 
+# DISABLED (manual-only) until scripts/build_meta_grammar.py is adapted for this repo.
+# That script is still the tarot version: it resolves ROOT/"tarot" as its data folder and
+# carries a large table of hardcoded tarot deck metadata (trump orders, eras, ancestry lanes).
+# Left on a push trigger it would run against schools/, produce junk, and — worse — overwrite
+# the hand-authored schools/schools-of-emotion/grammar.json constellation and commit that to
+# main. Re-enable the push trigger only once the script targets schools/ and its deck table has
+# been replaced with the schools-of-emotion branch data.
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'schools/**'
-      - 'scripts/build_meta_grammar.py'
   workflow_dispatch:
 
 permissions:

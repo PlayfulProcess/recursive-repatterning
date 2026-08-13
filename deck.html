@@ -1,17 +1,17 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="theme.css?v=3">
+<link rel="stylesheet" href="theme.css?v=6">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deck — The Recursive Tarot</title>
+<title>School — Recursive Repatterning</title>
 <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
-<script src="site-header.js?v=47"></script>
+<script src="site-header.js?v=48"></script>
 <site-header></site-header>
 <header class="site"><div class="wrap">
-  <h1><a href="index.html">The <span class="gold">Recursive Tarot</span></a></h1>
+  <h1><a href="index.html">Recursive <span class="gold">Repatterning</span></a></h1>
 </div></header>
 
 <main class="wrap">
@@ -28,20 +28,20 @@
 (async function () {
   var root = document.getElementById('root');
   var url = RT.grammarUrl();
-  if (!url) { root.innerHTML = '<div class="loading">No deck specified. Try <code>?file=schools/&lt;slug&gt;/grammar.json</code></div>'; return; }
+  if (!url) { root.innerHTML = '<div class="loading">No school specified. Try <code>?file=schools/&lt;slug&gt;/grammar.json</code></div>'; return; }
   try {
     var g = await RT.fetchJson(url);
-    document.title = (g.name || 'Deck') + ' — The Recursive Tarot';
+    document.title = (g.name || 'School') + ' — Recursive Repatterning';
     var slug = (g._community_slug) || RT.qs('file') || '';
     var ghPath = 'schools/' + (g._community_slug || '') + '/grammar.json';
     document.getElementById('ghlink').innerHTML =
-      '<a href="https://github.com/PlayfulProcess/recursive-tarot/blob/main/' + RT.esc(ghPath) +
-      '" target="_blank" rel="noopener">View / contribute this deck on GitHub ↗</a> &nbsp;·&nbsp; ';
+      '<a href="https://github.com/PlayfulProcess/recursive-repatterning/blob/main/' + RT.esc(ghPath) +
+      '" target="_blank" rel="noopener">View / contribute this school on GitHub ↗</a> &nbsp;·&nbsp; ';
 
     var cover = g.cover_image_url
       ? '<div class="cover" style="background-image:url(' + "'" + g.cover_image_url.replace(/'/g,'%27') + "'" + ')"></div>'
       : '';
-    var head = '<a class="back" href="index.html">← All decks</a>' +
+    var head = '<a class="back" href="index.html">← All schools</a>' +
       '<div class="deckhead">' + cover +
       '<div class="info"><h1>' + RT.esc(g.name) + '</h1>' +
       '<div class="desc">' + RT.md(shorten(g.description, 900)) + '</div></div></div>';
@@ -53,7 +53,7 @@
     cards += '</div>';
     root.innerHTML = head + cards;
   } catch (e) {
-    root.innerHTML = '<div class="loading">Could not load this deck.<br><span class="small">' + RT.esc(e.message) +
+    root.innerHTML = '<div class="loading">Could not load this school.<br><span class="small">' + RT.esc(e.message) +
       '</span><br><br><span class="small muted">Opened the file directly? Run <code>python -m http.server 8000</code> and visit it via <code>http://localhost:8000/site/deck.html?file=…</code></span></div>';
   }
 
@@ -77,7 +77,7 @@
 })();
 </script>
 
-<script src="site-footer.js?v=1"></script>
+<script src="site-footer.js?v=2"></script>
 <script src="assistant.js" defer></script>
 <site-footer base=""></site-footer>
 </body>

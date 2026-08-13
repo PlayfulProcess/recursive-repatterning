@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="../theme.css?v=3">
+<link rel="stylesheet" href="../theme.css?v=6">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Course — Recursive Tarot</title>
+<title>Course — Recursive Repatterning</title>
 <style>
   :root{}
   *{box-sizing:border-box}
@@ -15,7 +15,7 @@
   .article h2{font-size:22px;margin:1.6em 0 .4em;border-bottom:1px solid var(--line);padding-bottom:.2em}
   .article h3{font-size:17px;margin:1.3em 0 .3em;color:#4a4439}
   .article p,.article li{font-size:15.5px;color:var(--ink-soft)}
-  .article a{color:#9a7322}
+  .article a{color:#0f766e}
   .article code{background:#221d33;padding:.12em .4em;border-radius:5px;font-size:.9em}
   .article pre{background:#f4f1ea;border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto}
   .article pre code{background:none;padding:0}
@@ -30,7 +30,7 @@
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=47"></script>
+<script src="../site-header.js?v=48"></script>
 <site-header active="course"></site-header>
 <article class="article" id="article"><div id="err" style="display:none"></div></article>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -56,7 +56,7 @@ const SRC=params.get('src')||'../course/build-a-tarot-deck-with-claude.mdx';
     if(meta.author||meta.duration) html+=`<div class="meta">${[meta.author,meta.duration?meta.duration+' min':null,meta.date].filter(Boolean).join(' · ')}</div>`;
     html+=marked.parse(text);
     art.innerHTML=html;
-    document.title=(meta.title||'Course')+' — Recursive Tarot';
+    document.title=(meta.title||'Course')+' — Recursive Repatterning';
   }catch(e){ document.getElementById('err').style.display='block'; document.getElementById('err').textContent=e.message; }
 })();
 </script>

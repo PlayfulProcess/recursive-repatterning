@@ -1,12 +1,12 @@
 ﻿<!doctype html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="theme.css?v=3">
+<link rel="stylesheet" href="theme.css?v=6">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Recursive Tarot — Genealogy Graph</title>
+<title>Recursive Repatterning — Genealogy Graph</title>
 <!--
-  Self-contained visual catalogue for the recursive-tarot repo.
+  Self-contained visual catalogue for the recursive-repatterning repo.
   - No build, no server needed to VIEW: a single file + the committed meta JSON.
   - Data-driven: reads schools/all-schools-many-lenses/grammar.json (its `_decks` index).
     Add a deck folder respecting the structure + rebuild the meta → it appears here.
@@ -60,16 +60,16 @@
      .modal-nav-footer (sticky bottom bar, circular arrow buttons, counter). */
   .modal-nav-footer { position:sticky; bottom:0; display:flex; align-items:center; justify-content:space-between;
     gap:1rem; margin:1.25rem -16px -16px; padding:0.7rem 16px; background:var(--panel); border-top:1px solid var(--line); }
-  .modal-nav-btn { flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(154,115,34,.1);
+  .modal-nav-btn { flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(15,118,110,.1);
     border:1px solid var(--line); color:var(--ink); font-size:1.2rem; cursor:pointer;
     display:flex; align-items:center; justify-content:center; transition:background .15s, opacity .15s; }
-  .modal-nav-btn:hover:not(:disabled) { background:rgba(154,115,34,.35); border-color:#9a7322; }
+  .modal-nav-btn:hover:not(:disabled) { background:rgba(15,118,110,.35); border-color:#0f766e; }
   .modal-nav-btn:disabled { opacity:.3; cursor:default; }
   .modal-counter { font-size:12px; font-weight:600; letter-spacing:.02em; color:var(--muted); white-space:nowrap; }
 </style>
 </head>
 <body>
-<script src="site-header.js?v=47"></script>
+<script src="site-header.js?v=48"></script>
 <site-header active="genealogy"></site-header>
 <header>
   <div>
@@ -266,7 +266,7 @@ function legendHTML(mode){
 })();
 </script>
 
-<script src="site-footer.js?v=1"></script>
+<script src="site-footer.js?v=2"></script>
 <script src="assistant.js" defer></script>
 <site-footer base=""></site-footer>
 </body>

@@ -1,4 +1,4 @@
-/* The Recursive Tarot — one shared footer: under construction · recursive.eco spiral · newsletter.
+/* Recursive Repatterning — one shared footer: under construction · recursive.eco spiral · newsletter.
    <site-footer></site-footer>  (reads theme.css tokens). The newsletter writes to recursive.eco's
    newsletter_subscribers via the public anon key (browser-safe).
 
@@ -30,7 +30,7 @@
   .rtf input::placeholder{color:var(--faint)}
   .rtf button{font-family:var(--sans);font-weight:600;font-size:14px;padding:10px 20px;border:0;
     border-radius:8px;background:var(--gold);color:#fff;cursor:pointer}
-  .rtf button:hover{background:#7c5b18}.rtf button:disabled{opacity:.6;cursor:default}
+  .rtf button:hover{background:#0b5e57}.rtf button:disabled{opacity:.6;cursor:default}
   .rtf .msg{font-family:var(--sans);font-size:13px;margin-top:8px;min-height:1em}
   .rtf .links{font-family:var(--sans);font-size:12.5px;color:var(--mut);margin-top:20px}
   .rtf .links a{color:var(--gold);text-decoration:none;margin:0 7px}.rtf .links a:hover{text-decoration:underline}
@@ -46,13 +46,13 @@
         '<div class="uc">Recursively under construction</div>'+
         '<span class="spinwrap"><svg class="spin" viewBox="0 0 100 100" aria-hidden="true"><path pathLength="1" d="'+SPIRAL+'"/></svg></span>'+
         '<h3>One branch of a larger tree</h3>'+
-        '<p>The work so far of <strong>one solo developer</strong> — passionate about the tarot and meaning systems, and built with a great deal of help from AI. The hope is that <strong>real human collaborators</strong> will make the whole thing better.</p>'+
+        '<p>The work so far of <strong>one solo developer</strong> — passionate about emotion and meaning systems, and built with a great deal of help from AI. The hope is that <strong>real human collaborators</strong> will make the whole thing better.</p>'+
         '<p>Part of <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a> — grammars for sense-making. Get an occasional note as it grows:</p>'+
         '<form id="rtf-news"><input id="rtf-email" type="email" required placeholder="you@email.com" aria-label="Email"><button type="submit">Sign up</button></form>'+
         '<div class="msg" id="rtf-msg"></div>'+
         '<div class="links"><a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco ↗</a> · '+
         '<a href="'+base+'pages/about.html">About</a> · '+
-        '<a href="https://github.com/PlayfulProcess/recursive-tarot" target="_blank" rel="noopener">the repo</a> · CC-BY-SA-4.0</div>'+
+        '<a href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">the repo</a> · CC-BY-SA-4.0</div>'+
         '</div>';
       var f=this.querySelector('#rtf-news'), msg=this.querySelector('#rtf-msg');
       f.addEventListener('submit', async function(e){
@@ -63,7 +63,7 @@
         try{
           var r=await fetch(SUPA+'/rest/v1/newsletter_subscribers',{method:'POST',
             headers:{'apikey':ANON,'Authorization':'Bearer '+ANON,'Content-Type':'application/json','Prefer':'return=minimal'},
-            body:JSON.stringify({email:email,subscribed_from:'recursive-tarot',subscribed:true})});
+            body:JSON.stringify({email:email,subscribed_from:'recursive-repatterning',subscribed:true})});
           if(r.ok){msg.style.color='#3f7a5c';msg.textContent='✓ Welcome to the recursive public!';f.querySelector('#rtf-email').value='';}
           else if(r.status===409){msg.style.color='#3f7a5c';msg.textContent='✓ You\'re already signed up!';}
           else{throw new Error('status '+r.status);}
