@@ -5,6 +5,10 @@
  *
  * Usage:  <script src="<path-to>/site-header.js?v=7"></script>
  *         <site-header active="cards"></site-header>
+ * v49 (Aug 13 2026): removed the dead "Bus Passengers" PLAY_MENU entry (pointed at
+ * schools/bus-passengers/grammar.json, which was never ported into this repo) and
+ * emptied COURSE_GROUPS — there are zero course files here yet (course/ holds only
+ * _courses.json); see pages/courses.html for the honest "no courses yet" state.
  * The `active` attribute highlights the matching tab; if omitted it is
  * auto-detected from the filename.
  *
@@ -60,7 +64,6 @@
   // Play — a dropdown of the ways to draw/cast + read (the pill itself links to the Play hub).
   const PLAY_MENU = [
     [PFX + 'viewers/caster-studio.html',  'Spread Caster — build · cast · send'],
-    [PFX + 'viewers/cards.html?src=../schools/bus-passengers/grammar.json', 'Bus Passengers — who’s driving?'],
     ['https://flow.recursive.eco/',   'Oracle ↗', true],
     [PFX + 'pages/play.html',             'All readings →'],
   ];
@@ -69,22 +72,11 @@
     [PFX + 'index.html',        'Home'],
     [PFX + 'pages/about.html',  'About'],
   ];
-  // Courses — grouped into three topics; each is a course-viewer ?course=… (deep-linkable with #section).
-  const COURSE_GROUPS = [
-    ['Start here', [
-      ['history-of-tarot',                'The History of Tarot'],
-      ['how-tarot-works',                 'How the Cards Can Work'],
-      ['how-to-contribute',               'Ways to Contribute'],
-    ]],
-    ['More', [
-      ['reading-the-cards',               'Reading the Cards'],
-      ['tarot-today',                     'Tarot Today'],
-      ['why-a-reading-feels-personal',    'Why a Reading Feels So Personal'],
-      ['what-a-reading-can-do',           'What a Reading Can Do'],
-      ['walking-the-golden-dawn-path',     'The Golden Dawn — the Map and the Walk'],
-      ['working-with-claude-desktop',     'Working with Claude Desktop'],
-    ]],
-  ];
+  // Courses — grouped into topics; each is a course-viewer ?course=… (deep-linkable with #section).
+  // Empty for now: this site has zero course files (course/ holds only _courses.json).
+  // Keep in step with course/_courses.json — that file is the gallery's data, this is the
+  // dropdown's menu. See pages/courses.html for the "no courses yet" empty state.
+  const COURSE_GROUPS = [];
 
   function autoActive() {
     const f = location.pathname.split('/').pop() || 'index.html';

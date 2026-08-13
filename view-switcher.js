@@ -56,7 +56,8 @@
   ];
   const EXTRA_VIEWS = [
     ['thumbnails', 'Thumbnails',   root + 'viewers/cards.html' + qs + amp + 'layout=thumbnails'],
-    ['print',      'Print',        root + 'pages/print-viewer.html' + qs],
+    // 'print' removed Aug 13 2026: pages/print-viewer.html was never ported into this repo
+    // (dead link, only reachable via the ?lens=print deep-link redirect below).
   ];
   const VIEWS = [...CARD_VIEWS, ...GRAMMAR_VIEWS, ...EXTRA_VIEWS];
 
