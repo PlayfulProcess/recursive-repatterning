@@ -1,0 +1,56 @@
+{
+  "repo": "PlayfulProcess/recursive-repatterning",
+  "branch": "main",
+  "github_url": "https://github.com/PlayfulProcess/recursive-repatterning",
+  "collection": "schools",
+  "name": "Recursive Repatterning",
+  "version": "0.1.0",
+  "license": "CC-BY-SA-4.0",
+  "creator_name": "PlayfulProcess",
+  "meta_grammar": "schools-of-emotion",
+  "_note": "Branches are the L2 groupings of the schools-of-emotion constellation. Each school is its own grammar in its own voice; this file is the manifest that drives menus and galleries. Rebuilt by scripts/build_meta_grammar.py — do not hand-edit once grammars exist. school_slugs are the folder names under schools/.",
+  "branches": [
+    {
+      "id": "constructionist",
+      "name": "Constructionist — the substrate",
+      "_note": "Not a peer school. This is the frame the whole library sits inside: emotions have no fixed biological fingerprints, so every taxonomy below is a meaning-layer, not a discovery.",
+      "school_slugs": []
+    },
+    {
+      "id": "basic-emotion",
+      "name": "Basic-Emotion Schools",
+      "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
+      "school_slugs": []
+    },
+    {
+      "id": "needs-based",
+      "name": "Needs-Based Schools",
+      "_note": "Feelings as signals of met/unmet needs. NVC.",
+      "school_slugs": []
+    },
+    {
+      "id": "attachment-couples",
+      "name": "Attachment & Couples",
+      "_note": "Gottman, Sue Johnson's Emotionally Focused Therapy, Bowlby/Ainsworth attachment.",
+      "school_slugs": []
+    },
+    {
+      "id": "skills-based",
+      "name": "Skills-Based",
+      "_note": "Linehan/DBT, behavior activation, emotion-regulation practice.",
+      "school_slugs": []
+    },
+    {
+      "id": "parts-and-depth",
+      "name": "Parts & Depth",
+      "_note": "IFS/parts work, Jungian archetypes.",
+      "school_slugs": []
+    },
+    {
+      "id": "historical-scientific",
+      "name": "Historical & Scientific",
+      "_note": "Public-domain foundations: Darwin 1872, James 1890.",
+      "school_slugs": []
+    }
+  ]
+}

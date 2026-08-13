@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+_scratch*/
+
+# Secrets — never commit
+env-local.txt
+env-local
+.env*
+_private/
+
+# Seed material: local working copies of content that lives canonically in
+# recursive.eco-schemas and emergence-lab. Committing them would fork the content.
+# _seeds/README.md IS committed as the index.
+_seeds/*
+!_seeds/README.md

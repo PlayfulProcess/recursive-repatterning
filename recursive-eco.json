@@ -1,0 +1,29 @@
+{
+  "_note": "Channel manifest for recursive.eco. This makes the repo self-describing: recursive.eco can 'import this repo as a channel' by reading this file from raw.githubusercontent.com/<owner>/<repo>/<branch>/recursive-eco.json. It declares the channel's identity (rendered as a channel-document, document_data.is_channel=true), where its grammars live, and who maintains it. Membership lives in `tools` (channel_slug). See recursive-eco/docs/DESIGN-import-channel-from-github.md and recursive-eco/docs/DESIGN-channel-as-document.md.",
+  "schema_version": 1,
+  "channel": {
+    "slug": "recursive-repatterning",
+    "name": "Recursive Repatterning",
+    "type": "repo",
+    "icon": "🌀",
+    "gradient": "from-teal-50 to-emerald-100 dark:from-teal-950 dark:to-emerald-900",
+    "description": "An open library of the ways people have organized feeling — each school in its own voice, none of them mistaken for the truth underneath.",
+    "landing_url": "https://repatterning.recursive.eco",
+    "hero": {
+      "title": "Recursive Repatterning",
+      "subtitle": "There are no fixed biological fingerprints for emotions. We still have to make meaning — so here are the ways people have done it.",
+      "body_md": "Every school here is a working interface, not a discovery: Plutchik's wheel, NVC's needs, DBT's skills, attachment theory's bonds. The constructionist account sits underneath all of them — emotion concepts are learned, not found — and that is precisely why the interfaces matter. A useful map is not a false one.\n\nYou can play tarot without believing Hermes Trismegistus handed it down. You can name a feeling without believing the name was waiting in your body to be discovered."
+    }
+  },
+  "grammars": {
+    "paths": ["schools/*/grammar.json"],
+    "exclude": [
+      "schools/all-schools-many-lenses/grammar.json",
+      "schools/schools-of-emotion/grammar.json"
+    ],
+    "_exclude_note": "The constellation meta-grammar and the generated many-lenses grammar are apparatus (provenance:reference), not castable content. Only complete school grammars are imported as channel members; drafts and stubs are skipped on import.",
+    "id_map": "schools/_eco_ids.json"
+  },
+  "maintainers": ["pp@playfulprocess.com"],
+  "default_branch": "main"
+}

@@ -1,0 +1,5 @@
+{
+  "_note": "Hardcoded map: repo school slug -> its recursive.eco grammar UUID. Used to build per-grammar links: open/read = https://flow.recursive.eco/?deckId=<id> ; edit/fork = https://flow.recursive.eco/create/dashboard/unified/new?forkId=<id>. assistant.js also reads this file to resolve ?src=../schools/<slug>/grammar.json into a grammar_id so the AI assistant is grounded in the grammar on the page. A link only resolves for visitors once that grammar is is_public=true on recursive.eco.",
+  "_public_now": [],
+  "ids": {}
+}
