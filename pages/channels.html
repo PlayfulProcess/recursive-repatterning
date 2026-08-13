@@ -56,7 +56,7 @@
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=48"></script>
+<script src="../site-header.js?v=49"></script>
 <site-header active="channels"></site-header>
 
 <main class="wrap">
@@ -99,7 +99,13 @@
 
   const ids = eco.ids || {};
   const publicNow = new Set(eco._public_now || []);
-  const grammars = (col.grammars || []).slice();
+  // This manifest carries `branches[].school_slugs` (not a flat top-level `grammars`
+  // array like the tarot original) — fetch each school's own grammar.json for its
+  // tile data. Aug 13 2026.
+  const allSlugs = [...new Set((col.branches || []).flatMap(b => b.school_slugs || []))];
+  const grammars = (await Promise.all(allSlugs.map(slug =>
+    fetch('../schools/' + encodeURIComponent(slug) + '/grammar.json').then(r => r.json())
+      .then(g => Object.assign({ slug }, g)).catch(() => null)))).filter(Boolean);
   const bySlug = Object.fromEntries(grammars.map(g => [g.slug, g]));
 
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -128,7 +134,7 @@
   const seen = new Set();
   let html = '';
   for (const b of (col.branches || [])) {
-    const slugs = (b.deck_slugs || []).filter(s => bySlug[s]);
+    const slugs = (b.school_slugs || []).filter(s => bySlug[s]);
     if (!slugs.length) continue;
     html += '<section class="branch"><h2>' + esc(b.name) + '</h2><div class="cards">' +
       slugs.map(s => { seen.add(s); return card(bySlug[s]); }).join('') + '</div></section>';

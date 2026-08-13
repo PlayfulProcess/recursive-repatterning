@@ -178,7 +178,7 @@
 </style>
 </head>
 <body>
-<script src="site-header.js?v=48"></script>
+<script src="site-header.js?v=49"></script>
 <site-header active="home"></site-header>
 
 <main class="wrap">
@@ -338,8 +338,7 @@
         // Repo's own constructed plate (Śuddhavidyā, interlocking triangles, parchment ground) —
         // the deck's stored cover_image_url reads as a near-black square at tile size on this
         // light site; this SVG plate is legible instead. Aug 10 2026.
-        image: 'schools/thirty-six-tattvas/plates/tattva-05.svg'},
-      'bus-passengers': {note:"Rumi's guest house, on a bus — notice which voice is driving."}
+        image: 'schools/thirty-six-tattvas/plates/tattva-05.svg'}
     };
     const esc = s => String(s).replace(/</g,'&lt;');
     const thumb = g => '<div class="dthumb" style="background-image:url(\''+g.cover_image_url.replace(/'/g,"%27")+'\')"></div>';
@@ -357,8 +356,15 @@
         +(c.status?'<span class="status">'+esc(c.status)+'</span>':'')
         +(c.note?'<div class="note">'+esc(c.note)+'</div>':'')+'</a>';
     };
-    fetch('schools/_collection.json',{cache:'no-cache'}).then(r=>r.json()).then(c=>{
-      const all = (c.grammars||[]).filter(g=>!g.is_meta && g.cover_image_url);
+    fetch('schools/_collection.json',{cache:'no-cache'}).then(r=>r.json()).then(async c=>{
+      // This manifest carries `branches[].school_slugs` (not a flat top-level `grammars`
+      // array like the tarot original) — each branch lists the folder slugs under it, so
+      // the tile data has to be fetched per-school from its own grammar.json. Aug 13 2026.
+      const slugs = [...new Set((c.branches||[]).flatMap(b=>b.school_slugs||[]))];
+      const fetched = await Promise.all(slugs.map(slug =>
+        fetch('schools/'+encodeURIComponent(slug)+'/grammar.json',{cache:'no-cache'})
+          .then(r=>r.json()).then(g=>Object.assign({slug}, g)).catch(()=>null)));
+      const all = fetched.filter(g=>g && !g.is_meta && g.cover_image_url);
       const isLiving = g => g.provenance==='living';
       const community    = all.filter(g=>COMMUNITY[g.slug]);
       const contemporary = all.filter(g=>isLiving(g) && !COMMUNITY[g.slug]);

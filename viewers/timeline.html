@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../theme.css?v=6">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tarot Timeline — Decks Through Time · Recursive Tarot</title>
+<title>Timeline — Schools Through Time · Recursive Repatterning</title>
 <style>
   :root{
           
@@ -73,13 +73,13 @@
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=48"></script>
+<script src="../site-header.js?v=49"></script>
 <script src="../view-switcher.js?v=13"></script>
 <site-header active="timeline"></site-header>
 <div class="wrap">
   <div id="stage">
     <div class="toolbar">
-      <div class="title">Tarot Timeline <span class="sub">— decks through time, descent on the rail</span></div>
+      <div class="title">Timeline <span class="sub">— schools through time, descent on the rail</span></div>
       <button id="flip">↑ Oldest first</button>
       <label class="lbl-descent"><input type="checkbox" id="toggle-derive" checked> Descent</label>
     </div>
@@ -264,7 +264,7 @@ function showDetail(d){
   html+=`<h2>${esc(d.name)}</h2><div class="when">${esc(d.when)} · ${d.year}</div>`;
   for(const [k,v] of Object.entries(d.sections)){ if(v) html+=`<div class="sec"><h4>${esc(k)}</h4>${mdToHtml(String(v))}</div>`; }
   if(slug) html+=`<a class="opencards" href="cards.html?src=${encodeURIComponent('../schools/'+slug+'/grammar.json')}">Open ${esc(d.name.replace(/\s+[—–-].*/,''))} cards →</a>`;
-  else html+=`<div class="sec" style="color:#6b6457">No card-level deck in the repo yet for this node.</div>`;
+  else html+=`<div class="sec" style="color:#6b6457">No item-level school in the repo yet for this node.</div>`;
   // Prev/next footer — page decks in the same chronological order the timeline
   // rail draws them, so ← / → steps the same direction the eye reads it.
   const idx=currentPlaced.findIndex(p=>p.id===d.id), total=currentPlaced.length;

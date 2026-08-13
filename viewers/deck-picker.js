@@ -33,11 +33,11 @@
 
     const hint = document.createElement('p');
     hint.style.cssText = 'margin:0;font-size:11.5px;color:#6b6457;line-height:1.45;max-width:240px';
-    hint.innerHTML = 'Tick <b>several decks</b> and Load — patterns appear when collections overlap.';
+    hint.innerHTML = 'Tick <b>several schools</b> and Load — patterns appear when collections overlap.';
     pop.appendChild(hint);
 
     const search = document.createElement('input');
-    search.type = 'text'; search.placeholder = 'search decks…';
+    search.type = 'text'; search.placeholder = 'search schools…';
     search.style.cssText = 'width:100%;padding:5px 8px;background:#110e1d;border:1px solid #cfc8ba;border-radius:6px;color:#221f1a;font-size:12px;box-sizing:border-box;flex-shrink:0';
     pop.appendChild(search);
 

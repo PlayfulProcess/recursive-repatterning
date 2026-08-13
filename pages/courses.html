@@ -58,7 +58,7 @@
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=48"></script>
+<script src="../site-header.js?v=49"></script>
 <site-header active="course"></site-header>
 
 <main class="wrap">
@@ -87,7 +87,14 @@
   const coverBySlug = Object.fromEntries((col.grammars || []).map(g => [g.slug, g.cover_image_url]));
   const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
-  root.innerHTML = (cat.groups || []).map(group => {
+  const groups = (cat.groups || []).filter(g => (g.courses || []).length);
+  if (!groups.length) {
+    root.innerHTML = '<p class="loading">No courses yet — this library is still young. '
+      + '<a href="contribute.html">Write the first one →</a></p>';
+    return;
+  }
+
+  root.innerHTML = groups.map(group => {
     const cards = (group.courses || []).map(c => {
       const img = c.thumb || coverBySlug[c.deck] || '';
       const cover = img
