@@ -98,7 +98,7 @@ const PALETTE=['#c9a24b','#e07a5f','#81b29a','#6d8ec9','#9b6dc9','#c96d9b','#9a7
 const SLUG_MAP={'deck-visconti-sforza':'visconti-sforza-tarot','deck-cary-yale':'cary-yale-visconti-tarot','deck-tarocchino-bologna':'tarocchino-bologna','deck-minchiate':'minchiate-florence-tarot','deck-charles-vi':'charles-vi-tarot','deck-marseille-conver':'tarot-de-marseille-conver','deck-marseille-type1':'noblet-tarot','deck-besancon':'tarot-de-besancon','deck-court-de-gebelin':'court-de-gebelin-tarot','deck-etteilla-i':'etteilla-i-livre-de-thot','deck-etteilla-iii':'etteilla-iii-oracle-des-dames','deck-oswald-wirth':'oswald-wirth-tarot','deck-golden-dawn':'golden-dawn-book-t-tarot','deck-sola-busca':'sola-busca-tarot','deck-mantegna':'mantegna-tarocchi','deck-ontoject':'ontoject-illustrated','deck-anecdotes':'anecdotes-tarot'};
 
 const params=new URLSearchParams(location.search);
-const SRC=params.get('src')||'../schools/tree-of-schools/grammar.json';
+const SRC=params.get('src')||'../schools/schools-of-emotion/grammar.json';
 const EMBED=params.get('embed');
 if(EMBED) document.body.classList.add('embed');
 function postHeight(){ if(!EMBED) return; try{ parent.postMessage({type:'tarotEmbedHeight',h:Math.ceil(document.body.scrollHeight)},'*'); }catch(e){} }
