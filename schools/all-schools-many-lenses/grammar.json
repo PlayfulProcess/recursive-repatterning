@@ -1,0 +1,777 @@
+{
+  "_generated": true,
+  "_generated_by": "scripts/build_meta_grammar.py",
+  "_note": "GENERATED — do not hand-edit. Rebuild with `python scripts/build_meta_grammar.py`. Edits belong in the individual school under schools/<slug>/grammar.json.",
+  "name": "All Schools, Many Lenses",
+  "description": "Every drawable item from every school in this library, pooled into one grammar so a reading can sample across traditions at once. Each item links back to the school it came from and keeps that school's own words — the pooling is for reach, not for flattening them into a single house taxonomy.",
+  "grammar_type": "tarot",
+  "tags": [
+    "emotions",
+    "meta",
+    "generated"
+  ],
+  "default_preview": "grammar",
+  "_sources": [
+    {
+      "slug": "plutchik-wheel",
+      "name": "Plutchik's Wheel of Emotions",
+      "items": 24
+    }
+  ],
+  "items": [
+    {
+      "id": "plutchik-wheel--ecstasy",
+      "name": "Ecstasy",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "You are experiencing or ready to experience profound joy. This is the height of positive emotion - a state of rapture and bliss. Ecstasy arrives when deep needs are met completely. It cannot be sustained but can be savored.",
+        "Reversed": "Manic energy without grounding. Chasing highs. Fear of ordinary contentment. What would it mean to let simple joy be enough?",
+        "Evolutionary Function": "Signals peak reward. In ancestors, marked finding abundant resources or successful mating. Reinforces life-enhancing behaviors."
+      },
+      "keywords": [
+        "intense",
+        "peak",
+        "rapture",
+        "bliss",
+        "elation"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "intense",
+        "base_emotion": "joy",
+        "emotion_key": "joy",
+        "opposite_id": "grief",
+        "milder_id": "joy",
+        "dyad_ids": [
+          "love",
+          "optimism"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "ecstasy",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--joy",
+      "name": "Joy",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Joy signals that something life-enhancing is present. Plutchik saw joy as the emotion of incorporation - taking in what nourishes us. This is your birthright as a living being. What is bringing you joy?",
+        "Reversed": "Joy suppressed or denied. Guilt about feeling good. Waiting for permission to be happy. Joy is not earned - it is recognized.",
+        "Evolutionary Function": "Promotes bonding and approach behaviors. Signals safety and resource acquisition. The emotion of incorporation."
+      },
+      "keywords": [
+        "happiness",
+        "contentment",
+        "pleasure",
+        "delight"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "moderate",
+        "base_emotion": "joy",
+        "emotion_key": "joy",
+        "opposite_id": "sadness",
+        "intense_id": "ecstasy",
+        "milder_id": "serenity",
+        "dyad_ids": [
+          "love",
+          "optimism"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "joy",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--serenity",
+      "name": "Serenity",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Serenity is joy without urgency. A quiet okayness with what is. This gentle state is sustainable where ecstasy is not. Serenity comes when we stop fighting life.",
+        "Reversed": "Complacency mistaken for peace. Avoiding intensity. Serenity is not numbness - check if you're feeling or just coping.",
+        "Evolutionary Function": "Signals sustained safety. Allows rest and recovery. The parasympathetic state of contentment."
+      },
+      "keywords": [
+        "calm",
+        "peaceful",
+        "content",
+        "tranquil"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "mild",
+        "base_emotion": "joy",
+        "emotion_key": "joy",
+        "opposite_id": "pensiveness",
+        "intense_id": "joy",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "serenity",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--admiration",
+      "name": "Admiration",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Admiration is trust at its height. You see excellence, goodness, or beauty in someone or something. This emotion opens us to learning and growth. Who or what do you admire?",
+        "Reversed": "Idealization that ignores reality. Putting others on pedestals. Admiration can become projection - are you seeing them or your own unlived qualities?",
+        "Evolutionary Function": "Identifies models for learning. Promotes social hierarchy and skill acquisition through observation."
+      },
+      "keywords": [
+        "reverence",
+        "respect",
+        "awe",
+        "worship"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "intense",
+        "base_emotion": "trust",
+        "emotion_key": "trust",
+        "opposite_id": "loathing",
+        "milder_id": "trust",
+        "dyad_ids": [
+          "love",
+          "submission"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "admiration",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--trust",
+      "name": "Trust",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Trust is the foundation of all relationship. Plutchik linked it to cooperation and mutual aid - essential for social species. Trust says 'I can rely on you.' Where is trust present or needed?",
+        "Reversed": "Naive trust without discernment. Or trust withheld from fear of betrayal. Both extremes cost us. Trust is a skill, not just a feeling.",
+        "Evolutionary Function": "Enables cooperation and group living. The basis of social bonds and reciprocal altruism."
+      },
+      "keywords": [
+        "confidence",
+        "reliance",
+        "faith",
+        "belief"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "moderate",
+        "base_emotion": "trust",
+        "emotion_key": "trust",
+        "opposite_id": "disgust",
+        "intense_id": "admiration",
+        "milder_id": "acceptance",
+        "dyad_ids": [
+          "love",
+          "submission"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "trust",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--acceptance",
+      "name": "Acceptance",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Acceptance is trust without intensity. A willingness to receive what comes. This isn't resignation but a soft yes to reality. Acceptance creates space for change.",
+        "Reversed": "Passive acceptance of what should be challenged. Not all situations deserve acceptance. Discern between peace and permission.",
+        "Evolutionary Function": "Reduces conflict and conserves energy. Allows integration into groups and adaptation to circumstances."
+      },
+      "keywords": [
+        "openness",
+        "receiving",
+        "allowing",
+        "tolerance"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "mild",
+        "base_emotion": "trust",
+        "emotion_key": "trust",
+        "opposite_id": "boredom",
+        "intense_id": "trust",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "acceptance",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--terror",
+      "name": "Terror",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Terror is fear beyond coping. The threat feels total. This ancient response helped ancestors survive predators. If terror visits you, find safety first - then process. The body remembers.",
+        "Reversed": "Terror that has lost its object but not its grip. Trauma echoes. Chronic terror needs gentle, supported healing.",
+        "Evolutionary Function": "Triggers freeze or flight in life-threatening situations. Maximum alertness for survival."
+      },
+      "keywords": [
+        "panic",
+        "horror",
+        "dread",
+        "fright"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "intense",
+        "base_emotion": "fear",
+        "emotion_key": "fear",
+        "opposite_id": "rage",
+        "milder_id": "fear",
+        "dyad_ids": [
+          "awe",
+          "submission"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "terror",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--fear",
+      "name": "Fear",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Fear protects. It signals danger and prepares us to respond. Plutchik saw fear across all species - it's ancient wisdom. Fear asks: what needs protection? Honor it, then assess the actual threat.",
+        "Reversed": "Fear running the show. Threat detection without resolution. Fear is information, not a life sentence. What would courage look like here?",
+        "Evolutionary Function": "The primary protection emotion. Triggers fight-flight-freeze. Essential for survival."
+      },
+      "keywords": [
+        "afraid",
+        "scared",
+        "worried",
+        "threatened"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "moderate",
+        "base_emotion": "fear",
+        "emotion_key": "fear",
+        "opposite_id": "anger",
+        "intense_id": "terror",
+        "milder_id": "apprehension",
+        "dyad_ids": [
+          "awe",
+          "submission"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "fear",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--apprehension",
+      "name": "Apprehension",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Apprehension is fear's quiet voice. Something feels slightly off. This subtle signal is easy to override but worth heeding. Apprehension asks for attention, not alarm.",
+        "Reversed": "Chronic low-grade anxiety. Apprehension that never resolves. Sometimes we must act despite unease. Distinguish signal from noise.",
+        "Evolutionary Function": "Early warning system. Promotes caution and risk assessment before full threat activation."
+      },
+      "keywords": [
+        "uneasy",
+        "nervous",
+        "worried",
+        "concerned"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "mild",
+        "base_emotion": "fear",
+        "emotion_key": "fear",
+        "opposite_id": "annoyance",
+        "intense_id": "fear",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "apprehension",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--amazement",
+      "name": "Amazement",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Amazement stops time. Reality has exceeded your model of it. This is the emotion of encountering the truly new. Let amazement reorganize you.",
+        "Reversed": "Addicted to novelty. Ordinary life feels flat without amazement. The extraordinary is found within the ordinary, if you look.",
+        "Evolutionary Function": "Signals significant environmental change requiring attention and cognitive update."
+      },
+      "keywords": [
+        "astonished",
+        "stunned",
+        "awestruck",
+        "wonder"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "intense",
+        "base_emotion": "surprise",
+        "emotion_key": "surprise",
+        "opposite_id": "vigilance",
+        "milder_id": "surprise",
+        "dyad_ids": [
+          "awe",
+          "disapproval"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "amazement",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--surprise",
+      "name": "Surprise",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Surprise signals that something unexpected has occurred. It's neutral - the content determines if we shift to joy or fear. Surprise is the brain updating its predictions. What surprised you?",
+        "Reversed": "Nothing surprises anymore - either through rigidity or exhaustion. Life has lost its capacity to catch you off guard. Invite the unexpected.",
+        "Evolutionary Function": "Interrupts current processing for urgent reorientation. The reset button for attention."
+      },
+      "keywords": [
+        "startled",
+        "unexpected",
+        "caught off guard"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "moderate",
+        "base_emotion": "surprise",
+        "emotion_key": "surprise",
+        "opposite_id": "anticipation",
+        "intense_id": "amazement",
+        "milder_id": "distraction",
+        "dyad_ids": [
+          "awe",
+          "disapproval"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "surprise",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--distraction",
+      "name": "Distraction",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Distraction is surprise's whisper. Something catches your attention briefly. This can be noise or signal. Distraction may be pointing toward something worth noticing.",
+        "Reversed": "Chronic distraction without focus. Attention scattered. Not all distractions deserve following. What truly warrants your attention?",
+        "Evolutionary Function": "Low-level alert for peripheral changes. Balances focus with environmental monitoring."
+      },
+      "keywords": [
+        "diverted",
+        "sidetracked",
+        "unfocused"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "mild",
+        "base_emotion": "surprise",
+        "emotion_key": "surprise",
+        "opposite_id": "interest",
+        "intense_id": "surprise",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "distraction",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--grief",
+      "name": "Grief",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Grief is love with nowhere to go. It honors what mattered. Plutchik saw sadness as the call for comfort and reconnection. Grief needs witnessing, not fixing.",
+        "Reversed": "Grief stuck or avoided. Unmetabolized loss. Grief that doesn't move becomes depression. What loss needs mourning?",
+        "Evolutionary Function": "Signals significant loss. Elicits caregiving from others. Promotes social bonding through shared sorrow."
+      },
+      "keywords": [
+        "anguish",
+        "sorrow",
+        "heartbreak",
+        "mourning"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "intense",
+        "base_emotion": "sadness",
+        "emotion_key": "sadness",
+        "opposite_id": "ecstasy",
+        "milder_id": "sadness",
+        "dyad_ids": [
+          "remorse",
+          "disapproval"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "grief",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--sadness",
+      "name": "Sadness",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Sadness signals loss or absence. Something needed is missing. This emotion draws others toward us with compassion. Sadness is how we honor what matters. What do you miss?",
+        "Reversed": "Sadness denied or indulged. Neither helps. Sadness asks to be felt and then to move. Are you feeling it or fighting it?",
+        "Evolutionary Function": "The reintegration emotion. Signals need for comfort and triggers helping behavior in others."
+      },
+      "keywords": [
+        "unhappy",
+        "sorrowful",
+        "dejected",
+        "down"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "moderate",
+        "base_emotion": "sadness",
+        "emotion_key": "sadness",
+        "opposite_id": "joy",
+        "intense_id": "grief",
+        "milder_id": "pensiveness",
+        "dyad_ids": [
+          "remorse",
+          "disapproval"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "sadness",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--pensiveness",
+      "name": "Pensiveness",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Pensiveness is sadness's soft form. A wistful awareness of impermanence. This gentle melancholy can deepen appreciation for what is. There is beauty in pensiveness.",
+        "Reversed": "Wallowing in low-grade sadness. Romanticizing melancholy. Pensiveness is a visitor, not a residence. What would lift you slightly?",
+        "Evolutionary Function": "Promotes reflection and learning from loss. Conserves energy during low-resource periods."
+      },
+      "keywords": [
+        "wistful",
+        "melancholy",
+        "reflective",
+        "blue"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "joy-sadness",
+        "intensity": "mild",
+        "base_emotion": "sadness",
+        "emotion_key": "sadness",
+        "opposite_id": "serenity",
+        "intense_id": "sadness",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "pensiveness",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--loathing",
+      "name": "Loathing",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Loathing is total rejection. Something feels fundamentally wrong or contaminating. This intense disgust protects boundaries but can also poison the one who feels it.",
+        "Reversed": "Self-loathing turned inward. Loathing that has become identity. No one deserves to live in loathing - including yourself.",
+        "Evolutionary Function": "Maximum rejection response. Protects against contamination, poison, and moral violations."
+      },
+      "keywords": [
+        "abhorrence",
+        "revulsion",
+        "hatred",
+        "repugnance"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "intense",
+        "base_emotion": "disgust",
+        "emotion_key": "disgust",
+        "opposite_id": "admiration",
+        "milder_id": "disgust",
+        "dyad_ids": [
+          "contempt",
+          "remorse"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "loathing",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--disgust",
+      "name": "Disgust",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Disgust pushes away what is harmful or contaminating. Plutchik saw it as rejection - the opposite of incorporation. Disgust protects, but examine what you're rejecting and why.",
+        "Reversed": "Disgust turned rigid or arbitrary. Rejecting too much. Disgust can become prejudice if unexamined. Is this protecting you or isolating you?",
+        "Evolutionary Function": "The rejection emotion. Originally for bad food, extended to moral and social violations."
+      },
+      "keywords": [
+        "repulsed",
+        "revolted",
+        "offended",
+        "sickened"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "moderate",
+        "base_emotion": "disgust",
+        "emotion_key": "disgust",
+        "opposite_id": "trust",
+        "intense_id": "loathing",
+        "milder_id": "boredom",
+        "dyad_ids": [
+          "contempt",
+          "remorse"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "disgust",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--boredom",
+      "name": "Boredom",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Boredom is quiet rejection. Something fails to engage you. This can signal misalignment - you're in the wrong place. Or it can be an invitation to bring your own meaning.",
+        "Reversed": "Chronic boredom as a way of life. Everything irritates. This may signal deeper unmet needs beneath the surface irritation.",
+        "Evolutionary Function": "Signals low-value environment. Motivates seeking new opportunities and resources."
+      },
+      "keywords": [
+        "uninterested",
+        "indifferent",
+        "weary",
+        "apathetic"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "trust-disgust",
+        "intensity": "mild",
+        "base_emotion": "disgust",
+        "emotion_key": "disgust",
+        "opposite_id": "acceptance",
+        "intense_id": "disgust",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "boredom",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--rage",
+      "name": "Rage",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Rage is anger beyond containment. Something important has been violated. This raw power needs safe expression - rage turned inward or outward carelessly causes damage.",
+        "Reversed": "Rage that has become chronic or identity. Rage covering vulnerability. What wound lives beneath this rage?",
+        "Evolutionary Function": "Maximum mobilization for threat destruction. Signals serious boundary violation requiring immediate action."
+      },
+      "keywords": [
+        "fury",
+        "wrath",
+        "outrage",
+        "violent anger"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "intense",
+        "base_emotion": "anger",
+        "emotion_key": "anger",
+        "opposite_id": "terror",
+        "milder_id": "anger",
+        "dyad_ids": [
+          "contempt",
+          "aggressiveness"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "rage",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--anger",
+      "name": "Anger",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Anger signals that a boundary has been crossed or an injustice occurred. Plutchik linked it to destruction of obstacles. Anger is information about what matters. What boundary needs defending?",
+        "Reversed": "Anger suppressed or chronic. Neither serves. Anger needs expression and resolution. What request or boundary would address this?",
+        "Evolutionary Function": "The destruction emotion. Mobilizes energy to remove obstacles and defend resources."
+      },
+      "keywords": [
+        "mad",
+        "irritated",
+        "frustrated",
+        "hostile"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "moderate",
+        "base_emotion": "anger",
+        "emotion_key": "anger",
+        "opposite_id": "fear",
+        "intense_id": "rage",
+        "milder_id": "annoyance",
+        "dyad_ids": [
+          "contempt",
+          "aggressiveness"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "anger",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--annoyance",
+      "name": "Annoyance",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Annoyance is anger's whisper. Small frictions accumulate here. Pay attention before annoyance builds. What small adjustment would help?",
+        "Reversed": "Chronic annoyance as a way of life. Everything irritates. This may signal deeper unmet needs beneath the surface irritation.",
+        "Evolutionary Function": "Early-stage anger. Signals minor obstruction requiring attention before escalation."
+      },
+      "keywords": [
+        "irritated",
+        "bothered",
+        "peeved",
+        "vexed"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "fear-anger",
+        "intensity": "mild",
+        "base_emotion": "anger",
+        "emotion_key": "anger",
+        "opposite_id": "apprehension",
+        "intense_id": "anger",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "annoyance",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--vigilance",
+      "name": "Vigilance",
+      "category": "primary-intense",
+      "sections": {
+        "Interpretation": "Vigilance is anticipation at peak intensity. Every sense strains toward what's coming. Useful in genuine threat, exhausting as a lifestyle. What are you watching for?",
+        "Reversed": "Hypervigilance without rest. The sentinel who never sleeps. This intensity cannot sustain. What would let you rest your guard?",
+        "Evolutionary Function": "Maximum environmental scanning. Essential during danger or opportunity-rich periods."
+      },
+      "keywords": [
+        "watchful",
+        "alert",
+        "attentive",
+        "wary"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "intense",
+        "base_emotion": "anticipation",
+        "emotion_key": "anticipation",
+        "opposite_id": "amazement",
+        "milder_id": "anticipation",
+        "dyad_ids": [
+          "aggressiveness",
+          "optimism"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "vigilance",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--anticipation",
+      "name": "Anticipation",
+      "category": "primary-moderate",
+      "sections": {
+        "Interpretation": "Anticipation looks forward. Plutchik linked it to exploration and mapping what's ahead. This emotion prepares us for what's coming. What are you anticipating?",
+        "Reversed": "Living entirely in anticipation, never in presence. The future devours the now. Can you prepare while also being here?",
+        "Evolutionary Function": "The exploration emotion. Motivates planning, preparation, and forward thinking."
+      },
+      "keywords": [
+        "expectant",
+        "eager",
+        "ready",
+        "awaiting"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "moderate",
+        "base_emotion": "anticipation",
+        "emotion_key": "anticipation",
+        "opposite_id": "surprise",
+        "intense_id": "vigilance",
+        "milder_id": "interest",
+        "dyad_ids": [
+          "aggressiveness",
+          "optimism"
+        ],
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "anticipation",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "plutchik-wheel--interest",
+      "name": "Interest",
+      "category": "primary-mild",
+      "sections": {
+        "Interpretation": "Interest is anticipation's gentle form. Something draws your attention forward. Follow genuine interest - it's a compass toward meaning.",
+        "Reversed": "Nothing interests. Flat affect. Interest suppressed or exhausted. What once interested you? Can you rekindle it?",
+        "Evolutionary Function": "Low-energy exploration. Promotes learning and curiosity without high arousal cost."
+      },
+      "keywords": [
+        "curious",
+        "engaged",
+        "intrigued",
+        "attentive"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "metadata": {
+        "axis": "surprise-anticipation",
+        "intensity": "mild",
+        "base_emotion": "anticipation",
+        "emotion_key": "anticipation",
+        "opposite_id": "distraction",
+        "intense_id": "anticipation",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "interest",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    }
+  ],
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": [
+      {
+        "name": "PlayfulProcess",
+        "note": "Generated aggregate of the schools in this repo. Each item's attribution is carried by its source school."
+      }
+    ]
+  }
+}

@@ -134,7 +134,7 @@ const SLUG_MAP = {
 };
 
 const params = new URLSearchParams(location.search);
-const SRC = params.get('src') || '../schools/tree-of-schools/grammar.json';
+const SRC = params.get('src') || '../schools/schools-of-emotion/grammar.json';
 const EMBED = params.get('embed');
 if(EMBED) document.body.classList.add('embed');
 function postHeight(){ if(!EMBED) return; try{ parent.postMessage({type:'tarotEmbedHeight',h:Math.ceil(document.body.scrollHeight)},'*'); }catch(e){} }
