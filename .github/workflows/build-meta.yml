@@ -1,0 +1,54 @@
+name: Rebuild meta-grammar
+
+# Auto-rebuilds the aggregated meta-grammar whenever a deck changes and commits it back, so
+# recursive.eco (which reads from main) always sees a fresh schools/all-schools-many-lenses/grammar.json.
+#
+# THIS WORKFLOW MUST NOT DEPLOY PAGES. Since Jul 30 2026 there is ONE branch — main — and GitHub
+# Pages is configured in *deploy-from-branch* mode (`gh api repos/PlayfulProcess/recursive-tarot/pages`
+# → build_type: "legacy", source: {branch: main, path: "/"}). In that mode GitHub itself publishes
+# the branch contents on every push; `actions/deploy-pages` is not just redundant, it fails against a
+# legacy-configured site. `.nojekyll` at the repo root is what keeps that build from running Jekyll
+# over the site — do not delete it.
+#
+# History, so nobody re-adds the deploy job: main used to ALSO deploy Pages while the retired
+# claude/website-content-cards-plan-xwn8lj branch's copy of this file deployed too. Both wrote the
+# same `github-pages` environment, so whichever run finished last won the live site, and main's
+# staler viewers/ silently clobbered the live site after almost every push (diagnosed Jul 27 2026).
+# Only re-add `pages: write` / `deploy-pages` here if Pages is first switched to build_type
+# "workflow" — and then nothing else may deploy.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'schools/**'
+      - 'scripts/build_meta_grammar.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to commit the regenerated meta
+
+jobs:
+  rebuild-meta:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild meta-grammar
+        run: python scripts/build_meta_grammar.py
+
+      - name: Commit regenerated meta (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- schools/all-schools-many-lenses/grammar.json; then
+            git add schools/all-schools-many-lenses/grammar.json
+            git commit -m "chore: rebuild meta-grammar [skip ci]"
+            git push
+          else
+            echo "meta unchanged"
+          fi
