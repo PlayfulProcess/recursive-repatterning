@@ -226,7 +226,7 @@ window.expandCourseEmbeds = async function(root){
                   // the Divination Question essay — from the meta grammar (single source)
                   const essayEls=[...root.querySelectorAll('[data-embed="essay"]')];
                   if(essayEls.length){
-                    const mg=await get(T+'/all-schools-many-lenses/grammar.json');
+                    const mg=await get(T+'/across-the-schools/grammar.json');
                     const e=mg&&mg.items.find(i=>i.id==='essay-divination-question');
                     let html=''; if(e)for(const [k,v] of Object.entries(e.sections||{}))html+=`<h3>${esc(k)}</h3><p>${mdl(v)}</p>`;
                     essayEls.forEach(el=>el.innerHTML=html);

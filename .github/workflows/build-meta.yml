@@ -1,7 +1,7 @@
 name: Rebuild meta-grammar
 
 # Auto-rebuilds the aggregated meta-grammar whenever a deck changes and commits it back, so
-# recursive.eco (which reads from main) always sees a fresh schools/all-schools-many-lenses/grammar.json.
+# recursive.eco (which reads from main) always sees a fresh schools/across-the-schools/grammar.json.
 #
 # THIS WORKFLOW MUST NOT DEPLOY PAGES. Since Jul 30 2026 there is ONE branch — main — and GitHub
 # Pages is configured in *deploy-from-branch* mode (`gh api repos/PlayfulProcess/recursive-tarot/pages`
@@ -20,7 +20,7 @@ name: Rebuild meta-grammar
 # RE-ARMED. scripts/build_meta_grammar.py has been rewritten for this repo: it reads
 # schools/_collection.json, aggregates only non-composite items, and refuses to touch the
 # hand-authored schools/schools-of-emotion/grammar.json constellation (see NEVER_AGGREGATE).
-# It regenerates ONLY schools/all-schools-many-lenses/grammar.json, which is marked
+# It regenerates ONLY schools/across-the-schools/grammar.json, which is marked
 # _generated: true and must never be hand-edited.
 on:
   push:
@@ -50,8 +50,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- schools/all-schools-many-lenses/grammar.json; then
-            git add schools/all-schools-many-lenses/grammar.json
+          if ! git diff --quiet -- schools/across-the-schools/grammar.json; then
+            git add schools/across-the-schools/grammar.json
             git commit -m "chore: rebuild meta-grammar [skip ci]"
             git push
           else

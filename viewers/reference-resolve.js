@@ -1,7 +1,7 @@
 /**
  * Shared repo-local reference resolver.
  *
- * The meta grammar (`schools/all-schools-many-lenses/grammar.json`, "The Tarot — All Decks, Many
+ * The meta grammar (`schools/across-the-schools/grammar.json`, "Across the Schools", the pooled
  * Lenses") wires every card item with `metadata.source_deck` (the source deck's repo slug) +
  * `metadata.source_item_id` (the card's id within that deck's own grammar.json) — see
  * `scripts/build_meta_grammar.py` and the cross-link pattern documented in CLAUDE.md. That's

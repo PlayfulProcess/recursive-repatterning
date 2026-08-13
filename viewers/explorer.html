@@ -762,7 +762,7 @@ async function boot(){
       });
       for (const recs of await Promise.all(loads)) records.push(...recs);
     } else {
-      const src = srcParam || PFX+'schools/all-schools-many-lenses/grammar.json';
+      const src = srcParam || PFX+'schools/across-the-schools/grammar.json';
       const g = await (await fetch(src)).json();
       stash(g, null);
       // single-grammar path (?src=) needs the deck-level year too, so century still
