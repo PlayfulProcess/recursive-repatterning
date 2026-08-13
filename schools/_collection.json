@@ -20,7 +20,7 @@
       "id": "basic-emotion",
       "name": "Basic-Emotion Schools",
       "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
-      "school_slugs": []
+      "school_slugs": ["plutchik-wheel"]
     },
     {
       "id": "needs-based",

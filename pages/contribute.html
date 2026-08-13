@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="../theme.css?v=3">
+<link rel="stylesheet" href="../theme.css?v=6">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Contribute · Recursive Tarot</title>
-<meta name="description" content="The contributor path: how to add to the open library — correct a card, add a public-domain deck, or build your own grammar with Claude Code and the recursive.eco MCP.">
-<meta property="og:title" content="Contribute — the Recursive Tarot commons">
-<meta property="og:description" content="Every deck is public-domain JSON anyone can correct, translate, or extend. Climb in by the gentlest route.">
+<title>Contribute · Recursive Repatterning</title>
+<meta name="description" content="The contributor path: how to add to the open library — correct an item, add a school of emotion, or build your own grammar with Claude Code and the recursive.eco MCP.">
+<meta property="og:title" content="Contribute — the Recursive Repatterning commons">
+<meta property="og:description" content="Every school is public-domain or CC-BY-SA JSON anyone can correct, translate, or extend. Climb in by the gentlest route.">
 <link rel="icon" type="image/svg+xml" href="../public/favicon.svg?v=2">
 <link rel="stylesheet" href="../style.css?v=5">
 <style>
   main.wrap{max-width:1120px}
   .hero{text-align:center;padding:28px 18px 4px;max-width:720px;margin:0 auto}
   .hero h1{font-family:var(--serif-display);font-weight:600;font-size:clamp(32px,6vw,52px);line-height:1.05;margin:0;letter-spacing:.3px}
-  .hero h1 .gold{color:#9a7322}
+  .hero h1 .gold{color:#0f766e}
   .hero .tag{font-family:var(--serif-body);font-style:italic;font-size:clamp(15px,2.5vw,19px);
     line-height:1.5;color:var(--ink-soft);margin:14px auto 0;max-width:46ch}
 
@@ -24,13 +24,13 @@
   .readcourse:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 20px 40px -28px rgba(60,45,20,.5)}
   .readcourse .rc-img{width:140px;flex-shrink:0;background:var(--thumb-bg) center/contain no-repeat;border-right:1px solid var(--line)}
   .readcourse .rc-b{padding:22px 26px}
-  .readcourse .rc-k{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8a6414;margin-bottom:7px}
+  .readcourse .rc-k{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#0f766e;margin-bottom:7px}
   .readcourse h2{font-family:var(--serif-display);font-weight:600;font-size:25px;margin:0 0 6px;color:var(--ink)}
   .readcourse p{font-family:var(--serif-body);font-size:15px;line-height:1.55;color:var(--ink-soft);margin:0}
 
   section.band{margin:50px auto 0;max-width:1120px}
   section.band h2{font-family:var(--serif-display);font-weight:600;font-size:26px;color:var(--ink);margin:0 0 .25em;text-align:center}
-  section.band .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8a6414;text-align:center;margin:0 0 22px}
+  section.band .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#0f766e;text-align:center;margin:0 0 22px}
 
   .viewgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
   .vcard{display:block;background:var(--surface);border:1px solid var(--line-soft);border-radius:10px;overflow:hidden;
@@ -38,7 +38,7 @@
   .vcard:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 16px 32px -24px rgba(60,45,20,.5)}
   .vcard .vthumb{aspect-ratio:16/10;background:var(--thumb-bg) center/contain no-repeat;border-bottom:1px solid var(--line)}
   .vcard .vb{padding:14px 16px 16px}
-  .vcard .vk{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8a6414;margin:0 0 5px}
+  .vcard .vk{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#0f766e;margin:0 0 5px}
   .vcard .vt{font-family:var(--serif-display);font-weight:600;font-size:19px;color:var(--ink);margin:0 0 4px}
   .vcard .vd{font-family:var(--serif-body);font-size:14px;line-height:1.5;color:var(--mut);margin:0}
 
@@ -47,7 +47,7 @@
   .lcard{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line-soft);border-radius:10px;overflow:hidden;
     text-decoration:none;color:var(--ink);transition:transform .15s,border-color .15s,box-shadow .15s}
   .lcard:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 16px 32px -24px rgba(60,45,20,.5)}
-  .lcard.feat{border:2px solid #b8902f}
+  .lcard.feat{border:2px solid #2f9c8f}
   .lthumb{aspect-ratio:16/10;border-bottom:1px solid var(--line);position:relative}
   .lthumb.shot{background:#f4f1ea center/cover no-repeat;background-position:top center}
   .lthumb.shot .shot-tag{position:absolute;left:7px;bottom:7px;font-family:var(--sans);font-size:9px;letter-spacing:.04em;
@@ -57,16 +57,16 @@
   .lbar b{width:6px;height:6px;border-radius:50%;background:#d3ccba;display:inline-block}
   .lbar span{margin-left:7px;font-family:var(--sans);font-size:9.5px;color:var(--mut);letter-spacing:.02em}
   .ltile-mid{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:6px 12px;
-    font-family:var(--serif-display);font-weight:600;font-size:15px;color:#8a6414;line-height:1.25}
+    font-family:var(--serif-display);font-weight:600;font-size:15px;color:#0f766e;line-height:1.25}
   .lbody{padding:12px 15px 14px;display:flex;flex-direction:column;gap:5px;flex:1}
   .lbadge{align-self:flex-start;font-family:var(--sans);font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;
-    padding:2px 9px;border-radius:20px;background:rgba(154,115,34,.1);color:#8a6414}
+    padding:2px 9px;border-radius:20px;background:rgba(154,115,34,.1);color:#0f766e}
   .lbadge.easy{background:rgba(70,120,55,.13);color:#3f6d27}
-  .lbadge.feat{background:#b8902f;color:#fff}
+  .lbadge.feat{background:#2f9c8f;color:#fff}
   .lcard .lnum{font-family:var(--sans);font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--mut)}
   .lcard .lt{font-family:var(--serif-display);font-weight:600;font-size:17px;color:var(--ink);margin:0}
   .lcard .ld{font-family:var(--serif-body);font-size:13.5px;line-height:1.5;color:var(--mut);margin:0}
-  .llink{margin-top:auto;padding-top:7px;font-family:var(--sans);font-size:12px;font-weight:600;color:#8a6414;display:flex;align-items:center;gap:5px}
+  .llink{margin-top:auto;padding-top:7px;font-family:var(--sans);font-size:12px;font-weight:600;color:#0f766e;display:flex;align-items:center;gap:5px}
 
   /* "this guide is itself a grammar" callout */
   .grammarself{margin:46px auto 0;max-width:840px;background:var(--surface);border:1px solid var(--line-soft);border-radius:14px;padding:26px 30px;text-align:center}
@@ -74,7 +74,7 @@
   .grammarself p{font-family:var(--serif-body);font-size:15px;line-height:1.55;color:var(--ink-soft);margin:0 auto;max-width:56ch}
   .gs-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}
   .gs-links a{font-family:var(--sans);font-weight:600;font-size:13.5px;text-decoration:none;padding:10px 18px;border-radius:8px;border:1px solid var(--line-soft);color:var(--ink-soft);transition:border-color .15s,color .15s,background .15s}
-  .gs-links a:hover{border-color:#9a7322;color:#9a7322;background:rgba(154,115,34,.06)}
+  .gs-links a:hover{border-color:#0f766e;color:#0f766e;background:rgba(154,115,34,.06)}
 
   /* recursive.eco tree callout (reused) */
   .ecotree{margin:52px auto 0;max-width:760px;background:var(--surface);border:1px solid var(--line-soft);border-radius:14px;padding:30px 34px;text-align:center}
@@ -82,52 +82,52 @@
   .ecotree p{font-family:var(--serif-body);font-size:15.5px;line-height:1.6;color:var(--ink-soft);margin:0 auto .9em;max-width:60ch}
   .ecotree .eco-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px}
   .ecotree .eco-cta a{font-family:var(--sans);font-weight:600;font-size:14px;text-decoration:none;padding:11px 22px;border-radius:8px;transition:background .15s,border-color .15s,color .15s}
-  .ecotree .eco-cta a.solid{background:var(--gold);color:#fff}.ecotree .eco-cta a.solid:hover{background:#7c5b18}
-  .ecotree .eco-cta a.line{color:var(--ink-soft);border:1px solid var(--line-soft)}.ecotree .eco-cta a.line:hover{border-color:#9a7322;color:#9a7322}
+  .ecotree .eco-cta a.solid{background:var(--gold);color:#fff}.ecotree .eco-cta a.solid:hover{background:#0b5e57}
+  .ecotree .eco-cta a.line{color:var(--ink-soft);border:1px solid var(--line-soft)}.ecotree .eco-cta a.line:hover{border-color:#0f766e;color:#0f766e}
 
   /* ── Wish List (folded in from the old page; scoped under .wishlist so its bands don't clash) ── */
   .wishlist{margin:64px auto 0;max-width:1080px}
   .wishlist .whead{text-align:center;max-width:680px;margin:0 auto}
   .wishlist .whead h2{font-family:var(--serif-display);font-weight:600;font-size:clamp(26px,4.5vw,38px);line-height:1.05;margin:0;color:var(--ink)}
-  .wishlist .whead h2 .gold{color:#9a7322}
+  .wishlist .whead h2 .gold{color:#0f766e}
   .wishlist .whead .tag{font-family:var(--serif-body);font-style:italic;font-size:16px;line-height:1.5;color:var(--ink-soft);margin:12px auto 0;max-width:52ch}
   .wishlist .legend{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin:16px 0 0;font-family:var(--sans);font-size:12px;color:var(--mut)}
   .wishlist .legend span{display:inline-flex;align-items:center;gap:6px}
   .wishlist .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
-  .wishlist .dot.now{background:#9a7322}.wishlist .dot.todo{background:#c3b9a3}.wishlist .dot.done{background:#3f7a5c}
+  .wishlist .dot.now{background:#0f766e}.wishlist .dot.todo{background:#c3b9a3}.wishlist .dot.done{background:#3f7a5c}
   .wishlist .band{margin:38px auto 0}
   .wishlist .band > h2{font-family:var(--serif-display);font-weight:600;font-size:23px;color:var(--ink);margin:0 0 .15em;display:flex;align-items:center;gap:11px;text-align:left}
-  .wishlist .band > .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#8a6414;margin:0 0 20px;text-align:left}
-  .wishlist .feature{display:grid;grid-template-columns:200px 1fr;gap:0;background:var(--surface);border:2px solid #b8902f;border-radius:14px;overflow:hidden;margin-bottom:18px}
+  .wishlist .band > .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#0f766e;margin:0 0 20px;text-align:left}
+  .wishlist .feature{display:grid;grid-template-columns:200px 1fr;gap:0;background:var(--surface);border:2px solid #2f9c8f;border-radius:14px;overflow:hidden;margin-bottom:18px}
   .wishlist .feature .f-img{background:var(--thumb-bg) center/contain no-repeat;border-right:1px solid var(--line);min-height:230px}
   .wishlist .feature .f-b{padding:24px 28px}
-  .wishlist .feature .f-k{font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#8a6414;margin:0 0 8px;display:inline-flex;align-items:center;gap:7px}
+  .wishlist .feature .f-k{font-family:var(--sans);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:#0f766e;margin:0 0 8px;display:inline-flex;align-items:center;gap:7px}
   .wishlist .feature h3{font-family:var(--serif-display);font-weight:600;font-size:23px;color:var(--ink);margin:0 0 10px;line-height:1.12}
   .wishlist .feature p{font-family:var(--serif-body);font-size:15px;line-height:1.62;color:var(--ink-soft);margin:0 0 11px}
   .wishlist .feature p strong{color:var(--ink)}
-  .wishlist .feature code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:var(--chip,#f1ece1);padding:1px 6px;border-radius:4px;color:#7c5b18}
+  .wishlist .feature code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.85em;background:var(--chip,#f1ece1);padding:1px 6px;border-radius:4px;color:#0b5e57}
   .wishlist .feature .f-how{background:var(--panel2,#faf8f3);border:1px solid var(--line);border-radius:10px;padding:13px 16px;margin:14px 0 4px}
   .wishlist .feature .f-how h4{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:0 0 7px}
   .wishlist .feature .f-how ol{margin:0;padding-left:1.2em;font-family:var(--serif-body);font-size:14px;line-height:1.55;color:var(--ink-soft)}
   .wishlist .feature .f-how li{margin:.25em 0}
   .wishlist .feature .f-links{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}
   .wishlist .feature .f-links a{font-family:var(--sans);font-weight:600;font-size:13px;text-decoration:none;padding:9px 15px;border-radius:8px;border:1px solid var(--line-soft);color:var(--ink-soft);transition:border-color .15s,color .15s,background .15s}
-  .wishlist .feature .f-links a:hover{border-color:#9a7322;color:#9a7322;background:rgba(154,115,34,.06)}
+  .wishlist .feature .f-links a:hover{border-color:#0f766e;color:#0f766e;background:rgba(154,115,34,.06)}
   .wishlist .feature .f-links a.solid{background:var(--gold);color:#fff;border-color:var(--gold)}
-  .wishlist .wish{margin:14px 0 2px;border-left:3px solid #9a7322;background:rgba(154,115,34,.06);border-radius:0 9px 9px 0;padding:12px 15px}
-  .wishlist .wish .w-k{font-family:var(--sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#8a6414;margin:0 0 5px}
+  .wishlist .wish{margin:14px 0 2px;border-left:3px solid #0f766e;background:rgba(154,115,34,.06);border-radius:0 9px 9px 0;padding:12px 15px}
+  .wishlist .wish .w-k{font-family:var(--sans);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#0f766e;margin:0 0 5px}
   .wishlist .wish p{font-size:14.5px;margin:0;color:var(--ink-soft)}
   .wishlist .items{display:grid;grid-template-columns:repeat(auto-fill,minmax(252px,1fr));gap:14px}
   .wishlist .item{background:var(--surface);border:1px solid var(--line-soft);border-radius:11px;padding:17px 19px;display:flex;flex-direction:column;gap:7px}
   .wishlist .item .i-status{align-self:flex-start;font-family:var(--sans);font-size:9.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 9px;border-radius:20px}
-  .wishlist .i-status.now{background:rgba(154,115,34,.12);color:#8a6414}
+  .wishlist .i-status.now{background:rgba(154,115,34,.12);color:#0f766e}
   .wishlist .i-status.todo{background:rgba(107,100,87,.12);color:#6b6457}
   .wishlist .i-status.done{background:rgba(63,122,93,.14);color:#3f6d27}
   .wishlist .item h3{font-family:var(--serif-display);font-weight:600;font-size:18px;color:var(--ink);margin:2px 0 0;line-height:1.2}
   .wishlist .item p{font-family:var(--serif-body);font-size:14px;line-height:1.55;color:var(--mut);margin:0}
-  .wishlist .item a.i-link{margin-top:auto;font-family:var(--sans);font-size:12px;font-weight:600;color:#8a6414;text-decoration:none}
+  .wishlist .item a.i-link{margin-top:auto;font-family:var(--sans);font-size:12px;font-weight:600;color:#0f766e;text-decoration:none}
   .wishlist .note{margin:34px auto 0;max-width:680px;text-align:center;font-family:var(--serif-body);font-size:14px;line-height:1.6;color:var(--mut)}
-  .wishlist .note a{color:#8a6414}
+  .wishlist .note a{color:#0f766e}
   @media (max-width:620px){ .wishlist .feature{grid-template-columns:1fr} .wishlist .feature .f-img{min-height:150px;border-right:none;border-bottom:1px solid var(--line)} }
   /* Four-paths table (replaces the ladder) */
   .pathfig{margin:0 0 18px;max-width:560px}
@@ -145,31 +145,31 @@
   .paths .pdo-img{width:100%;max-width:300px;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 20px -14px rgba(60,45,20,.5);display:block;margin:0 0 11px}
   .paths .pdo strong{color:var(--ink)}
   .paths .pcta{display:inline-flex;align-items:center;white-space:nowrap;font-family:var(--sans);font-weight:600;font-size:13px;text-decoration:none;padding:8px 14px;border-radius:8px;border:1px solid var(--line-soft);color:var(--ink-soft);transition:border-color .15s,color .15s,background .15s}
-  .paths .pcta:hover{border-color:#9a7322;color:#9a7322;background:rgba(154,115,34,.06)}
+  .paths .pcta:hover{border-color:#0f766e;color:#0f766e;background:rgba(154,115,34,.06)}
   .paths .pcta.solid{background:var(--gold);color:#fff;border-color:var(--gold)}
-  .paths .pcta.solid:hover{background:#7c5b18;color:#fff}
+  .paths .pcta.solid:hover{background:#0b5e57;color:#fff}
   .pathnote{margin:22px auto 0;max-width:72ch;text-align:center;font-family:var(--serif-body);font-size:14.5px;line-height:1.62;color:var(--ink-soft)}
   .pathnote strong{color:var(--ink)}
   @media (max-width:680px){ table.paths,table.paths thead,table.paths tbody,table.paths tr,table.paths th,table.paths td{display:block} table.paths thead{display:none} table.paths td{border-top:none;padding:6px 16px} .paths .pcell{white-space:normal} table.paths tbody tr{border-top:1px solid var(--line);padding:12px 0} .paths .pcta{margin-top:6px} }
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=47"></script>
+<script src="../site-header.js?v=48"></script>
 <site-header active="course"></site-header>
 
 <main class="wrap">
 
   <section class="hero">
     <h1>The <span class="gold">Contributor's</span> path</h1>
-    <p class="tag">Every deck here is a public-domain <a href="https://recursive.eco" target="_blank" rel="noopener" style="color:#8a6414">grammar</a> anyone can correct, translate, or extend. Climb in by the gentlest route that suits you.</p>
+    <p class="tag">Every school here is a public-domain or CC-BY-SA <a href="https://recursive.eco" target="_blank" rel="noopener" style="color:#0f766e">grammar</a> anyone can correct, translate, or extend. Climb in by the gentlest route that suits you.</p>
   </section>
 
   <a class="readcourse" href="course-viewer.html?course=how-to-contribute">
-    <div class="rc-img" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-schools/Pents08.jpg')"></div>
+    <div class="rc-img" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/golden-dawn-book-t-tarot/Pents08.jpg')"></div>
     <div class="rc-b">
       <div class="rc-k">Read · the contributor's guide</div>
-      <h2>Contribute to existing decks — or create your own</h2>
-      <p>Fix a card, add a deck or a spread, write a course, or improve the site itself — by whatever route suits you, from a one-click edit in the app to full code. The deep guide walks every path.</p>
+      <h2>Contribute to existing schools — or create your own</h2>
+      <p>Fix an item, add a school or a reading layout, write a course, or improve the site itself — by whatever route suits you, from a one-click edit in the app to full code. The deep guide walks every path.</p>
     </div>
   </a>
 
@@ -182,13 +182,13 @@
       <tbody>
         <tr>
           <td class="pcell"><span class="pnum">1</span><span class="pname">In the app</span><div class="pmeta">recursive.eco · no code</div></td>
-          <td><img class="pdo-img" src="courses/images/shot-app-edit.png" alt="A card open in the browser with an 'Open in recursive.eco' action — propose a change without leaving the page."><div class="pdo">Click through any card and propose a change — <strong>even without AI</strong>. The copy icon forks it to the Create page to edit inline; or just ask the <strong>Grammar Assistant</strong> to make the edit for you.</div></td>
-          <td><a class="pcta solid" href="https://flow.recursive.eco/g/e8c4ca59-7841-4b5d-ad56-584ff52c859d?view=reading" target="_blank" rel="noopener">Edit a card now &rarr;</a></td>
+          <td><img class="pdo-img" src="courses/images/shot-app-edit.png" alt="An item open in the browser with an 'Open in recursive.eco' action — propose a change without leaving the page."><div class="pdo">Click through any item and propose a change — <strong>even without AI</strong>. The copy icon forks it to the Create page to edit inline; or just ask the <strong>Grammar Assistant</strong> to make the edit for you.</div></td>
+          <td><a class="pcta solid" href="https://flow.recursive.eco/create" target="_blank" rel="noopener">Create or edit now &rarr;</a></td>
         </tr>
         <tr>
           <td class="pcell"><span class="pnum">2</span><span class="pname">On GitHub</span><div class="pmeta">web &middot; a browser</div></td>
-          <td><div class="pdo">Edit the deck's JSON in GitHub's web editor and open a <strong>pull request</strong> — no other tools needed.</div></td>
-          <td><a class="pcta" href="https://github.com/PlayfulProcess/recursive-tarot" target="_blank" rel="noopener">Open the repo &rarr;</a></td>
+          <td><div class="pdo">Edit the school's JSON in GitHub's web editor and open a <strong>pull request</strong> — no other tools needed.</div></td>
+          <td><a class="pcta" href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">Open the repo &rarr;</a></td>
         </tr>
         <tr>
           <td class="pcell"><span class="pnum">3</span><span class="pname">In Claude.ai</span><div class="pmeta">chat &middot; MCP recommended</div></td>
@@ -212,17 +212,17 @@
     <div class="viewgrid">
       <a class="vcard" href="../viewers/cards.html">
         <div class="vthumb" style="background-image:url('courses/images/shot-cards.png');background-size:cover;background-position:top center"></div>
-        <div class="vb"><div class="vk">Browse · every card</div><div class="vt">The card library</div><div class="vd">Two dozen public-domain decks, card by card — the Scene, Symbol and Research notes you'd correct or translate.</div></div>
+        <div class="vb"><div class="vk">Browse · every item</div><div class="vt">The item library</div><div class="vd">Every school, item by item — the Definition, evidence tier and Research notes you'd correct or translate.</div></div>
       </a>
       <a class="vcard" href="../viewers/explorer.html">
         <div class="vthumb" style="background-image:url('courses/images/shot-explorer.png');background-size:cover;background-position:top center"></div>
-        <div class="vb"><div class="vk">Pivot · every angle</div><div class="vt">The Emergence Explorer</div><div class="vd">Drag fields to regroup every card — the patterns a well-tended grammar makes possible.</div></div>
+        <div class="vb"><div class="vk">Pivot · every angle</div><div class="vt">The Emergence Explorer</div><div class="vd">Drag fields to regroup every item — the patterns a well-tended grammar makes possible.</div></div>
       </a>
       <a class="vcard" href="../viewers/caster-studio.html">
         <div class="vthumb" style="background-image:url('courses/images/shot-spread-studio.png');background-size:cover;background-position:top center"></div>
-        <div class="vb"><div class="vk">Build · cast · send</div><div class="vt">The Spread Studio</div><div class="vd">Build a spread, cast it, and send the reading to recursive.eco for an AI interpretation.</div></div>
+        <div class="vb"><div class="vk">Build · cast · send</div><div class="vt">The Casting Studio</div><div class="vd">Build a reading layout, cast it, and send the reading to recursive.eco for an AI interpretation.</div></div>
       </a>
-      <a class="vcard" href="course-viewer.html?course=history-of-tarot">
+      <a class="vcard" href="courses.html">
         <div class="vthumb" style="background-image:url('courses/images/shot-course.png');background-size:cover;background-position:top center"></div>
         <div class="vb"><div class="vk">Read · a course</div><div class="vt">The courses</div><div class="vd">Every course is Markdown — and now a grammar too. Write a new one, or fix a single line.</div></div>
       </a>
@@ -234,7 +234,7 @@
     <p>This library is built in the open, and we're actively lowering the barrier to helping: developing the
     recursive.eco <strong>MCP</strong> and new <strong>paths of integration</strong> between the main app and
     the open-source projects, so you can contribute without touching code. Whatever route you take, the floor
-    stays the same — every image public domain with attribution, every meaning kept in its source tradition.</p>
+    stays the same — every citation attributed, every school kept in its own voice, every evidence tier honest.</p>
     <div class="eco-cta">
       <a class="solid" href="https://flow.recursive.eco/create" target="_blank" rel="noopener">Create your own ↗</a>
       <a class="line" href="course-viewer.html?course=how-to-contribute">The full guide →</a>
@@ -259,30 +259,31 @@
       <p class="sub">What we're actively building</p>
 
       <article class="feature">
-        <div class="f-img" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-21-world.jpg')"></div>
+        <div class="f-img" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-21-world.jpg')"></div>
         <div class="f-b">
-          <div class="f-k"><i class="dot now"></i> Flagship · a course that is a grammar</div>
-          <h3>A history course, rendered straight from a grammar</h3>
-          <p><strong>"A History of Tarot"</strong> began as a single writing file. We taught the library
-          to read it as a <strong>grammar</strong> — the same open format as every deck — so the course can
-          be edited, forked, and previewed like anything else in the collection.</p>
+          <div class="f-k"><i class="dot now"></i> Flagship · the first schools</div>
+          <h3>Populating <code>schools/</code> with the first real grammars</h3>
+          <p>This site is a fresh branch of the recursive.eco chassis — the mechanism (viewers, chrome, sync)
+          is ported and working, but <strong>no school of emotion has been written yet</strong>. Plutchik,
+          NVC, DBT, attachment theory and the constructionist substrate all need their own
+          <code>schools/&lt;slug&gt;/grammar.json</code>, each with an honest <code>evidence_tier</code> and a
+          shared <code>emotion_key</code> so schools can cross-link.</p>
           <div class="f-how">
             <h4>How it's made</h4>
             <ol>
-              <li>The course is written once as Markdown (<code>history-of-tarot.mdx</code>).</li>
-              <li>A small converter turns it into a normal grammar — each section becomes a lesson; the card galleries become <strong>cross-grammar references</strong> to the real decks.</li>
-              <li><code>grammar-course.html</code> renders <em>any</em> grammar as a readable course, and a shared expander fills the live galleries — so the grammar version reads identically to the original.</li>
+              <li>Research each school's own literature, with confidence markers, before writing a line.</li>
+              <li>Write the grammar in that school's own voice — never our editorial gloss on it.</li>
+              <li>Run <code>scripts/check_all.py</code>, then <code>scripts/build_meta_grammar.py</code> to fold it into the constellation.</li>
             </ol>
           </div>
           <div class="wish">
             <div class="w-k">The wish behind it</div>
-            <p>recursive.eco's <strong>Library Assistant</strong> can already <em>open</em> a course — but it
-            can't see what's inside. A grammar it <em>can</em> read. Because the course is now a grammar,
-            the assistant could answer questions about the actual content, not just point at the page.</p>
+            <p>Once a handful of schools exist, the galleries, the genealogy view, and the courses can all
+            point at real content instead of the tarot chassis's placeholder art and copy.</p>
           </div>
           <div class="f-links">
-            <a class="solid" href="../viewers/grammar-course.html?src=../schools/history-of-tarot-course/grammar.json">Read it as a course →</a>
-            <a href="course-viewer.html?course=history-of-tarot">Compare with the written version →</a>
+            <a class="solid" href="https://flow.recursive.eco/create" target="_blank" rel="noopener">Start a school →</a>
+            <a href="course-viewer.html?course=how-to-contribute">Read the contributor's guide →</a>
           </div>
         </div>
       </article>
@@ -290,20 +291,17 @@
       <div class="items">
         <div class="item">
           <span class="i-status now">On the workbench</span>
-          <h3>Sync that never loses work</h3>
-          <p>Making the recursive.eco ↔ GitHub channel-sync non-destructive: keep every repo-only field, hold a stable key order, so a sync proposal is small and reviewable instead of a 26,000-line wall.</p>
+          <h3>Migrating the courses</h3>
+          <p>The courses menu and gallery still carry the tarot chassis's course catalog
+          (<code>course/_courses.json</code>). It needs a real "Start here" set for this project — likely
+          something close to the creed on the <a href="about.html#manifesto">About page</a> — before it's
+          honest to link to from the header.</p>
         </div>
         <div class="item">
           <span class="i-status now">On the workbench</span>
-          <h3>Every grammar, every view</h3>
-          <p>The <strong>Views</strong> menu should flip any grammar — deck, course, or guide — through Cards, Course, Explorer, Tree and Timeline without a broken view. Course view was the last gap; it now renders at parity.</p>
-          <a class="i-link" href="../viewers/grammar-course.html?src=../schools/how-to-contribute/grammar.json&amp;group=what">See the guide as a course →</a>
-        </div>
-        <div class="item">
-          <span class="i-status now">On the workbench</span>
-          <h3>A new logo — emergence, not just iteration</h3>
-          <p>The spiral captures <em>iteration</em>; we want a mark that also captures <strong>emergence</strong> and a more <strong>tree-like</strong> view — think a heart that falls, roots, and grows a whole forest. Drafts in progress.</p>
-          <a class="i-link" href="logo-studies.html">See the logo studies →</a>
+          <h3>A visual language for the schools</h3>
+          <p>The hero, the three doors, and the gallery still show placeholder tarot-card art — this
+          project's own plates, one per school, haven't been made yet.</p>
         </div>
       </div>
     </section>
@@ -314,50 +312,49 @@
       <div class="items">
         <div class="item">
           <span class="i-status todo">Before launch</span>
-          <h3>Fix sync before resolving drifts</h3>
-          <p>Don't merge the "resolve all drifts" pull requests until the roundtrip preserves repo-only fields — otherwise it strips licence blocks and enrichment from decks that look unchanged.</p>
+          <h3>Genealogy view, redesigned for schools</h3>
+          <p>The <a href="../genealogy.html">Genealogy Graph</a>'s lineage taxonomy (trump order, the 1781
+          "occult turn") is inherited straight from tarot and doesn't describe how schools of emotion relate
+          to one another. It needs its own tiering — likely the branches already sketched in
+          <code>schools/_collection.json</code> (constructionist substrate, basic-emotion, needs-based,
+          attachment &amp; couples, skills-based, parts &amp; depth, historical &amp; scientific).</p>
         </div>
         <div class="item">
           <span class="i-status todo">Before launch</span>
-          <h3>Let the assistant read course grammars</h3>
-          <p>Wire recursive.eco's Library Assistant to read a course's grammar content, so it can actually discuss the history, not just open the course page.</p>
-        </div>
-        <div class="item">
-          <span class="i-status todo">Before launch</span>
-          <h3>Publish the course grammar</h3>
-          <p>Offer "A History of Tarot" as a public, community-editable grammar on recursive.eco — the same path every deck takes.</p>
-        </div>
-        <div class="item">
-          <span class="i-status todo">Before launch</span>
-          <h3>One last legibility pass</h3>
-          <p>Walk every page and viewer in light only, confirm nothing is light-on-light, and finish the museum-restyle tokens on the remaining viewers.</p>
+          <h3>Publish the first channel row</h3>
+          <p>Import each school once it's written, set it public on recursive.eco, and add it to the
+          <code>recursive-repatterning</code> channel — a school without a public row renders an empty page
+          for logged-out visitors.</p>
         </div>
         <div class="item">
           <span class="i-status todo">Before launch</span>
           <h3>Provenance you can trust</h3>
-          <p>Confirm every card image is public-domain with attribution, and every interpretive claim stays inside its source tradition — the floor the whole library stands on.</p>
+          <p>Confirm every citation stays inside its source tradition, every evidence tier is honest, and
+          copyrighted sources (Rosenberg, Johnson, Brown, Linehan) are paraphrased, never quoted — the floor
+          the whole library stands on.</p>
         </div>
         <div class="item">
           <span class="i-status done">Done</span>
-          <h3>Course-as-a-grammar renders at parity</h3>
-          <p>The grammar version of the history course now shows the deck chapters, suit and trump galleries, maker bios and live maps — identical to the written course.</p>
-          <a class="i-link" href="../viewers/grammar-course.html?src=../schools/history-of-tarot-course/grammar.json">Open it →</a>
+          <h3>Branding pass — tarot chassis to Recursive Repatterning</h3>
+          <p>Accent colour swapped to teal/emerald, the header, footer, home page and about/manifesto
+          rewritten in the project's own voice, and the dead tarot-only pages (games, historian,
+          logo studies, print viewer) pruned from navigation.</p>
         </div>
       </div>
     </section>
 
     <p class="note">This list lives in the open repo like everything else — see something missing?
-    <a href="https://github.com/PlayfulProcess/recursive-tarot" target="_blank" rel="noopener">Open an issue or a pull request ↗</a>.</p>
+    <a href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">Open an issue or a pull request ↗</a>.</p>
   </section>
 
 </main>
 
 <footer class="site"><div class="wrap">
-  Part of <a href="../index.html">The Recursive Tarot</a> — an open, public-domain library.
+  Part of <a href="../index.html">Recursive Repatterning</a> — an open, public-domain / CC-BY-SA library.
   <span class="small muted">CC-BY-SA-4.0 · curated by PlayfulProcess.</span>
 </div></footer>
 
-<script src="../site-footer.js?v=1"></script>
+<script src="../site-footer.js?v=2"></script>
 <site-footer base="../"></site-footer>
 </body>
 </html>

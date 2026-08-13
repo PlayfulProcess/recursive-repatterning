@@ -40,7 +40,7 @@
   var srcSlug = (function () {
     try {
       var src = new URLSearchParams(location.search).get('src') || '';
-      var m = /tarot\/([^/]+)\/grammar\.json/.exec(src);
+      var m = /schools\/([^/]+)\/grammar\.json/.exec(src);
       return m ? m[1] : '';
     } catch (_) { return ''; }
   })();
@@ -74,7 +74,7 @@
           // A grammar is on the page (either a real ?grammar_id=/?id=, or resolved above
           // from a static ?src= link): the assistant grounds "this grammar" on it.
           qs.set('grammar_id', grammarId);
-          qs.set('context', pageCtx || 'tarot');
+          qs.set('context', pageCtx || 'repatterning');
         } else {
           // No grammar_id available (no grammar on the page, or the schools/_eco_ids.json
           // lookup above hasn't resolved / has no entry for this slug yet). Pass page
@@ -86,7 +86,7 @@
           if (srcSlug) title = titleCaseSlug(srcSlug) + ' — ' + title;
           qs.set('page_title', title);
           qs.set('page_url', location.href);
-          var ctx = pageCtx || (srcSlug ? 'tarot' : '');
+          var ctx = pageCtx || (srcSlug ? 'repatterning' : '');
           if (ctx) qs.set('context', ctx);
         }
         return window.RecursiveAssistant.flowBaseUrl() + '/assistant?' + qs.toString();

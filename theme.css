@@ -1,5 +1,5 @@
 /* ───────────────────────────────────────────────────────────────────────────
-   The Recursive Tarot — ONE shared design-token theme.  DEFINE COLOURS HERE ONLY.
+   Recursive Repatterning — ONE shared design-token theme.  DEFINE COLOURS HERE ONLY.
    Every page and viewer links this file; none should redeclare these tokens
    locally. Light-only: backgrounds are always light, text always dark enough to
    read on them. Token NAMES are unified here (older pages used --panel/--muted/
@@ -45,14 +45,14 @@
   --chipline:#cfc8ba;
   --tree-line:rgba(60,45,20,.12);
 
-  /* —— the one UI accent: restrained gold (accent only, never a fill) —— */
-  --gold:#9a7322;
-  --accent:#9a7322;        /* legacy alias of --gold (was purple in old dark pages) */
-  --accent2:#9a7322;
-  --violet:#9a7322;        /* legacy alias — folded into gold */
-  --grammar-accent:#9a7322;
-  --grammar-accent-dark:#7c5b18;
-  --tree-accent:#9a7322;
+  /* —— the one UI accent: restrained teal/emerald (accent only, never a fill) —— */
+  --gold:#0f766e;
+  --accent:#0f766e;        /* legacy alias of --gold (was purple in old dark pages) */
+  --accent2:#0f766e;
+  --violet:#0f766e;        /* legacy alias — folded into gold */
+  --grammar-accent:#0f766e;
+  --grammar-accent-dark:#0b5e57;
+  --tree-accent:#0f766e;
 
   /* —— semantic CATEGORY hues (kept; mid-tone, legible on light) ——
      genealogy lineages + Dummett order + suits + game status. Not UI chrome. */

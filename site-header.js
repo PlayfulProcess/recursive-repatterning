@@ -1,4 +1,4 @@
-/* Shared site header for the Recursive Tarot static site.
+/* Shared site header for the Recursive Repatterning static site.
  * One definition, used by every page (root + viewers/ + pages/). Style-isolated
  * via Shadow DOM so each viewer's own CSS can't override it. Path-aware so links
  * resolve from both the repo root and the /viewers/ subdir.
@@ -12,7 +12,7 @@
  *  - VIEWS  — previews of the same data (Cards, Explorer, Tree of Life, Timeline,
  *             Tree, Genealogy), introduced by a tiny "views" caption.
  *  - TOOLS  — different-natured pages, each colour-coded: Caster (violet),
- *             Course (green), Shop (gold), GitHub (muted, external).
+ *             Course (green), Shop (teal), GitHub (muted, external).
  */
 (function () {
   if (customElements.get('site-header')) return;
@@ -43,7 +43,6 @@
   const CARD_VIEWS = [
     ['explorer', 'Explorer', PFX + 'viewers/explorer.html'],
     ['cards',    'Cards',    PFX + 'viewers/cards.html'],
-    ['lenses',   'Lenses', PFX + 'viewers/prototypes/lenses.html'],
     ['tree',     'Tree',     PFX + 'viewers/tree-viewer.html'],
   ];
   const GRAMMAR_VIEWS = [
@@ -56,17 +55,14 @@
   const TOOLS = [
     ['contribute', 'Contribute', PFX + 'pages/contribute.html', 't-contribute'],
     ['shop',   'Shop',    PFX + 'pages/shop.html',          't-shop'],
-    ['github', 'GitHub ↗',  'https://github.com/PlayfulProcess/recursive-tarot', 't-github', true],
+    ['github', 'GitHub ↗',  'https://github.com/PlayfulProcess/recursive-repatterning', 't-github', true],
   ];
-  // Play — a dropdown of the games + readings (the pill itself links to the Play hub).
+  // Play — a dropdown of the ways to draw/cast + read (the pill itself links to the Play hub).
   const PLAY_MENU = [
-    [PFX + 'pages/games/tarocchino.html', 'Tarocchino di Bologna'],
-    [PFX + 'pages/games/madiao.html',     'Ma Diao 馬吊'],
-    [PFX + 'pages/games/trionfi.html',    'Trionfi'],
     [PFX + 'viewers/caster-studio.html',  'Spread Caster — build · cast · send'],
     [PFX + 'viewers/cards.html?src=../schools/bus-passengers/grammar.json', 'Bus Passengers — who’s driving?'],
     ['https://flow.recursive.eco/',   'Oracle ↗', true],
-    [PFX + 'pages/play.html',             'All games & readings →'],
+    [PFX + 'pages/play.html',             'All readings →'],
   ];
   // Home — a dropdown that uncollapses to About (the pill itself links to the homepage).
   const HOME_MENU = [
@@ -94,11 +90,10 @@
     const f = location.pathname.split('/').pop() || 'index.html';
     if (f.startsWith('cards')) return 'cards';
     if (f.startsWith('explorer')) return 'explorer';
-    if (f.startsWith('lenses')) return 'lenses';
     if (f.startsWith('genealogy-tree')) return 'treeoflife';
     if (f.startsWith('timeline')) return 'timeline';
     if (f.startsWith('tree-viewer')) return 'tree';
-    if (f.startsWith('play') || f.startsWith('caster') || f.startsWith('trionfi') || location.pathname.includes('/games/')) return 'play';
+    if (f.startsWith('play') || f.startsWith('caster')) return 'play';
     if (f.startsWith('genealogy')) return 'genealogy';
     if (f.startsWith('channels')) return 'channels';
     if (f.startsWith('course')) return 'course';
@@ -130,7 +125,7 @@
       // Dropdown menu item (used inside the Views menu) — highlights the current page.
       const menuItem = ([key, label, href, cls, ext]) =>
         `<a class="${key === active ? 'on' : ''}" href="${href}"${ext ? ' target="_blank" rel="noopener"' : ''}>${label}</a>`;
-      const VIEW_KEYS = ['explorer', 'cards', 'lenses', 'tree', 'treeoflife', 'timeline', 'genealogy', 'channels'];
+      const VIEW_KEYS = ['explorer', 'cards', 'tree', 'treeoflife', 'timeline', 'genealogy', 'channels'];
       const viewActive = VIEW_KEYS.includes(active);
       root.innerHTML = `
         <style>
@@ -149,13 +144,13 @@
           .brand-logo{ border-radius:50%; }
           .brand-name .name{ font-family:"Fraunces",Georgia,serif; font-size:21px; font-weight:600; letter-spacing:.4px; color:#221f1a; white-space:nowrap; }
           .brand-name:hover .name{ color:#000; }
-          .brand-name .name .gold{ color:#9a7322; }
+          .brand-name .name .gold{ color:#0f766e; }
           .brand svg{ flex-shrink:0; }
           .spacer{ flex:1 1 auto; }
           nav{ display:flex; gap:4px; flex-wrap:wrap; align-items:center; }
           .cap{ font-size:9.5px; text-transform:uppercase; letter-spacing:.16em;
                 color:#8a8273; margin:0 2px 0 6px; user-select:none; }
-          .cap.card-cap{ color:#9a7322; }
+          .cap.card-cap{ color:#0f766e; }
           .cap.gram-cap{ color:#6b6457; }
           .sep{ width:1px; height:20px; background:#d8d2c6; margin:0 6px; }
           /* one restrained editorial language for every nav item — text links,
@@ -165,10 +160,10 @@
             padding:7px 9px; white-space:nowrap; transition:color .15s;
             border:0; border-bottom:1.5px solid transparent; border-radius:0;
           }
-          .tab:hover{ color:#9a7322; }
-          .tab.active{ color:#9a7322; font-weight:600; border-bottom-color:#9a7322; }
+          .tab:hover{ color:#0f766e; }
+          .tab.active{ color:#0f766e; font-weight:600; border-bottom-color:#0f766e; }
           .t-caster,.t-course,.t-shop,.t-github,.t-contribute{ color:#6b6457; border:0; border-bottom:1.5px solid transparent; border-radius:0; }
-          .t-caster:hover,.t-course:hover,.t-shop:hover,.t-github:hover,.t-contribute:hover{ color:#9a7322; background:transparent; }
+          .t-caster:hover,.t-course:hover,.t-shop:hover,.t-github:hover,.t-contribute:hover{ color:#0f766e; background:transparent; }
           /* dropdowns */
           .dd{ position:relative; }
           .dd-btn{ background:none; font-family:inherit; cursor:pointer; }
@@ -207,8 +202,8 @@
             <a class="brand-logo" href="https://recursive.eco" target="_blank" rel="noopener" title="Part of recursive.eco — the parent project" aria-label="recursive.eco — the parent project">
               <span style="display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;background:#fff;border-radius:50%;flex-shrink:0"><img src="${PFX}public/spiral-purple.svg" width="30" height="30" alt="" aria-hidden="true" style="display:block"></span>
             </a>
-            <a class="brand-name" href="${PFX}index.html" title="The Recursive Tarot — home">
-              <span class="name">The <span class="gold">Recursive Tarot</span></span>
+            <a class="brand-name" href="${PFX}index.html" title="Recursive Repatterning — home">
+              <span class="name">Recursive <span class="gold">Repatterning</span></span>
             </a>
           </span>
           <span class="spacer"></span>

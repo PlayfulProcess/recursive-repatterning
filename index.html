@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="theme.css?v=3">
+<link rel="stylesheet" href="theme.css?v=6">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Recursive Tarot — A Public-Domain Genealogy of the Cards</title>
-<meta name="description" content="A public-domain, scholarship-grounded genealogy of historical tarot — how a card game became a grammar for meaning, an open library of historical tarot decks, free viewers and courses, part of recursive.eco.">
-<meta property="og:title" content="The Recursive Tarot — how a game became a grammar for meaning">
-<meta property="og:description" content="An open library of historical tarot decks, an illustrated open history, JSON grammars, free viewers and courses — public domain, part of recursive.eco.">
+<title>Recursive Repatterning — An Open Library of the Ways People Have Organized Feeling</title>
+<meta name="description" content="An open library of the ways people have organized feeling — Plutchik, NVC, DBT, attachment theory and more, each school in its own voice, none mistaken for the truth underneath. Free viewers and courses, part of recursive.eco.">
+<meta property="og:title" content="Recursive Repatterning — the ways people have organized feeling">
+<meta property="og:description" content="An open library of the schools of emotion — working interfaces, not discoveries — with JSON grammars, free viewers and courses, part of recursive.eco.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://tarot.recursive.eco/">
+<meta property="og:url" content="https://repatterning.recursive.eco/">
 <link rel="icon" type="image/svg+xml" href="public/favicon.svg?v=2">
 <link rel="stylesheet" href="style.css?v=5">
 <style>
@@ -27,19 +27,19 @@
     text-transform:uppercase;margin-top:13px}
   .htext h1{font-family:var(--serif-display);font-weight:600;font-size:clamp(34px,5.2vw,56px);
     line-height:1.04;letter-spacing:.3px;margin:0}
-  .htext h1 .gold{color:#9a7322}
+  .htext h1 .gold{color:#0f766e}
   .htext .subtitle{font-family:var(--serif-body);font-style:italic;color:var(--ink-soft);
     font-size:clamp(16px,2.3vw,21px);line-height:1.5;margin:14px 0 0;max-width:42ch}
-  .htext .subtitle a{color:#8a6414;text-decoration:none;border-bottom:1px dotted #c4ad7a}
+  .htext .subtitle a{color:#0f766e;text-decoration:none;border-bottom:1px dotted #7dbfb6}
   .htext .subtitle a:hover{border-bottom-style:solid}
 
   .cta{display:flex;gap:12px;justify-content:flex-start;flex-wrap:wrap;margin:24px 0 4px}
   .btn{font-family:var(--sans);text-decoration:none;font-weight:600;font-size:14.5px;
     padding:12px 24px;border-radius:8px;transition:background .15s,transform .15s,border-color .15s,color .15s}
   .btn.primary{background:var(--gold);color:#fff}
-  .btn.primary:hover{background:#7c5b18;transform:translateY(-1px)}
+  .btn.primary:hover{background:#0b5e57;transform:translateY(-1px)}
   .btn.ghost{color:var(--ink-soft);border:1px solid var(--line-soft)}
-  .btn.ghost:hover{border-color:#9a7322;color:#9a7322}
+  .btn.ghost:hover{border-color:#0f766e;color:#0f766e}
 
   .lede{font-family:var(--serif-body);font-size:17.5px;line-height:1.62;color:var(--ink-soft);
     max-width:56ch;margin:22px 0 0;text-align:left}
@@ -62,14 +62,14 @@
   /* card art always contained (never cropped) on a neutral mat */
   .way .top{aspect-ratio:4/3;background:var(--thumb-bg) center/contain no-repeat;border-bottom:1px solid var(--line)}
   .way .bd{padding:16px 18px 18px}
-  .way .lbl{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#8a6414;margin-bottom:7px}
+  .way .lbl{font-family:var(--sans);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#0f766e;margin-bottom:7px}
   .way h3{font-family:var(--serif-display);font-weight:600;font-size:22px;margin:0 0 6px;color:var(--ink)}
   .way p{font-family:var(--serif-body);font-size:15px;line-height:1.55;color:var(--ink-soft);margin:0}
 
   /* the arch: game -> crystal ball -> gate (adaptive / maladaptive) */
   .arch{margin:54px auto 0;max-width:1000px}
   .arch h2{font-family:var(--serif-display);font-weight:600;font-size:28px;color:var(--ink);margin:0 0 .25em;text-align:center}
-  .arch .sub{font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#8a6414;text-align:center;margin:0 0 22px}
+  .arch .sub{font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#0f766e;text-align:center;margin:0 0 22px}
   .atag.ok{background:rgba(63,122,92,.12);color:#3f7a5c}
   .atag.bad{background:rgba(181,81,47,.1);color:#b5512f}
   .arch .archnote{font-family:var(--serif-body);font-size:15px;line-height:1.6;color:var(--ink-soft);text-align:center;max-width:62ch;margin:22px auto 0}
@@ -114,7 +114,7 @@
   section.story h2{font-family:var(--serif-display);font-weight:600;font-size:28px;color:var(--ink);
     margin:0 0 .35em;text-align:center}
   section.story .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
-    color:#8a6414;text-align:center;margin:0 0 18px}
+    color:#0f766e;text-align:center;margin:0 0 18px}
   section.story p{font-family:var(--serif-body);font-size:17px;line-height:1.7;color:var(--ink-soft);margin:0 0 1em}
   section.story p strong{color:var(--ink)}
   section.story a{color:var(--gold)}
@@ -128,9 +128,9 @@
   .gallery h2{font-family:var(--serif-display);font-weight:600;font-size:28px;color:var(--ink);
     margin:0 0 .25em;text-align:center}
   .gallery .sub{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;
-    color:#8a6414;text-align:center;margin:0 0 22px}
+    color:#0f766e;text-align:center;margin:0 0 22px}
   .gallery .glabel{display:flex;align-items:center;gap:12px;font-family:var(--sans);font-size:11px;
-    letter-spacing:.16em;text-transform:uppercase;color:#8a6414;margin:0 0 14px;text-align:left}
+    letter-spacing:.16em;text-transform:uppercase;color:#0f766e;margin:0 0 14px;text-align:left}
   .gallery .glabel::after{content:'';flex:1;height:1px;background:var(--line)}
 
   .viewgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin:0 0 12px}
@@ -152,7 +152,7 @@
 
   .gallery .links{text-align:center;margin:34px 0 0;font-family:var(--sans);font-size:12.5px}
   .gallery .links a{color:var(--ink-soft);text-decoration:none;margin:0 10px;white-space:nowrap}
-  .gallery .links a:hover{color:#9a7322}
+  .gallery .links a:hover{color:#0f766e}
 
   /* ── recursive.eco "tree" callout (reusable: copy this block + .ecotree styles) ── */
   .ecotree{margin:52px auto 0;max-width:760px;background:var(--surface);border:1px solid var(--line-soft);
@@ -165,132 +165,76 @@
   .ecotree .eco-cta a{font-family:var(--sans);font-weight:600;font-size:14px;text-decoration:none;
     padding:11px 22px;border-radius:8px;transition:background .15s,border-color .15s,color .15s,transform .15s}
   .ecotree .eco-cta a.solid{background:var(--gold);color:#fff}
-  .ecotree .eco-cta a.solid:hover{background:#7c5b18;transform:translateY(-1px)}
+  .ecotree .eco-cta a.solid:hover{background:#0b5e57;transform:translateY(-1px)}
   .ecotree .eco-cta a.line{color:var(--ink-soft);border:1px solid var(--line-soft)}
-  .ecotree .eco-cta a.line:hover{border-color:#9a7322;color:#9a7322}
+  .ecotree .eco-cta a.line:hover{border-color:#0f766e;color:#0f766e}
   .ecotree .fine{font-family:var(--sans);font-size:12px;color:var(--mut);margin-top:16px}
   .ecotree .fine a{color:var(--gold);text-decoration:none}
 </style>
 </head>
 <body>
-<script src="site-header.js?v=47"></script>
+<script src="site-header.js?v=48"></script>
 <site-header active="home"></site-header>
 
 <main class="wrap">
 
-  <!-- ── HERO: card left, text right ── -->
+  <!-- ── HERO: plate left, text right ── -->
   <section class="herowrap">
     <figure class="plate">
       <div class="mat">
-        <img src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-21-world.jpg" alt="Il Mondo (The World), Visconti-Sforza tarot, Milan, c. 1450">
+        <img src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-21-world.jpg" alt="A placeholder plate — this library's own emotion-school illustrations are still being made">
       </div>
-      <figcaption class="cap">Il Mondo · Visconti-Sforza · Milan, c. 1450</figcaption>
+      <figcaption class="cap">Placeholder plate · a school's own art belongs here</figcaption>
     </figure>
     <div class="htext">
-      <h1>The <span class="gold">Recursive Tarot</span></h1>
-      <p class="subtitle">How a card game became a <a href="https://recursive.eco" target="_blank" rel="noopener" title="grammar — recursive.eco's word for a symbolic system you make meaning with">grammar</a> for meaning — six centuries of historical decks, every image public domain.</p>
-      <p class="lede">A free, <strong>public-domain</strong> library of historical tarot — from the 1440s
-      Milanese card <em>game</em>, through the printed Tarot de Marseille, to the 1781 occult reframing that
-      invented divination. Each deck kept in <strong>its own tradition</strong>; every file open and forkable.</p>
+      <h1>Recursive <span class="gold">Repatterning</span></h1>
+      <p class="subtitle">There are no fixed biological fingerprints for emotions. We still have to make meaning — so here are the ways people have <a href="https://recursive.eco" target="_blank" rel="noopener" title="grammar — recursive.eco's word for a symbolic system you make meaning with">done it, as grammars</a>.</p>
+      <p class="lede">A free, <strong>open library</strong> of the schools of emotion — Plutchik's wheel, NVC's needs,
+      DBT's skills, attachment theory's bonds, and more. Each school kept in <strong>its own voice</strong>,
+      none of them mistaken for the truth underneath; every file open and forkable.</p>
     </div>
   </section>
 
-  <!-- ── THREE DOORS (Historian · Player · Contributor) ── -->
+  <!-- ── THREE DOORS (Sources · Play · Contributor) ── -->
   <div class="ways">
-    <a class="way" href="pages/historian.html">
-      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-03-empress.jpg')"></div>
+    <a class="way" href="pages/sources.html">
+      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-03-empress.jpg')"></div>
       <div class="bd">
-        <div class="lbl">Read · for those with a taste for history</div>
-        <h3>The illustrated history</h3>
-        <p>Six centuries, from a 1440s card game to the occult reinvention of 1781 — an illustrated course, a timeline and a family tree, and every surviving deck read closely, image by image.</p>
+        <div class="lbl">Read · for those with a taste for the research</div>
+        <h3>The sources behind the schools</h3>
+        <p>Each school held to its own literature — Plutchik, Rosenberg, Linehan, Barrett, and more — with an honest evidence tier for every claim, and a courses library that keeps teaching as the schools grow.</p>
       </div>
     </a>
     <a class="way" href="pages/play.html">
-      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-18-moon.jpg')"></div>
+      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-18-moon.jpg')"></div>
       <div class="bd">
-        <div class="lbl">Play · for game &amp; fiction lovers</div>
-        <h3>Play the games</h3>
-        <p>The trick-taking games these cards were for three centuries — or draw a spread and read it as fiction. Either way you're what Tolkien called a <em>sub-creator</em>: a maker of worlds you enter with your judgment intact, never a fate you obey.</p>
+        <div class="lbl">Draw · for the curious and the stuck</div>
+        <h3>Draw from the schools</h3>
+        <p>Cast a reading across one school or several, and hold what comes up as a mirror, never a diagnosis. You're what Tolkien called a <em>sub-creator</em>: a maker of meaning you enter with your judgment intact, never a verdict you obey.</p>
       </div>
     </a>
     <a class="way" href="pages/contribute.html">
-      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-17-star.jpg')"></div>
+      <div class="top" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-17-star.jpg')"></div>
       <div class="bd">
         <div class="lbl">Contribute · for keepers of the commons</div>
         <h3>Add to the open library</h3>
-        <p>Every deck is public-domain JSON anyone can correct, translate, or extend. Climb in by the gentlest route.</p>
+        <p>Every school is public-domain or CC-BY-SA JSON anyone can correct, translate, or extend. Climb in by the gentlest route.</p>
       </div>
     </a>
   </div>
 
-  <!-- ── THE ARCH: how to hold the cards ── -->
-  <section class="arch">
-    <h2>How to hold the cards</h2>
-    <p class="sub">One faculty, three stances — across six centuries · tap a card</p>
-    <div class="archtl">
-      <div class="track">
-        <div class="stop">
-          <span class="ayr">c. 1440</span>
-          <div class="rail"><span class="adot ok"></span></div>
-          <a class="node" href="pages/course-viewer.html?course=games-of-the-tarot">
-            <img class="athumb" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-01-magician.jpg" alt="">
-            <div class="an">Game</div>
-            <span class="atag ok">Adaptive · within limits</span>
-            <p class="ag">Play it for the play — sociable, skilled, free. Healthy, as long as it never curdles into greed.</p>
-          </a>
-        </div>
-        <div class="stop">
-          <span class="ayr">1781</span>
-          <div class="rail"><span class="adot bad"></span></div>
-          <a class="node" href="pages/course-viewer.html?course=how-tarot-works">
-            <img class="athumb" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-10-fortune.jpg" alt="">
-            <div class="an">Crystal ball</div>
-            <span class="atag bad">Maladaptive</span>
-            <p class="ag">Read it as fate and you obey the slice it shows you. Tolkien named the object — the <em>palantír</em>, which never lies and still ruins whoever obeys it.</p>
-          </a>
-        </div>
-        <div class="stop now">
-          <span class="ayr">now · ongoing</span>
-          <div class="rail"><span class="adot ok"></span></div>
-          <a class="node now" href="pages/course-viewer.html?course=intention-setting">
-            <img class="athumb" src="https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-06-love.jpg" alt="">
-            <div class="an">Gate, not fate</div>
-            <span class="atag ok">Adaptive</span>
-            <p class="ag">Cross it with your judgment intact. The card reflects what's already in you and lets you imagine the step you haven't taken.</p>
-          </a>
-        </div>
-      </div>
-    </div>
-    <p class="archnote">This site teaches the third — and keeps the first. Why a card held as a gate is practice for a world full of oracles is in <a href="pages/course-viewer.html?course=intention-setting">Intention Setting</a>.</p>
-  </section>
-
-  <!-- ── A SHORT HONEST HISTORY ── -->
+  <!-- ── THE CREED ── -->
   <section class="story">
     <p class="sub">The short version</p>
-    <h2>A game first, a gate later</h2>
-    <p>Tarot began as a <strong>card game</strong> in 1440s northern Italy — extra trump cards
-    (<em>trionfi</em>) added to an ordinary four-suit pack imported from the Islamic world. For three
-    centuries it was played, not read. Only in <strong>1781</strong> did Antoine Court de Gébelin claim
-    the cards held lost Egyptian wisdom, and Etteilla turned that claim into a cartomancy business. The
-    "ancient esoteric tarot" is itself an 18th-century invention — which makes it no less interesting,
-    only younger than it pretends.</p>
-    <p><em>Some traditions hold that an older, hidden esoteric tarot existed before the written record.</em>
-    We can't disprove that — but this project follows the <strong>cautious, evidence-first path</strong> of
-    historians and primary sources: where the documents are silent, we don't fill the gap with speculation.
-    <a href="pages/course-viewer.html?course=history-of-tarot">Read the full illustrated history →</a></p>
-  </section>
-
-  <!-- ── MISCONCEPTIONS ── -->
-  <section class="story">
-    <p class="sub">Corrected</p>
-    <h2>Common misconceptions</h2>
-    <ul class="mis">
-      <li><b>"Tarot is ancient Egyptian."</b> Half true, for the wrong reason — the four-suit pack <em>was</em> built on cards from <em>Mamluk Egypt</em> (Cairo). But the trumps that make it <em>tarot</em> are 15th-century Italian, and the "lost Egyptian wisdom" of Thoth is an 18th-century invention (1781), not a pharaonic one.</li>
-      <li><b>"The Major Arcana came first."</b> The suits came first (from Mamluk playing cards); the trumps were added <em>to</em> them.</li>
-      <li><b>"Tarot was always for divination."</b> For ~340 years it was a trick-taking game; cartomancy is the late chapter, not the root.</li>
-      <li><b>"The Rider-Waite-Smith is the original."</b> It's from 1909 — its illustrated pips borrow from the 1491 Sola Busca, here in the library.</li>
-      <li><b>"One true meaning per card."</b> Each tradition reads differently; this library keeps each deck in <em>its own</em> tradition rather than forcing one system across all.</li>
-    </ul>
+    <h2>A working interface, not a discovery</h2>
+    <p>There are no fixed biological fingerprints for emotions, and we still have to make meaning — so
+    every school here is a <strong>working interface</strong>. Plutchik's wheel, NVC's needs, DBT's
+    skills, attachment theory's bonds: the constructionist account sits underneath all of them, and that
+    is precisely why the interfaces matter. <strong>A map being constructed is not the same as a map
+    being wrong.</strong></p>
+    <p>Each school is presented <em>faithfully, in its own terms</em> — an NVC section sounds like NVC,
+    not like us editorializing about it. And the hard floor everywhere: a feeling-name is a mirror, never
+    a diagnosis, and never something to obey. <a href="pages/manifesto.html">Read the full creed →</a></p>
   </section>
 
   <!-- ── RECURSIVE.ECO — the tree this grows from (reusable block) ── -->
@@ -301,20 +245,20 @@
     <p><a href="https://recursive.eco" target="_blank" rel="noopener"><strong>recursive.eco</strong></a> is the
     trunk this library grows from — an open platform built on
     <a href="https://recursive.eco" target="_blank" rel="noopener"><strong>grammars</strong></a>:
-    <em>symbolic systems you make meaning with</em> — made by people, not algorithms (a tarot deck, an
-    I&nbsp;Ching, an astrology set, a children's story). <strong>A tarot deck is a grammar</strong>, and this
-    whole site is one of them: a <strong>branch</strong> able to render the deep, domain-specific richness —
-    the history, the scholarship, the per-card research — that the general platform never could.</p>
+    <em>symbolic systems you make meaning with</em> — made by people, not algorithms (a school of emotion, an
+    I&nbsp;Ching, an astrology set, a children's story). <strong>A school of emotion is a grammar</strong>,
+    and this whole site is one of them: a <strong>branch</strong> able to render the deep, domain-specific
+    richness — the evidence, the citations, the per-item research — that the general platform never could.</p>
     <p>The trunk gives every branch more than it could grow alone: an AI <strong>Oracle</strong> that reads
-    your spread in context, a journal, accounts, and the power to build your own deck and use it as a living
-    library.</p>
+    your reading in context, a journal, accounts, and the power to build your own school and use it as a
+    living library.</p>
     <div class="eco-cta">
       <a class="solid" href="https://flow.recursive.eco/" target="_blank" rel="noopener">Read in the Oracle ↗</a>
       <a class="line" href="https://flow.recursive.eco/create" target="_blank" rel="noopener">Create your own ↗</a>
     </div>
     <p class="fine">It's a public commons — fork
-      <a href="https://github.com/PlayfulProcess/recursive-tarot" target="_blank" rel="noopener">the repo</a>
-      or follow the <a href="pages/course-viewer.html?course=how-to-contribute">contributor's guide</a>. CC-BY-SA-4.0.</p>
+      <a href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">the repo</a>
+      or follow the <a href="pages/contribute.html">contributor's guide</a>. CC-BY-SA-4.0.</p>
   </aside>
 
   <!-- ── GALLERY: every view, classified by level ── -->
@@ -322,22 +266,18 @@
     <h2>Every view</h2>
     <p class="sub">Same open data, two levels of lens</p>
 
-    <p class="glabel">Card level · read individual cards</p>
+    <p class="glabel">Item level · read individual emotions</p>
     <div class="viewgrid">
       <a class="vcard" href="viewers/cards.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-00-fool.jpg')"></div>
-        <div class="vb"><div class="vt">Cards</div><div class="vd">One card at a time, every deck — Scene, Symbol &amp; Research notes.</div></div>
+        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-00-fool.jpg')"></div>
+        <div class="vb"><div class="vt">Cards</div><div class="vd">One item at a time, every school — Definition, evidence tier &amp; Research notes.</div></div>
       </a>
       <a class="vcard" href="viewers/explorer.html">
         <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/mantegna-tarocchi-plate-01.jpg')"></div>
-        <div class="vb"><div class="vt">Explorer</div><div class="vd">Pivot any field by any field — at card level and across lenses; every grouping is an emergence.</div></div>
-      </a>
-      <a class="vcard" href="viewers/prototypes/lenses.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/tarot-de-marseille-conver/II%20LA%20PAPESSE%20Nicolas%20Conver%20Tarot%201760.jpg')"></div>
-        <div class="vb"><div class="vt">Lenses</div><div class="vd">One card read through many traditions, side by side.</div></div>
+        <div class="vb"><div class="vt">Explorer</div><div class="vd">Pivot any field by any field — at item level and across schools; every grouping is an emergence.</div></div>
       </a>
       <a class="vcard" href="viewers/tree-viewer.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-14-temperance.jpg')"></div>
+        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-14-temperance.jpg')"></div>
         <div class="vb"><div class="vt">Tree</div><div class="vd">The grammar as a nested tree you open and explore.</div></div>
       </a>
     </div>
@@ -345,22 +285,22 @@
     <p class="glabel" style="margin-top:26px">Grammar level · across the whole collection</p>
     <div class="viewgrid">
       <a class="vcard" href="viewers/genealogy-tree.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Visconti-sforza-19-sun.jpg')"></div>
-        <div class="vb"><div class="vt">Tree of Life</div><div class="vd">A radial root → branch → deck view of the family tree.</div></div>
+        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Visconti-sforza-19-sun.jpg')"></div>
+        <div class="vb"><div class="vt">Tree of Life</div><div class="vd">A radial root → branch → school view of the constellation.</div></div>
       </a>
       <a class="vcard" href="viewers/timeline.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-schools/Bembo-Visconti-tarot-coins-13-queen.jpg')"></div>
-        <div class="vb"><div class="vt">Timeline</div><div class="vd">All decks across six centuries, by lineage and era.</div></div>
+        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/visconti-sforza-tarot/Bembo-Visconti-tarot-coins-13-queen.jpg')"></div>
+        <div class="vb"><div class="vt">Timeline</div><div class="vd">Every school, by lineage and era.</div></div>
       </a>
       <a class="vcard" href="genealogy.html">
-        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/charles-vi-schools/Fool%20tarot%20charles6.jpg')"></div>
-        <div class="vb"><div class="vt">Genealogy</div><div class="vd">Which deck descended from which — the lineage as a tree.</div></div>
+        <div class="vthumb" style="background-image:url('https://pub-71ebbc217e6247ecacb85126a6616699.r2.dev/grammar-illustrations/charles-vi-tarot/Fool%20tarot%20charles6.jpg')"></div>
+        <div class="vb"><div class="vt">Genealogy</div><div class="vd">Which school descended from which — the lineage as a tree.</div></div>
       </a>
     </div>
 
-    <h2 style="margin-top:50px">The <span id="deck-count"></span>historical decks</h2>
-    <p class="sub">Every image public domain · click any deck to read it card by card</p>
-    <div id="deckgrid" class="deckgrid"><p class="sub" style="grid-column:1/-1">Loading decks…</p></div>
+    <h2 style="margin-top:50px">The <span id="deck-count"></span>schools</h2>
+    <p class="sub">Public domain and CC-BY-SA · click any school to read it item by item</p>
+    <div id="deckgrid" class="deckgrid"><p class="sub" style="grid-column:1/-1">Loading schools…</p></div>
 
     <style>
       .dcard .status{display:inline-block;font-family:var(--sans);font-size:9.5px;letter-spacing:.1em;
@@ -368,13 +308,13 @@
       .dcard .note{font-family:var(--serif-body);font-size:12.5px;line-height:1.45;color:var(--ink-soft);margin-top:7px}
     </style>
     <div id="contemporary-wrap" hidden>
-      <h2 style="margin-top:50px">Contemporary decks</h2>
-      <p class="sub">Living-tradition grammars under CC-BY-SA, by other makers — beyond the historical canon</p>
+      <h2 style="margin-top:50px">Living-tradition schools</h2>
+      <p class="sub">Living-tradition grammars under CC-BY-SA, by other makers — beyond the historical foundations</p>
       <div id="deckgrid-contemporary" class="deckgrid"></div>
     </div>
     <div id="community-wrap" hidden>
       <h2 style="margin-top:50px">From the Recursive Community</h2>
-      <p class="sub">PlayfulProcess's own grammars — objects of study, not claims of expertise · collaborators welcome · <a href="pages/course-viewer.html?course=how-to-contribute" style="color:var(--gold)">contribute one →</a></p>
+      <p class="sub">PlayfulProcess's own grammars — objects of study, not claims of expertise · collaborators welcome · <a href="pages/contribute.html" style="color:var(--gold)">contribute one →</a></p>
       <div id="deckgrid-community" class="deckgrid"></div>
     </div>
   </section>
@@ -426,7 +366,7 @@
   })();
 </script>
 
-<script src="site-footer.js?v=1"></script>
+<script src="site-footer.js?v=2"></script>
 <script src="assistant.js" defer></script>
 <site-footer></site-footer>
 </body>

@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="../theme.css?v=3">
+<link rel="stylesheet" href="../theme.css?v=6">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title id="course-title">Course - Recursive.eco</title>
@@ -40,7 +40,7 @@
         .border { border-width: 1px; border-style: solid; }
         .border-gray-200 { border-color: #e5e7eb; }
         .border-\[\#e0dacd\] { border-color: #e0dacd; }
-        .hover\:border-\[\#9a7322\]:hover { border-color: #9a7322; }
+        .hover\:border-\[\#0f766e\]:hover { border-color: #0f766e; }
         .bg-white { background-color: #fff; }
         .bg-gray-50 { background-color: #f9fafb; }
         .text-gray-600 { color: #4b5563; }
@@ -104,12 +104,12 @@
         }
         .nav-section-header:hover {
             background-color: #F3F4F6;
-            color: #9a7322;
+            color: #0f766e;
         }
         .nav-section-header.active {
-            color: #9a7322;
+            color: #0f766e;
             background-color: #F3F4F6;
-            border-left-color: #9a7322;
+            border-left-color: #0f766e;
             font-weight: 600;
         }
         .nav-section-chevron {
@@ -139,11 +139,11 @@
             transition: all 0.15s;
         }
         .nav-section-children a:hover {
-            color: #9a7322;
+            color: #0f766e;
             background-color: #F9FAFB;
         }
         .nav-section-children a.active {
-            color: #9a7322;
+            color: #0f766e;
             font-weight: 500;
         }
         /* Simple nav links (no children) */
@@ -158,12 +158,12 @@
         }
         .course-nav-inner > a:hover {
             background-color: #F3F4F6;
-            color: #9a7322;
+            color: #0f766e;
         }
         .course-nav-inner > a.active {
-            color: #9a7322;
+            color: #0f766e;
             background-color: #F3F4F6;
-            border-left-color: #9a7322;
+            border-left-color: #0f766e;
             font-weight: 600;
         }
         .course-content {
@@ -176,7 +176,7 @@
             left: 1rem;   /* left side — its panel slides from the left, and it no longer collides with the bottom-right AI library icon */
             width: 56px;
             height: 56px;
-            background-color: #9a7322;
+            background-color: #0f766e;
             color: white;
             border: none;
             border-radius: 50%;
@@ -189,7 +189,7 @@
             transition: all 0.3s ease;
         }
         .mobile-toc-button:hover {
-            background-color: #7c5b18;
+            background-color: #0b5e57;
             transform: scale(1.05);
         }
         .mobile-toc-overlay {
@@ -365,7 +365,7 @@
             /* Tarot theme brown, not browser/Tailwind blue — the blue-on-brown
                clashed with the museum palette (builder, Jul 2026). recursive.eco
                links keep the family purple, handled by the rule below. */
-            color: var(--gold, #9a7322);
+            color: var(--gold, #0f766e);
             text-decoration: underline;
             text-underline-offset: 2px;
             transition: color 0.2s;
@@ -387,7 +387,7 @@
             color: #7c2fd0;
         }
         .course-content blockquote {
-            border-left: 4px solid #9a7322;
+            border-left: 4px solid #0f766e;
             padding-left: 1rem;
             margin: 1.5rem 0;
             font-style: italic;
@@ -476,13 +476,13 @@
             margin: 0 auto 1.5rem;
             padding: 1.25rem 1.5rem;
             background: linear-gradient(135deg, #f5f3ff 0%, #f4efe3 100%);
-            border: 2px solid #b8902f;
+            border: 2px solid #2f9c8f;
             border-radius: 14px;
             max-width: 560px;
             transition: transform 0.15s;
         }
         .course-page-qr-block:hover { transform: scale(1.02); }
-        .course-page-qr-block:focus-visible { outline: 3px solid #7c5b18; outline-offset: 2px; }
+        .course-page-qr-block:focus-visible { outline: 3px solid #0b5e57; outline-offset: 2px; }
         .course-page-qr-inner {
             display: flex;
             align-items: center;
@@ -501,7 +501,7 @@
         .course-page-qr-label-main {
             font-size: 1.05rem;
             font-weight: 600;
-            color: #7c5b18;
+            color: #0b5e57;
             margin-bottom: 0.25rem;
         }
         .course-page-qr-label-sub {
@@ -519,8 +519,8 @@
             font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
             transition: border-color .15s, background .15s;
         }
-        .course-qr-chip:hover { border-color: #9a7322; background: rgba(154,115,34,.07); }
-        .course-qr-chip:focus-visible { outline: 2px solid #7c5b18; outline-offset: 2px; }
+        .course-qr-chip:hover { border-color: #0f766e; background: rgba(154,115,34,.07); }
+        .course-qr-chip:focus-visible { outline: 2px solid #0b5e57; outline-offset: 2px; }
         .course-qr-chip-thumb { display: inline-flex; width: 26px; height: 26px; border-radius: 5px; overflow: hidden; background: #fff; }
         .course-qr-chip-thumb canvas, .course-qr-chip-thumb img { display: block; width: 26px; height: 26px; }
 
@@ -557,14 +557,14 @@
             margin: 0.25rem 0.35rem 0.25rem 0;
             background: #f4efe3;
             color: #5b21b6;
-            border: 1px solid #b8902f;
+            border: 1px solid #2f9c8f;
             border-radius: 999px;
             font-size: 0.9rem;
             font-weight: 500;
             cursor: pointer;
             transition: background 0.15s, color 0.15s;
         }
-        .course-popup-pill:hover { background: #ddd6fe; color: #7c5b18; }
+        .course-popup-pill:hover { background: #ddd6fe; color: #0b5e57; }
         .course-popup-pill[data-tone="amber"] {
             background: #fef3c7; color: #92400e; border-color: #fde68a;
         }
@@ -623,7 +623,7 @@
         }
         .course-popup-body li { margin-bottom: 0.35rem; }
         .course-popup-body li > p { margin: 0 0 0.35rem; }
-        .course-popup-body a { color: #7c5b18; text-decoration: underline; word-break: break-word; }
+        .course-popup-body a { color: #0b5e57; text-decoration: underline; word-break: break-word; }
         .course-popup-body img { max-width: 100%; height: auto; border-radius: 6px; }
         .course-popup-body pre, .course-popup-body code { word-break: break-word; white-space: pre-wrap; }
         [data-course-popup-content] { display: none; }
@@ -717,7 +717,7 @@
         .made-by{ clear:both; margin:.6rem 0; background:#faf8f3; border:1px solid #e8e0d2; border-radius:8px; padding:.5rem .8rem; }
         .made-by .maker{ font-size:.92rem; margin:.25rem 0; }
         .card-links{ font-size:.85rem; margin-top:.5rem; }
-        .card-links a{ color:#9a7322; text-decoration:none; font-weight:600; }
+        .card-links a{ color:#0f766e; text-decoration:none; font-weight:600; }
         .card-links a:hover{ text-decoration:underline; }
         /* detail cards: per-deck rows with a card thumbnail (alternating sides) */
         .indeck-row{ display:flex; gap:.9rem; align-items:flex-start; margin:.7rem 0; }
@@ -729,7 +729,7 @@
         /* minor (pip/court) cards: prominent rank number + scene + a card image below */
         .minor-card{ margin:.9rem 0; padding:.6rem .75rem; border:1px solid #e8e0d2; border-radius:10px; background:#faf8f3; font-size:.94em; }
         .minor-card .minor-head{ display:flex; align-items:center; gap:.55rem; margin-bottom:.3rem; }
-        .minor-card .rank-num{ display:inline-flex; align-items:center; justify-content:center; min-width:1.9rem; height:1.9rem; padding:0 .4rem; border-radius:8px; background:#9a7322; color:#fff; font-weight:800; font-size:1.1rem; line-height:1; }
+        .minor-card .rank-num{ display:inline-flex; align-items:center; justify-content:center; min-width:1.9rem; height:1.9rem; padding:0 .4rem; border-radius:8px; background:#0f766e; color:#fff; font-weight:800; font-size:1.1rem; line-height:1; }
         .minor-card .minor-img{ margin-top:.45rem; }
         .minor-card .minor-img img{ width:120px; height:194px; object-fit:contain; border-radius:6px; border:1px solid #d8d2c6; background:#faf8f3; display:block; }
 
@@ -758,7 +758,7 @@
 </head>
 <body class="bg-gray-50">
     <!-- recursive-tarot drift: shared dark header instead of the recursive.eco shell. -->
-    <script src="../site-header.js?v=47"></script>
+    <script src="../site-header.js?v=48"></script>
     <site-header active="course"></site-header>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -905,7 +905,7 @@
             const html = items.map(item => {
                 const duration = item.metadata?.duration ? `${item.metadata.duration} min` : '';
                 const url = `?grammar_id=${grammarId}&item=${item.id}`;
-                return `<a href="${url}" class="block p-6 mb-4 bg-white rounded-xl border border-[#e0dacd] hover:border-[#9a7322] shadow-sm transition-all">
+                return `<a href="${url}" class="block p-6 mb-4 bg-white rounded-xl border border-[#e0dacd] hover:border-[#0f766e] shadow-sm transition-all">
                     <h2 class="text-xl font-semibold text-[#221f1a] mb-2">${item.name}</h2>
                     ${duration ? `<span class="text-sm text-[#6b6457]">${duration}</span>` : ''}
                 </a>`;

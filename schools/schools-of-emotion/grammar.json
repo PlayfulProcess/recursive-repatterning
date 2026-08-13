@@ -1,0 +1,158 @@
+{
+  "name": "Schools of Emotion",
+  "description": "The constellation root for Recursive Repatterning. Every branch below is a family of traditions for making sense of feeling - basic-emotion theories, needs-based frameworks, attachment and couples work, skills-based practice, parts and depth psychology, and the historical-scientific record. None of them is presented as the discovery of a fixed biological truth about emotion; the constructionist account (there are no fixed biological fingerprints for discrete emotions) is the substrate this whole library sits on, not one branch among the others. Each branch fills in as its schools are built; an empty branch is left visible on purpose, as a placeholder for work not yet done rather than something hidden.",
+  "grammar_type": "custom",
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "default_preview": "tree",
+  "tags": ["emotions", "psychology", "constellation", "meta-grammar"],
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this constellation grammar and its branch descriptions. No text is copied from any school's own copyrighted sources here - each branch note is original commentary describing what kind of tradition belongs there, not quoting from it."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "branch-constructionist",
+      "name": "Constructionist - the substrate",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 1,
+      "sections": {
+        "What this branch is": "Not a peer school. This is the frame the whole library sits inside: emotions have no fixed biological fingerprints, so every taxonomy in the other branches is a working interface - a usable map - rather than a discovery of natural categories. No schools are built here yet; the substrate's own voice currently lives in this constellation's commentary and in the site's shared assistant framing, not as a drawable deck of its own."
+      },
+      "keywords": ["constructed emotion", "barrett", "substrate"],
+      "metadata": {
+        "branch_id": "constructionist"
+      }
+    },
+    {
+      "id": "branch-basic-emotion",
+      "name": "Basic-Emotion Schools",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 2,
+      "composite_of": ["link-plutchik-wheel"],
+      "sections": {
+        "What this branch is": "Discrete, evolutionarily-primary emotion categories - traditions that name a small fixed set of emotions and treat blends or intensities as built from them. Plutchik's wheel is the first school here; Ekman's basic-emotions work is the natural next addition to this branch."
+      },
+      "keywords": ["basic emotion", "plutchik", "ekman"],
+      "metadata": {
+        "branch_id": "basic-emotion"
+      }
+    },
+    {
+      "id": "branch-needs-based",
+      "name": "Needs-Based Schools",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 3,
+      "sections": {
+        "What this branch is": "Feelings read as signals of a met or unmet need, rather than as fixed categories in themselves. Nonviolent Communication (Rosenberg) is the anchor tradition for this branch; no school is built here yet."
+      },
+      "keywords": ["nvc", "needs", "rosenberg"],
+      "metadata": {
+        "branch_id": "needs-based"
+      }
+    },
+    {
+      "id": "branch-attachment-couples",
+      "name": "Attachment & Couples",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 4,
+      "sections": {
+        "What this branch is": "Emotion read through the lens of a bond between two people - Gottman's couples research, Sue Johnson's Emotionally Focused Therapy, and Bowlby/Ainsworth attachment theory all belong here. No school is built here yet."
+      },
+      "keywords": ["attachment", "gottman", "emotionally focused therapy", "bowlby", "ainsworth"],
+      "metadata": {
+        "branch_id": "attachment-couples"
+      }
+    },
+    {
+      "id": "branch-skills-based",
+      "name": "Skills-Based",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 5,
+      "sections": {
+        "What this branch is": "Traditions built around a practiced skill for working with emotion in the moment, rather than a taxonomy to identify it - Linehan's DBT, behavior activation, and emotion-regulation practice generally. No school is built here yet."
+      },
+      "keywords": ["dbt", "linehan", "behavior activation", "regulation"],
+      "metadata": {
+        "branch_id": "skills-based"
+      }
+    },
+    {
+      "id": "branch-parts-and-depth",
+      "name": "Parts & Depth",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 6,
+      "sections": {
+        "What this branch is": "Traditions that treat the person as made of parts, or emotion as the surface of a deeper structure - Internal Family Systems / parts work, and Jungian archetypal psychology. No school is built here yet."
+      },
+      "keywords": ["ifs", "parts work", "jung", "archetypes"],
+      "metadata": {
+        "branch_id": "parts-and-depth"
+      }
+    },
+    {
+      "id": "branch-historical-scientific",
+      "name": "Historical & Scientific",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 7,
+      "sections": {
+        "What this branch is": "The public-domain foundations of the field's history - Darwin's 1872 The Expression of the Emotions in Man and Animals, and William James's 1890 The Principles of Psychology. No school is built here yet."
+      },
+      "keywords": ["darwin", "james", "history of psychology"],
+      "metadata": {
+        "branch_id": "historical-scientific"
+      }
+    },
+    {
+      "id": "link-plutchik-wheel",
+      "name": "Plutchik's Wheel of Emotions",
+      "category": "school-link",
+      "level": 1,
+      "sort_order": 1,
+      "sections": {
+        "What it is": "Robert Plutchik's 1980 psychoevolutionary model - eight primary emotion families in four opposing pairs, each with three intensities, plus eight blended dyads. Adapted here in an adult, oracle-style register. Held at evidence_tier 'theoretical': the wheel's geometry has no independent empirical confirmation, and the field's 2019 basic-emotion meta-analysis found no reliable biological fingerprint for discrete categories."
+      },
+      "keywords": ["plutchik", "basic emotion", "wheel of emotions"],
+      "metadata": {
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "plutchik-wheel-root",
+        "deck": "Plutchik's Wheel of Emotions",
+        "branch_id": "basic-emotion"
+      }
+    },
+    {
+      "id": "schools-of-emotion-root",
+      "name": "Schools of Emotion",
+      "category": "root",
+      "level": 3,
+      "sort_order": 100,
+      "composite_of": [
+        "branch-constructionist",
+        "branch-basic-emotion",
+        "branch-needs-based",
+        "branch-attachment-couples",
+        "branch-skills-based",
+        "branch-parts-and-depth",
+        "branch-historical-scientific"
+      ],
+      "sections": {
+        "What this is": "The whole constellation: seven branches of tradition for making sense of feeling, sitting on a constructionist substrate rather than on any single branch's claim to have found emotion's true shape. Open a branch to see its schools; open a school to draw from it directly."
+      },
+      "keywords": ["schools of emotion", "constellation", "recursive repatterning"]
+    }
+  ]
+}
