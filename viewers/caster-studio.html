@@ -7,7 +7,7 @@
 <title>Recursive Repatterning — Spread Caster</title>
 <!--
   Self-contained tarot caster for GitHub Pages. No backend.
-  - Pick a DECK (one historical deck, or All Decks = the cross-deck meta) and a SPREAD
+  - Pick a DECK (one historical deck, or Across the schools = the pooled draw) and a SPREAD
     (well-known layouts from spreads.json, incl. the Celtic Cross, or build a Custom one).
   - Cast draws one card per position onto a board laid out by each position's x/y; drag to
     rearrange. Set an intention first via the voices carousel (voices.json).
@@ -368,7 +368,7 @@
   </div>
 
   <div class="note">
-    Data: this repo's <code>schools/all-schools-many-lenses/grammar.json</code> (items + provenance) and <code>viewers/spreads.json</code> (layouts). Cross-school casts sample the whole pool; single-school casts sample one school. Click any item for its Scene &amp; Symbol.
+    Data: this repo's <code>schools/across-the-schools/grammar.json</code> (items + provenance) and <code>viewers/spreads.json</code> (layouts). Cross-school casts sample the whole pool; single-school casts sample one school. Click any item for its Scene &amp; Symbol.
   </div>
 
   <div id="cardDetailModal" class="cdm-backdrop" style="display:none" role="dialog" aria-modal="true">
@@ -391,7 +391,7 @@
 <footer class="site">Public-domain and CC-BY-SA emotion-school data · <a href="https://github.com/PlayfulProcess/recursive-repatterning" target="_blank" rel="noopener">recursive-repatterning</a> · companion to <a href="https://recursive.eco" target="_blank" rel="noopener">recursive.eco</a></footer>
 
 <script>
-const META_URL = '../schools/all-schools-many-lenses/grammar.json';
+const META_URL = '../schools/across-the-schools/grammar.json';
 const ALL = '__all__';
 const FLOW = 'https://flow.recursive.eco';
 
@@ -442,7 +442,7 @@ const mdLite = s => {
           .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
           .replace(/\n/g, '<br>');
 };
-// Cross-deck (All Decks) cast names arrive as "Name — Deck" (or "rank — Name — Deck"). The deck is
+// Cross-school (Across the schools) cast names arrive as "Name — Deck" (or "rank — Name — Deck"). The deck is
 // shown separately in .cdeck, so strip a trailing " — <deck>" so the label reads cleanly under the card.
 const shortCardName = (nm, deck) => { let s = String(nm||'');
   if (deck) { const d = String(deck).replace(/[.*+?^${}()|[\]\\]/g,'\\$&'); s = s.replace(new RegExp('\\s*[—–-]\\s*'+d+'\\s*$'), ''); }
@@ -459,10 +459,10 @@ const $ = id => document.getElementById(id);
   leaves = (meta.items || []).filter(i => !i.composite_of && i.metadata && i.metadata.source_deck && i.metadata.arcana);
   leaves.forEach(c => { (byDeck[c.metadata.source_deck] ||= []).push(c); });
 
-  // Deck dropdown — All Decks first, then each deck (>=3 castable) in chronological order.
+  // Deck dropdown — Across the schools first, then each school (>=3 castable) in chronological order.
   const dsel = $('deck'); dsel.innerHTML = '';
   const optAll = document.createElement('option'); optAll.value = ALL;
-  optAll.textContent = `All Decks — cross-deck draw (${leaves.length} cards)`; dsel.appendChild(optAll);
+  optAll.textContent = `Across the schools — draw from several at once (${leaves.length} items)`; dsel.appendChild(optAll);
   const _yr = d => { const m = String(d.date || d.era || '').match(/\d{4}/); return m ? +m[0] : 9999; };
   [...(meta._decks || [])]
     .sort((a,b) => (a.era_sort ?? 99) - (b.era_sort ?? 99) || _yr(a) - _yr(b) || (a.label||'').localeCompare(b.label||''))
@@ -915,7 +915,7 @@ function cast(){
   if (!positions.length) { alert('Add at least one position.'); return; }
   const n = positions.length;
   const cards = drawN(n);
-  if (cards.length < n){ alert('This deck has only ' + cards.length + ' castable cards — fewer than this spread needs (' + n + '). Try "All Decks" or a larger deck.'); return; }
+  if (cards.length < n){ alert('This school has only ' + cards.length + ' castable items — fewer than this spread needs (' + n + '). Try "Across the schools" or a larger school.'); return; }
   const revProb = (parseInt($('revProb').value,10) || 0) / 100;
   positions.forEach((p, i) => { const c = cards[i], m = c.metadata||{};
     p.card = { name:c.name, deck:(m.deck||deckLabels[m.source_deck]||''), arcana:m.arcana||null, number:(m.number??null),
@@ -953,7 +953,7 @@ function buildCast(){
     spread_id: curSpreadId,
     positions: positions.map((p,i) => ({ n:i+1, label:p.label, meaning:p.meaning, x:Math.round(p.x*1000)/1000, y:Math.round(p.y*1000)/1000 })),
     ...(hasAxes() ? { axes: { rows: axes.rows.slice(), cols: axes.cols.slice() } } : {}),
-    deck: deckVal===ALL ? 'All Decks (cross-deck)' : (deckLabels[deckVal]||deckVal),
+    deck: deckVal===ALL ? 'Across the schools' : (deckLabels[deckVal]||deckVal),
     cast_at: new Date().toISOString(),
     question: $('question').value.trim() || null,
     cards: positions.map((p,i) => Object.assign({ position:p.label, prompt:p.meaning }, p.card || {})),

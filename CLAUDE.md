@@ -23,6 +23,16 @@
 5. **"EFT" is two different frameworks.** Sue Johnson's *Emotionally* Focused Therapy
    (couples, attachment) and Leslie Greenberg's *Emotion*-Focused Therapy (individual,
    experiential) are different people and different models. Always disambiguate.
+6. **No totalising claims. Never say "all".** This library holds a handful of the ways
+   people have organised feeling and could never hold them all — there is no complete
+   set. Do not name anything "All Schools", "The Complete X", "Every Y", and do not
+   imply the collection is exhaustive, settled, or harmonised. A library whose founding
+   claim is that emotion categories are *constructed and partial* cannot then present
+   itself as the finished catalogue of them; that would be the same overreach it exists
+   to refuse. Name things for what they **do** ("Across the Schools") rather than for
+   what they would have to **contain**. This applies to grammar names, page copy, nav
+   labels, and descriptions alike. When in doubt, scope the claim explicitly: "the
+   schools currently in this library", not "the schools".
 
 ## Honesty by construction — two required metadata conventions
 
@@ -52,7 +62,7 @@
 ## Core architecture
 
 - Grammar files live in `schools/<slug>/grammar.json`. Never hand-edit
-  `schools/all-schools-many-lenses/grammar.json` — it is generated.
+  `schools/across-the-schools/grammar.json` — it is generated.
 - Always run `python scripts/check_all.py` before committing. Must end "all checks
   passed" with `dangling=0`.
 - After any grammar edit: `python scripts/build_meta_grammar.py`, then check_all again.

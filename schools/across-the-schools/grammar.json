@@ -2,8 +2,8 @@
   "_generated": true,
   "_generated_by": "scripts/build_meta_grammar.py",
   "_note": "GENERATED — do not hand-edit. Rebuild with `python scripts/build_meta_grammar.py`. Edits belong in the individual school under schools/<slug>/grammar.json.",
-  "name": "All Schools, Many Lenses",
-  "description": "Every drawable item from every school in this library, pooled into one grammar so a reading can sample across traditions at once. Each item links back to the school it came from and keeps that school's own words — the pooling is for reach, not for flattening them into a single house taxonomy.",
+  "name": "Across the Schools",
+  "description": "The drawable items from the schools currently in this library, pooled into one grammar so a reading can sample across several at once. This is a partial collection and always will be — there is no complete set of the ways people have organised feeling. Each item links back to the school it came from and keeps that school's own words; the pooling is for reach, not for flattening them into a single house taxonomy.",
   "grammar_type": "tarot",
   "tags": [
     "emotions",

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Rebuild schools/all-schools-many-lenses/grammar.json — the aggregator.
+Rebuild schools/across-the-schools/grammar.json — the aggregator.
 
 This replaces the tarot-era script of the same name, which resolved ROOT/"tarot"
 as its data folder and carried a large hand-maintained table of tarot deck
@@ -36,7 +36,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, ".."))
 SCHOOLS = os.path.join(ROOT, "schools")
-OUT_SLUG = "all-schools-many-lenses"
+OUT_SLUG = "across-the-schools"
 OUT = os.path.join(SCHOOLS, OUT_SLUG, "grammar.json")
 
 # Hand-authored; generating over it would destroy real content.
@@ -106,13 +106,20 @@ def build():
             "`python scripts/build_meta_grammar.py`. Edits belong in the "
             "individual school under schools/<slug>/grammar.json."
         ),
-        "name": "All Schools, Many Lenses",
+        # Deliberately NOT "all schools" — this library holds a handful of the
+        # ways people have organised feeling, and could never hold them all.
+        # Claiming completeness would be the same overreach the library exists
+        # to refuse. Name it for what it does (reads across) not for what it
+        # would have to contain.
+        "name": "Across the Schools",
         "description": (
-            "Every drawable item from every school in this library, pooled into "
-            "one grammar so a reading can sample across traditions at once. Each "
-            "item links back to the school it came from and keeps that school's "
-            "own words — the pooling is for reach, not for flattening them into "
-            "a single house taxonomy."
+            "The drawable items from the schools currently in this library, "
+            "pooled into one grammar so a reading can sample across several at "
+            "once. This is a partial collection and always will be — there is no "
+            "complete set of the ways people have organised feeling. Each item "
+            "links back to the school it came from and keeps that school's own "
+            "words; the pooling is for reach, not for flattening them into a "
+            "single house taxonomy."
         ),
         "grammar_type": "tarot",
         "tags": ["emotions", "meta", "generated"],

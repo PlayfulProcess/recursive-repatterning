@@ -18,7 +18,7 @@
   "grammars": {
     "paths": ["schools/*/grammar.json"],
     "exclude": [
-      "schools/all-schools-many-lenses/grammar.json",
+      "schools/across-the-schools/grammar.json",
       "schools/schools-of-emotion/grammar.json"
     ],
     "_exclude_note": "The constellation meta-grammar and the generated many-lenses grammar are apparatus (provenance:reference), not castable content. Only complete school grammars are imported as channel members; drafts and stubs are skipped on import.",

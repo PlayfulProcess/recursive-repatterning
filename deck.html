@@ -41,7 +41,7 @@
     var cover = g.cover_image_url
       ? '<div class="cover" style="background-image:url(' + "'" + g.cover_image_url.replace(/'/g,'%27') + "'" + ')"></div>'
       : '';
-    var head = '<a class="back" href="index.html">← All schools</a>' +
+    var head = '<a class="back" href="index.html">← The schools</a>' +
       '<div class="deckhead">' + cover +
       '<div class="info"><h1>' + RT.esc(g.name) + '</h1>' +
       '<div class="desc">' + RT.md(shorten(g.description, 900)) + '</div></div></div>';

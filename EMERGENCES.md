@@ -51,7 +51,7 @@ that has one. That's the whole type system. Because the shape is uniform:
 In this repo:
 
 - **Decks** = the source of truth (a card's text, image, sourced claims, dating).
-- **The meta-grammar** (`schools/all-schools-many-lenses/grammar.json`) = a **generated
+- **The meta-grammar** (`schools/across-the-schools/grammar.json`) = a **generated
   projection** over the decks, rebuilt idempotently by
   [`scripts/build_meta_grammar.py`](scripts/build_meta_grammar.py). To correct a
   card, edit its **deck**; the meta re-derives on the next build. Never hand-edit the

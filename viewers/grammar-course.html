@@ -99,7 +99,7 @@
 <script>
   const $ = id => document.getElementById(id);
   const qs = new URLSearchParams(location.search);
-  const SRC = qs.get('src') || '../schools/all-schools-many-lenses/grammar.json';
+  const SRC = qs.get('src') || '../schools/across-the-schools/grammar.json';
   let GRAMMAR = null, groupField = qs.get('group') || '';
 
   const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));

@@ -43,7 +43,7 @@ def _expand_essay():
     """<div data-embed="essay"> → the meta-grammar's 'Divination Question' essay, baked as
     markdown into the lesson (it's text, so we inline it; the card galleries are different —
     they're computed aggregations and belong in the renderer, not baked here)."""
-    p = os.path.join(ROOT, "tarot", "all-schools-many-lenses", "grammar.json")
+    p = os.path.join(ROOT, "tarot", "across-the-schools", "grammar.json")
     try:
         mg = json.load(io.open(p, encoding="utf-8"))
     except Exception:

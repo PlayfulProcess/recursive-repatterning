@@ -8,7 +8,7 @@
 <!--
   Self-contained visual catalogue for the recursive-repatterning repo.
   - No build, no server needed to VIEW: a single file + the committed meta JSON.
-  - Data-driven: reads schools/all-schools-many-lenses/grammar.json (its `_decks` index).
+  - Data-driven: reads schools/across-the-schools/grammar.json (its `_decks` index).
     Add a deck folder respecting the structure + rebuild the meta → it appears here.
   - Cytoscape.js (MIT) from CDN — used, not forked.
   - Honest edges: simplified lineage = trump-order (Dummett A/B/C) + chronology,
@@ -87,9 +87,9 @@
   <div id="cy"><div id="cy-error"></div></div>
   <aside id="panel"><div class="empty">Loading the catalogue…</div></aside>
 </div>
-<div class="note">Edges are simplified lineage (trump-order + chronology), not a claim of exact deck-to-deck derivation. The dashed purple edge marks the post-1781 occult turn off the C-order. Data: this repo's <code>schools/all-schools-many-lenses/grammar.json</code>.</div>
+<div class="note">Edges are simplified lineage (trump-order + chronology), not a claim of exact deck-to-deck derivation. The dashed purple edge marks the post-1781 occult turn off the C-order. Data: this repo's <code>schools/across-the-schools/grammar.json</code>.</div>
 <script>
-const META_URL = 'schools/all-schools-many-lenses/grammar.json';
+const META_URL = 'schools/across-the-schools/grammar.json';
 // "tier" = ancestor status (upstream) OR tarot trump-order. Ancestors share the top lane.
 const TIER = { 'direct-ancestor':'#9a7322', 'ancestral':'#c9a227', 'cousin':'#8d99ae',
   A:'#e07a5f', B:'#81b29a', C:'#5c6bc0', occult:'#9c47d1' };

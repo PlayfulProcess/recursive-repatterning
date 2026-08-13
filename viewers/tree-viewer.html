@@ -925,7 +925,7 @@
             grammarType = params.get('type') || 'tarot';
             const githubPath = params.get('github');
             // Static mode: default to the repo's meta-grammar when no source is given.
-            let srcUrl = params.get('src') || (!grammarId && !githubPath ? '../schools/all-schools-many-lenses/grammar.json' : '');
+            let srcUrl = params.get('src') || (!grammarId && !githubPath ? '../schools/across-the-schools/grammar.json' : '');
 
             // ?id= used to fall through to GrammarLoader.loadFromSupabase, which on THIS
             // site talks to the no-op stub client declared at the top of the file — so it
