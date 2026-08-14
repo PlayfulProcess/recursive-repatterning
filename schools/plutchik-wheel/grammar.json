@@ -2,6 +2,7 @@
   "name": "Plutchik's Wheel of Emotions",
   "description": "Robert Plutchik's 1980 psychoevolutionary model of emotion, adapted here for adult, oracle-style use. Eight primary emotion families - joy, trust, fear, surprise, sadness, disgust, anger, and anticipation - sit in four opposing pairs, each admitting a mild, moderate, and intense form (apprehension to fear to terror). Adjacent families blend into eight named dyads (love, submission, awe, disapproval, remorse, contempt, aggressiveness, optimism). Draw a card as a vocabulary prompt for naming what you're already feeling, not as a diagnosis of what you must be feeling.",
   "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+  "image_credit": "The cover diagram is the Wikimedia Plutchik-wheel SVG, kept as the deck-level cover since it is an honest picture of the wheel itself. Per-item images have been diversified for 7 of the 8 primary families (all three intensities plus the family composite share one image per family) — Darwin's 1872 plates for fear/surprise/sadness/disgust/anger (Wellcome Collection, CC BY 4.0, attributed per item), a Ragamala painting for trust, and a Noh mask for joy (both public domain / CC0) — rather than one diagram repeated for every item. The anticipation family and the eight dyads (love, submission, awe, disapproval, remorse, contempt, aggressiveness, optimism) still point at the generic wheel diagram: no confidently period-appropriate or well-licensed candidate was found for anticipation in the time available, and individually illustrating eight dyads was out of scope for this pass. See each diversified item's metadata.image_credit for its specific source.",
   "tags": ["emotions", "psychology", "plutchik", "basic-emotion", "wheel-of-emotions"],
   "grammar_type": "tarot",
   "creator_name": "PlayfulProcess",
@@ -27,7 +28,7 @@
       "id": "ecstasy",
       "name": "Ecstasy",
       "symbol": "🌟",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "sections": {
         "Interpretation": "You are experiencing or ready to experience profound joy. This is the height of positive emotion - a state of rapture and bliss. Ecstasy arrives when deep needs are met completely. It cannot be sustained but can be savored.",
         "Reversed": "Manic energy without grounding. Chasing highs. Fear of ordinary contentment. What would it mean to let simple joy be enough?",
@@ -45,14 +46,16 @@
         "emotion_key": "joy",
         "opposite_id": "grief",
         "milder_id": "joy",
-        "dyad_ids": ["love", "optimism"]
+        "dyad_ids": ["love", "optimism"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern."
       }
     },
     {
       "id": "joy",
       "name": "Joy",
       "symbol": "😊",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "sections": {
         "Interpretation": "Joy signals that something life-enhancing is present. Plutchik saw joy as the emotion of incorporation - taking in what nourishes us. This is your birthright as a living being. What is bringing you joy?",
         "Reversed": "Joy suppressed or denied. Guilt about feeling good. Waiting for permission to be happy. Joy is not earned - it is recognized.",
@@ -71,14 +74,16 @@
         "opposite_id": "sadness",
         "intense_id": "ecstasy",
         "milder_id": "serenity",
-        "dyad_ids": ["love", "optimism"]
+        "dyad_ids": ["love", "optimism"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern."
       }
     },
     {
       "id": "serenity",
       "name": "Serenity",
       "symbol": "😌",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "sections": {
         "Interpretation": "Serenity is joy without urgency. A quiet okayness with what is. This gentle state is sustainable where ecstasy is not. Serenity comes when we stop fighting life.",
         "Reversed": "Complacency mistaken for peace. Avoiding intensity. Serenity is not numbness - check if you're feeling or just coping.",
@@ -95,14 +100,16 @@
         "base_emotion": "joy",
         "emotion_key": "joy",
         "opposite_id": "pensiveness",
-        "intense_id": "joy"
+        "intense_id": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern."
       }
     },
     {
       "id": "admiration",
       "name": "Admiration",
       "symbol": "🙏",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "sections": {
         "Interpretation": "Admiration is trust at its height. You see excellence, goodness, or beauty in someone or something. This emotion opens us to learning and growth. Who or what do you admire?",
         "Reversed": "Idealization that ignores reality. Putting others on pedestals. Admiration can become projection - are you seeing them or your own unlived qualities?",
@@ -120,14 +127,16 @@
         "emotion_key": "trust",
         "opposite_id": "loathing",
         "milder_id": "trust",
-        "dyad_ids": ["love", "submission"]
+        "dyad_ids": ["love", "submission"],
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family."
       }
     },
     {
       "id": "trust",
       "name": "Trust",
       "symbol": "🤝",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "sections": {
         "Interpretation": "Trust is the foundation of all relationship. Plutchik linked it to cooperation and mutual aid - essential for social species. Trust says 'I can rely on you.' Where is trust present or needed?",
         "Reversed": "Naive trust without discernment. Or trust withheld from fear of betrayal. Both extremes cost us. Trust is a skill, not just a feeling.",
@@ -146,14 +155,16 @@
         "opposite_id": "disgust",
         "intense_id": "admiration",
         "milder_id": "acceptance",
-        "dyad_ids": ["love", "submission"]
+        "dyad_ids": ["love", "submission"],
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family."
       }
     },
     {
       "id": "acceptance",
       "name": "Acceptance",
       "symbol": "🫦",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "sections": {
         "Interpretation": "Acceptance is trust without intensity. A willingness to receive what comes. This isn't resignation but a soft yes to reality. Acceptance creates space for change.",
         "Reversed": "Passive acceptance of what should be challenged. Not all situations deserve acceptance. Discern between peace and permission.",
@@ -170,14 +181,16 @@
         "base_emotion": "trust",
         "emotion_key": "trust",
         "opposite_id": "boredom",
-        "intense_id": "trust"
+        "intense_id": "trust",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family."
       }
     },
     {
       "id": "terror",
       "name": "Terror",
       "symbol": "😱",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "sections": {
         "Interpretation": "Terror is fear beyond coping. The threat feels total. This ancient response helped ancestors survive predators. If terror visits you, find safety first - then process. The body remembers.",
         "Reversed": "Terror that has lost its object but not its grip. Trauma echoes. Chronic terror needs gentle, supported healing.",
@@ -195,14 +208,16 @@
         "emotion_key": "fear",
         "opposite_id": "rage",
         "milder_id": "fear",
-        "dyad_ids": ["awe", "submission"]
+        "dyad_ids": ["awe", "submission"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct."
       }
     },
     {
       "id": "fear",
       "name": "Fear",
       "symbol": "😨",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "sections": {
         "Interpretation": "Fear protects. It signals danger and prepares us to respond. Plutchik saw fear across all species - it's ancient wisdom. Fear asks: what needs protection? Honor it, then assess the actual threat.",
         "Reversed": "Fear running the show. Threat detection without resolution. Fear is information, not a life sentence. What would courage look like here?",
@@ -221,14 +236,16 @@
         "opposite_id": "anger",
         "intense_id": "terror",
         "milder_id": "apprehension",
-        "dyad_ids": ["awe", "submission"]
+        "dyad_ids": ["awe", "submission"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct."
       }
     },
     {
       "id": "apprehension",
       "name": "Apprehension",
       "symbol": "😟",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "sections": {
         "Interpretation": "Apprehension is fear's quiet voice. Something feels slightly off. This subtle signal is easy to override but worth heeding. Apprehension asks for attention, not alarm.",
         "Reversed": "Chronic low-grade anxiety. Apprehension that never resolves. Sometimes we must act despite unease. Distinguish signal from noise.",
@@ -245,14 +262,16 @@
         "base_emotion": "fear",
         "emotion_key": "fear",
         "opposite_id": "annoyance",
-        "intense_id": "fear"
+        "intense_id": "fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct."
       }
     },
     {
       "id": "amazement",
       "name": "Amazement",
       "symbol": "🤩",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "sections": {
         "Interpretation": "Amazement stops time. Reality has exceeded your model of it. This is the emotion of encountering the truly new. Let amazement reorganize you.",
         "Reversed": "Addicted to novelty. Ordinary life feels flat without amazement. The extraordinary is found within the ordinary, if you look.",
@@ -270,14 +289,16 @@
         "emotion_key": "surprise",
         "opposite_id": "vigilance",
         "milder_id": "surprise",
-        "dyad_ids": ["awe", "disapproval"]
+        "dyad_ids": ["awe", "disapproval"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "surprise",
       "name": "Surprise",
       "symbol": "😮",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "sections": {
         "Interpretation": "Surprise signals that something unexpected has occurred. It's neutral - the content determines if we shift to joy or fear. Surprise is the brain updating its predictions. What surprised you?",
         "Reversed": "Nothing surprises anymore - either through rigidity or exhaustion. Life has lost its capacity to catch you off guard. Invite the unexpected.",
@@ -296,14 +317,16 @@
         "opposite_id": "anticipation",
         "intense_id": "amazement",
         "milder_id": "distraction",
-        "dyad_ids": ["awe", "disapproval"]
+        "dyad_ids": ["awe", "disapproval"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "distraction",
       "name": "Distraction",
       "symbol": "🫤",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "sections": {
         "Interpretation": "Distraction is surprise's whisper. Something catches your attention briefly. This can be noise or signal. Distraction may be pointing toward something worth noticing.",
         "Reversed": "Chronic distraction without focus. Attention scattered. Not all distractions deserve following. What truly warrants your attention?",
@@ -320,14 +343,16 @@
         "base_emotion": "surprise",
         "emotion_key": "surprise",
         "opposite_id": "interest",
-        "intense_id": "surprise"
+        "intense_id": "surprise",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "grief",
       "name": "Grief",
       "symbol": "😭",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "sections": {
         "Interpretation": "Grief is love with nowhere to go. It honors what mattered. Plutchik saw sadness as the call for comfort and reconnection. Grief needs witnessing, not fixing.",
         "Reversed": "Grief stuck or avoided. Unmetabolized loss. Grief that doesn't move becomes depression. What loss needs mourning?",
@@ -345,14 +370,16 @@
         "emotion_key": "sadness",
         "opposite_id": "ecstasy",
         "milder_id": "sadness",
-        "dyad_ids": ["remorse", "disapproval"]
+        "dyad_ids": ["remorse", "disapproval"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "sadness",
       "name": "Sadness",
       "symbol": "😢",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "sections": {
         "Interpretation": "Sadness signals loss or absence. Something needed is missing. This emotion draws others toward us with compassion. Sadness is how we honor what matters. What do you miss?",
         "Reversed": "Sadness denied or indulged. Neither helps. Sadness asks to be felt and then to move. Are you feeling it or fighting it?",
@@ -371,14 +398,16 @@
         "opposite_id": "joy",
         "intense_id": "grief",
         "milder_id": "pensiveness",
-        "dyad_ids": ["remorse", "disapproval"]
+        "dyad_ids": ["remorse", "disapproval"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "pensiveness",
       "name": "Pensiveness",
       "symbol": "😔",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "sections": {
         "Interpretation": "Pensiveness is sadness's soft form. A wistful awareness of impermanence. This gentle melancholy can deepen appreciation for what is. There is beauty in pensiveness.",
         "Reversed": "Wallowing in low-grade sadness. Romanticizing melancholy. Pensiveness is a visitor, not a residence. What would lift you slightly?",
@@ -395,14 +424,16 @@
         "base_emotion": "sadness",
         "emotion_key": "sadness",
         "opposite_id": "serenity",
-        "intense_id": "sadness"
+        "intense_id": "sadness",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "loathing",
       "name": "Loathing",
       "symbol": "🤢",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "sections": {
         "Interpretation": "Loathing is total rejection. Something feels fundamentally wrong or contaminating. This intense disgust protects boundaries but can also poison the one who feels it.",
         "Reversed": "Self-loathing turned inward. Loathing that has become identity. No one deserves to live in loathing - including yourself.",
@@ -420,14 +451,16 @@
         "emotion_key": "disgust",
         "opposite_id": "admiration",
         "milder_id": "disgust",
-        "dyad_ids": ["contempt", "remorse"]
+        "dyad_ids": ["contempt", "remorse"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "disgust",
       "name": "Disgust",
       "symbol": "😖",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "sections": {
         "Interpretation": "Disgust pushes away what is harmful or contaminating. Plutchik saw it as rejection - the opposite of incorporation. Disgust protects, but examine what you're rejecting and why.",
         "Reversed": "Disgust turned rigid or arbitrary. Rejecting too much. Disgust can become prejudice if unexamined. Is this protecting you or isolating you?",
@@ -446,14 +479,16 @@
         "opposite_id": "trust",
         "intense_id": "loathing",
         "milder_id": "boredom",
-        "dyad_ids": ["contempt", "remorse"]
+        "dyad_ids": ["contempt", "remorse"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "boredom",
       "name": "Boredom",
       "symbol": "😑",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "sections": {
         "Interpretation": "Boredom is quiet rejection. Something fails to engage you. This can signal misalignment - you're in the wrong place. Or it can be an invitation to bring your own meaning.",
         "Reversed": "Chronic boredom as a way of life. Everything irritates. This may signal deeper unmet needs beneath the surface irritation.",
@@ -470,14 +505,16 @@
         "base_emotion": "disgust",
         "emotion_key": "disgust",
         "opposite_id": "acceptance",
-        "intense_id": "disgust"
+        "intense_id": "disgust",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
       "id": "rage",
       "name": "Rage",
       "symbol": "🤬",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "sections": {
         "Interpretation": "Rage is anger beyond containment. Something important has been violated. This raw power needs safe expression - rage turned inward or outward carelessly causes damage.",
         "Reversed": "Rage that has become chronic or identity. Rage covering vulnerability. What wound lives beneath this rage?",
@@ -495,14 +532,16 @@
         "emotion_key": "anger",
         "opposite_id": "terror",
         "milder_id": "anger",
-        "dyad_ids": ["contempt", "aggressiveness"]
+        "dyad_ids": ["contempt", "aggressiveness"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit."
       }
     },
     {
       "id": "anger",
       "name": "Anger",
       "symbol": "😠",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "sections": {
         "Interpretation": "Anger signals that a boundary has been crossed or an injustice occurred. Plutchik linked it to destruction of obstacles. Anger is information about what matters. What boundary needs defending?",
         "Reversed": "Anger suppressed or chronic. Neither serves. Anger needs expression and resolution. What request or boundary would address this?",
@@ -521,14 +560,16 @@
         "opposite_id": "fear",
         "intense_id": "rage",
         "milder_id": "annoyance",
-        "dyad_ids": ["contempt", "aggressiveness"]
+        "dyad_ids": ["contempt", "aggressiveness"],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit."
       }
     },
     {
       "id": "annoyance",
       "name": "Annoyance",
       "symbol": "😒",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "sections": {
         "Interpretation": "Annoyance is anger's whisper. Small frictions accumulate here. Pay attention before annoyance builds. What small adjustment would help?",
         "Reversed": "Chronic annoyance as a way of life. Everything irritates. This may signal deeper unmet needs beneath the surface irritation.",
@@ -545,7 +586,9 @@
         "base_emotion": "anger",
         "emotion_key": "anger",
         "opposite_id": "apprehension",
-        "intense_id": "anger"
+        "intense_id": "anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit."
       }
     },
     {
@@ -839,8 +882,11 @@
         "axis": "joy-sadness",
         "base_emotion": "joy",
         "emotion_key": "joy",
-        "opposite_family": "family-sadness"
-      }
+        "opposite_family": "family-sadness",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg"
     },
     {
       "id": "family-trust",
@@ -858,8 +904,11 @@
         "axis": "trust-disgust",
         "base_emotion": "trust",
         "emotion_key": "trust",
-        "opposite_family": "family-disgust"
-      }
+        "opposite_family": "family-disgust",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family."
+      },
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop"
     },
     {
       "id": "family-fear",
@@ -877,8 +926,11 @@
         "axis": "fear-anger",
         "base_emotion": "fear",
         "emotion_key": "fear",
-        "opposite_family": "family-anger"
-      }
+        "opposite_family": "family-anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg"
     },
     {
       "id": "family-surprise",
@@ -896,8 +948,11 @@
         "axis": "surprise-anticipation",
         "base_emotion": "surprise",
         "emotion_key": "surprise",
-        "opposite_family": "family-anticipation"
-      }
+        "opposite_family": "family-anticipation",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg"
     },
     {
       "id": "family-sadness",
@@ -915,8 +970,11 @@
         "axis": "joy-sadness",
         "base_emotion": "sadness",
         "emotion_key": "sadness",
-        "opposite_family": "family-joy"
-      }
+        "opposite_family": "family-joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg"
     },
     {
       "id": "family-disgust",
@@ -934,8 +992,11 @@
         "axis": "trust-disgust",
         "base_emotion": "disgust",
         "emotion_key": "disgust",
-        "opposite_family": "family-trust"
-      }
+        "opposite_family": "family-trust",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg"
     },
     {
       "id": "family-anger",
@@ -953,8 +1014,11 @@
         "axis": "fear-anger",
         "base_emotion": "anger",
         "emotion_key": "anger",
-        "opposite_family": "family-fear"
-      }
+        "opposite_family": "family-fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg"
     },
     {
       "id": "family-anticipation",
@@ -981,16 +1045,7 @@
       "category": "root",
       "level": 3,
       "sort_order": 41,
-      "composite_of": [
-        "family-joy",
-        "family-trust",
-        "family-fear",
-        "family-surprise",
-        "family-sadness",
-        "family-disgust",
-        "family-anger",
-        "family-anticipation"
-      ],
+      "composite_of": ["family-joy", "family-trust", "family-fear", "family-surprise", "family-sadness", "family-disgust", "family-anger", "family-anticipation"],
       "sections": {
         "Definition": "Robert Plutchik's 1980 psychoevolutionary model proposes eight primary emotion families, arranged as four opposing pairs: joy/sadness, trust/disgust, fear/anger, and anticipation/surprise. Each family admits a mild, moderate, and intense form. Plutchik argued these eight are evolved responses shared, in some form, across many species - each solving a recurring survival problem (incorporation, rejection, protection, destruction, reproduction, reintegration, orientation, exploration). Emotion families that sit next to each other on the wheel are proposed to blend into a compound 'dyad' - joy next to trust gives love, fear next to surprise gives awe, and so on for all eight dyads in this deck.",
         "Research note": "The wheel's geometry - why these eight opposites, and why these particular adjacency-dyads rather than others - is Plutchik's own theoretical proposal. It has not been independently replicated as a structural fact about emotion; no study has shown that these eight families, arranged in these pairs, are the categories a body or brain actually uses. More broadly, a 2019 meta-analysis by Lisa Feldman Barrett, Ralph Adolphs, Stacy Marsella, Aleix Martinez, and Seth Pollak, published in Psychological Science in the Public Interest, reviewed the evidence for discrete emotion categories having reliable, specific facial or physiological signatures and found none - people in a given emotion category show highly variable facial and bodily patterns, not a fixed fingerprint. That finding applies directly to the basic-emotion premise this wheel is built on.",

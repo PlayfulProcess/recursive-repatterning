@@ -84,8 +84,10 @@
         "arousal",
         "substrate"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Valence-Arousal_Circumplex.jpg",
       "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Valence-Arousal_Circumplex.jpg",
+        "image_credit": "Valence-Arousal Circumplex diagram, illustrating James A. Russell's 1980 model this item's own Research note cites — Wikimedia Commons, CC BY 3.0 (attribution: imagine-it.org / GAMES survey project).",
         "source_deck": "constructed-emotion",
         "source_item_id": "core-affect",
         "deck": "Constructed Emotion — the Substrate"
@@ -106,8 +108,10 @@
         "body budget",
         "substrate"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gray806.png",
       "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Gray806.png",
+        "image_credit": "\"The phrenic nerve and its relations with the vagus nerve\", Gray's Anatomy (1918, US edition) — Wikimedia Commons, public domain. The vagus nerve carries the visceral afferent signals central to interoception theory.",
         "source_deck": "constructed-emotion",
         "source_item_id": "interoception",
         "deck": "Constructed Emotion — the Substrate"
@@ -195,7 +199,7 @@
         "bliss",
         "elation"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "intense",
@@ -207,6 +211,8 @@
           "love",
           "optimism"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "ecstasy",
         "deck": "Plutchik's Wheel of Emotions"
@@ -227,7 +233,7 @@
         "pleasure",
         "delight"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "moderate",
@@ -240,6 +246,8 @@
           "love",
           "optimism"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "joy",
         "deck": "Plutchik's Wheel of Emotions"
@@ -260,7 +268,7 @@
         "content",
         "tranquil"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "mild",
@@ -268,6 +276,8 @@
         "emotion_key": "joy",
         "opposite_id": "pensiveness",
         "intense_id": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+        "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "serenity",
         "deck": "Plutchik's Wheel of Emotions"
@@ -288,7 +298,7 @@
         "awe",
         "worship"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "intense",
@@ -300,6 +310,8 @@
           "love",
           "submission"
         ],
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "admiration",
         "deck": "Plutchik's Wheel of Emotions"
@@ -320,7 +332,7 @@
         "faith",
         "belief"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "moderate",
@@ -333,6 +345,8 @@
           "love",
           "submission"
         ],
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "trust",
         "deck": "Plutchik's Wheel of Emotions"
@@ -353,7 +367,7 @@
         "allowing",
         "tolerance"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "mild",
@@ -361,6 +375,8 @@
         "emotion_key": "trust",
         "opposite_id": "boredom",
         "intense_id": "trust",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
+        "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "acceptance",
         "deck": "Plutchik's Wheel of Emotions"
@@ -381,7 +397,7 @@
         "dread",
         "fright"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "intense",
@@ -393,6 +409,8 @@
           "awe",
           "submission"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "terror",
         "deck": "Plutchik's Wheel of Emotions"
@@ -413,7 +431,7 @@
         "worried",
         "threatened"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "moderate",
@@ -426,6 +444,8 @@
           "awe",
           "submission"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "fear",
         "deck": "Plutchik's Wheel of Emotions"
@@ -446,7 +466,7 @@
         "worried",
         "concerned"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "mild",
@@ -454,6 +474,8 @@
         "emotion_key": "fear",
         "opposite_id": "annoyance",
         "intense_id": "fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "apprehension",
         "deck": "Plutchik's Wheel of Emotions"
@@ -474,7 +496,7 @@
         "awestruck",
         "wonder"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "metadata": {
         "axis": "surprise-anticipation",
         "intensity": "intense",
@@ -486,6 +508,8 @@
           "awe",
           "disapproval"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "amazement",
         "deck": "Plutchik's Wheel of Emotions"
@@ -505,7 +529,7 @@
         "unexpected",
         "caught off guard"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "metadata": {
         "axis": "surprise-anticipation",
         "intensity": "moderate",
@@ -518,6 +542,8 @@
           "awe",
           "disapproval"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "surprise",
         "deck": "Plutchik's Wheel of Emotions"
@@ -537,7 +563,7 @@
         "sidetracked",
         "unfocused"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
       "metadata": {
         "axis": "surprise-anticipation",
         "intensity": "mild",
@@ -545,6 +571,8 @@
         "emotion_key": "surprise",
         "opposite_id": "interest",
         "intense_id": "surprise",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
+        "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "distraction",
         "deck": "Plutchik's Wheel of Emotions"
@@ -565,7 +593,7 @@
         "heartbreak",
         "mourning"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "intense",
@@ -577,6 +605,8 @@
           "remorse",
           "disapproval"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "grief",
         "deck": "Plutchik's Wheel of Emotions"
@@ -597,7 +627,7 @@
         "dejected",
         "down"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "moderate",
@@ -610,6 +640,8 @@
           "remorse",
           "disapproval"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "sadness",
         "deck": "Plutchik's Wheel of Emotions"
@@ -630,7 +662,7 @@
         "reflective",
         "blue"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "metadata": {
         "axis": "joy-sadness",
         "intensity": "mild",
@@ -638,6 +670,8 @@
         "emotion_key": "sadness",
         "opposite_id": "serenity",
         "intense_id": "sadness",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "pensiveness",
         "deck": "Plutchik's Wheel of Emotions"
@@ -658,7 +692,7 @@
         "hatred",
         "repugnance"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "intense",
@@ -670,6 +704,8 @@
           "contempt",
           "remorse"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "loathing",
         "deck": "Plutchik's Wheel of Emotions"
@@ -690,7 +726,7 @@
         "offended",
         "sickened"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "moderate",
@@ -703,6 +739,8 @@
           "contempt",
           "remorse"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "disgust",
         "deck": "Plutchik's Wheel of Emotions"
@@ -723,7 +761,7 @@
         "weary",
         "apathetic"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
       "metadata": {
         "axis": "trust-disgust",
         "intensity": "mild",
@@ -731,6 +769,8 @@
         "emotion_key": "disgust",
         "opposite_id": "acceptance",
         "intense_id": "disgust",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
+        "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
         "source_item_id": "boredom",
         "deck": "Plutchik's Wheel of Emotions"
@@ -751,7 +791,7 @@
         "outrage",
         "violent anger"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "intense",
@@ -763,6 +803,8 @@
           "contempt",
           "aggressiveness"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "rage",
         "deck": "Plutchik's Wheel of Emotions"
@@ -783,7 +825,7 @@
         "frustrated",
         "hostile"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "moderate",
@@ -796,6 +838,8 @@
           "contempt",
           "aggressiveness"
         ],
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "anger",
         "deck": "Plutchik's Wheel of Emotions"
@@ -816,7 +860,7 @@
         "peeved",
         "vexed"
       ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "metadata": {
         "axis": "fear-anger",
         "intensity": "mild",
@@ -824,6 +868,8 @@
         "emotion_key": "anger",
         "opposite_id": "apprehension",
         "intense_id": "anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
         "source_item_id": "annoyance",
         "deck": "Plutchik's Wheel of Emotions"
@@ -1179,9 +1225,11 @@
         "rhetoric",
         "aristotle"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP116941.jpg",
       "metadata": {
         "emotion_key": "anger",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247964",
+        "image_credit": "Terracotta volute-krater with battle scene (Amazonomachy), Greek, Attic, ca. 450 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
         "source_item_id": "aristotle-orge",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1201,9 +1249,11 @@
         "compassion",
         "rhetoric"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT281.jpg",
       "metadata": {
         "emotion_key": "pity",
+        "image_source": "https://www.metmuseum.org/art/collection/search/248483",
+        "image_credit": "Marble grave stele with a family group, Greek, Attic, ca. 360 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
         "source_item_id": "aristotle-eleos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1223,9 +1273,11 @@
         "stoicism",
         "pathe"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT6206.jpg",
       "metadata": {
         "emotion_key": "distress",
+        "image_source": "https://www.metmuseum.org/art/collection/search/255949",
+        "image_credit": "Terracotta lekythos (oil flask), tomb scene, Greek, Attic, ca. 440 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). White-ground lekythoi of this type were funerary offerings, commonly painted with mourning-at-the-tomb scenes.",
         "source_deck": "greek-pathe",
         "source_item_id": "stoic-lype",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1245,9 +1297,11 @@
         "stoicism",
         "pathe"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP117188.jpg",
       "metadata": {
         "emotion_key": "fear",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247488",
+        "image_credit": "Terracotta lekythos (oil flask) depicting Perseus, Medusa, and Pegasus, Greek, Attic, ca. 500 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). The Gorgon's head is the standard Greek apotropaic image of terror.",
         "source_deck": "greek-pathe",
         "source_item_id": "stoic-phobos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1267,9 +1321,11 @@
         "stoicism",
         "pathe"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP339424.jpg",
       "metadata": {
         "emotion_key": "desire",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247472",
+        "image_credit": "Terracotta statuette of Eros, Greek, probably Attic, first half of the 4th century BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
         "source_item_id": "stoic-epithymia",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1289,9 +1345,11 @@
         "stoicism",
         "pathe"
       ],
-      "image_url": "",
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP118163.jpg",
       "metadata": {
         "emotion_key": "pleasure",
+        "image_source": "https://www.metmuseum.org/art/collection/search/246647",
+        "image_credit": "Terracotta kylix (drinking cup), men drinking (symposium scene), Greek, Attic, ca. 480-470 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
         "source_item_id": "stoic-hedone",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
@@ -1356,9 +1414,11 @@
         "descartes",
         "aversion"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Hatred_or_Jealousy_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854028.jpg",
       "metadata": {
         "emotion_key": "hatred",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Hatred_or_Jealousy_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854028.jpg",
+        "image_credit": "\"Hatred or Jealousy\", plate 20 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
         "source_item_id": "hatred",
         "deck": "Descartes's Six Primitive Passions"
@@ -1378,9 +1438,11 @@
         "descartes",
         "future"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Desire_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854025.jpg",
       "metadata": {
         "emotion_key": "desire",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Desire_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854025.jpg",
+        "image_credit": "\"Desire\", plate 8 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
         "source_item_id": "desire",
         "deck": "Descartes's Six Primitive Passions"
@@ -1400,9 +1462,11 @@
         "descartes",
         "possession"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Laughter_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854026.jpg",
       "metadata": {
         "emotion_key": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Laughter_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854026.jpg",
+        "image_credit": "\"Laughter\", plate 10 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). Used for joy (Le Brun's plate is titled by its outward expression, laughter, rather than by Descartes's own term).",
         "source_deck": "descartes-passions",
         "source_item_id": "joy",
         "deck": "Descartes's Six Primitive Passions"
@@ -1422,9 +1486,11 @@
         "descartes",
         "loss"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sadness_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854030.jpg",
       "metadata": {
         "emotion_key": "sadness",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sadness_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854030.jpg",
+        "image_credit": "\"Sadness\", plate 13 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
         "source_item_id": "sadness",
         "deck": "Descartes's Six Primitive Passions"
@@ -1444,9 +1510,11 @@
         "aquinas",
         "concupiscible"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Guillaume_de_Lorris_-_Franciscan_and_Fat_Dominican_Before_God_of_Love_-_Walters_W14372V_-_Open_Reverse.jpg",
       "metadata": {
         "emotion_key": "love",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Guillaume_de_Lorris_-_Franciscan_and_Fat_Dominican_Before_God_of_Love_-_Walters_W14372V_-_Open_Reverse.jpg",
+        "image_credit": "Leaf from a Roman de la Rose manuscript (Guillaume de Lorris's God of Love allegory), mid-14th century — The Walters Art Museum, via Wikimedia Commons, public domain. Roughly a lifetime after Aquinas (d. 1274); used as the closest available Gothic manuscript treatment of amor, not as an illustration of the Summa itself.",
         "source_deck": "aquinas-passions",
         "source_item_id": "amor",
         "deck": "Aquinas's Eleven Passions"
@@ -1512,9 +1580,11 @@
         "irascible",
         "arduousness"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/William_de_Brailes_-_The_Last_Judgment_%28Matthew_25_-31-46%29_-_Walters_W10623R_-_Full_Page.jpg",
       "metadata": {
         "emotion_key": "timor",
+        "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Last_Judgment_(Matthew_25_-31-46)_-_Walters_W10623R_-_Full_Page.jpg",
+        "image_credit": "The Last Judgment, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. A generation before Aquinas, same broad Latin Christendom manuscript tradition.",
         "source_deck": "aquinas-passions",
         "source_item_id": "timor",
         "deck": "Aquinas's Eleven Passions"
@@ -1535,9 +1605,11 @@
         "irascible",
         "arduousness"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/William_de_Brailes_-_The_Fall_of_the_Rebel_Angels_%28Apocryphal%29_-_Walters_W10624R_-_Full_Page.jpg",
       "metadata": {
         "emotion_key": "ira",
+        "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Fall_of_the_Rebel_Angels_(Apocryphal)_-_Walters_W10624R_-_Full_Page.jpg",
+        "image_credit": "The Fall of the Rebel Angels, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. Used for ira as the closest available period image of righteous wrath and violent retribution; not a literal illustration of Aquinas's ira.",
         "source_deck": "aquinas-passions",
         "source_item_id": "ira",
         "deck": "Aquinas's Eleven Passions"
@@ -1558,9 +1630,11 @@
         "rasa",
         "natyashastra"
       ],
-      "image_url": "",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-8077_10",
       "metadata": {
         "emotion_key": "shringara",
+        "image_source": "https://asia-archive.si.edu/object/F1930.81/",
+        "image_credit": "Bangal Ragini, from a Ragamala series, c. 1650, Malwa (Central Indian School) — Smithsonian's National Museum of Asian Art, CC0. Ragamala paintings of this raga are typically about longing for an absent lover, fitting śṛṅgāra's vipralambha (love-in-separation) register.",
         "source_deck": "rasa",
         "source_item_id": "shringara",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
@@ -1673,9 +1747,11 @@
         "abhinavagupta",
         "rasa"
       ],
-      "image_url": "",
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.2_001crop",
       "metadata": {
         "emotion_key": "shanta",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
+        "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself.",
         "source_deck": "rasa",
         "source_item_id": "shanta",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
@@ -1696,9 +1772,11 @@
         "heart",
         "chinese-medicine"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Acupuncture_chart%2C_heart_channel_of_hand_shaoyin%2C_Chinese_Wellcome_L0037816.jpg",
       "metadata": {
         "emotion_key": "xi",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
+        "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over historical PD material, see this deck's image_credit).",
         "source_deck": "chinese-qing",
         "source_item_id": "xi",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
@@ -1719,9 +1797,11 @@
         "liver",
         "chinese-medicine"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Acupuncture_chart%2C_liver_channel_of_foot_jueyin%2C_Chinese_Wellcome_L0037826.jpg",
       "metadata": {
         "emotion_key": "nu",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_liver_channel_of_foot_jueyin,_Chinese_Wellcome_L0037826.jpg",
+        "image_credit": "Acupuncture chart, liver channel of foot jueyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
         "source_item_id": "nu",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
@@ -1743,9 +1823,11 @@
         "spleen",
         "chinese-medicine"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Acupuncture_chart%2C_spleen_channel_of_foot_taiyin%2C_Chinese_Wellcome_L0037814.jpg",
       "metadata": {
         "emotion_key": "si",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_spleen_channel_of_foot_taiyin,_Chinese_Wellcome_L0037814.jpg",
+        "image_credit": "Acupuncture chart, spleen channel of foot taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
         "source_item_id": "si",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
@@ -1767,9 +1849,11 @@
         "lung",
         "chinese-medicine"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Acupuncture_chart%2C_lung_channel_of_hand_taiyin%2C_Chinese_Wellcome_L0037808.jpg",
       "metadata": {
         "emotion_key": "bei",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
+        "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
         "source_item_id": "bei",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
@@ -1790,9 +1874,11 @@
         "kidney",
         "chinese-medicine"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Acupuncture_chart%2C_kidney_channel_of_foot_shaoyin%2C_Chinese_Wellcome_L0037822.jpg",
       "metadata": {
         "emotion_key": "kong",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_kidney_channel_of_foot_shaoyin,_Chinese_Wellcome_L0037822.jpg",
+        "image_credit": "Acupuncture chart, kidney channel of foot shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
         "source_item_id": "kong",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
@@ -1812,9 +1898,11 @@
         "darwin",
         "weeping"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "metadata": {
         "emotion_key": "grief",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "\"Grief\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material, see this deck's image_credit).",
         "source_deck": "darwin-expression",
         "source_item_id": "grief",
         "deck": "Darwin — The Expression of the Emotions"
@@ -1834,9 +1922,11 @@
         "darwin",
         "trembling"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "metadata": {
         "emotion_key": "fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "\"Terror\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "darwin-expression",
         "source_item_id": "fear",
         "deck": "Darwin — The Expression of the Emotions"
@@ -1856,9 +1946,11 @@
         "darwin",
         "teeth-baring"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "metadata": {
         "emotion_key": "anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "\"Snarling dog\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Used for anger as Darwin's own cross-species illustration of the teeth-baring habit this item's text describes.",
         "source_deck": "darwin-expression",
         "source_item_id": "anger",
         "deck": "Darwin — The Expression of the Emotions"
@@ -1878,9 +1970,11 @@
         "laughter",
         "darwin"
       ],
-      "image_url": "",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
       "metadata": {
         "emotion_key": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
+        "image_credit": "\"Smiling girl and man\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "darwin-expression",
         "source_item_id": "joy",
         "deck": "Darwin — The Expression of the Emotions"

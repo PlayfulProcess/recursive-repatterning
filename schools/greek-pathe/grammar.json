@@ -2,6 +2,18 @@
   "name": "Greek Pathē — Rhetoric and Stoic Ethics",
   "description": "Two adjacent, non-identical Greek frameworks gathered under one school because both use the word pathē (πάθη, roughly \"that which is undergone\") and both come out of the same fourth-to-third-century BCE philosophical culture in Athens — not because they agree with each other. Aristotle's Rhetoric (Book II) catalogues pathē as states a speaker can arouse in an audience to make a case land: they are appraisals bound to a rhetorical situation (who feels this, toward whom, and on what belief), not a clinical inventory of inner states. The Stoics, from Zeno and Chrysippus onward, use pathē in a stricter and more critical sense — an irrational, excessive impulse that follows from a false judgment about what is good or bad, which the wise person replaces with a calibrated \"good feeling\" (eupatheia) rather than simply having less of. Treating Aristotle's rhetorical pathē and Stoic ethical pathē as one undifferentiated \"Greek emotion theory\" flattens a real disagreement between them about what pathē even are.",
   "grammar_type": "custom",
+  "cover_image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP337509.jpg",
+  "cover_image_credit": {
+    "title": "Marble portrait head of the philosopher Chrysippos",
+    "creator": "Roman, 1st or 2nd century CE, after a Greek original",
+    "date": "1st-2nd century CE (Roman copy of a lost Hellenistic original)",
+    "source": "The Metropolitan Museum of Art, object 251787",
+    "file_page": "https://www.metmuseum.org/art/collection/search/251787",
+    "license": "Public domain / CC0 (Met Open Access — isPublicDomain: true)",
+    "pd_basis": "Ancient sculpture, long out of copyright; the Met has designated the object public domain under its Open Access policy.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images are drawn from the Metropolitan Museum of Art's Open Access collection (public domain / CC0) — Attic vases and terracottas contemporary with the school's own period (5th-3rd century BCE), plus a Roman-era portrait of Chrysippus as cover. See each item's metadata.image_credit for the specific object.",
   "tags": ["emotions", "philosophy", "aristotle", "stoicism", "ancient-greek", "rhetoric"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -56,6 +68,7 @@
       "name": "Orgē — Anger (Aristotle)",
       "category": "aristotle-pathe",
       "sort_order": 1,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP116941.jpg",
       "keywords": ["anger", "rhetoric", "aristotle"],
       "sections": {
         "Definition": "In Rhetoric II.2, Aristotle defines anger (orgē) as a desire, accompanied by pain, for conspicuous revenge for a conspicuous and unjustified slight directed at oneself or someone close to one. It is not raw physiological arousal; it is an appraisal — a judgment that one has been wronged and belittled — paired with the expectation that retaliation will be pleasant.",
@@ -63,7 +76,9 @@
         "Research note": "Aristotle treats anger as an object-directed judgment rather than a mood — a cognitive-appraisal reading of emotion that anticipates, without duplicating, both Stoic theory and modern appraisal theories such as Richard Lazarus's (1991)."
       },
       "metadata": {
-        "emotion_key": "anger"
+        "emotion_key": "anger",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247964",
+        "image_credit": "Terracotta volute-krater with battle scene (Amazonomachy), Greek, Attic, ca. 450 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access)."
       }
     },
     {
@@ -71,6 +86,7 @@
       "name": "Eleos — Pity (Aristotle)",
       "category": "aristotle-pathe",
       "sort_order": 2,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT281.jpg",
       "keywords": ["pity", "compassion", "rhetoric"],
       "sections": {
         "Definition": "Rhetoric II.8 defines pity (eleos) as pain at an apparently destructive or painful event happening to someone who does not deserve it, which the observer might expect could happen to himself or someone close to him. Both conditions matter: the suffering must look undeserved, and the observer must see it as possible for themselves — Aristotle notes that people who feel invulnerable feel less pity.",
@@ -78,7 +94,9 @@
         "Research note": "Aristotle explicitly pairs eleos with nemesis (indignation at another's undeserved good fortune) as mirror-image judgments about desert, not as unrelated feelings — a structural pairing this skeleton does not yet include as its own item."
       },
       "metadata": {
-        "emotion_key": "pity"
+        "emotion_key": "pity",
+        "image_source": "https://www.metmuseum.org/art/collection/search/248483",
+        "image_credit": "Marble grave stele with a family group, Greek, Attic, ca. 360 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access)."
       }
     },
     {
@@ -86,6 +104,7 @@
       "name": "Lypē — Distress (Stoic)",
       "category": "stoic-pathe",
       "sort_order": 3,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DT6206.jpg",
       "keywords": ["distress", "stoicism", "pathe"],
       "sections": {
         "Definition": "In the Stoic scheme reported by later sources (chiefly Diogenes Laërtius and Stobaeus), lypē is an irrational contraction of the soul at what is wrongly judged to be a present evil. It is one of the four canonical pathē — a mistaken value-judgment about the present, not a physiological given.",
@@ -93,7 +112,9 @@
         "Research note": "This is an ethical claim about which judgments are true, not a description of a bodily process — reading lypē as equivalent to the modern clinical category \"depression,\" or flattening it to the modern English word \"distress,\" overstates the overlap in both directions."
       },
       "metadata": {
-        "emotion_key": "distress"
+        "emotion_key": "distress",
+        "image_source": "https://www.metmuseum.org/art/collection/search/255949",
+        "image_credit": "Terracotta lekythos (oil flask), tomb scene, Greek, Attic, ca. 440 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). White-ground lekythoi of this type were funerary offerings, commonly painted with mourning-at-the-tomb scenes."
       }
     },
     {
@@ -101,6 +122,7 @@
       "name": "Phobos — Fear (Stoic)",
       "category": "stoic-pathe",
       "sort_order": 4,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP117188.jpg",
       "keywords": ["fear", "stoicism", "pathe"],
       "sections": {
         "Definition": "Phobos, in the Stoic scheme, is an irrational shrinking-away from an expected evil — the future-facing counterpart to lypē's present-facing contraction. Like the other three pathē it is a judgment: that some coming indifferent is a real evil worth fleeing.",
@@ -108,7 +130,9 @@
         "Research note": "The eupatheiai are attributed only to the sage — an ideal the Stoics themselves treat as rarely, if ever, instantiated. This is a normative model of how judgment should work, not a description of how most people's fear does work."
       },
       "metadata": {
-        "emotion_key": "fear"
+        "emotion_key": "fear",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247488",
+        "image_credit": "Terracotta lekythos (oil flask) depicting Perseus, Medusa, and Pegasus, Greek, Attic, ca. 500 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). The Gorgon's head is the standard Greek apotropaic image of terror."
       }
     },
     {
@@ -116,6 +140,7 @@
       "name": "Epithymia — Desire (Stoic)",
       "category": "stoic-pathe",
       "sort_order": 5,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP339424.jpg",
       "keywords": ["desire", "stoicism", "pathe"],
       "sections": {
         "Definition": "Epithymia is an irrational reaching-toward a future indifferent, wrongly judged to be a real good — the desire-pole of the Stoic four, paired conceptually with hēdonē (pleasure) the way phobos is paired with lypē: future versus present, in each case built on a mistaken value-judgment.",
@@ -123,7 +148,9 @@
         "Research note": "Later Stoic sources subdivide epithymia into a long list of named species — anger itself is sometimes classed as a form of it, a desire for revenge. This item covers the genus, not its species."
       },
       "metadata": {
-        "emotion_key": "desire"
+        "emotion_key": "desire",
+        "image_source": "https://www.metmuseum.org/art/collection/search/247472",
+        "image_credit": "Terracotta statuette of Eros, Greek, probably Attic, first half of the 4th century BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access)."
       }
     },
     {
@@ -131,6 +158,7 @@
       "name": "Hēdonē — Pleasure (Stoic)",
       "category": "stoic-pathe",
       "sort_order": 6,
+      "image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP118163.jpg",
       "keywords": ["pleasure", "stoicism", "pathe"],
       "sections": {
         "Definition": "Hēdonē is an irrational swelling of the soul at a present indifferent, wrongly judged to be a real good — the present-facing counterpart to epithymia's future reach, and structurally opposite to lypē.",
@@ -138,7 +166,9 @@
         "Research note": "Later Stoics, especially the Roman Stoic Seneca, develop chara at length as a durable good feeling available regardless of external circumstance — an idea with obvious later influence on Christian and secular therapeutic traditions, none of which this item claims as Stoic in origin."
       },
       "metadata": {
-        "emotion_key": "pleasure"
+        "emotion_key": "pleasure",
+        "image_source": "https://www.metmuseum.org/art/collection/search/246647",
+        "image_credit": "Terracotta kylix (drinking cup), men drinking (symposium scene), Greek, Attic, ca. 480-470 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access)."
       }
     },
     {

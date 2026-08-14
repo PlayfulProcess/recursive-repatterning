@@ -40,7 +40,11 @@ OUT_SLUG = "across-the-schools"
 OUT = os.path.join(SCHOOLS, OUT_SLUG, "grammar.json")
 
 # Hand-authored; generating over it would destroy real content.
-NEVER_AGGREGATE = {OUT_SLUG, "schools-of-emotion"}
+# genealogy-of-emotions is excluded for a different reason: its items are historical
+# moments (Descartes 1649, Bharata's Natyashastra), not feelings. They are worth
+# browsing but not worth drawing — a cast should return an emotion, not a citation.
+# It stays a full member of the channel; it is only kept out of the castable pool.
+NEVER_AGGREGATE = {OUT_SLUG, "schools-of-emotion", "genealogy-of-emotions"}
 
 
 def load(path):

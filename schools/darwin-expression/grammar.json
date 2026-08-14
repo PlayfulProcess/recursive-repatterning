@@ -2,6 +2,18 @@
   "name": "Darwin — The Expression of the Emotions",
   "description": "Charles Darwin's The Expression of the Emotions in Man and Animals (1872) argues that human emotional expressions are not arbitrary or divinely designed signals but evolved, largely involuntary residues of once-functional behavior, continuous with expressions in other animals. Darwin builds the case on three explanatory principles — serviceable associated habits (an expression that once served a direct purpose, like baring teeth to bite, persists as a habit even when the purpose no longer applies), antithesis (an opposite emotional state produces a bodily posture that is the physical opposite of the first, even where that opposite posture serves no independent purpose of its own), and the direct action of the nervous system (some expressions, like trembling in fear, are simply what an overloaded nervous system does, with no communicative function at all) — and on evidence he gathered himself: photographs (making this the first psychology text illustrated photographically), direct observation of infants, the insane, and animals, and a questionnaire he circulated to missionaries, colonial officials, and travelers across multiple continents asking whether specific expressions appeared the same in the populations they knew. The book is in the public domain.",
   "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Expression_of_the_Emotions_in_Man_and_Animals_title_page.jpg",
+  "cover_image_credit": {
+    "title": "The Expression of the Emotions in Man and Animals — title page",
+    "creator": "Charles Darwin (John Murray, publisher)",
+    "date": "1872, first edition",
+    "source": "Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Expression_of_the_Emotions_in_Man_and_Animals_title_page.jpg",
+    "license": "Public domain",
+    "pd_basis": "1872 publication; Darwin died 1882. No fresh-rights claim is asserted on this particular scan (unlike the Wellcome-sourced plates below).",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item plates are from the 1872 first edition, digitized copies held by Wellcome Collection and tagged CC BY 4.0 by Wellcome — a fresh-rights claim over a reproduction of public-domain 1872 material (see docs/SOURCES-AND-CAVEATS.md §2, 'the Wellcome question'). This deck uses them because they are the only located pre-cropped, individually-captioned scans of these specific plates; attribution to Wellcome Collection is given per item and here at deck level, following this repo's stated policy of using such a source and crediting it rather than skipping the image. 'Shame' (blushing) has no located plate and is left without an image.",
   "tags": ["darwin", "1872", "public-domain", "evolution", "expression"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -51,6 +63,7 @@
       "name": "Grief",
       "category": "darwin-expression",
       "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
       "keywords": ["grief", "darwin", "weeping"],
       "sections": {
         "Definition": "Darwin describes grief's characteristic muscular signature in detail: the contraction of the corrugator muscle drawing the eyebrows together and slightly upward into an oblique shape he calls the \"grief muscle,\" often accompanied by a downturned mouth and, in acute grief, weeping. He treats infant crying as the developmentally earliest form and argues the adult oblique-eyebrow pattern derives from the same underlying muscular action, tempered by the acquired habit of restraining full infant-style crying.",
@@ -58,7 +71,9 @@
         "Research note": "Darwin's chapter draws on his own observation of his infant children (recorded in a private notebook years before this book, later incorporated into it), an early and unusually longitudinal source of developmental data for its period."
       },
       "metadata": {
-        "emotion_key": "grief"
+        "emotion_key": "grief",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "\"Grief\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material, see this deck's image_credit)."
       }
     },
     {
@@ -66,6 +81,7 @@
       "name": "Fear",
       "category": "darwin-expression",
       "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
       "keywords": ["fear", "darwin", "trembling"],
       "sections": {
         "Definition": "Darwin describes fear's expression as widened eyes with visible white above the iris, raised eyebrows, a pale face (from blood withdrawing to the internal organs), trembling, erect hair (piloerection), and a general muscular readiness that can tip into either flight or immobility.",
@@ -73,7 +89,9 @@
         "Research note": "Darwin's cross-cultural questionnaire (circulated to missionaries and colonial officials) specifically asked whether fear's facial signs — widened eyes, pallor — were recognized as such among populations the respondents worked with, an early and methodologically crude precursor to the controlled cross-cultural studies Paul Ekman would run roughly a century later (see the ekman-basic school in this collection)."
       },
       "metadata": {
-        "emotion_key": "fear"
+        "emotion_key": "fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "\"Terror\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
@@ -81,6 +99,7 @@
       "name": "Anger",
       "category": "darwin-expression",
       "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
       "keywords": ["anger", "darwin", "teeth-baring"],
       "sections": {
         "Definition": "Darwin describes anger's expression as a flushed or reddened face, dilated nostrils, a firmly closed or square-shaped mouth, a direct and fixed stare, and — in its more intense forms — bared teeth and a lowered, forward head posture he treats as directly continuous with an animal's threat display before biting or charging.",
@@ -88,7 +107,9 @@
         "Research note": "Darwin explicitly draws the comparison to snarling dogs and other animals baring teeth before attack, using it as one of his central pieces of evidence for continuity of expression across species rather than a special, separately-evolved human signal."
       },
       "metadata": {
-        "emotion_key": "anger"
+        "emotion_key": "anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "\"Snarling dog\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Used for anger as Darwin's own cross-species illustration of the teeth-baring habit this item's text describes."
       }
     },
     {
@@ -96,6 +117,7 @@
       "name": "Joy (Laughter)",
       "category": "darwin-expression",
       "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
       "keywords": ["joy", "laughter", "darwin"],
       "sections": {
         "Definition": "Darwin treats joy's principal expression as laughter and smiling: contraction of the muscles around the eyes and mouth (he specifically notes the involvement of the muscle that produces crow's-feet wrinkling around the eyes in a genuine smile — an observation later formalized as part of the Duchenne marker in 20th-century facial-expression research), combined with the characteristic rhythmic vocalization of laughter itself.",
@@ -103,7 +125,9 @@
         "Research note": "Darwin's observation about eye-muscle involvement in genuine versus posed smiling anticipates, without naming, what 20th-century researcher Guillaume Duchenne de Boulogne's electrical-stimulation photographs (which Darwin himself reproduced with permission in this book) and later facial-coding systems would formalize as the distinction between a \"Duchenne smile\" and a merely social one."
       },
       "metadata": {
-        "emotion_key": "joy"
+        "emotion_key": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
+        "image_credit": "\"Smiling girl and man\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {

@@ -2,6 +2,18 @@
   "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
   "description": "Classical Chinese medical theory, systematized in texts descending from the Huangdi Neijing (Yellow Emperor's Inner Classic, compiled roughly 2nd century BCE – 2nd century CE) and elaborated through later medical writing, names qīqíng — seven emotions — and links five of them to the five zàng (yin viscera): the heart governs joy (xǐ), the liver governs anger (nù), the spleen governs pensiveness/overthinking (sī), the lung governs grief (bēi, often paired with yōu, worry), and the kidney governs fear (kǒng). This is not a psychology in the Western sense grafted onto medicine; it is medicine — emotion is one of several categories of pathogenic factor (alongside diet, climate, and overexertion) capable of injuring qì circulation and, in excess or over time, the organ each is paired with. The word this school translates loosely as \"emotion,\" qíng (情), has a semantic range wider than the English word: across Chinese philosophical and medical usage qíng can mean felt emotion, but also disposition, circumstance, the true state of a thing, or human feeling in general — treating qíng as a one-to-one synonym for \"emotion\" narrows a term that classical sources use more broadly.",
   "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Channels_and_acupoints_of_the_thorax_and_abdomen_Wellcome_L0037861.jpg",
+  "cover_image_credit": {
+    "title": "Channels and acupoints of the thorax and abdomen",
+    "creator": "Unrecorded Chinese woodblock artist",
+    "date": "17th-19th century (Wellcome's dating is approximate)",
+    "source": "Wellcome Collection, via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Channels_and_acupoints_of_the_thorax_and_abdomen_Wellcome_L0037861.jpg",
+    "license": "CC BY 4.0 (Wellcome Collection)",
+    "pd_basis": "The underlying chart is a historical Chinese medical woodcut, long out of copyright; Wellcome's own digitization is tagged CC BY 4.0 rather than CC0 or PD-old — see this deck's image_credit for the attribution this implies.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images are classical Chinese acupuncture-channel woodcut charts from the Wellcome Collection, via Wikimedia Commons, each tagged CC BY 4.0 by Wellcome (a fresh-rights claim over a reproduction of historical public-domain material — see docs/SOURCES-AND-CAVEATS.md §2). Attribution to Wellcome Collection is given per item and here at deck level, per this repo's stated policy for handling that claim.",
   "tags": ["qing", "chinese-medicine", "five-viscera", "huangdi-neijing", "seven-emotions"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -51,6 +63,7 @@
       "name": "Xǐ (喜) — Joy, Governed by the Heart",
       "category": "five-viscera-emotion",
       "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Acupuncture_chart%2C_heart_channel_of_hand_shaoyin%2C_Chinese_Wellcome_L0037816.jpg",
       "keywords": ["xi", "joy", "heart", "chinese-medicine"],
       "sections": {
         "Definition": "Xǐ is paired with the heart (xīn) in the classical five-viscera correspondence. In modest degree it is considered healthy — the heart's proper state is described as one of ease and open communication with the world — but the Huangdi Neijing holds that excessive or sudden joy can scatter and slow heart qì, producing symptoms the text describes in terms consistent with what modern readers might call palpitations, restlessness, or difficulty concentrating.",
@@ -58,7 +71,9 @@
         "Research note": "The claim that a specific emotion in excess damages a specific organ is a theoretical framework internal to classical Chinese medicine, built on the Five Phases (wǔxíng) correspondence system (heart–fire, in this case) rather than on the anatomical or biochemical mechanisms modern cardiology would investigate."
       },
       "metadata": {
-        "emotion_key": "xi"
+        "emotion_key": "xi",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
+        "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over historical PD material, see this deck's image_credit)."
       }
     },
     {
@@ -66,6 +81,7 @@
       "name": "Nù (怒) — Anger, Governed by the Liver",
       "category": "five-viscera-emotion",
       "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Acupuncture_chart%2C_liver_channel_of_foot_jueyin%2C_Chinese_Wellcome_L0037826.jpg",
       "keywords": ["nu", "anger", "liver", "chinese-medicine"],
       "sections": {
         "Definition": "Nù is paired with the liver (gān), whose classical function is to ensure the smooth, unobstructed flow of qì throughout the body. Anger is held to cause qì to rise and rush upward and outward — the Neijing associates excessive nù with liver qì stagnation or liver-yang rising, described in symptom-language including headache, a flushed face, and irritability.",
@@ -73,7 +89,9 @@
         "Research note": "The liver–anger pairing is one of the most frequently cited five-viscera correspondences in both classical sources and contemporary Traditional Chinese Medicine clinical practice, though contemporary TCM's own systematization dates mainly to 20th-century standardization efforts building on, but not identical to, the classical texts."
       },
       "metadata": {
-        "emotion_key": "nu"
+        "emotion_key": "nu",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_liver_channel_of_foot_jueyin,_Chinese_Wellcome_L0037826.jpg",
+        "image_credit": "Acupuncture chart, liver channel of foot jueyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
@@ -81,6 +99,7 @@
       "name": "Sī (思) — Pensiveness/Overthinking, Governed by the Spleen",
       "category": "five-viscera-emotion",
       "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Acupuncture_chart%2C_spleen_channel_of_foot_taiyin%2C_Chinese_Wellcome_L0037814.jpg",
       "keywords": ["si", "pensiveness", "overthinking", "spleen", "chinese-medicine"],
       "sections": {
         "Definition": "Sī is paired with the spleen (pí), the organ classically responsible for transforming food into qì and blood. Sī names sustained mental concentration, worry, or rumination — Bharata's rasa school and this school share nothing structurally, but sī resembles neither pure \"thought\" nor pure \"emotion\" in the English sense: it sits at the seam between the two, which is exactly the kind of category the English word \"emotion\" does not have room for.",
@@ -88,7 +107,9 @@
         "Research note": "The Neijing holds that excessive sī knots spleen qì, impairing its transforming function — described in symptom-language including poor appetite, fatigue, and a bloated or heavy sensation, consistent with the digestive role assigned to the spleen in this system."
       },
       "metadata": {
-        "emotion_key": "si"
+        "emotion_key": "si",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_spleen_channel_of_foot_taiyin,_Chinese_Wellcome_L0037814.jpg",
+        "image_credit": "Acupuncture chart, spleen channel of foot taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
@@ -96,6 +117,7 @@
       "name": "Bēi (悲) — Grief, Governed by the Lung",
       "category": "five-viscera-emotion",
       "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Acupuncture_chart%2C_lung_channel_of_hand_taiyin%2C_Chinese_Wellcome_L0037808.jpg",
       "keywords": ["bei", "grief", "sorrow", "lung", "chinese-medicine"],
       "sections": {
         "Definition": "Bēi is paired with the lung (fèi), classically responsible for governing qì and respiration. Grief and sorrow are held to disperse or deplete lung qì, and the Neijing associates prolonged bēi with shortness of breath, a sunken or withdrawn bearing, and general depletion of vital energy.",
@@ -103,7 +125,9 @@
         "Research note": "The lung's classical association with grief has an often-cited resonance with the Five Phases correspondence of metal (associated with autumn, decline, and letting go) to the lung — a symbolic-seasonal logic distinct from, and not reducible to, a modern respiratory-physiology account of sadness."
       },
       "metadata": {
-        "emotion_key": "bei"
+        "emotion_key": "bei",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
+        "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
@@ -111,6 +135,7 @@
       "name": "Kǒng (恐) — Fear, Governed by the Kidney",
       "category": "five-viscera-emotion",
       "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Acupuncture_chart%2C_kidney_channel_of_foot_shaoyin%2C_Chinese_Wellcome_L0037822.jpg",
       "keywords": ["kong", "fear", "kidney", "chinese-medicine"],
       "sections": {
         "Definition": "Kǒng is paired with the kidney (shèn), classically the organ storing jīng (essence) and considered the root of the body's constitutional reserves. Kǒng is held to cause qì to sink and descend, and prolonged fear is associated in the Neijing with depletion of kidney essence — described in symptom-language including weakness in the low back and knees, and in more severe classical descriptions, loss of bladder control under acute fright.",
@@ -118,7 +143,9 @@
         "Research note": "The kidney's role as the body's constitutional root makes fear's association with it medically significant within the system: kidney depletion is treated as a serious, slow-to-recover condition, so chronic kǒng is regarded as a comparatively grave pattern rather than a passing state."
       },
       "metadata": {
-        "emotion_key": "kong"
+        "emotion_key": "kong",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_kidney_channel_of_foot_shaoyin,_Chinese_Wellcome_L0037822.jpg",
+        "image_credit": "Acupuncture chart, kidney channel of foot shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection)."
       }
     },
     {
