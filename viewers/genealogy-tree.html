@@ -193,21 +193,35 @@ let G, itemMap, hidden = new Set();
   });
 })();
 
+// Same two inherited assumptions as timeline.html's parseYear: no BCE, nothing
+// before 1200. Kept deliberately in step with that function — if one learns a new
+// date form, teach the other.
 function yearOf(it){
-  const w = (it.metadata||{}).when || '';
-  const m = w.match(/\b(1[2-9]\d{2}|20\d{2})\b/);
-  return m ? +m[1] : null;
+  const w = String((it.metadata||{}).when || '');
+  if(!w) return null;
+  const bce = /\bb\.?\s?c\.?\s?e?\.?\b/i.test(w);
+  let m;
+  if(!bce){ m = w.match(/\b(1[2-9]\d{2}|20\d{2})\b/); if(m) return +m[1]; }
+  m = w.match(/\b(\d{3,4})\b/); if(m && bce) return -(+m[1]);
+  m = w.match(/(\d{1,2})\s*(?:st|nd|rd|th)?\s*c(?:ent(?:ury)?)?\.?\b/i);
+  if(m){ const mid = (+m[1]-1)*100+50; return bce ? -mid : mid; }
+  return null;
 }
 function branchOf(it){ return (it.metadata||{}).branch || (it.id.startsWith('branch-')?it.id:null); }
 function hubValueOf(it){
   if(hubField==='branch') return branchOf(it);
   return (it.metadata||{})[hubField] || null;
 }
+// Colours are derived from the grammar that is actually loaded, never from a fixed
+// table. RAW_COLORS is the parent repo's tarot branch map; assigning it wholesale
+// whenever hubField was 'branch' (i.e. always, by default) meant any other grammar
+// got grey hubs plus a legend listing six tarot branches absent from its data and
+// inert on click. RAW_COLORS is now a seed: a branch keeps its familiar colour where
+// the key matches, otherwise it takes the next palette entry.
 function rebuildHubColors(){
   hubColorOf = {};
-  if(hubField==='branch'){ Object.assign(hubColorOf, RAW_COLORS); return; }
-  const vals=[...new Set((G?.items||[]).filter(i=>i.id.startsWith('deck-')).map(i=>(i.metadata||{})[hubField]).filter(Boolean))];
-  vals.forEach((v,i)=>{ hubColorOf[v]=PALETTE[i%PALETTE.length]; });
+  const vals=[...new Set((G?.items||[]).map(hubValueOf).filter(Boolean))];
+  vals.forEach((v,i)=>{ hubColorOf[v] = RAW_COLORS[v] || PALETTE[i%PALETTE.length]; });
 }
 
 function draw(nested){
@@ -354,7 +368,10 @@ function showDetail(it){
   if(it.image_url) html+=`<img src="${esc(it.image_url)}" alt="${esc(it.name)}" loading="lazy">`;
   html+=`<h2>${esc(it.name)}</h2>`;
   if(when) html+=`<div class="when">${esc(when)}</div>`;
-  if(b && it.id!==b) html+=`<div class="chips"><span class="chip" style="background:${RAW_COLORS[b]}33;color:${RAW_COLORS[b]}">${esc((itemMap[b]||{}).name||b)}</span></div>`;
+  // hubColorOf, not RAW_COLORS — a branch outside the tarot map produced the literal
+  // string "undefined33" as a colour here, so the chip lost its tint entirely.
+  const bc = (b && (hubColorOf[b] || RAW_COLORS[b])) || 'var(--mut)';
+  if(b && it.id!==b) html+=`<div class="chips"><span class="chip" style="background:${bc}33;color:${bc}">${esc((itemMap[b]||{}).name||b)}</span></div>`;
   const df=(it.metadata||{}).derives_from||[];
   if(df.length) html+=`<div class="sec"><h4>Derives from</h4>${df.map(id=>esc((itemMap[id]||{}).name||id)).join(' · ')}</div>`;
   for(const [k,v] of Object.entries(secs)){
