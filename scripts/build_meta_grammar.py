@@ -145,25 +145,88 @@ def build():
     }
 
 
+def sync_collection_index():
+    """Refresh _collection.json's top-level `grammars[]` index.
+
+    The viewers (viewers/deck-picker.js, viewers/cards.html, pages/courses.html)
+    all read `collection.grammars[]` — a flat list of every grammar with its
+    slug, name and cover. The hand-written manifest here only had
+    `branches[].school_slugs`, so every one of those consumers silently got an
+    empty list: the schools dropdown opened blank and the deck switcher showed
+    nothing. Generating the index keeps all of them working from one source
+    instead of patching each reader in turn.
+
+    Only `grammars` is rewritten; branches and notes are left alone.
+    """
+    path = os.path.join(SCHOOLS, "_collection.json")
+    coll = load(path)
+
+    branch_of = {}
+    for branch in coll.get("branches", []):
+        for slug in branch.get("school_slugs", []):
+            branch_of[slug] = branch.get("id")
+
+    index = []
+    for entry in sorted(os.listdir(SCHOOLS)):
+        gpath = os.path.join(SCHOOLS, entry, "grammar.json")
+        if not os.path.isfile(gpath):
+            continue
+        g = load(gpath)
+        index.append({
+            "slug": entry,
+            "name": g.get("name", entry),
+            "common_name": g.get("common_name") or g.get("name", entry),
+            "type": g.get("grammar_type", "custom"),
+            "branch": branch_of.get(entry),
+            "is_meta": bool(g.get("_generated")) or entry in NEVER_AGGREGATE,
+            "default_preview": g.get("default_preview"),
+            "items": len(g.get("items", [])),
+            "cover_image_url": g.get("cover_image_url", ""),
+            "path": f"schools/{entry}/grammar.json",
+            "year": g.get("year"),
+            "year_label": g.get("year_label"),
+            "provenance": g.get("provenance", "record"),
+            "category": g.get("category", "historical"),
+        })
+
+    if coll.get("grammars") == index:
+        return False
+    coll["grammars"] = index
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(coll, fh, ensure_ascii=False, indent=2)
+        fh.write("\n")
+    print(f"synced _collection.json grammars index: {len(index)} entries")
+    return True
+
+
 def main():
     check = "--check" in sys.argv
     meta = build()
 
     existing = load(OUT) if os.path.isfile(OUT) else None
-    if existing == meta:
+    changed = existing != meta
+
+    if check:
+        # --check must not write, so the index is compared, not synced.
+        if changed:
+            print("STALE — run `python scripts/build_meta_grammar.py` and commit the result")
+            return 1
         print(f"up to date: {len(meta['items'])} items from {len(meta['_sources'])} schools")
         return 0
 
-    if check:
-        print("STALE — run `python scripts/build_meta_grammar.py` and commit the result")
-        return 1
+    if changed:
+        os.makedirs(os.path.dirname(OUT), exist_ok=True)
+        with open(OUT, "w", encoding="utf-8") as fh:
+            json.dump(meta, fh, ensure_ascii=False, indent=2)
+            fh.write("\n")
+        print(f"wrote {os.path.relpath(OUT, ROOT)}: "
+              f"{len(meta['items'])} items from {len(meta['_sources'])} schools")
+    else:
+        print(f"up to date: {len(meta['items'])} items from {len(meta['_sources'])} schools")
 
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as fh:
-        json.dump(meta, fh, ensure_ascii=False, indent=2)
-        fh.write("\n")
-    print(f"wrote {os.path.relpath(OUT, ROOT)}: "
-          f"{len(meta['items'])} items from {len(meta['_sources'])} schools")
+    # AFTER the aggregator is on disk — the index records its item count, so
+    # syncing first would record the previous run's number.
+    sync_collection_index()
     return 0
 
 
