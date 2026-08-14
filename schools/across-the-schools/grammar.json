@@ -33,6 +33,16 @@
       "items": 5
     },
     {
+      "slug": "humoral-temperaments",
+      "name": "The Four Humours — Galenic Temperament Theory",
+      "items": 5
+    },
+    {
+      "slug": "alchemical-correspondences",
+      "name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
+      "items": 6
+    },
+    {
       "slug": "greek-pathe",
       "name": "Greek Pathē — Rhetoric and Stoic Ethics",
       "items": 6
@@ -1204,6 +1214,296 @@
         "source_deck": "nvc-needs",
         "source_item_id": "joyful",
         "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "humoral-temperaments--sanguine",
+      "name": "Sanguine — Blood (Air, Hot & Wet)",
+      "category": "temperament",
+      "sections": {
+        "Definition": "Sanguine is the temperament produced by a dominance of blood, the humour paired with the element air and the qualities hot and wet. Galenic physicians held blood to be produced chiefly by the liver and to peak seasonally in spring. A sanguine person was described as ruddy-complexioned, warm, sociable, optimistic, and quick to fall in and out of love — the humour's heat and moisture read directly onto disposition.",
+        "A disposition, not a mood": "This is the feature that separates humoral theory from almost every other school in this library: sanguine names a standing constitutional type, not a passing state. A choleric person having a calm afternoon was still, on this theory, choleric underneath — the dominant humour was a fact about their body, stable across a lifetime, that merely expressed itself unevenly moment to moment.",
+        "Research note": "The surviving English adjective \"sanguine,\" meaning confidently optimistic, is a direct, undiluted descendant of this specific humoral claim — one of the clearest cases in the language of a discredited physiological theory leaving its vocabulary fully intact while the mechanism it named is abandoned."
+      },
+      "keywords": [
+        "sanguine",
+        "blood",
+        "temperament",
+        "galen",
+        "hot",
+        "wet",
+        "air"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sanguinisch%2C_RP-P-1991-71.jpg",
+      "metadata": {
+        "emotion_key": "sanguine",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sanguinisch,_RP-P-1991-71.jpg",
+        "image_credit": "Sanguine temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "sanguine",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "humoral-temperaments--choleric",
+      "name": "Choleric — Yellow Bile (Fire, Hot & Dry)",
+      "category": "temperament",
+      "sections": {
+        "Definition": "Choleric is the temperament produced by a dominance of yellow bile (Greek cholē, source of the modern word \"choler\"), paired with fire and the qualities hot and dry. Yellow bile was held to be seated in the gallbladder and to peak in summer. A choleric person was described as quick-tempered, ambitious, decisive, and prone to sudden anger — heat without moisture read as a fast-burning, easily-provoked disposition rather than the milder warmth of the sanguine type.",
+        "A disposition, not a mood": "As with all four types, choleric is a constitutional category on this theory, not an emotional episode. A person did not \"become choleric\" when angry; an already-choleric constitution was what made a person prone to anger more often, and more sharply, than someone whose dominant humour lay elsewhere.",
+        "Research note": "\"Choleric\" and \"bilious\" both survive in English as descriptions of an irritable disposition — a second case, alongside sanguine, of the theory's vocabulary outliving the physiology it was coined to describe."
+      },
+      "keywords": [
+        "choleric",
+        "yellow bile",
+        "temperament",
+        "galen",
+        "hot",
+        "dry",
+        "fire"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cholerisch%2C_RP-P-1991-73.jpg",
+      "metadata": {
+        "emotion_key": "choleric",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Cholerisch,_RP-P-1991-73.jpg",
+        "image_credit": "Choleric temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "choleric",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "humoral-temperaments--melancholic",
+      "name": "Melancholic — Black Bile (Earth, Cold & Dry)",
+      "category": "temperament",
+      "sections": {
+        "Definition": "Melancholic is the temperament produced by a dominance of black bile (Greek melaina cholē, \"black bile,\" the direct root of \"melancholy\"), paired with earth and the qualities cold and dry. Black bile was held to be seated in the spleen and to peak in autumn. A melancholic person was described as pensive, solitary, prone to sorrow and fear without external cause, but also — in a strand of the tradition running through the pseudo-Aristotelian Problem XXX — capable of unusual depth in philosophy, poetry, and the arts, a link between melancholy and genius that long outlasted the physiology.",
+        "A disposition, not a mood": "Melancholic names a lifelong constitutional cast, not an episode of sadness. This is the sharpest possible contrast with a modern clinical reading: humoral melancholy was not an illness episode to be treated and resolved, but a fixed bodily type some people simply were, for life, the way they had a fixed height or hair colour.",
+        "Research note": "Robert Burton's The Anatomy of Melancholy (1621) is this tradition's own most extensive treatment of the type — cited as a separate item below rather than repeated here."
+      },
+      "keywords": [
+        "melancholic",
+        "black bile",
+        "temperament",
+        "galen",
+        "cold",
+        "dry",
+        "earth"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Melancholie%2C_RP-P-1991-74.jpg",
+      "metadata": {
+        "emotion_key": "melancholic",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Melancholie,_RP-P-1991-74.jpg",
+        "image_credit": "Melancholic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "melancholic",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "humoral-temperaments--phlegmatic",
+      "name": "Phlegmatic — Phlegm (Water, Cold & Wet)",
+      "category": "temperament",
+      "sections": {
+        "Definition": "Phlegmatic is the temperament produced by a dominance of phlegm, paired with water and the qualities cold and wet. Phlegm was held to be seated in the lungs or brain and to peak in winter. A phlegmatic person was described as calm, slow to anger, unhurried, and even-tempered — the cold-and-wet combination read as emotional dampening, the opposite pole from choleric's hot-and-dry volatility.",
+        "A disposition, not a mood": "Consistent with the other three, phlegmatic names a lifelong constitutional baseline rather than a temporary calm. A phlegmatic person having an agitated day was still, on this theory, phlegmatic — the humour set the range and the resting point of a person's emotional life, not any single instance within it.",
+        "Research note": "\"Phlegmatic\" is the fourth of the surviving English temperament words, still used today for an unflappable, low-reactivity disposition — the same durability-of-vocabulary pattern as sanguine, choleric, and melancholic."
+      },
+      "keywords": [
+        "phlegmatic",
+        "phlegm",
+        "temperament",
+        "galen",
+        "cold",
+        "wet",
+        "water"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flegmatisch%2C_RP-P-1991-72.jpg",
+      "metadata": {
+        "emotion_key": "phlegmatic",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Flegmatisch,_RP-P-1991-72.jpg",
+        "image_credit": "Phlegmatic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "phlegmatic",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "humoral-temperaments--burton-anatomy-of-melancholy",
+      "name": "Robert Burton's The Anatomy of Melancholy (1621)",
+      "category": "literary-monument",
+      "sections": {
+        "Definition": "Robert Burton (1577-1640), an Oxford clergyman and librarian, published The Anatomy of Melancholy in 1621 and kept expanding it through five further editions until his death — the single largest literary monument the humoral tradition produced. Structured as a mock-medical treatise, it dissects melancholy's causes (from planetary influence to bad diet to unrequited love to the fear of Hell), its symptoms, and its cures across hundreds of thousands of words, digressing constantly into history, philosophy, and satire along the way.",
+        "Why it matters here": "Burton writes from inside the temperament theory this grammar describes — he takes the black-bile physiology as given — but his actual subject keeps sliding past the physiology into something closer to a general phenomenology of human unhappiness: boredom, loneliness, religious despair, heartbreak, and what would now be called depression all get folded into \"melancholy\" alongside the humoral constitution. The book is read today as much for that sprawling catalogue of inner states as for its medical theory.",
+        "Research note": "Burton frames the book itself as therapeutic for its author — his famous stated reason for writing was \"I write of melancholy, by being busy to avoid melancholy\" — an early first-person account of a writer using the act of systematic writing as a way of managing the very state he was writing about."
+      },
+      "keywords": [
+        "burton",
+        "anatomy of melancholy",
+        "melancholic",
+        "early modern",
+        "literature"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+        "image_credit": "Engraved frontispiece to the 1638 (third) edition of The Anatomy of Melancholy, engraved by Christian Le Blon — Wikimedia Commons, public domain (17th-century engraving, no fresh-rights claim found on the file page).",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "burton-anatomy-of-melancholy",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "alchemical-correspondences--nigredo",
+      "name": "Nigredo — the Blackening",
+      "category": "opus-stage",
+      "sections": {
+        "Definition": "Nigredo is the first stage of the alchemical magnum opus: the blackening, decay, or putrefaction of the prima materia (the starting substance) as a necessary precondition for any transformation. Alchemical texts render it visually as a black sun, a raven, or a dying king whose corpse rots in a sealed vessel — imagery of dissolution and death that must occur before anything new can be composed from what remains.",
+        "A stage of process, not a mood": "Nigredo is not a state a person simply has, the way a Galenic temperament is; it is a phase within a directional sequence, understood to pass into albedo given the right conditions. The alchemical opus reads more like a plotted transformation than a stable category — closer, structurally, to a narrative arc than to a taxonomy of fixed types.",
+        "Research note": "From the 17th century onward, and especially in Carl Jung's 20th-century psychological reading of alchemy (Psychology and Alchemy, 1944), nigredo has been used as a metaphor for a necessary psychological confrontation with darkness, loss, or breakdown prior to growth. That reading is a later interpretive layer — Jung's own — not a claim this grammar makes about what 16th-century alchemists intended by the term."
+      },
+      "keywords": [
+        "nigredo",
+        "alchemy",
+        "opus",
+        "putrefaction",
+        "blackening"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Splendor_Solis._Image_19_-_The_dark_sun.jpg",
+      "metadata": {
+        "emotion_key": "nigredo",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_19_-_The_dark_sun.jpg",
+        "image_credit": "\"The dark sun,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to the mid-1500s) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "nigredo",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
+      }
+    },
+    {
+      "id": "alchemical-correspondences--albedo",
+      "name": "Albedo — the Whitening",
+      "category": "opus-stage",
+      "sections": {
+        "Definition": "Albedo is the opus's second major stage: purification following the blackening of nigredo, rendered as a washing, a whitening, or the appearance of a White Queen figure paired with Mercury. Where nigredo is dissolution, albedo is the emergence of clarity and order out of what nigredo broke down — matter cleansed to a reflective, silver-white state, often figured as the moon's light rather than the sun's.",
+        "A stage of process, not a mood": "As with nigredo, albedo names a position within a sequence rather than a standing type. Some strands of the tradition treat albedo as an achievable end-state in itself (\"the white stone,\" a lesser completion short of the full red stone); others treat it as strictly a way-station toward rubedo. The tradition is not fully consistent about which reading is authoritative.",
+        "Research note": "The White Queen and Red King pairing (albedo and rubedo respectively) draws on the same royal-marriage imagery used throughout the opus for the union of opposites (sun/moon, sulphur/mercury, male/female) that alchemical texts hold necessary to produce the philosopher's stone — a structural motif this item names without endorsing any of the physical claims built on it."
+      },
+      "keywords": [
+        "albedo",
+        "alchemy",
+        "opus",
+        "purification",
+        "whitening"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Splendor_Solis._Image_17_-_Mercure_-_The_White_Queen.jpg",
+      "metadata": {
+        "emotion_key": "albedo",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_17_-_Mercure_-_The_White_Queen.jpg",
+        "image_credit": "\"Mercure — The White Queen,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to 1535) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "albedo",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
+      }
+    },
+    {
+      "id": "alchemical-correspondences--citrinitas",
+      "name": "Citrinitas — the Yellowing",
+      "category": "opus-stage",
+      "sections": {
+        "Definition": "Citrinitas is the opus's third stage in the classic four-part scheme: a yellowing that marks the transition between albedo's white purity and rubedo's final red completion, sometimes described as the first appearance of solar (gold-associated) quality within the still-lunar white stage. It is the least stable member of the sequence across the historical record — several influential texts, especially from the 17th century onward, compress the opus into three colours (black, white, red) and drop citrinitas as a named stage entirely, folding its meaning into the albedo-to-rubedo transition.",
+        "A stage of process, not a mood": "Like nigredo, albedo, and rubedo, citrinitas names a position in a directional sequence. Its comparative instability as a named stage — present in some schemes, absent in others — is itself part of the honest historical picture: this is not a single fixed four-part system universally agreed on, but a family of related sequences that different texts render as three stages or four.",
+        "Research note": "No image is set on this item. Citrinitas is visually the hardest of the four stages to document with a confidently identified period plate; many surviving alchemical image cycles either skip it or do not caption a specific plate as citrinitas specifically. Leaving the item unillustrated here follows this library's stated preference for no image over a mislabelled one."
+      },
+      "keywords": [
+        "citrinitas",
+        "alchemy",
+        "opus",
+        "yellowing"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "citrinitas",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "citrinitas",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
+      }
+    },
+    {
+      "id": "alchemical-correspondences--rubedo",
+      "name": "Rubedo — the Reddening",
+      "category": "opus-stage",
+      "sections": {
+        "Definition": "Rubedo is the opus's final stage: the reddening that marks completion, rendered as a Red King paired with the sun, or as the union of the White Queen and Red King producing a single androgynous, perfected figure (the \"chymical wedding\"). Where nigredo destroys and albedo purifies, rubedo is presented as full integration — the philosopher's stone itself, in the tradition's most literal reading, or the completed Great Work in any more figurative one.",
+        "A stage of process, not a mood": "Rubedo is the sequence's terminus, not a state that recurs independently the way an emotion or a temperament might. The whole four-stage arc (nigredo, albedo, citrinitas, rubedo) is presented by the tradition as happening once, in order, to a single working — its structure is closer to a story's ending than to a category a person cycles back into.",
+        "Research note": "The \"chymical wedding\" motif that often marks the rubedo stage (most famously elaborated in the 1616 Chymische Hochzeit Christiani Rosencreutz) treats the union of opposites as the mechanism of completion — a structural idea about integration-through-combining-contraries that later psychological and esoteric readings (again, Jung's chief example) generalise well beyond the alchemical text's own literal claims about metals."
+      },
+      "keywords": [
+        "rubedo",
+        "alchemy",
+        "opus",
+        "completion",
+        "reddening"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Splendor_Solis._Image_18_-_Moon_-_The_Red_King.jpg",
+      "metadata": {
+        "emotion_key": "rubedo",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_18_-_Moon_-_The_Red_King.jpg",
+        "image_credit": "\"Moon — The Red King,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to 1535) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "rubedo",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
+      }
+    },
+    {
+      "id": "alchemical-correspondences--saturnine",
+      "name": "Saturnine — the Temperament of Saturn",
+      "category": "planetary-temperament",
+      "sections": {
+        "Definition": "Saturnine names the disposition correspondence theory assigns to people born under, or otherwise governed by, the planet Saturn: slow, cold, solitary, given to labour, and prone to melancholy — Saturn's own astronomical slowness and distance read directly onto both body and temper. Period image cycles (the \"children of the planets\" tradition) depict Saturn's people as farmers, gravediggers, the poor, the elderly, and the imprisoned: hard, patient, often joyless work under an unfavourable sky.",
+        "One planet among six": "Saturnine is one of a full set of planetary temperaments the correspondence tradition names for the seven classical planets: jovial (Jupiter — expansive, generous, well-fortuned), martial (Mars — aggressive, combative), venereal (Venus — amorous, sensual), mercurial (Mercury — quick, changeable, clever), and lunatic or lunar (the Moon — mutable, dreamlike, prone to madness in the tradition's own etymological sense of \"moon-struck\"); the sun's own temperament is generally folded into royal/solar imagery rather than named as a sixth separate adjective. Several of these words are still ordinary English for a mood or manner: calling someone \"mercurial\" or \"jovial\" today carries no residual claim about planets, exactly as \"sanguine\" carries no residual claim about blood.",
+        "Research note": "The saturnine-melancholy link is the same historical thread the humoral-temperaments school in this library covers from the bodily-fluid side (see schools/humoral-temperaments) — correspondence cosmology and Galenic physiology were not separate systems in early modern practice but were read together, Saturn's coldness reinforcing black bile's coldness as two descriptions of the same disposition."
+      },
+      "keywords": [
+        "saturnine",
+        "saturn",
+        "planetary temperament",
+        "correspondence",
+        "melancholy"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hausbuch_Wolfegg_11r_Saturn.jpg",
+      "metadata": {
+        "emotion_key": "saturnine",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "saturnine",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Hausbuch_Wolfegg_11r_Saturn.jpg",
+        "image_credit": "\"Saturn and his children\" (Saturn und seine Kinder), folio 11r of the Wolfegg Housebook, Master of the Housebook, after 1480 — Wikimedia Commons, public domain (PD-old, life+70)."
+      }
+    },
+    {
+      "id": "alchemical-correspondences--correspondentia",
+      "name": "As Above, So Below — Fludd's and Paracelsus's Correspondence Cosmology",
+      "category": "principle",
+      "sections": {
+        "Definition": "The organizing principle beneath both the opus stages and the planetary temperaments is correspondence: the conviction that macrocosm (the universe) and microcosm (the human being) are structured alike, so that a planet's character, a metal's properties, an element's qualities, and a person's temperament are not separate facts but different-scale expressions of one pattern. Robert Fludd's engraving Integrae naturae speculum artisque imago — an ape (Art) chained to Nature, painting from her at one remove, Nature herself chained to God — is a period picture of exactly this claim: everything below copies something above it, at a remove, never touching the source directly.",
+        "Paracelsus and the medical turn": "Paracelsus applied the same correspondence logic to medicine: illness in the body corresponded to imbalance in nature's own \"alchemy,\" and the physician's task was to read and correct that correspondence — the tria prima of salt, sulphur, and mercury standing in for body, spirit, and soul respectively in his scheme. This reframed alchemy's transformative work as inherently therapeutic, not only metallurgical, and is the direct ancestor of later Western esoteric medicine.",
+        "Research note": "*Editorial note on register, not a claim either author made.* Fludd and Paracelsus each present correspondence as a discovered structure of reality, argued at length and defended against rival natural philosophers of their own day (Fludd's public dispute with Johannes Kepler over number versus form is the best-documented instance). This grammar states their claims in those terms — as the tradition's own account of how the cosmos is built — without asserting that account is empirically true."
+      },
+      "keywords": [
+        "fludd",
+        "paracelsus",
+        "correspondence",
+        "macrocosm",
+        "microcosm",
+        "hermeticism"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Robert_Fludd%2C_Integra_naturae_speculum_artisque_imago.jpg",
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Robert_Fludd,_Integra_naturae_speculum_artisque_imago.jpg",
+        "image_credit": "Integrae naturae speculum artisque imago, Robert Fludd, from Utriusque Cosmi Historia, 1617-1619 — Wellcome Collection, via Wikimedia Commons, CC BY 4.0. Same image and credit already used as this site's own homepage hero (see index.html and docs/SOURCES-AND-CAVEATS.md §2).",
+        "source_deck": "alchemical-correspondences",
+        "source_item_id": "correspondentia",
+        "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
     {

@@ -1,0 +1,188 @@
+{
+  "name": "The Four Humours — Galenic Temperament Theory",
+  "description": "The longest-running account of feeling in the Western record: from Hippocratic writers in the 5th century BCE through Galen's systematization (2nd century CE) to its dominance in European medicine through the 18th century, the body was held to run on four fluids — blood, yellow bile, black bile, and phlegm — whose relative balance produced both momentary illness and a person's durable temperament. This is a genuinely different kind of account from every other school in this library: it explains feeling by bodily constitution, not by cognition, expression, or need. A temperament here is not a mood that passes; it is closer to what modern usage calls a personality — a standing disposition a humoral excess produces and holds in place for a lifetime. The physiology is discredited: there is no blood/bile/phlegm balance underlying mood, and bloodletting to correct it caused real harm. The vocabulary nonetheless survived the theory that produced it — English speakers still call someone \"sanguine,\" \"phlegmatic,\" \"melancholic,\" or \"good-humoured\" without any commitment to Galen's physiology, a rare case of a scientific model outliving its own falsification by centuries because the words it minted turned out to be useful for something else.",
+  "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+  "cover_image_credit": {
+    "title": "The Anatomy of Melancholy, engraved frontispiece",
+    "creator": "Christian Le Blon (engraver), after Robert Burton's own programme",
+    "date": "1638 edition (third edition with frontispiece; first published 1621)",
+    "source": "Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+    "license": "Public domain (PD-old, published before 1931 and author died 1640)",
+    "pd_basis": "17th-century engraving, long out of copyright in every jurisdiction; no fresh-rights claim found on the file page.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images pair a single c.1600-1615 engraved series of the four temperaments (Hieronymus Lederer, after Raphaël Sadeler I, after a design by Maerten de Vos — Rijksmuseum, Amsterdam, CC0) with Robert Burton's 1638 engraved frontispiece to The Anatomy of Melancholy (public domain). See each item's metadata.image_credit for the specific object.",
+  "tags": ["emotions", "philosophy", "medicine", "galen", "hippocrates", "temperament", "early-modern", "history-of-medicine"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, not a finished catalogue. The four temperaments are all present as items. What is deliberately unwritten: the many named sub-species and mixed temperaments later humoral writers catalogue (e.g. sanguine-choleric, melancholic-phlegmatic combinations); the specific dietary, bloodletting, and purging remedies humoral physicians prescribed for each imbalance; the theory's afterlife in early modern psychiatry (e.g. Burton's own remedies for melancholy) beyond what the Burton item states; and its 20th-century echo in trait-based personality psychology (Eysenck explicitly borrowed the four names for his own, unrelated, arousal/stability model) — mentioning that echo is not the same as tracing it, and it is not traced here. No cross-links to other schools in this collection have been added yet.",
+  "_art_direction": {
+    "period_place": "Classical antiquity through early modern Europe (5th century BCE Hippocratic corpus; Galen, 2nd century CE Rome; the theory's cultural peak in 16th-17th century England and the Low Countries, where the Sadeler/de Vos temperament prints and Burton's Oxford both belong). The engraved-print culture of the Low Countries c. 1580-1650 gives the richest surviving visual record of the temperaments as a popular, widely-copied genre — not a scholarly abstraction but a household print series.",
+    "candidates": [
+      {
+        "name": "Rijksmuseum — Rijksstudio open collection",
+        "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+        "note": "Holds the Sadeler/de Vos four-temperaments series and related prints; releases public-domain-era holdings functionally rights-free (Rijksstudio terms), with individual objects also carrying explicit CC0 tags on Wikimedia Commons."
+      },
+      {
+        "name": "Wellcome Collection",
+        "url": "https://wellcomecollection.org/",
+        "note": "Very large holdings of humoral-medicine broadsheets, physiognomy charts, and bloodletting diagrams; images are typically tagged CC BY 4.0 on Wikimedia Commons rather than CC0 — usable, but check each file's licence and prefer an equivalent CC0/PD-old source when one exists (see docs/SOURCES-AND-CAVEATS.md §2 for this library's stated reasoning)."
+      },
+      {
+        "name": "British Library — Digitised Manuscripts and printed books",
+        "url": "https://www.bl.uk/manuscripts/",
+        "note": "Holds period copies of the Hippocratic and Galenic corpus in Latin translation, plus English medical broadsheets contemporary with Burton; useful for a future pass on the physicians' own diagrams rather than the temperament-as-genre-print tradition covered here."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Hippocratic corpus and Galen of Pergamon",
+        "role": "source tradition",
+        "note": "Structural basis: the Hippocratic doctrine of four bodily fluids (On the Nature of Man, 5th century BCE) as systematized into a full temperament theory by Galen (2nd century CE). Both are long out of copyright in every surviving edition and translation; no modern translator's specific wording is quoted anywhere in this grammar — every section is original prose describing the theory's categories."
+      },
+      {
+        "name": "Robert Burton",
+        "role": "source text",
+        "note": "The Anatomy of Melancholy (1621, expanded through five later editions to 1651) is this grammar's literary-monument item. Burton died in 1640; the text is public domain in every jurisdiction. No passage is quoted — the item describes the book's structure and stated aims in original prose."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "sanguine",
+      "name": "Sanguine — Blood (Air, Hot & Wet)",
+      "category": "temperament",
+      "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sanguinisch%2C_RP-P-1991-71.jpg",
+      "keywords": ["sanguine", "blood", "temperament", "galen", "hot", "wet", "air"],
+      "sections": {
+        "Definition": "Sanguine is the temperament produced by a dominance of blood, the humour paired with the element air and the qualities hot and wet. Galenic physicians held blood to be produced chiefly by the liver and to peak seasonally in spring. A sanguine person was described as ruddy-complexioned, warm, sociable, optimistic, and quick to fall in and out of love — the humour's heat and moisture read directly onto disposition.",
+        "A disposition, not a mood": "This is the feature that separates humoral theory from almost every other school in this library: sanguine names a standing constitutional type, not a passing state. A choleric person having a calm afternoon was still, on this theory, choleric underneath — the dominant humour was a fact about their body, stable across a lifetime, that merely expressed itself unevenly moment to moment.",
+        "Research note": "The surviving English adjective \"sanguine,\" meaning confidently optimistic, is a direct, undiluted descendant of this specific humoral claim — one of the clearest cases in the language of a discredited physiological theory leaving its vocabulary fully intact while the mechanism it named is abandoned."
+      },
+      "metadata": {
+        "emotion_key": "sanguine",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sanguinisch,_RP-P-1991-71.jpg",
+        "image_credit": "Sanguine temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection)."
+      }
+    },
+    {
+      "id": "choleric",
+      "name": "Choleric — Yellow Bile (Fire, Hot & Dry)",
+      "category": "temperament",
+      "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cholerisch%2C_RP-P-1991-73.jpg",
+      "keywords": ["choleric", "yellow bile", "temperament", "galen", "hot", "dry", "fire"],
+      "sections": {
+        "Definition": "Choleric is the temperament produced by a dominance of yellow bile (Greek cholē, source of the modern word \"choler\"), paired with fire and the qualities hot and dry. Yellow bile was held to be seated in the gallbladder and to peak in summer. A choleric person was described as quick-tempered, ambitious, decisive, and prone to sudden anger — heat without moisture read as a fast-burning, easily-provoked disposition rather than the milder warmth of the sanguine type.",
+        "A disposition, not a mood": "As with all four types, choleric is a constitutional category on this theory, not an emotional episode. A person did not \"become choleric\" when angry; an already-choleric constitution was what made a person prone to anger more often, and more sharply, than someone whose dominant humour lay elsewhere.",
+        "Research note": "\"Choleric\" and \"bilious\" both survive in English as descriptions of an irritable disposition — a second case, alongside sanguine, of the theory's vocabulary outliving the physiology it was coined to describe."
+      },
+      "metadata": {
+        "emotion_key": "choleric",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Cholerisch,_RP-P-1991-73.jpg",
+        "image_credit": "Choleric temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection)."
+      }
+    },
+    {
+      "id": "melancholic",
+      "name": "Melancholic — Black Bile (Earth, Cold & Dry)",
+      "category": "temperament",
+      "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Melancholie%2C_RP-P-1991-74.jpg",
+      "keywords": ["melancholic", "black bile", "temperament", "galen", "cold", "dry", "earth"],
+      "sections": {
+        "Definition": "Melancholic is the temperament produced by a dominance of black bile (Greek melaina cholē, \"black bile,\" the direct root of \"melancholy\"), paired with earth and the qualities cold and dry. Black bile was held to be seated in the spleen and to peak in autumn. A melancholic person was described as pensive, solitary, prone to sorrow and fear without external cause, but also — in a strand of the tradition running through the pseudo-Aristotelian Problem XXX — capable of unusual depth in philosophy, poetry, and the arts, a link between melancholy and genius that long outlasted the physiology.",
+        "A disposition, not a mood": "Melancholic names a lifelong constitutional cast, not an episode of sadness. This is the sharpest possible contrast with a modern clinical reading: humoral melancholy was not an illness episode to be treated and resolved, but a fixed bodily type some people simply were, for life, the way they had a fixed height or hair colour.",
+        "Research note": "Robert Burton's The Anatomy of Melancholy (1621) is this tradition's own most extensive treatment of the type — cited as a separate item below rather than repeated here."
+      },
+      "metadata": {
+        "emotion_key": "melancholic",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Melancholie,_RP-P-1991-74.jpg",
+        "image_credit": "Melancholic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection)."
+      }
+    },
+    {
+      "id": "phlegmatic",
+      "name": "Phlegmatic — Phlegm (Water, Cold & Wet)",
+      "category": "temperament",
+      "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Flegmatisch%2C_RP-P-1991-72.jpg",
+      "keywords": ["phlegmatic", "phlegm", "temperament", "galen", "cold", "wet", "water"],
+      "sections": {
+        "Definition": "Phlegmatic is the temperament produced by a dominance of phlegm, paired with water and the qualities cold and wet. Phlegm was held to be seated in the lungs or brain and to peak in winter. A phlegmatic person was described as calm, slow to anger, unhurried, and even-tempered — the cold-and-wet combination read as emotional dampening, the opposite pole from choleric's hot-and-dry volatility.",
+        "A disposition, not a mood": "Consistent with the other three, phlegmatic names a lifelong constitutional baseline rather than a temporary calm. A phlegmatic person having an agitated day was still, on this theory, phlegmatic — the humour set the range and the resting point of a person's emotional life, not any single instance within it.",
+        "Research note": "\"Phlegmatic\" is the fourth of the surviving English temperament words, still used today for an unflappable, low-reactivity disposition — the same durability-of-vocabulary pattern as sanguine, choleric, and melancholic."
+      },
+      "metadata": {
+        "emotion_key": "phlegmatic",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Flegmatisch,_RP-P-1991-72.jpg",
+        "image_credit": "Phlegmatic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection)."
+      }
+    },
+    {
+      "id": "burton-anatomy-of-melancholy",
+      "name": "Robert Burton's The Anatomy of Melancholy (1621)",
+      "category": "literary-monument",
+      "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+      "keywords": ["burton", "anatomy of melancholy", "melancholic", "early modern", "literature"],
+      "sections": {
+        "Definition": "Robert Burton (1577-1640), an Oxford clergyman and librarian, published The Anatomy of Melancholy in 1621 and kept expanding it through five further editions until his death — the single largest literary monument the humoral tradition produced. Structured as a mock-medical treatise, it dissects melancholy's causes (from planetary influence to bad diet to unrequited love to the fear of Hell), its symptoms, and its cures across hundreds of thousands of words, digressing constantly into history, philosophy, and satire along the way.",
+        "Why it matters here": "Burton writes from inside the temperament theory this grammar describes — he takes the black-bile physiology as given — but his actual subject keeps sliding past the physiology into something closer to a general phenomenology of human unhappiness: boredom, loneliness, religious despair, heartbreak, and what would now be called depression all get folded into \"melancholy\" alongside the humoral constitution. The book is read today as much for that sprawling catalogue of inner states as for its medical theory.",
+        "Research note": "Burton frames the book itself as therapeutic for its author — his famous stated reason for writing was \"I write of melancholy, by being busy to avoid melancholy\" — an early first-person account of a writer using the act of systematic writing as a way of managing the very state he was writing about."
+      },
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+        "image_credit": "Engraved frontispiece to the 1638 (third) edition of The Anatomy of Melancholy, engraved by Christian Le Blon — Wikimedia Commons, public domain (17th-century engraving, no fresh-rights claim found on the file page)."
+      }
+    },
+    {
+      "id": "group-four-temperaments",
+      "name": "The Four Temperaments",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["sanguine", "choleric", "melancholic", "phlegmatic"],
+      "sections": {
+        "Definition": "The complete Galenic set: four humours, four elements, four paired qualities, four durable dispositions. Every humoral pairing crosses one temperature axis (hot/cold) with one moisture axis (wet/dry), so the four types are not an arbitrary list but the four possible combinations of two binary qualities — a structural logic the theory shares with, but arrived at independently of, other four-fold schemes in this library."
+      },
+      "keywords": ["temperament", "galen", "hippocrates", "humours"],
+      "metadata": {}
+    },
+    {
+      "id": "humoral-temperaments-root",
+      "name": "The Four Humours — Constitution, Not Cognition",
+      "category": "root",
+      "level": 3,
+      "sort_order": 7,
+      "composite_of": ["group-four-temperaments", "burton-anatomy-of-melancholy"],
+      "sections": {
+        "Definition": "Galenic humoral theory explains feeling by bodily fluid balance: four humours (blood, yellow bile, black bile, phlegm), each paired with an element and two of the four qualities hot/cold and wet/dry, whose relative proportion in a given body produces both short-term illness and a lifelong temperament. It dominated Western medicine from antiquity through the 18th century and left the deepest vocabulary trace of any framework in this library — sanguine, choleric, melancholic, phlegmatic, bilious, and \"good humour\" are all still ordinary English.",
+        "Constitution, not cognition, expression, or category": "Every other school gathered in this library — appraisal theories, expression-based accounts, needs-based frameworks, basic-emotion wheels — explains feeling through some version of judgment, signal, or category. Humoral theory explains it through physiology alone: a fixed bodily ratio, set largely at birth and shifted only by things like diet, season, and age, that produces disposition the way a stronger or weaker constitution produces stamina. It is the one school here that locates feeling's source entirely below the neck, in fluid mechanics rather than mental content.",
+        "Research note": "There is no evidence of any kind — physiological, biochemical, or psychological — for a blood/bile/phlegm balance producing temperament; the four fluids are not even a coherent physiological category by modern medicine (\"black bile\" corresponds to no isolable substance). Bloodletting and purging, the clinical interventions the theory justified for centuries, caused documented harm and offered no corresponding benefit. The theory's persuasiveness in its own time rested on its elegant four-fold symmetry with the elements and qualities, not on evidence in the modern sense — and that same elegance is very likely why its words, unlike its physiology, proved durable.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim the humoral tradition made.* Humoral theory and the constructionist substrate agree on one thing by accident: neither treats a temperament as a fixed inner essence expressing itself identically everywhere — the Galenic type still needed circumstance (diet, season, life stage) to manifest. They part ways on what varies and what doesn't: humoral theory holds the underlying ratio itself is a fixed bodily fact, discoverable by a physician, where a constructionist account holds that even the four-category grid — sanguine/choleric/melancholic/phlegmatic as the exhaustive list of dispositions — is itself a culturally specific interface, one that happened to calcify into ordinary language rather than one that discovered how bodies work."
+      },
+      "keywords": ["galen", "hippocrates", "humours", "temperament", "history of medicine"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Galenic humoral theory is a discredited physiological model: no fluid balance of the kind it describes exists, and the four humours do not correspond to any coherent modern biochemical category. It is retained here as the longest-running historical account of feeling in the Western record and as the direct source of vocabulary (sanguine, choleric, melancholic, phlegmatic) still in ordinary use — a historical and linguistic claim, not an empirical one, and it should not be read as a live physiological hypothesis."
+      }
+    }
+  ]
+}
