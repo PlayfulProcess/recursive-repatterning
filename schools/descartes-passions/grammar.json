@@ -1,0 +1,198 @@
+{
+  "name": "Descartes's Six Primitive Passions",
+  "description": "René Descartes's Les passions de l'âme (The Passions of the Soul, 1649) proposes that every passion of the soul, however complex, is a combination or degree of six primitive ones: wonder (admiration), love (amour), hatred (haine), desire (désir), joy (joie), and sadness (tristesse). These six are not Paul Ekman's twentieth-century \"basic emotions\" wearing older dress — they predate that model by more than three centuries, arrive by a wholly different method (introspective philosophical analysis plus Descartes's own mechanistic physiology of \"animal spirits\" moving through the body and pineal gland), and answer a different question: not which facial expressions are cross-culturally recognized, but which passions cannot be built out of any others. Descartes wrote for a physician's and a princess's eyes (the treatise grew out of his correspondence with Princess Elisabeth of Bohemia) rather than for a laboratory.",
+  "grammar_type": "custom",
+  "tags": ["emotions", "philosophy", "descartes", "17th-century", "passions-of-the-soul"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. All six primitive passions have items — that part of the taxonomy is genuinely complete, since Descartes himself claims only six are primitive. What is missing: Descartes's much longer treatment of the derived/compound passions (Part III of the treatise lists dozens — esteem, contempt, hope, fear, jealousy, remorse, and more, each built from combinations of the six), and his physiological mechanism (animal spirits, the pineal gland) is only summarized, not worked through case by case.",
+  "_art_direction": {
+    "period_place": "17th-century France and the Dutch Republic — Descartes wrote and published while living in the United Provinces, and the treatise is dedicated to a princess of the Rhine living in exile there. French and Dutch engraving and portraiture of the 1630s–1650s is the natural visual register.",
+    "candidates": [
+      {
+        "name": "Rijksmuseum — Rijksstudio",
+        "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+        "note": "Dutch Golden Age prints and portraits, high-resolution downloads, public domain / CC0 for out-of-copyright works. Strong holdings of mid-17th-century engraved portraiture and allegorical prints."
+      },
+      {
+        "name": "Wellcome Collection",
+        "url": "https://wellcomecollection.org/",
+        "note": "Holds 17th-century anatomical and physiognomic engravings (CC BY) relevant to Descartes's own physiological framing of passion — animal spirits, the nervous system as then imagined."
+      },
+      {
+        "name": "Bibliothèque nationale de France — Gallica",
+        "url": "https://gallica.bnf.fr/",
+        "note": "French engravings and early editions of Descartes's own works, including period printings of Les passions de l'âme; check each item's own domain-status flag."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "René Descartes",
+        "role": "source text",
+        "note": "Structural basis: Les passions de l'âme (1649), the six primitive passions and Descartes's account of how compound passions are built from them. The 1649 French text and its early translations are long out of copyright; no specific translator's wording is quoted here — every section is original prose describing Descartes's claims, not a translation excerpt."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "wonder",
+      "name": "Admiration — Wonder",
+      "category": "primitive-passion",
+      "sort_order": 1,
+      "keywords": ["wonder", "admiration", "descartes", "novelty"],
+      "sections": {
+        "Definition": "Descartes places wonder (admiration) first among the six and treats it as unique: a sudden surprise of the soul that causes it to attend to and consider objects that seem rare or extraordinary — before the soul has judged whether the object is good or bad for it. Wonder is purely cognitive orientation toward novelty; unlike the other five, Descartes says it has no bodily opposite and does not depend on whether the object benefits or harms us.",
+        "Why it comes first": "Because wonder precedes any judgment of good or evil, Descartes treats it as the passion that makes the other five possible — nothing can become an object of love, hatred, desire, joy, or sadness until it has first been noticed as significant. Excess wonder, in his account, produces astonishment (étonnement), which can freeze a person into inaction; its useful degree he calls generosity of curiosity, a disposition to keep learning.",
+        "Research note": "This is the clearest point of contrast with basic-emotion models built around universal facial expressions (see the ekman-basic school in this collection): Descartes's wonder is defined by its relationship to prior knowledge (is this new to me?), not by any claimed facial signature."
+      },
+      "metadata": {
+        "emotion_key": "wonder"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Amour — Love",
+      "category": "primitive-passion",
+      "sort_order": 2,
+      "keywords": ["love", "descartes", "union"],
+      "sections": {
+        "Definition": "Descartes defines love as an agitation of the soul caused by the animal spirits, which impels the soul to join itself willingly to objects that appear agreeable to it — a felt movement toward union with something judged good, whether that something is a person, an object, or an idea.",
+        "Its degrees": "Descartes distinguishes affection (for something judged inferior to oneself), friendship (for an equal), and devotion (for something judged superior — God, one's country, one's sovereign). He treats these as differences of the same primitive passion rather than as separate ones.",
+        "Research note": "Descartes explicitly pairs love with hatred as its bodily and functional opposite (both concern union versus separation from an object), which is why they are grouped together in this deck's second-level composite."
+      },
+      "metadata": {
+        "emotion_key": "love"
+      }
+    },
+    {
+      "id": "hatred",
+      "name": "Haine — Hatred",
+      "category": "primitive-passion",
+      "sort_order": 3,
+      "keywords": ["hatred", "descartes", "aversion"],
+      "sections": {
+        "Definition": "Hatred, in Descartes's scheme, is the mirror of love: an agitation caused by the spirits that impels the soul to will itself separated from objects presented to it as harmful. Where love draws the soul toward union, hatred drives it toward distance and rejection.",
+        "Its physiology": "Descartes ties hatred's bodily signature to a supposed bitterness in the blood and a tightening around the heart, part of his broader (and now superseded) mechanistic account of how each passion moves the animal spirits differently through the body.",
+        "Research note": "Descartes's specific physiology — animal spirits, the pineal gland as the soul's seat — is not treated as a live scientific claim by this school; his primitive-passion taxonomy is read independently of the 17th-century mechanics used to explain it."
+      },
+      "metadata": {
+        "emotion_key": "hatred"
+      }
+    },
+    {
+      "id": "desire",
+      "name": "Désir — Desire",
+      "category": "primitive-passion",
+      "sort_order": 4,
+      "keywords": ["desire", "descartes", "future"],
+      "sections": {
+        "Definition": "Desire is an agitation of the soul, caused by the spirits, that disposes it to will for the future whatever it represents to itself as agreeable — the only one of the six primitive passions Descartes defines as inherently future-facing.",
+        "Its scope": "Descartes treats desire broadly: it covers wanting to obtain a good one does not yet have and wanting to avoid an evil one fears, and even the desire to preserve a good one already possesses (since preservation is itself a kind of future-directed willing). He does not give desire a named opposite among the six.",
+        "Research note": "Descartes's desire is closer to what later philosophy calls a conative or motivational state than to a discrete felt emotion — it is defined by what it moves the soul to will, not primarily by how it feels."
+      },
+      "metadata": {
+        "emotion_key": "desire"
+      }
+    },
+    {
+      "id": "joy",
+      "name": "Joie — Joy",
+      "category": "primitive-passion",
+      "sort_order": 5,
+      "keywords": ["joy", "descartes", "possession"],
+      "sections": {
+        "Definition": "Joy is an agreeable emotion of the soul, in which the enjoyment it possesses consists — the felt experience of having, right now, what one has judged to be good. Where desire looks forward and love reaches toward union, joy registers a good already present or already attained.",
+        "Its relation to love": "Descartes treats joy as frequently accompanying love (one is glad about what one loves) but keeps them conceptually distinct: love is the movement toward union, joy is the register of possession. One can, on his account, love something one does not yet possess, in which case joy is absent and desire dominates instead.",
+        "Research note": "Descartes pairs joy with sadness as its direct opposite — both concern a good or evil the soul takes to be already present, rather than merely possible."
+      },
+      "metadata": {
+        "emotion_key": "joy"
+      }
+    },
+    {
+      "id": "sadness",
+      "name": "Tristesse — Sadness",
+      "category": "primitive-passion",
+      "sort_order": 6,
+      "keywords": ["sadness", "descartes", "loss"],
+      "sections": {
+        "Definition": "Sadness is a disagreeable languor in which the soul's discomfort consists, arising from an evil, or a lack, that the soul represents to itself as belonging to it now — the counterpart to joy's registration of a present good, this time registering a present evil or absence.",
+        "Its relation to hatred": "As joy relates to love, sadness relates to hatred: hatred is the movement of rejection toward a harmful object, sadness is the felt discomfort of the evil or lack already being present. Descartes treats prolonged, ungrounded sadness as physiologically corrosive, and recommends attending to genuine present goods as a corrective — an early version of what later therapeutic traditions would call reappraisal.",
+        "Research note": "Descartes's six close on an opposing pair (joy/sadness) that mirrors the earlier pair (love/hatred), leaving wonder and desire as the two primitives without a named opposite in his own scheme."
+      },
+      "metadata": {
+        "emotion_key": "sadness"
+      }
+    },
+    {
+      "id": "group-wonder-alone",
+      "name": "Wonder — the Passion Without an Opposite",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["wonder"],
+      "sections": {
+        "Definition": "Descartes treats wonder as structurally singular among the six: it has no bodily opposite, does not depend on the object's being judged good or bad, and functions as the gateway passion that makes the other five possible by first flagging an object as significant."
+      },
+      "keywords": ["wonder", "descartes"],
+      "metadata": {}
+    },
+    {
+      "id": "group-union-and-separation",
+      "name": "Love and Hatred — Union and Separation",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["love", "hatred"],
+      "sections": {
+        "Definition": "The pair Descartes builds around the soul's movement toward or away from an object it has judged good or harmful — union (love) against separation (hatred)."
+      },
+      "keywords": ["love", "hatred", "descartes"],
+      "metadata": {}
+    },
+    {
+      "id": "group-present-good-and-evil",
+      "name": "Desire, Joy, and Sadness — Future and Present",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["desire", "joy", "sadness"],
+      "sections": {
+        "Definition": "Desire looks toward a future good or the avoidance of a future evil; joy and sadness register a good or evil the soul takes to already be present. Descartes treats these three as temporally distinct readings of the same underlying appraisal — good/evil, future/present."
+      },
+      "keywords": ["desire", "joy", "sadness", "descartes"],
+      "metadata": {}
+    },
+    {
+      "id": "descartes-passions-root",
+      "name": "Les Passions de l'Âme — the Six Primitives",
+      "category": "root",
+      "level": 3,
+      "sort_order": 10,
+      "composite_of": ["group-wonder-alone", "group-union-and-separation", "group-present-good-and-evil"],
+      "sections": {
+        "Definition": "Descartes's 1649 treatise argues that every passion the soul can feel, however complex or culturally particular, reduces to six primitives — wonder, love, hatred, desire, joy, sadness — and their combinations. He arrives at the six through introspective philosophical analysis paired with his own mechanistic physiology (the animal spirits, the pineal gland as the point of contact between soul and body), not through cross-cultural observation or facial measurement.",
+        "Not Ekman's six, three centuries earlier": "It is tempting to read Descartes's primitives as an early sketch of Paul Ekman's twentieth-century basic-emotion list (see the ekman-basic school in this collection), since both name a small closed set. They are not the same list (Descartes has wonder and love where Ekman has disgust and surprise, and neither list maps onto the other one-to-one), and they are not reached the same way: Ekman's rests on cross-cultural facial-recognition experiments conducted from the 1960s onward; Descartes's rests on 17th-century rationalist introspection and mechanistic physiology. The resemblance is in the ambition — a small, non-reducible set — not in the method or the content.",
+        "Research note": "Descartes's physiological mechanism (animal spirits circulating through nerves, the pineal gland as the soul's seat) was superseded by later neuroscience within his own century and is not treated here as a live empirical claim. What survives as philosophically live is the classificatory question itself — how many primitive passions are there, and by what test does a passion count as primitive rather than compound — a question later basic-emotion theories inherit without crediting Descartes as their source.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim Descartes made.* Descartes's method (introspection plus a single thinker's physiological theory) cannot establish that these six are universal or biologically fixed, only that they were, to him, conceptually irreducible. A constructionist account would treat even that irreducibility claim as itself a product of 17th-century French rationalist categories rather than a discovery about the human soul in general — a caution worth holding for any small, closed list, this one included."
+      },
+      "keywords": ["descartes", "passions of the soul", "1649", "rationalism"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Descartes reached his six primitives by philosophical introspection combined with a since-superseded mechanistic physiology, not by empirical measurement of any kind. No cross-cultural or experimental evidence was collected or claimed; the taxonomy stands or falls as philosophical argument, not as a scientific finding."
+      }
+    }
+  ]
+}

@@ -14,19 +14,19 @@
       "id": "constructionist",
       "name": "Constructionist — the substrate",
       "_note": "Not a peer school. This is the frame the whole library sits inside: emotions have no fixed biological fingerprints, so every taxonomy below is a meaning-layer, not a discovery.",
-      "school_slugs": []
+      "school_slugs": ["constructed-emotion"]
     },
     {
       "id": "basic-emotion",
       "name": "Basic-Emotion Schools",
       "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
-      "school_slugs": ["plutchik-wheel"]
+      "school_slugs": ["plutchik-wheel", "ekman-basic"]
     },
     {
       "id": "needs-based",
       "name": "Needs-Based Schools",
       "_note": "Feelings as signals of met/unmet needs. NVC.",
-      "school_slugs": []
+      "school_slugs": ["nvc-needs"]
     },
     {
       "id": "attachment-couples",
@@ -50,7 +50,7 @@
       "id": "historical-scientific",
       "name": "Historical & Scientific",
       "_note": "Public-domain foundations: Darwin 1872, James 1890.",
-      "school_slugs": []
+      "school_slugs": ["greek-pathe", "descartes-passions", "aquinas-passions", "rasa", "chinese-qing", "darwin-expression"]
     }
   ]
 }

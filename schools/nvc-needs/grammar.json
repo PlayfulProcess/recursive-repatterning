@@ -1,0 +1,167 @@
+{
+  "name": "Nonviolent Communication — Feelings and Needs",
+  "description": "Nonviolent Communication (NVC), the communication framework developed by Marshall Rosenberg from the 1960s onward, treats feelings not as verdicts about other people (\"you make me angry\") or as fixed inner objects to be diagnosed, but as signals pointing toward a need that is either met or unmet in the present moment. A feeling word, on this model, is information — frustration points toward an unmet need (autonomy, perhaps, or effectiveness), relief points toward a need that has just been met (ease, or safety). NVC practice pairs a feelings vocabulary with a needs vocabulary and trains people to move fluently between them, rather than staying at the level of judgment or blame. There is no single, official, universally agreed feelings-and-needs list: Rosenberg's own books present illustrative lists that changed across editions, and the Center for Nonviolent Communication (CNVC), certified trainers, and independent NVC organizations (BayNVC among others) each publish their own versions, overlapping heavily but not identical in wording or grouping.",
+  "grammar_type": "custom",
+  "tags": ["nvc", "nonviolent-communication", "needs", "rosenberg", "feelings"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Five feelings have items, three signaling an unmet need and two signaling a met need — a small sample of the much longer feelings inventories NVC materials typically publish (which commonly run to 100+ words in each column). The distinction NVC draws between a feeling and a pseudo-feeling that smuggles in a judgment of another person (e.g., \"abandoned,\" \"betrayed,\" \"manipulated\" — words that name a story about someone else's behavior rather than a felt state) is described but not built out with its own items. NVC's four-step practice model (observation, feeling, need, request) is referenced but not walked through as a worked example.",
+  "_art_direction": {
+    "period_place": "NVC developed from the 1960s onward, chiefly in the United States, and is a living training practice rather than a text tied to one historical setting — a second case, like ekman-basic, where the \"contemporary imagery\" principle strains against a modern, ongoing tradition whose own materials (workshop photography, CNVC branding) are copyrighted and not usable here.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic dialogue-circle, mediation, or community-conversation imagery that does not claim to depict NVC specifically but fits the register."
+      },
+      {
+        "name": "Wikimedia Commons — community and dialogue photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY images of community circles, restorative-justice or mediation settings; confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "U.S. National Archives — general late-20th-century community and civic-life photography",
+        "url": "https://catalog.archives.gov/",
+        "note": "Public-domain US federal photography; useful only as generic period texture for the tradition's founding decades, not as an illustration of NVC's own specific claims."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Marshall Rosenberg and the Nonviolent Communication tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the feelings-signal-needs framework central to Nonviolent Communication, developed by Marshall Rosenberg from the 1960s onward and carried forward by CNVC and independent trainers. Rosenberg's books (including Nonviolent Communication: A Language of Life) and CNVC's published materials remain in copyright; no text is quoted from them. Every category definition and example on this deck is paraphrased in original prose, describing the framework rather than reproducing any published feelings or needs list."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "frustration",
+      "name": "Frustration — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sort_order": 1,
+      "keywords": ["frustration", "nvc", "unmet need"],
+      "sections": {
+        "Definition": "In NVC practice, frustration typically points toward an unmet need for effectiveness, autonomy, or competence — the sense that one's efforts aren't landing, or that a choice one wants to make is being blocked. NVC asks the practitioner to locate the need underneath the frustration rather than stopping at the feeling or, worse, at blame directed at whoever seems to be causing it.",
+        "Not a verdict about someone else": "NVC draws a sharp line between a genuine feeling word (\"I feel frustrated\") and a pseudo-feeling that smuggles in a claim about another person's behavior or character (\"I feel ignored,\" \"I feel dismissed\") — the second kind names a story about someone else's action, not a state in the speaker, and NVC practice asks a person to trace it back to the actual feeling and need underneath.",
+        "Practice": "The NVC move is not to suppress frustration or to blame its apparent cause, but to ask: what need of mine is unmet right now, and what specific, doable request could address it?"
+      },
+      "metadata": {
+        "emotion_key": "frustration"
+      }
+    },
+    {
+      "id": "loneliness",
+      "name": "Loneliness — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sort_order": 2,
+      "keywords": ["loneliness", "nvc", "unmet need", "connection"],
+      "sections": {
+        "Definition": "Loneliness typically points toward an unmet need for connection, companionship, or being seen — NVC treats the feeling as accurate information about a real gap, not as a flaw in the person feeling it.",
+        "Not a verdict about someone else": "As with frustration, NVC distinguishes loneliness (a feeling) from a pseudo-feeling like \"I feel abandoned\" or \"I feel unloved,\" which build in a specific causal story about another person's action or intent rather than simply naming the felt state and its underlying need.",
+        "Practice": "NVC's four-step practice model — a concrete observation, the feeling it brings up, the need underneath, and a specific request — is one route from loneliness to a workable next step: naming the observation (\"we haven't spent time together this week\"), the feeling (lonely), the need (connection), and a request (\"could we set aside an hour on Thursday?\") rather than an accusation."
+      },
+      "metadata": {
+        "emotion_key": "loneliness"
+      }
+    },
+    {
+      "id": "anxious",
+      "name": "Anxious — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sort_order": 3,
+      "keywords": ["anxious", "nvc", "unmet need", "safety"],
+      "sections": {
+        "Definition": "Anxious, in NVC's framing, typically points toward an unmet need for safety, security, clarity, or predictability — the sense that something important is uncertain or at risk. As with the other unmet-need signals here, NVC treats the feeling itself as useful data rather than as a problem to be argued away.",
+        "Not a verdict about someone else": "NVC would flag \"I feel threatened\" or \"I feel set up\" as pseudo-feelings if they're standing in for anxious plus an unexamined story about someone's intent — the practice asks the speaker to separate the felt anxiety from any claim about why it's happening.",
+        "Practice": "Naming the specific unmet need (safety? clarity? predictability?) underneath a general sense of anxious usually points toward a more answerable request than the vaguer feeling does on its own — a request for information, a timeline, or a check-in, rather than a request to simply stop feeling anxious."
+      },
+      "metadata": {
+        "emotion_key": "anxious"
+      }
+    },
+    {
+      "id": "relief",
+      "name": "Relief — Signals a Met Need",
+      "category": "met-need-signal",
+      "sort_order": 4,
+      "keywords": ["relief", "nvc", "met need"],
+      "sections": {
+        "Definition": "Relief typically signals that a need for safety, ease, or resolution has just been met — a tension that was present has resolved. NVC treats naming relief, and the specific need behind it, as just as useful a practice as naming a harder feeling: it builds the same fluency in the same direction.",
+        "Practice": "NVC materials commonly ask practitioners to also notice and name met-need feelings deliberately, not only to diagnose problems — naming what need relief is pointing to (here, ease or safety) makes it easier to recognize and ask for the conditions that produce that state again."
+      },
+      "metadata": {
+        "emotion_key": "relief"
+      }
+    },
+    {
+      "id": "joyful",
+      "name": "Joyful — Signals a Met Need",
+      "category": "met-need-signal",
+      "sort_order": 5,
+      "keywords": ["joyful", "nvc", "met need"],
+      "sections": {
+        "Definition": "Joyful, in this framing, typically points toward needs like connection, play, meaning, or contribution being met — NVC treats it, like every feeling on this deck, as a signal rather than a self-sufficient endpoint, worth tracing back to the specific need it's responding to.",
+        "Practice": "Naming which need is behind a joyful moment (was it connection? contribution? play?) is itself a practiced skill in NVC training, intended to build the same feeling-to-need fluency that the harder, unmet-need feelings require, so it isn't only exercised under difficulty."
+      },
+      "metadata": {
+        "emotion_key": "joy"
+      }
+    },
+    {
+      "id": "group-unmet-needs-signals",
+      "name": "Feelings That Signal an Unmet Need",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["frustration", "loneliness", "anxious"],
+      "sections": {
+        "Definition": "NVC's own feelings inventories are commonly split into two columns — feelings when a need is met, and feelings when a need is not — mirroring that structure here. This group holds three feelings typically read as pointing toward an unmet need."
+      },
+      "keywords": ["nvc", "unmet needs"],
+      "metadata": {}
+    },
+    {
+      "id": "group-met-needs-signals",
+      "name": "Feelings That Signal a Met Need",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["relief", "joyful"],
+      "sections": {
+        "Definition": "The other column of NVC's typical feelings-inventory structure: feelings read as pointing toward a need that has just been satisfied."
+      },
+      "keywords": ["nvc", "met needs"],
+      "metadata": {}
+    },
+    {
+      "id": "nvc-needs-root",
+      "name": "Nonviolent Communication — Feelings as Signals of Needs",
+      "category": "root",
+      "level": 3,
+      "sort_order": 8,
+      "composite_of": ["group-unmet-needs-signals", "group-met-needs-signals"],
+      "sections": {
+        "Definition": "NVC treats every feeling as a signal about whether a need is currently met or unmet, rather than as a fixed inner object, a diagnosis, or a verdict about another person's behavior. Practice centers on tracing a feeling back to its need and then to a specific, workable request — the four steps commonly taught as observation, feeling, need, request.",
+        "No single canonical list": "This point matters enough to state directly: there is no one official CNVC feelings-and-needs list. Rosenberg's own published lists changed across editions of his books; CNVC's website, certified trainers, and independent organizations like BayNVC each publish their own versions of a feelings inventory and a needs inventory, overlapping substantially in content but differing in wording, grouping, and length. Treat any specific list — including the small sample in this skeleton — as one workable version among several the tradition itself has produced, not as the definitive NVC vocabulary.",
+        "Research note": "NVC has a growing body of applied research (workplace communication, mediation, couples and family contexts, some school-based conflict-resolution programs) reporting positive outcomes, alongside a smaller amount of controlled outcome research isolating NVC specifically from adjacent communication-training approaches it overlaps with. The evidence base is broader in practitioner-reported and applied-program outcomes than in independently replicated controlled trials."
+      },
+      "keywords": ["nvc", "nonviolent communication", "rosenberg", "needs-based"],
+      "metadata": {
+        "evidence_tier": "growing",
+        "evidence_note": "NVC has an expanding body of applied and practitioner-reported evidence (workplace, mediation, education, couples contexts) and increasing academic interest, but a comparatively thin base of independently replicated controlled outcome studies isolating NVC's specific mechanisms from those of adjacent communication and conflict-resolution training it shares territory with. This is a live, growing evidence base, not yet an independently-replicated one in the strict sense."
+      }
+    }
+  ]
+}
