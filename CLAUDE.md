@@ -23,7 +23,18 @@
 5. **"EFT" is two different frameworks.** Sue Johnson's *Emotionally* Focused Therapy
    (couples, attachment) and Leslie Greenberg's *Emotion*-Focused Therapy (individual,
    experiential) are different people and different models. Always disambiguate.
-6. **No totalising claims. Never say "all".** This library holds a handful of the ways
+6. **Two registers: the workings stay in `docs/`, the site states the finding.**
+   Research documents in `docs/` may and should show their work — the hypothesis,
+   the half-remembered claim, what was checked, what turned out to be wrong. That
+   record is how the library stays auditable, and `docs/FACTCHECK-*.md` exists
+   precisely for it.
+   **Public-facing copy — `index.html`, `pages/*`, viewer text, and every grammar's
+   own sections — never narrates the process.** No "we first thought X, then
+   learned Y", no "it turns out", no "contrary to what we assumed". State Y
+   cleanly and cite it. A reader came for the finding, not for our journey to it.
+   The one exception is where a *tradition's own* history of revision is the
+   subject matter — that is content, not throat-clearing.
+7. **No totalising claims. Never say "all".** This library holds a handful of the ways
    people have organised feeling and could never hold them all — there is no complete
    set. Do not name anything "All Schools", "The Complete X", "Every Y", and do not
    imply the collection is exhaustive, settled, or harmonised. A library whose founding
