@@ -50,10 +50,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- schools/across-the-schools/grammar.json; then
-            git add schools/across-the-schools/grammar.json
-            git commit -m "chore: rebuild meta-grammar [skip ci]"
+          # Both files: build_meta_grammar.py regenerates the aggregator AND
+          # _collection.json's grammars[] index (which the schools dropdown and the
+          # deck switcher read). Staging only the aggregator would throw the
+          # regenerated index away every run, so the dropdown would silently go
+          # stale whenever a school was added.
+          if ! git diff --quiet -- schools/across-the-schools/grammar.json schools/_collection.json; then
+            git add schools/across-the-schools/grammar.json schools/_collection.json
+            git commit -m "chore: rebuild meta-grammar + collection index [skip ci]"
             git push
           else
-            echo "meta unchanged"
+            echo "meta and collection index unchanged"
           fi
