@@ -54,6 +54,15 @@
       "school_slugs": []
     },
     {
+      "id": "constitution-and-correspondence",
+      "name": "Constitution & Correspondence",
+      "_note": "Accounts that explain feeling by what a person is made of and where they sit in a larger order — humours, elements, planets, stages of an opus — rather than by cognition, expression, or category. Filing these under historical-scientific would misdescribe them: the alchemical tradition never claimed to be empirical, and humoral theory was the medicine of its day rather than a psychology.",
+      "school_slugs": [
+        "humoral-temperaments",
+        "alchemical-correspondences"
+      ]
+    },
+    {
       "id": "historical-scientific",
       "name": "Historical & Scientific",
       "_note": "Public-domain foundations: Darwin 1872, James 1890.",
@@ -77,9 +86,25 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 76,
+      "items": 87,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "alchemical-correspondences",
+      "name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
+      "common_name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
+      "type": "custom",
+      "branch": "constitution-and-correspondence",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 9,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Robert_Fludd%2C_Integra_naturae_speculum_artisque_imago.jpg",
+      "path": "schools/alchemical-correspondences/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
@@ -208,6 +233,22 @@
       "items": 9,
       "cover_image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP337509.jpg",
       "path": "schools/greek-pathe/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "humoral-temperaments",
+      "name": "The Four Humours — Galenic Temperament Theory",
+      "common_name": "The Four Humours — Galenic Temperament Theory",
+      "type": "custom",
+      "branch": "constitution-and-correspondence",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 7,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
+      "path": "schools/humoral-temperaments/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
