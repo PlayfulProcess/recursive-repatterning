@@ -50,7 +50,7 @@
     {
       "slug": "rasa",
       "name": "Rasa — Bharata's Aesthetics of Performance",
-      "items": 6
+      "items": 9
     },
     {
       "slug": "chinese-qing",
@@ -1705,6 +1705,30 @@
       }
     },
     {
+      "id": "rasa--vira",
+      "name": "Vīra — the Heroic Rasa",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Vīra is the rasa built from the sthāyibhāva utsāha (energy, resolve, or heroic determination), typically arising in performance from combat pursued with steady nerve, generosity given without hesitation, or any difficult undertaking carried through with resolve — the Nāṭyaśāstra treats gaura, a fair gold-white, as its governing colour and Indra as its presiding deity.",
+        "An event, not a character's inner state": "A performer's display of utsāha — steady gaze, upright carriage, controlled breath and gesture — produces vīra in a spectator equipped to relish that display as craft, not because the audience has itself become heroic or because the actor is personally resolute off-stage. Vīra sits, with raudra, in the Nāṭyaśāstra's active, high-energy register, though the two are built from different determinants: confrontation and insult for raudra, a difficult undertaking pursued with resolve for vīra.",
+        "Research note": "Later commentators distinguish types of vīra by the kind of resolve involved — dāna-vīra (heroism through unhesitating generosity), dayā-vīra (heroism through compassion sustained under difficulty), and yuddha-vīra (heroism in battle) — a three-way subdivision this skeleton does not develop further."
+      },
+      "keywords": [
+        "vira",
+        "heroism",
+        "courage",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "vira",
+        "source_deck": "rasa",
+        "source_item_id": "vira",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
       "id": "rasa--bhayanaka",
       "name": "Bhayānaka — the Fearful Rasa",
       "category": "natyashastra-rasa",
@@ -1724,6 +1748,55 @@
         "emotion_key": "bhayanaka",
         "source_deck": "rasa",
         "source_item_id": "bhayanaka",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--bibhatsa",
+      "name": "Bībhatsa — the Rasa of Disgust/Aversion",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Bībhatsa is the rasa built from the sthāyibhāva jugupsā (disgust, aversion, repugnance), arising in performance from the sight of the foul, the decayed, the venomous, or the otherwise repellent — the Nāṭyaśāstra pairs it closely with bhayānaka and raudra as neighboring negative-register rasas, with blue as its governing colour and Mahākāla, a fierce form of Śiva, as its presiding deity.",
+        "An event, not a character's inner state": "A well-built display of jugupsā — recoil, averted gaze, the described presence of something rotten or venomous — produces bībhatsa in a spectator who can relish that display as craft, at the aesthetic remove that lets repugnance become a source of theatrical interest rather than mere revulsion. As with the other rasas, bībhatsa is not the raw disgust a person would feel encountering the actual foul thing.",
+        "Research note": "Bharata's account of bībhatsa's determinants (vibhāva) reads largely as a sensory catalogue — decaying flesh, worms, foul smell described in performance — closer in spirit to bhayānaka's stagecraft-manual quality than to karuṇa's more psychologically elaborated grief."
+      },
+      "keywords": [
+        "bibhatsa",
+        "disgust",
+        "aversion",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "bibhatsa",
+        "source_deck": "rasa",
+        "source_item_id": "bibhatsa",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--adbhuta",
+      "name": "Adbhuta — the Rasa of Wonder/Marvel",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Adbhuta is the rasa built from the sthāyibhāva vismaya (wonder, astonishment), arising in performance from the sight of the divine, the supernatural, the unexpectedly magnificent, or an event beyond ordinary explanation — with yellow as its governing colour and Brahmā as its presiding deity.",
+        "An event, not a character's inner state": "Adbhuta names the audience's relish of a well-built display of vismaya — a widened gaze, a suspended gesture, the staged arrival of something marvelous — not a spectator's own naive astonishment at a stage trick; the rasa depends on the display being recognized as craft even while it produces something like wonder in response to it.",
+        "Research note": "Later commentators subdivide adbhuta by the source of the marvel — wonder at the divine and wonder at ordinary but startling good fortune are treated as different registers of the same rasa, a distinction this skeleton does not develop further."
+      },
+      "keywords": [
+        "adbhuta",
+        "wonder",
+        "marvel",
+        "astonishment",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "adbhuta",
+        "source_deck": "rasa",
+        "source_item_id": "adbhuta",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
