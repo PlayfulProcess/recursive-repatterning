@@ -1,0 +1,471 @@
+{
+  "name": "A Genealogy of Emotions",
+  "description": "How the unit of analysis itself — what counts as one feeling, how many there are, what axis organizes them — has been rebuilt independently by five traditions that mostly did not know of one another's work: Greek/Latin-Christian/European philosophy and psychology, Sanskrit dramaturgical aesthetics, Chinese classical medicine, Amazonian perspectivist ethnography, and Micronesian ethnopsychology. Each lineage is followed on its own terms, in its own internal chronology, rather than folded into one timeline with a single spine. Draw on this deck as a map of moments, not a single spine of progress toward a correct list.",
+  "grammar_type": "custom",
+  "tags": ["genealogy", "history-of-emotion", "cross-cultural", "greek", "stoic", "sanskrit", "rasa", "chinese", "amazonian", "perspectivism", "micronesian", "constructed-emotion"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "default_preview": "tree",
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. This deck covers Part A of docs/GENEALOGY-OF-EMOTIONS.md (the five lineages and the compact timeline) only. Not yet built: Part B as its own items (the forced-choice paradigm, the Fore and Himba studies, the four infrastructure fronts basic-emotion theory rode in on); Part C as its own items (Viveiros de Castro's controlled equivocation as a method, Wierzbicka's Natural Semantic Metalanguage, the translation-standards checklist); the 'Where the lineages met' contact-zone material (Darwin's missionary questionnaires, the 19th-century European reception of Sanskrit aesthetics, modern cross-cultural psychology as a contact zone) as its own linked items rather than as background only; Ruth Leys's 2017 historiographic critique. The Sanskrit lineage covers only Bharata and Abhinavagupta, not the later popular Western reception of 'rasa' the source document itself flags as unverified. The Chinese lineage covers only the Han-dynasty seven-emotions system, not qing's broader semantic range (also flagged as unverified in the source document).",
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Original synthesis, AI-drafted and maintainer-reviewed, built from the cited historical and scholarly record — Aristotle's Rhetoric, Stoic sources, Bharata's Nāṭyaśāstra, Chinese classical medical texts, Aquinas's Summa Theologiae, Descartes, Spinoza and Hume (all public domain); Thomas Dixon's From Passions to Emotions (2003); Darwin's Expression of the Emotions (public domain); William James; Silvan Tomkins; Paul Ekman; Robert Plutchik; James Russell; Lisa Feldman Barrett's theory of constructed emotion; Catherine Lutz's Unnatural Emotions (1988); Eduardo Viveiros de Castro's Amerindian perspectivism. No text is copied from any copyrighted work — every section here is original prose describing these traditions' categories and claims factually, not quoting them. Fuller citation trails, including which claims this document could not fully verify, live in docs/GENEALOGY-OF-EMOTIONS.md."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "deck-aristotle-pathe",
+      "name": "Aristotle's Pathē (Rhetoric, Book II)",
+      "category": "moment",
+      "sort_order": 1,
+      "sections": {
+        "Definition": "Aristotle's Rhetoric analyzes pathē as levers an orator can pull, not as a fixed inner inventory: a pathos is defined by the situation that provokes it, the state of the person it targets, and the grounds on which it can be talked up or down. The Nicomachean Ethics gives a broader, differently-membered list for a different purpose. There is no single canonical Aristotelian emotion list — the count and membership shift with the text's aim, which is itself the first data point in this genealogy."
+      },
+      "keywords": ["aristotle", "rhetoric", "pathe", "persuasion"],
+      "metadata": {
+        "when": "c. 4th c. BCE",
+        "era": "4th century BCE",
+        "branch": "lineage-greek-latin-european",
+        "source_deck": "greek-pathe",
+        "source_item_id": "group-aristotle-rhetorical-pathe",
+        "deck": "Greek Pathē"
+      }
+    },
+    {
+      "id": "deck-stoic-classification",
+      "name": "The Stoic Classification of the Pathē",
+      "category": "moment",
+      "sort_order": 2,
+      "sections": {
+        "Definition": "The Stoics, beginning with Chrysippus's On Passions, rebuilt the apparatus around an entirely different question than Aristotle's: not what moves an audience, but what a mistaken judgment does to the soul. Four pathē genera (distress, fear, appetite, pleasure) sit against three eupatheiai, rational good feelings available to the wise. The organizing axis is epistemic — whether the underlying judgment is true or false, present or future — not valence and not a body-part inventory."
+      },
+      "keywords": ["stoicism", "chrysippus", "pathe", "eupatheia"],
+      "metadata": {
+        "when": "3rd c. BCE onward (Chrysippus, On Passions)",
+        "era": "3rd century BCE onward",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-aristotle-pathe"],
+        "source_deck": "greek-pathe",
+        "source_item_id": "group-stoic-four-pathe",
+        "deck": "Greek Pathē"
+      }
+    },
+    {
+      "id": "deck-aquinas-eleven-passions",
+      "name": "Aquinas's Eleven Passions",
+      "category": "moment",
+      "sort_order": 3,
+      "sections": {
+        "Definition": "Aquinas's Summa Theologiae (Prima Secundae, Qq. 22–48) inherits Aristotle's pathē by way of the Latin passiones and reorganizes them around the soul's two sensitive appetites: six concupiscible passions in three pairs (love/hatred, desire/aversion, joy/sorrow), and five irascible passions (hope/despair, fear/daring, plus anger, which Aquinas holds has no contrary). The organizing axis is the arduousness of the object — difficult to attain or avoid — not pleasant-versus-unpleasant. Hope and fear sit together not because they feel alike but because both concern a hard-to-reach good or evil."
+      },
+      "keywords": ["aquinas", "summa theologiae", "concupiscible", "irascible"],
+      "metadata": {
+        "when": "c. 1265–1273 (Summa Theologiae, Prima Secundae, Qq. 22–48)",
+        "era": "13th century CE",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-aristotle-pathe", "deck-stoic-classification"],
+        "source_deck": "aquinas-passions",
+        "source_item_id": "aquinas-passions-root",
+        "deck": "Aquinas's Passions"
+      }
+    },
+    {
+      "id": "deck-descartes-1649",
+      "name": "Descartes's Six Primitive Passions",
+      "category": "moment",
+      "sort_order": 4,
+      "sections": {
+        "Definition": "Descartes's Les passions de l'âme (1649) names six passions he calls primitive — wonder, love, hatred, desire, joy, sadness — as causal building blocks compounded by the mechanics of the pineal gland and animal spirits, not a claim about universal cross-cultural recognition.",
+        "Research note": "Worth stating precisely, since it is easy to conflate with a much later list: Descartes's six are not Ekman's six. Only love/joy and hatred/sadness are even loosely analogous; wonder and desire have no Ekman counterpart, and surprise, disgust, and fear have no Cartesian one. The idea of \"six basic passions/emotions\" has a European philosophical pedigree that predates Ekman by roughly three hundred years, with an entirely different membership and an entirely different theoretical basis."
+      },
+      "keywords": ["descartes", "les passions de l'ame", "six primitives"],
+      "metadata": {
+        "when": "1649 (Les passions de l'âme)",
+        "era": "1649",
+        "branch": "lineage-greek-latin-european",
+        "source_deck": "descartes-passions",
+        "source_item_id": "descartes-passions-root",
+        "deck": "Descartes's Passions"
+      }
+    },
+    {
+      "id": "deck-spinoza-ethics",
+      "name": "Spinoza's Three Primary Affects",
+      "category": "moment",
+      "sort_order": 5,
+      "sections": {
+        "Definition": "Spinoza's Ethics (published posthumously, 1677), written in explicit and often critical dialogue with Descartes, reduces the primitives further to three: desire, joy, and sadness — defined not as felt qualities but as transitions in the body's power of acting. Every other affect (love, hate, hope, fear, pride) is one of these three entangled with the idea of an external cause."
+      },
+      "keywords": ["spinoza", "ethics", "conatus", "affects"],
+      "metadata": {
+        "when": "1677 (Ethics, published posthumously)",
+        "era": "1677",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-descartes-1649"]
+      }
+    },
+    {
+      "id": "deck-hume-treatise",
+      "name": "Hume's Direct and Indirect Passions",
+      "category": "moment",
+      "sort_order": 6,
+      "sections": {
+        "Definition": "Hume's A Treatise of Human Nature (1739) splits the passions along a third seam entirely: direct passions (desire, aversion, grief, joy, hope, fear) arise immediately from pleasure or pain, while indirect passions (pride, humility, love, hatred) additionally require an idea of self or another person as their object. Neither Descartes's causal-primitive axis nor Spinoza's power-of-acting axis nor Aquinas's arduousness axis appears here — Hume's cut is about what the passion is about.",
+        "Research note": "Three major European thinkers, working within roughly ninety years of each other in the same broad conversation, produced three structurally incompatible taxonomies with three different primitive counts. This is the clearest pre-modern evidence that a \"basic emotions\" list is a design choice remade to fit an argument, not a discovery converged on from different angles."
+      },
+      "keywords": ["hume", "treatise of human nature", "direct passions", "indirect passions"],
+      "metadata": {
+        "when": "1739 (A Treatise of Human Nature)",
+        "era": "1739",
+        "branch": "lineage-greek-latin-european"
+      }
+    },
+    {
+      "id": "deck-dixon-emotion-coinage",
+      "name": "The Nineteenth-Century Coinage of \"Emotion\"",
+      "category": "moment",
+      "sort_order": 7,
+      "sections": {
+        "Definition": "Thomas Dixon's From Passions to Emotions argues that \"the emotions,\" as one English category spanning everything from a startle reflex to religious rapture, is a nineteenth-century invention rather than a discovery of something always there under older names. Earlier English vocabulary distinguished passions (strong, morally dangerous movements), affections (steadier, morally approved inclinations), and sentiments (refined, socially calibrated feelings, per Hume and Adam Smith). Scottish thinkers, especially Thomas Brown and Thomas Chalmers, began collapsing these; physicalist, increasingly secular writers after them — Alexander Bain, Herbert Spencer, and eventually Darwin — completed the consolidation.",
+        "Research note": "This is a gradual nineteenth-century process spanning several named thinkers, not a single dated event; the era label reflects that. If the container itself is a comparatively recent, English-language, secularizing artifact, universality claims about what fills that container are being asked to do work before the container's own boundaries have been justified — this is Dixon's argument, presented here as his, not as this deck's settled verdict."
+      },
+      "keywords": ["dixon", "passions to emotions", "secularization", "taxonomy"],
+      "metadata": {
+        "when": "19th c.",
+        "era": "19th century CE (Dixon's periodization)",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-hume-treatise"]
+      }
+    },
+    {
+      "id": "deck-darwin-1872",
+      "name": "Darwin's Universal Expressions",
+      "category": "moment",
+      "sort_order": 8,
+      "sections": {
+        "Definition": "Darwin's The Expression of the Emotions in Man and Animals (1872) argues that facial and bodily expressions are largely innate and adaptive, evidenced by their appearance in infants, in people born blind, and across species none of whom could have learned them by imitation. Darwin supplemented direct observation and Duchenne de Boulogne's photographic studies with a network of questionnaires sent to missionaries and colonial travelers — an early, methodologically loose ancestor of the cross-cultural \"universality\" study design later formalized by Ekman, and one of the earliest documented contact points between this lineage and the others this deck follows."
+      },
+      "keywords": ["darwin", "expression of the emotions", "universal expression"],
+      "metadata": {
+        "when": "1872 (The Expression of the Emotions in Man and Animals)",
+        "era": "1872",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-dixon-emotion-coinage"],
+        "source_deck": "darwin-expression",
+        "source_item_id": "darwin-expression-root",
+        "deck": "Darwin's Expression of the Emotions"
+      }
+    },
+    {
+      "id": "deck-james-1884",
+      "name": "William James's Bodily-Perception Theory",
+      "category": "moment",
+      "sort_order": 9,
+      "sections": {
+        "Definition": "James's 1884 essay \"What Is an Emotion?\", extended in The Principles of Psychology (1890), proposes the opposite causal order from ordinary intuition: bodily changes come first, and the feeling of those changes is the emotion — strip away the bodily feedback and, James argued, nothing recognizable as the emotion is left. Independently proposed around the same time by the Danish physiologist Carl Lange, hence \"James–Lange theory.\" James located emotion in specific, differentiated bodily patterns per emotion, where later constructionist accounts locate it in a much more general, undifferentiated signal categorized after the fact."
+      },
+      "keywords": ["william james", "james-lange", "somatic feedback"],
+      "metadata": {
+        "when": "1884 (\"What Is an Emotion?\")",
+        "era": "1884",
+        "branch": "lineage-greek-latin-european"
+      }
+    },
+    {
+      "id": "deck-tomkins-1962",
+      "name": "Tomkins's Nine Innate Affects",
+      "category": "moment",
+      "sort_order": 10,
+      "sections": {
+        "Definition": "Silvan Tomkins's Affect Imagery Consciousness (1962–63) proposed nine innate affects — interest-excitement, enjoyment-joy, surprise-startle, fear-terror, distress-anguish, anger-rage, shame, disgust, and \"dissmell\" — as hard-wired subcortical programs, largely independent of drives like hunger and sex, arguing that affect rather than drive is the primary motivator of behavior. Tomkins mentored a generation of researchers, Paul Ekman among them, who took the hard-wired-universal-discrete-affect idea forward into cross-cultural facial-expression research."
+      },
+      "keywords": ["tomkins", "affect imagery consciousness", "affect programs"],
+      "metadata": {
+        "when": "1962 (Affect Imagery Consciousness, Vol. 1)",
+        "era": "1962",
+        "branch": "lineage-greek-latin-european"
+      }
+    },
+    {
+      "id": "deck-ekman-basic-emotions",
+      "name": "Ekman's Six Basic Emotions and FACS",
+      "category": "moment",
+      "sort_order": 11,
+      "sections": {
+        "Definition": "Ekman narrowed Tomkins's nine down, in most published statements, to six — anger, disgust, fear, happiness, sadness, surprise — argued to be universal across cultures on the strength of fieldwork with the Fore of Papua New Guinea (published as \"Constants Across Cultures in the Face and Emotion,\" 1971). With Wallace Friesen, Ekman built the Facial Action Coding System (FACS, 1978), an anatomically grounded notation for facial-muscle movement.",
+        "Research note": "The classic Fore studies used a forced-choice design — matching a face to one of a short supplied list of words or stories — which cannot, by construction, show that a culture independently carves feeling into those categories; it can only show that people can match faces to a supplied list better than chance. Later free-labelling and free-sorting studies, including Gendron and Barrett's Himba fieldwork, generally found weaker, more context-dependent agreement. This is a live, ongoing dispute rather than a settled question — see this deck's own constructed-emotion school for the counter-position."
+      },
+      "keywords": ["ekman", "facs", "basic emotions", "fore"],
+      "metadata": {
+        "when": "1971 (Ekman & Friesen, Constants Across Cultures in the Face and Emotion)",
+        "era": "1971",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-tomkins-1962"],
+        "source_deck": "ekman-basic",
+        "source_item_id": "ekman-basic-root",
+        "deck": "Ekman's Basic Emotions"
+      }
+    },
+    {
+      "id": "deck-plutchik-1980",
+      "name": "Plutchik's Wheel of Emotions",
+      "category": "moment",
+      "sort_order": 12,
+      "sections": {
+        "Definition": "Robert Plutchik, working independently within a psychoevolutionary framework rather than from facial-universality data, proposed eight primary emotions — joy, trust, fear, surprise, sadness, disgust, anger, anticipation — arranged in 1980 as a wheel of four opposing pairs, with intensity increasing toward the center and adjacency-blends (\"dyads\") at the outer edge.",
+        "Research note": "Plutchik's eight and Ekman's six overlap on most terms but are not the same list, and were built from different theoretical starting points published within a few years of each other. Even inside the mid-twentieth-century \"basic emotions\" consensus, there was no actual agreement on count or membership — only on the architecture of discrete, universal, biologically basic categories."
+      },
+      "keywords": ["plutchik", "wheel of emotions", "psychoevolutionary"],
+      "metadata": {
+        "when": "1980",
+        "era": "1980",
+        "branch": "lineage-greek-latin-european",
+        "source_deck": "plutchik-wheel",
+        "source_item_id": "plutchik-wheel-root",
+        "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "deck-russell-circumplex",
+      "name": "Russell's Circumplex Model",
+      "category": "moment",
+      "sort_order": 13,
+      "sections": {
+        "Definition": "James Russell's 1980 circumplex model discarded discrete categories in favor of two continuous, bipolar dimensions — pleasure/displeasure and arousal/sleepiness — onto which any feeling word can be plotted as a point rather than sorted into a bin. In a 1994 review, Russell directly challenged the evidentiary basis of the \"universal recognition\" literature, arguing the apparent universality was substantially an artifact of study design — a critique later extended by Barrett's group."
+      },
+      "keywords": ["russell", "circumplex", "valence", "arousal"],
+      "metadata": {
+        "when": "1980 (circumplex model of affect)",
+        "era": "1980",
+        "branch": "lineage-greek-latin-european"
+      }
+    },
+    {
+      "id": "deck-barrett-constructed-emotion",
+      "name": "Barrett's Theory of Constructed Emotion",
+      "category": "moment",
+      "sort_order": 14,
+      "sections": {
+        "Definition": "Lisa Feldman Barrett's theory of constructed emotion, synthesized in How Emotions Are Made (2017), proposes that emotion is not a triggered program but a real-time construction: the brain continuously generates a general, undifferentiated core-affect signal — a point in valence-arousal space, descended from Russell's circumplex — from interoceptive and exteroceptive input, then categorizes that signal in the moment using concepts learned from language and culture."
+      },
+      "keywords": ["barrett", "constructed emotion", "core affect", "conceptual act theory"],
+      "metadata": {
+        "when": "2017 (How Emotions Are Made)",
+        "era": "2017",
+        "branch": "lineage-greek-latin-european",
+        "derives_from": ["deck-russell-circumplex"],
+        "source_deck": "constructed-emotion",
+        "source_item_id": "constructed-emotion-root",
+        "deck": "The Theory of Constructed Emotion"
+      }
+    },
+    {
+      "id": "deck-bharata-natyashastra",
+      "name": "Bharata's Nāṭyaśāstra — the Eight Rasas",
+      "category": "moment",
+      "sort_order": 15,
+      "sections": {
+        "Definition": "Bharata Muni's Nāṭyaśāstra sets out eight rasas — the erotic, comic, pathetic, furious, heroic, fearful, odious, and marvelous — each produced in an audience by the corresponding stable emotion (bhāva) of the character portrayed. A rasa is not, in the first instance, a state inside a person's body; it is what a well-made performance produces in a qualified spectator, an aesthetic \"flavor\" distilled from a character's felt emotion. The unit of analysis is the relationship between performer, text, and audience, not an individual's physiology.",
+        "Research note": "The Nāṭyaśāstra's own composition date is a live scholarly estimate, not a fixed point — sources place it anywhere across roughly four centuries. The era label here reflects that spread rather than a single agreed year."
+      },
+      "keywords": ["bharata", "natyashastra", "rasa", "sanskrit aesthetics"],
+      "metadata": {
+        "when": "c. 2nd c. BCE – 2nd c. CE (Nāṭyaśāstra)",
+        "era": "roughly 200 BCE – 200 CE (scholarly estimate spans several centuries)",
+        "branch": "lineage-sanskrit",
+        "source_deck": "rasa",
+        "source_item_id": "group-natyashastra-five",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "deck-abhinavagupta-shanta",
+      "name": "Abhinavagupta's Śānta — the Ninth Rasa",
+      "category": "moment",
+      "sort_order": 16,
+      "sections": {
+        "Definition": "Roughly a millennium after Bharata, the Kashmiri philosopher Abhinavagupta, commenting on the Nāṭyaśāstra in his Abhinavabhāratī, argued that Bharata's eight rasas were incomplete and added a ninth, śānta (peace, tranquility) — and, working within a nondual Śaiva framework, argued śānta is not merely one rasa among nine but the ground the other eight relish against.",
+        "Research note": "Whether śānta is best read as a ninth peer category or as a substrate-like ground for the other eight is a live question within rasa scholarship itself, not settled here — a structural echo, worth naming without overstating the parallel, of this library's own claim that constructed emotion is a frame rather than a peer school."
+      },
+      "keywords": ["abhinavagupta", "shanta", "rasa", "abhinavabharati"],
+      "metadata": {
+        "when": "c. 11th c. CE (Abhinavabhāratī commentary)",
+        "era": "circa 11th century CE",
+        "branch": "lineage-sanskrit",
+        "derives_from": ["deck-bharata-natyashastra"],
+        "source_deck": "rasa",
+        "source_item_id": "group-abhinavagupta-shanta",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "deck-chinese-seven-emotions",
+      "name": "The Seven Emotions of Classical Chinese Medicine",
+      "category": "moment",
+      "sort_order": 17,
+      "sections": {
+        "Definition": "The Huangdi Neijing (Yellow Emperor's Inner Classic) and later texts organize feeling into the \"seven emotions\" (qīqíng) — joy, anger, worry, pensiveness, grief, fear, and fright — each in correspondence with one of the five viscera: the heart governs joy, the liver anger, the spleen contemplation, the lung grief, the kidney fear. The organizing axis is a physiological correspondence system, where an emotion in excess becomes a pathogenic factor — too much anger injures the liver, too much grief the lung — folding feeling directly into a theory of disease rather than a theory of mind.",
+        "Research note": "Chinese qing (情) is broader than the English \"emotion,\" carrying senses closer to \"circumstance\" or \"the facts of a matter\" in classical usage — a claim drawn from general background on classical Chinese moral psychology rather than a single checked source, and flagged here as unverified rather than asserted as settled."
+      },
+      "keywords": ["qiqing", "huangdi neijing", "five viscera", "chinese medicine"],
+      "metadata": {
+        "when": "c. 2nd c. BCE – 3rd c. CE (Huangdi Neijing, Han dynasty compilation, 206 BCE – 220 CE)",
+        "era": "Han dynasty, roughly 206 BCE – 220 CE",
+        "branch": "lineage-chinese",
+        "source_deck": "chinese-qing",
+        "source_item_id": "chinese-qing-root",
+        "deck": "Chinese Qing — the Seven Emotions"
+      }
+    },
+    {
+      "id": "deck-viveiros-de-castro-perspectivism",
+      "name": "Viveiros de Castro's Amerindian Perspectivism",
+      "category": "moment",
+      "sort_order": 18,
+      "sections": {
+        "Definition": "Synthesized across decades of Amazonianist ethnography by the Brazilian anthropologist Eduardo Viveiros de Castro, Amerindian perspectivism does not produce a taxonomy of feelings, and that absence is the finding, not a gap. Across a range of Amazonian cosmologies, what differs between kinds of being (human, jaguar, spirit) is not the emotional repertoire but the world each kind of body discloses — multinaturalism: one shared culture (the capacity to be a point of view) and many natures, in deliberate inversion of Western multiculturalism's one nature, many cultures.",
+        "Research note": "This document worked primarily from Viveiros de Castro's 2004 restatement (\"Perspectival Anthropology and the Method of Controlled Equivocation,\" Tipití) and secondary overviews rather than the full text of the foundational 1998 article (\"Cosmological Deixis and Amerindian Perspectivism,\" Journal of the Royal Anthropological Institute) — a distance from the primary source worth naming rather than smoothing over."
+      },
+      "keywords": ["viveiros de castro", "perspectivism", "multinaturalism", "amazonian"],
+      "metadata": {
+        "when": "1998 (foundational statement; this deck also draws on the 2004 restatement)",
+        "era": "1998, restated 2004",
+        "branch": "lineage-amazonian"
+      }
+    },
+    {
+      "id": "deck-lutz-ifaluk",
+      "name": "Lutz's Ifaluk Fieldwork — fago and song",
+      "category": "moment",
+      "sort_order": 19,
+      "sections": {
+        "Definition": "Catherine Lutz's Unnatural Emotions: Everyday Sentiments on a Micronesian Atoll and Their Challenge to Western Theory (1988), based on fieldwork on Ifaluk atoll in 1977–78, documents an emotion vocabulary organized around relationship and moral order rather than a private interior state to be labeled. Fago is felt toward someone suffering, in need, or leaving, and binds compassion, love, and grief together in a way English does not; song is specifically justifiable anger, sanctioned within Ifaluk moral order in a way undifferentiated English \"anger\" is not.",
+        "Research note": "This is the most recent fieldwork of the five lineages this deck follows, and the only one built on direct, extended ethnographic immersion rather than a canonical philosophical or medical text — which also means the evidentiary basis for fago and song is a single ethnographer's fieldwork record, rich but not independently replicated by other fieldworkers to this document's knowledge. A gloss (\"compassion,\" \"anger\") is accurate enough to pass a forced-choice check and wrong enough to lose the concept's actual shape — Lutz's own definitions are given here before, not instead of, the nearest English word."
+      },
+      "keywords": ["lutz", "ifaluk", "fago", "song", "ethnopsychology"],
+      "metadata": {
+        "when": "1988 (fieldwork 1977–78)",
+        "era": "1988 (fieldwork 1977–78)",
+        "branch": "lineage-micronesian"
+      }
+    },
+    {
+      "id": "lineage-greek-latin-european",
+      "name": "Lineage: Greek, Latin-Christian, and European",
+      "category": "lineage",
+      "level": 2,
+      "sort_order": 20,
+      "composite_of": [
+        "deck-aristotle-pathe", "deck-stoic-classification", "deck-aquinas-eleven-passions",
+        "deck-descartes-1649", "deck-spinoza-ethics", "deck-hume-treatise",
+        "deck-dixon-emotion-coinage", "deck-darwin-1872", "deck-james-1884",
+        "deck-tomkins-1962", "deck-ekman-basic-emotions", "deck-plutchik-1980",
+        "deck-russell-circumplex", "deck-barrett-constructed-emotion"
+      ],
+      "sections": {
+        "Definition": "The longest continuous written record among the five lineages this deck follows — Aristotle through contemporary constructionist psychology, by way of Stoic ethics, Thomist moral theology, and three incompatible Enlightenment taxonomies. That length is why this lineage gets the most space here, not because it is the reference case the other four are measured against: it happens to be the one with the longest continuous written record available in the sources this deck could check. Length and documentation, not primacy.",
+        "Research note": "This lineage spans purely philosophical claims (Aristotle through Hume) and empirically tested modern psychological science (Ekman's fieldwork, Barrett's meta-analytic critique) at very different evidence tiers. See this library's own ekman-basic, darwin-expression, and constructed-emotion decks for the school-specific evidence_tier ratings on the modern portion; this lineage item's own rating below covers the genealogical claim — that these are meaningfully connected stages — not the empirical status of any single stage."
+      },
+      "keywords": ["greek philosophy", "stoicism", "aquinas", "enlightenment", "basic emotion", "constructed emotion"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "The claim that these fourteen moments form one traceable lineage is a historical-interpretive synthesis, not an empirical finding. It is not the same claim as \"this list is exhaustive\" or \"this is the only lineage worth this much space\" — see this deck's root item for that framing note stated directly."
+      }
+    },
+    {
+      "id": "lineage-sanskrit",
+      "name": "Lineage: Sanskrit — Rasa",
+      "category": "lineage",
+      "level": 2,
+      "sort_order": 21,
+      "composite_of": ["deck-bharata-natyashastra", "deck-abhinavagupta-shanta"],
+      "sections": {
+        "Definition": "Rasa theory treats feeling as an aesthetic event produced between a well-made performance and a qualified spectator's own relish of it — not a private inner state a person simply has. Bharata's eight rasas and Abhinavagupta's ninth, śānta, are the two dated moments in this lineage this deck currently covers; the tradition's own later commentarial life, and its nineteenth-century reception into European philology, continue well beyond both."
+      },
+      "keywords": ["rasa", "natyashastra", "bharata", "abhinavagupta", "sanskrit aesthetics"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Rasa theory is a work of dramaturgical and aesthetic philosophy developed and debated within the Sanskrit commentarial tradition over more than a millennium. It is not an empirical psychological theory and does not claim cross-cultural or physiological evidence; its authority within its own tradition rests on argument and continued use by practitioners, matching this library's existing rasa deck's own rating."
+      }
+    },
+    {
+      "id": "lineage-chinese",
+      "name": "Lineage: Chinese — Qing and the Seven Emotions",
+      "category": "lineage",
+      "level": 2,
+      "sort_order": 22,
+      "composite_of": ["deck-chinese-seven-emotions"],
+      "sections": {
+        "Definition": "Chinese medical and philosophical texts group feeling under qing, a term broader than the English \"emotion.\" What is well documented is the clinical taxonomy: the Huangdi Neijing's seven emotions, each in correspondence with one of the five viscera, an organizing axis that is neither valence nor judgment-alteration nor performer-audience relation but a physiological correspondence system folding feeling into a theory of disease."
+      },
+      "keywords": ["qing", "qiqing", "chinese medicine", "five viscera"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "The seven-emotions/five-viscera correspondence system is a classical medical-philosophical framework, not an empirically tested modern claim; it is documented here as clinical taxonomy within its own tradition, matching this library's existing chinese-qing deck's own rating."
+      }
+    },
+    {
+      "id": "lineage-amazonian",
+      "name": "Lineage: Amazonian — Perspectivism and Multinaturalism",
+      "category": "lineage",
+      "level": 2,
+      "sort_order": 23,
+      "composite_of": ["deck-viveiros-de-castro-perspectivism"],
+      "sections": {
+        "Definition": "The other four lineages this deck follows each produce a taxonomy — a list of pathē, a set of rasas, seven qing, eleven Thomist passions — naming and counting the feelings a person can have. Amerindian perspectivism does not, and that absence is the finding here, not a gap in this deck's research: on this account, asking \"what are the emotions in Amazonian cosmology\" misrepresents the material rather than filling a gap in it, because what varies between kinds of being is which world a body's perspective discloses, not which feelings it has access to."
+      },
+      "keywords": ["perspectivism", "multinaturalism", "amazonian", "viveiros de castro"],
+      "metadata": {
+        "evidence_tier": "observational-only",
+        "evidence_note": "A synthesis across decades of Amazonianist ethnographic fieldwork by multiple researchers, as represented through Viveiros de Castro's own theoretical statements. It is an anthropological-ethnographic claim, not a claim tested by replication in the experimental-psychology sense — a different evidence tier from a canonical text with a long commentarial tradition, and from a single-fieldworker record."
+      }
+    },
+    {
+      "id": "lineage-micronesian",
+      "name": "Lineage: Micronesian — Ifaluk's Fago and Song",
+      "category": "lineage",
+      "level": 2,
+      "sort_order": 24,
+      "composite_of": ["deck-lutz-ifaluk"],
+      "sections": {
+        "Definition": "Catherine Lutz's fieldwork on Ifaluk atoll works through a fifth, independent case: an emotion vocabulary organized primarily around relationship and moral order, anchored by fago and song, rather than around a private interior state to be labeled. It is the most recent fieldwork of the five lineages this deck follows, and the only one produced by direct, extended ethnographic immersion in a living community's own vocabulary rather than through a canonical philosophical or medical text."
+      },
+      "keywords": ["ifaluk", "fago", "song", "lutz", "micronesian"],
+      "metadata": {
+        "evidence_tier": "observational-only",
+        "evidence_note": "The evidentiary basis for fago and song is a single ethnographer's fieldwork record (1977–78, published 1988) — rich, but not independently replicated by other fieldworkers to this document's knowledge. A different evidence tier from a canonical text with a long commentarial tradition behind it."
+      }
+    },
+    {
+      "id": "genealogy-of-emotions-root",
+      "name": "A Genealogy of Emotions",
+      "category": "root",
+      "level": 3,
+      "sort_order": 25,
+      "composite_of": [
+        "lineage-greek-latin-european", "lineage-sanskrit", "lineage-chinese",
+        "lineage-amazonian", "lineage-micronesian"
+      ],
+      "sections": {
+        "Definition": "Emotion has not been theorized once, with local variations layered on top. It has been theorized independently, more than once, by traditions that did not always know of one another's existence and were not answering one another's questions. This deck follows five such traditions as five separate lineages, each in its own internal chronology, rather than as branches off one main line — which is why this library can hold Aristotle, Bharata, Aquinas, Descartes, Darwin, Ekman, Barrett, Viveiros de Castro, and Lutz side by side without asking any of them to be secretly agreeing with each other.",
+        "Research note": "It would be easy to organize this material as \"the European tradition\" on one side and \"everything else\" on the other. That framing is avoided here on purpose: it would silently make Europe the measure and file every other tradition as a variation or deviation, defined by what it is not rather than by what it is. The material is organized instead as five lineages, named for the tradition that produced them, each followed on its own terms. The European lineage gets the most space because it happens to be the one with the longest continuous written record available in the sources this deck could check — length and documentation, not primacy. Where the lineages actually crossed — through missionary and colonial contact, philological reception, and the shared instruments of modern cross-cultural psychology — is real history, not yet built out as its own items in this skeleton (see the deck-level _note).",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim any of the five lineages makes about the others.* This genealogy is the evidentiary backbone for why this library treats the constructionist account as a substrate rather than a peer school: read across five independent traditions, the record shows categories changing, not one correct set slowly being discovered. Amerindian perspectivism is the one lineage here that is not an illustration of that constructionist premise but a genuine rival to it — it puts the universal and the constructed on opposite sides of the ledger from Barrett's own account. Both things are true at once and this deck does not choose between them; see docs/GENEALOGY-OF-EMOTIONS.md, Part C, for the fuller treatment."
+      },
+      "keywords": ["genealogy of emotions", "five lineages", "history of emotion"],
+      "metadata": {
+        "status": "skeleton",
+        "evidence_tier": "theoretical",
+        "evidence_note": "This root item's own claim is interpretive: that reading five independent traditions' histories together supports treating emotion categories as constructed rather than discovered. It aggregates five lineages whose own internal evidence tiers differ (theoretical for Greek/Sanskrit/Chinese, observational-only for Amazonian/Micronesian) and does not average or launder those differences into one rating."
+      }
+    }
+  ]
+}

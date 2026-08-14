@@ -50,7 +50,7 @@
       "id": "historical-scientific",
       "name": "Historical & Scientific",
       "_note": "Public-domain foundations: Darwin 1872, James 1890.",
-      "school_slugs": ["greek-pathe", "descartes-passions", "aquinas-passions", "rasa", "chinese-qing", "darwin-expression"]
+      "school_slugs": ["greek-pathe", "descartes-passions", "aquinas-passions", "rasa", "chinese-qing", "darwin-expression", "genealogy-of-emotions"]
     }
   ]
 }

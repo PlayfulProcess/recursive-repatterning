@@ -122,9 +122,20 @@ let itemMap, decks, hidden=new Set(), oldestFirst=true, laneField='branch';
 let currentPlaced=[]; // display order (chronological, current direction+filters) for prev/next paging
 let laneValues=[], colorOf={};   // set by buildLaneFromField()
 
+// Inherited from a library whose earliest item was 15th-century, so it had no BCE
+// case and no years below 1200. Both assumptions break on any pre-modern lineage:
+// without the BCE branch, "4th c. BCE" returned 350 and sorted *after* "2nd c. BCE"
+// (150), inverting antiquity. Also accepts "century"/"cent." spelled out — the old
+// pattern required a word boundary straight after "c".
 function parseYear(when){ if(!when) return null;
-  let m=String(when).match(/\b(1[2-9]\d{2}|20\d{2})\b/); if(m) return +m[1];
-  m=String(when).match(/(\d{1,2})\s*(?:st|nd|rd|th)?\s*c\b/i); if(m) return (+m[1]-1)*100+50; return null; }
+  const s=String(when);
+  const bce=/\bb\.?\s?c\.?\s?e?\.?\b/i.test(s);
+  let m;
+  if(!bce){ m=s.match(/\b(1[2-9]\d{2}|20\d{2})\b/); if(m) return +m[1]; }
+  m=s.match(/\b(\d{3,4})\b/); if(m && bce) return -(+m[1]);
+  m=s.match(/(\d{1,2})\s*(?:st|nd|rd|th)?\s*c(?:ent(?:ury)?)?\.?\b/i);
+  if(m){ const mid=(+m[1]-1)*100+50; return bce ? -mid : mid; }
+  return null; }
 
 // Extract a field value from a deck for the current laneField
 function laneOf(d){
