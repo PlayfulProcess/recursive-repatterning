@@ -13,14 +13,14 @@
     "pd_basis": "Museum has designated the digitized image CC0 under its Open Access programme.",
     "verified": "2026-08-14"
   },
-  "image_credit": "Item images are Ragamala (\"garland of melodies\") paintings from the Smithsonian's National Museum of Asian Art, CC0. Ragamala painting is centuries later than Bharata's own era, but is the richest surviving visual tradition organized around named rasa/bhava states, per this school's own _art_direction. Hasya, karuna, raudra, and bhayanaka have no confidently-matched Ragamala painting found in the time available and are left without images. See each item's metadata.image_credit.",
+  "image_credit": "Item images are Ragamala (\"garland of melodies\") paintings from the Smithsonian's National Museum of Asian Art, CC0. Ragamala painting is centuries later than Bharata's own era, but is the richest surviving visual tradition organized around named rasa/bhava states, per this school's own _art_direction. Hasya, karuna, raudra, bhayanaka, vira, bibhatsa, and adbhuta have no confidently-matched Ragamala painting found in the time available and are left without images. See each item's metadata.image_credit.",
   "tags": ["rasa", "aesthetics", "natyashastra", "bharata", "abhinavagupta", "sanskrit-drama"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Five of the eight Nāṭyaśāstra rasas have items (śṛṅgāra, hāsya, karuṇa, raudra, bhayānaka); vīra, bībhatsa, and adbhuta are not yet written. Abhinavagupta's śānta is included as required, but the wider philosophical debate over whether śānta can count as a rasa at all (Abhinavagupta says yes, against objectors who held rasa requires an actively displayed sthāyibhāva and śānta's sthāyibhāva, śama, is a cessation rather than a display) is only summarized, not argued through. No item yet covers the vibhāva/anubhāva/vyabhicāribhāva performance mechanics in their own right.",
+  "_note": "All nine rasas are represented as items — Bharata's eight (śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta) plus Abhinavagupta's śānta. The wider philosophical debate over whether śānta can count as a rasa at all (Abhinavagupta says yes, against objectors who held rasa requires an actively displayed sthāyibhāva, and śānta's sthāyibhāva, śama, is a cessation rather than a display) is only summarized here, not argued through. No item yet covers the vibhāva/anubhāva/vyabhicāribhāva performance mechanics in their own right. Ragamala image matches are confirmed for only śṛṅgāra and śānta; the remaining seven items are left without images for lack of a confidently-matched painting.",
   "_art_direction": {
     "period_place": "Classical and medieval India, spanning the Nāṭyaśāstra's own era (roughly 2nd c. BCE – 2nd c. CE) through Abhinavagupta's Kashmir (10th–11th c. CE) — but the richest surviving visual tradition built explicitly around named rasa/bhāva states is later: Ragamala painting (roughly 15th–19th c.), which pairs musical modes with painted scenes keyed to a mood. Not contemporary with Bharata himself, but the closest visual culture that treats rasa-adjacent aesthetic categories as its organizing principle.",
     "candidates": [
@@ -39,7 +39,8 @@
         "url": "https://www.clevelandart.org/art/collection/search?f%5B0%5D=general_access%3AOpen+Access",
         "note": "CC0-licensed South Asian painting collection, including Ragamala and Rasikapriya-illustrated works with strong mood-specificity."
       }
-    ]
+    ],
+    "note": "Vīra, bībhatsa, and adbhuta were checked against the Smithsonian's National Museum of Asian Art and the Met's open-access Ragamala holdings; no single folio could be confidently matched to any of the three in the time available, for the same reason hāsya, karuṇa, raudra, and bhayānaka were left unmatched. Ragamala folios are organized by musical raga (Bhairava, Malkauns, Śrī, and so on), not by rasa name, so a raga-to-rasa mood match is rarely attested by a museum's own cataloguing and would need a specialist source to assert reliably rather than an inferred stylistic guess."
   },
   "_grammar_commons": {
     "schema_version": "1.0",
@@ -127,10 +128,25 @@
       }
     },
     {
+      "id": "vira",
+      "name": "Vīra — the Heroic Rasa",
+      "category": "natyashastra-rasa",
+      "sort_order": 5,
+      "keywords": ["vira", "heroism", "courage", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Vīra is the rasa built from the sthāyibhāva utsāha (energy, resolve, or heroic determination), typically arising in performance from combat pursued with steady nerve, generosity given without hesitation, or any difficult undertaking carried through with resolve — the Nāṭyaśāstra treats gaura, a fair gold-white, as its governing colour and Indra as its presiding deity.",
+        "An event, not a character's inner state": "A performer's display of utsāha — steady gaze, upright carriage, controlled breath and gesture — produces vīra in a spectator equipped to relish that display as craft, not because the audience has itself become heroic or because the actor is personally resolute off-stage. Vīra sits, with raudra, in the Nāṭyaśāstra's active, high-energy register, though the two are built from different determinants: confrontation and insult for raudra, a difficult undertaking pursued with resolve for vīra.",
+        "Research note": "Later commentators distinguish types of vīra by the kind of resolve involved — dāna-vīra (heroism through unhesitating generosity), dayā-vīra (heroism through compassion sustained under difficulty), and yuddha-vīra (heroism in battle) — a three-way subdivision this skeleton does not develop further."
+      },
+      "metadata": {
+        "emotion_key": "vira"
+      }
+    },
+    {
       "id": "bhayanaka",
       "name": "Bhayānaka — the Fearful Rasa",
       "category": "natyashastra-rasa",
-      "sort_order": 5,
+      "sort_order": 6,
       "keywords": ["bhayanaka", "fear", "rasa", "natyashastra"],
       "sections": {
         "Definition": "Bhayānaka is the rasa built from the sthāyibhāva bhaya (fear), arising in performance from threatening sounds, sights of danger, or the depiction of terrifying beings and situations — a register the Nāṭyaśāstra pairs closely with bībhatsa (disgust) and raudra as its neighboring negative-register rasas.",
@@ -142,10 +158,40 @@
       }
     },
     {
+      "id": "bibhatsa",
+      "name": "Bībhatsa — the Rasa of Disgust/Aversion",
+      "category": "natyashastra-rasa",
+      "sort_order": 7,
+      "keywords": ["bibhatsa", "disgust", "aversion", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Bībhatsa is the rasa built from the sthāyibhāva jugupsā (disgust, aversion, repugnance), arising in performance from the sight of the foul, the decayed, the venomous, or the otherwise repellent — the Nāṭyaśāstra pairs it closely with bhayānaka and raudra as neighboring negative-register rasas, with blue as its governing colour and Mahākāla, a fierce form of Śiva, as its presiding deity.",
+        "An event, not a character's inner state": "A well-built display of jugupsā — recoil, averted gaze, the described presence of something rotten or venomous — produces bībhatsa in a spectator who can relish that display as craft, at the aesthetic remove that lets repugnance become a source of theatrical interest rather than mere revulsion. As with the other rasas, bībhatsa is not the raw disgust a person would feel encountering the actual foul thing.",
+        "Research note": "Bharata's account of bībhatsa's determinants (vibhāva) reads largely as a sensory catalogue — decaying flesh, worms, foul smell described in performance — closer in spirit to bhayānaka's stagecraft-manual quality than to karuṇa's more psychologically elaborated grief."
+      },
+      "metadata": {
+        "emotion_key": "bibhatsa"
+      }
+    },
+    {
+      "id": "adbhuta",
+      "name": "Adbhuta — the Rasa of Wonder/Marvel",
+      "category": "natyashastra-rasa",
+      "sort_order": 8,
+      "keywords": ["adbhuta", "wonder", "marvel", "astonishment", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Adbhuta is the rasa built from the sthāyibhāva vismaya (wonder, astonishment), arising in performance from the sight of the divine, the supernatural, the unexpectedly magnificent, or an event beyond ordinary explanation — with yellow as its governing colour and Brahmā as its presiding deity.",
+        "An event, not a character's inner state": "Adbhuta names the audience's relish of a well-built display of vismaya — a widened gaze, a suspended gesture, the staged arrival of something marvelous — not a spectator's own naive astonishment at a stage trick; the rasa depends on the display being recognized as craft even while it produces something like wonder in response to it.",
+        "Research note": "Later commentators subdivide adbhuta by the source of the marvel — wonder at the divine and wonder at ordinary but startling good fortune are treated as different registers of the same rasa, a distinction this skeleton does not develop further."
+      },
+      "metadata": {
+        "emotion_key": "adbhuta"
+      }
+    },
+    {
       "id": "shanta",
       "name": "Śānta — the Peaceful Rasa (Abhinavagupta's Ninth)",
       "category": "abhinavagupta-addition",
-      "sort_order": 6,
+      "sort_order": 9,
       "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.2_001crop",
       "keywords": ["shanta", "peace", "abhinavagupta", "rasa"],
       "sections": {
@@ -161,13 +207,13 @@
     },
     {
       "id": "group-natyashastra-five",
-      "name": "Five of the Nāṭyaśāstra's Eight Rasas",
+      "name": "The Nāṭyaśāstra's Eight Rasas",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
-      "composite_of": ["shringara", "hasya", "karuna", "raudra", "bhayanaka"],
+      "sort_order": 10,
+      "composite_of": ["shringara", "hasya", "karuna", "raudra", "vira", "bhayanaka", "bibhatsa", "adbhuta"],
       "sections": {
-        "Definition": "Bharata's Nāṭyaśāstra names eight rasas built from eight sthāyibhāvas; this group holds the five written in this skeleton (śṛṅgāra, hāsya, karuṇa, raudra, bhayānaka). Vīra, bībhatsa, and adbhuta are named in the source text but not yet represented as items here."
+        "Definition": "Bharata's Nāṭyaśāstra names eight rasas built from eight sthāyibhāvas; this group holds all eight (śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta)."
       },
       "keywords": ["natyashastra", "rasa", "bharata"],
       "metadata": {}
@@ -177,7 +223,7 @@
       "name": "Abhinavagupta's Contested Ninth",
       "category": "group",
       "level": 2,
-      "sort_order": 8,
+      "sort_order": 11,
       "composite_of": ["shanta"],
       "sections": {
         "Definition": "Śānta stands apart from Bharata's original eight both in date (added roughly a millennium later) and in kind (its sthāyibhāva is a cessation rather than an active display), which is why it is grouped separately even though the tradition today generally treats the rasas as nine."
@@ -190,7 +236,7 @@
       "name": "Rasa — the Nāṭyaśāstra's Aesthetics of Performance",
       "category": "root",
       "level": 3,
-      "sort_order": 9,
+      "sort_order": 12,
       "composite_of": ["group-natyashastra-five", "group-abhinavagupta-shanta"],
       "sections": {
         "Definition": "The Nāṭyaśāstra (compiled roughly 2nd century BCE – 2nd century CE, attributed to Bharata Muni) is a treatise on dramaturgy, not a psychology of the individual. Its rasa theory holds that a well-built performance — combining vibhāva (the determinants that set a scene), anubhāva (the consequent physical signs a performer displays), and vyabhicāribhāva (transitory supporting states) — makes a sthāyibhāva (a stable emotional theme like rati, love, or śoka, grief) tastable by a qualified spectator. That act of tasting, āsvāda, generalized and held at an aesthetic remove from ordinary personal feeling, is the rasa. Abhinavagupta added a ninth, śānta, several centuries later, arguing it as the ground state from which the other eight arise.",
