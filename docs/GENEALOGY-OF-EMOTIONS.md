@@ -17,8 +17,10 @@ show that they are not. The unit of analysis itself — what counts as one feeli
 many there are, what axis organizes them, whether the container "emotion" is even the
 right container — has been rebuilt from scratch by every tradition that has taken up the
 problem of feeling, ancient to contemporary. That is not a scandal. It is the reason this
-library can hold Aristotle, Bharata, Aquinas, Descartes, Darwin, Ekman, and Barrett
-side by side without asking any of them to be secretly agreeing with each other.
+library can hold Aristotle, Bharata, Aquinas, Descartes, Darwin, Ekman, Barrett, Viveiros
+de Castro, and Lutz side by side without asking any of them to be secretly agreeing with
+each other. Part A below follows each of these as its own lineage, in its own internal
+chronology, rather than folding all of them into one timeline with a single spine.
 
 The library's own premise, stated in the [README](../README.md), is that the
 constructionist account is the *substrate* — not because it is the last word, but
@@ -31,6 +33,10 @@ many.
 ---
 
 ## A compact timeline
+
+This table is a chronological index across all five lineages treated in Part A below, not
+a claim that they form one sequence — Part A follows each lineage in its own internal
+order; the rows here are simply sorted by approximate date for quick lookup.
 
 | Era | Tradition / figure | Unit of analysis | Organizing axis |
 |---|---|---|---|
@@ -48,14 +54,62 @@ many.
 | 1962 | Tomkins | 9 innate affects | Hard-wired subcortical programs |
 | 1970s–90s | Ekman, Plutchik | 6 (Ekman) / 8 (Plutchik) basic emotions | Discrete, universal, biologically "basic" categories |
 | 1980 | Russell | 2D circumplex (valence × arousal) | Continuous dimensions, not discrete categories |
+| 1988 (fieldwork 1977–78) | Lutz, Ifaluk (Micronesia) | *fago*, *song*, and other relational/moral concepts | Moral standing and relationship, not private interior valence |
 | 2000s–present | Barrett | Constructed emotion | Core affect + concept, built in the moment |
+| synthesized 1990s–2000s | Viveiros de Castro, Amerindian perspectivism | Not a taxonomy of feelings — a claim about body-relative worlds | Which *nature* a body's perspective discloses, not a list of feeling-categories |
 | 2017 | Leys | Historiographic critique | The field's own recurring intentionality-vs-universality split |
 
 ---
 
-## Part A — The genealogy: how the unit of analysis kept changing
+## Part A — Five lineages, followed on their own terms
 
-### Ancient Greece: *pathē* as rhetorical, not clinical
+Emotion has not been theorized once, with local variations layered on top. It has been
+theorized independently, more than once, by traditions that did not always know of one
+another's existence and were not answering one another's questions. This section follows
+five such traditions as five separate lineages, each in its own internal chronology,
+rather than as branches off one main line.
+
+### A framing note: why five lineages, and not "Europe and the rest"
+
+It would be easy to organize this material as "the European tradition" on one side and
+"everything else" on the other. That framing is avoided here on purpose, because it
+silently does the opposite of what this document sets out to do: instead of showing that
+no single tradition's categories are the default against which others are measured, it
+would make Europe the measure and file every other tradition as a variation, deviation,
+or comparison case — defined by what it is not rather than by what it is. That is the
+same equivocation Part C spends its length warning against, just moved up to the level of
+this document's own table of contents.
+
+So the material below is organized as five lineages, named for the tradition that
+produced them, each followed on its own terms and in its own internal chronology:
+**Greek, Latin-Christian, and European** (which runs the longest, in the most continuous
+written record available to this document, from Aristotle through contemporary
+constructionism); **Sanskrit** (*rasa*, from Bharata through Abhinavagupta and its later
+reception); **Chinese** (*qing* and the doctrine of the seven emotions); **Amazonian**
+(Amerindian perspectivism, which — as that section explains — is not organized around a
+taxonomy of feelings at all, and that difference is itself the point, not a gap in this
+document's research); and **Micronesian** (Catherine Lutz's ethnography of Ifaluk atoll).
+The European lineage gets the most space in what follows not because it is the reference
+case the others are measured against, but because it happens to be the one with the
+longest continuous written record available in the sources this document could check —
+length and documentation, not primacy. Where the lineages actually crossed — through
+translation, missionary and colonial contact, and the shared instruments of modern
+cross-cultural psychology — is treated separately, in its own section at the end of Part
+A, because contact is a real historical fact and "parallel" should not be read as
+"sealed."
+
+### Lineage: Greek, Latin-Christian, and European
+
+This is the longest continuous written record among the five lineages below — Aristotle
+through contemporary constructionist psychology, by way of Stoic ethics, Thomist moral
+theology, and three incompatible Enlightenment taxonomies. Its length is part of why Part
+B and Part C of this document spend so much time on its most recent chapter, the
+mid-twentieth-century "basic emotions" consensus — not because that chapter matters more
+than what the other four lineages produced, but because it is the chapter that got
+exported worldwide as though it were a neutral scientific finding rather than one more
+lineage's local answer to a question every lineage here has answered differently.
+
+#### Ancient Greece: *pathē* as rhetorical, not clinical
 
 Aristotle's *Rhetoric* (Book II) does not offer a taxonomy of emotion in anything like
 the modern sense. It offers a handbook for orators: a *pathos* is "that on account of
@@ -94,63 +148,7 @@ rational counterpart could be, in modern terms, "the same emotion" and still fal
 opposite sides of the Stoic ledger, because the ledger isn't tracking the feeling — it's
 tracking the judgment behind it.
 
-### Ancient India: *rasa* as an aesthetic event, not an inner state
-
-Bharata Muni's *Nāṭyaśāstra* (composed sometime between roughly 200 BCE and 200 CE) sets
-out eight *rasas* — the erotic (*śṛṅgāra*), comic (*hāsya*), pathetic/compassionate
-(*karuṇā*), furious (*raudra*), heroic (*vīra*), fearful (*bhayānaka*), odious
-(*bībhatsa*), and marvelous (*adbhuta*) — each produced in an audience by the
-corresponding stable emotion (*bhāva*) of the character portrayed: delight, laughter,
-sorrow, anger, heroism, fear, disgust, wonder
-([overview of the *Nāṭyaśāstra*'s rasa theory](https://caleidoscope.in/featured/rasas-in-bharata-munis-natya-shastra);
-[Lucknow University course notes on Bharata's rasa theory](https://www.lkouniv.ac.in/site/writereaddata/siteContent/202004120632194631nishi_Rasa_Theory.pdf)).
-**This is a different kind of category than anything else on this timeline**: a *rasa* is
-not, in the first instance, a state inside a person's body. It is what a well-made
-performance produces in a spectator — an aesthetic "flavor" (the literal sense of
-*rasa*) distilled and generalized out of a character's felt emotion. The unit of analysis
-is the relationship between performer, text, and audience, not an individual's
-physiology.
-
-Roughly a millennium later, the Kashmiri philosopher Abhinavagupta, commenting on the
-*Nāṭyaśāstra* in his *Abhinavabhāratī*, argued that Bharata's eight were incomplete and
-added a ninth, *śānta* (peace, tranquility) — and, characteristically for a thinker
-working in a nondual Śaiva framework, argued that *śānta* is not merely one *rasa* among
-nine but the ground the other eight relish against, likened to the string that gives a
-jeweled necklace its form even though no one admires the string itself
-([summary of Abhinavagupta's addition of śānta-rasa](https://ijcrt.org/papers/IJCRT2010483.pdf)).
-**Live scholarly point, not settled by this document:** whether *śānta* is best read as a
-ninth peer category or as something closer to a substrate underneath the other eight is
-itself contested within the tradition — a structural echo, worth naming without
-overstating the parallel, of this library's own claim that constructed emotion is a
-frame rather than a peer school.
-
-### Classical China: *qing* and the seven emotions of the viscera
-
-Chinese medical and philosophical texts group feeling under *qing* (情), a term broader
-than the English "emotion" — it also carries senses closer to "circumstance,"
-"disposition," or "the facts of a matter" in classical usage, which means the container
-word itself does not partition cleanly along the same lines "emotion" does in English.
-**This point about *qing*'s broader semantic range is drawn from general sinological
-background rather than a single source checked in this drafting session; it should be
-verified against a specialist source (e.g., A. C. Graham's or Michael Puett's work on
-classical Chinese moral psychology) before being treated as settled.**
-
-What is well documented is the clinical taxonomy: the *Huangdi Neijing* (Yellow
-Emperor's Inner Classic, compiled roughly during the Han dynasty, 206 BCE–220 CE) and
-later texts organize feeling into the "seven emotions" (*qīqíng*, 七情) — joy, anger,
-worry, pensiveness/contemplation, sadness/grief, fear, and fright/shock — each assigned a
-correspondence with one of the five viscera (*zang*): the heart governs joy, the liver
-governs anger, the spleen governs contemplation, the lung governs grief, the kidney
-governs fear ([TCM Wiki overview of the seven
-emotions](https://tcmwiki.com/wiki/seven-emotions); [Asante Academy encyclopedia entry on
-the seven emotions](https://asante-academy.com/encyclopedia/seven-emotions/)). The
-organizing axis is neither valence nor Aristotle's judgment-alteration nor Bharata's
-performer–audience relation: it is a physiological correspondence system, where an
-emotion in excess is a *pathogenic factor* — too much anger injures the liver, too much
-grief injures the lung — folding feeling directly into a theory of disease rather than a
-theory of mind.
-
-### Medieval Christendom: passions ordered by *arduousness*, not pleasantness
+#### Medieval Christendom: passions ordered by *arduousness*, not pleasantness
 
 Thomas Aquinas, in the *Summa Theologiae* (Prima Secundae, Questions 22–48), inherits
 Aristotle's *pathē* by way of the Latin *passiones* and reorganizes them around the
@@ -170,7 +168,7 @@ from a valence axis existing at the intellectual center of medieval Christian mo
 psychology for several centuries is itself evidence against the idea that "pleasant vs.
 unpleasant" is a natural, self-evident organizing principle for feeling.
 
-### Early modern Europe: three incompatible "basic" lists in one century
+#### Early modern Europe: three incompatible "basic" lists in one century
 
 **Descartes**, in *Les passions de l'âme* (1649) — his last published work, written
 directly in French rather than Latin — devotes the treatise's central section (roughly
@@ -218,10 +216,10 @@ divided by object-relation). **This is the clearest evidence in the pre-modern r
 that "the basic emotions" is not a discovery converged upon from different angles — it is
 a design choice, remade by each thinker to fit the argument they were building.**
 
-### The nineteenth-century rupture: how "emotion" itself was made
+#### The nineteenth-century rupture: how "emotion" itself was made
 
-This is the load-bearing claim of the whole genealogy, and it deserves to be stated
-carefully rather than summarized into a slogan. Thomas Dixon's *From Passions to
+This is the load-bearing claim of the whole European lineage, and it deserves to be
+stated carefully rather than summarized into a slogan. Thomas Dixon's *From Passions to
 Emotions: The Creation of a Secular Psychological Category* (Cambridge University Press,
 2003) argues that "the emotions," as a single unifying English category covering
 everything from a startle reflex to grief to religious rapture, is a nineteenth-century
@@ -257,7 +255,7 @@ before the container's own boundaries have been justified. This is not a claim t
 claim that the specific *carving* — one undifferentiated genus rather than three or four
 differentiated ones — needs its own defense, and rarely gets one.
 
-### Darwin and James: two rival late-nineteenth-century foundations
+#### Darwin and James: two rival late-nineteenth-century foundations
 
 Charles Darwin's *The Expression of the Emotions in Man and Animals* (1872) — originally
 planned as a chapter of *The Descent of Man* before outgrowing it — argues that facial
@@ -269,7 +267,9 @@ Darwin supplemented direct observation and Duchenne de Boulogne's photographic s
 facial musculature with a network of questionnaires sent to missionaries and colonial
 travelers, asking whether specific expressions appeared among the populations they
 worked with — an early, methodologically loose ancestor of the cross-cultural
-"universality" study design that Ekman would formalize a century later.
+"universality" study design that Ekman would formalize a century later, and one of the
+earliest documented contact points between this lineage and the others (see "Where the
+lineages met," at the end of this Part).
 
 William James, in the 1884 essay "What Is an Emotion?" and later in *The Principles of
 Psychology* (1890), proposed the opposite causal order from ordinary intuition: we do not
@@ -281,12 +281,12 @@ the emotion; strip away the bodily feedback and "we find we have nothing left be
 Psychology archive](https://psychclassics.yorku.ca/James/emotion.htm)). James's theory —
 independently proposed by the Danish physiologist Carl Lange around the same time, hence
 "James–Lange theory" — is a direct ancestor of the interoception-forward accounts (Barrett
-among them) that reappear at the end of this timeline, though James located emotion in
+among them) that reappear at the end of this lineage, though James located emotion in
 *specific, differentiated* bodily patterns per emotion, where the later constructionist
 account locates it in a much more general, undifferentiated core-affect signal that gets
 categorized after the fact.
 
-### Twentieth century: Tomkins, Ekman, Plutchik, and the affect-programme model
+#### Twentieth century: Tomkins, Ekman, Plutchik, and the affect-programme model
 
 Silvan Tomkins's *Affect Imagery Consciousness* (1962–63) proposed nine innate affects —
 interest–excitement, enjoyment–joy, surprise–startle, fear–terror, distress–anguish,
@@ -326,7 +326,7 @@ few years of each other. Even inside the mid-twentieth-century "basic emotions"
 consensus, there was no actual consensus on the count or the membership — only on the
 architecture (discrete, universal, biologically basic categories).
 
-### Late twentieth and twenty-first century: the dimensional and constructionist turn
+#### Late twentieth and twenty-first century: the dimensional and constructionist turn
 
 James Russell's 1980 circumplex model discarded discrete categories altogether in favor
 of two continuous, bipolar dimensions — pleasure/displeasure and arousal/sleepiness —
@@ -367,6 +367,236 @@ Leys is a useful check on any tidy origin story — including this one — becau
 argument is that the field has oscillated between these poles for sixty years without
 resolving the tension, which means the constructionist account should be read as the
 current strongest position in an ongoing argument, not as the argument's last word.
+
+### Lineage: Sanskrit — *rasa*
+
+Bharata Muni's *Nāṭyaśāstra* (composed sometime between roughly 200 BCE and 200 CE) sets
+out eight *rasas* — the erotic (*śṛṅgāra*), comic (*hāsya*), pathetic/compassionate
+(*karuṇā*), furious (*raudra*), heroic (*vīra*), fearful (*bhayānaka*), odious
+(*bībhatsa*), and marvelous (*adbhuta*) — each produced in an audience by the
+corresponding stable emotion (*bhāva*) of the character portrayed: delight, laughter,
+sorrow, anger, heroism, fear, disgust, wonder
+([overview of the *Nāṭyaśāstra*'s rasa theory](https://caleidoscope.in/featured/rasas-in-bharata-munis-natya-shastra);
+[Lucknow University course notes on Bharata's rasa theory](https://www.lkouniv.ac.in/site/writereaddata/siteContent/202004120632194631nishi_Rasa_Theory.pdf)).
+**This is a different kind of category than anything in the Greek/European lineage**: a
+*rasa* is not, in the first instance, a state inside a person's body. It is what a
+well-made performance produces in a spectator — an aesthetic "flavor" (the literal sense
+of *rasa*) distilled and generalized out of a character's felt emotion. The unit of
+analysis is the relationship between performer, text, and audience, not an individual's
+physiology.
+
+Roughly a millennium later, the Kashmiri philosopher Abhinavagupta, commenting on the
+*Nāṭyaśāstra* in his *Abhinavabhāratī*, argued that Bharata's eight were incomplete and
+added a ninth, *śānta* (peace, tranquility) — and, characteristically for a thinker
+working in a nondual Śaiva framework, argued that *śānta* is not merely one *rasa* among
+nine but the ground the other eight relish against, likened to the string that gives a
+jeweled necklace its form even though no one admires the string itself
+([summary of Abhinavagupta's addition of śānta-rasa](https://ijcrt.org/papers/IJCRT2010483.pdf)).
+**Live scholarly point, not settled by this document:** whether *śānta* is best read as a
+ninth peer category or as something closer to a substrate underneath the other eight is
+itself contested within the tradition — a structural echo, worth naming without
+overstating the parallel, of this library's own claim that constructed emotion is a
+frame rather than a peer school.
+
+Rasa theory's own internal chronology does not stop with Abhinavagupta. Sanskrit
+aesthetics were taken up by European philology beginning in the nineteenth century (part
+of the broader colonial-era recovery and translation of Sanskrit literature — see "Where
+the lineages met," below) and, in recent decades, by English-language psychology and
+self-help writing that borrows the word "rasa" loosely, often as a synonym for "flavor of
+feeling" with little reference to Bharata's or Abhinavagupta's actual argument that a
+*rasa* is produced in an audience rather than felt privately by an individual. **This
+document has not attempted to verify the specific citation trail of that later popular
+reception** — which authors, which decade, which books — and flags it as unchecked rather
+than asserting a trail it cannot support (see the verification list at the end of this
+document).
+
+### Lineage: Chinese — *qing* and the seven emotions
+
+Chinese medical and philosophical texts group feeling under *qing* (情), a term broader
+than the English "emotion" — it also carries senses closer to "circumstance,"
+"disposition," or "the facts of a matter" in classical usage, which means the container
+word itself does not partition cleanly along the same lines "emotion" does in English.
+**This point about *qing*'s broader semantic range is drawn from general sinological
+background rather than a single source checked in this drafting session; it should be
+verified against a specialist source (e.g., A. C. Graham's or Michael Puett's work on
+classical Chinese moral psychology) before being treated as settled.**
+
+What is well documented is the clinical taxonomy: the *Huangdi Neijing* (Yellow
+Emperor's Inner Classic, compiled roughly during the Han dynasty, 206 BCE–220 CE) and
+later texts organize feeling into the "seven emotions" (*qīqíng*, 七情) — joy, anger,
+worry, pensiveness/contemplation, sadness/grief, fear, and fright/shock — each assigned a
+correspondence with one of the five viscera (*zang*): the heart governs joy, the liver
+governs anger, the spleen governs contemplation, the lung governs grief, the kidney
+governs fear ([TCM Wiki overview of the seven
+emotions](https://tcmwiki.com/wiki/seven-emotions); [Asante Academy encyclopedia entry on
+the seven emotions](https://asante-academy.com/encyclopedia/seven-emotions/)). The
+organizing axis is neither valence nor Aristotle's judgment-alteration nor Bharata's
+performer–audience relation: it is a physiological correspondence system, where an
+emotion in excess is a *pathogenic factor* — too much anger injures the liver, too much
+grief injures the lung — folding feeling directly into a theory of disease rather than a
+theory of mind.
+
+### Lineage: Amazonian — perspectivism and multinaturalism
+
+The other four lineages in this section share a family resemblance this one deliberately
+does not: each of them produces a taxonomy — a list of *pathē*, a set of *rasas*, seven
+*qing*, eleven Thomist passions, six Cartesian primitives, six Ekman affect programs —
+naming and counting the feelings a person can have. Amerindian perspectivism, as
+synthesized across decades of Amazonianist ethnography by the Brazilian anthropologist
+Eduardo Viveiros de Castro, does not produce a list of that kind, and that absence is
+itself the finding here, not a gap in this document's research.
+
+**Established, as a synthesis of a substantial ethnographic record:** across a wide range
+of Amazonian cosmologies, the being who feels, perceives, and acts — human, jaguar,
+spirit, or otherwise — is not distinguished from other kinds of being by *what* it feels
+or *how* it feels it. What differs, on this account, is not the emotional repertoire but
+the **world each kind of body discloses**. A human sees blood; a jaguar, inhabiting the
+same event from its own bodily perspective, sees manioc beer. Both perceptions are, from
+within each perspective, correct — not because the two beings interpret one shared world
+differently (that would be ordinary cultural relativism), but because each kind of body
+opens onto its own *nature*, while all beings — humans, jaguars, and the rest — share a
+single generic subjective condition, glossed in the literature as "culture" or "soul":
+the capacity to be a point of view, to say "I," to have a perspective at all
+([Viveiros de Castro, "Perspectival Anthropology and the Method of Controlled
+Equivocation," *Tipití*,
+2004](https://digitalcommons.trinity.edu/tipiti/vol2/iss1/1/); the foundational statement
+of the thesis is Viveiros de Castro, "Cosmological Deixis and Amerindian Perspectivism,"
+*Journal of the Royal Anthropological Institute*, 4(3), 1998, 469–488 — **this document
+worked primarily from the 2004 restatement and secondary overviews rather than the full
+text of the 1998 original, and flags that distance in the verification list below**).
+Viveiros de Castro names this **multinaturalism**, in deliberate inversion of Western
+multiculturalism's usual terms: multiculturalism holds one nature (the physical world,
+available to objective science) and many cultures (many partial or constructed
+representations of it); multinaturalism holds one culture (a single, shared condition of
+subjectivity, common to humans and non-humans alike) and many natures (as many worlds as
+there are kinds of body to disclose them)
+([overview of Amerindian perspectivism and
+multinaturalism](https://ea.fflch.usp.br/en/concept/amerindian-perspectivism)).
+
+The consequence for a genealogy of emotion specifically: on this framework, asking "what
+are the six — or eight, or eleven — emotions in Amazonian cosmology" is not a question
+this material is positioned to answer, and forcing an answer would misrepresent it rather
+than fill a gap in it. A feeling like fear or hunger is not, on this account, first a
+private interior state that then gets sorted into a culturally specific bin — the move
+every other lineage in this section makes, in its own way. It is bound up with *which
+world a body's perspective discloses*: what counts as prey, as kin, as danger, as food is
+relative to the kind of body doing the perceiving, and the affective charge of an
+encounter cannot be lifted cleanly out of that bodily-perspectival fact and re-described
+as a context-free inner state. This is not a claim that Amazonian peoples lack rich
+emotional life or vocabulary — ethnographic records document extensive, specific emotion
+terminology across Amazonian societies, and **this document has not surveyed that
+terminology directly and does not claim to** (flagged in the verification list below). It
+is a claim about what the *unit of analysis itself* is doing here, which is the same
+question this whole document has been asking of every other lineage — and the Amazonian
+answer is structurally different from all four of the others: not "here is our list," but
+"the presupposition behind asking for a list — a stable nature that feeling happens
+inside of, held constant while the labels vary by culture — is itself not shared."
+
+This lineage reappears twice more in this document, in two clearly different roles. Part
+C uses Viveiros de Castro's method of *controlled equivocation* as this library's own
+working discipline for handling translation across any of the traditions gathered here.
+And Part C also gives perspectivism a direct hearing as a serious challenge to this
+library's own constructionist substrate — not, as it would be easy to mistake it for, an
+illustration of that substrate applied to a new culture. The two are not the same claim,
+and treating perspectivism as a colorful non-Western data point for a Western theory
+would repeat, at the level of this document's own argument, exactly the flattening move
+perspectivism itself was formulated to resist. See "Where the lineages met," just below,
+for the colonial and missionary contact through which Amazonian ethnography reached
+European anthropology in the first place, and Part C for both of the fuller treatments.
+
+### Lineage: Micronesian — Ifaluk's *fago* and *song*
+
+Catherine Lutz's fieldwork on Ifaluk atoll works through a fifth, independent case: an
+emotion vocabulary organized primarily around *relationship and moral order*, rather than
+around a private interior state to be labeled.
+
+Catherine Lutz's *Unnatural Emotions: Everyday Sentiments on a Micronesian Atoll and
+Their Challenge to Western Theory* (University of Chicago Press, 1988), based on
+fieldwork on Ifaluk atoll in 1977–78, documents an emotion vocabulary built on relational
+and moral terms that resist clean mapping onto English. Two concepts anchor the record:
+***fago*** and ***song***. *Fago* is often glossed as "compassion," "love," or "sadness"
+depending on context, but the gloss undersells it: *fago* is felt toward someone who is
+suffering, in need, or leaving — it binds compassion, love, and a kind of grief together
+as a single concept in a way English simply does not, because English's category
+boundaries were drawn along different lines. ***Song*** is often glossed "anger," but
+Ifaluk *song* is specifically *justifiable* anger — anger felt in response to another's
+misconduct, sanctioned and legible within Ifaluk moral order in a way that
+undifferentiated English "anger" is not
+([overview of Lutz's Ifaluk fieldwork and central
+concepts](https://www.academia.edu/54274341/Unnatural_Emotions_Everyday_Sentiments_on_a_Micronesian_Atoll_and_Their_Challenge_to_Western_Theory_Catherine_A_Lutz); [book
+review summarizing Lutz's ethnopsychological
+framework](https://lir.byuh.edu/index.php/pacific/article/download/2748/2660)). The
+book's title is deliberately ironic: Ifaluk emotions only look "unnatural" from a
+starting assumption — Lutz's actual target — that English/Western emotion categories are
+the natural, default baseline against which other cultures' categories are variations.
+Lutz's broader argument is that Ifaluk emotion concepts are inseparable from Ifaluk
+theories of self, relationship, and social obligation: *fago* and *song* are not private
+internal states dressed in local vocabulary; they are *relational and moral* concepts
+that do not survive being extracted from that context and relabeled with an English word
+chosen for rough resemblance.
+
+Read as a lineage rather than as a single worked example, Lutz's Ifaluk material makes a
+point structurally close to — but not identical with — Aquinas's arduousness axis and
+Bharata's audience-relational *rasa*: like both, it organizes feeling around something
+other than pleasant/unpleasant valence (here, moral standing and relationship, rather
+than arduousness of an object or audience response to a performance). It is the most
+recent fieldwork of the five lineages, and the only one produced by direct, extended
+ethnographic immersion in a living community's own vocabulary rather than through a
+canonical philosophical or medical text — a methodological difference worth naming rather
+than smoothing over, since it means the evidentiary basis for *fago* and *song* is a
+single ethnographer's fieldwork record (rich, but not independently replicated by other
+fieldworkers to this document's knowledge) — a different evidence tier from a canonical
+text with a long commentarial tradition behind it, per the evidence-tier discipline in
+the checklist in Part C.
+
+### Where the lineages met
+
+Five lineages followed separately is not the same claim as five lineages that never
+touched. They did — repeatedly, and unevenly, mostly in the direction of European and
+North American institutions reaching outward rather than the reverse, which is itself
+part of the story.
+
+**Missionary and colonial questionnaires.** Darwin's 1872 *Expression of the Emotions*
+did not rely solely on direct observation and Duchenne's photographs; he distributed a
+questionnaire to missionaries and colonial travelers stationed among non-European
+populations, asking whether specific facial expressions appeared among the people they
+worked with (see "Darwin and James," above). This is one of the earliest documented
+instances of the European lineage's scientific study of emotion actively soliciting —
+however loosely and non-systematically by later methodological standards — data from
+outside itself, and it set a template (a Western researcher's category list, checked
+against a non-Western population's behavior) that the twentieth-century cross-cultural
+literature discussed in Part B inherited largely unchanged.
+
+**Nineteenth-century European reception of Sanskrit texts.** Sanskrit dramaturgical and
+aesthetic theory, including rasa theory, entered European scholarship through the
+colonial-era philological recovery of Sanskrit literature that also produced comparative
+linguistics and, eventually, comparative religion as academic disciplines. **This
+document has not verified the specific citation trail of that reception** — which
+European scholars, translating which texts, in which decades, and with what effect on
+European aesthetics — and flags it as an unchecked general claim rather than a sourced
+one; it is included here because the contact plainly happened and the later popular
+Western use of the word "rasa" (noted at the end of the Sanskrit lineage, above) does not
+arrive from nowhere.
+
+**Modern cross-cultural psychology as a contact zone in its own right.** Part B of this
+document is, read one way, an extended case study in what happens when the
+Greek-to-constructionist lineage's own research apparatus goes looking for its categories
+in other populations: Ekman and Friesen's fieldwork among the Fore of Papua New Guinea,
+Sauter, Eisner, Ekman and Scott's vocal-emotion fieldwork among the Himba of Namibia, and
+Gendron and Barrett's free-sorting fieldwork with the same Himba population are all, in
+this sense, contact zones — moments where the European lineage's instruments met a
+population outside it, with methodologically consequential results (see Part B in full).
+Anna Wierzbicka's Natural Semantic Metalanguage project (see Part C) is best understood as
+a direct methodological response to the problems this contact repeatedly produces: a
+discipline for comparing concepts across lineages without silently letting one lineage's
+vocabulary stand in as the neutral measuring instrument for all the others.
+
+**This document's synthesis:** none of this contact was symmetrical. In each case
+documented above, a researcher trained inside the Greek-to-constructionist lineage
+brought a prepared category list to a population outside it — never, in the material this
+document could locate, the reverse. That asymmetry is worth naming plainly, since a
+document arguing against treating any one lineage as the default has an obligation to
+notice when its own source record is shaped by exactly that default.
 
 ---
 
@@ -428,6 +658,55 @@ Meaning of Facial Expressions," *Current Directions in Psychological Science*, 2
 apparent universal consensus the forced-choice literature had reported since the 1970s
 was substantially an artifact of a study design that hands participants the categories
 before asking whether they use them.
+
+### A separate critique, often blurred with the above: the Himba vocal-emotion "manipulation check"
+
+**Established, and worth separating carefully from everything above, because the two
+critiques are easy to compress into one and should not be:** a different pair of studies,
+using a different population's modality, produced a milder and more specific
+methodological critique that is sometimes loosely remembered as "researchers secretly
+taught the categories and excluded people who didn't learn them." That recollected
+version is not supported by any source; what is documented is narrower, and it was
+published, not concealed.
+
+The studies in question are Sauter, Eisner, Ekman & Scott, "Cross-cultural recognition of
+basic emotions through nonverbal emotional vocalizations," *PNAS*, 2010, and its
+follow-up, "Emotional Vocalizations Are Recognized Across Cultures Regardless of the
+Valence of Distractors," *Psychological Science*, 2015 — co-authored by Paul Ekman, but
+testing recognition of vocal (not facial) emotional expression among the Himba of
+northern Namibia (not the Fore of Papua New Guinea, and a different study from Gendron's
+free-sorting Himba fieldwork described just above). Their published method included a
+"manipulation check": participants heard a short emotional story and could listen to it
+again as many times as needed until they could restate its emotional content in their own
+words, before proceeding to the forced-choice matching trials for that same emotion,
+delivered as a block. Gendron, Roberson & Barrett's peer-reviewed reply — "Cultural
+variation in emotion perception is real: A response to Sauter et al.," *Psychological
+Science*, 2015 — argued that this "rigorous" comprehension check likely functioned as
+inadvertent category training, teaching participants the target emotion concept
+immediately before testing them on it, which would inflate the appearance of
+cross-cultural agreement independent of whether Himba participants shared the category
+beforehand.
+
+Three things distinguish this from the Fore forced-choice critique discussed above and
+from Gendron's Himba free-sorting fieldwork discussed just above, and conflating any of
+the three misrepresents the record:
+
+1. **It is a different study, a different population's modality, and a different
+   research pairing.** The classic 1969/1971 Fore studies used the Dashiell method
+   (matching a face to one of several short stories) precisely because English-word
+   instruction was not viable with non-literate Fore participants; there is no
+   comprehension-check-then-test structure in that design, and no documented step in
+   which participants were taught emotion words and excluded for failing to learn them.
+2. **It was published, not hidden.** The comprehension-check step is described in the
+   original studies' own method sections and was further clarified, not walked back, in
+   a subsequent published correction.
+3. **No exclusion is documented.** Neither the original studies nor the critique of them
+   describes participants being dropped from the reported sample for failing the
+   comprehension check.
+
+This document's fuller fact-check of this specific claim, including the full source
+trail, is at [`docs/FACTCHECK-forced-choice-training.md`](FACTCHECK-forced-choice-training.md);
+the account above follows that document's verdict.
 
 ### The stronger claim, and where it becomes a live dispute rather than a settled finding
 
@@ -619,18 +898,63 @@ point of translation, exactly where the two vocabularies diverge, rather than si
 picking one side's meaning and calling it the shared, neutral one.
 
 This connects directly to Viveiros de Castro's better-known concept, Amerindian
-**perspectivism**: the claim, drawn from ethnographic work across Amazonian cosmologies,
-that different kinds of beings (humans, jaguars, spirits) are not understood, within these
-cosmologies, as holding different *views* of one shared world — they are understood as
-inhabiting genuinely different worlds, produced by their different bodies, while sharing
-a single generic "culture" or subjective viewpoint (what a jaguar sees as manioc beer, a
-human sees as blood; both are, from each perspective, the correct and only drink). This is
-"multinaturalism" rather than multiculturalism: one culture, many natures, rather than
-one nature described by many cultures
-([overview of Amerindian perspectivism and multinaturalism](https://ea.fflch.usp.br/en/concept/amerindian-perspectivism)).
+perspectivism — multinaturalism, one culture and many natures rather than one nature
+described by many cultures — which this document treats at length as its own lineage in
+Part A, above, and returns to immediately below as a direct challenge to this library's
+own working premise, not as an illustration of it.
+
+### A genuine alternative, not an illustration: perspectivism against this library's own substrate
+
+This library's own creed, stated in the [README](../README.md) and restated in this
+document's opening section, holds that the constructionist account — no fixed biological
+fingerprint, feeling built in the moment from a general core-affect signal plus a learned
+concept — is the *substrate* underneath every school this library represents.
+Intellectual honesty requires naming a position that would reject that framing outright,
+not folding it into the substrate as one more illustration of it. Amerindian
+perspectivism is that position, and it deserves a real hearing rather than a footnote.
+
+Barrett's constructionism and Viveiros de Castro's perspectivism can look, at a glance,
+like versions of the same move: both deny that a category (an emotion, a species-nature)
+is simply *given*, waiting to be discovered, rather than produced by something prior to
+it. But look at what each one holds constant while it lets the category vary, and the
+resemblance breaks down into something closer to an inversion:
+
+- **Barrett's constructionism:** biology is the shared, universal substrate (a core-affect
+  system built into every human nervous system); *emotion concepts* are what varies,
+  built by culture and language on top of that shared biology. One nature, many
+  constructed categories.
+- **Viveiros de Castro's multinaturalism:** subjectivity — the capacity to be a point of
+  view, a self, a "culture" in his specific sense — is the shared, universal substrate,
+  common to humans and non-humans alike; *nature itself*, the world each kind of body
+  discloses, is what varies. One culture, many natures.
+
+These are not the same claim wearing different disciplinary clothing. They put the
+universal and the constructed on opposite sides of the ledger. Barrett would say: what
+varies is how a shared biological given gets categorized. Viveiros de Castro would say,
+of an equivalent case: what varies is not the categorization of a shared given — the
+given itself is not shared; only the capacity to have a perspective is. Filing
+perspectivism as "constructionism applied to Amazonian ethnography" would erase exactly
+this distinction, and would do it by quietly assuming the very thing perspectivism was
+formulated to question: that there is one nature (here, one biological substrate) for
+different cultures to construct different accounts of. A perspectivist reading of
+Barrett's own theory might ask, in return, whether "core affect" is being treated as a
+culture-independent fact about bodies in exactly the way Viveiros de Castro warns against
+treating any *nature* as culture-independent — a question this document raises without
+attempting to settle, because settling it is not this document's job.
+
+**This tension is presented here deliberately unresolved.** This library's stated premise
+is the constructionist one; that does not entitle this document to treat every
+alternative account of subjectivity and feeling as secretly agreeing with it once
+translated into the right vocabulary. Perspectivism is offered here as a live, serious
+challenge to the premise this whole library runs on — not as evidence for it, and not as
+a curiosity from elsewhere that turns out, on inspection, to have been making the same
+point all along.
+
+### A three-way family resemblance, offered as a synthesis and not an identity
 
 **This document's own synthesis, explicitly flagged as such and not a claim advanced by
-Viveiros de Castro, Barrett, or Hoffman about each other's work:** perspectivism, Barrett's
+Viveiros de Castro, Barrett, or Hoffman about each other's work, and read together with
+the opposition just stated above, not in place of it:** perspectivism, Barrett's
 constructionism, and the cognitive scientist Donald Hoffman's *interface theory of
 perception* are making a structurally similar move from three entirely different
 disciplinary starting points. Hoffman's interface theory — built on the mathematically
@@ -660,7 +984,10 @@ perception of a physical environment shaped by natural selection; Barrett's is a
 categorization of internal affective states shaped by cultural learning; Viveiros de
 Castro's is an ethnographic-ontological claim about how specific Amazonian cosmologies
 organize being, not a general cognitive-science thesis). The family resemblance is real
-and worth naming. It is not an identity.
+and worth naming. It is not an identity, and in Viveiros de Castro's case the resemblance
+sits directly alongside a substantive disagreement with this library's own constructionist
+premise, laid out immediately above — both things are true at once, and this document
+does not choose between them.
 
 ### Wierzbicka's Natural Semantic Metalanguage: the rigorous answer to the maintainer's worry
 
@@ -705,32 +1032,16 @@ prime vocabulary is a structural safeguard against exactly that move, even thoug
 slower, more labor-intensive, and produces results less easily converted into a six-way
 forced-choice accuracy percentage.
 
-### Lutz's Ifaluk: *fago* and *song* as worked examples
+### Ifaluk, reconsidered as translation practice
 
-Catherine Lutz's *Unnatural Emotions: Everyday Sentiments on a Micronesian Atoll and
-Their Challenge to Western Theory* (University of Chicago Press, 1988), based on
-fieldwork on Ifaluk atoll in 1977–78, works through this problem concretely rather than
-programmatically. Lutz analyzes several Ifaluk emotion concepts that resist clean mapping
-onto English terms, most extensively ***fago*** and ***song***. *Fago* is often glossed
-as "compassion," "love," or "sadness" depending on context, but the gloss undersells it:
-*fago* is felt toward someone who is suffering, in need, or leaving — it binds compassion,
-love, and a kind of grief together as a single concept in a way English simply does not,
-because English's category boundaries were drawn along different lines. ***Song*** is
-often glossed "anger," but Ifaluk *song* is specifically *justifiable* anger — anger felt
-in response to another's misconduct, sanctioned and legible within Ifaluk moral order in
-a way that undifferentiated English "anger" is not
-([overview of Lutz's Ifaluk fieldwork and central
-concepts](https://www.academia.edu/54274341/Unnatural_Emotions_Everyday_Sentiments_on_a_Micronesian_Atoll_and_Their_Challenge_to_Western_Theory_Catherine_A_Lutz); [book
-review summarizing Lutz's ethnopsychological
-framework](https://lir.byuh.edu/index.php/pacific/article/download/2748/2660)). The book's
-title is deliberately ironic: Ifaluk emotions only look "unnatural" from a starting
-assumption — Lutz's actual target — that English/Western emotion categories are the
-natural, default baseline against which other cultures' categories are variations. Lutz's
-broader argument is that Ifaluk emotion concepts are inseparable from Ifaluk theories of
-self, relationship, and social obligation — *fago* and *song* are not private internal
-states dressed in local vocabulary; they are *relational and moral* concepts that do not
-survive being extracted from that context and relabeled with an English word chosen for
-rough resemblance.
+Catherine Lutz's *fago* and *song* — introduced in Part A as the Micronesian lineage in
+its own right — are also the clearest worked example in this document's own record of the
+translation problem this Part exists to name: a gloss ("compassion," "anger") that is
+accurate enough to pass a forced-choice check and wrong enough to lose the concept's
+actual shape. Readers applying the checklist below to a new school's material should
+treat Lutz's fieldwork as the model case: report the source tradition's own definition
+first (as in Part A), and only then, explicitly marked as a mapping rather than an
+identity, note the nearest English gloss.
 
 ### A checklist of standards for this library
 
@@ -754,11 +1065,14 @@ should hold —
    Greenberg's EFT is already a flagged case in this repo's `CLAUDE.md`; "six basic
    passions" (Descartes) vs. "six basic emotions" (Ekman) is another — say so in the
    content itself, not just in an internal note.
-4. **Distinguish forced-choice-style evidence from free-response-style evidence.** When
-   citing a study as evidence that a category is cross-culturally shared, note which kind
-   of task produced the result. A forced-choice match-to-list result and a free-sort or
-   free-label result are not interchangeable evidence, and presenting the former as if it
-   were the latter is the exact error this document spends Part B unpacking.
+4. **Distinguish forced-choice-style evidence from free-response-style evidence — and
+   distinguish both from a training/manipulation-check confound.** When citing a study as
+   evidence that a category is cross-culturally shared, note which kind of task produced
+   the result. A forced-choice match-to-list result, a free-sort or free-label result, and
+   a result gathered after a pre-trial comprehension check that may have taught the
+   category are three different evidentiary situations, not one — see Part B's treatment
+   of the Fore studies versus the Sauter/Eisner/Ekman/Scott Himba studies, and
+   `docs/FACTCHECK-forced-choice-training.md`, for a worked example of keeping them apart.
 5. **Hold evidence-tier honesty for cultural claims, not just clinical ones.** The
    `metadata.evidence_tier` convention this repo already applies to schools like EFT and
    Gottman's method (`independently-replicated` / `growing` / `observational-only` /
@@ -768,11 +1082,18 @@ should hold —
    replicated across multiple independent fieldworkers or corroborated by NSM-style
    cross-linguistic testing.
 6. **Keep the constructionist/perspectivist/interface parallel labeled as this library's
-   synthesis.** The parallel drawn above between Barrett, Hoffman, and Viveiros de Castro
-   is useful for orienting a reader inside this library's own framing. It should never be
+   synthesis, and keep the disagreement it sits next to just as clearly labeled.** The
+   family resemblance drawn above between Barrett, Hoffman, and Viveiros de Castro is
+   useful for orienting a reader inside this library's own framing. It should never be
    presented, in a school's own section, as something those three thinkers jointly hold —
    per this repo's `CLAUDE.md` rule that editorial reading belongs in a clearly marked
-   `Constructionist lens` section, never inside a school's own voice.
+   `Constructionist lens` section, never inside a school's own voice. The same applies in
+   the other direction: Viveiros de Castro's perspectivism should never be presented,
+   inside this library's own constructionist framing, as an example or illustration of
+   that framing. It is a distinct position that this document has represented on its own
+   terms in Part A and set directly against this library's premise in this Part; both of
+   those representations should travel together with the family-resemblance parallel, not
+   get quietly dropped from it.
 7. **When in doubt, cite the fieldwork, not the summary of the fieldwork.** Multiple
    claims in this document (Gendron's exact sorting results on Himba; the precise
    current count of NSM primes; the full citation trail for Cordaro and Keltner's
@@ -814,3 +1135,22 @@ In the interest of the standard set out above, applied to itself:
   read as a ninth peer rasa or as a substrate-like ground for the other eight** is
   presented above as a live internal question within rasa scholarship; this document did
   not attempt to adjudicate it and flags it as an open question rather than settled fact.
+- **The specific citation trail for Sanskrit aesthetics' nineteenth-century European
+  reception, and for the later popular English-language use of the word "rasa"** (which
+  scholars, which translations, which decades, and how the popular usage diverged from
+  Bharata's and Abhinavagupta's own argument) was not assembled during this drafting
+  session and should be treated as a general, plausible, but unsourced historical claim
+  until checked.
+- **The distance between this document's account of Amerindian perspectivism and Viveiros
+  de Castro's own primary text.** This document worked from his 2004 *Tipití* restatement
+  and secondary overviews rather than the full text of the foundational 1998 *Journal of
+  the Royal Anthropological Institute* article ("Cosmological Deixis and Amerindian
+  Perspectivism"). The core claims presented here are consistent across both the primary
+  restatement and the secondary sources consulted, but the 1998 original was not read in
+  full during drafting.
+- **The breadth and specificity of emotion terminology across the Amazonian societies
+  perspectivism is drawn from.** This document states, in the Amazonian lineage section
+  of Part A, that such terminology is extensively documented in the ethnographic record,
+  but it has not surveyed that terminology itself and makes no claim about which specific
+  societies, terms, or fieldworkers would need to be cited to support a stronger version
+  of that sentence.
