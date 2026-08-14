@@ -1,0 +1,165 @@
+{
+  "name": "Constructed Emotion — the Substrate",
+  "description": "This is not a peer school. Every other grammar in this collection presents a tradition's own taxonomy of emotion in its own terms; this one is different in kind. The theory of constructed emotion, developed chiefly by psychologist and neuroscientist Lisa Feldman Barrett and collaborators, is the frame the whole library sits inside — the working premise stated in this project's own CLAUDE.md: there are no fixed biological fingerprints for discrete emotions, and people still have to make meaning, so every taxonomy elsewhere in this collection is a usable map, not a discovery of natural categories. On this account, an emotion is not a triggered, pre-packaged program with one fixed signature; it is an instance constructed in the moment from core affect (a continuously varying background sense of how pleasant/unpleasant and how activated one currently is), interoceptive signals from the body, and a learned concept — itself shaped by language and culture — that the brain applies to categorize the whole pattern as \"anger,\" \"joy,\" or whatever word fits. This grammar exists so the substrate has its own drawable items like every other school, not to establish it as one option among equals.",
+  "grammar_type": "custom",
+  "tags": ["constructed-emotion", "barrett", "core-affect", "interoception", "substrate"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Two \"building block\" items (core affect, interoception) and three worked \"category instance\" items (anger, fear, sadness, deliberately reusing the same words other schools use as their own category names, to make the critique concrete) are written. Not yet represented: allostasis and the body-budget framing, affective realism (how current affect colors perception and judgment), concept acquisition in development (how a child learns which bodily/situational pattern counts as \"anger\" in their language and culture), and Barrett's own account of why this framework is falsifiable rather than merely a reinterpretation of the same data.",
+  "_art_direction": {
+    "period_place": "Contemporary (2000s–2020s) cognitive neuroscience. Figurative period-art the way other schools use it would misrepresent this theory's own central claim — there is no single \"face of anger\" to paint, because the theory denies exactly that fixed signature exists. Diagrammatic and abstract sourcing fits the content better than portraiture or genre painting.",
+    "candidates": [
+      {
+        "name": "NIH / NIMH public-domain brain imagery",
+        "url": "https://www.nimh.nih.gov/health/publications",
+        "note": "US federal government work, public domain; includes brain-diagram and neuroimaging illustrations usable for interoception/allostasis-adjacent content without implying a specific researcher's copyrighted figures."
+      },
+      {
+        "name": "Allen Institute — Allen Brain Atlas open resources",
+        "url": "https://portal.brain-map.org/",
+        "note": "Open brain-atlas imagery and diagrams, many openly licensed; check the specific license on each resource (not uniformly CC0/public domain, but substantially open)."
+      },
+      {
+        "name": "Wikimedia Commons — CC-licensed neuroscience diagrams",
+        "url": "https://commons.wikimedia.org/wiki/Category:Diagrams_of_the_brain",
+        "note": "Abstract/diagrammatic brain and nervous-system imagery under CC BY-SA or CC0, consistent with this school's non-figurative visual register."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Lisa Feldman Barrett and the constructionist emotion-research tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the theory of constructed emotion, its core-affect and interoception building blocks, and its critique of discrete basic-emotion fingerprints, developed by Barrett and collaborators (including the 2019 meta-analysis with Ralph Adolphs, Stacy Marsella, Aleix Martinez, and Seth Pollak). Barrett's books (e.g. How Emotions Are Made, 2017) and published papers remain in copyright; no text is quoted from them. Every section here is original prose describing the theory and citing published sources by name and year, following this project's naming convention of the tradition rather than the living researcher."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "core-affect",
+      "name": "Core Affect",
+      "category": "building-block",
+      "sort_order": 1,
+      "keywords": ["core affect", "valence", "arousal", "substrate"],
+      "sections": {
+        "Definition": "Core affect is a continuously present, continuously varying background state describable along two dimensions: valence (how pleasant or unpleasant) and arousal (how activated or calm). On this account it is always present — there is no affect-free baseline state a person returns to between emotions — and it exists prior to, and independent of, any emotion category being applied to it.",
+        "Not a category, a dimension": "Core affect is deliberately given no emotion_key, because it isn't a category candidate the way \"anger\" or \"joy\" are elsewhere in this collection — it's the raw material a concept gets applied to, not itself a named emotion. Two people (or the same person at two different times) can be in a similar core-affect state — unpleasant, highly activated — and construct it as anger, anxiety, or excitement depending on the concept and context available to them.",
+        "Research note": "Core affect draws on circumplex models of affect (notably James A. Russell's 1980 circumplex model of affect), which Barrett's framework incorporates as the pre-conceptual layer beneath category construction."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "interoception",
+      "name": "Interoception and the Body Budget",
+      "category": "building-block",
+      "sort_order": 2,
+      "keywords": ["interoception", "allostasis", "body budget", "substrate"],
+      "sections": {
+        "Definition": "Interoception is the brain's ongoing sense of the body's internal state — heart rate, breathing, gut activity, inflammation, and more — which this framework treats as continuously monitored and predicted by the brain as part of regulating the body's resources (its \"body budget,\" the allostatic process of anticipating and meeting the body's metabolic needs before they become a crisis). Core affect is understood, on this account, as a summary readout of that ongoing interoceptive prediction, not a separate signal layered on top of it.",
+        "Not a category, an ingredient": "Like core affect, interoception is not itself a named emotion and carries no emotion_key here — it's one of the inputs a concept is applied to when the brain constructs a specific emotional instance.",
+        "Research note": "The body-budget framing draws on predictive-processing accounts of brain function (the brain as constantly generating predictions about incoming sensory and interoceptive data, updating on prediction error) applied specifically to interoception — a research direction with substantial and growing support in computational neuroscience, though the field's broader predictive-processing framework remains an active area of ongoing empirical work rather than settled consensus."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "anger-as-population",
+      "name": "\"Anger\" as a Population of Instances",
+      "category": "category-instance",
+      "sort_order": 3,
+      "keywords": ["anger", "population thinking", "constructed emotion"],
+      "sections": {
+        "Definition": "On this framework, \"anger\" does not name one fixed inner state with one fixed facial or physiological signature. It names a population of highly variable instances — different combinations of core affect, interoceptive state, situation, and concept — that a perceiver (or the person themselves) categorizes as anger because the concept \"anger,\" learned through language and culture, fits well enough in that moment. Two instances categorized as anger by the same person in the same week can differ substantially in their facial expression, physiology, and felt quality.",
+        "Directly reusing the word other schools use": "This item deliberately shares its emotion_key with the \"anger\" items in Plutchik's wheel, Aristotle's rhetorical pathē, Aquinas's ira, and the basic-emotion school in this collection — not to claim they are all talking about the same fixed thing, but so the cross-grammar linking this whole library uses can surface the disagreement directly: click through and compare what each school claims \"anger\" is.",
+        "Research note": "The central empirical support cited for population-level variability in anger's expression and physiology is the 2019 meta-analysis by Barrett, Adolphs, Marsella, Martinez, and Pollak (Psychological Science in the Public Interest), which reviewed the wider evidence base and found no reliable one-to-one facial or physiological signature for anger, or for discrete emotion categories generally — the same study cited in this collection's basic-emotion and Plutchik-wheel schools as the direct empirical challenge to their own premises."
+      },
+      "metadata": {
+        "emotion_key": "anger"
+      }
+    },
+    {
+      "id": "fear-as-population",
+      "name": "\"Fear\" as a Population of Instances",
+      "category": "category-instance",
+      "sort_order": 4,
+      "keywords": ["fear", "population thinking", "constructed emotion"],
+      "sections": {
+        "Definition": "As with anger, \"fear\" on this account names a variable population of instances rather than one fixed inner state — the same core-affect and interoceptive raw material that gets categorized as fear in one moment might, with a different concept available or a different context, be categorized as excitement, anxiety, or anger in another.",
+        "Directly reusing the word other schools use": "This item's emotion_key deliberately matches \"fear\" as used in Plutchik's wheel, the Stoic and Aquinas schools (timor is keyed separately in Latin precisely because it is a narrower technical category, but is closely related), Darwin's chapter, and the basic-emotion school — the point of the shared key is to make the disagreement between this substrate and those schools directly comparable, item to item.",
+        "Research note": "Barrett and colleagues' own experimental work (e.g. studies manipulating context and interoceptive framing) reports that the same ambiguous bodily arousal state can be categorized by participants as either fear or excitement depending on situational cues — cited as direct evidence for construction rather than fixed triggering."
+      },
+      "metadata": {
+        "emotion_key": "fear"
+      }
+    },
+    {
+      "id": "sadness-as-population",
+      "name": "\"Sadness\" as a Population of Instances",
+      "category": "category-instance",
+      "sort_order": 5,
+      "keywords": ["sadness", "population thinking", "constructed emotion"],
+      "sections": {
+        "Definition": "As with anger and fear, \"sadness\" on this account is a variable population of instances built from core affect, interoception, situation, and a learned concept — not a single essence with one physiological or facial fingerprint that shows up the same way every time.",
+        "Directly reusing the word other schools use": "This item's emotion_key deliberately matches \"sadness\" as used in Plutchik's wheel, Darwin's grief chapter (keyed as \"grief\" there, a related but not identical concept), and the basic-emotion school — again, so the cross-link makes the live disagreement visible rather than papering over it.",
+        "Research note": "Cross-cultural and within-culture variability in sadness's reported facial and physiological presentation is among the evidence the 2019 Barrett-led meta-analysis reviewed; the finding was not that sadness never involves a downturned mouth or slowed movement, but that no single configuration reliably and specifically marks sadness across contexts and individuals."
+      },
+      "metadata": {
+        "emotion_key": "sadness"
+      }
+    },
+    {
+      "id": "group-building-blocks",
+      "name": "Building Blocks — Before Any Category",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["core-affect", "interoception"],
+      "sections": {
+        "Definition": "The two ingredients this framework holds are present before any emotion concept is applied: a continuously varying core-affect state, and the brain's ongoing interoceptive monitoring and prediction of the body's internal condition."
+      },
+      "keywords": ["core affect", "interoception", "substrate"],
+      "metadata": {}
+    },
+    {
+      "id": "group-category-instances",
+      "name": "Category Instances — the Same Words, Reframed",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["anger-as-population", "fear-as-population", "sadness-as-population"],
+      "sections": {
+        "Definition": "Three worked examples using the same emotion words other schools in this collection use as fixed category names — anger, fear, sadness — reframed here as variable populations of situated instances rather than as essences with one signature."
+      },
+      "keywords": ["population thinking", "constructed emotion"],
+      "metadata": {}
+    },
+    {
+      "id": "constructed-emotion-root",
+      "name": "Constructed Emotion — the Substrate, Not a Peer School",
+      "category": "root",
+      "level": 3,
+      "sort_order": 8,
+      "composite_of": ["group-building-blocks", "group-category-instances"],
+      "sections": {
+        "Definition": "This item is the substrate this entire library sits on, not one taxonomy among the others it lists. The theory of constructed emotion holds that an emotional instance is built in the moment from core affect (a continuously varying valence/arousal state), interoceptive signals from the body, and a learned concept — shaped by language and culture — that the brain applies to categorize the whole pattern. There is no fixed, pre-packaged \"anger program\" or \"fear program\" waiting to be triggered with one universal signature; there is a population of variable instances that get grouped under a shared word because the word is useful, not because the instances share one biological essence.",
+        "Why this is the substrate and not a peer": "Every other school in this collection — Plutchik, the basic-emotion model, Aristotle, the Stoics, Aquinas, Descartes, rasa, the Chinese five-viscera correspondences, NVC, Darwin — proposes its own taxonomy of what the significant emotional categories are and how they relate. This school does not compete with those taxonomies on their own terms; it is the claim, stated in this project's own founding document, that none of those taxonomies describes a fixed biological fact independent of the concepts and culture used to build it. Read every other school's taxonomy as a working interface built on this substrate, not as a rival discovery this substrate is one entry among.",
+        "Research note": "Key empirical anchors for this framework include Barrett's own experimental and review work; the 2019 meta-analysis with Adolphs, Marsella, Martinez, and Pollak reviewing facial-expression evidence broadly; Maria Gendron and colleagues' cross-cultural work with populations having minimal exposure to Western media (e.g. the Himba, 2014); and predictive-processing and allostasis research on interoception more broadly (e.g. work associated with Karl Friston's predictive-coding framework, applied to interoception by Barrett and collaborators including W. Kyle Simmons)."
+      },
+      "keywords": ["constructed emotion", "barrett", "substrate", "core affect", "interoception"],
+      "metadata": {
+        "evidence_tier": "growing",
+        "evidence_note": "The theory of constructed emotion has a substantial and actively growing body of peer-reviewed empirical support — the 2019 Barrett/Adolphs/Marsella/Martinez/Pollak meta-analysis on facial-expression variability, cross-cultural work with low-media-exposure populations (Gendron et al. 2014), and a developing predictive-processing/interoception research program — but it is a comparatively recent paradigm still being actively tested against, and argued over with, basic-emotion accounts, rather than a claim treated as independently settled across the field. \"Growing\" reflects a real and expanding evidence base under live contestation, not an unsettled or merely theoretical claim."
+      }
+    }
+  ]
+}

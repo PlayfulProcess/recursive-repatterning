@@ -13,12 +13,167 @@
   "default_preview": "grammar",
   "_sources": [
     {
+      "slug": "constructed-emotion",
+      "name": "Constructed Emotion — the Substrate",
+      "items": 5
+    },
+    {
       "slug": "plutchik-wheel",
       "name": "Plutchik's Wheel of Emotions",
       "items": 24
+    },
+    {
+      "slug": "ekman-basic",
+      "name": "Basic-Emotion / Affect-Programme Theory",
+      "items": 6
+    },
+    {
+      "slug": "nvc-needs",
+      "name": "Nonviolent Communication — Feelings and Needs",
+      "items": 5
+    },
+    {
+      "slug": "greek-pathe",
+      "name": "Greek Pathē — Rhetoric and Stoic Ethics",
+      "items": 6
+    },
+    {
+      "slug": "descartes-passions",
+      "name": "Descartes's Six Primitive Passions",
+      "items": 6
+    },
+    {
+      "slug": "aquinas-passions",
+      "name": "Aquinas's Eleven Passions",
+      "items": 5
+    },
+    {
+      "slug": "rasa",
+      "name": "Rasa — Bharata's Aesthetics of Performance",
+      "items": 6
+    },
+    {
+      "slug": "chinese-qing",
+      "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
+      "items": 5
+    },
+    {
+      "slug": "darwin-expression",
+      "name": "Darwin — The Expression of the Emotions",
+      "items": 5
     }
   ],
   "items": [
+    {
+      "id": "constructed-emotion--core-affect",
+      "name": "Core Affect",
+      "category": "building-block",
+      "sections": {
+        "Definition": "Core affect is a continuously present, continuously varying background state describable along two dimensions: valence (how pleasant or unpleasant) and arousal (how activated or calm). On this account it is always present — there is no affect-free baseline state a person returns to between emotions — and it exists prior to, and independent of, any emotion category being applied to it.",
+        "Not a category, a dimension": "Core affect is deliberately given no emotion_key, because it isn't a category candidate the way \"anger\" or \"joy\" are elsewhere in this collection — it's the raw material a concept gets applied to, not itself a named emotion. Two people (or the same person at two different times) can be in a similar core-affect state — unpleasant, highly activated — and construct it as anger, anxiety, or excitement depending on the concept and context available to them.",
+        "Research note": "Core affect draws on circumplex models of affect (notably James A. Russell's 1980 circumplex model of affect), which Barrett's framework incorporates as the pre-conceptual layer beneath category construction."
+      },
+      "keywords": [
+        "core affect",
+        "valence",
+        "arousal",
+        "substrate"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "core-affect",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--interoception",
+      "name": "Interoception and the Body Budget",
+      "category": "building-block",
+      "sections": {
+        "Definition": "Interoception is the brain's ongoing sense of the body's internal state — heart rate, breathing, gut activity, inflammation, and more — which this framework treats as continuously monitored and predicted by the brain as part of regulating the body's resources (its \"body budget,\" the allostatic process of anticipating and meeting the body's metabolic needs before they become a crisis). Core affect is understood, on this account, as a summary readout of that ongoing interoceptive prediction, not a separate signal layered on top of it.",
+        "Not a category, an ingredient": "Like core affect, interoception is not itself a named emotion and carries no emotion_key here — it's one of the inputs a concept is applied to when the brain constructs a specific emotional instance.",
+        "Research note": "The body-budget framing draws on predictive-processing accounts of brain function (the brain as constantly generating predictions about incoming sensory and interoceptive data, updating on prediction error) applied specifically to interoception — a research direction with substantial and growing support in computational neuroscience, though the field's broader predictive-processing framework remains an active area of ongoing empirical work rather than settled consensus."
+      },
+      "keywords": [
+        "interoception",
+        "allostasis",
+        "body budget",
+        "substrate"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "interoception",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--anger-as-population",
+      "name": "\"Anger\" as a Population of Instances",
+      "category": "category-instance",
+      "sections": {
+        "Definition": "On this framework, \"anger\" does not name one fixed inner state with one fixed facial or physiological signature. It names a population of highly variable instances — different combinations of core affect, interoceptive state, situation, and concept — that a perceiver (or the person themselves) categorizes as anger because the concept \"anger,\" learned through language and culture, fits well enough in that moment. Two instances categorized as anger by the same person in the same week can differ substantially in their facial expression, physiology, and felt quality.",
+        "Directly reusing the word other schools use": "This item deliberately shares its emotion_key with the \"anger\" items in Plutchik's wheel, Aristotle's rhetorical pathē, Aquinas's ira, and the basic-emotion school in this collection — not to claim they are all talking about the same fixed thing, but so the cross-grammar linking this whole library uses can surface the disagreement directly: click through and compare what each school claims \"anger\" is.",
+        "Research note": "The central empirical support cited for population-level variability in anger's expression and physiology is the 2019 meta-analysis by Barrett, Adolphs, Marsella, Martinez, and Pollak (Psychological Science in the Public Interest), which reviewed the wider evidence base and found no reliable one-to-one facial or physiological signature for anger, or for discrete emotion categories generally — the same study cited in this collection's basic-emotion and Plutchik-wheel schools as the direct empirical challenge to their own premises."
+      },
+      "keywords": [
+        "anger",
+        "population thinking",
+        "constructed emotion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "constructed-emotion",
+        "source_item_id": "anger-as-population",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--fear-as-population",
+      "name": "\"Fear\" as a Population of Instances",
+      "category": "category-instance",
+      "sections": {
+        "Definition": "As with anger, \"fear\" on this account names a variable population of instances rather than one fixed inner state — the same core-affect and interoceptive raw material that gets categorized as fear in one moment might, with a different concept available or a different context, be categorized as excitement, anxiety, or anger in another.",
+        "Directly reusing the word other schools use": "This item's emotion_key deliberately matches \"fear\" as used in Plutchik's wheel, the Stoic and Aquinas schools (timor is keyed separately in Latin precisely because it is a narrower technical category, but is closely related), Darwin's chapter, and the basic-emotion school — the point of the shared key is to make the disagreement between this substrate and those schools directly comparable, item to item.",
+        "Research note": "Barrett and colleagues' own experimental work (e.g. studies manipulating context and interoceptive framing) reports that the same ambiguous bodily arousal state can be categorized by participants as either fear or excitement depending on situational cues — cited as direct evidence for construction rather than fixed triggering."
+      },
+      "keywords": [
+        "fear",
+        "population thinking",
+        "constructed emotion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "constructed-emotion",
+        "source_item_id": "fear-as-population",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--sadness-as-population",
+      "name": "\"Sadness\" as a Population of Instances",
+      "category": "category-instance",
+      "sections": {
+        "Definition": "As with anger and fear, \"sadness\" on this account is a variable population of instances built from core affect, interoception, situation, and a learned concept — not a single essence with one physiological or facial fingerprint that shows up the same way every time.",
+        "Directly reusing the word other schools use": "This item's emotion_key deliberately matches \"sadness\" as used in Plutchik's wheel, Darwin's grief chapter (keyed as \"grief\" there, a related but not identical concept), and the basic-emotion school — again, so the cross-link makes the live disagreement visible rather than papering over it.",
+        "Research note": "Cross-cultural and within-culture variability in sadness's reported facial and physiological presentation is among the evidence the 2019 Barrett-led meta-analysis reviewed; the finding was not that sadness never involves a downturned mouth or slowed movement, but that no single configuration reliably and specifically marks sadness across contexts and individuals."
+      },
+      "keywords": [
+        "sadness",
+        "population thinking",
+        "constructed emotion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "source_deck": "constructed-emotion",
+        "source_item_id": "sadness-as-population",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
     {
       "id": "plutchik-wheel--ecstasy",
       "name": "Ecstasy",
@@ -760,6 +915,992 @@
         "source_deck": "plutchik-wheel",
         "source_item_id": "interest",
         "deck": "Plutchik's Wheel of Emotions"
+      }
+    },
+    {
+      "id": "ekman-basic--anger",
+      "name": "Anger",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "In the basic-emotion model, anger is triggered by an appraisal of obstruction, unfair treatment, or a goal being blocked, and is claimed to produce a specific coordinated affect programme: lowered and drawn-together brows, a hard stare, tightened lips, and a physiological shift preparing the body for confrontation.",
+        "The claimed signature": "FACS work associates anger primarily with Action Units 4 (brow lowerer), 5 (upper lid raiser), 7 (lid tightener), and 23 (lip tightener), used together as the claimed marker researchers look for when coding anger from video or photographs.",
+        "Research note": "Cross-cultural recognition studies (Ekman & Friesen, 1971, among the Fore of Papua New Guinea) reported anger among the emotions recognized above chance across cultures using forced-choice tasks — a methodology later criticized on grounds discussed in this item's root."
+      },
+      "keywords": [
+        "anger",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "ekman-basic",
+        "source_item_id": "anger",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--disgust",
+      "name": "Disgust",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "Disgust is triggered by an appraisal of contamination or offensiveness — originally, on this model, food-rejection, later extended to moral and social violations — and is claimed to produce a nose-wrinkle, raised upper lip, and a characteristic gape or grimace.",
+        "The claimed signature": "FACS work associates disgust primarily with Action Units 9 (nose wrinkler) and 10 (upper lip raiser), sometimes with 16 (lower lip depressor) added for more intense expressions.",
+        "Research note": "Disgust is among the emotions basic-emotion researchers have argued extended from a literal, ingestion-linked origin (rejecting a specific taste or smell) to abstract moral disgust — a claimed developmental and evolutionary continuity (see Rozin, Haidt, & McCauley's work on disgust's domains) that is itself a live area of ongoing research rather than settled fact."
+      },
+      "keywords": [
+        "disgust",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disgust",
+        "source_deck": "ekman-basic",
+        "source_item_id": "disgust",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--fear",
+      "name": "Fear",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "Fear is triggered by an appraisal of threat or danger, and is claimed to produce widened eyes, raised and drawn-together eyebrows, a horizontally stretched mouth, and physiological preparation for rapid escape or freezing.",
+        "The claimed signature": "FACS work associates fear primarily with Action Units 1+2 (inner and outer brow raiser), 4 (brow lowerer, often present alongside the raise, producing a distinctive combined shape), 5 (upper lid raiser), and 20 (lip stretcher).",
+        "Research note": "Fear's claimed expression overlaps partially with surprise's (both raise the brows and widen the eyes), which is part of why some forced-choice recognition studies report more confusion between fear and surprise than between more visually distinct pairs — a finding basic-emotion researchers and their critics read differently (see the root item's evidence_note)."
+      },
+      "keywords": [
+        "fear",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "ekman-basic",
+        "source_item_id": "fear",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--joy",
+      "name": "Joy (Happiness)",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "Joy (often labeled \"happiness\" in the original research literature) is triggered by an appraisal of goal-attainment or a rewarding outcome, and is claimed to produce a smile — specifically, in its most genuine form, a \"Duchenne smile\" involving both the mouth-corner-raising muscle and the eye-orbit muscle together, distinguished from a merely social or posed smile that uses the mouth alone.",
+        "The claimed signature": "FACS work associates genuine joy with Action Units 6 (cheek raiser, involving the muscle around the eye) plus 12 (lip corner puller); a smile using AU12 without AU6 is treated in this literature as a weaker or non-felt marker.",
+        "Research note": "The Duchenne-smile distinction traces back to 19th-century researcher Guillaume Duchenne de Boulogne, whose electrical-stimulation photographs Darwin reproduced and discussed in 1872 (see the darwin-expression school in this collection) — Ekman's research programme formalized and named the distinction, but did not originate the underlying observation."
+      },
+      "keywords": [
+        "joy",
+        "happiness",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "source_deck": "ekman-basic",
+        "source_item_id": "joy",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--sadness",
+      "name": "Sadness",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "Sadness is triggered by an appraisal of loss or a goal that cannot be recovered, and is claimed to produce drawn-together and raised inner eyebrows, a downturned mouth, and, in some formulations, reduced overall muscular tone or slumped posture.",
+        "The claimed signature": "FACS work associates sadness primarily with Action Units 1 (inner brow raiser), 4 (brow lowerer, combined with 1 to produce an oblique inner-brow shape close to Darwin's own 1872 description of the \"grief muscle\"), and 15 (lip corner depressor).",
+        "Research note": "The oblique-eyebrow shape basic-emotion researchers describe for sadness is close to the same muscular pattern Darwin described in 1872 as characteristic of grief (see darwin-expression), one of the clearer direct through-lines between the two schools' specific claims."
+      },
+      "keywords": [
+        "sadness",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "source_deck": "ekman-basic",
+        "source_item_id": "sadness",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--surprise",
+      "name": "Surprise",
+      "category": "basic-emotion",
+      "sections": {
+        "Definition": "Surprise is triggered by an unexpected event, and is claimed to produce raised eyebrows, widened eyes, and a dropped jaw — a brief, fast-onset expression that basic-emotion researchers treat as the shortest-duration of the set, typically lasting well under a second before resolving into whatever emotion the surprising event turns out to warrant.",
+        "The claimed signature": "FACS work associates surprise primarily with Action Units 1+2 (inner and outer brow raiser, without the brow-lowering 4 that would shift it toward fear), 5 (upper lid raiser), and 26 (jaw drop).",
+        "Research note": "Because surprise is valence-neutral on its own (an unexpected event can turn out good or bad), some researchers within the basic-emotion tradition itself have questioned whether it belongs on the same list as the other five, which are each tied to a specific valenced appraisal — a question raised inside the tradition, not only by outside critics."
+      },
+      "keywords": [
+        "surprise",
+        "ekman",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "surprise",
+        "source_deck": "ekman-basic",
+        "source_item_id": "surprise",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "nvc-needs--frustration",
+      "name": "Frustration — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sections": {
+        "Definition": "In NVC practice, frustration typically points toward an unmet need for effectiveness, autonomy, or competence — the sense that one's efforts aren't landing, or that a choice one wants to make is being blocked. NVC asks the practitioner to locate the need underneath the frustration rather than stopping at the feeling or, worse, at blame directed at whoever seems to be causing it.",
+        "Not a verdict about someone else": "NVC draws a sharp line between a genuine feeling word (\"I feel frustrated\") and a pseudo-feeling that smuggles in a claim about another person's behavior or character (\"I feel ignored,\" \"I feel dismissed\") — the second kind names a story about someone else's action, not a state in the speaker, and NVC practice asks a person to trace it back to the actual feeling and need underneath.",
+        "Practice": "The NVC move is not to suppress frustration or to blame its apparent cause, but to ask: what need of mine is unmet right now, and what specific, doable request could address it?"
+      },
+      "keywords": [
+        "frustration",
+        "nvc",
+        "unmet need"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "frustration",
+        "source_deck": "nvc-needs",
+        "source_item_id": "frustration",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--loneliness",
+      "name": "Loneliness — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sections": {
+        "Definition": "Loneliness typically points toward an unmet need for connection, companionship, or being seen — NVC treats the feeling as accurate information about a real gap, not as a flaw in the person feeling it.",
+        "Not a verdict about someone else": "As with frustration, NVC distinguishes loneliness (a feeling) from a pseudo-feeling like \"I feel abandoned\" or \"I feel unloved,\" which build in a specific causal story about another person's action or intent rather than simply naming the felt state and its underlying need.",
+        "Practice": "NVC's four-step practice model — a concrete observation, the feeling it brings up, the need underneath, and a specific request — is one route from loneliness to a workable next step: naming the observation (\"we haven't spent time together this week\"), the feeling (lonely), the need (connection), and a request (\"could we set aside an hour on Thursday?\") rather than an accusation."
+      },
+      "keywords": [
+        "loneliness",
+        "nvc",
+        "unmet need",
+        "connection"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "loneliness",
+        "source_deck": "nvc-needs",
+        "source_item_id": "loneliness",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--anxious",
+      "name": "Anxious — Signals an Unmet Need",
+      "category": "unmet-need-signal",
+      "sections": {
+        "Definition": "Anxious, in NVC's framing, typically points toward an unmet need for safety, security, clarity, or predictability — the sense that something important is uncertain or at risk. As with the other unmet-need signals here, NVC treats the feeling itself as useful data rather than as a problem to be argued away.",
+        "Not a verdict about someone else": "NVC would flag \"I feel threatened\" or \"I feel set up\" as pseudo-feelings if they're standing in for anxious plus an unexamined story about someone's intent — the practice asks the speaker to separate the felt anxiety from any claim about why it's happening.",
+        "Practice": "Naming the specific unmet need (safety? clarity? predictability?) underneath a general sense of anxious usually points toward a more answerable request than the vaguer feeling does on its own — a request for information, a timeline, or a check-in, rather than a request to simply stop feeling anxious."
+      },
+      "keywords": [
+        "anxious",
+        "nvc",
+        "unmet need",
+        "safety"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anxious",
+        "source_deck": "nvc-needs",
+        "source_item_id": "anxious",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--relief",
+      "name": "Relief — Signals a Met Need",
+      "category": "met-need-signal",
+      "sections": {
+        "Definition": "Relief typically signals that a need for safety, ease, or resolution has just been met — a tension that was present has resolved. NVC treats naming relief, and the specific need behind it, as just as useful a practice as naming a harder feeling: it builds the same fluency in the same direction.",
+        "Practice": "NVC materials commonly ask practitioners to also notice and name met-need feelings deliberately, not only to diagnose problems — naming what need relief is pointing to (here, ease or safety) makes it easier to recognize and ask for the conditions that produce that state again."
+      },
+      "keywords": [
+        "relief",
+        "nvc",
+        "met need"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "relief",
+        "source_deck": "nvc-needs",
+        "source_item_id": "relief",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--joyful",
+      "name": "Joyful — Signals a Met Need",
+      "category": "met-need-signal",
+      "sections": {
+        "Definition": "Joyful, in this framing, typically points toward needs like connection, play, meaning, or contribution being met — NVC treats it, like every feeling on this deck, as a signal rather than a self-sufficient endpoint, worth tracing back to the specific need it's responding to.",
+        "Practice": "Naming which need is behind a joyful moment (was it connection? contribution? play?) is itself a practiced skill in NVC training, intended to build the same feeling-to-need fluency that the harder, unmet-need feelings require, so it isn't only exercised under difficulty."
+      },
+      "keywords": [
+        "joyful",
+        "nvc",
+        "met need"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "source_deck": "nvc-needs",
+        "source_item_id": "joyful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-orge",
+      "name": "Orgē — Anger (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "In Rhetoric II.2, Aristotle defines anger (orgē) as a desire, accompanied by pain, for conspicuous revenge for a conspicuous and unjustified slight directed at oneself or someone close to one. It is not raw physiological arousal; it is an appraisal — a judgment that one has been wronged and belittled — paired with the expectation that retaliation will be pleasant.",
+        "Rhetoric-bound, not clinical": "Aristotle is not describing anger as a state to be diagnosed or managed. He is telling an orator which beliefs make an audience angry — being slighted by people who owe them respect — so a speech can provoke that anger against an opponent, or calm it (praotēs, the paired state) in a judge who has been roused against the speaker's own client.",
+        "Research note": "Aristotle treats anger as an object-directed judgment rather than a mood — a cognitive-appraisal reading of emotion that anticipates, without duplicating, both Stoic theory and modern appraisal theories such as Richard Lazarus's (1991)."
+      },
+      "keywords": [
+        "anger",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-orge",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-eleos",
+      "name": "Eleos — Pity (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.8 defines pity (eleos) as pain at an apparently destructive or painful event happening to someone who does not deserve it, which the observer might expect could happen to himself or someone close to him. Both conditions matter: the suffering must look undeserved, and the observer must see it as possible for themselves — Aristotle notes that people who feel invulnerable feel less pity.",
+        "Rhetoric-bound, not clinical": "Pity here is a lever, not a syndrome. Aristotle catalogues what makes a courtroom audience pity a defendant — visible, specific, nearby suffering, a person like the listener — because a speaker who understands the lever can pull it.",
+        "Research note": "Aristotle explicitly pairs eleos with nemesis (indignation at another's undeserved good fortune) as mirror-image judgments about desert, not as unrelated feelings — a structural pairing this skeleton does not yet include as its own item."
+      },
+      "keywords": [
+        "pity",
+        "compassion",
+        "rhetoric"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "pity",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-eleos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--stoic-lype",
+      "name": "Lypē — Distress (Stoic)",
+      "category": "stoic-pathe",
+      "sections": {
+        "Definition": "In the Stoic scheme reported by later sources (chiefly Diogenes Laërtius and Stobaeus), lypē is an irrational contraction of the soul at what is wrongly judged to be a present evil. It is one of the four canonical pathē — a mistaken value-judgment about the present, not a physiological given.",
+        "Why the Stoics call it irrational": "For the Stoics, only virtue and vice are genuinely good or bad; everything else — health, wealth, reputation, even bodily pain — is \"indifferent.\" Lypē arises from judging one of those indifferents to be a real evil. Because the judgment is false, the Stoics hold there is no well-reasoned version of it — unlike the other three pathē, lypē has no eupatheia (rational good-feeling) counterpart in the sage.",
+        "Research note": "This is an ethical claim about which judgments are true, not a description of a bodily process — reading lypē as equivalent to the modern clinical category \"depression,\" or flattening it to the modern English word \"distress,\" overstates the overlap in both directions."
+      },
+      "keywords": [
+        "distress",
+        "stoicism",
+        "pathe"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "distress",
+        "source_deck": "greek-pathe",
+        "source_item_id": "stoic-lype",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--stoic-phobos",
+      "name": "Phobos — Fear (Stoic)",
+      "category": "stoic-pathe",
+      "sections": {
+        "Definition": "Phobos, in the Stoic scheme, is an irrational shrinking-away from an expected evil — the future-facing counterpart to lypē's present-facing contraction. Like the other three pathē it is a judgment: that some coming indifferent is a real evil worth fleeing.",
+        "Its rational counterpart": "Fear's eupatheia is eulabeia, usually translated \"caution\" — a well-reasoned aversion to a genuine evil (vice, a wrong action) rather than to an indifferent thing. A Stoic sage, on this account, still avoids stepping off a cliff; the claim concerns which judgment does the avoiding, not the removal of self-preservation.",
+        "Research note": "The eupatheiai are attributed only to the sage — an ideal the Stoics themselves treat as rarely, if ever, instantiated. This is a normative model of how judgment should work, not a description of how most people's fear does work."
+      },
+      "keywords": [
+        "fear",
+        "stoicism",
+        "pathe"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "greek-pathe",
+        "source_item_id": "stoic-phobos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--stoic-epithymia",
+      "name": "Epithymia — Desire (Stoic)",
+      "category": "stoic-pathe",
+      "sections": {
+        "Definition": "Epithymia is an irrational reaching-toward a future indifferent, wrongly judged to be a real good — the desire-pole of the Stoic four, paired conceptually with hēdonē (pleasure) the way phobos is paired with lypē: future versus present, in each case built on a mistaken value-judgment.",
+        "Its rational counterpart": "Epithymia's eupatheia is boulēsis, \"wish\" or rational will — desire aimed only at what is genuinely worth wanting: wisdom, justice, courage, self-command. The Stoics did not hold that a sage desires nothing; they held that a sage desires correctly.",
+        "Research note": "Later Stoic sources subdivide epithymia into a long list of named species — anger itself is sometimes classed as a form of it, a desire for revenge. This item covers the genus, not its species."
+      },
+      "keywords": [
+        "desire",
+        "stoicism",
+        "pathe"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "desire",
+        "source_deck": "greek-pathe",
+        "source_item_id": "stoic-epithymia",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--stoic-hedone",
+      "name": "Hēdonē — Pleasure (Stoic)",
+      "category": "stoic-pathe",
+      "sections": {
+        "Definition": "Hēdonē is an irrational swelling of the soul at a present indifferent, wrongly judged to be a real good — the present-facing counterpart to epithymia's future reach, and structurally opposite to lypē.",
+        "Its rational counterpart": "Hēdonē's eupatheia is chara, \"joy\" — a well-founded elation at something genuinely good, namely virtuous action itself, rather than at an indifferent circumstance. The Stoics distinguish chara sharply from hēdonē: the same felt shape, resting on a different object and a different judgment.",
+        "Research note": "Later Stoics, especially the Roman Stoic Seneca, develop chara at length as a durable good feeling available regardless of external circumstance — an idea with obvious later influence on Christian and secular therapeutic traditions, none of which this item claims as Stoic in origin."
+      },
+      "keywords": [
+        "pleasure",
+        "stoicism",
+        "pathe"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "pleasure",
+        "source_deck": "greek-pathe",
+        "source_item_id": "stoic-hedone",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "descartes-passions--wonder",
+      "name": "Admiration — Wonder",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Descartes places wonder (admiration) first among the six and treats it as unique: a sudden surprise of the soul that causes it to attend to and consider objects that seem rare or extraordinary — before the soul has judged whether the object is good or bad for it. Wonder is purely cognitive orientation toward novelty; unlike the other five, Descartes says it has no bodily opposite and does not depend on whether the object benefits or harms us.",
+        "Why it comes first": "Because wonder precedes any judgment of good or evil, Descartes treats it as the passion that makes the other five possible — nothing can become an object of love, hatred, desire, joy, or sadness until it has first been noticed as significant. Excess wonder, in his account, produces astonishment (étonnement), which can freeze a person into inaction; its useful degree he calls generosity of curiosity, a disposition to keep learning.",
+        "Research note": "This is the clearest point of contrast with basic-emotion models built around universal facial expressions (see the ekman-basic school in this collection): Descartes's wonder is defined by its relationship to prior knowledge (is this new to me?), not by any claimed facial signature."
+      },
+      "keywords": [
+        "wonder",
+        "admiration",
+        "descartes",
+        "novelty"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "wonder",
+        "source_deck": "descartes-passions",
+        "source_item_id": "wonder",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "descartes-passions--love",
+      "name": "Amour — Love",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Descartes defines love as an agitation of the soul caused by the animal spirits, which impels the soul to join itself willingly to objects that appear agreeable to it — a felt movement toward union with something judged good, whether that something is a person, an object, or an idea.",
+        "Its degrees": "Descartes distinguishes affection (for something judged inferior to oneself), friendship (for an equal), and devotion (for something judged superior — God, one's country, one's sovereign). He treats these as differences of the same primitive passion rather than as separate ones.",
+        "Research note": "Descartes explicitly pairs love with hatred as its bodily and functional opposite (both concern union versus separation from an object), which is why they are grouped together in this deck's second-level composite."
+      },
+      "keywords": [
+        "love",
+        "descartes",
+        "union"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "love",
+        "source_deck": "descartes-passions",
+        "source_item_id": "love",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "descartes-passions--hatred",
+      "name": "Haine — Hatred",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Hatred, in Descartes's scheme, is the mirror of love: an agitation caused by the spirits that impels the soul to will itself separated from objects presented to it as harmful. Where love draws the soul toward union, hatred drives it toward distance and rejection.",
+        "Its physiology": "Descartes ties hatred's bodily signature to a supposed bitterness in the blood and a tightening around the heart, part of his broader (and now superseded) mechanistic account of how each passion moves the animal spirits differently through the body.",
+        "Research note": "Descartes's specific physiology — animal spirits, the pineal gland as the soul's seat — is not treated as a live scientific claim by this school; his primitive-passion taxonomy is read independently of the 17th-century mechanics used to explain it."
+      },
+      "keywords": [
+        "hatred",
+        "descartes",
+        "aversion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hatred",
+        "source_deck": "descartes-passions",
+        "source_item_id": "hatred",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "descartes-passions--desire",
+      "name": "Désir — Desire",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Desire is an agitation of the soul, caused by the spirits, that disposes it to will for the future whatever it represents to itself as agreeable — the only one of the six primitive passions Descartes defines as inherently future-facing.",
+        "Its scope": "Descartes treats desire broadly: it covers wanting to obtain a good one does not yet have and wanting to avoid an evil one fears, and even the desire to preserve a good one already possesses (since preservation is itself a kind of future-directed willing). He does not give desire a named opposite among the six.",
+        "Research note": "Descartes's desire is closer to what later philosophy calls a conative or motivational state than to a discrete felt emotion — it is defined by what it moves the soul to will, not primarily by how it feels."
+      },
+      "keywords": [
+        "desire",
+        "descartes",
+        "future"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "desire",
+        "source_deck": "descartes-passions",
+        "source_item_id": "desire",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "descartes-passions--joy",
+      "name": "Joie — Joy",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Joy is an agreeable emotion of the soul, in which the enjoyment it possesses consists — the felt experience of having, right now, what one has judged to be good. Where desire looks forward and love reaches toward union, joy registers a good already present or already attained.",
+        "Its relation to love": "Descartes treats joy as frequently accompanying love (one is glad about what one loves) but keeps them conceptually distinct: love is the movement toward union, joy is the register of possession. One can, on his account, love something one does not yet possess, in which case joy is absent and desire dominates instead.",
+        "Research note": "Descartes pairs joy with sadness as its direct opposite — both concern a good or evil the soul takes to be already present, rather than merely possible."
+      },
+      "keywords": [
+        "joy",
+        "descartes",
+        "possession"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "source_deck": "descartes-passions",
+        "source_item_id": "joy",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "descartes-passions--sadness",
+      "name": "Tristesse — Sadness",
+      "category": "primitive-passion",
+      "sections": {
+        "Definition": "Sadness is a disagreeable languor in which the soul's discomfort consists, arising from an evil, or a lack, that the soul represents to itself as belonging to it now — the counterpart to joy's registration of a present good, this time registering a present evil or absence.",
+        "Its relation to hatred": "As joy relates to love, sadness relates to hatred: hatred is the movement of rejection toward a harmful object, sadness is the felt discomfort of the evil or lack already being present. Descartes treats prolonged, ungrounded sadness as physiologically corrosive, and recommends attending to genuine present goods as a corrective — an early version of what later therapeutic traditions would call reappraisal.",
+        "Research note": "Descartes's six close on an opposing pair (joy/sadness) that mirrors the earlier pair (love/hatred), leaving wonder and desire as the two primitives without a named opposite in his own scheme."
+      },
+      "keywords": [
+        "sadness",
+        "descartes",
+        "loss"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "source_deck": "descartes-passions",
+        "source_item_id": "sadness",
+        "deck": "Descartes's Six Primitive Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--amor",
+      "name": "Amor — Love (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Amor is the first concupiscible passion: a connaturality or fittingness the sensitive appetite feels toward an apprehended good, prior to any movement toward or away from it. Aquinas treats it as the root passion from which desire and joy both follow — one desires what one first loves, and rejoices in possessing what one loves.",
+        "The arduousness axis": "Amor is concupiscible, not irascible, because it responds to the good simply as good — a fitting object, full stop — without regard to whether attaining or keeping it is difficult. Compare spes (hope), an irascible passion below: hope requires the good to be not just apprehended but hard to reach. Love does not.",
+        "Research note": "Aquinas distinguishes amor (a passion of the sensitive appetite, shared with animals in an analogous form) from caritas (charity, a theological virtue involving the will and grace) — this item concerns only the passion, not the virtue."
+      },
+      "keywords": [
+        "love",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "love",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "amor",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--tristitia",
+      "name": "Tristitia — Sorrow (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Tristitia is the concupiscible passion of pain at a present evil apprehended as such — the counterpart to gaudium (joy) at a present good. Aquinas distinguishes several species by cause: pity (sorrow at another's evil), envy (sorrow at another's good, treated by Aquinas as a species of sorrow gone wrong), and anxiety (sorrow that weighs down the mind so it cannot see a way out).",
+        "The arduousness axis": "Tristitia responds to a present evil simply as evil, without regard to whether escaping it is difficult — which is exactly what separates it from timor (fear, an irascible passion, below): fear concerns a future evil that is hard to avoid, while sorrow concerns an evil already here.",
+        "Research note": "Aquinas holds that tristitia, unlike some passions, can be reduced by four specific remedies he names explicitly: weeping, the sympathy of friends, contemplating truth, and sleep or a bath — a concrete, almost clinical list embedded in an otherwise abstract taxonomy."
+      },
+      "keywords": [
+        "sorrow",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sorrow",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "tristitia",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--spes",
+      "name": "Spes (Hope, Irascible)",
+      "category": "irascible-passion",
+      "sections": {
+        "Definition": "Spes is the irascible passion of the appetite's movement toward a future good that is both possible to attain and arduous — difficult enough that attaining it is not a foregone conclusion. If the good were easy and certain, Aquinas holds, the appetite would simply desire it (a concupiscible act); it becomes spes specifically because obtaining it requires effort or struggle against resistance.",
+        "Why the key is transliterated, not \"hope\"": "English \"hope\" is used loosely for almost any positive expectation, easy or hard. Aquinas's spes is defined by the arduousness condition — no difficulty, no spes, just ordinary desiderium (desire). Keying this item as plain \"hope\" would erase the one feature that makes it irascible rather than concupiscible in the first place, and would silently merge it with every other school's much broader use of the English word.",
+        "Research note": "Aquinas pairs spes with desperatio (despair): both concern the same future arduous good, differing only in whether the appetite judges it attainable (spes) or not (desperatio)."
+      },
+      "keywords": [
+        "hope",
+        "aquinas",
+        "irascible",
+        "arduousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "spes",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "spes",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--timor",
+      "name": "Timor (Fear, Irascible)",
+      "category": "irascible-passion",
+      "sections": {
+        "Definition": "Timor is the irascible passion of shrinking from a future evil that is arduous to avoid — an evil difficult enough to escape that the appetite registers real resistance, not simply distaste. Aquinas catalogues species of timor by their object: laziness (fear of the effort a task requires), shame (fear of disgrace), and others.",
+        "Why the key is transliterated, not \"fear\"": "As with spes, the arduousness condition is what makes timor a distinct technical category rather than the everyday English word. An evil that is easy to avoid produces no timor in Aquinas's scheme, only ordinary aversion (fuga, concupiscible). Using plain \"fear\" as the key would quietly fold that structural distinction back into the very undifferentiated folk category this taxonomy exists to divide.",
+        "Research note": "Timor's irascible partner is audacia (daring), the passion of confronting rather than fleeing the same arduous evil — not included as its own item in this skeleton."
+      },
+      "keywords": [
+        "fear",
+        "aquinas",
+        "irascible",
+        "arduousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "timor",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "timor",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--ira",
+      "name": "Ira (Anger, Irascible, No Contrary)",
+      "category": "irascible-passion",
+      "sections": {
+        "Definition": "Ira is the irascible passion of rising up against a present, arduous evil already inflicted — specifically, the desire to overcome or take revenge upon whoever caused it. Aquinas holds ira alone among the eleven has no contrary passion: there is no separate irascible passion of, say, meek acceptance of a present injury, because the irascible appetite's whole function is to confront arduous evil, and confronting it just is ira.",
+        "Why the key is transliterated": "Aquinas's ira is narrower than everyday English \"anger\": it specifically requires a present injury already suffered and a movement toward retribution against its cause — closer to what a modern reader might call righteous or retaliatory anger than to any irritation whatsoever. Keeping the Latin key flags that narrower scope rather than importing the full breadth of the modern word.",
+        "Research note": "Because ira has no contrary, it sits oddly against the rest of Aquinas's paired structure — commentators have long noted this as a structural asymmetry in the eleven-passion scheme, not an oversight this deck is introducing."
+      },
+      "keywords": [
+        "anger",
+        "aquinas",
+        "irascible",
+        "arduousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "ira",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "ira",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "rasa--shringara",
+      "name": "Śṛṅgāra — the Erotic/Romantic Rasa",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Śṛṅgāra is the rasa built from the sthāyibhāva rati (love, romantic attachment). Bharata treats it as arising when a performance's determinants — a beautiful setting, the presence of a beloved, appropriate ornament and gesture — combine with the audience's own capacity to relish that theme, tasted rather than merely witnessed.",
+        "An event, not a character's inner state": "Śṛṅgāra does not belong to the character on stage (who may be performing convincingly without personally feeling love in that moment) nor simply to the spectator (whose ordinary daily love for a spouse is not itself śṛṅgāra). It is what arises in the relish of a spectator competent to engage with a well-built performance of rati — a three-way relation among craft, convention, and a trained aesthetic response, not a two-way transfer of feeling from actor to viewer.",
+        "Research note": "Bharata and later theorists (notably Abhinavagupta) subdivide śṛṅgāra into sambhoga (union) and vipralambha (separation) — the rasa of love-in-fulfillment and love-in-longing are treated as two registers of the same rasa, not opposites."
+      },
+      "keywords": [
+        "shringara",
+        "love",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "shringara",
+        "source_deck": "rasa",
+        "source_item_id": "shringara",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--hasya",
+      "name": "Hāsya — the Comic Rasa",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Hāsya is the rasa built from the sthāyibhāva hāsa (mirth). The Nāṭyaśāstra treats laughter itself as graded — Bharata catalogues distinct types of laughter by intensity and by whose laughter it is (a refined character's smile differs, dramaturgically, from a low or vulgar character's laugh), and hāsya as a rasa is the audience's relish of that graded comic display, not the display alone.",
+        "An event, not a character's inner state": "A performance can present hāsa (a character being visibly amused) without producing hāsya in the audience, if the comic timing or convention fails — the rasa is contingent on the craft succeeding, not automatic from the content being nominally funny.",
+        "Research note": "Bharata pairs hāsya with śṛṅgāra causally in his own account — he holds that hāsya is in fact produced from śṛṅgāra (comedy as a kind of derivative or parody of the romantic), one of several explicit derivation relationships among the eight that this skeleton does not fully trace."
+      },
+      "keywords": [
+        "hasya",
+        "comedy",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hasya",
+        "source_deck": "rasa",
+        "source_item_id": "hasya",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--karuna",
+      "name": "Karuṇa — the Rasa of Pathos/Compassion",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Karuṇa is the rasa built from the sthāyibhāva śoka (grief, sorrow) — typically arising in performance from separation from loved ones, loss, curse, exile, or the destruction of what is cherished. It is the rasa most often invoked for tragic and elegiac performance across the Sanskrit dramatic tradition.",
+        "An event, not a character's inner state": "Karuṇa is the audience's aesthetic relish of well-performed śoka, not the raw distress a spectator would feel witnessing an actual death or loss. Classical commentary is explicit that rasa involves a kind of distance or generalization (sādhāraṇīkaraṇa) — the specific, personal edge of real grief is transmuted into a shareable aesthetic theme, which is part of why watching a tragedy can be pleasurable in a way that witnessing real grief is not.",
+        "Research note": "Bhāmaha and later theorists debate at length whether karuṇa's pleasure is genuine aesthetic pleasure or a paradox requiring separate explanation — a live question inside the tradition itself, not settled by Bharata's original text."
+      },
+      "keywords": [
+        "karuna",
+        "grief",
+        "compassion",
+        "rasa"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "karuna",
+        "source_deck": "rasa",
+        "source_item_id": "karuna",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--raudra",
+      "name": "Raudra — the Furious Rasa",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Raudra is the rasa built from the sthāyibhāva krodha (anger), typically arising from confrontation, insult, betrayal, or battle — associated in the Nāṭyaśāstra with demonic and heroic characters (rākṣasas, and warrior figures in conflict) and with red as its governing color and Rudra as its presiding deity.",
+        "An event, not a character's inner state": "A performer displaying krodha through prescribed gesture, voice, and stance produces raudra in a spectator capable of relishing that display as craft — the rasa is not the actor's own anger (a trained performer is not actually enraged mid-performance) nor a contagious transfer of rage to the audience, but the aesthetic appreciation of anger skillfully rendered.",
+        "Research note": "Bharata links several rasa-pairs by claimed derivation; raudra is traditionally paired with vīra (the heroic rasa, not yet its own item in this skeleton) as sharing an active, high-energy register, in contrast to karuṇa's passive one."
+      },
+      "keywords": [
+        "raudra",
+        "anger",
+        "fury",
+        "rasa"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "raudra",
+        "source_deck": "rasa",
+        "source_item_id": "raudra",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--bhayanaka",
+      "name": "Bhayānaka — the Fearful Rasa",
+      "category": "natyashastra-rasa",
+      "sections": {
+        "Definition": "Bhayānaka is the rasa built from the sthāyibhāva bhaya (fear), arising in performance from threatening sounds, sights of danger, or the depiction of terrifying beings and situations — a register the Nāṭyaśāstra pairs closely with bībhatsa (disgust) and raudra as its neighboring negative-register rasas.",
+        "An event, not a character's inner state": "As with the other rasas, bhayānaka names the audience's relish of a well-built fear-display, not the character's or the audience's own visceral terror — a distinction the tradition needs precisely because genuine terror is not, in itself, an aesthetic pleasure, while bhayānaka, tasted at the right remove, is treated as one.",
+        "Research note": "Bharata's account of bhayānaka's typical determinants (vibhāva) — the sight of frightful forms, the sound of screams, an empty or dark space — reads as a fairly literal stagecraft manual for producing dread, distinct from a psychological theory of what fear itself is."
+      },
+      "keywords": [
+        "bhayanaka",
+        "fear",
+        "rasa",
+        "natyashastra"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "bhayanaka",
+        "source_deck": "rasa",
+        "source_item_id": "bhayanaka",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "rasa--shanta",
+      "name": "Śānta — the Peaceful Rasa (Abhinavagupta's Ninth)",
+      "category": "abhinavagupta-addition",
+      "sections": {
+        "Definition": "Śānta, built from the sthāyibhāva śama (tranquility, or in some formulations the disposition toward liberation), was argued for as a ninth rasa by the 10th–11th century Kashmiri philosopher-aesthetician Abhinavagupta, several centuries after Bharata's original eight. Abhinavagupta treats śānta as, in a sense, the ground state underlying the other eight — the settled awareness from which any of the eight active rasas can arise and to which they return.",
+        "A contested addition, argued rather than assumed": "Not everyone in the tradition accepted śānta as a rasa. Objectors held that a rasa requires an actively displayed sthāyibhāva — visible in a character's speech, gesture, and situation — while śama is precisely the absence or cessation of active emotional display, making it structurally unlike the other eight. Abhinavagupta's defense (developed at length in his Abhinavabhāratī commentary) is itself part of what makes śānta worth including here: it is a live philosophical argument inside the tradition, not a settled ninth entry Bharata himself endorsed.",
+        "Research note": "Abhinavagupta's broader philosophical commitments (he was also a major theorist of Kashmir Shaivism) inform his case for śānta — he connects aesthetic relish (rasāsvāda) to a state structurally similar to, though not identical with, spiritual realization (brahmāsvāda-sadṛśa, \"resembling the taste of the absolute\"), a controversial and much-discussed claim in later Sanskrit aesthetics."
+      },
+      "keywords": [
+        "shanta",
+        "peace",
+        "abhinavagupta",
+        "rasa"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "shanta",
+        "source_deck": "rasa",
+        "source_item_id": "shanta",
+        "deck": "Rasa — Bharata's Aesthetics of Performance"
+      }
+    },
+    {
+      "id": "chinese-qing--xi",
+      "name": "Xǐ (喜) — Joy, Governed by the Heart",
+      "category": "five-viscera-emotion",
+      "sections": {
+        "Definition": "Xǐ is paired with the heart (xīn) in the classical five-viscera correspondence. In modest degree it is considered healthy — the heart's proper state is described as one of ease and open communication with the world — but the Huangdi Neijing holds that excessive or sudden joy can scatter and slow heart qì, producing symptoms the text describes in terms consistent with what modern readers might call palpitations, restlessness, or difficulty concentrating.",
+        "Wider than the English word": "Classifying xǐ simply as \"happiness\" undersells how the classical texts use it: it names a specific quality and direction of qì movement (an outward, expansive, scattering tendency) tied to a specific organ system, not a private felt mood in the modern psychological sense. The pathology is about qì dynamics, not about mood valence as such.",
+        "Research note": "The claim that a specific emotion in excess damages a specific organ is a theoretical framework internal to classical Chinese medicine, built on the Five Phases (wǔxíng) correspondence system (heart–fire, in this case) rather than on the anatomical or biochemical mechanisms modern cardiology would investigate."
+      },
+      "keywords": [
+        "xi",
+        "joy",
+        "heart",
+        "chinese-medicine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "xi",
+        "source_deck": "chinese-qing",
+        "source_item_id": "xi",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--nu",
+      "name": "Nù (怒) — Anger, Governed by the Liver",
+      "category": "five-viscera-emotion",
+      "sections": {
+        "Definition": "Nù is paired with the liver (gān), whose classical function is to ensure the smooth, unobstructed flow of qì throughout the body. Anger is held to cause qì to rise and rush upward and outward — the Neijing associates excessive nù with liver qì stagnation or liver-yang rising, described in symptom-language including headache, a flushed face, and irritability.",
+        "Wider than the English word": "As with xǐ, nù names a directional qì disturbance (an upward, forceful surge) associated with a specific organ system's proper function being disrupted, not a discrete inner feeling considered on its own. Frustration, resentment, and irritability are often discussed under the same liver-qì framework even where the English words would distinguish them.",
+        "Research note": "The liver–anger pairing is one of the most frequently cited five-viscera correspondences in both classical sources and contemporary Traditional Chinese Medicine clinical practice, though contemporary TCM's own systematization dates mainly to 20th-century standardization efforts building on, but not identical to, the classical texts."
+      },
+      "keywords": [
+        "nu",
+        "anger",
+        "liver",
+        "chinese-medicine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "nu",
+        "source_deck": "chinese-qing",
+        "source_item_id": "nu",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--si",
+      "name": "Sī (思) — Pensiveness/Overthinking, Governed by the Spleen",
+      "category": "five-viscera-emotion",
+      "sections": {
+        "Definition": "Sī is paired with the spleen (pí), the organ classically responsible for transforming food into qì and blood. Sī names sustained mental concentration, worry, or rumination — Bharata's rasa school and this school share nothing structurally, but sī resembles neither pure \"thought\" nor pure \"emotion\" in the English sense: it sits at the seam between the two, which is exactly the kind of category the English word \"emotion\" does not have room for.",
+        "Why this key is transliterated, not \"worry\" or \"overthinking\"": "English forces a choice between a cognitive gloss (\"overthinking,\" \"rumination\") and an affective one (\"worry,\" \"anxiety\"), and either choice discards half of what sī names in the source texts: a single qì-disturbing pattern of dwelling on something, cognitively and affectively at once. Picking one English word would silently resolve an ambiguity the classical texts do not resolve.",
+        "Research note": "The Neijing holds that excessive sī knots spleen qì, impairing its transforming function — described in symptom-language including poor appetite, fatigue, and a bloated or heavy sensation, consistent with the digestive role assigned to the spleen in this system."
+      },
+      "keywords": [
+        "si",
+        "pensiveness",
+        "overthinking",
+        "spleen",
+        "chinese-medicine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "si",
+        "source_deck": "chinese-qing",
+        "source_item_id": "si",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--bei",
+      "name": "Bēi (悲) — Grief, Governed by the Lung",
+      "category": "five-viscera-emotion",
+      "sections": {
+        "Definition": "Bēi is paired with the lung (fèi), classically responsible for governing qì and respiration. Grief and sorrow are held to disperse or deplete lung qì, and the Neijing associates prolonged bēi with shortness of breath, a sunken or withdrawn bearing, and general depletion of vital energy.",
+        "Wider than the English word": "Some classical sources pair the lung with yōu (worry, anxious brooding) rather than, or alongside, bēi (grief proper) — the seven-emotion list and the five-viscera list do not map onto each other item-for-item, and different texts group yōu and bēi together under the lung differently. This item follows the more common grief-lung pairing; the worry-lung variant is noted here rather than given its own entry.",
+        "Research note": "The lung's classical association with grief has an often-cited resonance with the Five Phases correspondence of metal (associated with autumn, decline, and letting go) to the lung — a symbolic-seasonal logic distinct from, and not reducible to, a modern respiratory-physiology account of sadness."
+      },
+      "keywords": [
+        "bei",
+        "grief",
+        "sorrow",
+        "lung",
+        "chinese-medicine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "bei",
+        "source_deck": "chinese-qing",
+        "source_item_id": "bei",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--kong",
+      "name": "Kǒng (恐) — Fear, Governed by the Kidney",
+      "category": "five-viscera-emotion",
+      "sections": {
+        "Definition": "Kǒng is paired with the kidney (shèn), classically the organ storing jīng (essence) and considered the root of the body's constitutional reserves. Kǒng is held to cause qì to sink and descend, and prolonged fear is associated in the Neijing with depletion of kidney essence — described in symptom-language including weakness in the low back and knees, and in more severe classical descriptions, loss of bladder control under acute fright.",
+        "Wider than the English word": "The classical texts distinguish kǒng (a more settled, dwelling fear or apprehension) from jīng (a sudden fright or shock, sometimes counted as a separate seventh emotion, sometimes folded into kǒng depending on the source) — a distinction of duration and suddenness that plain English \"fear\" does not mark on its own.",
+        "Research note": "The kidney's role as the body's constitutional root makes fear's association with it medically significant within the system: kidney depletion is treated as a serious, slow-to-recover condition, so chronic kǒng is regarded as a comparatively grave pattern rather than a passing state."
+      },
+      "keywords": [
+        "kong",
+        "fear",
+        "kidney",
+        "chinese-medicine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "kong",
+        "source_deck": "chinese-qing",
+        "source_item_id": "kong",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "darwin-expression--grief",
+      "name": "Grief",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes grief's characteristic muscular signature in detail: the contraction of the corrugator muscle drawing the eyebrows together and slightly upward into an oblique shape he calls the \"grief muscle,\" often accompanied by a downturned mouth and, in acute grief, weeping. He treats infant crying as the developmentally earliest form and argues the adult oblique-eyebrow pattern derives from the same underlying muscular action, tempered by the acquired habit of restraining full infant-style crying.",
+        "The explanatory principle at work": "Darwin attributes weeping partly to the direct action of the nervous system — violent, prolonged screaming in infants engorges blood vessels around the eyes, and reflex contraction of the surrounding muscles to protect them is, on his account, the origin of tear secretion during distress, later retained as an involuntary accompaniment to grief even without the original screaming.",
+        "Research note": "Darwin's chapter draws on his own observation of his infant children (recorded in a private notebook years before this book, later incorporated into it), an early and unusually longitudinal source of developmental data for its period."
+      },
+      "keywords": [
+        "grief",
+        "darwin",
+        "weeping"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "grief",
+        "source_deck": "darwin-expression",
+        "source_item_id": "grief",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--fear",
+      "name": "Fear",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes fear's expression as widened eyes with visible white above the iris, raised eyebrows, a pale face (from blood withdrawing to the internal organs), trembling, erect hair (piloerection), and a general muscular readiness that can tip into either flight or immobility.",
+        "The explanatory principle at work": "Fear's trembling is Darwin's central example of the direct-action-of-the-nervous-system principle: he argues trembling serves no purpose in itself and is simply what happens when strong nervous excitement disrupts the ordinary, coordinated control of the muscles — a byproduct, not a signal. Piloerection, by contrast, he explains through continuity with other animals, where raised hair or feathers make a frightened or threatened animal look larger to a predator or rival.",
+        "Research note": "Darwin's cross-cultural questionnaire (circulated to missionaries and colonial officials) specifically asked whether fear's facial signs — widened eyes, pallor — were recognized as such among populations the respondents worked with, an early and methodologically crude precursor to the controlled cross-cultural studies Paul Ekman would run roughly a century later (see the ekman-basic school in this collection)."
+      },
+      "keywords": [
+        "fear",
+        "darwin",
+        "trembling"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "darwin-expression",
+        "source_item_id": "fear",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--anger",
+      "name": "Anger",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes anger's expression as a flushed or reddened face, dilated nostrils, a firmly closed or square-shaped mouth, a direct and fixed stare, and — in its more intense forms — bared teeth and a lowered, forward head posture he treats as directly continuous with an animal's threat display before biting or charging.",
+        "The explanatory principle at work": "Anger's teeth-baring is Darwin's flagship example of a serviceable associated habit: teeth-baring once served the direct purpose of preparing to bite an opponent; humans retain the habit — an involuntary curl of the upper lip, a partial baring of the canine — as a vestigial residue of that ancestral function, even in contexts (a heated argument) where biting is not remotely in question.",
+        "Research note": "Darwin explicitly draws the comparison to snarling dogs and other animals baring teeth before attack, using it as one of his central pieces of evidence for continuity of expression across species rather than a special, separately-evolved human signal."
+      },
+      "keywords": [
+        "anger",
+        "darwin",
+        "teeth-baring"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "darwin-expression",
+        "source_item_id": "anger",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--joy",
+      "name": "Joy (Laughter)",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin treats joy's principal expression as laughter and smiling: contraction of the muscles around the eyes and mouth (he specifically notes the involvement of the muscle that produces crow's-feet wrinkling around the eyes in a genuine smile — an observation later formalized as part of the Duchenne marker in 20th-century facial-expression research), combined with the characteristic rhythmic vocalization of laughter itself.",
+        "The explanatory principle at work": "Darwin applies antithesis here directly: he holds that joy's characteristically open, upward, expansive bodily posture is, in part, simply the physical opposite of grief and low spirits' contracted, downward posture — not because the open posture itself serves any function, but because a state of mind opposite to a purposeful one tends to produce movements that are its physical opposite.",
+        "Research note": "Darwin's observation about eye-muscle involvement in genuine versus posed smiling anticipates, without naming, what 20th-century researcher Guillaume Duchenne de Boulogne's electrical-stimulation photographs (which Darwin himself reproduced with permission in this book) and later facial-coding systems would formalize as the distinction between a \"Duchenne smile\" and a merely social one."
+      },
+      "keywords": [
+        "joy",
+        "laughter",
+        "darwin"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "source_deck": "darwin-expression",
+        "source_item_id": "joy",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--shame",
+      "name": "Shame (Blushing)",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin devotes his final substantive chapter to blushing, which he calls \"the most peculiar and the most human of all expressions.\" He describes it as an involuntary reddening of the face, ears, and neck caused by dilation of the facial capillaries, typically triggered by the awareness — real or imagined — of being noticed and judged by others, rather than by shame or embarrassment in private with no observer present.",
+        "Why Darwin treats it as uniquely human": "Unlike anger's teeth-baring or fear's piloerection, Darwin argues blushing has no clear precursor in other animals and no obvious prior serviceable function of its own — he treats it as arising indirectly, through the attention a person pays to their own face when self-conscious, which he proposes causes local vasodilation there specifically rather than elsewhere on the body. He treats this as one of the harder cases for his own three-principle framework to explain cleanly, and says so.",
+        "Research note": "Darwin's own questionnaire respondents reported blushing (or its absence, or local variants like darkening rather than reddening in populations with more melanin) across a wide range of cultures he had access to via missionary and colonial networks — evidence Darwin read as supporting a universal, evolved mechanism rather than a culturally taught social display, though the questionnaire method itself (untrained observers, leading questions, no standardized recording) falls well short of later controlled cross-cultural methodology."
+      },
+      "keywords": [
+        "shame",
+        "blushing",
+        "darwin"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "shame",
+        "source_deck": "darwin-expression",
+        "source_item_id": "shame",
+        "deck": "Darwin — The Expression of the Emotions"
       }
     }
   ],

@@ -1,0 +1,157 @@
+{
+  "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
+  "description": "Classical Chinese medical theory, systematized in texts descending from the Huangdi Neijing (Yellow Emperor's Inner Classic, compiled roughly 2nd century BCE – 2nd century CE) and elaborated through later medical writing, names qīqíng — seven emotions — and links five of them to the five zàng (yin viscera): the heart governs joy (xǐ), the liver governs anger (nù), the spleen governs pensiveness/overthinking (sī), the lung governs grief (bēi, often paired with yōu, worry), and the kidney governs fear (kǒng). This is not a psychology in the Western sense grafted onto medicine; it is medicine — emotion is one of several categories of pathogenic factor (alongside diet, climate, and overexertion) capable of injuring qì circulation and, in excess or over time, the organ each is paired with. The word this school translates loosely as \"emotion,\" qíng (情), has a semantic range wider than the English word: across Chinese philosophical and medical usage qíng can mean felt emotion, but also disposition, circumstance, the true state of a thing, or human feeling in general — treating qíng as a one-to-one synonym for \"emotion\" narrows a term that classical sources use more broadly.",
+  "grammar_type": "custom",
+  "tags": ["qing", "chinese-medicine", "five-viscera", "huangdi-neijing", "seven-emotions"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Five of the seven qiqing have items, matching the classical five-viscera correspondence (xǐ, nù, sī, bēi, kǒng); jīng (fright/shock, distinguished from kǒng in the full seven-emotion list) and the yōu/bēi distinction (worry versus grief, sometimes counted separately) are only noted, not given their own items. The Five Phases (wǔxíng) generative and controlling cycles that relate the five organ-emotion pairs to each other are not worked through. Later medical elaborations (e.g. Jin-Yuan dynasty physicians on emotion-induced disease) are not represented.",
+  "_art_direction": {
+    "period_place": "Classical and imperial China — the Han dynasty compilation of the Huangdi Neijing through later dynastic medical scholarship. Classical Chinese medical illustration (organ diagrams, meridian charts) and literati scholarly painting of the same eras are the natural visual register; avoid generic \"Chinese-style\" decoration disconnected from an actual medical or scholarly source.",
+    "candidates": [
+      {
+        "name": "Wellcome Collection",
+        "url": "https://wellcomecollection.org/",
+        "note": "Substantial holdings of historical Chinese medical manuscripts and printed woodblock illustrations, many CC BY; searchable for meridian and organ diagrams specifically."
+      },
+      {
+        "name": "U.S. National Library of Medicine — Digital Collections",
+        "url": "https://collections.nlm.nih.gov/",
+        "note": "Holds historical East Asian medical texts and illustrations as part of its history-of-medicine collection; a US federal collection, largely public domain."
+      },
+      {
+        "name": "Library of Congress — Chinese Rare Book Collection",
+        "url": "https://www.loc.gov/collections/chinese-rare-books/",
+        "note": "Digitized classical Chinese texts including medical and philosophical works; check each item's rights statement, but the collection skews heavily public-domain given its historical scope."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Huangdi Neijing and the classical Chinese medical tradition",
+        "role": "source text",
+        "note": "Structural basis: the qiqing (seven emotions) framework and the five-viscera emotion correspondences as systematized in the Huangdi Neijing (compiled roughly 2nd c. BCE – 2nd c. CE) and its later commentarial and clinical tradition. The classical text is long out of copyright; no specific modern translation is quoted — every section here is original prose describing the tradition's categories."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "xi",
+      "name": "Xǐ (喜) — Joy, Governed by the Heart",
+      "category": "five-viscera-emotion",
+      "sort_order": 1,
+      "keywords": ["xi", "joy", "heart", "chinese-medicine"],
+      "sections": {
+        "Definition": "Xǐ is paired with the heart (xīn) in the classical five-viscera correspondence. In modest degree it is considered healthy — the heart's proper state is described as one of ease and open communication with the world — but the Huangdi Neijing holds that excessive or sudden joy can scatter and slow heart qì, producing symptoms the text describes in terms consistent with what modern readers might call palpitations, restlessness, or difficulty concentrating.",
+        "Wider than the English word": "Classifying xǐ simply as \"happiness\" undersells how the classical texts use it: it names a specific quality and direction of qì movement (an outward, expansive, scattering tendency) tied to a specific organ system, not a private felt mood in the modern psychological sense. The pathology is about qì dynamics, not about mood valence as such.",
+        "Research note": "The claim that a specific emotion in excess damages a specific organ is a theoretical framework internal to classical Chinese medicine, built on the Five Phases (wǔxíng) correspondence system (heart–fire, in this case) rather than on the anatomical or biochemical mechanisms modern cardiology would investigate."
+      },
+      "metadata": {
+        "emotion_key": "xi"
+      }
+    },
+    {
+      "id": "nu",
+      "name": "Nù (怒) — Anger, Governed by the Liver",
+      "category": "five-viscera-emotion",
+      "sort_order": 2,
+      "keywords": ["nu", "anger", "liver", "chinese-medicine"],
+      "sections": {
+        "Definition": "Nù is paired with the liver (gān), whose classical function is to ensure the smooth, unobstructed flow of qì throughout the body. Anger is held to cause qì to rise and rush upward and outward — the Neijing associates excessive nù with liver qì stagnation or liver-yang rising, described in symptom-language including headache, a flushed face, and irritability.",
+        "Wider than the English word": "As with xǐ, nù names a directional qì disturbance (an upward, forceful surge) associated with a specific organ system's proper function being disrupted, not a discrete inner feeling considered on its own. Frustration, resentment, and irritability are often discussed under the same liver-qì framework even where the English words would distinguish them.",
+        "Research note": "The liver–anger pairing is one of the most frequently cited five-viscera correspondences in both classical sources and contemporary Traditional Chinese Medicine clinical practice, though contemporary TCM's own systematization dates mainly to 20th-century standardization efforts building on, but not identical to, the classical texts."
+      },
+      "metadata": {
+        "emotion_key": "nu"
+      }
+    },
+    {
+      "id": "si",
+      "name": "Sī (思) — Pensiveness/Overthinking, Governed by the Spleen",
+      "category": "five-viscera-emotion",
+      "sort_order": 3,
+      "keywords": ["si", "pensiveness", "overthinking", "spleen", "chinese-medicine"],
+      "sections": {
+        "Definition": "Sī is paired with the spleen (pí), the organ classically responsible for transforming food into qì and blood. Sī names sustained mental concentration, worry, or rumination — Bharata's rasa school and this school share nothing structurally, but sī resembles neither pure \"thought\" nor pure \"emotion\" in the English sense: it sits at the seam between the two, which is exactly the kind of category the English word \"emotion\" does not have room for.",
+        "Why this key is transliterated, not \"worry\" or \"overthinking\"": "English forces a choice between a cognitive gloss (\"overthinking,\" \"rumination\") and an affective one (\"worry,\" \"anxiety\"), and either choice discards half of what sī names in the source texts: a single qì-disturbing pattern of dwelling on something, cognitively and affectively at once. Picking one English word would silently resolve an ambiguity the classical texts do not resolve.",
+        "Research note": "The Neijing holds that excessive sī knots spleen qì, impairing its transforming function — described in symptom-language including poor appetite, fatigue, and a bloated or heavy sensation, consistent with the digestive role assigned to the spleen in this system."
+      },
+      "metadata": {
+        "emotion_key": "si"
+      }
+    },
+    {
+      "id": "bei",
+      "name": "Bēi (悲) — Grief, Governed by the Lung",
+      "category": "five-viscera-emotion",
+      "sort_order": 4,
+      "keywords": ["bei", "grief", "sorrow", "lung", "chinese-medicine"],
+      "sections": {
+        "Definition": "Bēi is paired with the lung (fèi), classically responsible for governing qì and respiration. Grief and sorrow are held to disperse or deplete lung qì, and the Neijing associates prolonged bēi with shortness of breath, a sunken or withdrawn bearing, and general depletion of vital energy.",
+        "Wider than the English word": "Some classical sources pair the lung with yōu (worry, anxious brooding) rather than, or alongside, bēi (grief proper) — the seven-emotion list and the five-viscera list do not map onto each other item-for-item, and different texts group yōu and bēi together under the lung differently. This item follows the more common grief-lung pairing; the worry-lung variant is noted here rather than given its own entry.",
+        "Research note": "The lung's classical association with grief has an often-cited resonance with the Five Phases correspondence of metal (associated with autumn, decline, and letting go) to the lung — a symbolic-seasonal logic distinct from, and not reducible to, a modern respiratory-physiology account of sadness."
+      },
+      "metadata": {
+        "emotion_key": "bei"
+      }
+    },
+    {
+      "id": "kong",
+      "name": "Kǒng (恐) — Fear, Governed by the Kidney",
+      "category": "five-viscera-emotion",
+      "sort_order": 5,
+      "keywords": ["kong", "fear", "kidney", "chinese-medicine"],
+      "sections": {
+        "Definition": "Kǒng is paired with the kidney (shèn), classically the organ storing jīng (essence) and considered the root of the body's constitutional reserves. Kǒng is held to cause qì to sink and descend, and prolonged fear is associated in the Neijing with depletion of kidney essence — described in symptom-language including weakness in the low back and knees, and in more severe classical descriptions, loss of bladder control under acute fright.",
+        "Wider than the English word": "The classical texts distinguish kǒng (a more settled, dwelling fear or apprehension) from jīng (a sudden fright or shock, sometimes counted as a separate seventh emotion, sometimes folded into kǒng depending on the source) — a distinction of duration and suddenness that plain English \"fear\" does not mark on its own.",
+        "Research note": "The kidney's role as the body's constitutional root makes fear's association with it medically significant within the system: kidney depletion is treated as a serious, slow-to-recover condition, so chronic kǒng is regarded as a comparatively grave pattern rather than a passing state."
+      },
+      "metadata": {
+        "emotion_key": "kong"
+      }
+    },
+    {
+      "id": "group-five-viscera-emotions",
+      "name": "The Five-Viscera Emotion Correspondences",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["xi", "nu", "si", "bei", "kong"],
+      "sections": {
+        "Definition": "The core classical pairing of five emotions to the five yin viscera: heart–joy, liver–anger, spleen–pensiveness, lung–grief, kidney–fear. This is the most stable and most frequently cited part of the qiqing framework, forming the backbone of emotion-as-pathogenic-factor theory in classical and later Chinese medicine."
+      },
+      "keywords": ["five viscera", "wuzhi", "chinese-medicine"],
+      "metadata": {}
+    },
+    {
+      "id": "chinese-qing-root",
+      "name": "Qíng and the Seven Emotions",
+      "category": "root",
+      "level": 3,
+      "sort_order": 7,
+      "composite_of": ["group-five-viscera-emotions"],
+      "sections": {
+        "Definition": "Classical Chinese medicine treats qíng (loosely, emotion, though the word's own range runs wider — disposition, circumstance, felt truth of a situation) as one of the recognized categories of pathogenic factor, alongside external climatic influences and internal factors like diet and overexertion. The qiqing (seven emotions — commonly joy, anger, worry, pensiveness, grief, fear, and fright) are held, in excess, duration, or suddenness beyond what a person can adapt to, to disturb the qì of a specific paired organ: heart–joy, liver–anger, spleen–pensiveness, lung–grief (or worry), kidney–fear.",
+        "Qíng is wider than \"emotion\"": "This point is worth stating plainly rather than assuming it: qíng is not simply the Chinese word for the English concept \"emotion.\" Depending on context in classical and later Chinese usage, qíng can denote felt emotion, but also temperament, circumstance, or the genuine state of affairs (as in the compound qíngkuàng, situation). Treating qíng and \"emotion\" as interchangeable imports an English category boundary the source language does not draw the same way — which is exactly why this school keys its items to pinyin terms rather than to single English glosses.",
+        "Research note": "The five-viscera correspondence is a theoretical framework internal to classical Chinese medicine's Five Phases (wǔxíng) cosmology, not an empirically derived finding in the biomedical sense — its authority within the tradition rests on textual transmission, clinical use over roughly two millennia, and continued application in contemporary Traditional Chinese Medicine (whose 20th-century standardized form draws on, but is not identical to, the classical sources cited here).",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim the classical texts make.* This is one of the clearest cases in the collection where a non-Western framework already resists the modern Western assumption that emotion words name a small set of universal, discrete inner states with fixed physiological signatures — qíng's semantic breadth and the qiqing's embeddedness inside a broader medical cosmology (organs, seasons, the Five Phases) show a genuinely different way of carving up the same general territory, not a less-developed version of a basic-emotion model."
+      },
+      "keywords": ["qing", "qiqing", "wuzang", "chinese medicine", "five phases"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "The five-viscera emotion correspondences are a theoretical framework internal to classical Chinese medicine's Five Phases cosmology, transmitted and elaborated over roughly two millennia of textual and clinical tradition. They are not supported by, and do not claim to be supported by, controlled biomedical evidence in the modern sense; their standing here is as a historically significant and still clinically active framework, not as an independently replicated empirical finding."
+      }
+    }
+  ]
+}

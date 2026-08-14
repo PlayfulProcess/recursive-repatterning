@@ -1,0 +1,170 @@
+{
+  "name": "Darwin — The Expression of the Emotions",
+  "description": "Charles Darwin's The Expression of the Emotions in Man and Animals (1872) argues that human emotional expressions are not arbitrary or divinely designed signals but evolved, largely involuntary residues of once-functional behavior, continuous with expressions in other animals. Darwin builds the case on three explanatory principles — serviceable associated habits (an expression that once served a direct purpose, like baring teeth to bite, persists as a habit even when the purpose no longer applies), antithesis (an opposite emotional state produces a bodily posture that is the physical opposite of the first, even where that opposite posture serves no independent purpose of its own), and the direct action of the nervous system (some expressions, like trembling in fear, are simply what an overloaded nervous system does, with no communicative function at all) — and on evidence he gathered himself: photographs (making this the first psychology text illustrated photographically), direct observation of infants, the insane, and animals, and a questionnaire he circulated to missionaries, colonial officials, and travelers across multiple continents asking whether specific expressions appeared the same in the populations they knew. The book is in the public domain.",
+  "grammar_type": "custom",
+  "tags": ["darwin", "1872", "public-domain", "evolution", "expression"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Five of Darwin's many discussed expressions have items (grief, fear, anger, joy/laughter, shame/blushing); his extensive chapters on infant expression, the expression of the insane (drawn from asylum photography, itself an ethically fraught 19th-century source this skeleton does not interrogate), and cross-species comparison (dogs, cats, primates) are not represented. The book's own 1872 illustrative photographs are not reproduced here even though they are public domain — see _art_direction for where to find them rather than re-hosting them from this skeleton.",
+  "_art_direction": {
+    "period_place": "Darwin's own 1872 first edition is itself the primary visual source: it was the first work of psychology illustrated with photographs, commissioned specifically to document facial expression (including the controversial Duchenne de Boulogne electrical-stimulation plates Darwin licensed for reuse).",
+    "candidates": [
+      {
+        "name": "Darwin Online",
+        "url": "https://darwin-online.org.uk/",
+        "note": "Full scanned text and plates of the 1872 first edition, maintained as a scholarly resource; public domain, with the original photographic plates viewable page by page."
+      },
+      {
+        "name": "Wellcome Collection",
+        "url": "https://wellcomecollection.org/",
+        "note": "Holds a digitized copy of the 1872 first edition and related Duchenne de Boulogne photographic material Darwin drew on; CC BY licensing on most digitized items."
+      },
+      {
+        "name": "Internet Archive",
+        "url": "https://archive.org/search?query=expression+of+the+emotions+darwin",
+        "note": "Multiple public-domain scans of period editions, useful as a fallback if a specific plate is missing from the other two sources."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Charles Darwin",
+        "role": "source text",
+        "note": "Structural basis: The Expression of the Emotions in Man and Animals (John Murray, 1872), public domain. This grammar paraphrases Darwin's arguments and observations in original prose rather than quoting the 1872 text directly, for consistency with the rest of this collection, even though direct quotation would be legally permissible."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "grief",
+      "name": "Grief",
+      "category": "darwin-expression",
+      "sort_order": 1,
+      "keywords": ["grief", "darwin", "weeping"],
+      "sections": {
+        "Definition": "Darwin describes grief's characteristic muscular signature in detail: the contraction of the corrugator muscle drawing the eyebrows together and slightly upward into an oblique shape he calls the \"grief muscle,\" often accompanied by a downturned mouth and, in acute grief, weeping. He treats infant crying as the developmentally earliest form and argues the adult oblique-eyebrow pattern derives from the same underlying muscular action, tempered by the acquired habit of restraining full infant-style crying.",
+        "The explanatory principle at work": "Darwin attributes weeping partly to the direct action of the nervous system — violent, prolonged screaming in infants engorges blood vessels around the eyes, and reflex contraction of the surrounding muscles to protect them is, on his account, the origin of tear secretion during distress, later retained as an involuntary accompaniment to grief even without the original screaming.",
+        "Research note": "Darwin's chapter draws on his own observation of his infant children (recorded in a private notebook years before this book, later incorporated into it), an early and unusually longitudinal source of developmental data for its period."
+      },
+      "metadata": {
+        "emotion_key": "grief"
+      }
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "category": "darwin-expression",
+      "sort_order": 2,
+      "keywords": ["fear", "darwin", "trembling"],
+      "sections": {
+        "Definition": "Darwin describes fear's expression as widened eyes with visible white above the iris, raised eyebrows, a pale face (from blood withdrawing to the internal organs), trembling, erect hair (piloerection), and a general muscular readiness that can tip into either flight or immobility.",
+        "The explanatory principle at work": "Fear's trembling is Darwin's central example of the direct-action-of-the-nervous-system principle: he argues trembling serves no purpose in itself and is simply what happens when strong nervous excitement disrupts the ordinary, coordinated control of the muscles — a byproduct, not a signal. Piloerection, by contrast, he explains through continuity with other animals, where raised hair or feathers make a frightened or threatened animal look larger to a predator or rival.",
+        "Research note": "Darwin's cross-cultural questionnaire (circulated to missionaries and colonial officials) specifically asked whether fear's facial signs — widened eyes, pallor — were recognized as such among populations the respondents worked with, an early and methodologically crude precursor to the controlled cross-cultural studies Paul Ekman would run roughly a century later (see the ekman-basic school in this collection)."
+      },
+      "metadata": {
+        "emotion_key": "fear"
+      }
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "category": "darwin-expression",
+      "sort_order": 3,
+      "keywords": ["anger", "darwin", "teeth-baring"],
+      "sections": {
+        "Definition": "Darwin describes anger's expression as a flushed or reddened face, dilated nostrils, a firmly closed or square-shaped mouth, a direct and fixed stare, and — in its more intense forms — bared teeth and a lowered, forward head posture he treats as directly continuous with an animal's threat display before biting or charging.",
+        "The explanatory principle at work": "Anger's teeth-baring is Darwin's flagship example of a serviceable associated habit: teeth-baring once served the direct purpose of preparing to bite an opponent; humans retain the habit — an involuntary curl of the upper lip, a partial baring of the canine — as a vestigial residue of that ancestral function, even in contexts (a heated argument) where biting is not remotely in question.",
+        "Research note": "Darwin explicitly draws the comparison to snarling dogs and other animals baring teeth before attack, using it as one of his central pieces of evidence for continuity of expression across species rather than a special, separately-evolved human signal."
+      },
+      "metadata": {
+        "emotion_key": "anger"
+      }
+    },
+    {
+      "id": "joy",
+      "name": "Joy (Laughter)",
+      "category": "darwin-expression",
+      "sort_order": 4,
+      "keywords": ["joy", "laughter", "darwin"],
+      "sections": {
+        "Definition": "Darwin treats joy's principal expression as laughter and smiling: contraction of the muscles around the eyes and mouth (he specifically notes the involvement of the muscle that produces crow's-feet wrinkling around the eyes in a genuine smile — an observation later formalized as part of the Duchenne marker in 20th-century facial-expression research), combined with the characteristic rhythmic vocalization of laughter itself.",
+        "The explanatory principle at work": "Darwin applies antithesis here directly: he holds that joy's characteristically open, upward, expansive bodily posture is, in part, simply the physical opposite of grief and low spirits' contracted, downward posture — not because the open posture itself serves any function, but because a state of mind opposite to a purposeful one tends to produce movements that are its physical opposite.",
+        "Research note": "Darwin's observation about eye-muscle involvement in genuine versus posed smiling anticipates, without naming, what 20th-century researcher Guillaume Duchenne de Boulogne's electrical-stimulation photographs (which Darwin himself reproduced with permission in this book) and later facial-coding systems would formalize as the distinction between a \"Duchenne smile\" and a merely social one."
+      },
+      "metadata": {
+        "emotion_key": "joy"
+      }
+    },
+    {
+      "id": "shame",
+      "name": "Shame (Blushing)",
+      "category": "darwin-expression",
+      "sort_order": 5,
+      "keywords": ["shame", "blushing", "darwin"],
+      "sections": {
+        "Definition": "Darwin devotes his final substantive chapter to blushing, which he calls \"the most peculiar and the most human of all expressions.\" He describes it as an involuntary reddening of the face, ears, and neck caused by dilation of the facial capillaries, typically triggered by the awareness — real or imagined — of being noticed and judged by others, rather than by shame or embarrassment in private with no observer present.",
+        "Why Darwin treats it as uniquely human": "Unlike anger's teeth-baring or fear's piloerection, Darwin argues blushing has no clear precursor in other animals and no obvious prior serviceable function of its own — he treats it as arising indirectly, through the attention a person pays to their own face when self-conscious, which he proposes causes local vasodilation there specifically rather than elsewhere on the body. He treats this as one of the harder cases for his own three-principle framework to explain cleanly, and says so.",
+        "Research note": "Darwin's own questionnaire respondents reported blushing (or its absence, or local variants like darkening rather than reddening in populations with more melanin) across a wide range of cultures he had access to via missionary and colonial networks — evidence Darwin read as supporting a universal, evolved mechanism rather than a culturally taught social display, though the questionnaire method itself (untrained observers, leading questions, no standardized recording) falls well short of later controlled cross-cultural methodology."
+      },
+      "metadata": {
+        "emotion_key": "shame"
+      }
+    },
+    {
+      "id": "group-cross-species-continuity",
+      "name": "Expressions Darwin Traces Across Species",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["grief", "fear", "anger", "joy"],
+      "sections": {
+        "Definition": "Four expressions Darwin argues have clear analogues in other animals — teeth-baring in anger, piloerection in fear, muscular contraction in grief, and antithetical postural opening in joy — forming the core of his continuity-of-species argument."
+      },
+      "keywords": ["darwin", "continuity", "animal expression"],
+      "metadata": {}
+    },
+    {
+      "id": "group-uniquely-human",
+      "name": "The Uniquely Human Case",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["shame"],
+      "sections": {
+        "Definition": "Blushing is the one expression Darwin treats as lacking a clear animal precursor and a clear prior function — the hardest case for his own three-principle framework, which he presents candidly as such rather than forcing a tidy explanation."
+      },
+      "keywords": ["darwin", "blushing", "uniquely human"],
+      "metadata": {}
+    },
+    {
+      "id": "darwin-expression-root",
+      "name": "The Expression of the Emotions in Man and Animals",
+      "category": "root",
+      "level": 3,
+      "sort_order": 8,
+      "composite_of": ["group-cross-species-continuity", "group-uniquely-human"],
+      "sections": {
+        "Definition": "Darwin's 1872 book argues that human emotional expressions are evolved, largely involuntary, and continuous with expression in other animals, explained through three principles: serviceable associated habits (vestigial residues of once-functional acts), antithesis (opposite states producing physically opposite postures), and the direct action of the nervous system (expressions with no communicative function, simply the byproduct of nervous overload). He supports the argument with photography, direct observation of infants and the institutionalized, and a cross-cultural questionnaire circulated through missionary and colonial networks.",
+        "An early empirical program, not a philosophical argument": "Unlike the historical-philosophical schools elsewhere in this collection (Aristotle, the Stoics, Descartes, Aquinas), Darwin's book is a work of 19th-century natural history and comparative observation — it collects evidence, however methodologically crude by later standards, rather than reasoning from first principles about the soul or right judgment.",
+        "Research note": "Darwin's cross-cultural questionnaire is the direct ancestor of the method Paul Ekman would later formalize with controlled, forced-choice photograph-matching tasks starting in the 1960s (see ekman-basic in this collection) — and the same open question Darwin's crude method could not settle (are these expressions truly universal, or read as familiar because the observers already expected to see them) is close to the center of the modern dispute over Ekman's own, more rigorous claims.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim Darwin made.* Darwin's continuity argument (that many expressions are inherited, involuntary residues rather than learned signals) is not the same claim as later basic-emotion theory's stronger claim (that a small set of discrete emotion categories each has one fixed, universally recognizable expression) — Darwin himself notes exceptions, individual variation, and cases his framework explains only partially, of which blushing is his own clearest example. A constructionist reading treats that caution as worth preserving: evolved and involuntary is not the same claim as universal and discrete."
+      },
+      "keywords": ["darwin", "1872", "expression of the emotions", "public domain"],
+      "metadata": {
+        "evidence_tier": "observational-only",
+        "evidence_note": "Darwin's evidence — his own direct observation of infants and the institutionalized, comparative observation of animal behavior, and a cross-cultural questionnaire circulated through missionary and colonial contacts — is genuinely empirical for its period but methodologically pre-experimental: no controlled conditions, no standardized stimuli, untrained lay observers, and (in the questionnaire) leading questions asked of colonial-era informants under a power relationship this school does not sanitize. It is a historically foundational observational record, not evidence meeting modern experimental or cross-cultural methodological standards, and it should not be read as settling the same universality questions that later, more rigorous studies (and their critics) continue to dispute."
+      }
+    }
+  ]
+}

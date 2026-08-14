@@ -1,0 +1,185 @@
+{
+  "name": "Basic-Emotion / Affect-Programme Theory",
+  "description": "The basic-emotion model, developed from the 1960s onward and associated chiefly with Paul Ekman's cross-cultural research programme (though Carroll Izard, Silvan Tomkins, and others contributed independently), holds that a small set of discrete emotions — most commonly anger, disgust, fear, joy, sadness, and surprise, with contempt sometimes added later — are each driven by an evolved \"affect programme\": a fast, largely involuntary, coordinated pattern of facial muscle movement, physiology, and action tendency, triggered by a specific class of situation and recognizable across cultures. This school is titled by the tradition rather than by a living researcher's name (Paul Ekman is living as of this writing); the model is also strongly associated with the Facial Action Coding System (FACS), a detailed anatomical scheme for describing facial muscle movement that Ekman and Wallace Friesen developed to measure expressions objectively.",
+  "grammar_type": "custom",
+  "tags": ["basic-emotion", "affect-programme", "facs", "ekman", "cross-cultural"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. All six of the most commonly cited basic emotions have items; contempt (added to some later versions of the list, and itself contested as a genuinely separate seventh category) is discussed only in the root item's Research note, not given its own entry. The Facial Action Coding System's specific action-unit vocabulary is referenced but not built out item by item. The live empirical dispute over universality is described in the root item's evidence_note deliberately without a verdict — see that field before assuming this school endorses either side.",
+  "_art_direction": {
+    "period_place": "This is the collection's hardest case for the \"imagery contemporary to its own author and environment\" principle. Ekman's own environment is mid-to-late-20th-century American experimental psychology, and the tradition's own illustrative material — the specific research photographs used in the cross-cultural judgment studies, and most FACS training photography — is copyrighted and not usable here. There is no comparable public-domain visual culture the way there is Attic pottery for Aristotle or Ragamala painting for rasa.",
+    "candidates": [
+      {
+        "name": "DOCUMERICA (U.S. National Archives)",
+        "url": "https://www.archives.gov/research/environment/documerica",
+        "note": "A U.S. federal government photography project (EPA-commissioned, early-to-mid 1970s) documenting American life; public domain as a US government work. Not emotion-research photography, but genuinely contemporary to the field's founding decade and a legitimate period-documentary substitute where a generic photograph of the era is wanted rather than a specific research image."
+      },
+      {
+        "name": "Library of Congress — Prints & Photographs Online Catalog",
+        "url": "https://www.loc.gov/pictures/",
+        "note": "Filterable by date and by \"no known restrictions\"; useful for period (1960s–1990s) documentary and portrait photography from the same decades as the research programme, again as general period texture rather than as illustrations of the theory's specific claims."
+      },
+      {
+        "name": "Wikimedia Commons — public-domain and CC0 20th-century photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Searchable aggregator; useful as a last resort, but confirm each individual image's license rather than assuming category-wide clearance."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Paul Ekman and the basic-emotion / affect-programme research tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the discrete basic-emotion list and its cross-cultural evidence base, developed from the 1960s onward. Ekman's specific published texts and the Facial Action Coding System manual are separately copyrighted; no text from them is quoted or reproduced here — every section is original prose describing the model and the published debate around it, citing published sources by name and year rather than quoting them."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "anger",
+      "name": "Anger",
+      "category": "basic-emotion",
+      "sort_order": 1,
+      "keywords": ["anger", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "In the basic-emotion model, anger is triggered by an appraisal of obstruction, unfair treatment, or a goal being blocked, and is claimed to produce a specific coordinated affect programme: lowered and drawn-together brows, a hard stare, tightened lips, and a physiological shift preparing the body for confrontation.",
+        "The claimed signature": "FACS work associates anger primarily with Action Units 4 (brow lowerer), 5 (upper lid raiser), 7 (lid tightener), and 23 (lip tightener), used together as the claimed marker researchers look for when coding anger from video or photographs.",
+        "Research note": "Cross-cultural recognition studies (Ekman & Friesen, 1971, among the Fore of Papua New Guinea) reported anger among the emotions recognized above chance across cultures using forced-choice tasks — a methodology later criticized on grounds discussed in this item's root."
+      },
+      "metadata": {
+        "emotion_key": "anger"
+      }
+    },
+    {
+      "id": "disgust",
+      "name": "Disgust",
+      "category": "basic-emotion",
+      "sort_order": 2,
+      "keywords": ["disgust", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "Disgust is triggered by an appraisal of contamination or offensiveness — originally, on this model, food-rejection, later extended to moral and social violations — and is claimed to produce a nose-wrinkle, raised upper lip, and a characteristic gape or grimace.",
+        "The claimed signature": "FACS work associates disgust primarily with Action Units 9 (nose wrinkler) and 10 (upper lip raiser), sometimes with 16 (lower lip depressor) added for more intense expressions.",
+        "Research note": "Disgust is among the emotions basic-emotion researchers have argued extended from a literal, ingestion-linked origin (rejecting a specific taste or smell) to abstract moral disgust — a claimed developmental and evolutionary continuity (see Rozin, Haidt, & McCauley's work on disgust's domains) that is itself a live area of ongoing research rather than settled fact."
+      },
+      "metadata": {
+        "emotion_key": "disgust"
+      }
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "category": "basic-emotion",
+      "sort_order": 3,
+      "keywords": ["fear", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "Fear is triggered by an appraisal of threat or danger, and is claimed to produce widened eyes, raised and drawn-together eyebrows, a horizontally stretched mouth, and physiological preparation for rapid escape or freezing.",
+        "The claimed signature": "FACS work associates fear primarily with Action Units 1+2 (inner and outer brow raiser), 4 (brow lowerer, often present alongside the raise, producing a distinctive combined shape), 5 (upper lid raiser), and 20 (lip stretcher).",
+        "Research note": "Fear's claimed expression overlaps partially with surprise's (both raise the brows and widen the eyes), which is part of why some forced-choice recognition studies report more confusion between fear and surprise than between more visually distinct pairs — a finding basic-emotion researchers and their critics read differently (see the root item's evidence_note)."
+      },
+      "metadata": {
+        "emotion_key": "fear"
+      }
+    },
+    {
+      "id": "joy",
+      "name": "Joy (Happiness)",
+      "category": "basic-emotion",
+      "sort_order": 4,
+      "keywords": ["joy", "happiness", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "Joy (often labeled \"happiness\" in the original research literature) is triggered by an appraisal of goal-attainment or a rewarding outcome, and is claimed to produce a smile — specifically, in its most genuine form, a \"Duchenne smile\" involving both the mouth-corner-raising muscle and the eye-orbit muscle together, distinguished from a merely social or posed smile that uses the mouth alone.",
+        "The claimed signature": "FACS work associates genuine joy with Action Units 6 (cheek raiser, involving the muscle around the eye) plus 12 (lip corner puller); a smile using AU12 without AU6 is treated in this literature as a weaker or non-felt marker.",
+        "Research note": "The Duchenne-smile distinction traces back to 19th-century researcher Guillaume Duchenne de Boulogne, whose electrical-stimulation photographs Darwin reproduced and discussed in 1872 (see the darwin-expression school in this collection) — Ekman's research programme formalized and named the distinction, but did not originate the underlying observation."
+      },
+      "metadata": {
+        "emotion_key": "joy"
+      }
+    },
+    {
+      "id": "sadness",
+      "name": "Sadness",
+      "category": "basic-emotion",
+      "sort_order": 5,
+      "keywords": ["sadness", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "Sadness is triggered by an appraisal of loss or a goal that cannot be recovered, and is claimed to produce drawn-together and raised inner eyebrows, a downturned mouth, and, in some formulations, reduced overall muscular tone or slumped posture.",
+        "The claimed signature": "FACS work associates sadness primarily with Action Units 1 (inner brow raiser), 4 (brow lowerer, combined with 1 to produce an oblique inner-brow shape close to Darwin's own 1872 description of the \"grief muscle\"), and 15 (lip corner depressor).",
+        "Research note": "The oblique-eyebrow shape basic-emotion researchers describe for sadness is close to the same muscular pattern Darwin described in 1872 as characteristic of grief (see darwin-expression), one of the clearer direct through-lines between the two schools' specific claims."
+      },
+      "metadata": {
+        "emotion_key": "sadness"
+      }
+    },
+    {
+      "id": "surprise",
+      "name": "Surprise",
+      "category": "basic-emotion",
+      "sort_order": 6,
+      "keywords": ["surprise", "ekman", "affect programme"],
+      "sections": {
+        "Definition": "Surprise is triggered by an unexpected event, and is claimed to produce raised eyebrows, widened eyes, and a dropped jaw — a brief, fast-onset expression that basic-emotion researchers treat as the shortest-duration of the set, typically lasting well under a second before resolving into whatever emotion the surprising event turns out to warrant.",
+        "The claimed signature": "FACS work associates surprise primarily with Action Units 1+2 (inner and outer brow raiser, without the brow-lowering 4 that would shift it toward fear), 5 (upper lid raiser), and 26 (jaw drop).",
+        "Research note": "Because surprise is valence-neutral on its own (an unexpected event can turn out good or bad), some researchers within the basic-emotion tradition itself have questioned whether it belongs on the same list as the other five, which are each tied to a specific valenced appraisal — a question raised inside the tradition, not only by outside critics."
+      },
+      "metadata": {
+        "emotion_key": "surprise"
+      }
+    },
+    {
+      "id": "group-negative-basic-emotions",
+      "name": "The Negatively-Valenced Basic Emotions",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["anger", "disgust", "fear", "sadness"],
+      "sections": {
+        "Definition": "Four of the six most commonly cited basic emotions, each tied to a negatively-valenced appraisal (obstruction, contamination, threat, loss) and each claimed to have a distinct facial affect-programme signature distinguishing it from the other three."
+      },
+      "keywords": ["ekman", "basic emotion", "negative affect"],
+      "metadata": {}
+    },
+    {
+      "id": "group-positive-and-orienting",
+      "name": "Joy and Surprise",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["joy", "surprise"],
+      "sections": {
+        "Definition": "The two most commonly cited basic emotions that are not tied to a negative appraisal — joy (positively valenced) and surprise (valence-neutral, resolving into another emotion depending on what the unexpected event turns out to mean)."
+      },
+      "keywords": ["ekman", "basic emotion", "joy", "surprise"],
+      "metadata": {}
+    },
+    {
+      "id": "ekman-basic-root",
+      "name": "Basic-Emotion Theory — the Six-Emotion Model",
+      "category": "root",
+      "level": 3,
+      "sort_order": 9,
+      "composite_of": ["group-negative-basic-emotions", "group-positive-and-orienting"],
+      "sections": {
+        "Definition": "The basic-emotion / affect-programme model, developed from the 1960s onward and associated chiefly with Paul Ekman's research programme, holds that a small set of discrete emotions — most commonly anger, disgust, fear, joy, sadness, and surprise — are each produced by a fast, largely involuntary, evolved affect programme with a specific, cross-culturally recognizable facial signature. The model is closely tied to the Facial Action Coding System (FACS, Ekman & Friesen), a detailed anatomical vocabulary for describing facial muscle movement independent of any particular emotion theory.",
+        "Research note — the case for": "The strongest evidence cited for the model is a series of cross-cultural recognition studies beginning in the late 1960s, most famously Ekman and Friesen's (1971) work with the Fore, a group in Papua New Guinea with minimal prior contact with outside media, who were reported to match photographs of Western facial expressions to emotion-story descriptions at rates well above chance using a forced-choice task.",
+        "Research note — the case against": "Critics raise two connected objections. First, a methodological one: James Russell (1994) argued that forced-choice recognition tasks — where a participant must pick from a short provided list of emotion words — inflate agreement by supplying the very categories the task is meant to test for; when Maria Gendron, Lisa Feldman Barrett, and colleagues (2014) tested the Himba, a group in Namibia with minimal exposure to Western media, using free-labeling instead of forced choice, cross-cultural agreement on which facial configuration matched which emotion dropped substantially. Second, an evidentiary one: Barrett, Adolphs, Marsella, Martinez, and Pollak's 2019 meta-analysis (Psychological Science in the Public Interest) reviewed the wider body of evidence on facial expression and concluded that reliable, specific, one-to-one correspondence between an emotion category and a facial configuration has not been established — people reliably categorized as angry, for instance, do not reliably show the same facial configuration each time.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either side of the dispute makes about itself.* This library's substrate (see the constructed-emotion school) sits on the critical side of this specific dispute, and it would misrepresent that position to hide it here. What this item does not do is declare the basic-emotion model false or discredited outright — defenders of the model (including Ekman himself, and later researchers) have raised methodological responses to the Russell and Barrett-camp critiques, and the empirical argument continues in the current literature rather than having been settled by either side. Readers should treat both the case-for and case-against sections above as live, contested claims, not as a resolved verdict."
+      },
+      "keywords": ["ekman", "basic emotion", "affect programme", "facs", "universality debate"],
+      "metadata": {
+        "evidence_tier": "observational-only",
+        "evidence_note": "The model's central empirical claim — cross-cultural universality of a small set of discrete facial expressions — rests on cross-cultural judgment studies that are genuinely observational and correlational rather than settled experimental fact: the original forced-choice studies (Ekman & Friesen 1971 and others) reported strong cross-cultural recognition; later studies using free-labeling methodology with populations having less media exposure (Gendron, Barrett, et al. 2014, the Himba) reported substantially weaker agreement; and a 2019 meta-analysis (Barrett, Adolphs, Marsella, Martinez, & Pollak) found no reliable one-to-one facial signature for discrete emotion categories across the wider literature. This school does not adjudicate that dispute — evidence_tier reflects that the underlying studies are real and published, not that the universality claim they are cited for has been independently confirmed."
+      }
+    }
+  ]
+}

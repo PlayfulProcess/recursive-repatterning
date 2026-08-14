@@ -1,0 +1,190 @@
+{
+  "name": "Rasa — Bharata's Aesthetics of Performance",
+  "description": "The Nāṭyaśāstra, a Sanskrit treatise on dramaturgy attributed to Bharata Muni (compiled roughly between the 2nd century BCE and 2nd century CE), names eight rasas — śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta — and the philosopher-aesthetician Abhinavagupta added a ninth, śānta, in his 10th–11th century commentary. A rasa is not a feeling a character has, and not a feeling a spectator merely catches by contagion. It is an aesthetic event that arises between a well-executed performance (built from vibhāva, the determinants; anubhāva, the consequents; and vyabhicāribhāva, the transitory states) and a qualified spectator's own aesthetic relish (āsvāda) of the sthāyibhāva, the stable emotional theme, that the performance has made tastable. Calling rasa \"the Indian emotion list\" collapses that relational, performance-dependent structure into the same fixed-inner-state model this whole library exists to question — rasa is closer to a claim about what good theatre does than to a claim about what feelings exist inside a body.",
+  "grammar_type": "custom",
+  "tags": ["rasa", "aesthetics", "natyashastra", "bharata", "abhinavagupta", "sanskrit-drama"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Five of the eight Nāṭyaśāstra rasas have items (śṛṅgāra, hāsya, karuṇa, raudra, bhayānaka); vīra, bībhatsa, and adbhuta are not yet written. Abhinavagupta's śānta is included as required, but the wider philosophical debate over whether śānta can count as a rasa at all (Abhinavagupta says yes, against objectors who held rasa requires an actively displayed sthāyibhāva and śānta's sthāyibhāva, śama, is a cessation rather than a display) is only summarized, not argued through. No item yet covers the vibhāva/anubhāva/vyabhicāribhāva performance mechanics in their own right.",
+  "_art_direction": {
+    "period_place": "Classical and medieval India, spanning the Nāṭyaśāstra's own era (roughly 2nd c. BCE – 2nd c. CE) through Abhinavagupta's Kashmir (10th–11th c. CE) — but the richest surviving visual tradition built explicitly around named rasa/bhāva states is later: Ragamala painting (roughly 15th–19th c.), which pairs musical modes with painted scenes keyed to a mood. Not contemporary with Bharata himself, but the closest visual culture that treats rasa-adjacent aesthetic categories as its organizing principle.",
+    "candidates": [
+      {
+        "name": "The Metropolitan Museum of Art — Ragamala paintings, open access",
+        "url": "https://www.metmuseum.org/art/collection/search?q=ragamala",
+        "note": "CC0 for public-domain works; searchable by raga name, many with mood/season annotations."
+      },
+      {
+        "name": "British Library — Ragamala manuscripts",
+        "url": "https://www.bl.uk/subjects/ragamala-paintings",
+        "note": "Curated overview plus links into the Library's digitized manuscript holdings; check individual image rights."
+      },
+      {
+        "name": "Cleveland Museum of Art — Open Access collection",
+        "url": "https://www.clevelandart.org/art/collection/search?f%5B0%5D=general_access%3AOpen+Access",
+        "note": "CC0-licensed South Asian painting collection, including Ragamala and Rasikapriya-illustrated works with strong mood-specificity."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Bharata Muni",
+        "role": "source text",
+        "note": "Structural basis: the Nāṭyaśāstra's Chapter VI, on rasa, and its eight named rasas built from eight sthāyibhāvas. The Sanskrit text and its standard translations are long out of copyright; no specific translation is quoted — every section here is original prose describing Bharata's categories."
+      },
+      {
+        "name": "Abhinavagupta",
+        "role": "source commentary",
+        "note": "Structural basis for śānta: the ninth rasa, argued for in Abhinavagupta's Abhinavabhāratī commentary (c. 10th–11th century) on the Nāṭyaśāstra. No specific translation is quoted; the description is original."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "shringara",
+      "name": "Śṛṅgāra — the Erotic/Romantic Rasa",
+      "category": "natyashastra-rasa",
+      "sort_order": 1,
+      "keywords": ["shringara", "love", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Śṛṅgāra is the rasa built from the sthāyibhāva rati (love, romantic attachment). Bharata treats it as arising when a performance's determinants — a beautiful setting, the presence of a beloved, appropriate ornament and gesture — combine with the audience's own capacity to relish that theme, tasted rather than merely witnessed.",
+        "An event, not a character's inner state": "Śṛṅgāra does not belong to the character on stage (who may be performing convincingly without personally feeling love in that moment) nor simply to the spectator (whose ordinary daily love for a spouse is not itself śṛṅgāra). It is what arises in the relish of a spectator competent to engage with a well-built performance of rati — a three-way relation among craft, convention, and a trained aesthetic response, not a two-way transfer of feeling from actor to viewer.",
+        "Research note": "Bharata and later theorists (notably Abhinavagupta) subdivide śṛṅgāra into sambhoga (union) and vipralambha (separation) — the rasa of love-in-fulfillment and love-in-longing are treated as two registers of the same rasa, not opposites."
+      },
+      "metadata": {
+        "emotion_key": "shringara"
+      }
+    },
+    {
+      "id": "hasya",
+      "name": "Hāsya — the Comic Rasa",
+      "category": "natyashastra-rasa",
+      "sort_order": 2,
+      "keywords": ["hasya", "comedy", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Hāsya is the rasa built from the sthāyibhāva hāsa (mirth). The Nāṭyaśāstra treats laughter itself as graded — Bharata catalogues distinct types of laughter by intensity and by whose laughter it is (a refined character's smile differs, dramaturgically, from a low or vulgar character's laugh), and hāsya as a rasa is the audience's relish of that graded comic display, not the display alone.",
+        "An event, not a character's inner state": "A performance can present hāsa (a character being visibly amused) without producing hāsya in the audience, if the comic timing or convention fails — the rasa is contingent on the craft succeeding, not automatic from the content being nominally funny.",
+        "Research note": "Bharata pairs hāsya with śṛṅgāra causally in his own account — he holds that hāsya is in fact produced from śṛṅgāra (comedy as a kind of derivative or parody of the romantic), one of several explicit derivation relationships among the eight that this skeleton does not fully trace."
+      },
+      "metadata": {
+        "emotion_key": "hasya"
+      }
+    },
+    {
+      "id": "karuna",
+      "name": "Karuṇa — the Rasa of Pathos/Compassion",
+      "category": "natyashastra-rasa",
+      "sort_order": 3,
+      "keywords": ["karuna", "grief", "compassion", "rasa"],
+      "sections": {
+        "Definition": "Karuṇa is the rasa built from the sthāyibhāva śoka (grief, sorrow) — typically arising in performance from separation from loved ones, loss, curse, exile, or the destruction of what is cherished. It is the rasa most often invoked for tragic and elegiac performance across the Sanskrit dramatic tradition.",
+        "An event, not a character's inner state": "Karuṇa is the audience's aesthetic relish of well-performed śoka, not the raw distress a spectator would feel witnessing an actual death or loss. Classical commentary is explicit that rasa involves a kind of distance or generalization (sādhāraṇīkaraṇa) — the specific, personal edge of real grief is transmuted into a shareable aesthetic theme, which is part of why watching a tragedy can be pleasurable in a way that witnessing real grief is not.",
+        "Research note": "Bhāmaha and later theorists debate at length whether karuṇa's pleasure is genuine aesthetic pleasure or a paradox requiring separate explanation — a live question inside the tradition itself, not settled by Bharata's original text."
+      },
+      "metadata": {
+        "emotion_key": "karuna"
+      }
+    },
+    {
+      "id": "raudra",
+      "name": "Raudra — the Furious Rasa",
+      "category": "natyashastra-rasa",
+      "sort_order": 4,
+      "keywords": ["raudra", "anger", "fury", "rasa"],
+      "sections": {
+        "Definition": "Raudra is the rasa built from the sthāyibhāva krodha (anger), typically arising from confrontation, insult, betrayal, or battle — associated in the Nāṭyaśāstra with demonic and heroic characters (rākṣasas, and warrior figures in conflict) and with red as its governing color and Rudra as its presiding deity.",
+        "An event, not a character's inner state": "A performer displaying krodha through prescribed gesture, voice, and stance produces raudra in a spectator capable of relishing that display as craft — the rasa is not the actor's own anger (a trained performer is not actually enraged mid-performance) nor a contagious transfer of rage to the audience, but the aesthetic appreciation of anger skillfully rendered.",
+        "Research note": "Bharata links several rasa-pairs by claimed derivation; raudra is traditionally paired with vīra (the heroic rasa, not yet its own item in this skeleton) as sharing an active, high-energy register, in contrast to karuṇa's passive one."
+      },
+      "metadata": {
+        "emotion_key": "raudra"
+      }
+    },
+    {
+      "id": "bhayanaka",
+      "name": "Bhayānaka — the Fearful Rasa",
+      "category": "natyashastra-rasa",
+      "sort_order": 5,
+      "keywords": ["bhayanaka", "fear", "rasa", "natyashastra"],
+      "sections": {
+        "Definition": "Bhayānaka is the rasa built from the sthāyibhāva bhaya (fear), arising in performance from threatening sounds, sights of danger, or the depiction of terrifying beings and situations — a register the Nāṭyaśāstra pairs closely with bībhatsa (disgust) and raudra as its neighboring negative-register rasas.",
+        "An event, not a character's inner state": "As with the other rasas, bhayānaka names the audience's relish of a well-built fear-display, not the character's or the audience's own visceral terror — a distinction the tradition needs precisely because genuine terror is not, in itself, an aesthetic pleasure, while bhayānaka, tasted at the right remove, is treated as one.",
+        "Research note": "Bharata's account of bhayānaka's typical determinants (vibhāva) — the sight of frightful forms, the sound of screams, an empty or dark space — reads as a fairly literal stagecraft manual for producing dread, distinct from a psychological theory of what fear itself is."
+      },
+      "metadata": {
+        "emotion_key": "bhayanaka"
+      }
+    },
+    {
+      "id": "shanta",
+      "name": "Śānta — the Peaceful Rasa (Abhinavagupta's Ninth)",
+      "category": "abhinavagupta-addition",
+      "sort_order": 6,
+      "keywords": ["shanta", "peace", "abhinavagupta", "rasa"],
+      "sections": {
+        "Definition": "Śānta, built from the sthāyibhāva śama (tranquility, or in some formulations the disposition toward liberation), was argued for as a ninth rasa by the 10th–11th century Kashmiri philosopher-aesthetician Abhinavagupta, several centuries after Bharata's original eight. Abhinavagupta treats śānta as, in a sense, the ground state underlying the other eight — the settled awareness from which any of the eight active rasas can arise and to which they return.",
+        "A contested addition, argued rather than assumed": "Not everyone in the tradition accepted śānta as a rasa. Objectors held that a rasa requires an actively displayed sthāyibhāva — visible in a character's speech, gesture, and situation — while śama is precisely the absence or cessation of active emotional display, making it structurally unlike the other eight. Abhinavagupta's defense (developed at length in his Abhinavabhāratī commentary) is itself part of what makes śānta worth including here: it is a live philosophical argument inside the tradition, not a settled ninth entry Bharata himself endorsed.",
+        "Research note": "Abhinavagupta's broader philosophical commitments (he was also a major theorist of Kashmir Shaivism) inform his case for śānta — he connects aesthetic relish (rasāsvāda) to a state structurally similar to, though not identical with, spiritual realization (brahmāsvāda-sadṛśa, \"resembling the taste of the absolute\"), a controversial and much-discussed claim in later Sanskrit aesthetics."
+      },
+      "metadata": {
+        "emotion_key": "shanta"
+      }
+    },
+    {
+      "id": "group-natyashastra-five",
+      "name": "Five of the Nāṭyaśāstra's Eight Rasas",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["shringara", "hasya", "karuna", "raudra", "bhayanaka"],
+      "sections": {
+        "Definition": "Bharata's Nāṭyaśāstra names eight rasas built from eight sthāyibhāvas; this group holds the five written in this skeleton (śṛṅgāra, hāsya, karuṇa, raudra, bhayānaka). Vīra, bībhatsa, and adbhuta are named in the source text but not yet represented as items here."
+      },
+      "keywords": ["natyashastra", "rasa", "bharata"],
+      "metadata": {}
+    },
+    {
+      "id": "group-abhinavagupta-shanta",
+      "name": "Abhinavagupta's Contested Ninth",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["shanta"],
+      "sections": {
+        "Definition": "Śānta stands apart from Bharata's original eight both in date (added roughly a millennium later) and in kind (its sthāyibhāva is a cessation rather than an active display), which is why it is grouped separately even though the tradition today generally treats the rasas as nine."
+      },
+      "keywords": ["shanta", "abhinavagupta"],
+      "metadata": {}
+    },
+    {
+      "id": "rasa-root",
+      "name": "Rasa — the Nāṭyaśāstra's Aesthetics of Performance",
+      "category": "root",
+      "level": 3,
+      "sort_order": 9,
+      "composite_of": ["group-natyashastra-five", "group-abhinavagupta-shanta"],
+      "sections": {
+        "Definition": "The Nāṭyaśāstra (compiled roughly 2nd century BCE – 2nd century CE, attributed to Bharata Muni) is a treatise on dramaturgy, not a psychology of the individual. Its rasa theory holds that a well-built performance — combining vibhāva (the determinants that set a scene), anubhāva (the consequent physical signs a performer displays), and vyabhicāribhāva (transitory supporting states) — makes a sthāyibhāva (a stable emotional theme like rati, love, or śoka, grief) tastable by a qualified spectator. That act of tasting, āsvāda, generalized and held at an aesthetic remove from ordinary personal feeling, is the rasa. Abhinavagupta added a ninth, śānta, several centuries later, arguing it as the ground state from which the other eight arise.",
+        "Rasa is an aesthetic event, not an inner-state inventory": "This is the single most important framing point for this school. Rasa theory is not a list of emotions a person can have; it is an account of what happens between craft and a trained audience when a performance succeeds. The sthāyibhāva (love, grief, anger, fear, and so on) is closer to the raw material; the rasa is the specific aesthetic accomplishment of that material being successfully relished. Describing this school as \"the Indian emotion list\" — as though it were a taxonomy of feelings parallel to Ekman's or Plutchik's — erases the very feature (its dependence on performance and a qualified spectator) that makes it a distinct kind of theory.",
+        "Research note": "Later Sanskrit aesthetics (Ānandavardhana on dhvani, or suggestion, in the 9th century; Abhinavagupta's synthesis in the 10th–11th) substantially extend and revise Bharata's original account — this skeleton represents only the Nāṭyaśāstra's own eight plus Abhinavagupta's śānta, not the full later commentarial tradition.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim Bharata or Abhinavagupta made.* Rasa theory already resists the fixed-inner-state model this library is built to question, since it locates the phenomenon in a performance-and-audience relation rather than in a body alone. It is not, for that reason, a constructionist theory in Barrett's sense — it does not claim rasa categories are learned, culturally variable concepts applied moment to moment; classical rasa theory generally treats the eight (or nine) as a stable, complete, and correct enumeration for Sanskrit dramatic art specifically. The parallel worth noting, without collapsing the two, is that both frameworks refuse to locate emotion as a private, self-sufficient fact inside one body."
+      },
+      "keywords": ["rasa", "natyashastra", "bharata", "abhinavagupta", "sanskrit aesthetics"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Rasa theory is a work of dramaturgical and aesthetic philosophy developed and debated within the Sanskrit commentarial tradition over more than a millennium (Bharata through Abhinavagupta and beyond). It is not an empirical psychological theory and does not claim cross-cultural or physiological evidence; its authority within its own tradition rests on argument and on continued use by practitioners, not on experimental confirmation."
+      }
+    }
+  ]
+}

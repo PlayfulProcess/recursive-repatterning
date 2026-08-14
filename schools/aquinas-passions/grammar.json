@@ -1,0 +1,170 @@
+{
+  "name": "Aquinas's Eleven Passions",
+  "description": "Thomas Aquinas's Summa Theologiae (Prima Secundae, questions 22–48, written c. 1270) sorts eleven passions of the sensitive appetite into two faculties: six concupiscible passions (love/hatred, desire/aversion, joy/sorrow) and five irascible passions (hope/despair, fear/daring, and anger, which Aquinas holds has no contrary). The organising line between the two faculties is not good-versus-bad — both faculties handle both good and evil objects. It is arduousness: the concupiscible appetite responds to a sensory good or evil simply apprehended as such; the irascible appetite responds to that same good or evil only insofar as it is arduous — difficult to attain, difficult to escape, or requiring struggle to reach or resist. A passion Aquinas calls hope is not simply modern-English \"hope\": it is, specifically, the appetite's movement toward a future good that is both possible and hard to get.",
+  "grammar_type": "custom",
+  "tags": ["emotions", "philosophy", "aquinas", "scholasticism", "medieval", "passions"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Only 5 of the 11 passions have items: two concupiscible (amor/love, tristitia/sorrow) and three irascible (spes, timor, ira). Missing entirely: odium (hatred), desiderium/concupiscentia (desire), fuga (aversion), gaudium/delectatio (joy — distinct from the pair chosen here), desperatio (despair), and audacia (daring). Aquinas's extensive treatment of how the passions relate to virtue, sin, and the will (whether a passion can be sinful in itself) is not represented at all.",
+  "_art_direction": {
+    "period_place": "13th-century Latin Christendom — Paris and Naples, where Aquinas taught and wrote. Gothic manuscript illumination of the mid-to-late 13th century is the closest visual contemporary.",
+    "candidates": [
+      {
+        "name": "British Library — Digitised Manuscripts",
+        "url": "https://www.bl.uk/manuscripts/",
+        "note": "Large holdings of 13th-century scholastic and devotional manuscripts; many out-of-copyright items are downloadable, but check each manuscript's own rights statement."
+      },
+      {
+        "name": "Bibliothèque nationale de France — Gallica",
+        "url": "https://gallica.bnf.fr/",
+        "note": "Holds period copies of scholastic texts and Parisian-school illumination contemporary with Aquinas's own teaching career there (1250s–1270s)."
+      },
+      {
+        "name": "Walters Art Museum — open access collection",
+        "url": "https://art.thewalters.org/",
+        "note": "CC0 for its public-domain manuscript holdings; strong 13th-century Gothic illumination, searchable by date."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Thomas Aquinas",
+        "role": "source text",
+        "note": "Structural basis: Summa Theologiae, Prima Secundae, qq. 22–48 (c. 1270), on the eleven passions of the sensitive appetite and the concupiscible/irascible division. The Latin text and its standard English translations (e.g. the Fathers of the English Dominican Province edition) are long out of copyright; no specific translation is quoted here — every section is original prose describing Aquinas's categories."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "amor",
+      "name": "Amor — Love (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 1,
+      "keywords": ["love", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Amor is the first concupiscible passion: a connaturality or fittingness the sensitive appetite feels toward an apprehended good, prior to any movement toward or away from it. Aquinas treats it as the root passion from which desire and joy both follow — one desires what one first loves, and rejoices in possessing what one loves.",
+        "The arduousness axis": "Amor is concupiscible, not irascible, because it responds to the good simply as good — a fitting object, full stop — without regard to whether attaining or keeping it is difficult. Compare spes (hope), an irascible passion below: hope requires the good to be not just apprehended but hard to reach. Love does not.",
+        "Research note": "Aquinas distinguishes amor (a passion of the sensitive appetite, shared with animals in an analogous form) from caritas (charity, a theological virtue involving the will and grace) — this item concerns only the passion, not the virtue."
+      },
+      "metadata": {
+        "emotion_key": "love"
+      }
+    },
+    {
+      "id": "tristitia",
+      "name": "Tristitia — Sorrow (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 2,
+      "keywords": ["sorrow", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Tristitia is the concupiscible passion of pain at a present evil apprehended as such — the counterpart to gaudium (joy) at a present good. Aquinas distinguishes several species by cause: pity (sorrow at another's evil), envy (sorrow at another's good, treated by Aquinas as a species of sorrow gone wrong), and anxiety (sorrow that weighs down the mind so it cannot see a way out).",
+        "The arduousness axis": "Tristitia responds to a present evil simply as evil, without regard to whether escaping it is difficult — which is exactly what separates it from timor (fear, an irascible passion, below): fear concerns a future evil that is hard to avoid, while sorrow concerns an evil already here.",
+        "Research note": "Aquinas holds that tristitia, unlike some passions, can be reduced by four specific remedies he names explicitly: weeping, the sympathy of friends, contemplating truth, and sleep or a bath — a concrete, almost clinical list embedded in an otherwise abstract taxonomy."
+      },
+      "metadata": {
+        "emotion_key": "sorrow"
+      }
+    },
+    {
+      "id": "spes",
+      "name": "Spes (Hope, Irascible)",
+      "category": "irascible-passion",
+      "sort_order": 3,
+      "keywords": ["hope", "aquinas", "irascible", "arduousness"],
+      "sections": {
+        "Definition": "Spes is the irascible passion of the appetite's movement toward a future good that is both possible to attain and arduous — difficult enough that attaining it is not a foregone conclusion. If the good were easy and certain, Aquinas holds, the appetite would simply desire it (a concupiscible act); it becomes spes specifically because obtaining it requires effort or struggle against resistance.",
+        "Why the key is transliterated, not \"hope\"": "English \"hope\" is used loosely for almost any positive expectation, easy or hard. Aquinas's spes is defined by the arduousness condition — no difficulty, no spes, just ordinary desiderium (desire). Keying this item as plain \"hope\" would erase the one feature that makes it irascible rather than concupiscible in the first place, and would silently merge it with every other school's much broader use of the English word.",
+        "Research note": "Aquinas pairs spes with desperatio (despair): both concern the same future arduous good, differing only in whether the appetite judges it attainable (spes) or not (desperatio)."
+      },
+      "metadata": {
+        "emotion_key": "spes"
+      }
+    },
+    {
+      "id": "timor",
+      "name": "Timor (Fear, Irascible)",
+      "category": "irascible-passion",
+      "sort_order": 4,
+      "keywords": ["fear", "aquinas", "irascible", "arduousness"],
+      "sections": {
+        "Definition": "Timor is the irascible passion of shrinking from a future evil that is arduous to avoid — an evil difficult enough to escape that the appetite registers real resistance, not simply distaste. Aquinas catalogues species of timor by their object: laziness (fear of the effort a task requires), shame (fear of disgrace), and others.",
+        "Why the key is transliterated, not \"fear\"": "As with spes, the arduousness condition is what makes timor a distinct technical category rather than the everyday English word. An evil that is easy to avoid produces no timor in Aquinas's scheme, only ordinary aversion (fuga, concupiscible). Using plain \"fear\" as the key would quietly fold that structural distinction back into the very undifferentiated folk category this taxonomy exists to divide.",
+        "Research note": "Timor's irascible partner is audacia (daring), the passion of confronting rather than fleeing the same arduous evil — not included as its own item in this skeleton."
+      },
+      "metadata": {
+        "emotion_key": "timor"
+      }
+    },
+    {
+      "id": "ira",
+      "name": "Ira (Anger, Irascible, No Contrary)",
+      "category": "irascible-passion",
+      "sort_order": 5,
+      "keywords": ["anger", "aquinas", "irascible", "arduousness"],
+      "sections": {
+        "Definition": "Ira is the irascible passion of rising up against a present, arduous evil already inflicted — specifically, the desire to overcome or take revenge upon whoever caused it. Aquinas holds ira alone among the eleven has no contrary passion: there is no separate irascible passion of, say, meek acceptance of a present injury, because the irascible appetite's whole function is to confront arduous evil, and confronting it just is ira.",
+        "Why the key is transliterated": "Aquinas's ira is narrower than everyday English \"anger\": it specifically requires a present injury already suffered and a movement toward retribution against its cause — closer to what a modern reader might call righteous or retaliatory anger than to any irritation whatsoever. Keeping the Latin key flags that narrower scope rather than importing the full breadth of the modern word.",
+        "Research note": "Because ira has no contrary, it sits oddly against the rest of Aquinas's paired structure — commentators have long noted this as a structural asymmetry in the eleven-passion scheme, not an oversight this deck is introducing."
+      },
+      "metadata": {
+        "emotion_key": "ira"
+      }
+    },
+    {
+      "id": "group-concupiscible",
+      "name": "The Concupiscible Passions",
+      "category": "group",
+      "level": 2,
+      "sort_order": 6,
+      "composite_of": ["amor", "tristitia"],
+      "sections": {
+        "Definition": "The concupiscible appetite responds to sensory good or evil simply apprehended as such, without regard to how difficult attaining or avoiding it is. Aquinas names six here in total (love/hatred, desire/aversion, joy/sorrow); this skeleton represents the pair with love and sorrow."
+      },
+      "keywords": ["concupiscible", "aquinas"],
+      "metadata": {}
+    },
+    {
+      "id": "group-irascible",
+      "name": "The Irascible Passions",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["spes", "timor", "ira"],
+      "sections": {
+        "Definition": "The irascible appetite responds to the same kind of good or evil the concupiscible appetite handles, but only insofar as attaining the good or escaping the evil is arduous — difficult, resisted, requiring struggle. Aquinas names five here (hope/despair, fear/daring, and anger with no contrary); this skeleton represents three: spes, timor, and ira."
+      },
+      "keywords": ["irascible", "aquinas", "arduousness"],
+      "metadata": {}
+    },
+    {
+      "id": "aquinas-passions-root",
+      "name": "The Eleven Passions — Concupiscible and Irascible",
+      "category": "root",
+      "level": 3,
+      "sort_order": 8,
+      "composite_of": ["group-concupiscible", "group-irascible"],
+      "sections": {
+        "Definition": "Aquinas's Summa Theologiae (Prima Secundae, qq. 22–48) organises eleven passions of the sensitive appetite into two faculties. The dividing line is not valence — both faculties handle good and evil objects — it is arduousness: whether the object is apprehended simply as good or evil (concupiscible), or as a good or evil that is difficult to reach or resist (irascible). Six passions are concupiscible (love/hatred, desire/aversion, joy/sorrow); five are irascible (hope/despair, fear/daring, and anger, which alone has no contrary).",
+        "Arduousness, not valence": "This is worth stating plainly because it is easy to misread: a taxonomy with a \"hope/fear\" pair and a \"love/hatred\" pair looks at first glance like it is organised by positive versus negative feeling. It is not. Aquinas already has a positive/negative pair inside the concupiscible faculty alone (love/hatred, joy/sorrow). What moves a passion into the irascible faculty is entirely the difficulty of its object — arduousness is the axis, valence is orthogonal to it.",
+        "Research note": "Aquinas's source for the concupiscible/irascible division is ultimately Aristotelian and Neoplatonic psychology of the soul's powers, mediated through Avicenna and other Arabic commentators on Aristotle's De Anima — this is a synthesis of several prior traditions, not an invention original to Aquinas.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim Aquinas made.* The arduousness axis is a genuinely useful structural insight independent of the metaphysics built on top of it (a real distinction between an object's simple valence and the difficulty of engaging with it survives even if one drops Aquinas's faculty psychology of a concupiscible and irascible appetite as literal parts of the soul). What a constructionist account would not grant is that these eleven categories, or the two-faculty split itself, are the natural joints reality carves emotion at — Aquinas presents them as following necessarily from the structure of the soul; a constructionist reading treats them as one workable 13th-century conceptual scheme among others."
+      },
+      "keywords": ["aquinas", "summa theologiae", "concupiscible", "irascible", "arduousness"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Aquinas's eleven-passion taxonomy is a work of scholastic philosophical psychology, derived by argument from Aristotelian and Avicennian premises about the soul's powers, not from observation or experiment. No empirical support is claimed by the tradition itself, and none should be inferred here."
+      }
+    }
+  ]
+}
