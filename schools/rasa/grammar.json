@@ -2,6 +2,18 @@
   "name": "Rasa — Bharata's Aesthetics of Performance",
   "description": "The Nāṭyaśāstra, a Sanskrit treatise on dramaturgy attributed to Bharata Muni (compiled roughly between the 2nd century BCE and 2nd century CE), names eight rasas — śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta — and the philosopher-aesthetician Abhinavagupta added a ninth, śānta, in his 10th–11th century commentary. A rasa is not a feeling a character has, and not a feeling a spectator merely catches by contagion. It is an aesthetic event that arises between a well-executed performance (built from vibhāva, the determinants; anubhāva, the consequents; and vyabhicāribhāva, the transitory states) and a qualified spectator's own aesthetic relish (āsvāda) of the sthāyibhāva, the stable emotional theme, that the performance has made tastable. Calling rasa \"the Indian emotion list\" collapses that relational, performance-dependent structure into the same fixed-inner-state model this whole library exists to question — rasa is closer to a claim about what good theatre does than to a claim about what feelings exist inside a body.",
   "grammar_type": "custom",
+  "cover_image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
+  "cover_image_credit": {
+    "title": "Gauri Ragini, folio from a Ragamala",
+    "creator": "Unrecorded Central Indian workshop",
+    "date": "17th-18th century",
+    "source": "Smithsonian's National Museum of Asian Art, object S2018.1.49",
+    "file_page": "https://asia-archive.si.edu/object/S2018.1.49/",
+    "license": "CC0 (Smithsonian Open Access)",
+    "pd_basis": "Museum has designated the digitized image CC0 under its Open Access programme.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images are Ragamala (\"garland of melodies\") paintings from the Smithsonian's National Museum of Asian Art, CC0. Ragamala painting is centuries later than Bharata's own era, but is the richest surviving visual tradition organized around named rasa/bhava states, per this school's own _art_direction. Hasya, karuna, raudra, and bhayanaka have no confidently-matched Ragamala painting found in the time available and are left without images. See each item's metadata.image_credit.",
   "tags": ["rasa", "aesthetics", "natyashastra", "bharata", "abhinavagupta", "sanskrit-drama"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -56,6 +68,7 @@
       "name": "Śṛṅgāra — the Erotic/Romantic Rasa",
       "category": "natyashastra-rasa",
       "sort_order": 1,
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-8077_10",
       "keywords": ["shringara", "love", "rasa", "natyashastra"],
       "sections": {
         "Definition": "Śṛṅgāra is the rasa built from the sthāyibhāva rati (love, romantic attachment). Bharata treats it as arising when a performance's determinants — a beautiful setting, the presence of a beloved, appropriate ornament and gesture — combine with the audience's own capacity to relish that theme, tasted rather than merely witnessed.",
@@ -63,7 +76,9 @@
         "Research note": "Bharata and later theorists (notably Abhinavagupta) subdivide śṛṅgāra into sambhoga (union) and vipralambha (separation) — the rasa of love-in-fulfillment and love-in-longing are treated as two registers of the same rasa, not opposites."
       },
       "metadata": {
-        "emotion_key": "shringara"
+        "emotion_key": "shringara",
+        "image_source": "https://asia-archive.si.edu/object/F1930.81/",
+        "image_credit": "Bangal Ragini, from a Ragamala series, c. 1650, Malwa (Central Indian School) — Smithsonian's National Museum of Asian Art, CC0. Ragamala paintings of this raga are typically about longing for an absent lover, fitting śṛṅgāra's vipralambha (love-in-separation) register."
       }
     },
     {
@@ -131,6 +146,7 @@
       "name": "Śānta — the Peaceful Rasa (Abhinavagupta's Ninth)",
       "category": "abhinavagupta-addition",
       "sort_order": 6,
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.2_001crop",
       "keywords": ["shanta", "peace", "abhinavagupta", "rasa"],
       "sections": {
         "Definition": "Śānta, built from the sthāyibhāva śama (tranquility, or in some formulations the disposition toward liberation), was argued for as a ninth rasa by the 10th–11th century Kashmiri philosopher-aesthetician Abhinavagupta, several centuries after Bharata's original eight. Abhinavagupta treats śānta as, in a sense, the ground state underlying the other eight — the settled awareness from which any of the eight active rasas can arise and to which they return.",
@@ -138,7 +154,9 @@
         "Research note": "Abhinavagupta's broader philosophical commitments (he was also a major theorist of Kashmir Shaivism) inform his case for śānta — he connects aesthetic relish (rasāsvāda) to a state structurally similar to, though not identical with, spiritual realization (brahmāsvāda-sadṛśa, \"resembling the taste of the absolute\"), a controversial and much-discussed claim in later Sanskrit aesthetics."
       },
       "metadata": {
-        "emotion_key": "shanta"
+        "emotion_key": "shanta",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
+        "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself."
       }
     },
     {

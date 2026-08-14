@@ -2,6 +2,18 @@
   "name": "Constructed Emotion — the Substrate",
   "description": "This is not a peer school. Every other grammar in this collection presents a tradition's own taxonomy of emotion in its own terms; this one is different in kind. The theory of constructed emotion, developed chiefly by psychologist and neuroscientist Lisa Feldman Barrett and collaborators, is the frame the whole library sits inside — the working premise stated in this project's own CLAUDE.md: there are no fixed biological fingerprints for discrete emotions, and people still have to make meaning, so every taxonomy elsewhere in this collection is a usable map, not a discovery of natural categories. On this account, an emotion is not a triggered, pre-packaged program with one fixed signature; it is an instance constructed in the moment from core affect (a continuously varying background sense of how pleasant/unpleasant and how activated one currently is), interoceptive signals from the body, and a learned concept — itself shaped by language and culture — that the brain applies to categorize the whole pattern as \"anger,\" \"joy,\" or whatever word fits. This grammar exists so the substrate has its own drawable items like every other school, not to establish it as one option among equals.",
   "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Valence-Arousal_Circumplex.jpg",
+  "cover_image_credit": {
+    "title": "Valence-Arousal Circumplex",
+    "creator": "imagine-it.org / GAMES survey project",
+    "date": "not dated by the source; diagram of James A. Russell's 1980 circumplex model",
+    "source": "Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Valence-Arousal_Circumplex.jpg",
+    "license": "CC BY 3.0",
+    "pd_basis": "Not public domain — a contemporary diagram, used under its CC BY 3.0 licence with attribution.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "This school is deliberately illustrated with abstract/diagrammatic imagery rather than any face or period artwork, per its own _art_direction: there is no single 'face of anger' to paint without contradicting the theory itself. The valence/arousal circumplex diagram (CC BY 3.0, attribution required) illustrates core affect; a public-domain 1918 Gray's Anatomy plate of the vagus and phrenic nerves illustrates interoception. The three 'as a population of instances' items (anger, fear, sadness) are deliberately left without images — the whole point of those items is that no single image could stand for the category, so forcing one would visually contradict the text.",
   "tags": ["constructed-emotion", "barrett", "core-affect", "interoception", "substrate"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -51,26 +63,34 @@
       "name": "Core Affect",
       "category": "building-block",
       "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Valence-Arousal_Circumplex.jpg",
       "keywords": ["core affect", "valence", "arousal", "substrate"],
       "sections": {
         "Definition": "Core affect is a continuously present, continuously varying background state describable along two dimensions: valence (how pleasant or unpleasant) and arousal (how activated or calm). On this account it is always present — there is no affect-free baseline state a person returns to between emotions — and it exists prior to, and independent of, any emotion category being applied to it.",
         "Not a category, a dimension": "Core affect is deliberately given no emotion_key, because it isn't a category candidate the way \"anger\" or \"joy\" are elsewhere in this collection — it's the raw material a concept gets applied to, not itself a named emotion. Two people (or the same person at two different times) can be in a similar core-affect state — unpleasant, highly activated — and construct it as anger, anxiety, or excitement depending on the concept and context available to them.",
         "Research note": "Core affect draws on circumplex models of affect (notably James A. Russell's 1980 circumplex model of affect), which Barrett's framework incorporates as the pre-conceptual layer beneath category construction."
       },
-      "metadata": {}
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Valence-Arousal_Circumplex.jpg",
+        "image_credit": "Valence-Arousal Circumplex diagram, illustrating James A. Russell's 1980 model this item's own Research note cites — Wikimedia Commons, CC BY 3.0 (attribution: imagine-it.org / GAMES survey project)."
+      }
     },
     {
       "id": "interoception",
       "name": "Interoception and the Body Budget",
       "category": "building-block",
       "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gray806.png",
       "keywords": ["interoception", "allostasis", "body budget", "substrate"],
       "sections": {
         "Definition": "Interoception is the brain's ongoing sense of the body's internal state — heart rate, breathing, gut activity, inflammation, and more — which this framework treats as continuously monitored and predicted by the brain as part of regulating the body's resources (its \"body budget,\" the allostatic process of anticipating and meeting the body's metabolic needs before they become a crisis). Core affect is understood, on this account, as a summary readout of that ongoing interoceptive prediction, not a separate signal layered on top of it.",
         "Not a category, an ingredient": "Like core affect, interoception is not itself a named emotion and carries no emotion_key here — it's one of the inputs a concept is applied to when the brain constructs a specific emotional instance.",
         "Research note": "The body-budget framing draws on predictive-processing accounts of brain function (the brain as constantly generating predictions about incoming sensory and interoceptive data, updating on prediction error) applied specifically to interoception — a research direction with substantial and growing support in computational neuroscience, though the field's broader predictive-processing framework remains an active area of ongoing empirical work rather than settled consensus."
       },
-      "metadata": {}
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Gray806.png",
+        "image_credit": "\"The phrenic nerve and its relations with the vagus nerve\", Gray's Anatomy (1918, US edition) — Wikimedia Commons, public domain. The vagus nerve carries the visceral afferent signals central to interoception theory."
+      }
     },
     {
       "id": "anger-as-population",

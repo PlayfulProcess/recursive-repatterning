@@ -2,6 +2,18 @@
   "name": "Descartes's Six Primitive Passions",
   "description": "René Descartes's Les passions de l'âme (The Passions of the Soul, 1649) proposes that every passion of the soul, however complex, is a combination or degree of six primitive ones: wonder (admiration), love (amour), hatred (haine), desire (désir), joy (joie), and sadness (tristesse). These six are not Paul Ekman's twentieth-century \"basic emotions\" wearing older dress — they predate that model by more than three centuries, arrive by a wholly different method (introspective philosophical analysis plus Descartes's own mechanistic physiology of \"animal spirits\" moving through the body and pineal gland), and answer a different question: not which facial expressions are cross-culturally recognized, but which passions cannot be built out of any others. Descartes wrote for a physician's and a princess's eyes (the treatise grew out of his correspondence with Princess Elisabeth of Bohemia) rather than for a laboratory.",
   "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Expressions_des_passions_de_l%27Ame_MET_DP356186.jpg",
+  "cover_image_credit": {
+    "title": "Expressions des passions de l'Ame — title page",
+    "creator": "Charles Le Brun (artist), Martin Engelbrecht (publisher)",
+    "date": "1732 edition (Le Brun's original lecture dates to 1668)",
+    "source": "The Metropolitan Museum of Art, object 376816, via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Expressions_des_passions_de_l%27Ame_MET_DP356186.jpg",
+    "license": "CC0 1.0 (Met Open Access, donated to Wikimedia Commons)",
+    "pd_basis": "18th-century print, long out of copyright; the Met has released the digitization CC0.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images are Charles Le Brun's 'Heads Representing the Various Passions of the Soul' (an 18th-century print series after Le Brun's 1668 lecture, itself built directly on Descartes's Passions de l'Ame) via the Metropolitan Museum of Art's Open Access collection, CC0. Only the plates matching a named primitive passion in this deck are used; 'wonder' and 'love' have no surviving digitized plate in this series and are left without an image rather than substituted. See each item's metadata.image_credit.",
   "tags": ["emotions", "philosophy", "descartes", "17th-century", "passions-of-the-soul"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -81,6 +93,7 @@
       "name": "Haine — Hatred",
       "category": "primitive-passion",
       "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Hatred_or_Jealousy_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854028.jpg",
       "keywords": ["hatred", "descartes", "aversion"],
       "sections": {
         "Definition": "Hatred, in Descartes's scheme, is the mirror of love: an agitation caused by the spirits that impels the soul to will itself separated from objects presented to it as harmful. Where love draws the soul toward union, hatred drives it toward distance and rejection.",
@@ -88,7 +101,9 @@
         "Research note": "Descartes's specific physiology — animal spirits, the pineal gland as the soul's seat — is not treated as a live scientific claim by this school; his primitive-passion taxonomy is read independently of the 17th-century mechanics used to explain it."
       },
       "metadata": {
-        "emotion_key": "hatred"
+        "emotion_key": "hatred",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Hatred_or_Jealousy_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854028.jpg",
+        "image_credit": "\"Hatred or Jealousy\", plate 20 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access)."
       }
     },
     {
@@ -96,6 +111,7 @@
       "name": "Désir — Desire",
       "category": "primitive-passion",
       "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Desire_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854025.jpg",
       "keywords": ["desire", "descartes", "future"],
       "sections": {
         "Definition": "Desire is an agitation of the soul, caused by the spirits, that disposes it to will for the future whatever it represents to itself as agreeable — the only one of the six primitive passions Descartes defines as inherently future-facing.",
@@ -103,7 +119,9 @@
         "Research note": "Descartes's desire is closer to what later philosophy calls a conative or motivational state than to a discrete felt emotion — it is defined by what it moves the soul to will, not primarily by how it feels."
       },
       "metadata": {
-        "emotion_key": "desire"
+        "emotion_key": "desire",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Desire_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854025.jpg",
+        "image_credit": "\"Desire\", plate 8 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access)."
       }
     },
     {
@@ -111,6 +129,7 @@
       "name": "Joie — Joy",
       "category": "primitive-passion",
       "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Laughter_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854026.jpg",
       "keywords": ["joy", "descartes", "possession"],
       "sections": {
         "Definition": "Joy is an agreeable emotion of the soul, in which the enjoyment it possesses consists — the felt experience of having, right now, what one has judged to be good. Where desire looks forward and love reaches toward union, joy registers a good already present or already attained.",
@@ -118,7 +137,9 @@
         "Research note": "Descartes pairs joy with sadness as its direct opposite — both concern a good or evil the soul takes to be already present, rather than merely possible."
       },
       "metadata": {
-        "emotion_key": "joy"
+        "emotion_key": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Laughter_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854026.jpg",
+        "image_credit": "\"Laughter\", plate 10 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). Used for joy (Le Brun's plate is titled by its outward expression, laughter, rather than by Descartes's own term)."
       }
     },
     {
@@ -126,6 +147,7 @@
       "name": "Tristesse — Sadness",
       "category": "primitive-passion",
       "sort_order": 6,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Sadness_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854030.jpg",
       "keywords": ["sadness", "descartes", "loss"],
       "sections": {
         "Definition": "Sadness is a disagreeable languor in which the soul's discomfort consists, arising from an evil, or a lack, that the soul represents to itself as belonging to it now — the counterpart to joy's registration of a present good, this time registering a present evil or absence.",
@@ -133,7 +155,9 @@
         "Research note": "Descartes's six close on an opposing pair (joy/sadness) that mirrors the earlier pair (love/hatred), leaving wonder and desire as the two primitives without a named opposite in his own scheme."
       },
       "metadata": {
-        "emotion_key": "sadness"
+        "emotion_key": "sadness",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sadness_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854030.jpg",
+        "image_credit": "\"Sadness\", plate 13 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access)."
       }
     },
     {

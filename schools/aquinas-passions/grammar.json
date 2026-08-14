@@ -2,6 +2,18 @@
   "name": "Aquinas's Eleven Passions",
   "description": "Thomas Aquinas's Summa Theologiae (Prima Secundae, questions 22–48, written c. 1270) sorts eleven passions of the sensitive appetite into two faculties: six concupiscible passions (love/hatred, desire/aversion, joy/sorrow) and five irascible passions (hope/despair, fear/daring, and anger, which Aquinas holds has no contrary). The organising line between the two faculties is not good-versus-bad — both faculties handle both good and evil objects. It is arduousness: the concupiscible appetite responds to a sensory good or evil simply apprehended as such; the irascible appetite responds to that same good or evil only insofar as it is arduous — difficult to attain, difficult to escape, or requiring struggle to reach or resist. A passion Aquinas calls hope is not simply modern-English \"hope\": it is, specifically, the appetite's movement toward a future good that is both possible and hard to get.",
   "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/William_de_Brailes_-_The_Last_Judgment_%28Matthew_25_-31-46%29_-_Walters_W10623R_-_Full_Page.jpg",
+  "cover_image_credit": {
+    "title": "The Last Judgment (Matthew 25:31-46), leaf from Bible Pictures by William de Brailes",
+    "creator": "William de Brailes",
+    "date": "circa 1250",
+    "source": "The Walters Art Museum, via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Last_Judgment_(Matthew_25_-31-46)_-_Walters_W10623R_-_Full_Page.jpg",
+    "license": "Public domain (PD-old-100)",
+    "pd_basis": "13th-century manuscript leaf, long out of copyright; the Walters Art Museum releases its public-domain holdings without restriction.",
+    "verified": "2026-08-14"
+  },
+  "image_credit": "Item images are 13th-century Gothic manuscript illumination (William de Brailes, Oxford, c. 1250 — a generation before Aquinas wrote, England rather than Paris/Naples but the same broad Latin Christendom tradition) and a mid-14th-century Roman de la Rose leaf (Walters Art Museum, via Wikimedia Commons), all public domain. Tristitia and spes have no confidently-dated period match found and are left without an image. See each item's metadata.image_credit.",
   "tags": ["emotions", "philosophy", "aquinas", "scholasticism", "medieval", "passions"],
   "creator_name": "PlayfulProcess",
   "is_published": false,
@@ -51,6 +63,7 @@
       "name": "Amor — Love (Concupiscible)",
       "category": "concupiscible-passion",
       "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Guillaume_de_Lorris_-_Franciscan_and_Fat_Dominican_Before_God_of_Love_-_Walters_W14372V_-_Open_Reverse.jpg",
       "keywords": ["love", "aquinas", "concupiscible"],
       "sections": {
         "Definition": "Amor is the first concupiscible passion: a connaturality or fittingness the sensitive appetite feels toward an apprehended good, prior to any movement toward or away from it. Aquinas treats it as the root passion from which desire and joy both follow — one desires what one first loves, and rejoices in possessing what one loves.",
@@ -58,7 +71,9 @@
         "Research note": "Aquinas distinguishes amor (a passion of the sensitive appetite, shared with animals in an analogous form) from caritas (charity, a theological virtue involving the will and grace) — this item concerns only the passion, not the virtue."
       },
       "metadata": {
-        "emotion_key": "love"
+        "emotion_key": "love",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Guillaume_de_Lorris_-_Franciscan_and_Fat_Dominican_Before_God_of_Love_-_Walters_W14372V_-_Open_Reverse.jpg",
+        "image_credit": "Leaf from a Roman de la Rose manuscript (Guillaume de Lorris's God of Love allegory), mid-14th century — The Walters Art Museum, via Wikimedia Commons, public domain. Roughly a lifetime after Aquinas (d. 1274); used as the closest available Gothic manuscript treatment of amor, not as an illustration of the Summa itself."
       }
     },
     {
@@ -96,6 +111,7 @@
       "name": "Timor (Fear, Irascible)",
       "category": "irascible-passion",
       "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/William_de_Brailes_-_The_Last_Judgment_%28Matthew_25_-31-46%29_-_Walters_W10623R_-_Full_Page.jpg",
       "keywords": ["fear", "aquinas", "irascible", "arduousness"],
       "sections": {
         "Definition": "Timor is the irascible passion of shrinking from a future evil that is arduous to avoid — an evil difficult enough to escape that the appetite registers real resistance, not simply distaste. Aquinas catalogues species of timor by their object: laziness (fear of the effort a task requires), shame (fear of disgrace), and others.",
@@ -103,7 +119,9 @@
         "Research note": "Timor's irascible partner is audacia (daring), the passion of confronting rather than fleeing the same arduous evil — not included as its own item in this skeleton."
       },
       "metadata": {
-        "emotion_key": "timor"
+        "emotion_key": "timor",
+        "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Last_Judgment_(Matthew_25_-31-46)_-_Walters_W10623R_-_Full_Page.jpg",
+        "image_credit": "The Last Judgment, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. A generation before Aquinas, same broad Latin Christendom manuscript tradition."
       }
     },
     {
@@ -111,6 +129,7 @@
       "name": "Ira (Anger, Irascible, No Contrary)",
       "category": "irascible-passion",
       "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/William_de_Brailes_-_The_Fall_of_the_Rebel_Angels_%28Apocryphal%29_-_Walters_W10624R_-_Full_Page.jpg",
       "keywords": ["anger", "aquinas", "irascible", "arduousness"],
       "sections": {
         "Definition": "Ira is the irascible passion of rising up against a present, arduous evil already inflicted — specifically, the desire to overcome or take revenge upon whoever caused it. Aquinas holds ira alone among the eleven has no contrary passion: there is no separate irascible passion of, say, meek acceptance of a present injury, because the irascible appetite's whole function is to confront arduous evil, and confronting it just is ira.",
@@ -118,7 +137,9 @@
         "Research note": "Because ira has no contrary, it sits oddly against the rest of Aquinas's paired structure — commentators have long noted this as a structural asymmetry in the eleven-passion scheme, not an oversight this deck is introducing."
       },
       "metadata": {
-        "emotion_key": "ira"
+        "emotion_key": "ira",
+        "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Fall_of_the_Rebel_Angels_(Apocryphal)_-_Walters_W10624R_-_Full_Page.jpg",
+        "image_credit": "The Fall of the Rebel Angels, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. Used for ira as the closest available period image of righteous wrath and violent retribution; not a literal illustration of Aquinas's ira."
       }
     },
     {
