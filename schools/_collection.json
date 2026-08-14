@@ -14,19 +14,26 @@
       "id": "constructionist",
       "name": "Constructionist — the substrate",
       "_note": "Not a peer school. This is the frame the whole library sits inside: emotions have no fixed biological fingerprints, so every taxonomy below is a meaning-layer, not a discovery.",
-      "school_slugs": ["constructed-emotion"]
+      "school_slugs": [
+        "constructed-emotion"
+      ]
     },
     {
       "id": "basic-emotion",
       "name": "Basic-Emotion Schools",
       "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
-      "school_slugs": ["plutchik-wheel", "ekman-basic"]
+      "school_slugs": [
+        "plutchik-wheel",
+        "ekman-basic"
+      ]
     },
     {
       "id": "needs-based",
       "name": "Needs-Based Schools",
       "_note": "Feelings as signals of met/unmet needs. NVC.",
-      "school_slugs": ["nvc-needs"]
+      "school_slugs": [
+        "nvc-needs"
+      ]
     },
     {
       "id": "attachment-couples",
@@ -50,7 +57,225 @@
       "id": "historical-scientific",
       "name": "Historical & Scientific",
       "_note": "Public-domain foundations: Darwin 1872, James 1890.",
-      "school_slugs": ["greek-pathe", "descartes-passions", "aquinas-passions", "rasa", "chinese-qing", "darwin-expression", "genealogy-of-emotions"]
+      "school_slugs": [
+        "greek-pathe",
+        "descartes-passions",
+        "aquinas-passions",
+        "rasa",
+        "chinese-qing",
+        "darwin-expression",
+        "genealogy-of-emotions"
+      ]
+    }
+  ],
+  "grammars": [
+    {
+      "slug": "across-the-schools",
+      "name": "Across the Schools",
+      "common_name": "Across the Schools",
+      "type": "tarot",
+      "branch": null,
+      "is_meta": true,
+      "default_preview": "grammar",
+      "items": 73,
+      "cover_image_url": "",
+      "path": "schools/across-the-schools/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "aquinas-passions",
+      "name": "Aquinas's Eleven Passions",
+      "common_name": "Aquinas's Eleven Passions",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 8,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/William_de_Brailes_-_The_Last_Judgment_%28Matthew_25_-31-46%29_-_Walters_W10623R_-_Full_Page.jpg",
+      "path": "schools/aquinas-passions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "chinese-qing",
+      "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
+      "common_name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 7,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Channels_and_acupoints_of_the_thorax_and_abdomen_Wellcome_L0037861.jpg",
+      "path": "schools/chinese-qing/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "constructed-emotion",
+      "name": "Constructed Emotion — the Substrate",
+      "common_name": "Constructed Emotion — the Substrate",
+      "type": "custom",
+      "branch": "constructionist",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 8,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Valence-Arousal_Circumplex.jpg",
+      "path": "schools/constructed-emotion/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "darwin-expression",
+      "name": "Darwin — The Expression of the Emotions",
+      "common_name": "Darwin — The Expression of the Emotions",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 8,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Expression_of_the_Emotions_in_Man_and_Animals_title_page.jpg",
+      "path": "schools/darwin-expression/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "descartes-passions",
+      "name": "Descartes's Six Primitive Passions",
+      "common_name": "Descartes's Six Primitive Passions",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 10,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Expressions_des_passions_de_l%27Ame_MET_DP356186.jpg",
+      "path": "schools/descartes-passions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "ekman-basic",
+      "name": "Basic-Emotion / Affect-Programme Theory",
+      "common_name": "Basic-Emotion / Affect-Programme Theory",
+      "type": "custom",
+      "branch": "basic-emotion",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 9,
+      "cover_image_url": "",
+      "path": "schools/ekman-basic/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "genealogy-of-emotions",
+      "name": "A Genealogy of Emotions",
+      "common_name": "A Genealogy of Emotions",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": true,
+      "default_preview": "tree",
+      "items": 25,
+      "cover_image_url": "",
+      "path": "schools/genealogy-of-emotions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "greek-pathe",
+      "name": "Greek Pathē — Rhetoric and Stoic Ethics",
+      "common_name": "Greek Pathē — Rhetoric and Stoic Ethics",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 9,
+      "cover_image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP337509.jpg",
+      "path": "schools/greek-pathe/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "nvc-needs",
+      "name": "Nonviolent Communication — Feelings and Needs",
+      "common_name": "Nonviolent Communication — Feelings and Needs",
+      "type": "custom",
+      "branch": "needs-based",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 8,
+      "cover_image_url": "",
+      "path": "schools/nvc-needs/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "plutchik-wheel",
+      "name": "Plutchik's Wheel of Emotions",
+      "common_name": "Plutchik's Wheel of Emotions",
+      "type": "tarot",
+      "branch": "basic-emotion",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 41,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Plutchik-wheel.svg",
+      "path": "schools/plutchik-wheel/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "rasa",
+      "name": "Rasa — Bharata's Aesthetics of Performance",
+      "common_name": "Rasa — Bharata's Aesthetics of Performance",
+      "type": "custom",
+      "branch": "historical-scientific",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 9,
+      "cover_image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.49_001crop",
+      "path": "schools/rasa/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "schools-of-emotion",
+      "name": "Schools of Emotion",
+      "common_name": "Schools of Emotion",
+      "type": "custom",
+      "branch": null,
+      "is_meta": true,
+      "default_preview": "tree",
+      "items": 9,
+      "cover_image_url": "",
+      "path": "schools/schools-of-emotion/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
     }
   ]
 }
