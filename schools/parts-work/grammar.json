@@ -1,0 +1,208 @@
+{
+  "name": "Parts Work — after Internal Family Systems",
+  "description": "Parts work treats what feels like a single, unified self as a working system of parts — inner voices, each formed for a reason, each carrying its own memory, role, and protective intention. No part is the enemy. A part that criticizes, that panics, that overworks, that shuts down — each one took on that job at some point because it seemed to work, and none of them are the whole of who you are. Underneath or alongside the parts, this tradition holds there is a steadier quality often called Self: not another part fighting for control, but a capacity for curiosity, calm, and compassion that can be with any part without needing to fix, silence, or become it. The central move this tradition teaches is captured in a phrase common across parts-work practice: get curious, not merged — when a part takes over completely (\"blending\"), the practice is to notice that, and find enough distance to ask what the part is protecting, rather than either obeying it or fighting it.\n\nThis school is adapted primarily from the architecture of Richard Schwartz's Internal Family Systems (IFS) model — parts, Self, protectors (managers and firefighters), and exiles — written here in original prose, not drawn from IFS's own copyrighted training materials, session protocols, or specific terminology set. \"Internal Family Systems\" and \"IFS\" are trademarks of the IFS Institute; nothing here should be read as an IFS-branded or IFS-certified resource. No part described here is a diagnosis — this is a way of naming an inner experience, not a clinical assessment of it.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. Parts work (after Internal Family Systems) is a living, contemporary psychotherapy model with no period art to draw on — its own training materials and any branded IFS diagrams are copyrighted. Generic stock photography of therapy or reflection was considered and rejected for the same reason argued elsewhere in this library (see schools/nvc-needs): it would not depict this model specifically, and off-the-shelf \"inner voices\" imagery risks implying a fixed visual signature this library avoids everywhere else. Leaving the school unillustrated is judged better than a generic or misleading substitute.",
+  "tags": ["parts-work", "ifs", "self-leadership", "protectors", "exiles", "internal-family-systems"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "roots": ["western-philosophy"],
+  "shelves": ["mirror", "wisdom"],
+  "lineages": ["Schwartz"],
+  "worldview": "systemic-pluralism",
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, adapted from _seeds/grammars/bus-passengers.json (33 items across four tiers, built on a 'bus passengers' metaphor). This school keeps only the tier-2 parts-work material — Manager, Firefighter, Exile, Self-energy, Inner Critic — and restates it in Internal Family Systems' own terms rather than the seed's bus-passenger framing. Two other layers of the seed are deliberately NOT carried into this grammar, each for its own reason: (1) the seed's tier 1 (familiar Pixar/Ekman/Damour emotions) belongs to the basic-emotion schools already in this library (schools/plutchik-wheel, schools/ekman-basic), not to a parts-work school; (2) the seed's tier 3 (Voice Dialogue's Pusher, Pleaser, Rule Maker, Vulnerable Self, Aware Ego) and tier 4 (a decolonial-cartography layer synthesized from Andreotti and the GTDF collective — the Modernity Passenger, the four 'mountains,' the more-than-human passenger, and the seed's own six-layer Thoughts→Thinking→Perception→Sensing→Context→Mystery section structure) are each their own distinct tradition and argument, not Internal Family Systems. Per this repo's one-source-per-grammar rule, that material is left where it already lives — in the seed file — rather than stacked into an IFS-voiced item here. Blending and Unburdening are written as their own items rather than folded into Self, since they name the dynamic the plurality claim depends on. Unwritten: IFS's specific unburdening-session steps, and the wider catalogue of commonly-named protector and exile roles beyond the inner critic (the pleaser, the achiever, and others) are not built out as their own items. No item in this grammar carries metadata.emotion_key — parts are roles within a system, not affect labels, so none of them are emotion-level items in this library's sense.",
+  "_art_direction": {
+    "period_place": "Internal Family Systems was developed by Richard Schwartz from the mid-1980s onward, in the United States — a contemporary clinical model, not a historical tradition, with no comparable period-art problem to solve and no public-domain visual record of its own to draw on.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic reflective or dialogue-adjacent imagery that does not claim to depict IFS specifically."
+      },
+      {
+        "name": "Wikimedia Commons — contemporary photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY images with a quiet, interior register (a single figure, a threshold, a mirror); confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "This library's own schools/bus-passengers seed material",
+        "url": "_seeds/grammars/bus-passengers.json",
+        "note": "The seed uses flat-color icon shapes per passenger rather than photography or period art — a workable illustration direction if this school is ever illustrated, since it sidesteps the 'no period art' problem entirely rather than forcing one."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Richard Schwartz and the Internal Family Systems tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the parts / Self / protectors (managers, firefighters) / exiles architecture Schwartz developed from the mid-1980s onward. Schwartz's books and IFS Institute training materials remain in copyright; no text is quoted from them. Every definition in this grammar is original prose describing the general shape of the model, not a reproduction of any published wording or proprietary protocol. \"Internal Family Systems\" and \"IFS\" are trademarks of the IFS Institute."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "self",
+      "name": "Self",
+      "category": "core",
+      "sort_order": 1,
+      "keywords": ["self", "self-leadership", "self-energy"],
+      "sections": {
+        "Definition": "In this model, Self is not one part competing with the others — it is a capacity already present underneath the system of parts, able to be curious about a part without becoming it, and to stay with difficulty without needing to fix or silence it right away. Practitioners describe Self as showing up with qualities like calm, clarity, courage, and compassion: not achievements to earn, but a way of being with your own inner world that is available even when a part is loud.",
+        "Practice": "The practical test is simple to state and hard to do: when you notice a strong reaction, can you find a little space around it — enough room to be curious about what the part is trying to do for you — rather than either fully believing the part's story or trying to shut it down? That space is Self; a phrase common in parts-work practice for the move is get curious, not merged.",
+        "Research note": "This concept of Self is Schwartz's own theoretical construct, not an independently measured psychological trait — it is not the same kind of claim as a normed personality-trait measure. Some parts-work writers note a resemblance to contemplative \"witness\" or \"observer\" concepts in other traditions, but that resemblance is an analogy, not a demonstrated equivalence."
+      },
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-self",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "manager",
+      "name": "The Manager",
+      "category": "protector",
+      "sort_order": 2,
+      "keywords": ["manager", "protector", "planning"],
+      "sections": {
+        "Definition": "A manager is a part whose job is prevention — it works ahead of trouble, planning, organizing, anticipating what could go wrong so it does not happen. Managers keep a household running, a job performed, a body presentable; they are often the most visible, most \"in charge\" parts of a person's daily life.",
+        "Practice": "Rather than treating a manager's vigilance as a flaw to eliminate, the practice is to acknowledge its labor directly — many managers have never been thanked — and to ask what it is afraid would happen if it stopped.",
+        "Research note": "\"Manager\" is Schwartz's own term for this protector role; the description here is this library's own paraphrase of the general idea, not a reproduction of IFS training material."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "firefighter",
+      "name": "The Firefighter",
+      "category": "protector",
+      "sort_order": 3,
+      "keywords": ["firefighter", "protector", "crisis"],
+      "sections": {
+        "Definition": "A firefighter is a part that acts after pain has already broken through — not preventing distress but putting it out immediately, by whatever means are on hand: distraction, a substance, a scroll, an outburst, a shutdown. Where a manager works to avoid the fire, a firefighter's whole job is what to do once the building is already burning.",
+        "Practice": "The move is not to fight the firefighter for control in the moment of crisis — that rarely works — but to get curious about it afterward: what was it trying to put out, and what does the part underneath actually need, that the firefighter's method does not provide?",
+        "Research note": "As with \"manager,\" \"firefighter\" is Schwartz's own labeling for this protector role, paraphrased here rather than quoted."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "exile",
+      "name": "The Exile",
+      "category": "burdened-part",
+      "sort_order": 4,
+      "keywords": ["exile", "burden", "protection"],
+      "sections": {
+        "Definition": "An exile is a part carrying something painful — often young, often formed around an experience that felt like too much to hold at the time. Exiles get pushed out of daily awareness by managers and firefighters, whose work exists largely to keep exiled pain from resurfacing and overwhelming the system.",
+        "Practice": "Direct work with an exile is not a solo or casual practice in this tradition — it typically calls for a trained practitioner, precisely because unblending an exile's pain without support can retraumatize rather than heal. What is safe to do alone is simply to notice, with curiosity, that a very old-feeling reaction has shown up, without immediately diving into it.",
+        "Research note": "The claim that early, unintegrated experience continues to shape present reactions is broadly shared across many psychotherapy traditions, not unique to IFS; IFS's specific contribution is relating to that material as a part with its own protectors, rather than as a symptom to suppress."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "inner-critic",
+      "name": "The Inner Critic",
+      "category": "protector",
+      "sort_order": 5,
+      "keywords": ["inner critic", "protector", "self-judgment"],
+      "sections": {
+        "Definition": "The inner critic is one of the most commonly named manager-type parts: a voice that scolds pre-emptively, often in a register borrowed almost verbatim from someone who once scolded you. Its logic is that catching your own flaws first is safer than being caught by someone else.",
+        "Practice": "Rather than arguing with the critic's content, the practice is to notice whose voice it actually sounds like, and to ask what it is afraid would happen if it went quiet — usually something specific, and usually something that made sense once.",
+        "Research note": "Naming a recurring self-critical pattern as a distinct \"part\" rather than as an accurate verdict on the self is common across parts-work and cognitive-therapy traditions alike; this item names it in parts-work's own terms specifically."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "blending",
+      "name": "Blending",
+      "category": "dynamic",
+      "sort_order": 6,
+      "keywords": ["blending", "merged", "no distance"],
+      "sections": {
+        "Definition": "Blending is this tradition's name for the moment a part takes over so completely that its voice feels like the whole of you, rather than one part speaking. A blended firefighter does not feel like \"a part of me wants to do this\" — it feels like \"I want to do this,\" full stop, with no visible space to question it.",
+        "Practice": "The practical skill this tradition teaches is noticing blending after the fact, if not during it, and treating that noticing itself as useful information rather than as evidence of failure. Unblending is not instant; it is a repeated practice of finding a little distance.",
+        "Research note": "Blending is a descriptive term within Schwartz's model rather than an independently validated clinical construct; it names a subjective experience many people recognize, which is different from a measured phenomenon."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "unburdening",
+      "name": "Unburdening",
+      "category": "process",
+      "sort_order": 7,
+      "keywords": ["unburdening", "release", "change"],
+      "sections": {
+        "Definition": "Unburdening is this tradition's name for what can happen when an exile's pain is finally witnessed by Self, with the protectors' consent — the part no longer needs to carry the same weight in the same way. It is framed as a release, not an erasure: the memory does not disappear, but the part's relationship to it changes.",
+        "Practice": "This is described here for completeness, not as an invitation to attempt it solo. Unburdening work is typically done with a trained practitioner, in a paced, consent-based way that includes the protectors who have been guarding the exile — skipping that structure is one of the more commonly cited risks in how this model gets used outside clinical settings.",
+        "Research note": "Unburdening is the model's own account of therapeutic change; it has not been isolated and measured as a distinct mechanism independent of the broader IFS protocol in the current research base."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-protectors",
+      "name": "The Protectors — Managers, Firefighters, and the Inner Critic",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["manager", "firefighter", "inner-critic"],
+      "keywords": ["protectors", "manager", "firefighter", "inner critic"],
+      "sections": {
+        "Definition": "Managers, firefighters, and the inner critic are all protectors in this model — parts organized around keeping an exile's pain from surfacing, whether by preventing it in advance (managers, the inner critic) or extinguishing it the moment it breaks through (firefighters). None of them are the pain itself; all of them are organized around it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-self-and-exile",
+      "name": "Self Meets Exile",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["self", "exile"],
+      "keywords": ["self", "exile", "witnessing"],
+      "sections": {
+        "Definition": "The central relationship this tradition describes: Self approaching an exile's pain with curiosity rather than the system's usual response of protecting against it. This is presented as the direction the work moves in, not as something to force or rush."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-the-work",
+      "name": "Blending and Unburdening — How the System Moves",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["blending", "unburdening"],
+      "keywords": ["blending", "unburdening", "change"],
+      "sections": {
+        "Definition": "Two ends of the same arc: blending names how completely a part can take over the system, and unburdening names what this tradition holds becomes possible once a part is met by Self instead of blended with or fought against."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "parts-work-root",
+      "name": "Parts Work — the Inner System",
+      "category": "root",
+      "level": 3,
+      "sort_order": 11,
+      "composite_of": ["group-protectors", "group-self-and-exile", "group-the-work"],
+      "keywords": ["parts work", "ifs", "internal family systems", "self-leadership"],
+      "sections": {
+        "Definition": "This tradition's core claim is that what feels like a single, continuous self is better described as a system of parts — each with its own role, history, and protective intention — organized around a steadier capacity, Self, that can be curious about any part without needing to become it, silence it, or obey it. Protectors (managers, firefighters, the inner critic among them) exist to keep exiled pain from resurfacing; the work this tradition describes is not eliminating any part, but changing the system's internal relationships, so protectors no longer have to work so hard and exiled pain can finally be met.",
+        "Not the trademarked model itself": "This grammar paraphrases the general architecture of parts work as popularized by Richard Schwartz's Internal Family Systems — parts, Self, protectors, exiles — in original prose. It does not reproduce IFS's specific proprietary protocols, session structures, or terminology set beyond the handful of now widely-used names (manager, firefighter, exile, Self) that appear throughout the broader parts-work literature. \"Internal Family Systems\" and \"IFS\" are trademarks of the IFS Institute; this is not an IFS-branded or IFS-certified resource.",
+        "Research note": "IFS has a growing, but still limited, independent trial base. A small number of peer-reviewed outcome studies exist — including a controlled trial of IFS-informed group therapy for rheumatoid arthritis (Shadick et al., 2013) and further studies in trauma-related and other contexts — and the model was for a period listed on SAMHSA's National Registry of Evidence-Based Programs and Practices. This is a meaningfully smaller and less independently replicated evidence base than long-established approaches like CBT or DBT; most of the model's development, case material, and specific technique claims still come primarily from Schwartz's own clinical writing rather than from independent research groups.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim IFS makes.* Parts work and this library's constructionist substrate agree on more than they first appear to: both resist the idea of a single, fixed emotional \"you\" underneath the noise, in favor of something built from multiple, situationally-activated processes. Where they part is in what holds the plurality together — IFS proposes Self as a real, stable, already-present capacity waiting to be accessed, while a strict constructionist reading would treat even \"Self\" as a constructed category, useful for organizing experience rather than a discovered fact about the mind's architecture. Both readings can use the same practice (get curious about a reaction rather than being run by it) without agreeing on the metaphysics underneath it."
+      },
+      "metadata": {
+        "evidence_tier": "growing",
+        "evidence_note": "Internal Family Systems has a small but expanding base of peer-reviewed outcome research (for example, a controlled trial for rheumatoid arthritis-related distress, and further studies in trauma and other clinical contexts) and was previously included on SAMHSA's National Registry of Evidence-Based Programs and Practices. This is real but limited independent replication compared to longer-established, more heavily studied therapies — \"growing\" rather than \"independently-replicated\" is the honest tier here, and much of the model's specific claims still rest on clinical case material rather than controlled research."
+      }
+    }
+  ]
+}

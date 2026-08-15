@@ -1,0 +1,208 @@
+{
+  "name": "Affektenlehre — the Baroque Doctrine of the Affections",
+  "description": "Affektenlehre (\"doctrine of the affections\") is the explicit 17th–18th century Baroque theory that music does not merely accompany or soothe feeling but represents specific, nameable affects through specific, nameable technical means — a key, a bass pattern, a rhythmic figure, a rhetorical device. Johann Mattheson catalogued distinct affective characters for individual musical keys in Das neu-eröffnete Orchestre (1713); Athanasius Kircher's Musurgia Universalis (1650) proposed a fuller physiological-and-cultural account of how music moves the affects; the musica poetica tradition running from Joachim Burmeister through Kircher and Christoph Bernhard catalogued named rhetorical figures, each conventionally carrying its own affective charge; Monteverdi explicitly theorized and claimed credit for a new musical device — the stile concitato — built to represent rage and warfare; and Descartes's early Compendium musicae (1618, decades before his Passions de l'âme) argued that rhythm and interval themselves excite specific passions. This school belongs in this library on its own terms, not as a footnote to the others: it is a taxonomy of feeling built for a genuinely non-verbal medium, something no other school gathered here can claim about its own working material. A period listener, hearing a descending chromatic bass line, could recognize \"lament\" without a single word being sung — that is the specific, checkable claim Affektenlehre makes, and no other framework in this collection makes an equivalent claim about its own medium.",
+  "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Athanasius_kircher%2C_musurgia_universalis%2C_sive_ars_magna_consoni_et_dissoni_%28frontespizio_di_j.p._schor%29%2C_1650_%28bncf%29.jpg",
+  "cover_image_credit": {
+    "title": "Musurgia Universalis, engraved frontispiece (designed by Johann Paul Schor)",
+    "creator": "Athanasius Kircher (author); Johann Paul Schor (frontispiece design)",
+    "date": "1650",
+    "source": "Biblioteca Nazionale Centrale di Firenze, photographed by Francesco Bini (Wikimedia username Sailko), via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Athanasius_kircher,_musurgia_universalis,_sive_ars_magna_consoni_et_dissoni_(frontespizio_di_j.p._schor),_1650_(bncf).jpg",
+    "license": "CC BY-SA 4.0 (photographer/institution license on the reproduction)",
+    "pd_basis": "The underlying 1650 engraving is centuries out of copyright; the CC BY-SA 4.0 tag is a fresh-rights claim by the photographing institution over the 2D reproduction itself, the same class of claim discussed in docs/SOURCES-AND-CAVEATS.md §2. Used and attributed exactly as the license requires — it is CC-BY-SA-compatible with this library's own content license and no equivalently clean PD-tagged scan of this specific frontispiece was found in the time available.",
+    "verified": "2026-08-15"
+  },
+  "image_credit": "Item images pair Kircher's 1650 Musurgia Universalis frontispiece (cover), the 1638 title page of Monteverdi's Madrigali guerrieri, et amorosi (the volume containing both Il Combattimento di Tancredi e Clorinda and Lamento della Ninfa), a leaf from an 18th-century manuscript copy of Purcell's Dido and Aeneas, and an engraved 1746 portrait of Mattheson. Allegrezza, melancholy, and the musica poetica figure tradition have no confidently-matched period image found in the time available and are left without one. See each item's metadata.image_credit for the specific object.",
+  "tags": ["emotions", "music", "philosophy", "baroque", "affektenlehre", "17th-century", "18th-century", "mattheson", "kircher", "monteverdi"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Four named affects (lamento, allegrezza, concitato, melancholy) plus the two main theoretical branches (Mattheson's key-characteristic catalogue, the musica poetica figure tradition) are represented. What is deliberately unwritten: Mattheson's much longer full key-by-key catalogue (this skeleton describes the system and a few named examples, not all twelve-plus keys); the dozens of further named affects and rhetorical figures the tradition catalogued beyond the ones described here (only four of Mattheson's affects and four of the figure tradition's dozens of figures are named at all, and none is given its own item); Kircher's physiological mechanism in any detail; and the doctrine's decline and eventual replacement by 19th-century organicist and expressive theories of music, which is not covered here at all.",
+  "_art_direction": {
+    "period_place": "17th–18th century Germany, Italy, and England — Hamburg (Mattheson), Rome (Kircher), Venice (Monteverdi), and London (Purcell). Baroque engraving, printed treatise title pages, and period instrument iconography are the natural visual register; portraiture of the theorists themselves is a secondary option where a treatise's own title page cannot be confidently sourced.",
+    "candidates": [
+      {
+        "name": "IMSLP (International Music Score Library Project)",
+        "url": "https://imslp.org/",
+        "note": "Hosts full digitized scans of Das neu-eröffnete Orchestre, Musurgia Universalis, and period scores of Monteverdi and Purcell; primarily for score pages and title pages, check each scan's own rights statement (many are library-hosted PD-old facsimiles)."
+      },
+      {
+        "name": "Bibliothèque nationale de France — Gallica",
+        "url": "https://gallica.bnf.fr/",
+        "note": "Holds period engraved portraits of Baroque theorists and composers (the Mattheson portrait used on this school's mattheson item is a Gallica-sourced Commons upload) and French Baroque instrument iconography."
+      },
+      {
+        "name": "Rijksmuseum — Rijksstudio",
+        "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+        "note": "Strong Dutch Golden Age holdings of period musical-instrument painting and engraving, useful for general Baroque instrument iconography not tied to a specific treatise."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Johann Mattheson",
+        "role": "source model",
+        "note": "Structural basis: Das neu-eröffnete Orchestre (1713), specifically its catalogue assigning a distinct affective character to individual musical keys. The 1713 German text is long out of copyright; no specific translation is quoted here — every section is original prose describing Mattheson's categories."
+      },
+      {
+        "name": "Athanasius Kircher",
+        "role": "source model",
+        "note": "Structural basis: Musurgia Universalis (1650), for the musica poetica rhetorical-figure tradition and Kircher's own broader claims about music's affective mechanism. No specific translation is quoted; the description is original."
+      },
+      {
+        "name": "Claudio Monteverdi",
+        "role": "source model",
+        "note": "Structural basis for the stile concitato item: the preface to Madrigali guerrieri, et amorosi (Book Eight, 1638), where Monteverdi describes inventing the genere concitato. This is a different, earlier, and specifically music-theoretic text from Descartes's Passions de l'âme (1649) covered in this library's separate descartes-passions school — Monteverdi's own claim, not Descartes's, is the source here. No text is quoted; the description is original."
+      },
+      {
+        "name": "René Descartes",
+        "role": "source text",
+        "note": "Structural basis for the allegrezza item's Compendium musicae reference: Descartes's Compendium musicae (1618), an early treatise on music and the passions, written three decades before and independently of his better-known Passions de l'âme (1649, covered separately in this library's descartes-passions school). No text is quoted."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "lamento",
+      "name": "Lamento — Lament and the Descending Tetrachord",
+      "category": "affect",
+      "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Henry_Purcell_-_Dido_and_Aeneas._%28BL_Add_MS_15979_f._4v%29.jpg",
+      "keywords": ["lament", "lamento", "descending tetrachord", "ground bass", "monteverdi", "purcell"],
+      "sections": {
+        "Definition": "Lamento names a conventionalized Baroque musical sign for grief and loss, most famously carried by a specific technical device: a ground bass (basso ostinato) built on a descending tetrachord — four stepwise descending notes from the tonic toward the dominant, often chromaticized — repeated underneath a vocal line of mourning. Monteverdi's Lamento della Ninfa (from Madrigali guerrieri, et amorosi, Book Eight, 1638) and Purcell's \"When I am laid in earth\" (Dido's Lament, from Dido and Aeneas, 1689, built on a chromatic descending ground) are the two most cited examples in the surviving repertoire.",
+        "The device, not just the mood": "Lamento is not simply \"sad music\" in the vague modern sense. Baroque composers and their listeners both recognized the descending bass line itself as a rhetorical sign of lament, independent of the words being sung above it — a genuinely non-verbal grammar of grief, teachable and reusable across different texts, different composers, and different decades. Music-theoretic scholarship has identified the descending tetrachord specifically as a recurring emblem of lament across 17th-century opera, not a coincidence repeated by chance.",
+        "Research note": "The device outlived the period most associated with it: Bach's Crucifixus, from the Mass in B minor (compiled c. 1748–49), reuses a descending ostinato bass for the same affective purpose — evidence that the lament-bass convention had become a genuinely shared vocabulary across generations of composers, not one composer's private idiom."
+      },
+      "metadata": {
+        "emotion_key": "lamento",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Henry_Purcell_-_Dido_and_Aeneas._(BL_Add_MS_15979_f._4v).jpg",
+        "image_credit": "Leaf from an 18th-century manuscript copy of Purcell's Dido and Aeneas (British Library, Add MS 15979, f. 4v) — Wikimedia Commons, public domain (PD-old / Public Domain Mark 1.0). This is a general leaf from the opera's manuscript tradition, not the lament page itself, used here as period documentation of the work that contains Dido's Lament."
+      }
+    },
+    {
+      "id": "allegrezza",
+      "name": "Allegrezza — Joy",
+      "category": "affect",
+      "sort_order": 2,
+      "keywords": ["joy", "allegrezza", "descartes", "compendium musicae", "major mode"],
+      "sections": {
+        "Definition": "Allegrezza (joy, gladness) is one of the affects Baroque theorists held music could directly represent through specific, nameable means: major mode, quick tempo, ascending leaps, dance-derived rhythm (the gigue or courante among the most cited), and periodic, symmetrical phrasing. Descartes's own Compendium musicae (1618, written at age twenty-two, three decades before his Passions de l'âme) is an early statement of the link — Descartes argues there that quick, smooth rhythms and consonant intervals naturally excite gaiety, while slow rhythms and harsher intervals excite sadness, treating rhythm and interval themselves as affect-bearing rather than merely pleasant or unpleasant.",
+        "A period term folded into technical vocabulary": "Allegrezza and its close cousin allegro — the Italian tempo marking meaning quick or lively, still printed at the top of scores today — share the same root. That an ordinary tempo instruction is, historically, an affect word is one of the clearest surviving traces of how completely the doctrine of the affections once fused technical musical vocabulary with emotional claim; a modern player reading \"allegro\" is unknowingly reading a 17th-century affect label.",
+        "Research note": "Johann David Heinichen's Der General-Bass in der Composition (1728) independently catalogued major/minor key associations with cheerful and mournful affects, working in parallel with — and not always agreeing with — Mattheson's better-known 1713 catalogue (see the mattheson-key-characteristics item in this deck)."
+      },
+      "metadata": {
+        "emotion_key": "allegrezza"
+      }
+    },
+    {
+      "id": "concitato",
+      "name": "Stile Concitato — Rage, Monteverdi's Invention",
+      "category": "affect",
+      "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Monteverdi_-_Madrigali_guerrieri_et_amorosi.jpg",
+      "keywords": ["rage", "anger", "concitato", "monteverdi", "warfare"],
+      "sections": {
+        "Definition": "The genere concitato (agitated or warlike genre) is a musical device Monteverdi explicitly claims as his own discovery, announced in the preface to Madrigali guerrieri, et amorosi (Book Eight, 1638). Monteverdi describes finding no existing musical means adequate to represent anger and warfare, and invents one: rapid reiterated notes on a single pitch (a measured tremolo, commonly sixteen repeated semiquavers to a beat), string tremolo, and fast triadic figuration — most fully demonstrated in Il Combattimento di Tancredi e Clorinda (1624), published in the same 1638 volume.",
+        "Explicitly theorized, not simply composed": "Monteverdi frames the invention in specifically Platonic terms — he presents the genere concitato as a third register alongside the soft (molle) and moderate (temperato) styles already in use, modeling his three genera on the ancient description, via Plato's Republic and Boethius, of music's power to move the soul to different states. This makes stile concitato arguably the single clearest documented case in the whole Affektenlehre tradition of a composer explicitly theorizing, naming, and taking personal credit for a new device built to represent one specific affect — most of the doctrine's other devices are attributed by later theorists rather than claimed by their own composers in print.",
+        "Research note": "The reiterated-note tremolo becomes a standard convention for battle and anger music well beyond Monteverdi's own output, recurring throughout later Baroque battaglia pieces — arguably a direct ancestor of orchestral string tremolo as a general excitement-marker still in use today, long after the specific stile concitato label fell out of use."
+      },
+      "metadata": {
+        "emotion_key": "concitato",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Monteverdi_-_Madrigali_guerrieri_et_amorosi.jpg",
+        "image_credit": "Title page, Claudio Monteverdi, Madrigali guerrieri, et amorosi (Book Eight), Venice, 1638 — the volume containing both Il Combattimento di Tancredi e Clorinda and the preface announcing the genere concitato. Wikimedia Commons, public domain (PD-old and Public Domain Mark 1.0; Monteverdi died 1643)."
+      }
+    },
+    {
+      "id": "melancholy",
+      "name": "Melancholy — the Affect and Its Humoral Root",
+      "category": "affect",
+      "sort_order": 4,
+      "keywords": ["melancholy", "minor key", "mattheson", "humoral", "affektenlehre"],
+      "sections": {
+        "Definition": "Melancholy is one of the most frequently invoked affects in the whole Affektenlehre tradition, alongside joy — represented musically through minor keys, slow tempo, chromatic and suspension-laden harmony, and descending melodic contour.",
+        "Downstream of humoral theory, not invented fresh": "Baroque affect theorists inherited melancholy as an existing category wholesale from Galenic humoral medicine, still the dominant Western account of temperament when Mattheson and Kircher were writing. They did not discover melancholy as a musical affect from first principles; they mapped an already centuries-old medical and temperament category onto specific musical means. This library's humoral-temperaments school treats the same category from the bodily-fluid side rather than the musical-representation side — see the cross-link on this item.",
+        "Research note": "Mattheson's own key catalogue differentiates melancholy's exact shade by specific key choice rather than treating all minor keys as interchangeable: he assigns some minor keys a character closer to devout, tranquil resignation, and others a character closer to sharper anguish or despair — a finer grain than a simple major-cheerful/minor-sad binary."
+      },
+      "metadata": {
+        "emotion_key": "melancholy",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "melancholic",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      }
+    },
+    {
+      "id": "mattheson-key-characteristics",
+      "name": "Mattheson's Key Characteristics (Das neu-eröffnete Orchestre, 1713)",
+      "category": "theoretical-monument",
+      "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Johann_Mattheson_by_Haid.jpg",
+      "keywords": ["mattheson", "key characteristics", "1713", "affektenlehre"],
+      "sections": {
+        "Definition": "Johann Mattheson (1681–1764), Hamburg composer, critic, and theorist, published Das neu-eröffnete Orchestre (\"The Newly-Opened Orchestra\") in 1713, the first installment of a planned guide for the cultivated amateur listener. Among its content is an explicit catalogue assigning a specific affective character to individual major and minor keys — not a general claim that minor keys sound sad, but named, differentiated characters key by key: he describes some keys as suited to extravagant, boisterous joy, others to devout calm, others to profound despair, treating the available keys as offering as many distinct affective colors as there are keys themselves.",
+        "A working catalogue, not a fixed canon": "Mattheson's own list did not stay fixed even within his own career — he revised several key characterizations in his later Der vollkommene Capellmeister (1739) — and other contemporary theorists proposed overlapping but not identical catalogues of their own (see the Heinichen reference on the allegrezza item). The exact affect assigned to a given key was itself an object of debate inside the tradition, not a settled fact handed down once and repeated unchanged.",
+        "Research note": "Key-characteristic theory is one of the Affektenlehre's two explicit theoretical branches represented in this skeleton, the other being the musica poetica rhetorical-figure tradition (see the companion item in this deck) — the two systems organize the same underlying claim (specific musical means, specific affects) around different technical levers: key choice versus named compositional figure."
+      },
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Johann_mattheson.jpg",
+        "image_credit": "Portrait of Johann Mattheson, engraving by Johann Jakob Haid (1704-1767) after a painting by Johann Salomon Wahl, 1746 — Bibliothèque nationale de France (Gallica), via Wikimedia Commons, public domain (PD-old). A period portrait of the theorist, not an illustration of the treatise itself."
+      }
+    },
+    {
+      "id": "musica-poetica-figures",
+      "name": "Musica Poetica — the Rhetorical-Figure Tradition",
+      "category": "theoretical-monument",
+      "sort_order": 6,
+      "keywords": ["figurenlehre", "musica poetica", "burmeister", "kircher", "rhetoric"],
+      "sections": {
+        "Definition": "Alongside key-characteristic theory, German theorists from Joachim Burmeister (Musica Poetica, 1606) through Athanasius Kircher (Musurgia Universalis, 1650) and later Christoph Bernhard developed a parallel system: musica poetica, treating musical composition as a branch of rhetoric, with named figures borrowed from and modeled on classical oratory's own catalogue of tropes, each figure conventionally carrying its own expressive charge. Catabasis (a descending line, for descent, death, or sorrow), anabasis (an ascending line, for rising or exaltation), suspiratio (a musical \"sigh,\" typically a rest breaking a phrase), and passus duriusculus (a chromatically \"hardened\" stepwise line, for grief or anguish — the same device underlying the lamento tetrachord) are among the dozens of figures the tradition named and catalogued.",
+        "Kircher's wider claim": "Kircher's Musurgia Universalis (1650) goes beyond a figure catalogue. It proposes that music's power to move different affects operates partly through physiology — his own account of how vibrating air moves the animal spirits, adjacent to but developed independently of Descartes's mechanism — and partly through convention, and he further speculates that different peoples and temperaments respond differently to the same music: an early, explicit statement, inside the doctrine itself, that a figure's affective charge is not simply a universal fact about sound.",
+        "Research note": "The named figures were pedagogical tools for composition students as much as descriptive analysis after the fact — the tradition explicitly taught composers to reach for a named figure to produce a named affect. This is part of why the school's central inclusion argument (a taxonomy of feeling built for a non-verbal medium) holds especially cleanly for musica poetica specifically: the figures were designed, catalogued, and taught as a working vocabulary at the time, not read into the music retrospectively by modern analysts."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-affections",
+      "name": "The Named Affects",
+      "category": "group",
+      "level": 2,
+      "sort_order": 7,
+      "composite_of": ["lamento", "allegrezza", "concitato", "melancholy"],
+      "sections": {
+        "Definition": "The four affects this skeleton represents by name — lament, joy, rage, and melancholy — each carrying its own conventionalized musical means: a ground-bass pattern, a mode-and-tempo profile, a rhythmic device, a key-and-harmony profile, respectively, rather than one shared technique for all four. Baroque theorists named many more than four (Mattheson's own key catalogue alone runs to a dozen or more finer shades); this group holds the four best-documented and most frequently cited across the tradition's surviving theoretical writing and repertoire."
+      },
+      "keywords": ["affektenlehre", "affects"],
+      "metadata": {}
+    },
+    {
+      "id": "affektenlehre-root",
+      "name": "Affektenlehre — the Doctrine of the Affections",
+      "category": "root",
+      "level": 3,
+      "sort_order": 8,
+      "composite_of": ["group-affections", "mattheson-key-characteristics", "musica-poetica-figures"],
+      "sections": {
+        "Definition": "Affektenlehre names the explicit 17th–18th century Baroque theory, articulated across multiple overlapping strands — Mattheson's key-characteristic catalogue, the musica poetica rhetorical-figure tradition running from Burmeister through Kircher, Monteverdi's own theorized stile concitato, and Descartes's earlier Compendium musicae — that music does not merely accompany or soothe feeling but represents specific, nameable affects through specific, nameable technical means: a key, a bass pattern, a rhythmic figure, a rhetorical device. Baroque theorists and composers treated the connection between a musical device and an affect as conventionalized and teachable — a working system, catalogued in treatises, taught to composition students, and legible to a period audience as a kind of grammar, not a vague or private association.",
+        "A taxonomy of feeling in a non-verbal medium": "This is the strongest argument for this school's place in this library, and it is worth stating plainly rather than leaving implicit. Every other school gathered here builds its account of feeling on top of language, cognition, or bodily state: a philosophical argument reasoned and written in words (Descartes, Aquinas), a physiological claim about bodily fluids (the humours), a facial or postural signal (Darwin, Ekman), a felt bodily sense mapped onto a spoken vocabulary of needs (NVC). Affektenlehre is the one school in this collection whose entire working medium is non-verbal: it is a theory of how a wordless art form — melody, harmony, rhythm, key, bass line — can name and represent a specific affect as reliably, within its own convention and for its own period audience, as a word can. That a period listener, hearing a descending chromatic tetrachord under a vocal line, could recognize \"lament\" without a single word being sung is exactly the kind of claim no other framework in this library makes about its own medium.",
+        "Research note": "The doctrine was never a single unified system with one canonical text. Mattheson's key catalogue, the musica poetica figure tradition, and Kircher's broader physiological-and-cultural speculation coexisted, overlapped, and sometimes disagreed on specifics (Mattheson revised his own catalogue between 1713 and 1739; Heinichen's catalogue did not match Mattheson's). What stays stable across the variants is the shared premise — specific musical means correspond to specific affects, by convention, teachably — not any single agreed inventory of which means match which affect.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim any Baroque theorist made.* Affektenlehre already resembles a constructionist account more than most theoretical schools in this library, in one narrow respect: its own theorists generally did not claim their key-to-affect or figure-to-affect mappings were universal, fixed facts about sound and feeling, discoverable outside their own musical convention — Mattheson revised his own catalogue, rival theorists proposed different ones, and the tradition treated that as ordinary theoretical disagreement rather than as evidence someone had measured wrong. What a constructionist account adds, and what the doctrine's own writers do not generally claim, is the fuller consequence: that the entire premise of a fixed, catalogable affect-to-device mapping is itself one workable 17th–18th century European interface among many possible ones for organizing feeling through sound, not a discovery about what music inherently and universally means."
+      },
+      "keywords": ["affektenlehre", "baroque", "mattheson", "kircher", "doctrine of the affections"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Affektenlehre is a historical compositional and rhetorical doctrine — a set of conventions Baroque composers and theorists built, taught, and debated among themselves — not an empirical claim about how listeners actually respond to music, then or now. No controlled study of period or modern listener response is claimed anywhere in the surviving primary sources this school describes; the tradition's authority rests on theoretical treatises and compositional practice, not on experiment."
+      }
+    }
+  ]
+}
