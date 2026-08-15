@@ -94,7 +94,7 @@
           showRibbon();
         } else {
           var rs = document.createElement('script');
-          rs.src = PFX + 'viewers/oracle-ribbon.js?v=2';
+          rs.src = PFX + 'viewers/oracle-ribbon.js?v=4';
           rs.onload = showRibbon;
           document.head.appendChild(rs);
         }
