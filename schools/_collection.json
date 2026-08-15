@@ -19,6 +19,14 @@
       ]
     },
     {
+      "id": "brain-and-body",
+      "name": "Brain & Body",
+      "_note": "Accounts that explain feeling by its implementation in nervous tissue — which region, which circuit, which network. No other branch here asks that question: constitution asks what a person is made of, expression asks how feeling is shown, the basic-emotion schools ask how it is sorted.",
+      "school_slugs": [
+        "neuroscience-of-emotion"
+      ]
+    },
+    {
       "id": "basic-emotion",
       "name": "Basic-Emotion Schools",
       "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
@@ -103,7 +111,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 142,
+      "items": 151,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -362,6 +370,22 @@
       "items": 18,
       "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Robert_Fludd%2C_Integra_naturae_speculum_artisque_imago.jpg",
       "path": "schools/jungian-archetypes/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "neuroscience-of-emotion",
+      "name": "Neuroscience of Emotion — Where Feeling Lives in the Body",
+      "common_name": "Neuroscience of Emotion — Where Feeling Lives in the Body",
+      "type": "custom",
+      "branch": "brain-and-body",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 13,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gray739-emphasizing-hippocampus.png",
+      "path": "schools/neuroscience-of-emotion/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
