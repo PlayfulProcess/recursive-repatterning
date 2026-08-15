@@ -1,0 +1,13 @@
+{
+  "_note": "Manifest for the tools/ layer — see docs/PLAN-practices-layer.md. Each entry's `schools` array names the school slugs (schools/<slug>/grammar.json) the tool practises; the relation lives here, not in the grammar, per CLAUDE.md's one-cross-link-pattern rule (no new grammar-side link field). needs_ai / needs_auth are both false for every tool in this Phase-1 pass — nothing here calls a model or requires sign-in.",
+  "tools": [
+    {
+      "id": "nvc-journaling",
+      "title": "NVC Journaling",
+      "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, no AI, nothing saved.",
+      "schools": ["nvc-needs"],
+      "needs_ai": false,
+      "needs_auth": false
+    }
+  ]
+}
