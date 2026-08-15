@@ -1,0 +1,256 @@
+{
+  "name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
+  "description": "Dialectical Behavior Therapy (DBT), after Marsha Linehan's published work from the late 1980s onward, organizes a skills-training curriculum around a single structural claim: acceptance and change are not opposites to choose between but two poles that have to be held together at once. The word \"dialectical\" names that stance directly — a thesis (things are acceptable exactly as they are) and an antithesis (things need to change) are synthesized rather than resolved in favor of one side. DBT's skills training divides into four modules. Mindfulness supplies the foundation — the capacity to notice what is actually happening, inside and outside, before doing anything about it. Distress tolerance and emotion regulation split the acceptance/change axis most visibly: distress tolerance is largely acceptance-oriented (how to survive a crisis, or a moment that cannot yet be changed, without making it worse), while emotion regulation is largely change-oriented (how to shift an emotional response that doesn't fit the facts or isn't working). Interpersonal effectiveness applies the same dialectic to relationships — getting what you want, keeping the relationship, and keeping your self-respect are three goals that can conflict, and part of the skill is naming which one a given interaction is actually for. DBT was developed originally for adults with chronic suicidality and self-harm meeting criteria for borderline personality disorder, and has since been adapted for a wider range of populations and presentations.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. DBT is a living, contemporary clinical model with no period art to draw on — its own manuals, worksheets, and any branded diagrams are copyrighted. Generic stock photography of therapy or crisis was considered and rejected for the same reason argued elsewhere in this library (see schools/nvc-needs, schools/parts-work): it would not depict this model specifically, and off-the-shelf 'calm person breathing' imagery risks implying a fixed visual signature this library avoids everywhere else. Leaving the school unillustrated is judged better than a generic or misleading substitute.",
+  "tags": ["dbt", "dialectical-behavior-therapy", "linehan", "mindfulness", "distress-tolerance", "emotion-regulation", "interpersonal-effectiveness", "dialectics", "wise-mind", "radical-acceptance"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "roots": ["behavioral-science"],
+  "shelves": ["wisdom"],
+  "lineages": ["Linehan"],
+  "worldview": "dialectical",
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, adapted from the taxonomy (not the voice) of _seeds/grammars/dbt-wise-heart.json — a 35-item companion grammar that retells DBT's four modules as myth-based narratives for a children's audience, with recurring character-guide sections, singable mnemonic sections, and a caregiver-translation section per item. That seed is a good, deliberate piece of work for its own audience; it is not this library's register. This grammar keeps only the skill taxonomy and module structure and writes it in adult clinical-library prose from scratch — no narrative retellings, no mnemonic verses, no character voices, no children's-companion framing survive the port. Unwritten here: the adolescent-specific DBT curriculum (the dialectics-focused module added later for family/teen work); the specific distress-tolerance acronyms this grammar names only descriptively (TIP, ACCEPTS, IMPROVE) rather than walking step-by-step, since spelling out a full mnemonic checklist starts to shade into reproducing a handout rather than describing a concept; chain analysis and diary cards, DBT's core self-monitoring tools, which are procedural/clinical rather than conceptual and are not attempted here; and any item-level Research note citing specific extension-population trials (adolescents, eating disorders, substance use) beyond what the root item's evidence_note summarizes in aggregate.",
+  "_art_direction": {
+    "period_place": "Dialectical Behavior Therapy was developed by Marsha Linehan from the late 1980s onward, in the United States — a contemporary clinical model, not a historical tradition, with no comparable period-art problem to solve and no public-domain visual record of its own to draw on.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic still-water, weather, or open-hands imagery that does not claim to depict DBT specifically but fits the register of holding two things at once."
+      },
+      {
+        "name": "Wikimedia Commons — contemporary photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY images with a quiet, weathered-but-steady register (a held object, a horizon line, cupped hands); confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "This library's own schools/parts-work and schools/nvc-needs precedent",
+        "url": "schools/parts-work/grammar.json",
+        "note": "Both sibling contemporary-clinical schools in this library ship unillustrated rather than reach for generic stock or a borrowed visual signature — the working precedent if this school is ever illustrated."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Marsha M. Linehan and the Dialectical Behavior Therapy tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the four-module skills curriculum (Mindfulness, Distress Tolerance, Emotion Regulation, Interpersonal Effectiveness) and the acceptance/change dialectic organizing it, developed by Marsha Linehan from the late 1980s onward. Linehan's manuals, skills handouts, and worksheets remain in copyright; no text is quoted or reproduced from them. Every item on this deck is original prose describing and paraphrasing the general shape of each skill, not a copy of any published wording, handout, or worksheet."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "wise-mind",
+      "name": "Wise Mind",
+      "category": "mindfulness",
+      "sort_order": 1,
+      "keywords": ["wise mind", "reasonable mind", "emotion mind", "synthesis"],
+      "sections": {
+        "Definition": "DBT describes two familiar states of mind that pull in different directions: reasonable mind, which reasons from logic, facts, and plans while screening out what it can't quantify, and emotion mind, which reasons from what is felt right now and can crowd out anything that doesn't match that feeling. Wise mind is not a third, separate mode competing with the other two — it is the region where reasonable mind and emotion mind overlap, the synthesis that includes what the facts say and what the feeling says without discarding either. It is DBT's foundational mindfulness concept because every other skill in this grammar assumes a person can, at least sometimes, act from that overlap rather than from either extreme alone.",
+        "Practice": "Wise mind is described in DBT as something closer to a capacity than an achievement — most people have touched it already, in a decision that felt neither purely calculated nor purely impulsive but simply right. The practice is less about generating wise mind from nothing and more about noticing when reasonable mind or emotion mind has taken over completely, and asking what the other one would add before acting.",
+        "Research note": "Wise mind, like several core-mindfulness concepts here, is a clinical construct drawn substantially from contemplative practice (Linehan has written about the influence of Zen training on DBT's mindfulness component) rather than an independently measured psychological trait. It functions as a teaching frame and a shared vocabulary between client and therapist more than as something a trial isolates and scores."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "mindfulness-what-how-skills",
+      "name": "The What and How Skills",
+      "category": "mindfulness",
+      "sort_order": 2,
+      "keywords": ["observe", "describe", "participate", "non-judgmentally", "one-mindfully", "effectively"],
+      "sections": {
+        "Definition": "DBT's core mindfulness skills split into two sets answering two different questions. The 'what' skills — observing, describing, and participating — answer what a person actually does to be mindful: noticing an experience as it arises, putting words to it without over- or under-stating it, and eventually entering fully into an activity rather than watching oneself do it from a distance. Only one of the three happens at a time. The 'how' skills — doing this non-judgmentally, one-mindfully, and effectively — answer the manner in which it's done: describing what is happening rather than evaluating it as good or bad, doing one thing at a time instead of splitting attention across several, and orienting toward what actually works in a situation rather than toward being right or being validated as fair.",
+        "Practice": "These skills are usually built one at a time and in short bursts — noticing three things in a room, naming a feeling as precisely as possible without the word 'good' or 'bad' attached, doing one ordinary task (a meal, a walk) without also planning the next one. The 'how' skills are frequently the harder half in practice: it is easier to observe something than to observe it without silently ranking it.",
+        "Research note": "The what/how framing is Linehan's own organizing structure for core mindfulness within DBT; the description here is this library's paraphrase of the general shape of that structure, not a reproduction of any specific handout's wording or exercises."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "radical-acceptance",
+      "name": "Radical Acceptance",
+      "category": "distress-tolerance",
+      "sort_order": 3,
+      "keywords": ["radical acceptance", "reality", "non-acceptance", "suffering"],
+      "sections": {
+        "Definition": "Radical acceptance is DBT's name for accepting reality completely — with the mind, the body, and the felt sense all in agreement — rather than fighting, denying, or bargaining with something that has already happened or is already true. It is explicitly not the same as approving of it, agreeing that it should have happened, or giving up on changing what can still be changed going forward. DBT frames the distinction sharply: pain is close to unavoidable in a life, but the refusal to accept that pain is what tends to turn it into prolonged suffering on top of the pain itself. Accepting a painful fact doesn't make the fact stop hurting; it stops the added layer of fighting the fact as well as feeling it.",
+        "Practice": "Radical acceptance is described in DBT as a repeated choice rather than a single decision — turning the mind back toward accepting what is, over and over, each time it drifts back into arguing with reality. It is deliberately not passive: accepting that a situation is real is a precondition for doing anything effective about it, not a substitute for action.",
+        "Research note": "Radical acceptance draws heavily on contemplative and Buddhist frameworks of non-resistance, adapted by Linehan into a specifically clinical distress-tolerance skill; it is a well-established teaching concept within DBT rather than an outcome that has been isolated and measured on its own, separate from the distress-tolerance module as a whole."
+      },
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "self",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "crisis-survival-skills",
+      "name": "Crisis Survival Skills",
+      "category": "distress-tolerance",
+      "sort_order": 4,
+      "keywords": ["crisis survival", "distraction", "self-soothe", "tipp", "body"],
+      "sections": {
+        "Definition": "Where radical acceptance addresses a person's ongoing stance toward reality, crisis survival skills address a specific, time-limited moment that cannot be changed or fully processed right now and needs to be gotten through without making things worse. DBT groups several families of technique here: body-based skills that use physiology to shift an overwhelmed nervous system quickly (cold water, brief intense exercise, slowed breathing, and progressive muscle tension-and-release all work on the body directly, faster than reasoning does); distraction skills that redirect attention on purpose, for a limited time, toward something other than the crisis; and self-soothing skills that use the five senses deliberately to calm rather than to escape. None of these are aimed at solving the underlying problem — that is emotion regulation's job, once the crisis has passed.",
+        "Practice": "Crisis survival skills work best when they've been practiced before a crisis, not improvised during one — a body under acute stress has little capacity to invent a new coping strategy from scratch. DBT frames these as things to rehearse while calm precisely so they're available on reflex when calm is unavailable.",
+        "Research note": "The body-based techniques here rest on established physiological mechanisms (for example, cold-water facial immersion triggering the mammalian dive reflex, which slows heart rate) that predate DBT; Linehan's contribution was assembling them into a structured, teachable crisis-survival skill set within a broader treatment model, not discovering the underlying physiology."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "check-the-facts",
+      "name": "Check the Facts",
+      "category": "emotion-regulation",
+      "sort_order": 5,
+      "keywords": ["check the facts", "interpretation", "assumption", "fit"],
+      "sections": {
+        "Definition": "An emotional reaction is generated not directly by an event but by the interpretation of that event — and interpretations, unlike raw sensory facts, can be mistaken. Check the facts is DBT's skill for testing whether an emotion's intensity and content actually fit the situation as it verifiably is, by separating the observable event from the story being told about it, naming the assumptions embedded in that story, and asking whether a different, equally plausible interpretation would produce a different feeling. The emotion itself is never treated as false in this skill — only the story attached to it is up for review.",
+        "Practice": "In practice this is closer to a short internal cross-examination than a single question: what happened, specifically and observably; what am I assuming about why it happened or what it means; is there another explanation that fits the same facts; and does the size of my reaction match the facts once the assumption is set aside. When the emotion does fit the facts, this skill's job is done — the next move is a different one (often opposite action or problem solving), not further scrutiny of a reaction that was accurate all along.",
+        "Research note": "Check the facts overlaps substantially with cognitive-reappraisal techniques used across cognitive-behavioral therapies more broadly; DBT's specific contribution is situating it inside a distress-tolerance-first sequence, applied after a person has enough regulation available to examine an interpretation rather than simply be run by it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "opposite-action",
+      "name": "Opposite Action",
+      "category": "emotion-regulation",
+      "sort_order": 6,
+      "keywords": ["opposite action", "action urge", "emotion change"],
+      "sections": {
+        "Definition": "Every emotion carries an action urge attached to it — anger toward attacking or confronting, fear toward avoiding or fleeing, sadness toward withdrawing, shame toward hiding. Opposite action is the skill of deliberately acting against that urge, all the way and not half-heartedly, specifically in the cases where the emotion either doesn't fit the facts of the situation or does fit the facts but acting on it wouldn't be effective or wouldn't match the person's own goals. It is not a general instruction to override feelings; DBT is explicit that when an emotion does fit the facts and acting on it would work, the skill isn't opposite action at all — it's acting on the emotion.",
+        "Practice": "The mechanism DBT describes is that emotions are partly maintained by the actions and body language that go with them, so a full, committed shift in action — approaching rather than avoiding, softening the voice and posture rather than confronting, engaging rather than withdrawing — can shift the emotion itself over time, not just mask it. A half-committed version (technically approaching while visibly still fleeing) doesn't produce the same effect.",
+        "Research note": "Opposite action shares its behavioral logic with exposure-based techniques used in anxiety and fear treatment more broadly (approaching an avoided situation reduces the fear response over repeated trials); DBT extends the same underlying mechanism across the full range of emotions rather than fear specifically."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "please-and-building-mastery",
+      "name": "PLEASE and Building Mastery",
+      "category": "emotion-regulation",
+      "sort_order": 7,
+      "keywords": ["please skills", "build mastery", "vulnerability", "prevention"],
+      "sections": {
+        "Definition": "Two DBT emotion-regulation skills work on the same principle from different directions: reduce the body's baseline vulnerability to emotional reactivity before a triggering moment arrives, rather than only responding once it has. The physical-care cluster covers treating physical illness, eating in a regulated way, avoiding mood-altering substances, sleeping adequately, and getting physical exercise — ordinary bodily maintenance that DBT treats as directly clinically relevant, since a sleep-deprived or under-fed nervous system reacts more intensely to the same trigger than a rested, fed one would. Building mastery is the complementary skill of engaging regularly, ideally daily, in an activity that is genuinely somewhat challenging but achievable, producing an ongoing sense of competence that acts as a buffer against the sense of helplessness that intensifies emotional crises.",
+        "Practice": "Because both skills are preventive rather than in-the-moment, DBT frames them as scheduled practices rather than crisis responses — checked the way a person might check a physical health habit, not reached for only when things are already going wrong. A common clinical move is to ask, when someone's regulation has broken down, which of these basics slipped first, since the emotional crisis is often a body-and-routine crisis wearing a different name.",
+        "Research note": "The physical-vulnerability-reduction cluster and build-mastery are grouped together within DBT's own emotion-regulation module as complementary prevention skills; both rest on well-established general findings connecting sleep, physical health, substance use, and perceived competence to emotional resilience, applied here as a structured DBT skill rather than as a novel discovery specific to this model."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "dear-man",
+      "name": "DEAR MAN",
+      "category": "interpersonal-effectiveness",
+      "sort_order": 8,
+      "keywords": ["dear man", "assertiveness", "objective effectiveness", "requesting"],
+      "sections": {
+        "Definition": "DEAR MAN is DBT's structured approach to asking for something or declining something, aimed at objective effectiveness — actually getting the outcome a person wants from an interaction. It moves through describing the situation in concrete, factual terms rather than in loaded language; expressing feelings or opinions about the situation directly, using 'I' statements rather than assuming the other person already understands; asserting the specific request or refusal clearly, without hinting at it or expecting it to be inferred; and reinforcing, meaning stating or showing what the other person gains from agreeing. Alongside those four steps sit three stances a person holds throughout the interaction: staying mindful of the actual goal rather than getting pulled into a side argument, appearing confident through tone and posture even when not feeling it internally, and staying willing to negotiate rather than treating the first ask as all-or-nothing.",
+        "Practice": "DBT typically has people script a DEAR MAN in advance for a specific, planned conversation, then rehearse it, since the structure is easiest to hold onto before emotional stakes are live rather than mid-conversation. Reinforcement is the step most often skipped in practice, even though DBT treats it as doing real persuasive work.",
+        "Research note": "DEAR MAN belongs to a broader family of structured assertiveness-training techniques with roots in behavioral therapy predating DBT; Linehan's specific contribution was this acronym and its integration into a wider interpersonal-effectiveness module organized explicitly around competing priorities, described in the sibling item on GIVE, FAST, and the three priorities."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "give-fast-and-priorities",
+      "name": "GIVE, FAST, and the Three Priorities",
+      "category": "interpersonal-effectiveness",
+      "sort_order": 9,
+      "keywords": ["give", "fast", "self-respect", "relationship effectiveness", "priorities"],
+      "sections": {
+        "Definition": "DBT names three distinct things a person might be trying to accomplish in a difficult interaction — getting the concrete outcome (objective effectiveness, DEAR MAN's territory), preserving the relationship (relationship effectiveness), and preserving self-respect (self-respect effectiveness) — and treats naming which one actually matters most, right now, as a skill in itself, because pursuing all three fully and at once is often not possible. GIVE addresses relationship effectiveness: being gentle rather than attacking, staying genuinely interested in the other person's side, validating their perspective as understandable even while disagreeing with it, and keeping an easy manner rather than a grim or demanding one. FAST addresses self-respect effectiveness: being fair to oneself as well as to the other person, not over-apologizing for things that aren't actually one's fault, sticking to one's own values under social pressure to abandon them, and being truthful rather than exaggerating or lying to smooth over a conflict.",
+        "Practice": "DBT frames the choice among the three priorities as genuinely dialectical rather than a formula to solve: sometimes getting the objective matters more than staying easy about it (a safety issue), sometimes the relationship matters more than winning the specific point, and sometimes self-respect has to take precedence even at real cost to the other two. The practice is naming, before or during the interaction, which priority is actually driving it — rather than defaulting to whichever one is habitual.",
+        "Research note": "GIVE and FAST, like DEAR MAN, are Linehan's own acronyms organizing DBT's interpersonal-effectiveness module; the three-priorities framing that ties them together is DBT's structural claim that different interpersonal goals genuinely compete, rather than a claim that any one of the three is always correct."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-mindfulness",
+      "name": "Mindfulness",
+      "category": "module",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["wise-mind", "mindfulness-what-how-skills"],
+      "relationship_type": "emergence",
+      "keywords": ["mindfulness", "core mindfulness", "foundation"],
+      "sections": {
+        "Definition": "Mindfulness is the module DBT teaches first and returns to throughout the others, because every other skill assumes a person can notice what's actually happening before responding to it. Wise mind names the capacity being trained — the overlap of reasonable and emotion mind rather than either alone — and the what/how skills name the concrete practices (observing, describing, participating; doing each non-judgmentally, one-mindfully, and effectively) that build it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-distress-tolerance",
+      "name": "Distress Tolerance",
+      "category": "module",
+      "level": 2,
+      "sort_order": 11,
+      "composite_of": ["radical-acceptance", "crisis-survival-skills"],
+      "relationship_type": "emergence",
+      "keywords": ["distress tolerance", "crisis survival", "radical acceptance", "acceptance"],
+      "sections": {
+        "Definition": "Distress tolerance is DBT's most explicitly acceptance-oriented module, but it holds two distinct skills that are easy to collapse into each other and shouldn't be. Radical acceptance addresses a person's overall stance toward a painful reality — a stance that can be worked on over time, outside of any particular emergency. Crisis survival skills address a specific acute moment that has to be gotten through right now, using body-based techniques, distraction, and self-soothing, without necessarily requiring that the person has fully accepted anything yet. The distinction matters because they solve different problems: a person can survive tonight's crisis skillfully using TIP or self-soothing while still actively fighting the underlying reality, and a person can be radically accepting a diagnosis or a loss while having no active crisis to survive at all. DBT teaches both because neither substitutes for the other — surviving a moment is not the same as accepting the reality behind it, and accepting a reality is not, by itself, a plan for getting through the next hour."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-emotion-regulation",
+      "name": "Emotion Regulation",
+      "category": "module",
+      "level": 2,
+      "sort_order": 12,
+      "composite_of": ["check-the-facts", "opposite-action", "please-and-building-mastery"],
+      "relationship_type": "emergence",
+      "keywords": ["emotion regulation", "change", "vulnerability", "opposite action"],
+      "sections": {
+        "Definition": "Emotion regulation is DBT's most explicitly change-oriented module, applied once a person has enough stability — often from distress tolerance skills — to work on an emotional pattern rather than just survive it. Check the facts tests whether a reaction's intensity actually fits the situation; opposite action changes an emotion that doesn't fit the facts, or wouldn't be effective to act on, by deliberately acting against its urge; and PLEASE plus building mastery work upstream of any single episode, lowering the baseline vulnerability that makes intense reactions more likely in the first place. All three treat the emotion as real information worth examining rather than as noise to suppress — the goal throughout is a more accurate and more workable relationship to what's felt, not the absence of feeling."
+      },
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "nvc-needs-root",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "module-interpersonal-effectiveness",
+      "name": "Interpersonal Effectiveness",
+      "category": "module",
+      "level": 2,
+      "sort_order": 13,
+      "composite_of": ["dear-man", "give-fast-and-priorities"],
+      "relationship_type": "emergence",
+      "keywords": ["interpersonal effectiveness", "dear man", "give", "fast"],
+      "sections": {
+        "Definition": "Interpersonal effectiveness applies DBT's dialectic to relationships directly, through three goals that can genuinely conflict: getting the concrete outcome (DEAR MAN), keeping the relationship in good shape (GIVE), and keeping one's own self-respect (FAST). The module's underlying claim is not that any one of these should always win, but that naming which priority actually governs a given interaction — before defaulting to habit — is itself the interpersonal skill, since trying to fully satisfy all three at once is frequently not possible."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "dbt-root",
+      "name": "Dialectical Behavior Therapy — Holding Acceptance and Change",
+      "category": "root",
+      "level": 3,
+      "sort_order": 14,
+      "composite_of": ["module-mindfulness", "module-distress-tolerance", "module-emotion-regulation", "module-interpersonal-effectiveness"],
+      "relationship_type": "emergence",
+      "keywords": ["dbt", "dialectical behavior therapy", "linehan", "acceptance and change", "dialectics"],
+      "sections": {
+        "Definition": "DBT's four skills modules are not four independent techniques loosely bundled together; they're organized along a single axis that the tradition names directly in its title. Mindfulness supplies the ground both other poles stand on — noticing what is actually happening before responding to it. Distress tolerance is weighted toward acceptance: surviving what cannot yet be changed, and eventually changing one's relationship to a painful reality rather than fighting it. Emotion regulation is weighted toward change: correcting emotional reactions that don't fit the facts, and reducing the vulnerability that produces reactions bigger than a situation calls for. Interpersonal effectiveness applies the same tension to other people, where getting an outcome, keeping a relationship, and keeping self-respect can each pull differently.",
+        "The dialectic itself": "'Dialectical' is not decoration in this model's name — it's the operating principle that keeps the four modules from reading as a plain skills list. A dialectical stance holds that two things can be true and in tension at once without one having to cancel the other: a person can be doing the best they can right now and also need to do better; a situation can be fully real and unacceptable to fight and also worth working to change; a relationship can matter and a person's own self-respect can matter, in the same conversation, without a fixed formula for which wins. DBT's skills training is built to keep both poles live rather than letting either — pure acceptance with no push toward change, or pure change-effort with no acceptance of what currently is — collapse the tension it's meant to hold.",
+        "Research note": "The core independent evidence for DBT comes from randomized controlled trials beginning with Linehan and colleagues' 1991 trial and replicated since by research groups independent of Linehan's own, primarily in adults meeting criteria for borderline personality disorder with chronic suicidal and self-harming behavior, where DBT has repeatedly shown reductions in self-harm and suicide attempts and improved treatment retention relative to comparison conditions. That trial base concerns full, multi-modal DBT — individual therapy, a skills group, between-session coaching, and a therapist consultation team together — rather than any single module or skill in isolation. DBT has since been extended, with growing but comparatively newer and smaller trial evidence, to adolescents, eating disorders, substance use disorders, and broader emotion-dysregulation presentations beyond the original population.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim DBT makes.* DBT's insistence that reasonable mind and emotion mind are both partial, and that wise mind is found in their synthesis rather than in choosing one, sits closer to this library's constructionist substrate than many clinical models do — neither 'just the facts' nor 'just the feeling' is granted the final word. Where the two frameworks diverge is in what the synthesis is for: DBT treats wise mind chiefly as a practical capacity to be strengthened toward more workable action, while a strict constructionist reading would add that the categories being synthesized — 'reasonable,' 'emotional,' the named feelings check the facts and opposite action work with — are themselves constructed, situational, and culturally shaped rather than fixed inputs a person is simply weighing. Both readings can use the same skill (notice the pull of each mind, then act from more than either alone) without settling that further question."
+      },
+      "metadata": {
+        "evidence_tier": "independently-replicated",
+        "evidence_note": "DBT has one of the stronger independent evidence bases in this library. Its original claim — that DBT reduces self-harm and suicide attempts and improves treatment retention, relative to comparison conditions, in adults with chronic suicidality and borderline personality disorder — rests on randomized controlled trials beginning with Linehan et al. (1991) and replicated across multiple research groups independent of Linehan's own lab, which is what earns the independently-replicated tier here rather than a weaker one. What is weaker: that evidence is for full, multi-modal DBT (individual therapy, skills group, phone coaching, and a therapist consultation team, run together), not for any single module or skill taught on its own — a standalone skills-training class, of the kind this grammar's items describe, has a thinner and more mixed evidence base than the complete program, and has not been shown to reliably match full-model outcomes by itself. DBT has also been extended well past its original population — to adolescents, eating disorders, substance use, and general emotion dysregulation — and while a number of those extensions have supportive trials, that evidence is generally newer, smaller in volume, and less independently replicated than the original self-harm/BPD indication. The tier reflects that DBT's central claim has real, independent trials behind it, not that every skill or every extension carries that same weight on its own."
+      }
+    }
+  ]
+}

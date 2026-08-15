@@ -33,6 +33,11 @@
       "items": 5
     },
     {
+      "slug": "dbt-skills",
+      "name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
+      "items": 9
+    },
+    {
       "slug": "parts-work",
       "name": "Parts Work — after Internal Family Systems",
       "items": 7
@@ -1229,6 +1234,207 @@
         "source_deck": "nvc-needs",
         "source_item_id": "joyful",
         "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "dbt-skills--wise-mind",
+      "name": "Wise Mind",
+      "category": "mindfulness",
+      "sections": {
+        "Definition": "DBT describes two familiar states of mind that pull in different directions: reasonable mind, which reasons from logic, facts, and plans while screening out what it can't quantify, and emotion mind, which reasons from what is felt right now and can crowd out anything that doesn't match that feeling. Wise mind is not a third, separate mode competing with the other two — it is the region where reasonable mind and emotion mind overlap, the synthesis that includes what the facts say and what the feeling says without discarding either. It is DBT's foundational mindfulness concept because every other skill in this grammar assumes a person can, at least sometimes, act from that overlap rather than from either extreme alone.",
+        "Practice": "Wise mind is described in DBT as something closer to a capacity than an achievement — most people have touched it already, in a decision that felt neither purely calculated nor purely impulsive but simply right. The practice is less about generating wise mind from nothing and more about noticing when reasonable mind or emotion mind has taken over completely, and asking what the other one would add before acting.",
+        "Research note": "Wise mind, like several core-mindfulness concepts here, is a clinical construct drawn substantially from contemplative practice (Linehan has written about the influence of Zen training on DBT's mindfulness component) rather than an independently measured psychological trait. It functions as a teaching frame and a shared vocabulary between client and therapist more than as something a trial isolates and scores."
+      },
+      "keywords": [
+        "wise mind",
+        "reasonable mind",
+        "emotion mind",
+        "synthesis"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "wise-mind",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--mindfulness-what-how-skills",
+      "name": "The What and How Skills",
+      "category": "mindfulness",
+      "sections": {
+        "Definition": "DBT's core mindfulness skills split into two sets answering two different questions. The 'what' skills — observing, describing, and participating — answer what a person actually does to be mindful: noticing an experience as it arises, putting words to it without over- or under-stating it, and eventually entering fully into an activity rather than watching oneself do it from a distance. Only one of the three happens at a time. The 'how' skills — doing this non-judgmentally, one-mindfully, and effectively — answer the manner in which it's done: describing what is happening rather than evaluating it as good or bad, doing one thing at a time instead of splitting attention across several, and orienting toward what actually works in a situation rather than toward being right or being validated as fair.",
+        "Practice": "These skills are usually built one at a time and in short bursts — noticing three things in a room, naming a feeling as precisely as possible without the word 'good' or 'bad' attached, doing one ordinary task (a meal, a walk) without also planning the next one. The 'how' skills are frequently the harder half in practice: it is easier to observe something than to observe it without silently ranking it.",
+        "Research note": "The what/how framing is Linehan's own organizing structure for core mindfulness within DBT; the description here is this library's paraphrase of the general shape of that structure, not a reproduction of any specific handout's wording or exercises."
+      },
+      "keywords": [
+        "observe",
+        "describe",
+        "participate",
+        "non-judgmentally",
+        "one-mindfully",
+        "effectively"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "mindfulness-what-how-skills",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--radical-acceptance",
+      "name": "Radical Acceptance",
+      "category": "distress-tolerance",
+      "sections": {
+        "Definition": "Radical acceptance is DBT's name for accepting reality completely — with the mind, the body, and the felt sense all in agreement — rather than fighting, denying, or bargaining with something that has already happened or is already true. It is explicitly not the same as approving of it, agreeing that it should have happened, or giving up on changing what can still be changed going forward. DBT frames the distinction sharply: pain is close to unavoidable in a life, but the refusal to accept that pain is what tends to turn it into prolonged suffering on top of the pain itself. Accepting a painful fact doesn't make the fact stop hurting; it stops the added layer of fighting the fact as well as feeling it.",
+        "Practice": "Radical acceptance is described in DBT as a repeated choice rather than a single decision — turning the mind back toward accepting what is, over and over, each time it drifts back into arguing with reality. It is deliberately not passive: accepting that a situation is real is a precondition for doing anything effective about it, not a substitute for action.",
+        "Research note": "Radical acceptance draws heavily on contemplative and Buddhist frameworks of non-resistance, adapted by Linehan into a specifically clinical distress-tolerance skill; it is a well-established teaching concept within DBT rather than an outcome that has been isolated and measured on its own, separate from the distress-tolerance module as a whole."
+      },
+      "keywords": [
+        "radical acceptance",
+        "reality",
+        "non-acceptance",
+        "suffering"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "radical-acceptance",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--crisis-survival-skills",
+      "name": "Crisis Survival Skills",
+      "category": "distress-tolerance",
+      "sections": {
+        "Definition": "Where radical acceptance addresses a person's ongoing stance toward reality, crisis survival skills address a specific, time-limited moment that cannot be changed or fully processed right now and needs to be gotten through without making things worse. DBT groups several families of technique here: body-based skills that use physiology to shift an overwhelmed nervous system quickly (cold water, brief intense exercise, slowed breathing, and progressive muscle tension-and-release all work on the body directly, faster than reasoning does); distraction skills that redirect attention on purpose, for a limited time, toward something other than the crisis; and self-soothing skills that use the five senses deliberately to calm rather than to escape. None of these are aimed at solving the underlying problem — that is emotion regulation's job, once the crisis has passed.",
+        "Practice": "Crisis survival skills work best when they've been practiced before a crisis, not improvised during one — a body under acute stress has little capacity to invent a new coping strategy from scratch. DBT frames these as things to rehearse while calm precisely so they're available on reflex when calm is unavailable.",
+        "Research note": "The body-based techniques here rest on established physiological mechanisms (for example, cold-water facial immersion triggering the mammalian dive reflex, which slows heart rate) that predate DBT; Linehan's contribution was assembling them into a structured, teachable crisis-survival skill set within a broader treatment model, not discovering the underlying physiology."
+      },
+      "keywords": [
+        "crisis survival",
+        "distraction",
+        "self-soothe",
+        "tipp",
+        "body"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "crisis-survival-skills",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--check-the-facts",
+      "name": "Check the Facts",
+      "category": "emotion-regulation",
+      "sections": {
+        "Definition": "An emotional reaction is generated not directly by an event but by the interpretation of that event — and interpretations, unlike raw sensory facts, can be mistaken. Check the facts is DBT's skill for testing whether an emotion's intensity and content actually fit the situation as it verifiably is, by separating the observable event from the story being told about it, naming the assumptions embedded in that story, and asking whether a different, equally plausible interpretation would produce a different feeling. The emotion itself is never treated as false in this skill — only the story attached to it is up for review.",
+        "Practice": "In practice this is closer to a short internal cross-examination than a single question: what happened, specifically and observably; what am I assuming about why it happened or what it means; is there another explanation that fits the same facts; and does the size of my reaction match the facts once the assumption is set aside. When the emotion does fit the facts, this skill's job is done — the next move is a different one (often opposite action or problem solving), not further scrutiny of a reaction that was accurate all along.",
+        "Research note": "Check the facts overlaps substantially with cognitive-reappraisal techniques used across cognitive-behavioral therapies more broadly; DBT's specific contribution is situating it inside a distress-tolerance-first sequence, applied after a person has enough regulation available to examine an interpretation rather than simply be run by it."
+      },
+      "keywords": [
+        "check the facts",
+        "interpretation",
+        "assumption",
+        "fit"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "check-the-facts",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--opposite-action",
+      "name": "Opposite Action",
+      "category": "emotion-regulation",
+      "sections": {
+        "Definition": "Every emotion carries an action urge attached to it — anger toward attacking or confronting, fear toward avoiding or fleeing, sadness toward withdrawing, shame toward hiding. Opposite action is the skill of deliberately acting against that urge, all the way and not half-heartedly, specifically in the cases where the emotion either doesn't fit the facts of the situation or does fit the facts but acting on it wouldn't be effective or wouldn't match the person's own goals. It is not a general instruction to override feelings; DBT is explicit that when an emotion does fit the facts and acting on it would work, the skill isn't opposite action at all — it's acting on the emotion.",
+        "Practice": "The mechanism DBT describes is that emotions are partly maintained by the actions and body language that go with them, so a full, committed shift in action — approaching rather than avoiding, softening the voice and posture rather than confronting, engaging rather than withdrawing — can shift the emotion itself over time, not just mask it. A half-committed version (technically approaching while visibly still fleeing) doesn't produce the same effect.",
+        "Research note": "Opposite action shares its behavioral logic with exposure-based techniques used in anxiety and fear treatment more broadly (approaching an avoided situation reduces the fear response over repeated trials); DBT extends the same underlying mechanism across the full range of emotions rather than fear specifically."
+      },
+      "keywords": [
+        "opposite action",
+        "action urge",
+        "emotion change"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "opposite-action",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--please-and-building-mastery",
+      "name": "PLEASE and Building Mastery",
+      "category": "emotion-regulation",
+      "sections": {
+        "Definition": "Two DBT emotion-regulation skills work on the same principle from different directions: reduce the body's baseline vulnerability to emotional reactivity before a triggering moment arrives, rather than only responding once it has. The physical-care cluster covers treating physical illness, eating in a regulated way, avoiding mood-altering substances, sleeping adequately, and getting physical exercise — ordinary bodily maintenance that DBT treats as directly clinically relevant, since a sleep-deprived or under-fed nervous system reacts more intensely to the same trigger than a rested, fed one would. Building mastery is the complementary skill of engaging regularly, ideally daily, in an activity that is genuinely somewhat challenging but achievable, producing an ongoing sense of competence that acts as a buffer against the sense of helplessness that intensifies emotional crises.",
+        "Practice": "Because both skills are preventive rather than in-the-moment, DBT frames them as scheduled practices rather than crisis responses — checked the way a person might check a physical health habit, not reached for only when things are already going wrong. A common clinical move is to ask, when someone's regulation has broken down, which of these basics slipped first, since the emotional crisis is often a body-and-routine crisis wearing a different name.",
+        "Research note": "The physical-vulnerability-reduction cluster and build-mastery are grouped together within DBT's own emotion-regulation module as complementary prevention skills; both rest on well-established general findings connecting sleep, physical health, substance use, and perceived competence to emotional resilience, applied here as a structured DBT skill rather than as a novel discovery specific to this model."
+      },
+      "keywords": [
+        "please skills",
+        "build mastery",
+        "vulnerability",
+        "prevention"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "please-and-building-mastery",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--dear-man",
+      "name": "DEAR MAN",
+      "category": "interpersonal-effectiveness",
+      "sections": {
+        "Definition": "DEAR MAN is DBT's structured approach to asking for something or declining something, aimed at objective effectiveness — actually getting the outcome a person wants from an interaction. It moves through describing the situation in concrete, factual terms rather than in loaded language; expressing feelings or opinions about the situation directly, using 'I' statements rather than assuming the other person already understands; asserting the specific request or refusal clearly, without hinting at it or expecting it to be inferred; and reinforcing, meaning stating or showing what the other person gains from agreeing. Alongside those four steps sit three stances a person holds throughout the interaction: staying mindful of the actual goal rather than getting pulled into a side argument, appearing confident through tone and posture even when not feeling it internally, and staying willing to negotiate rather than treating the first ask as all-or-nothing.",
+        "Practice": "DBT typically has people script a DEAR MAN in advance for a specific, planned conversation, then rehearse it, since the structure is easiest to hold onto before emotional stakes are live rather than mid-conversation. Reinforcement is the step most often skipped in practice, even though DBT treats it as doing real persuasive work.",
+        "Research note": "DEAR MAN belongs to a broader family of structured assertiveness-training techniques with roots in behavioral therapy predating DBT; Linehan's specific contribution was this acronym and its integration into a wider interpersonal-effectiveness module organized explicitly around competing priorities, described in the sibling item on GIVE, FAST, and the three priorities."
+      },
+      "keywords": [
+        "dear man",
+        "assertiveness",
+        "objective effectiveness",
+        "requesting"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "dear-man",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "dbt-skills--give-fast-and-priorities",
+      "name": "GIVE, FAST, and the Three Priorities",
+      "category": "interpersonal-effectiveness",
+      "sections": {
+        "Definition": "DBT names three distinct things a person might be trying to accomplish in a difficult interaction — getting the concrete outcome (objective effectiveness, DEAR MAN's territory), preserving the relationship (relationship effectiveness), and preserving self-respect (self-respect effectiveness) — and treats naming which one actually matters most, right now, as a skill in itself, because pursuing all three fully and at once is often not possible. GIVE addresses relationship effectiveness: being gentle rather than attacking, staying genuinely interested in the other person's side, validating their perspective as understandable even while disagreeing with it, and keeping an easy manner rather than a grim or demanding one. FAST addresses self-respect effectiveness: being fair to oneself as well as to the other person, not over-apologizing for things that aren't actually one's fault, sticking to one's own values under social pressure to abandon them, and being truthful rather than exaggerating or lying to smooth over a conflict.",
+        "Practice": "DBT frames the choice among the three priorities as genuinely dialectical rather than a formula to solve: sometimes getting the objective matters more than staying easy about it (a safety issue), sometimes the relationship matters more than winning the specific point, and sometimes self-respect has to take precedence even at real cost to the other two. The practice is naming, before or during the interaction, which priority is actually driving it — rather than defaulting to whichever one is habitual.",
+        "Research note": "GIVE and FAST, like DEAR MAN, are Linehan's own acronyms organizing DBT's interpersonal-effectiveness module; the three-priorities framing that ties them together is DBT's structural claim that different interpersonal goals genuinely compete, rather than a claim that any one of the three is always correct."
+      },
+      "keywords": [
+        "give",
+        "fast",
+        "self-respect",
+        "relationship effectiveness",
+        "priorities"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "give-fast-and-priorities",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
     {
