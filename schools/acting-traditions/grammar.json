@@ -1,0 +1,273 @@
+{
+  "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
+  "description": "Every theatrical tradition that has ever tried to make an audience read grief, rage, or joy off a performer's body has had to codify expression — and each has codified it differently, in a system that has to be explicitly learned. Bharata's abhinaya assigns fixed hand positions and involuntary bodily signs to named states; Noh drills a performer for years to read as sorrow or joy through the tilt of a mask that itself never changes; Charles Le Brun taught 17th-century painters an explicit rule for the eyebrow; François Delsarte charted the body into expressive zones and drilled them into a generation of American and European actors; jingju assigns a color and pattern to a face before the performer ever puts it on. That is the school's argument, stated plainly: if emotional expression were a fixed biological readout, it would not need teaching, and every tradition would teach the same thing. Neither is true. This is empirical support for this library's constructionist substrate coming from centuries of practice rather than from the laboratory — evidence of a kind the lab literature cannot supply. It is not the whole case: actors also exploit real regularities (several of these traditions converge on the eyebrows and the eyes independently), and the traditions overlap rather than contradict each other outright. Two 20th-century traditions, Stanislavski's and Strasberg's, are included specifically because they reject the codified-external premise the other traditions share — the school is stronger for holding a live disagreement, not a settled consensus.",
+  "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
+  "cover_image_credit": {
+    "title": "Ko-omote (Noh mask), early Edo-period copy of the \"Yuki-no-Ko-omote\"",
+    "creator": "Unrecorded Japanese maker",
+    "date": "17th century",
+    "source": "Tokyo National Museum, accession C-1551, via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Ko-omote_(Noh_mask),_Tokyo_National_Museum_C-1551.jpg",
+    "license": "CC BY 4.0 (Tokyo National Museum)",
+    "pd_basis": "The mask itself is a 17th-century Important Cultural Property, long out of any copyright term; Tokyo National Museum has released its own photograph of it under CC BY 4.0, a fresh-rights claim over the photographic reproduction of the kind discussed in docs/SOURCES-AND-CAVEATS.md §2 for the Wellcome/Darwin material. Credited per the license's own attribution requirement.",
+    "verified": "2026-08-15"
+  },
+  "image_credit": "Item images are drawn from several institutions' open-access or CC-licensed photography: Tokyo National Museum (the three Noh masks, CC BY 4.0), the Metropolitan Museum of Art (the Le Brun engraving and the Peking-opera album leaf, both CC0), the Smithsonian's National Museum of Asian Art (the Shiva Nataraja bronze, CC0), and Wikimedia Commons scans of 19th-century photographs (the Delsarte, Stanislavski, and Strasberg portraits, all public domain by age or by US no-notice publication). Stanislavski's own system and Strasberg's Method have no single period plate or diagram the way the codified traditions do, so their items carry a portrait of the teacher rather than a technique diagram. See each item's metadata.image_credit for the specific object and its own license basis.",
+  "tags": ["emotions", "acting", "performance", "theatre", "abhinaya", "noh", "le-brun", "delsarte", "stanislavski", "strasberg", "jingju"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Seven traditions are represented, each by one item: Bharata's four-mode abhinaya system, Noh kata and mask technique, Le Brun's Conférence sur l'expression, the Delsarte system, jingju role types and liǎnpǔ, and — as the school's deliberate counter-case — Stanislavski's system and Strasberg's Method. What is deliberately unwritten: the Natyashastra's much longer catalogue of named mudrā (roughly two dozen single-hand and a dozen combined-hand positions in the later Abhinaya Darpana) and its eight sāttvika bhāvas are named but not itemized one by one; Noh's wider kata vocabulary beyond the terasu/kumorasu mask-tilt technique and the specific mask-type catalogue beyond the three illustrated masks; the eighteen-plus other passions Le Brun's 23 engraved heads covered beyond wonder/terror; Delsarte's full trinity-of-trinities body-zone charts; jingju's fuller sheng/dan subtype taxonomy and the roughly fifteen base liǎnpǔ patterns beyond the three colors named here; and Stella Adler's and Sanford Meisner's own further splits from Strasberg, which are gestured at but not given their own items. No item here works through a specific scene, role, or performance in practice — this is a skeleton of the systems, not a study of any one production.",
+  "_art_direction": {
+    "period_place": "Deliberately non-single-period and non-single-place: classical and medieval India (Natyashastra through the later Abhinaya Darpana), Muromachi-through-Edo Japan (Noh's kata and mask tradition), 17th-century France (Le Brun), 19th-century France and America (Delsarte), late Qing-through-Republican China (jingju), and early-to-mid-20th-century Russia and America (Stanislavski, Strasberg). Each item's image comes from the tradition's own object class — a mask, an engraving, a bronze icon, a portrait photograph — rather than a single consistent visual register across the whole school.",
+    "candidates": [
+      {
+        "name": "Tokyo National Museum, via Wikimedia Commons",
+        "url": "https://commons.wikimedia.org/wiki/Category:Noh_masks_in_the_Tokyo_National_Museum",
+        "note": "The source for all three Noh masks used here; CC BY 4.0, attribution required. Further named mask types (hannya, chūjō, and others) are catalogued here if this school's Noh item is ever expanded."
+      },
+      {
+        "name": "The Metropolitan Museum of Art — Open Access",
+        "url": "https://www.metmuseum.org/art/collection/search?showOnly=openAccess&q=Le+Brun+passions",
+        "note": "Source for the Le Brun engraving (same series already illustrating schools/descartes-passions) and the Peking-opera album leaf; CC0."
+      },
+      {
+        "name": "Internet Archive — Delsarte System of Oratory (1893) and Stebbins's Delsarte System of Dramatic Expression (1885)",
+        "url": "https://archive.org/details/delsartesystemof00delauoft",
+        "note": "Full digitized text and diagrams, public domain by date; a specific gesture-chart plate was not confidently isolated as a clean standalone file in the time available, so the Delsarte item uses a period portrait instead — worth a return pass if a specific chart page is wanted."
+      },
+      {
+        "name": "Smithsonian's National Museum of Asian Art",
+        "url": "https://asia-archive.si.edu/",
+        "note": "Source for the Shiva Nataraja bronze illustrating the abhinaya item; CC0. Not a literal Natyashastra-era illustration — see that item's own image_credit for the caveat, following the same honesty convention schools/rasa already uses for its Ragamala images."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Bharata Muni",
+        "role": "source text",
+        "note": "Structural basis for the abhinaya item: the Nāṭyaśāstra's chapters on āngika, vāchika, āhārya, and sāttvika abhinaya. The Sanskrit text and its standard translations are long out of copyright; no specific translation is quoted — the description is original prose."
+      },
+      {
+        "name": "Charles Le Brun",
+        "role": "source text",
+        "note": "Structural basis for the Le Brun item: the Conférence sur l'expression générale et particulière, delivered 1668 and first published 1689. The 17th-century French text and its early English translations are long out of copyright; no specific translation is quoted."
+      },
+      {
+        "name": "François Delsarte",
+        "role": "source model",
+        "note": "Structural basis for the Delsarte item: the gesture-and-attitude system taught c. 1839–1871 and posthumously compiled by his students (Delaumosne, Arnaud) and popularized by Genevieve Stebbins. No specific published compilation is quoted; the description is original."
+      },
+      {
+        "name": "Konstantin Stanislavski",
+        "role": "source model",
+        "note": "Structural basis for the Stanislavski item: the system developed across An Actor Prepares, Building a Character, and Creating a Role, and his later method of physical actions. These works may still be in copyright in some translations — no text is quoted or copied from them; the description is an original paraphrase of the publicly documented shape of the system."
+      },
+      {
+        "name": "Lee Strasberg",
+        "role": "source model",
+        "note": "Structural basis for the Strasberg item: the Method as taught at the Actors Studio, built around affective/sense memory. Strasberg's own writings and recorded teaching may still be in copyright — no text is quoted or copied from them; the description is an original paraphrase of the publicly documented shape of the Method."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier). No text anywhere in this grammar is copied from any copyrighted work; every section is original prose describing, paraphrasing, and citing the named traditions."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "abhinaya-four-modes",
+      "name": "Abhinaya — Bharata's Four Modes of Conveying Meaning",
+      "category": "codification-system",
+      "sort_order": 1,
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-F2003.2_001&max=1200",
+      "keywords": ["abhinaya", "angika", "vachika", "aharya", "sattvika", "mudra", "bhava", "natyashastra", "bharata"],
+      "sections": {
+        "Definition": "The Nāṭyaśāstra names four abhinaya — modes by which a performer carries meaning to an audience. Āngika abhinaya is bodily expression, worked through the body (aṅga), its secondary limbs (pratyaṅga), and its minor parts (upāṅga, chiefly the face and eyes). Vāchika abhinaya is verbal expression — pronunciation, modulation, rhythm, and song. Āhārya abhinaya is costume, ornament, makeup, and stage properties, the externally furnished apparatus of a role. Sāttvika abhinaya is the involuntary and internal: the Nāṭyaśāstra names eight specific sāttvika bhāvas — stambha (paralysis), sveda (perspiration), romāñca (hair standing on end), svarabheda (breaking voice), vepathu (trembling), vaivarṇya (pallor), aśru (tears), and pralaya (fainting) — bodily signs the text treats as genuinely involuntary, arising only from real absorption in the role, and for that reason ranked as the most difficult and most prized of the four.",
+        "A codified hand vocabulary": "Āngika abhinaya includes a named, drilled repertoire of mudrā — hand positions with fixed, conventional meanings, taught and rehearsed rather than invented in the moment. The Nāṭyaśāstra itself names dozens; the later Abhinaya Darpaṇa (\"Mirror of Gesture,\" attributed to Nandikeśvara, date uncertain but well after Bharata) systematizes roughly two dozen single-hand (asaṃyuta) and about a dozen combined-hand (saṃyuta) positions, each with an assigned name and a list of what it may be used to signify. A performer does not improvise a gesture for love or fear; they select from an already-named set.",
+        "Research note": "Sāttvika abhinaya sits in real tension with the other three modes — the Nāṭyaśāstra prizes it precisely because it cannot be faked as easily as a learned hand position, yet it is taught and cultivated as part of the same fourfold system as the frankly external āhārya (costume and makeup). The text does not treat this as a contradiction: a trained performer is expected to be able to produce sāttvika signs reliably on cue, which already complicates any simple involuntary/voluntary divide."
+      },
+      "metadata": {
+        "source_deck": "rasa",
+        "source_item_id": "rasa-root",
+        "deck": "Rasa — Bharata's Aesthetics of Performance",
+        "image_source": "https://asia-archive.si.edu/object/F2003.2/",
+        "image_credit": "Shiva Nataraja, Chola dynasty, ca. 990, Tamil Nadu, bronze — Smithsonian's National Museum of Asian Art (Freer Gallery, F2003.2), CC0. Not a literal Natyashastra-era illustration of abhinaya; used because Nataraja's own iconography (his lower right hand shows the abhaya, \"fear not,\" mudra) is the canonical Indian icon of gesture doing conventionalized expressive work, in the same register as this school's other codification systems."
+      }
+    },
+    {
+      "id": "noh-kata-and-masks",
+      "name": "Noh Kata and the Mask That Never Changes",
+      "category": "codification-system",
+      "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
+      "keywords": ["noh", "kata", "omote", "mask", "ko-omote", "shojo", "yoroboshi", "japan"],
+      "sections": {
+        "Definition": "Noh, formalized in 14th-century Japan chiefly by Kan'ami and his son Zeami, builds a performance out of kata — fixed, named physical forms (a stance, a turn, a way of walking, suriashi's sliding gliding step) drilled for years within a hereditary school (ryū) and recombined rather than invented anew for each role. A Noh actor does not develop a personal physical vocabulary for grief; they select and sequence existing kata that generations of performers before them used for the same dramatic moment.",
+        "The mask that never changes": "For masked roles, Noh makes its point about codification unusually literal. The mask (omote) is a single carved, painted object that cannot itself change expression — and yet a trained shite is expected to make it read as joyful in one moment and sorrowful in the next, using a technique called terasu (\"illuminating\") and kumorasu (\"clouding\"): a slight upward tilt of the head brightens the mask by changing the angle at which stage light falls across its carved features, reading as joy; a slight downward tilt darkens it into shadow, reading as grief. The object supplying the emotional information never moves and is never repainted — only the actor's controlled tilt, itself a kata, changes what the audience reads off it. It is the clearest demonstration in this school of expression as something manufactured and externally located, rather than something radiating from a mobile human face.",
+        "Fixed types, not spontaneous portraiture": "Beyond the tilt technique, Noh's mask carving tradition itself sorts registers into named, reused types rather than individualized portraiture: ko-omote (a young woman, serene, associated with youthful beauty), shōjō (a sake-loving spirit, joyous revelry), and yoroboshi (a blind, wandering, grief-stricken young man) are three physically distinct objects, each built once and reused, unaltered, across centuries of different performers and performances.",
+        "Research note": "Zeami's own treatises (Fūshikaden and others, early 15th century) already theorize training itself as a lifelong, staged process of drilling kata before any personal expression is permitted — an explicit pedagogical doctrine centuries before Delsarte or Stanislavski articulated their own, and one this item's cross-reference does not develop further."
+      },
+      "metadata": {
+        "additional_image_urls": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
+            "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+            "image_credit": "Shōjō (Noh mask), 15th–16th century — Tokyo National Museum, accession C-1535, CC BY 4.0. A sake-spirit mask for joyous, revelrous roles."
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yoroboshi_%28Noh_mask%29%2C_Tokyo_National_Museum.jpg",
+            "image_source": "https://commons.wikimedia.org/wiki/File:Yoroboshi_(Noh_mask),_Tokyo_National_Museum.jpg",
+            "image_credit": "Yoroboshi (Noh mask), 17th–18th century — Tokyo National Museum, accession C-1482, CC BY 4.0. A blind, grief-stricken young man's mask (the character Shuntoku-maru)."
+          }
+        ],
+        "_additional_image_urls_note": "This chassis reads a single item.image_url; these two are recorded here, alongside the primary ko-omote image, so a future viewer pass can render all three side by side — the point being made is literally that three different fixed objects carry three different registers within one mask-carving tradition. Not yet rendered as a gallery anywhere in the site.",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Ko-omote_(Noh_mask),_Tokyo_National_Museum_C-1551.jpg",
+        "image_credit": "Ko-omote (Noh mask), early Edo-period copy of the \"Yuki-no-Ko-omote,\" 17th century — Tokyo National Museum, accession C-1551, CC BY 4.0. A young-woman mask for serene, youthful roles."
+      }
+    },
+    {
+      "id": "le-brun-conference-expression",
+      "name": "Le Brun's Conférence sur l'expression (1668)",
+      "category": "codification-system",
+      "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Terrour_or_Fright_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854027.jpg",
+      "keywords": ["le brun", "conference sur l'expression", "1668", "eyebrows", "engraving"],
+      "sections": {
+        "Definition": "Charles Le Brun (1619–1690), first director and chancellor of the Académie Royale de Peinture et de Sculpture, delivered a lecture in 1668 — printed in 1689, illustrated with a set of engraved \"expressive heads\" drawn in 1698 and engraved in 1727 — proposing an explicit, teachable rule for how a painter (and, once the plates circulated widely, an actor) should render each of the soul's passions on a face. Le Brun builds directly on Descartes's Passions de l'âme (1649), naming and illustrating well over twenty passions: admiration, esteem, veneration, ravishment, scorn, horror, terror, simple love, desire, hope, fear, jealousy, hatred, sorrow, joy, laughter, weeping, anger, and extreme despair among them — a far larger set than the six Descartes himself called primitive.",
+        "An engineering of the eyebrow": "Le Brun's central technical claim, taught as drillable rule rather than left to intuition, concerns the eyebrow specifically: he holds that its angle — raised toward what he takes to be the soul's seat when a passion is noble, lowered toward the animal-spirit end when a passion is base — is the single most legible signal on the face, and gives students a near-mechanical account of how to draw it for each named passion. It is, in this school's terms, one of the most literal cases of a codifier reducing feeling to a specific, reproducible technical instruction.",
+        "Research note": "The plates' own afterlife makes the codification point almost by accident: they were reprinted, translated, and taught across Europe for over a century, closely enough that by 1800 Thomas Rowlandson could publish Le Brun Travested, a set of caricatures of the same twenty-odd heads — evidence the system had become recognizable enough, as a system, to parody."
+      },
+      "metadata": {
+        "source_deck": "descartes-passions",
+        "source_item_id": "descartes-passions-root",
+        "deck": "Descartes's Six Primitive Passions",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terrour_or_Fright_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854027.jpg",
+        "image_credit": "\"Terrour or Fright,\" plate 18 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). The same print series already illustrates several items in schools/descartes-passions; this plate depicts a passion outside Descartes's own six primitives, chosen to show the wider range of Le Brun's own catalogue."
+      }
+    },
+    {
+      "id": "delsarte-system",
+      "name": "The Delsarte System of Expression",
+      "category": "codification-system",
+      "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Fran%C3%A7ois_Delsarte_1864.jpg",
+      "keywords": ["delsarte", "gesture", "posture", "elocution", "19th century"],
+      "sections": {
+        "Definition": "François Delsarte (1811–1871), a Paris-trained singer who turned to teaching after his own voice was damaged by poor instruction, spent roughly two decades (chiefly the 1840s–1860s) cataloguing which gesture, posture, and facial configuration recurred with which mental or emotional state, organizing his findings into a body-zone system — head, torso, and limbs, each further subdivided into its own triads of expressive registers — taught directly to a generation of French, and later American, actors, singers, and elocution students as a reproducible technique rather than a personal style.",
+        "Codified after his death, not by his own pen": "Delsarte published almost nothing of his system in finished form himself. It survives chiefly through students' notes and compilations — l'Abbé Delaumosne's and Mme Angélique Arnaud's transcriptions, gathered into the English-language Delsarte System of Oratory (first American edition 1882, expanded 1893) — and was further systematized and popularized by his student's student, Genevieve Stebbins, in her own Delsarte System of Dramatic Expression (1885). The version of \"Delsarte\" that shaped decades of Anglo-American acting and elocution training is therefore a codification of a codification, several transcribing hands removed from Delsarte's own teaching.",
+        "Research note": "The American \"Delsarte craze\" of the 1870s–1890s reached well beyond the professional stage into finishing-school elocution and physical-culture instruction, and its gesture vocabulary is a documented influence on early silent-film acting convention — a direct throughline from a mid-19th-century Parisian singing teacher's system to some of the first moving images of trained emotional expression. This traces a strikingly different lineage from Darwin's near-contemporary The Expression of the Emotions (1872, see the cross-link on this item): Delsarte's system assumes expression can and should be taught because its signs are conventional; Darwin's argument, published the same decade, holds that many of the same signs are involuntary evolutionary residues that need no teaching at all. The two views were developed independently and were never reconciled by either camp."
+      },
+      "metadata": {
+        "source_deck": "darwin-expression",
+        "source_item_id": "darwin-expression-root",
+        "deck": "Darwin — The Expression of the Emotions",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Delsarte_1864.jpg",
+        "image_credit": "Portrait of François Delsarte, photograph by Étienne Carjat, 1864 — Bibliothèque nationale de France, via Wikimedia Commons, public domain (PD-old / CC-PD-Mark)."
+      }
+    },
+    {
+      "id": "stanislavski-system",
+      "name": "Stanislavski's System",
+      "category": "inner-technique",
+      "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Konstantin_Stanislavskiy_1912.jpg",
+      "keywords": ["stanislavski", "moscow art theatre", "emotional memory", "physical actions"],
+      "sections": {
+        "Definition": "Konstantin Stanislavski (1863–1938), co-founder of the Moscow Art Theatre, developed across several decades and several books (An Actor Prepares, Building a Character, Creating a Role, published in stages from 1936 into the years after his death) a training method built around the actor's own genuine inner psychological and physical engagement with a role — given circumstances, objectives, the \"magic if\" — rather than a catalogue of external signs to study and reproduce. Where Le Brun or Delsarte hand a student a named vocabulary of visible signs, Stanislavski's premise is close to the opposite: train the actor's inner truthfulness, and the external expression will follow on its own without needing to be separately drilled.",
+        "A late turn away from his own emotional memory": "Stanislavski's earlier teaching leaned heavily on affective (emotional) memory — an actor deliberately recalling a personally remembered feeling to summon a comparable one on stage. In his own final years he grew concerned this technique was psychologically costly and unreliable from night to night, and moved toward what he called the method of physical actions: the claim that correctly executing a precise sequence of concrete physical tasks would summon the needed feeling more dependably than deliberately reopening the actor's own past. Stanislavski revised his own system within his own lifetime rather than leaving it fixed — a detail often lost in how \"the Stanislavski system\" gets invoked as a single settled thing.",
+        "Research note": "This item and the following one (Strasberg's Method) are included in this school specifically because they reject the premise every other item here shares — that expression is best taught as an external, nameable vocabulary. Holding both here, rather than only the codifiers, is a deliberate editorial choice: a library about how performers are taught to show emotion is incomplete if it only shows systems that answer \"teach a vocabulary of signs.\""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "strasberg-method",
+      "name": "Strasberg's Method (the Actors Studio)",
+      "category": "inner-technique",
+      "sort_order": 6,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lee_Strasberg-1976.jpg",
+      "keywords": ["strasberg", "method acting", "actors studio", "affective memory", "sense memory"],
+      "sections": {
+        "Definition": "Lee Strasberg (1901–1982), longtime artistic director of New York's Actors Studio, built what became known simply as \"the Method\" out of Stanislavski's earlier-period teaching, encountered largely secondhand through Richard Boleslavsky and Maria Ouspenskaya's American Laboratory Theatre in the 1920s — before most of Stanislavski's own later revisions had reached English translation. Strasberg made affective memory, which he called sense memory, the load-bearing center of American Method training: an actor is trained to recall not just a past emotion but the full sensory detail surrounding it (what was seen, heard, smelled, touched) as the reliable route into a truthful present feeling.",
+        "Explicitly rejecting a codified vocabulary of externals": "Where Le Brun, Delsarte, and Bharata's tradition each hand a performer a catalogue of specific, nameable, externally visible signs to learn and reproduce, Strasberg's Method holds that a genuinely and privately reconstructed inner state will produce whatever external expression is truthful for that actor in that moment — the external sign itself is never to be studied or rehearsed directly. This is precisely the technique (affective memory) Stanislavski himself was moving away from in his own final decades, making Strasberg's Method a documented divergence from its own acknowledged source, not merely a simplification of it.",
+        "Research note": "The psychological cost of leaning on personal affective memory night after night was disputed inside Strasberg's own circle, not only by outside critics: Stella Adler, a fellow member of the Group Theatre who studied briefly and directly with Stanislavski himself in Paris in 1934, publicly broke with Strasberg over this exact point, arguing for imaginative and given-circumstance work over the repeated excavation of an actor's own remembered pain — a live disagreement inside the American inheritance of Stanislavski that this item does not resolve."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "jingju-role-types",
+      "name": "Jingju Role Types and Liǎnpǔ",
+      "category": "codification-system",
+      "sort_order": 7,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/%E7%84%A1%E6%AC%BE_%E6%B8%85%E6%9C%AB_%E4%BA%AC%E5%8A%87%E4%B8%80%E7%99%BE%E4%BA%BA%E7%89%A9%E5%83%8F_%E5%86%8A_%E7%B5%B9%E6%9C%AC-One_hundred_portraits_of_Peking_opera_characters_MET_DP280075.jpg",
+      "keywords": ["jingju", "peking opera", "lianpu", "role types", "sheng", "dan", "jing", "chou"],
+      "sections": {
+        "Definition": "Jingju (Peking, or Beijing, opera) consolidated as a distinct form in Beijing in the mid-19th century out of several regional traditions, and sorts every character into one of four role-type categories before a performer ever develops the individual role: sheng (male roles, further split by age and by civil or martial register), dan (female roles), jing (a forceful painted-face male role, generally secondary or antagonist), and chou (a clown role, marked by a small patch of white powder across the nose and eyes). Each role type carries its own prescribed vocal register, movement vocabulary, and — for jing and chou specifically — a facial-design system called liǎnpǔ (\"face register\").",
+        "A face repainted by rule, not by likeness": "Liǎnpǔ assigns roughly fifteen basic facial-design patterns, with well over a thousand specific named variants, each tied to a particular historical or legendary character, built from a working color code: red for loyalty and courage (Guan Yu, the God of War, is the paradigm red face), black for bluntness, impartiality, and integrity, and white for treachery or cunning (Cao Cao is the paradigm white face), with further conventions for blue, gold, and silver. A jing performer's face is painted according to a rule assigning a moral and emotional type to a color and pattern — decided by tradition before the performer applies makeup, not derived from that performer's own reading of the character.",
+        "Research note": "This item is deliberately narrower than the others in this school: reliable, checkable sourcing for jingju's codified gesture vocabulary specifically (as opposed to its makeup system, which is well documented) was not confirmed in the time available, so this item states only the role-type and liǎnpǔ claims that were independently corroborated, and leaves the gesture catalogue itself unwritten rather than asserted on thin sourcing."
+      },
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:%E7%84%A1%E6%AC%BE_%E6%B8%85%E6%9C%AB_%E4%BA%AC%E5%8A%87%E4%B8%80%E7%99%BE%E4%BA%BA%E7%89%A9%E5%83%8F_%E5%86%8A_%E7%B5%B9%E6%9C%AC-One_hundred_portraits_of_Peking_opera_characters_MET_DP280075.jpg",
+        "image_credit": "One leaf from One Hundred Portraits of Peking Opera Characters, unidentified artist, China, late Qing dynasty, ca. 1900, ink/color/gold on silk — The Metropolitan Museum of Art (accession 30.76.299, one of fifty leaves), CC0 (Open Access). The Commons file record does not identify which of the album's hundred characters or which role type this specific leaf depicts, so it is captioned here as a general representative leaf from the album rather than as a confirmed example of any one role type."
+      }
+    },
+    {
+      "id": "group-codified-externals",
+      "name": "The Codifiers — External Vocabularies Taught as Technique",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["abhinaya-four-modes", "noh-kata-and-masks", "le-brun-conference-expression", "delsarte-system", "jingju-role-types"],
+      "sections": {
+        "Definition": "Five traditions, spanning roughly two thousand years and four continents, that each hand a performer — or, in Le Brun's case, a painter — an explicit, learnable catalogue of externally visible signs: a hand position, a mask's tilt, an eyebrow angle, a body-zone attitude, a face color. In every case the sign is conventionalized and drilled rather than left to a performer's spontaneous impulse, and in every case the specific catalogue is different from the others'."
+      },
+      "keywords": ["codification", "acting traditions", "external technique"],
+      "metadata": {}
+    },
+    {
+      "id": "group-inner-technique",
+      "name": "The Inner-Technique Traditions — Rejecting the Codified External",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["stanislavski-system", "strasberg-method"],
+      "sections": {
+        "Definition": "Two 20th-century traditions, one the acknowledged historical descendant of the other, that hold the opposite premise from the five codifiers: that a genuinely produced inner state will generate whatever external expression is needed on its own, so a taught catalogue of externals is unnecessary or even counterproductive. They are held here deliberately alongside the codifiers, not despite disagreeing with them — both are answers to \"how are performers taught to show emotion,\" even where the answer is to deny that showing should be studied as a separate, external craft at all."
+      },
+      "keywords": ["stanislavski", "strasberg", "inner technique", "acting traditions"],
+      "metadata": {}
+    },
+    {
+      "id": "acting-traditions-root",
+      "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
+      "category": "root",
+      "level": 3,
+      "sort_order": 10,
+      "composite_of": ["group-codified-externals", "group-inner-technique"],
+      "sections": {
+        "Definition": "Every theatrical tradition gathered here has faced the same practical problem — how to make an audience read a specific feeling off a performer — and none of them has solved it the same way. Bharata's abhinaya assigns fixed hand positions and eight named involuntary bodily signs; Noh trains a performer to make an unmoving carved mask read as joy or grief through a controlled tilt of the head; Le Brun taught 17th-century painters an explicit rule for the eyebrow; Delsarte charted the body into expressive zones and drilled them into a generation of Anglo-American actors; jingju assigns a face color and pattern to a character before the performer ever applies makeup. Stanislavski and, after him, Strasberg represent a documented rejection of this whole premise: that expression should be externally catalogued and taught at all, rather than produced as the byproduct of a genuinely engaged inner state.",
+        "A taxonomy taught, not caught": "This is the school's central claim, worth stating plainly rather than leaving implicit: if emotional expression were a fixed biological readout — the same signal, produced the same way, in every body — it would not need years of drilled training to produce reliably, and every tradition that set out to teach it would have converged on the same vocabulary. Neither is true. Each of the traditions gathered here required, and still requires, years of explicit instruction to reproduce, and no two of their vocabularies match: a mudrā is not a mask tilt is not an eyebrow angle is not a body-zone attitude is not a face color. That divergence, produced by people whose sole professional concern was being legibly understood by an audience, is a different and arguably more demanding kind of evidence for this library's constructionist substrate than a laboratory result — it is what happens when the fixed-signal hypothesis is tested by centuries of people whose livelihood depended on getting it right.",
+        "What this does not prove": "The divergence among these traditions is not proof that expression is arbitrary or that any convention would have worked as well as any other. Several of the codifiers converge independently on the same general region of the face — Le Brun's and Delsarte's own systems both give outsized weight to the eyebrows and eyes, and Bharata's sāttvika bhāvas name several of the same involuntary bodily signs (trembling, pallor, tears) that Darwin would later argue are evolved and largely universal (see the cross-link on the Delsarte item). Real regularities in the body plausibly constrain what any tradition can plausibly build a convention on top of. What these traditions demonstrate is that expression is not simply read off the body without training — not that the body contributes nothing at all.",
+        "The same codifying impulse in a different medium": "This library's affektenlehre school documents the same impulse — a taxonomy of feeling built for a genuinely non-verbal medium, and explicitly taught as technique — applied to Baroque music rather than to a performer's body. The two schools make structurally the same case from two different working materials.",
+        "Research note": "This is a handful of traditions this library happened to be able to source honestly and in the time available, not a survey of world theatrical practice — commedia dell'arte's stock gestures, Kathakali's own elaborate codified system (a close cousin of abhinaya, not covered here), Brechtian gestus, and Meisner's and Adler's own further departures from Strasberg are all absent, by omission rather than by any judgment that they don't belong.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim any of these traditions' own teachers made.* Even the inner-technique traditions that reject a codified external vocabulary generally still assume there is a single, findable, authentic inner state to excavate and express faithfully — Stanislavski's given circumstances and Strasberg's remembered sensory detail both aim at recovering something taken to already exist, rather than treating the feeling itself as constructed in the act of performing it. Neither side of this disagreement — codified-external or cultivated-internal — independently proves a constructionist account on its own. What the sheer number and mutual incompatibility of the codified vocabularies does provide is exactly the kind of practice-level variability this library's substrate elsewhere argues for from laboratory data: people whose profession depended on legibility never converged on one shared external grammar for feeling."
+      },
+      "keywords": ["acting traditions", "abhinaya", "noh", "le brun", "delsarte", "stanislavski", "strasberg", "jingju"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Every tradition in this school is a working performance practice, refined by trial and audience response over years or centuries, not a controlled empirical study of what emotion is or how it is produced in the body. Their authority rests on demonstrated success at being legibly read by trained and untrained audiences alike within their own convention — a real and checkable kind of success, but a different and weaker warrant than a laboratory finding about the nature of emotion itself. That a system works to communicate a feeling to an audience is not the same claim as that system having discovered what the feeling underneath actually is, and this school does not treat the two as equivalent.",
+        "source_deck": "affektenlehre",
+        "source_item_id": "affektenlehre-root",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    }
+  ]
+}

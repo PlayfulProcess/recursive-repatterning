@@ -1,0 +1,242 @@
+{
+  "name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+  "description": "The Theosophical and Anthroposophical account of feeling as visible form and colour: not a state inferred from behaviour, but something claimed to be directly perceived, by trained clairvoyant sight, as coloured shapes in and around the body. Annie Besant and C. W. Leadbeater's Thought-Forms (1901) is the central text — a published key pairing specific colours with specific feelings (affection, devotion, anger, fear, jealousy, and more), illustrated with plates the authors presented as records of particular observed instances rather than as invented art. Leadbeater's Man Visible and Invisible (1902) extends the same colour scheme to the standing aura. Rudolf Steiner's account of the astral body as the seat of feeling grew out of the same Theosophical milieu but diverged from it, in both method and cosmology, on his way to founding Anthroposophy. Neither offers an empirical account of emotion in any modern sense; this library reads the material for what it is — an unusually literal vocabulary for inner states, one that claims a feeling has a shape and a colour that could in principle be drawn.",
+  "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Colorchart.jpg",
+  "cover_image_credit": {
+    "title": "The Meaning of Colours",
+    "creator": "Annie Besant & C. W. Leadbeater, frontispiece key from Thought-Forms",
+    "date": "1901",
+    "source": "Project Gutenberg eText 16269, via Wikimedia Commons",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Colorchart.jpg",
+    "license": "Public Domain Mark 1.0 / PD-old-70-expired",
+    "pd_basis": "Published 1901 (US: before 1931); no fresh institutional rights claim on the file page — the least-encumbered class of source per docs/SOURCES-AND-CAVEATS.md §2.",
+    "verified": "2026-08-15"
+  },
+  "image_credit": "Item images are public-domain plates from Besant & Leadbeater's Thought-Forms (1901) and Leadbeater's Man Visible and Invisible (1902), sourced via Project Gutenberg eText 16269 and Wikimedia Commons. All carry Public Domain Mark 1.0 / PD-old tags with no fresh institutional rights claim layered on top. See each item's metadata.image_credit for the specific plate.",
+  "tags": ["emotions", "theosophy", "anthroposophy", "thought-forms", "aura", "colour", "clairvoyance", "besant", "leadbeater", "steiner"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, not a finished catalogue. Only five of the colour key's many named qualities are built as their own items (affection, devotion, anger, fear, jealousy) — intellect, ambition, pride, sympathy, deceit, depression, selfishness, avarice, and hatred/malice are all named in the colour-key item's own text (they are part of the published table) but are not yet developed as their own items with their own plates. Leadbeater's Man Visible and Invisible aura-type series (the auras of an average person, a developed person, a depraved person, shown side by side) is named but not built out beyond the single 'healthy person' aura image. Thought-Forms' own plates of music (Gounod, Mendelssohn, Wagner — the claim that specific pieces of music produce specific colour-forms) are described in the colour-key item's Research note as a real, book-verified hook toward schools/affektenlehre, but no dedicated music item or cross-link was built for it here — that would be forcing a link through an item that doesn't yet exist, rather than a real one. No item yet distinguishes Leadbeater's two related books (Thought-Forms vs. Man Visible and Invisible) as sharply as it could; both are treated as one Besant/Leadbeater voice here since Thought-Forms is co-authored and Man Visible and Invisible restates the same colour scheme rather than revising it.",
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Annie Besant",
+        "role": "source tradition",
+        "note": "Co-author of Thought-Forms (1901), President of the Theosophical Society from 1907. Besant died in 1933; her published texts are long out of copyright. No modern edition or translation is quoted — every section here is original prose describing her and Leadbeater's published claims."
+      },
+      {
+        "name": "C. W. Leadbeater",
+        "role": "source tradition",
+        "note": "Co-author of Thought-Forms (1901) and sole author of Man Visible and Invisible (1902), the two texts this grammar's colour-key material is drawn from. Leadbeater died in 1934; his published texts are long out of copyright. No text is quoted from either book."
+      },
+      {
+        "name": "Rudolf Steiner",
+        "role": "source tradition",
+        "note": "Structural basis for the Anthroposophical account of the astral body as the seat of feeling, presented here as its own item, in its own terms, distinct from Besant's and Leadbeater's account rather than merged with it. Steiner died in 1925; his published lectures and books are long out of copyright. No text is quoted."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "astral-body-besant-leadbeater",
+      "name": "The Astral Body — Besant and Leadbeater's Account",
+      "category": "system",
+      "sort_order": 1,
+      "keywords": ["astral body", "desire body", "clairvoyance", "theosophy", "thought-form"],
+      "sections": {
+        "Definition": "Besant and Leadbeater held that feeling is not private in the way it is ordinarily assumed to be. Every emotion, on their account, throws off matter of the astral (or \"desire\") body — a substance finer than the physical, interpenetrating and surrounding it — and that matter takes on a specific colour and outline determined by the quality, strength, and object of the feeling. Trained clairvoyant sight, they claimed, perceives this matter directly and immediately, the way ordinary sight perceives a printed page: not an inference drawn from a person's face or conduct, but a plain visual fact hanging in the air around the person feeling it.",
+        "Two claims, not one": "The tradition actually makes two related but distinct claims, and Thought-Forms keeps them apart. The aura is a standing field around a person, built up over time and tracking habitual, settled character. A thought-form is a discrete, temporary shape thrown off by one specific feeling or thought, which can detach entirely from the person who produced it, drift on its own, dissolve, or — in the case of a feeling deliberately aimed at another person, such as a grasping or covetous affection — travel toward its object and act on it. Man Visible and Invisible (1902) develops the first claim; Thought-Forms (1901) develops the second, plate by plate, each one presented as a record of one particular observed instance (a specific person's grief, a specific piece of music) rather than as invented illustration.",
+        "Research note": "Both authors held that this perception required extensive training and was not available to the ordinary reader without it; the book offers no method by which a reader could verify a given plate against their own perception, only the authors' description of what they say they saw. Leadbeater in particular presented decades of claimed clairvoyant practice as the basis for the plates' detail and consistency."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "astral-body-steiner",
+      "name": "The Astral Body — Steiner's Account",
+      "category": "system",
+      "sort_order": 2,
+      "keywords": ["astral body", "etheric body", "anthroposophy", "steiner", "supersensible perception"],
+      "sections": {
+        "Definition": "Steiner names the same term — astral body (Astralleib) — for the third of four bodies he holds constitute a human being: the physical body, the etheric body (Ätherleib, which maintains the physical body's life processes), the astral body, and the \"I\" (Ich). The astral body, in his account, is specifically the seat of feeling, desire, sensation, and inner mental life — the part of a person that suffers, wants, and reacts — and it is this body, not the etheric or physical, that is claimed to be visible to supersensible perception as light and colour surrounding the physical form.",
+        "A method, not only a claim": "Where Besant and Leadbeater presented their perception as an already-attained clairvoyant gift, resting on the authors' own long practice, Steiner set out a specific graduated training — meditative concentration exercises paired with moral and characterological development — that he laid out at length in Knowledge of the Higher Worlds and Its Attainment (1904–05) and held any sufficiently disciplined student could undertake in order to develop supersensible perception of the astral body for themselves. The claim to perceive it is the same kind of claim; the path Steiner describes toward it is presented as reproducible rather than as a personal gift.",
+        "Where Steiner and Theosophy parted ways": "Steiner's account did not start as a rival system. He was for some years an office-holder inside the Theosophical Society itself — head of its German Section from 1902, appointed by Besant in 1904 to lead its Esoteric Section for Germany and Austria — so his description of the astral body began inside the same institutional and doctrinal world Besant and Leadbeater worked in. The public break came in 1912–13, when most German-speaking Theosophists left with him to found the Anthroposophical Society, over a dispute that was doctrinal rather than merely personal: Besant and Leadbeater promoted the young Jiddu Krishnamurti as the vehicle for a returning World Teacher, and Steiner rejected that claim outright, holding the Christ event of Jesus's life to be a unique, unrepeatable incarnation rather than a role a spiritual being could occupy again in a different body. That disagreement carried through into the astral body concept itself: Steiner ties it into a specifically Western, Christ-centred scheme of spiritual evolution, where Besant's and Leadbeater's usage sits inside a more Hindu- and Buddhist-inflected cosmology of reincarnation and karma, without Steiner's claim about Christ's singularity. This grammar keeps Steiner's account in its own item rather than folding it into Besant and Leadbeater's for exactly this reason — the two are related, not identical, and stating them as one voice would erase a disagreement the historical record shows was serious enough to split an organisation.",
+        "Research note": "Steiner's claim to supersensible perception carries the same evidentiary status as Besant's and Leadbeater's: a first-person report grounded in claimed trained practice, not independently testable by an outside observer, and not distinguished by this grammar as more or less credible than theirs."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "colour-key",
+      "name": "The Meaning of Colours — the Published Key",
+      "category": "system",
+      "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Colorchart.jpg",
+      "keywords": ["colour key", "meaning of colours", "aura colours", "thought-forms"],
+      "sections": {
+        "Definition": "Thought-Forms opens with a published visual key — a plate titled \"The Meaning of Colours,\" running from a light blue at one corner to black at the other — pairing each named colour and shade with a specific quality of feeling or thought, so that a reader could in principle look at any plate elsewhere in the book and read off, colour by colour, which feeling it was said to depict. Man Visible and Invisible (1902) restates the same scheme for the standing aura rather than the discrete thought-form. The book states plainly that brilliance and depth of colour track the strength and activity of the feeling, not only its kind: a dull, muddy version of a colour marks a weaker or more self-interested form of the same feeling a clear, luminous version of that colour marks in its stronger or more selfless form.",
+        "The colour-to-feeling key, as published": "Black is given to hatred and malice. Red, across a range from a dull brick tone through brilliant scarlet to a deep \"dragon's blood\" red, is given to anger — the brightest scarlet read as indignation at a perceived wrong, the darkest red read as anger fused with animal passion and sensual desire. Grey, in a heavy, deep form, is given to depression; a livid, pale grey is given to fear; a grey tinted green is given to deceit. A brown-green flecked with scarlet is given to jealousy. Plain green is given to adaptability, reading upward into an unselfish, sympathetic form and downward into the same grey-green deceit. Clear brown is given to avarice, and a hard, dull brownish-grey to plain selfishness. Deep orange is given to pride or ambition. The crimson-to-rose family is given to affection, from a full, clear carmine (ordinary healthy affection) to a pale, delicate rose (affection with no self-interest left in it at all). Yellow, from a dull ochre through a clear gamboge to a pale, luminous primrose, is given to intellect, in each case moving from a self-interested use of the mind toward an unselfish one. Blue, across its own dark-to-pale range, is given to devotion or religious feeling — a dark brown-blue for devotion still mixed with self-interest, a rich clear blue for heartfelt adoration, and a pale azure for what the authors treat as the highest attainable form, self-renunciation and union with the divine. Violet is given to a mixture of affection and devotion together, its most delicate shades read as the capacity to absorb and respond to a high ideal.",
+        "Research note": "Some of the book's plates are not feelings at all in the ordinary sense, but responses to music — named, specific pieces by Gounod, Mendelssohn, and Wagner, each said to produce its own characteristic colour-form in a listener. That claim is a real, book-documented hook toward the doctrine-of-the-affections tradition covered elsewhere in this library (schools/affektenlehre), which independently assigns specific musical devices to specific named affects by an entirely different method and in an entirely different century; this grammar states the parallel here, in prose, rather than building a forced cross-link through an item this school does not yet contain. The book has also been widely credited with influencing early abstract painters — Wassily Kandinsky and Piet Mondrian are the names most often cited — which, if accurate, would make this colour key one channel by which a claimed clairvoyant vocabulary reached mainstream visual art independent of anyone believing the underlying clairvoyant claim.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either Besant or Leadbeater made.* A published key that assigns one colour to one feeling looks, at a glance, like exactly the kind of fixed biological mapping this library's own founding claim denies exists — a natural-kind account of emotion with a one-to-one, discoverable signature. But the key's own internal logic undercuts that reading before any outside critique is needed: the same feeling is given a whole range of the same colour family, varying continuously with the feeling's strength and how self-interested or selfless it is, and two feelings can share a colour region (affection and devotion both licensing violet where they blend) while one feeling's variants shade into an entirely different colour family at the extremes. That is closer to a constructed, graded vocabulary for describing a feeling's quality and intensity than to a lookup table — which does not make the underlying clairvoyant claim testable, but does mean the key is a more interesting structural object than \"anger equals red\" would suggest."
+      },
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Colorchart.jpg",
+        "image_credit": "\"The Meaning of Colours,\" frontispiece key from Thought-Forms (1901) — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired (published before 1931; no fresh institutional rights claim on the file page)."
+      }
+    },
+    {
+      "id": "affection",
+      "name": "Affection",
+      "category": "feeling",
+      "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Form13.jpg",
+      "keywords": ["affection", "love", "crimson", "rose", "thought-forms"],
+      "sections": {
+        "Definition": "Affection is assigned the crimson-to-rose part of the spectrum across its full range: a full, clear carmine for ordinary healthy affection, softening toward a pale, delicate rose for what the authors call absolutely unselfish love — affection with no remaining claim on its object. Violet marks a blend of affection with devotion, its most delicate shades read as an unusual capacity to respond to a high and beautiful ideal.",
+        "Shape as well as colour": "The book treats affection's outline, not only its colour, as carrying meaning. An affection turned toward an animal or a possession — described and plated under the heading \"Grasping Animal Affection\" — is drawn dull in colour and closed in shape, its edges curving inward into hook-like forms the authors read as self-interest built into the feeling itself, reaching toward its object to draw something back. Affection directed at another person, or radiating outward toward many people at once, is instead drawn as an open, expanding form with no closing hook: the same crimson family, but structured outward rather than inward. The plate set here (Fig. 13, \"Grasping Animal Affection\") shows the lower, closed-and-hooked variant specifically, as a deliberate contrast case to the open, radiating forms the book plates elsewhere under the same colour family.",
+        "Research note": "The grasping-versus-radiating distinction is the book's clearest instance of treating a single named feeling as a spectrum running from self-interested to selfless, rather than as one fixed thing — the same structural move the colour key makes with brightness and depth of colour, here made instead with the closed or open shape of the form.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Reading affection as varying continuously by how open or closed, other-directed or self-directed its form is comes closer to a constructionist account of emotion concepts as graded and context-sensitive than a fixed-colour key would suggest on its own — without this library taking any position on whether such a form is actually perceivable."
+      },
+      "metadata": {
+        "emotion_key": "affection",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form13.jpg",
+        "image_credit": "\"Grasping Animal Affection,\" Fig. 13 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
+      }
+    },
+    {
+      "id": "devotion",
+      "name": "Devotion",
+      "category": "feeling",
+      "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Form16.jpg",
+      "keywords": ["devotion", "religious feeling", "blue", "self-renunciation", "thought-forms"],
+      "sections": {
+        "Definition": "Devotion, or religious feeling generally, is assigned the blue family across its own dark-to-pale range: a dark, brownish blue for devotion still mixed with self-interest, a rich, deep, clear blue for heartfelt adoration, and — at the top of the range — a pale, luminous azure the book presents as the highest attainable form, marking self-renunciation and union with the divine. The plate set here (Fig. 16, \"Self-Renunciation\") is described as resembling a pale blue lotus, its petals opening outward rather than closing around a centre — the devotional counterpart to affection's open, radiating form.",
+        "One of a family, not a fixed endpoint": "The colour key treats devotion's blue as continuous with affection's crimson-rose by way of violet, the colour given to the two feelings blended together. The book does not present devotion as categorically separate from affection so much as differently directed — affection toward a person, devotion toward an ideal or the divine — with violet marking the point where the two are not clearly distinguishable in the observed form.",
+        "Research note": "Man Visible and Invisible's own colour chart repeats the same blue-for-devotion assignment for the standing aura, not only the discrete, temporary thought-form Thought-Forms plates — the two books' colour vocabularies agree with each other on this point rather than diverging.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Devotion's placement on a single continuous scale with affection, rather than as its own unrelated category, is the same graded-vocabulary structure this grammar notes on the affection item — worth naming as a structural feature of the key itself, independent of whether the underlying perceptual claim is accepted."
+      },
+      "metadata": {
+        "emotion_key": "devotion",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form16.jpg",
+        "image_credit": "\"Self-Renunciation,\" Fig. 16 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
+      }
+    },
+    {
+      "id": "anger",
+      "name": "Anger",
+      "category": "feeling",
+      "sort_order": 6,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Forms22-23.jpg",
+      "keywords": ["anger", "rage", "red", "thought-forms"],
+      "sections": {
+        "Definition": "Anger is assigned the red family, and the book distinguishes at least three qualities within it by shade: a duller, brick-toned red for a lower, more brooding form; a bright, clear scarlet the authors read as noble indignation, anger with a perceived moral cause behind it; and a deep, dark \"dragon's blood\" red for anger fused with animal passion and sensual desire. Two plates given side by side (Fig. 22, \"Murderous Rage,\" and Fig. 23, \"Sustained Anger\") differ in shape as much as in colour: murderous rage is drawn as a single jagged spike thrown outward in one explosive burst, while sustained anger is drawn narrower and blade- or dagger-like, its edges sharper and more deliberately shaped — anger that has been held and aimed rather than discharged all at once.",
+        "Research note": "This school's independent, physiological account of anger's outward signs (see schools/darwin-expression, item \"anger\") describes a flushed, reddened face as one of anger's most consistent visible markers, arrived at from direct observation and comparison across species — a completely different method and evidentiary standard from Besant and Leadbeater's clairvoyant claim, but converging, descriptively, on the same colour for the same feeling.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* That two unrelated methods — trained clairvoyant perception and comparative behavioural observation — independently land on red for anger is not evidence for either one; it more plausibly reflects a shared cultural association (reddening, heat, blood) that both traditions drew on, one making it an empirical observation about faces and one making it a claimed perception about auras."
+      },
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "darwin-expression",
+        "source_item_id": "anger",
+        "deck": "Darwin — The Expression of the Emotions",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Forms22-23.jpg",
+        "image_credit": "\"Murderous Rage\" and \"Sustained Anger,\" Figs. 22–23 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
+      }
+    },
+    {
+      "id": "fear",
+      "name": "Fear",
+      "category": "feeling",
+      "sort_order": 7,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sudden_Fright.jpg",
+      "keywords": ["fear", "fright", "grey", "thought-forms"],
+      "sections": {
+        "Definition": "Fear is assigned a livid, pale grey. The plate given here (Fig. 27, \"Sudden Fright\") shows that grey shot through with red, which the authors read as anger mixing in exactly where naked fear tips over into a fight response rather than staying pure fright or flight.",
+        "Research note": "This school's independent, physiological account of fear's outward signs (see schools/darwin-expression, item \"fear\") describes a pale face — blood withdrawing to the internal organs — as one of fear's most consistent visible markers, arrived at by direct observation and a cross-cultural questionnaire rather than by claimed clairvoyant perception. Grey-as-pallor and pale-as-blood-withdrawal are descriptively close, though the two traditions reach that description by entirely different routes and neither validates the other.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* As with anger, the resemblance between the two traditions' accounts of fear's colour is worth naming without treating it as corroboration: a shared cultural vocabulary for pallor and fear long predates both Darwin's fieldwork and Besant and Leadbeater's clairvoyant claim, and both may simply be drawing on the same ordinary-language association between fear and going pale or grey."
+      },
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "darwin-expression",
+        "source_item_id": "fear",
+        "deck": "Darwin — The Expression of the Emotions",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sudden_Fright.jpg",
+        "image_credit": "\"Sudden Fright,\" Fig. 27 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD Old."
+      }
+    },
+    {
+      "id": "jealousy",
+      "name": "Jealousy",
+      "category": "feeling",
+      "sort_order": 8,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Form25.jpg",
+      "keywords": ["jealousy", "brownish-green", "thought-forms"],
+      "sections": {
+        "Definition": "Jealousy is assigned a brownish-green flecked with scarlet — a colour the key places near plain green's lower, self-interested end (where green shades into the grey-green given to deceit) rather than near its higher, sympathetic end, treating jealousy as a corrupted or narrowed form of the same underlying quality that, directed outward without self-interest, would read as adaptability or sympathy instead. The book's own figure numbering (following directly from Figs. 22–23 for anger and preceding Fig. 27's fear) places two jealousy plates side by side: a more watchful, waiting form and a more overt, agitated one in which the scarlet flecking runs heavier through the green — jealousy tipping toward open anger, structurally paralleling how fear's grey (Fig. 27) is shown shot through with red at the same tipping point.",
+        "Research note": "Jealousy is the one item in this grammar whose plate identification rests on the book's consistent figure-numbering pattern (confirmed independently for Figs. 16, 19, 22–23, 27, and 34) rather than on a caption quoted directly from an external secondary source; the colour assignment itself — brownish-green flecked with scarlet — is stated plainly in the published key and is not in doubt.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Placing jealousy as a narrowed, self-interested variant of the same colour family used for sympathy and adaptability, rather than as a wholly separate hue, is the clearest single instance in this key of a moral judgment built directly into a supposedly descriptive colour scale — green's meaning shifts by how selfish the underlying feeling is read to be, and jealousy sits on the unflattering end of that same scale by construction, not by independent observation."
+      },
+      "metadata": {
+        "emotion_key": "jealousy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form25.jpg",
+
+        "image_credit": "\"Watchful Jealousy,\" Fig. 25 from Thought-Forms (1901), Besant & Leadbeater, identified via the book's own figure-numbering sequence — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
+      }
+    },
+    {
+      "id": "group-visible-feeling",
+      "name": "Feelings Given a Colour and a Shape",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["affection", "devotion", "anger", "fear", "jealousy"],
+      "sections": {
+        "Definition": "The five named feelings this grammar builds out from the published colour key, each given its own colour range, its own plate, and — for affection and anger in particular — a distinct shape as well as a colour, so that the same feeling at different strengths or degrees of self-interest is drawn differently rather than merely tinted differently."
+      },
+      "keywords": ["thought-forms", "colour key", "affection", "devotion", "anger", "fear", "jealousy"],
+      "metadata": {}
+    },
+    {
+      "id": "group-clairvoyant-apparatus",
+      "name": "The Clairvoyant Apparatus — Astral Body and Colour Key",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["astral-body-besant-leadbeater", "astral-body-steiner", "colour-key"],
+      "sections": {
+        "Definition": "The apparatus side of this school: two related but distinct accounts of the astral body as the seat of feeling (Besant and Leadbeater's, and Steiner's, kept deliberately separate) alongside the published colour key that gives the specific feeling-items their vocabulary in the first place."
+      },
+      "keywords": ["astral body", "colour key", "theosophy", "anthroposophy", "steiner"],
+      "metadata": {}
+    },
+    {
+      "id": "thought-forms-root",
+      "name": "Thought-Forms — Feeling as Visible Colour",
+      "category": "root",
+      "level": 3,
+      "sort_order": 11,
+      "composite_of": ["group-visible-feeling", "group-clairvoyant-apparatus"],
+      "sections": {
+        "Definition": "The Theosophical and Anthroposophical tradition, worked out most fully by Annie Besant and C. W. Leadbeater in Thought-Forms (1901) and Man Visible and Invisible (1902), and given a distinct account by Rudolf Steiner on his way to founding Anthroposophy, holds that feeling is directly perceivable as colour and form by trained clairvoyant sight — not inferred from a person's face, voice, or conduct, but seen, the way a shape or a colour is ordinarily seen. The published colour key at the centre of Thought-Forms pairs specific colours and shades with specific named feelings (affection, devotion, anger, fear, jealousy, and others), and the book's plates are presented as records of particular observed instances rather than as invented illustration.",
+        "What kind of account this is": "This is a visionary and clairvoyant claim, not an empirical one, and it should be read in those terms. The perceptions described are not independently verifiable by a reader without the same claimed training, no controlled test has ever supported clairvoyant aura perception, and the book offers no method by which its claims could be checked against an outside measurement. That does not make the material uninteresting to this library — the opposite: it is one of the most literal vocabularies for inner states this collection holds, a system built on the premise that a feeling has a shape and a colour precise enough to be drawn and published as a key, which is exactly the kind of highly developed vocabulary for inner states this library exists to collect, independent of whether the underlying perceptual claim is accepted.",
+        "The afterlife of the colour scheme": "The plain popular habit of talking about a person's \"aura colour,\" or of pairing a specific colour with a specific mood in casual conversation, descends in large part from this specific material — Besant's and Leadbeater's published key and Leadbeater's aura plates — almost always with no idea of where the vocabulary originated. That is a genuinely interesting fact about how a specialised, clairvoyant-claim-dependent vocabulary can shed its source and enter ordinary language as though it had always been common sense, the same way \"sanguine\" or \"mercurial\" survive from Galenic humoral theory and planetary-temperament astrology (see schools/humoral-temperaments and schools/alchemical-correspondences) long after most people using those words have never heard of blood, bile, or planetary correspondence. Thought-Forms is also widely credited with influencing early abstract painters, Kandinsky and Mondrian most often named, which — if the credit is accurate — is a second, more traceable channel by which this specific colour vocabulary reached a wide audience independent of anyone accepting the clairvoyant claim behind it.",
+        "Research note": "Steiner's account of the astral body is kept as a separate item in this grammar rather than merged with Besant and Leadbeater's. The two grew out of the same Theosophical milieu and share the term \"astral body,\" but they diverge in method (an already-attained gift versus a reproducible training) and in cosmology (a Hindu- and Buddhist-inflected scheme of reincarnation versus a Western, Christ-centred one), and the 1912–13 institutional split between Theosophy and Anthroposophy was substantive, not incidental — see the astral-body-steiner item for the specifics.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either Besant, Leadbeater, or Steiner made.* This school and the constructionist substrate share an unusual amount of surface agreement for two accounts that could hardly disagree more about mechanism: both insist that a feeling is not a hidden, private fact locked inside a person, and both hold that a feeling only becomes legible through an external, shared system — a colour, a shape, a public vocabulary. Where they part is what that externalisation is. Besant and Leadbeater claim the colour and shape are literally, physically there, in a substance (astral matter) that a sufficiently trained observer perceives directly; a constructionist account holds that what gets externalised is a concept, built and maintained by a linguistic and cultural community, not a substance any perception — trained or untrained — could see. Reading this school's colour key as an unusually literal, highly specified emotion *vocabulary* — rather than as a report of a discovery about what feeling physically is — is what lets this library hold Thought-Forms alongside its other schools without adopting the clairvoyant claim the vocabulary was built to describe."
+      },
+      "keywords": ["thought-forms", "besant", "leadbeater", "steiner", "theosophy", "anthroposophy", "aura", "colour"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "Besant and Leadbeater's colour key, and Steiner's parallel account of the astral body, rest on a clairvoyant and visionary claim, not an empirical one: the perceptions described are not independently verifiable, and no controlled test has ever supported clairvoyant aura perception. This is stated plainly, without contempt for the tradition — its interest to this library is as an unusually developed and unusually literal vocabulary for inner states, one that claims feeling has a shape and colour precise enough to draw, not as a scientific account of what emotion physically is."
+      }
+    }
+  ]
+}
