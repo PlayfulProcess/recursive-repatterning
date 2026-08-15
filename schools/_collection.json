@@ -51,7 +51,10 @@
       "id": "parts-and-depth",
       "name": "Parts & Depth",
       "_note": "IFS/parts work, Jungian archetypes.",
-      "school_slugs": []
+      "school_slugs": [
+        "parts-work",
+        "jungian-archetypes"
+      ]
     },
     {
       "id": "constitution-and-correspondence",
@@ -60,6 +63,15 @@
       "school_slugs": [
         "humoral-temperaments",
         "alchemical-correspondences"
+      ]
+    },
+    {
+      "id": "expression-and-representation",
+      "name": "Expression & Representation",
+      "_note": "Accounts concerned with how feeling is shown or conveyed — in the face and body, or in the conventions of an art — rather than with what it is made of or how it is categorised. Darwin on expression and the Baroque doctrine of the affections ask the same question in different media.",
+      "school_slugs": [
+        "darwin-expression",
+        "affektenlehre"
       ]
     },
     {
@@ -72,7 +84,6 @@
         "aquinas-passions",
         "rasa",
         "chinese-qing",
-        "darwin-expression",
         "genealogy-of-emotions"
       ]
     }
@@ -86,9 +97,25 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 87,
+      "items": 112,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "affektenlehre",
+      "name": "Affektenlehre — the Baroque Doctrine of the Affections",
+      "common_name": "Affektenlehre — the Baroque Doctrine of the Affections",
+      "type": "custom",
+      "branch": "expression-and-representation",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 8,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Athanasius_kircher%2C_musurgia_universalis%2C_sive_ars_magna_consoni_et_dissoni_%28frontespizio_di_j.p._schor%29%2C_1650_%28bncf%29.jpg",
+      "path": "schools/affektenlehre/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
@@ -163,7 +190,7 @@
       "name": "Darwin — The Expression of the Emotions",
       "common_name": "Darwin — The Expression of the Emotions",
       "type": "custom",
-      "branch": "historical-scientific",
+      "branch": "expression-and-representation",
       "is_meta": false,
       "default_preview": null,
       "items": 8,
@@ -255,6 +282,22 @@
       "category": "historical"
     },
     {
+      "slug": "jungian-archetypes",
+      "name": "Jungian Archetypes — The Collective Unconscious",
+      "common_name": "Jungian Archetypes — The Collective Unconscious",
+      "type": "tarot",
+      "branch": "parts-and-depth",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 18,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Robert_Fludd%2C_Integra_naturae_speculum_artisque_imago.jpg",
+      "path": "schools/jungian-archetypes/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
       "slug": "nvc-needs",
       "name": "Nonviolent Communication — Feelings and Needs",
       "common_name": "Nonviolent Communication — Feelings and Needs",
@@ -265,6 +308,22 @@
       "items": 8,
       "cover_image_url": "",
       "path": "schools/nvc-needs/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "parts-work",
+      "name": "Parts Work — after Internal Family Systems",
+      "common_name": "Parts Work — after Internal Family Systems",
+      "type": "custom",
+      "branch": "parts-and-depth",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 11,
+      "cover_image_url": "",
+      "path": "schools/parts-work/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",

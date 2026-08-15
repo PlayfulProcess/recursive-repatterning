@@ -33,6 +33,16 @@
       "items": 5
     },
     {
+      "slug": "parts-work",
+      "name": "Parts Work — after Internal Family Systems",
+      "items": 7
+    },
+    {
+      "slug": "jungian-archetypes",
+      "name": "Jungian Archetypes — The Collective Unconscious",
+      "items": 12
+    },
+    {
       "slug": "humoral-temperaments",
       "name": "The Four Humours — Galenic Temperament Theory",
       "items": 5
@@ -40,6 +50,16 @@
     {
       "slug": "alchemical-correspondences",
       "name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
+      "items": 6
+    },
+    {
+      "slug": "darwin-expression",
+      "name": "Darwin — The Expression of the Emotions",
+      "items": 5
+    },
+    {
+      "slug": "affektenlehre",
+      "name": "Affektenlehre — the Baroque Doctrine of the Affections",
       "items": 6
     },
     {
@@ -65,11 +85,6 @@
     {
       "slug": "chinese-qing",
       "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
-      "items": 5
-    },
-    {
-      "slug": "darwin-expression",
-      "name": "Darwin — The Expression of the Emotions",
       "items": 5
     }
   ],
@@ -1217,6 +1232,417 @@
       }
     },
     {
+      "id": "parts-work--self",
+      "name": "Self",
+      "category": "core",
+      "sections": {
+        "Definition": "In this model, Self is not one part competing with the others — it is a capacity already present underneath the system of parts, able to be curious about a part without becoming it, and to stay with difficulty without needing to fix or silence it right away. Practitioners describe Self as showing up with qualities like calm, clarity, courage, and compassion: not achievements to earn, but a way of being with your own inner world that is available even when a part is loud.",
+        "Practice": "The practical test is simple to state and hard to do: when you notice a strong reaction, can you find a little space around it — enough room to be curious about what the part is trying to do for you — rather than either fully believing the part's story or trying to shut it down? That space is Self; a phrase common in parts-work practice for the move is get curious, not merged.",
+        "Research note": "This concept of Self is Schwartz's own theoretical construct, not an independently measured psychological trait — it is not the same kind of claim as a normed personality-trait measure. Some parts-work writers note a resemblance to contemplative \"witness\" or \"observer\" concepts in other traditions, but that resemblance is an analogy, not a demonstrated equivalence."
+      },
+      "keywords": [
+        "self",
+        "self-leadership",
+        "self-energy"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "self",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--manager",
+      "name": "The Manager",
+      "category": "protector",
+      "sections": {
+        "Definition": "A manager is a part whose job is prevention — it works ahead of trouble, planning, organizing, anticipating what could go wrong so it does not happen. Managers keep a household running, a job performed, a body presentable; they are often the most visible, most \"in charge\" parts of a person's daily life.",
+        "Practice": "Rather than treating a manager's vigilance as a flaw to eliminate, the practice is to acknowledge its labor directly — many managers have never been thanked — and to ask what it is afraid would happen if it stopped.",
+        "Research note": "\"Manager\" is Schwartz's own term for this protector role; the description here is this library's own paraphrase of the general idea, not a reproduction of IFS training material."
+      },
+      "keywords": [
+        "manager",
+        "protector",
+        "planning"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "manager",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--firefighter",
+      "name": "The Firefighter",
+      "category": "protector",
+      "sections": {
+        "Definition": "A firefighter is a part that acts after pain has already broken through — not preventing distress but putting it out immediately, by whatever means are on hand: distraction, a substance, a scroll, an outburst, a shutdown. Where a manager works to avoid the fire, a firefighter's whole job is what to do once the building is already burning.",
+        "Practice": "The move is not to fight the firefighter for control in the moment of crisis — that rarely works — but to get curious about it afterward: what was it trying to put out, and what does the part underneath actually need, that the firefighter's method does not provide?",
+        "Research note": "As with \"manager,\" \"firefighter\" is Schwartz's own labeling for this protector role, paraphrased here rather than quoted."
+      },
+      "keywords": [
+        "firefighter",
+        "protector",
+        "crisis"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "firefighter",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--exile",
+      "name": "The Exile",
+      "category": "burdened-part",
+      "sections": {
+        "Definition": "An exile is a part carrying something painful — often young, often formed around an experience that felt like too much to hold at the time. Exiles get pushed out of daily awareness by managers and firefighters, whose work exists largely to keep exiled pain from resurfacing and overwhelming the system.",
+        "Practice": "Direct work with an exile is not a solo or casual practice in this tradition — it typically calls for a trained practitioner, precisely because unblending an exile's pain without support can retraumatize rather than heal. What is safe to do alone is simply to notice, with curiosity, that a very old-feeling reaction has shown up, without immediately diving into it.",
+        "Research note": "The claim that early, unintegrated experience continues to shape present reactions is broadly shared across many psychotherapy traditions, not unique to IFS; IFS's specific contribution is relating to that material as a part with its own protectors, rather than as a symptom to suppress."
+      },
+      "keywords": [
+        "exile",
+        "burden",
+        "protection"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "exile",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--inner-critic",
+      "name": "The Inner Critic",
+      "category": "protector",
+      "sections": {
+        "Definition": "The inner critic is one of the most commonly named manager-type parts: a voice that scolds pre-emptively, often in a register borrowed almost verbatim from someone who once scolded you. Its logic is that catching your own flaws first is safer than being caught by someone else.",
+        "Practice": "Rather than arguing with the critic's content, the practice is to notice whose voice it actually sounds like, and to ask what it is afraid would happen if it went quiet — usually something specific, and usually something that made sense once.",
+        "Research note": "Naming a recurring self-critical pattern as a distinct \"part\" rather than as an accurate verdict on the self is common across parts-work and cognitive-therapy traditions alike; this item names it in parts-work's own terms specifically."
+      },
+      "keywords": [
+        "inner critic",
+        "protector",
+        "self-judgment"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "inner-critic",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--blending",
+      "name": "Blending",
+      "category": "dynamic",
+      "sections": {
+        "Definition": "Blending is this tradition's name for the moment a part takes over so completely that its voice feels like the whole of you, rather than one part speaking. A blended firefighter does not feel like \"a part of me wants to do this\" — it feels like \"I want to do this,\" full stop, with no visible space to question it.",
+        "Practice": "The practical skill this tradition teaches is noticing blending after the fact, if not during it, and treating that noticing itself as useful information rather than as evidence of failure. Unblending is not instant; it is a repeated practice of finding a little distance.",
+        "Research note": "Blending is a descriptive term within Schwartz's model rather than an independently validated clinical construct; it names a subjective experience many people recognize, which is different from a measured phenomenon."
+      },
+      "keywords": [
+        "blending",
+        "merged",
+        "no distance"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "blending",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "parts-work--unburdening",
+      "name": "Unburdening",
+      "category": "process",
+      "sections": {
+        "Definition": "Unburdening is this tradition's name for what can happen when an exile's pain is finally witnessed by Self, with the protectors' consent — the part no longer needs to carry the same weight in the same way. It is framed as a release, not an erasure: the memory does not disappear, but the part's relationship to it changes.",
+        "Practice": "This is described here for completeness, not as an invitation to attempt it solo. Unburdening work is typically done with a trained practitioner, in a paced, consent-based way that includes the protectors who have been guarding the exile — skipping that structure is one of the more commonly cited risks in how this model gets used outside clinical settings.",
+        "Research note": "Unburdening is the model's own account of therapeutic change; it has not been isolated and measured as a distinct mechanism independent of the broader IFS protocol in the current research base."
+      },
+      "keywords": [
+        "unburdening",
+        "release",
+        "change"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "parts-work",
+        "source_item_id": "unburdening",
+        "deck": "Parts Work — after Internal Family Systems"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-ego",
+      "name": "The Ego",
+      "category": "self-structure",
+      "sections": {
+        "Definition": "The Ego is the organizing center of ordinary consciousness — the part of the psyche that says \"I\" and holds the ongoing sense of being a continuous person. In Jung's structure, the Ego is not the whole psyche, only its conscious portion; a great deal of psychic life, in his account, goes on entirely outside its awareness.",
+        "Shadow expression": "Ego-inflation: mistaking the conscious, narrating self for the whole of the psyche, and treating whatever the unconscious produces — a dream, a strong reaction, an intrusive thought — as noise to be managed rather than information to be heard.",
+        "Practice": "A well-functioning Ego, on this account, can hold a coherent sense of identity and make decisions while staying permeable enough to notice and take seriously what shows up from outside its own plans.",
+        "Research note": "Jung's Ego is a structural claim about the architecture of the psyche, not an empirically measured construct, and should not be conflated with Freud's differently-defined ego, which sits inside a different overall model (id, ego, superego) that Jung explicitly departed from."
+      },
+      "keywords": [
+        "ego",
+        "consciousness",
+        "identity"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-ego",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-persona",
+      "name": "The Persona",
+      "category": "self-structure",
+      "sections": {
+        "Definition": "The Persona — Jung borrowed the word directly from the Latin for a theatrical mask — is the face a person presents to the social world, necessarily different, in his account, from whatever else is happening in the rest of the psyche, because no one could function socially by broadcasting their entire inner life at all times.",
+        "Shadow expression": "Persona-identification: coming to believe the mask is the whole of who you are, so thoroughly that the gap between the public role and the rest of the psyche stops being felt as a gap at all.",
+        "Practice": "A flexible Persona lets someone move between roles — professional, parent, friend — without losing track of the fact that none of those roles is the entire self underneath them.",
+        "Research note": "The Persona-Shadow pairing (see the group item below) is one of Jung's more durable structural claims, still widely referenced in clinical and popular psychology, though — like the rest of this school — as theory rather than as a measured finding."
+      },
+      "keywords": [
+        "persona",
+        "mask",
+        "role"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-persona",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-shadow",
+      "name": "The Shadow",
+      "category": "unconscious-dyad",
+      "sections": {
+        "Definition": "The Shadow holds whatever a person has pushed out of conscious identity — not necessarily cruelty or evil, but any quality that felt unacceptable to show given one's family, culture, or circumstances. Jung held that unconscious material tends to appear first as if it belonged to someone else, which is why the people who irritate a person most are, on this account, worth a second look.",
+        "Shadow expression": "Projection: locating a disowned quality in another person and reacting to it there, sometimes with moral certainty, rather than recognizing it as one's own. Left unexamined, the Shadow tends to erupt rather than integrate — the very qualities that were pushed away are the ones most likely to surface without warning.",
+        "Practice": "Jungian practice treats sustained irritation, contempt, or fascination with another person as data worth sitting with: what quality is this reaction pointing at, and is it possible that quality also lives, in some form, in you?",
+        "Research note": "The Shadow concept has had wide influence outside clinical psychology — in literature, film criticism, and popular self-help — well beyond any evidence base for it as a testable psychological mechanism; its staying power is better explained as a compelling narrative frame than as an empirically confirmed structure."
+      },
+      "keywords": [
+        "shadow",
+        "projection",
+        "unconscious"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-shadow",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-anima",
+      "name": "The Anima",
+      "category": "unconscious-dyad",
+      "sections": {
+        "Definition": "The Anima, in Jung's original and admittedly gendered formulation, is the inner feminine figure in a man's psyche — a contrasexual image that mediates between everyday consciousness and the deeper unconscious. Jung described her appearing first as a fascination projected onto an outer person, then gradually becoming recognizable as an inner figure in her own right.",
+        "Shadow expression": "Mistaking the projection for the person: falling for the image cast onto someone rather than encountering who they actually are, or being swept by moods and reactions that feel disproportionate to the situation in front of you.",
+        "Practice": "The practice Jung's tradition describes is withdrawing the projection without losing the value it pointed to — learning to recognize a fascination as information about your own inner life, rather than only about the person carrying it for you.",
+        "Research note": "Jung's Anima-Animus pairing is explicitly built on a mid-20th-century, binary reading of gender that many later Jungians, and this library, do not treat as a fixed biological claim; it is presented here as Jung's own historical formulation, not as this library's endorsement of gender-essentialist psychology."
+      },
+      "keywords": [
+        "anima",
+        "soul-image",
+        "projection"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-anima",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-animus",
+      "name": "The Animus",
+      "category": "unconscious-dyad",
+      "sections": {
+        "Definition": "The Animus is the inner masculine figure in a woman's psyche, in Jung's original formulation — a contrasexual spirit-image Jung associated with conviction, initiative, and the capacity to name what is true, developing from a felt sense of power toward, eventually, a bearer of meaning.",
+        "Shadow expression": "Opinionated rigidity: absolute-sounding claims (\"you always,\" \"you should\") that brook no discussion, or a harshness turned inward as relentless self-judgment.",
+        "Practice": "As with the Anima, the practice is recognizing when an inner voice is speaking in unexamined absolutes, and asking what truth it may be reaching for, however badly it is currently phrased.",
+        "Research note": "Same caveat as the Anima entry: this is Jung's own mid-20th-century, binary framing of gender and psyche, described here as his historical claim rather than as this library's own position on gender."
+      },
+      "keywords": [
+        "animus",
+        "spirit-image",
+        "conviction"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-animus",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-self",
+      "name": "The Self",
+      "category": "self-structure",
+      "sections": {
+        "Definition": "The Self, capitalized to distinguish it from the everyday Ego, is Jung's term for the psyche's totality — conscious and unconscious, light and dark, held together — and its own regulating center, which the Ego orbits rather than commands. Jung held that the Self often appears symbolically, in dreams and art, as a mandala, a circle, or a figure of unusual authority or wholeness.",
+        "Shadow expression": "Identifying with the Self rather than relating to it — the inflation Jung associated with messianic or guru-like certainty, where a person mistakes a glimpse of something larger for personal specialness.",
+        "Practice": "Jung's tradition treats a strong, hard-to-explain sense of being called toward something as potentially the Self's own signal — worth taking seriously without immediately building an identity or a doctrine out of it.",
+        "Research note": "The Self is the most explicitly totalizing and least empirically testable of Jung's constructs; it functions as a theoretical center of gravity for his whole model rather than as a falsifiable claim, and is read here as exactly that kind of theoretical construct."
+      },
+      "keywords": [
+        "self",
+        "wholeness",
+        "mandala"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-self",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-great-mother",
+      "name": "The Great Mother",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Great Mother is Jung's name for the archetype of the nourishing, containing — and, in its more frightening aspect, engulfing — feminine principle, appearing across unrelated mythologies (Demeter, Kali, and many others) in roughly parallel form, which Jung took as evidence the pattern is inherited rather than culturally transmitted.",
+        "Shadow expression": "The devouring or smothering aspect: protection that curdles into control, care that will not let a person grow past dependency, or its mirror image, an absence so total it leaves nothing to push against.",
+        "Practice": "Where this archetype shows up strongly — in a relationship, an institution, a felt sense of being held or abandoned — the Jungian question is which pole is active: nourishment that allows growth, or containment that prevents it.",
+        "Research note": "The claim that this figure appears independently, rather than through cultural diffusion, across unrelated mythological traditions is Jung's own comparative argument and is contested territory in comparative mythology and anthropology; this item states it as Jung's claim, not as settled cross-cultural fact."
+      },
+      "keywords": [
+        "great mother",
+        "nourishment",
+        "engulfment"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-great-mother",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-wise-old-man",
+      "name": "The Wise Old Man",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Wise Old Man, sometimes called the Senex, is Jung's archetype of spirit, meaning, and hidden knowledge — the figure who arrives, in dreams and stories, exactly when a situation calls for insight beyond a person's own accumulated experience: the hermit, the mentor, the guide who appears when needed.",
+        "Shadow expression": "The false authority: certainty without humility, knowledge offered as a substitute for a person's own judgment rather than in service of it, or a dependency on an external voice that quietly replaces one's own inner knowing.",
+        "Practice": "Jung's tradition treats a sudden, unusually clear piece of insight — in a dream, or seemingly out of nowhere — as worth taking seriously as this archetype's activity, without necessarily handing over ongoing authority to whoever or whatever delivered it.",
+        "Research note": "As with the other figures here, this is a theoretical account of a recurring pattern in dreams, myths, and stories, not an empirically demonstrated psychological structure."
+      },
+      "keywords": [
+        "wise old man",
+        "senex",
+        "insight"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-wise-old-man",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-trickster",
+      "name": "The Trickster",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Trickster is Jung's, and before him comparative mythology's, name for the archetype of disruption and boundary-crossing — Hermes, Loki, Coyote, Anansi, and comparable figures across many traditions — who breaks rules not from simple malice but from an energy that predates and unsettles fixed moral or social order.",
+        "Shadow expression": "Chaos without renewal: disruption that destabilizes and leaves nothing rebuilt, cruelty disguised as humor, or a pattern of instability that never resolves into anything new.",
+        "Practice": "Where a system — a habit, a relationship, an institution — has become too rigid, Jung's tradition treats the Trickster's disruptive energy as potentially serving a purpose, worth distinguishing from disruption that is simply destructive.",
+        "Research note": "The Trickster is one of the better cross-culturally attested mythological figure-types independent of Jung's own theory — comparative mythologists documented Trickster figures well before and apart from Jungian psychology. Jung's specific contribution is reading the figure as a psychological archetype rather than only a narrative type."
+      },
+      "keywords": [
+        "trickster",
+        "disruption",
+        "boundary-crossing"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-trickster",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-hero",
+      "name": "The Hero",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Hero is the archetype of the ego's willingness to face the unknown — venturing out, meeting an ordeal, and returning changed. Jung, and later and more systematically Joseph Campbell, treated the hero's journey as one of the most widely repeated narrative-psychological patterns across unrelated storytelling traditions.",
+        "Shadow expression": "Grandiosity and compulsive rescuing: a need to be the one who faces every danger, which can shade into denying other people their own agency, or an inability to stop fighting even once the actual danger has passed.",
+        "Practice": "Jung's tradition reads a willingness to face something difficult, rather than avoid it, as this archetype's activity, while treating a compulsion to fight everything as a sign the pattern has become rigid rather than active.",
+        "Research note": "Campbell's later \"monomyth\" elaboration of the hero's journey is a distinct, influential, and separately-authored extension of this archetype, not part of Jung's own original writing; it is credited here as a later development, not folded into Jung's own claims."
+      },
+      "keywords": [
+        "hero",
+        "quest",
+        "consciousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-hero",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-divine-child",
+      "name": "The Divine Child",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Divine Child, or in its stalled form the Puer Aeternus (the eternal youth), is the archetype of potential and new beginning: the miraculous, endangered infant of myth (Moses, the infant Herakles), read psychologically as the sudden appearance of a wholly new possibility in a person's life.",
+        "Shadow expression": "The Puer Aeternus in its stuck form: a refusal to commit to any one path because every path forecloses other possibilities — endless potential that never becomes anything actual.",
+        "Practice": "Jung's tradition treats a strong, hard-to-justify pull toward beginning something new as this archetype's activity, worth distinguishing from a pattern where every beginning is abandoned before it can become real.",
+        "Research note": "\"Puer Aeternus\" as a specific, clinically-oriented label was developed at length by Marie-Louise von Franz in her own book of that title — a distinct, separately-authored, copyrighted extension of Jung's original archetype — and is credited to her here rather than presented as Jung's own term."
+      },
+      "keywords": [
+        "divine child",
+        "puer aeternus",
+        "potential"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-divine-child",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
+      "id": "jungian-archetypes--the-magician",
+      "name": "The Magician",
+      "category": "archetypal-figure",
+      "sections": {
+        "Definition": "The Magician is Jung's archetype of transformation through hidden or specialized knowledge — the alchemist, the healer, the figure who does not create something from nothing but transforms what already exists: illness into health, unconsciousness into awareness, one substance into another.",
+        "Shadow expression": "Manipulation: using insight into how people or systems work to control them rather than to help them change on their own terms.",
+        "Practice": "Jung read alchemy's own transformative imagery — nigredo through rubedo, covered at length in this library's schools/alchemical-correspondences — as an externalized picture of exactly this kind of psychological transformation, which is why this school and that one share visual sources.",
+        "Research note": "Jung's 1944 Psychology and Alchemy is the primary source for reading alchemical transformation psychologically; it is a theoretical, interpretive reading of historical alchemical texts, not a claim about what 16th-century alchemists themselves believed they were doing."
+      },
+      "keywords": [
+        "magician",
+        "alchemy",
+        "transformation"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "jungian-archetypes",
+        "source_item_id": "the-magician",
+        "deck": "Jungian Archetypes — The Collective Unconscious"
+      }
+    },
+    {
       "id": "humoral-temperaments--sanguine",
       "name": "Sanguine — Blood (Air, Hot & Wet)",
       "category": "temperament",
@@ -1504,6 +1930,272 @@
         "source_deck": "alchemical-correspondences",
         "source_item_id": "correspondentia",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
+      }
+    },
+    {
+      "id": "darwin-expression--grief",
+      "name": "Grief",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes grief's characteristic muscular signature in detail: the contraction of the corrugator muscle drawing the eyebrows together and slightly upward into an oblique shape he calls the \"grief muscle,\" often accompanied by a downturned mouth and, in acute grief, weeping. He treats infant crying as the developmentally earliest form and argues the adult oblique-eyebrow pattern derives from the same underlying muscular action, tempered by the acquired habit of restraining full infant-style crying.",
+        "The explanatory principle at work": "Darwin attributes weeping partly to the direct action of the nervous system — violent, prolonged screaming in infants engorges blood vessels around the eyes, and reflex contraction of the surrounding muscles to protect them is, on his account, the origin of tear secretion during distress, later retained as an involuntary accompaniment to grief even without the original screaming.",
+        "Research note": "Darwin's chapter draws on his own observation of his infant children (recorded in a private notebook years before this book, later incorporated into it), an early and unusually longitudinal source of developmental data for its period."
+      },
+      "keywords": [
+        "grief",
+        "darwin",
+        "weeping"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+      "metadata": {
+        "emotion_key": "grief",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
+        "image_credit": "\"Grief\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material, see this deck's image_credit).",
+        "source_deck": "darwin-expression",
+        "source_item_id": "grief",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--fear",
+      "name": "Fear",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes fear's expression as widened eyes with visible white above the iris, raised eyebrows, a pale face (from blood withdrawing to the internal organs), trembling, erect hair (piloerection), and a general muscular readiness that can tip into either flight or immobility.",
+        "The explanatory principle at work": "Fear's trembling is Darwin's central example of the direct-action-of-the-nervous-system principle: he argues trembling serves no purpose in itself and is simply what happens when strong nervous excitement disrupts the ordinary, coordinated control of the muscles — a byproduct, not a signal. Piloerection, by contrast, he explains through continuity with other animals, where raised hair or feathers make a frightened or threatened animal look larger to a predator or rival.",
+        "Research note": "Darwin's cross-cultural questionnaire (circulated to missionaries and colonial officials) specifically asked whether fear's facial signs — widened eyes, pallor — were recognized as such among populations the respondents worked with, an early and methodologically crude precursor to the controlled cross-cultural studies Paul Ekman would run roughly a century later (see the ekman-basic school in this collection)."
+      },
+      "keywords": [
+        "fear",
+        "darwin",
+        "trembling"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+      "metadata": {
+        "emotion_key": "fear",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
+        "image_credit": "\"Terror\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
+        "source_deck": "darwin-expression",
+        "source_item_id": "fear",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--anger",
+      "name": "Anger",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin describes anger's expression as a flushed or reddened face, dilated nostrils, a firmly closed or square-shaped mouth, a direct and fixed stare, and — in its more intense forms — bared teeth and a lowered, forward head posture he treats as directly continuous with an animal's threat display before biting or charging.",
+        "The explanatory principle at work": "Anger's teeth-baring is Darwin's flagship example of a serviceable associated habit: teeth-baring once served the direct purpose of preparing to bite an opponent; humans retain the habit — an involuntary curl of the upper lip, a partial baring of the canine — as a vestigial residue of that ancestral function, even in contexts (a heated argument) where biting is not remotely in question.",
+        "Research note": "Darwin explicitly draws the comparison to snarling dogs and other animals baring teeth before attack, using it as one of his central pieces of evidence for continuity of expression across species rather than a special, separately-evolved human signal."
+      },
+      "keywords": [
+        "anger",
+        "darwin",
+        "teeth-baring"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+      "metadata": {
+        "emotion_key": "anger",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
+        "image_credit": "\"Snarling dog\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Used for anger as Darwin's own cross-species illustration of the teeth-baring habit this item's text describes.",
+        "source_deck": "darwin-expression",
+        "source_item_id": "anger",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--joy",
+      "name": "Joy (Laughter)",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin treats joy's principal expression as laughter and smiling: contraction of the muscles around the eyes and mouth (he specifically notes the involvement of the muscle that produces crow's-feet wrinkling around the eyes in a genuine smile — an observation later formalized as part of the Duchenne marker in 20th-century facial-expression research), combined with the characteristic rhythmic vocalization of laughter itself.",
+        "The explanatory principle at work": "Darwin applies antithesis here directly: he holds that joy's characteristically open, upward, expansive bodily posture is, in part, simply the physical opposite of grief and low spirits' contracted, downward posture — not because the open posture itself serves any function, but because a state of mind opposite to a purposeful one tends to produce movements that are its physical opposite.",
+        "Research note": "Darwin's observation about eye-muscle involvement in genuine versus posed smiling anticipates, without naming, what 20th-century researcher Guillaume Duchenne de Boulogne's electrical-stimulation photographs (which Darwin himself reproduced with permission in this book) and later facial-coding systems would formalize as the distinction between a \"Duchenne smile\" and a merely social one."
+      },
+      "keywords": [
+        "joy",
+        "laughter",
+        "darwin"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
+      "metadata": {
+        "emotion_key": "joy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
+        "image_credit": "\"Smiling girl and man\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
+        "source_deck": "darwin-expression",
+        "source_item_id": "joy",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "darwin-expression--shame",
+      "name": "Shame (Blushing)",
+      "category": "darwin-expression",
+      "sections": {
+        "Definition": "Darwin devotes his final substantive chapter to blushing, which he calls \"the most peculiar and the most human of all expressions.\" He describes it as an involuntary reddening of the face, ears, and neck caused by dilation of the facial capillaries, typically triggered by the awareness — real or imagined — of being noticed and judged by others, rather than by shame or embarrassment in private with no observer present.",
+        "Why Darwin treats it as uniquely human": "Unlike anger's teeth-baring or fear's piloerection, Darwin argues blushing has no clear precursor in other animals and no obvious prior serviceable function of its own — he treats it as arising indirectly, through the attention a person pays to their own face when self-conscious, which he proposes causes local vasodilation there specifically rather than elsewhere on the body. He treats this as one of the harder cases for his own three-principle framework to explain cleanly, and says so.",
+        "Research note": "Darwin's own questionnaire respondents reported blushing (or its absence, or local variants like darkening rather than reddening in populations with more melanin) across a wide range of cultures he had access to via missionary and colonial networks — evidence Darwin read as supporting a universal, evolved mechanism rather than a culturally taught social display, though the questionnaire method itself (untrained observers, leading questions, no standardized recording) falls well short of later controlled cross-cultural methodology."
+      },
+      "keywords": [
+        "shame",
+        "blushing",
+        "darwin"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "shame",
+        "source_deck": "darwin-expression",
+        "source_item_id": "shame",
+        "deck": "Darwin — The Expression of the Emotions"
+      }
+    },
+    {
+      "id": "affektenlehre--lamento",
+      "name": "Lamento — Lament and the Descending Tetrachord",
+      "category": "affect",
+      "sections": {
+        "Definition": "Lamento names a conventionalized Baroque musical sign for grief and loss, most famously carried by a specific technical device: a ground bass (basso ostinato) built on a descending tetrachord — four stepwise descending notes from the tonic toward the dominant, often chromaticized — repeated underneath a vocal line of mourning. Monteverdi's Lamento della Ninfa (from Madrigali guerrieri, et amorosi, Book Eight, 1638) and Purcell's \"When I am laid in earth\" (Dido's Lament, from Dido and Aeneas, 1689, built on a chromatic descending ground) are the two most cited examples in the surviving repertoire.",
+        "The device, not just the mood": "Lamento is not simply \"sad music\" in the vague modern sense. Baroque composers and their listeners both recognized the descending bass line itself as a rhetorical sign of lament, independent of the words being sung above it — a genuinely non-verbal grammar of grief, teachable and reusable across different texts, different composers, and different decades. Music-theoretic scholarship has identified the descending tetrachord specifically as a recurring emblem of lament across 17th-century opera, not a coincidence repeated by chance.",
+        "Research note": "The device outlived the period most associated with it: Bach's Crucifixus, from the Mass in B minor (compiled c. 1748–49), reuses a descending ostinato bass for the same affective purpose — evidence that the lament-bass convention had become a genuinely shared vocabulary across generations of composers, not one composer's private idiom."
+      },
+      "keywords": [
+        "lament",
+        "lamento",
+        "descending tetrachord",
+        "ground bass",
+        "monteverdi",
+        "purcell"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Henry_Purcell_-_Dido_and_Aeneas._%28BL_Add_MS_15979_f._4v%29.jpg",
+      "metadata": {
+        "emotion_key": "lamento",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Henry_Purcell_-_Dido_and_Aeneas._(BL_Add_MS_15979_f._4v).jpg",
+        "image_credit": "Leaf from an 18th-century manuscript copy of Purcell's Dido and Aeneas (British Library, Add MS 15979, f. 4v) — Wikimedia Commons, public domain (PD-old / Public Domain Mark 1.0). This is a general leaf from the opera's manuscript tradition, not the lament page itself, used here as period documentation of the work that contains Dido's Lament.",
+        "source_deck": "affektenlehre",
+        "source_item_id": "lamento",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "affektenlehre--allegrezza",
+      "name": "Allegrezza — Joy",
+      "category": "affect",
+      "sections": {
+        "Definition": "Allegrezza (joy, gladness) is one of the affects Baroque theorists held music could directly represent through specific, nameable means: major mode, quick tempo, ascending leaps, dance-derived rhythm (the gigue or courante among the most cited), and periodic, symmetrical phrasing. Descartes's own Compendium musicae (1618, written at age twenty-two, three decades before his Passions de l'âme) is an early statement of the link — Descartes argues there that quick, smooth rhythms and consonant intervals naturally excite gaiety, while slow rhythms and harsher intervals excite sadness, treating rhythm and interval themselves as affect-bearing rather than merely pleasant or unpleasant.",
+        "A period term folded into technical vocabulary": "Allegrezza and its close cousin allegro — the Italian tempo marking meaning quick or lively, still printed at the top of scores today — share the same root. That an ordinary tempo instruction is, historically, an affect word is one of the clearest surviving traces of how completely the doctrine of the affections once fused technical musical vocabulary with emotional claim; a modern player reading \"allegro\" is unknowingly reading a 17th-century affect label.",
+        "Research note": "Johann David Heinichen's Der General-Bass in der Composition (1728) independently catalogued major/minor key associations with cheerful and mournful affects, working in parallel with — and not always agreeing with — Mattheson's better-known 1713 catalogue (see the mattheson-key-characteristics item in this deck)."
+      },
+      "keywords": [
+        "joy",
+        "allegrezza",
+        "descartes",
+        "compendium musicae",
+        "major mode"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "allegrezza",
+        "source_deck": "affektenlehre",
+        "source_item_id": "allegrezza",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "affektenlehre--concitato",
+      "name": "Stile Concitato — Rage, Monteverdi's Invention",
+      "category": "affect",
+      "sections": {
+        "Definition": "The genere concitato (agitated or warlike genre) is a musical device Monteverdi explicitly claims as his own discovery, announced in the preface to Madrigali guerrieri, et amorosi (Book Eight, 1638). Monteverdi describes finding no existing musical means adequate to represent anger and warfare, and invents one: rapid reiterated notes on a single pitch (a measured tremolo, commonly sixteen repeated semiquavers to a beat), string tremolo, and fast triadic figuration — most fully demonstrated in Il Combattimento di Tancredi e Clorinda (1624), published in the same 1638 volume.",
+        "Explicitly theorized, not simply composed": "Monteverdi frames the invention in specifically Platonic terms — he presents the genere concitato as a third register alongside the soft (molle) and moderate (temperato) styles already in use, modeling his three genera on the ancient description, via Plato's Republic and Boethius, of music's power to move the soul to different states. This makes stile concitato arguably the single clearest documented case in the whole Affektenlehre tradition of a composer explicitly theorizing, naming, and taking personal credit for a new device built to represent one specific affect — most of the doctrine's other devices are attributed by later theorists rather than claimed by their own composers in print.",
+        "Research note": "The reiterated-note tremolo becomes a standard convention for battle and anger music well beyond Monteverdi's own output, recurring throughout later Baroque battaglia pieces — arguably a direct ancestor of orchestral string tremolo as a general excitement-marker still in use today, long after the specific stile concitato label fell out of use."
+      },
+      "keywords": [
+        "rage",
+        "anger",
+        "concitato",
+        "monteverdi",
+        "warfare"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Monteverdi_-_Madrigali_guerrieri_et_amorosi.jpg",
+      "metadata": {
+        "emotion_key": "concitato",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Monteverdi_-_Madrigali_guerrieri_et_amorosi.jpg",
+        "image_credit": "Title page, Claudio Monteverdi, Madrigali guerrieri, et amorosi (Book Eight), Venice, 1638 — the volume containing both Il Combattimento di Tancredi e Clorinda and the preface announcing the genere concitato. Wikimedia Commons, public domain (PD-old and Public Domain Mark 1.0; Monteverdi died 1643).",
+        "source_deck": "affektenlehre",
+        "source_item_id": "concitato",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "affektenlehre--melancholy",
+      "name": "Melancholy — the Affect and Its Humoral Root",
+      "category": "affect",
+      "sections": {
+        "Definition": "Melancholy is one of the most frequently invoked affects in the whole Affektenlehre tradition, alongside joy — represented musically through minor keys, slow tempo, chromatic and suspension-laden harmony, and descending melodic contour.",
+        "Downstream of humoral theory, not invented fresh": "Baroque affect theorists inherited melancholy as an existing category wholesale from Galenic humoral medicine, still the dominant Western account of temperament when Mattheson and Kircher were writing. They did not discover melancholy as a musical affect from first principles; they mapped an already centuries-old medical and temperament category onto specific musical means. This library's humoral-temperaments school treats the same category from the bodily-fluid side rather than the musical-representation side — see the cross-link on this item.",
+        "Research note": "Mattheson's own key catalogue differentiates melancholy's exact shade by specific key choice rather than treating all minor keys as interchangeable: he assigns some minor keys a character closer to devout, tranquil resignation, and others a character closer to sharper anguish or despair — a finer grain than a simple major-cheerful/minor-sad binary."
+      },
+      "keywords": [
+        "melancholy",
+        "minor key",
+        "mattheson",
+        "humoral",
+        "affektenlehre"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "melancholy",
+        "source_deck": "affektenlehre",
+        "source_item_id": "melancholy",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "affektenlehre--mattheson-key-characteristics",
+      "name": "Mattheson's Key Characteristics (Das neu-eröffnete Orchestre, 1713)",
+      "category": "theoretical-monument",
+      "sections": {
+        "Definition": "Johann Mattheson (1681–1764), Hamburg composer, critic, and theorist, published Das neu-eröffnete Orchestre (\"The Newly-Opened Orchestra\") in 1713, the first installment of a planned guide for the cultivated amateur listener. Among its content is an explicit catalogue assigning a specific affective character to individual major and minor keys — not a general claim that minor keys sound sad, but named, differentiated characters key by key: he describes some keys as suited to extravagant, boisterous joy, others to devout calm, others to profound despair, treating the available keys as offering as many distinct affective colors as there are keys themselves.",
+        "A working catalogue, not a fixed canon": "Mattheson's own list did not stay fixed even within his own career — he revised several key characterizations in his later Der vollkommene Capellmeister (1739) — and other contemporary theorists proposed overlapping but not identical catalogues of their own (see the Heinichen reference on the allegrezza item). The exact affect assigned to a given key was itself an object of debate inside the tradition, not a settled fact handed down once and repeated unchanged.",
+        "Research note": "Key-characteristic theory is one of the Affektenlehre's two explicit theoretical branches represented in this skeleton, the other being the musica poetica rhetorical-figure tradition (see the companion item in this deck) — the two systems organize the same underlying claim (specific musical means, specific affects) around different technical levers: key choice versus named compositional figure."
+      },
+      "keywords": [
+        "mattheson",
+        "key characteristics",
+        "1713",
+        "affektenlehre"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Johann_Mattheson_by_Haid.jpg",
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Johann_mattheson.jpg",
+        "image_credit": "Portrait of Johann Mattheson, engraving by Johann Jakob Haid (1704-1767) after a painting by Johann Salomon Wahl, 1746 — Bibliothèque nationale de France (Gallica), via Wikimedia Commons, public domain (PD-old). A period portrait of the theorist, not an illustration of the treatise itself.",
+        "source_deck": "affektenlehre",
+        "source_item_id": "mattheson-key-characteristics",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "affektenlehre--musica-poetica-figures",
+      "name": "Musica Poetica — the Rhetorical-Figure Tradition",
+      "category": "theoretical-monument",
+      "sections": {
+        "Definition": "Alongside key-characteristic theory, German theorists from Joachim Burmeister (Musica Poetica, 1606) through Athanasius Kircher (Musurgia Universalis, 1650) and later Christoph Bernhard developed a parallel system: musica poetica, treating musical composition as a branch of rhetoric, with named figures borrowed from and modeled on classical oratory's own catalogue of tropes, each figure conventionally carrying its own expressive charge. Catabasis (a descending line, for descent, death, or sorrow), anabasis (an ascending line, for rising or exaltation), suspiratio (a musical \"sigh,\" typically a rest breaking a phrase), and passus duriusculus (a chromatically \"hardened\" stepwise line, for grief or anguish — the same device underlying the lamento tetrachord) are among the dozens of figures the tradition named and catalogued.",
+        "Kircher's wider claim": "Kircher's Musurgia Universalis (1650) goes beyond a figure catalogue. It proposes that music's power to move different affects operates partly through physiology — his own account of how vibrating air moves the animal spirits, adjacent to but developed independently of Descartes's mechanism — and partly through convention, and he further speculates that different peoples and temperaments respond differently to the same music: an early, explicit statement, inside the doctrine itself, that a figure's affective charge is not simply a universal fact about sound.",
+        "Research note": "The named figures were pedagogical tools for composition students as much as descriptive analysis after the fact — the tradition explicitly taught composers to reach for a named figure to produce a named affect. This is part of why the school's central inclusion argument (a taxonomy of feeling built for a non-verbal medium) holds especially cleanly for musica poetica specifically: the figures were designed, catalogued, and taught as a working vocabulary at the time, not read into the music retrospectively by modern analysts."
+      },
+      "keywords": [
+        "figurenlehre",
+        "musica poetica",
+        "burmeister",
+        "kircher",
+        "rhetoric"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "affektenlehre",
+        "source_item_id": "musica-poetica-figures",
+        "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
     {
@@ -2250,124 +2942,6 @@
         "source_deck": "chinese-qing",
         "source_item_id": "kong",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
-      }
-    },
-    {
-      "id": "darwin-expression--grief",
-      "name": "Grief",
-      "category": "darwin-expression",
-      "sections": {
-        "Definition": "Darwin describes grief's characteristic muscular signature in detail: the contraction of the corrugator muscle drawing the eyebrows together and slightly upward into an oblique shape he calls the \"grief muscle,\" often accompanied by a downturned mouth and, in acute grief, weeping. He treats infant crying as the developmentally earliest form and argues the adult oblique-eyebrow pattern derives from the same underlying muscular action, tempered by the acquired habit of restraining full infant-style crying.",
-        "The explanatory principle at work": "Darwin attributes weeping partly to the direct action of the nervous system — violent, prolonged screaming in infants engorges blood vessels around the eyes, and reflex contraction of the surrounding muscles to protect them is, on his account, the origin of tear secretion during distress, later retained as an involuntary accompaniment to grief even without the original screaming.",
-        "Research note": "Darwin's chapter draws on his own observation of his infant children (recorded in a private notebook years before this book, later incorporated into it), an early and unusually longitudinal source of developmental data for its period."
-      },
-      "keywords": [
-        "grief",
-        "darwin",
-        "weeping"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grief%2C_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
-      "metadata": {
-        "emotion_key": "grief",
-        "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
-        "image_credit": "\"Grief\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material, see this deck's image_credit).",
-        "source_deck": "darwin-expression",
-        "source_item_id": "grief",
-        "deck": "Darwin — The Expression of the Emotions"
-      }
-    },
-    {
-      "id": "darwin-expression--fear",
-      "name": "Fear",
-      "category": "darwin-expression",
-      "sections": {
-        "Definition": "Darwin describes fear's expression as widened eyes with visible white above the iris, raised eyebrows, a pale face (from blood withdrawing to the internal organs), trembling, erect hair (piloerection), and a general muscular readiness that can tip into either flight or immobility.",
-        "The explanatory principle at work": "Fear's trembling is Darwin's central example of the direct-action-of-the-nervous-system principle: he argues trembling serves no purpose in itself and is simply what happens when strong nervous excitement disrupts the ordinary, coordinated control of the muscles — a byproduct, not a signal. Piloerection, by contrast, he explains through continuity with other animals, where raised hair or feathers make a frightened or threatened animal look larger to a predator or rival.",
-        "Research note": "Darwin's cross-cultural questionnaire (circulated to missionaries and colonial officials) specifically asked whether fear's facial signs — widened eyes, pallor — were recognized as such among populations the respondents worked with, an early and methodologically crude precursor to the controlled cross-cultural studies Paul Ekman would run roughly a century later (see the ekman-basic school in this collection)."
-      },
-      "keywords": [
-        "fear",
-        "darwin",
-        "trembling"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Terror%2C_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
-      "metadata": {
-        "emotion_key": "fear",
-        "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
-        "image_credit": "\"Terror\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
-        "source_deck": "darwin-expression",
-        "source_item_id": "fear",
-        "deck": "Darwin — The Expression of the Emotions"
-      }
-    },
-    {
-      "id": "darwin-expression--anger",
-      "name": "Anger",
-      "category": "darwin-expression",
-      "sections": {
-        "Definition": "Darwin describes anger's expression as a flushed or reddened face, dilated nostrils, a firmly closed or square-shaped mouth, a direct and fixed stare, and — in its more intense forms — bared teeth and a lowered, forward head posture he treats as directly continuous with an animal's threat display before biting or charging.",
-        "The explanatory principle at work": "Anger's teeth-baring is Darwin's flagship example of a serviceable associated habit: teeth-baring once served the direct purpose of preparing to bite an opponent; humans retain the habit — an involuntary curl of the upper lip, a partial baring of the canine — as a vestigial residue of that ancestral function, even in contexts (a heated argument) where biting is not remotely in question.",
-        "Research note": "Darwin explicitly draws the comparison to snarling dogs and other animals baring teeth before attack, using it as one of his central pieces of evidence for continuity of expression across species rather than a special, separately-evolved human signal."
-      },
-      "keywords": [
-        "anger",
-        "darwin",
-        "teeth-baring"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
-      "metadata": {
-        "emotion_key": "anger",
-        "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
-        "image_credit": "\"Snarling dog\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Used for anger as Darwin's own cross-species illustration of the teeth-baring habit this item's text describes.",
-        "source_deck": "darwin-expression",
-        "source_item_id": "anger",
-        "deck": "Darwin — The Expression of the Emotions"
-      }
-    },
-    {
-      "id": "darwin-expression--joy",
-      "name": "Joy (Laughter)",
-      "category": "darwin-expression",
-      "sections": {
-        "Definition": "Darwin treats joy's principal expression as laughter and smiling: contraction of the muscles around the eyes and mouth (he specifically notes the involvement of the muscle that produces crow's-feet wrinkling around the eyes in a genuine smile — an observation later formalized as part of the Duchenne marker in 20th-century facial-expression research), combined with the characteristic rhythmic vocalization of laughter itself.",
-        "The explanatory principle at work": "Darwin applies antithesis here directly: he holds that joy's characteristically open, upward, expansive bodily posture is, in part, simply the physical opposite of grief and low spirits' contracted, downward posture — not because the open posture itself serves any function, but because a state of mind opposite to a purposeful one tends to produce movements that are its physical opposite.",
-        "Research note": "Darwin's observation about eye-muscle involvement in genuine versus posed smiling anticipates, without naming, what 20th-century researcher Guillaume Duchenne de Boulogne's electrical-stimulation photographs (which Darwin himself reproduced with permission in this book) and later facial-coding systems would formalize as the distinction between a \"Duchenne smile\" and a merely social one."
-      },
-      "keywords": [
-        "joy",
-        "laughter",
-        "darwin"
-      ],
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
-      "metadata": {
-        "emotion_key": "joy",
-        "image_source": "https://commons.wikimedia.org/wiki/File:Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
-        "image_credit": "\"Smiling girl and man\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
-        "source_deck": "darwin-expression",
-        "source_item_id": "joy",
-        "deck": "Darwin — The Expression of the Emotions"
-      }
-    },
-    {
-      "id": "darwin-expression--shame",
-      "name": "Shame (Blushing)",
-      "category": "darwin-expression",
-      "sections": {
-        "Definition": "Darwin devotes his final substantive chapter to blushing, which he calls \"the most peculiar and the most human of all expressions.\" He describes it as an involuntary reddening of the face, ears, and neck caused by dilation of the facial capillaries, typically triggered by the awareness — real or imagined — of being noticed and judged by others, rather than by shame or embarrassment in private with no observer present.",
-        "Why Darwin treats it as uniquely human": "Unlike anger's teeth-baring or fear's piloerection, Darwin argues blushing has no clear precursor in other animals and no obvious prior serviceable function of its own — he treats it as arising indirectly, through the attention a person pays to their own face when self-conscious, which he proposes causes local vasodilation there specifically rather than elsewhere on the body. He treats this as one of the harder cases for his own three-principle framework to explain cleanly, and says so.",
-        "Research note": "Darwin's own questionnaire respondents reported blushing (or its absence, or local variants like darkening rather than reddening in populations with more melanin) across a wide range of cultures he had access to via missionary and colonial networks — evidence Darwin read as supporting a universal, evolved mechanism rather than a culturally taught social display, though the questionnaire method itself (untrained observers, leading questions, no standardized recording) falls well short of later controlled cross-cultural methodology."
-      },
-      "keywords": [
-        "shame",
-        "blushing",
-        "darwin"
-      ],
-      "image_url": "",
-      "metadata": {
-        "emotion_key": "shame",
-        "source_deck": "darwin-expression",
-        "source_item_id": "shame",
-        "deck": "Darwin — The Expression of the Emotions"
       }
     }
   ],
