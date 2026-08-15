@@ -1,0 +1,269 @@
+{
+  "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
+  "description": "The Nāṭyaśāstra and, later, Nandikeśvara's Abhinaya Darpaṇa (\"Mirror of Gesture\") catalogue a drilled, named repertoire of hand positions used in classical Indian dance and dance-theatre — roughly 28 single-hand (asaṃyuta) and 24 joined-hand (saṃyuta) hastas, each with a fixed shape and a list of things it may be used to mean, its viniyoga. This school states its argument plainly: a hasta's meaning is not fixed the way a code's is. A single gesture can carry many different, sometimes unrelated meanings depending on context — pratākā alone signifies clouds, an oath, a blessing, a forest, and the word \"stop,\" among dozens of other things — and a single meaning (the moon, say) can be carried by more than one gesture. The mapping is many-to-many and resolved only by context: by the song, the narrative moment, and the accompanying facial and bodily abhinaya. That is a markedly different model of expression from a code in which one signal reliably means one thing, and it is the reason this school belongs in a library about how feeling gets made rather than found. `schools/acting-traditions` already covers Bharata's four modes of abhinaya (āngika, vāchika, āhārya, sāttvika) as one item in a wider survey of codified performance traditions; this school does not restate that ground and instead begins where it stops, inside āngika abhinaya's actual gesture vocabulary. `schools/rasa` documents what a successful performance does for a qualified spectator; this school does not re-argue rasa theory, only cross-links to it. Read honestly, hastas are communicative signs within a performance grammar — closer to a lexicon a dancer learns than to a display of felt emotion. A dancer whose hands show śṛṅgāra through the appropriate hastas need not personally feel desire in that moment, the same performer/audience distinction schools/rasa already draws for the aesthetic event a hasta helps produce.",
+  "grammar_type": "custom",
+  "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pataka-Hasta.jpg",
+  "cover_image_credit": {
+    "title": "Pataka Hasta, demonstrated",
+    "creator": "Arpitha Hegde (Wikimedia Commons user Arpitha05)",
+    "date": "30 December 2019",
+    "source": "Wikimedia Commons, self-published photograph",
+    "file_page": "https://commons.wikimedia.org/wiki/File:Pataka-Hasta.jpg",
+    "license": "CC BY-SA 4.0",
+    "pd_basis": "Not a public-domain claim — a contemporary self-published photograph the uploader released under CC BY-SA 4.0. Chosen as the cover because pataka is the first hasta a student is taught and the one the Abhinaya Darpaṇa gives the longest viniyoga list to. Attribution required per the license.",
+    "verified": "2026-08-15"
+  },
+  "image_credit": "Seven of this school's eight item images are demonstration photographs of named hastas by Arpitha Hegde (Wikimedia Commons user Arpitha05, uploaded 30 December 2019, category 'Asamyuta Hastas'), each CC BY-SA 4.0 and confidently identified by the photographer's own filename and category tag — chosen over unlabeled museum sculpture because a hasta must be matched to its exact name to be honest, and generic devotional or dance sculpture on Commons and at the open-access museums checked (the Met, Smithsonian NMAA, Cleveland) could not be confidently matched to a specific named hasta in the time available, the same limitation schools/rasa records for its own Ragamala image matches. The eighth item, añjali, uses a 2022 photograph of a 17th-century Malla-period bronze royal statue in Bhaktapur, Nepal, shown in añjali/namaskāra pose — Newar rather than South Indian, and a devotional-royal rather than a dance context, but the same pan-Indic joined-palm gesture the Abhinaya Darpaṇa names. See each item's metadata.image_credit for the specific object, photographer, and license.",
+  "tags": ["emotions", "hasta", "mudra", "abhinaya", "bharatanatyam", "natyashastra", "abhinaya-darpana", "nandikeshvara", "indian-dance"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton. Eight hastas are itemized — seven asaṃyuta (patāka, tripatāka, ardhacandra, śikhara, kartarīmukha, kaṭakāmukha, alapadma) and one saṃyuta (añjali) — chosen as a representative, well-documented set rather than an attempt at all 52. Unwritten: roughly 21 further asaṃyuta hastas named in the Abhinaya Darpaṇa (among them muṣṭi, kapittha, sūcī, mayūra, ardhapatākā, araḷa, śukatuṇḍa, mṛgaśīrṣa, siṃhamukha, kaṅgula, catura, bhramara, haṃsāsya, haṃsapakṣa, saṇḍaṃśa, mukula, tāmracūḍa, triśūla, padmakośa, sarpaśīrṣa, candrakalā), and 23 further saṃyuta hastas beyond añjali (among them kapota, karkaṭa, svastika, puṣpapuṭa, śivaliṅga, and others). Also unwritten: the nṛtta-hasta (pure-dance, non-signifying) usage several of these same hastas carry alongside their abhinaya viniyoga, and the eight sāttvika bhāvas already named (not itemized) in schools/acting-traditions' abhinaya item.",
+  "_art_direction": {
+    "period_place": "The hastas themselves are old (Nāṭyaśāstra, roughly 2nd c. BCE – 2nd c. CE; the Abhinaya Darpaṇa's systematization is later and undated with confidence), but no period illustration reliably identifies which named hasta a historical sculpture's hand is showing without specialist iconographic argument — a limitation schools/rasa already records for Ragamala painting. This school instead uses contemporary demonstration photography that names its subject explicitly.",
+    "candidates": [
+      {
+        "name": "Wikimedia Commons — Category:Asamyuta Hastas",
+        "url": "https://commons.wikimedia.org/wiki/Category:Asamyuta_Hastas",
+        "note": "Source for seven of this school's eight images — a full, consistently-named 28-file set by one photographer (Arpitha Hegde), CC BY-SA 4.0. If this school is expanded toward its full 28 asaṃyuta hastas, the remaining images already exist in this same category."
+      },
+      {
+        "name": "Wikimedia Commons — Category:Dance mudra reliefs at the Thillai Nataraja Temple, Chidambaram",
+        "url": "https://commons.wikimedia.org/wiki/Category:Dance_mudra_reliefs_at_the_Thillai_Nataraja_Temple,_Chidambaram",
+        "note": "134 files of 13th-century temple relief carvings of Nāṭyaśāstra karaṇas (dance poses) — labeled by karaṇa name, not by individual hasta name, so not used here, but a strong classical-sculpture candidate for a future karaṇa-focused school."
+      },
+      {
+        "name": "The Metropolitan Museum of Art, Smithsonian's National Museum of Asian Art, Cleveland Museum of Art — open access",
+        "url": "https://www.metmuseum.org/art/collection/search?showOnly=openAccess",
+        "note": "Checked for CC0 sculpture and painting confidently showing a specific named hasta; nothing was matched with confidence in the time available. Worth a specialist-guided return pass."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Bharata Muni",
+        "role": "source text",
+        "note": "Structural basis for the school's frame: the Nāṭyaśāstra's āngika abhinaya chapters, which name the earliest layer of this hasta vocabulary. The Sanskrit text and its standard translations are long out of copyright; no specific translation is quoted — every section here is original prose."
+      },
+      {
+        "name": "Nandikeśvara",
+        "role": "source text",
+        "note": "Structural basis for the school's item content: the Abhinaya Darpaṇa (\"Mirror of Gesture\"), attributed to Nandikeśvara, the standard systematization of the 28 asaṃyuta and 24 saṃyuta hastas with their viniyoga. Date uncertain but well after Bharata. The text and its standard translations (e.g. Coomaraswamy & Duggirala, 1917, itself long out of copyright) are long out of copyright; no specific translation is quoted — shapes and viniyoga lists here are original paraphrase, cross-checked against multiple secondary summaries rather than any single translation."
+      },
+      {
+        "name": "Arpitha Hegde",
+        "role": "image contributor",
+        "note": "Wikimedia Commons user Arpitha05. Self-published demonstration photographs of seven named asaṃyuta hastas, released CC BY-SA 4.0, used here per that license's attribution requirement."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier). No text anywhere in this grammar is copied from any copyrighted work."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "pataka",
+      "name": "Patākā — the Flag Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 1,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pataka-Hasta.jpg",
+      "keywords": ["pataka", "patakam", "flag", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Patākā (\"flag\") is the first hasta taught to a beginning student and the simplest in construction: the palm faces forward or downward, all four fingers extended straight and held close together, and the thumb bent in toward the base of the index finger. Nothing is curled, crossed, or spread — it is the flat, open hand.",
+        "Viniyoga — what it may signify": "The Abhinaya Darpaṇa's own viniyoga verse for patākā runs to several dozen entries, easily the longest of any single hasta. A representative selection: clouds, forests, night, a river or the ocean, wind, moonlight and strong sunlight, torrential rain, a shower of flowers, taking an oath, prohibition and the word \"stop,\" a blessing, protection, covering or density, a crowd, height, a door being forced open or closed, a shield, and the numeral one. The same flat hand, in other words, stands for weather, for a body of water, for a moral act (an oath), and for a spoken refusal — resolved only by what the performance is doing at that moment.",
+        "Research note": "Patākā's viniyoga list is the clearest single illustration of this school's central claim: one shape, dozens of unrelated meanings, disambiguated entirely by context rather than by the hand itself."
+      },
+      "metadata": {
+        "emotion_key": "pataka",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Pataka-Hasta.jpg",
+        "image_credit": "Pataka Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "tripataka",
+      "name": "Tripatākā — the Three-Part Flag Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 2,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tripataka-Hasta.jpg",
+      "keywords": ["tripataka", "hasta", "mudra", "asamyuta", "crown"],
+      "sections": {
+        "Definition": "Tripatākā (\"three-part flag\") starts from patākā and bends only the ring finger down toward the palm, leaving the index, middle, and little fingers, plus the thumb, extended.",
+        "Viniyoga — what it may signify": "Used alone, tripatākā's viniyoga includes invocation, descent, bidding farewell, prohibition, entrance, raising an object, bowing or salutation, touching the head with an auspicious object, putting on a crown or turban, wiping away tears, drawing a tilaka mark, and the flight of small birds. In the Abhinaya Darpaṇa it is also given specifically as a crown, a tree, the thunderbolt weapon (vajra) and its wielder Indra, a lamp or rising flame, and a pigeon. Used two-handed, its viniyoga shifts further — adoration of feet, marriage, a king, planets, ascetics, doors, sea monsters, and a king's procession.",
+        "Research note": "Tripatākā shows the other half of this school's claim: the same crown, tree, and blessing meanings that could in principle be carried by other hastas are, by convention, carried by this one — a meaning finding its gesture rather than a gesture fixing its meaning."
+      },
+      "metadata": {
+        "emotion_key": "tripataka",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Tripataka-Hasta.jpg",
+        "image_credit": "Tripataka Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "ardhachandra",
+      "name": "Ardhacandra — the Half-Moon Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 3,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ardhachandra-Hasta.jpg",
+      "keywords": ["ardhachandra", "ardhacandra", "half moon", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Ardhacandra (\"half moon\") begins from patākā and draws the thumb outward and away from the index finger, opening a curved gap between them that echoes the shape of a crescent moon.",
+        "Viniyoga — what it may signify": "Its viniyoga includes a young sapling, the crescent moon itself, a conch shell, a water jar, a bracelet, forcing something open, exertion, drinking, the moon's eighth-day phase, seizing a throat, a spear, consecrating an image, a platter, an origin, meditation or musing, and greeting an ordinary person. For a female character specifically it can also signify a girdle, the hip, the waist, the face, or an ear ornament.",
+        "Research note": "The crescent-moon meaning here sits alongside a full-moon meaning carried by a different hasta, alapadma, in this same school — one referent, the moon, distributed across two unrelated hand shapes depending on which phase of it is meant."
+      },
+      "metadata": {
+        "emotion_key": "ardhachandra",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Ardhachandra-Hasta.jpg",
+        "image_credit": "Ardhachandra Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "shikhara",
+      "name": "Śikhara — the Spire Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 4,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Shikara-Hasta.jpg",
+      "keywords": ["shikhara", "shikara", "spire", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Śikhara (\"peak\" or \"spire\") begins from muṣṭi, a closed fist, and raises the thumb straight upward while the remaining four fingers stay curled into the palm.",
+        "Viniyoga — what it may signify": "Its viniyoga includes reins, a whip or goad, a bow, a javelin, painting the lips or feet, arranging hair, Manmatha (the god of desire), a pillar, certainty, making an offering to ancestors, the upper lip, entering a place, teeth, a question, saying \"no,\" an intimate suggestion, an embrace, and the ringing of a bell.",
+        "Research note": "Śikhara's pairing with Manmatha, the god of desire, and with an embrace sits directly inside the same semantic territory schools/rasa's śṛṅgāra item covers — a hasta doing, in gesture, part of the work rasa theory analyzes at the level of a whole performance."
+      },
+      "metadata": {
+        "emotion_key": "shikhara",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Shikara-Hasta.jpg",
+        "image_credit": "Shikara Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "kartarimukha",
+      "name": "Kartarīmukha — the Scissors-Face Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 5,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Katarimukha-Hasta.jpg",
+      "keywords": ["kartarimukha", "scissors", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Kartarīmukha (\"scissors-face\") begins from ardhapatākā, joins the tips of the thumb, ring finger, and little finger, and separates the index and middle fingers so they open and close like the two blades of a pair of scissors.",
+        "Viniyoga — what it may signify": "Held with fingers down, it can show the way, or a baby crawling. Held with fingers up, it can show biting, horns, or the act of writing letters. Other positions of the same hand give falling, death, transgression, reversal, and putting something into another's trust; combined with another hand or alone it can show an antelope, a yak, a buffalo, a temple elephant, a bull, a gate, or a hilltop. The Abhinaya Darpaṇa also gives it for the separation of a man and woman, opposition, plundering, the corner of an eye, estrangement, lightning, sleeping alone, and weeping.",
+        "Research note": "Few hastas in this set carry a wider spread of viniyoga than kartarīmukha — animal horns, a lover's estrangement, and lightning share one shape, which is exactly the resolved-by-context structure this school states as its argument."
+      },
+      "metadata": {
+        "emotion_key": "kartarimukha",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Katarimukha-Hasta.jpg",
+        "image_credit": "Kartarimukha Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0. The Commons filename spells the hasta \"Katarimukha\"; this item uses the standard transliteration kartarīmukha in its name and prose."
+      }
+    },
+    {
+      "id": "katakamukha",
+      "name": "Kaṭakāmukha — the Bangle-Link Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 6,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Katakamukha-Hasta.jpg",
+      "keywords": ["katakamukha", "kataka", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Kaṭakāmukha (\"link-in-a-bangle mouth\") begins from kapittha and brings the tip of the index finger to touch the tips of the thumb and middle finger, while the ring and little fingers lift and bend slightly away.",
+        "Viniyoga — what it may signify": "Its viniyoga includes plucking a flower, stringing a garland or a pearl necklace, drawing an arrow to the string of a bow, offering a betel leaf, preparing a fragrant paste, smelling, speaking, and glancing. It is also given for sacrifice or oblation, an umbrella, gathering reins, a fan, holding a mirror, drawing a decorative pattern, applying powder, wielding a long stick or whip, drawing out a goad or rope, and representing a woman in general.",
+        "Research note": "Kaṭakāmukha is the twelfth of the 28 asaṃyuta hastas in the Abhinaya Darpaṇa's own sequence; several of its meanings (garland-stringing, offering betel, applying fragrant paste) belong to the same courtship and adornment register śikhara and ardhacandra also touch, from a differently shaped hand."
+      },
+      "metadata": {
+        "emotion_key": "katakamukha",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Katakamukha-Hasta.jpg",
+        "image_credit": "Katakamukha Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "alapadma",
+      "name": "Alapadma — the Unfolded Lotus Hand",
+      "category": "asamyuta-hasta",
+      "sort_order": 7,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Alapadma-Hasta.jpg",
+      "keywords": ["alapadma", "lotus", "hasta", "mudra", "asamyuta"],
+      "sections": {
+        "Definition": "Alapadma (\"unfolded lotus\") spreads all five fingers apart and curves each slightly backward from its base — the little finger bent the most, the index the least — with the thumb drawn slightly outward, so the whole hand opens like a lotus in full bloom.",
+        "Viniyoga — what it may signify": "Its viniyoga includes a fully blossomed lotus, an elephant-apple, a circular or turning movement, beauty, longing for a beloved, a woman's own self-reference (including, in some readings, the breast), a mirror, a hair-knot, the full moon, a moon-pavilion or turret, a village, height, anger, a lake, the Chakravaka bird, a murmuring sound, and praise. Used alone it can also mark negation — \"it is not,\" \"nonsense.\"",
+        "Research note": "Alapadma's \"longing for a beloved\" and full-moon meanings sit close to schools/rasa's śṛṅgāra (built from rati, romantic longing) — see the cross-link on this item. The same emotional territory a whole performance builds toward in rasa theory is, in āngika abhinaya, also carried moment to moment by a single hand shape."
+      },
+      "metadata": {
+        "emotion_key": "alapadma",
+        "source_deck": "rasa",
+        "source_item_id": "shringara",
+        "deck": "Rasa — Bharata's Aesthetics of Performance",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Alapadma-Hasta.jpg",
+        "image_credit": "Alapadma Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "anjali",
+      "name": "Añjali — the Joined-Palm Hand",
+      "category": "samyuta-hasta",
+      "sort_order": 8,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bhupatindra_Malla_in_Anjali_mudra_2.jpg",
+      "keywords": ["anjali", "namaskara", "hasta", "mudra", "samyuta", "salutation"],
+      "sections": {
+        "Definition": "Añjali is a saṃyuta (joined-hand) hasta: two patākā hands are brought together, palm to palm, fingers aligned and touching along their full length. Where every other item in this school is a single-hand shape, añjali is included because it is the one saṃyuta hasta almost everyone outside the dance tradition already recognizes — the gesture that survives into everyday Indian greeting as namaste.",
+        "Viniyoga — what it may signify": "The Abhinaya Darpaṇa gives añjali a single, tightly specified use — salutation — but makes the meaning depend on where the joined hands are held: above the head for a deity, in front of the face for a teacher, and in front of the chest for a learned person (a Brahmin, in the text's own terms). One shape, one broad meaning (reverence), but the meaning's precise addressee is set by height alone — a different axis of context-dependence from patākā's many unrelated meanings in one fixed position.",
+        "Research note": "Añjali is the sole saṃyuta hasta itemized in this skeleton; the Abhinaya Darpaṇa names 23 more, several (kapota, karkaṭa, svastika, puṣpapuṭa) with their own multi-item viniyoga lists left for a future pass."
+      },
+      "metadata": {
+        "emotion_key": "anjali",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Bhupatindra_Malla_in_Anjali_mudra_2.jpg",
+        "image_credit": "Statue of King Bhupatindra Malla in añjali/namaskāra pose atop a stone pillar, Bhaktapur Durbar Square, Nepal — bronze, Malla period (statue erected 1699, per local tradition); photograph by Wikimedia Commons user Nyeta, 14 February 2022, CC BY-SA 4.0. A Newar royal-devotional statue, not a South Indian dance sculpture, chosen because it is confidently identified by the uploader as añjali and no dance-specific image of the gesture with a clear, checkable licence was found in the time available."
+      }
+    },
+    {
+      "id": "group-asamyuta-hasta",
+      "name": "The Asaṃyuta Hastas — Single-Hand Gestures",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["pataka", "tripataka", "ardhachandra", "shikhara", "kartarimukha", "katakamukha", "alapadma"],
+      "sections": {
+        "Definition": "Seven of the Abhinaya Darpaṇa's 28 asaṃyuta (single-hand) hastas, chosen for how clearly and checkably their shapes and viniyoga could be sourced: patākā, tripatākā, ardhacandra, śikhara, kartarīmukha, kaṭakāmukha, and alapadma. Each is formed by one hand alone, and each carries a viniyoga list running from a handful to several dozen distinct, often unrelated meanings."
+      },
+      "keywords": ["asamyuta", "single hand", "hasta"],
+      "metadata": {}
+    },
+    {
+      "id": "group-samyuta-hasta",
+      "name": "The Saṃyuta Hastas — Joined-Hand Gestures",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["anjali"],
+      "sections": {
+        "Definition": "The Abhinaya Darpaṇa names 24 saṃyuta (joined-hand) hastas, formed by combining two hands rather than shaping one. Only añjali, the salutation gesture, is itemized in this skeleton; it is grouped separately from the asaṃyuta hastas because it is built and read differently — two identical hand shapes combined, rather than one hand's own fingers configured."
+      },
+      "keywords": ["samyuta", "joined hand", "hasta", "anjali"],
+      "metadata": {}
+    },
+    {
+      "id": "hasta-mudra-root",
+      "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
+      "category": "root",
+      "level": 3,
+      "sort_order": 11,
+      "composite_of": ["group-asamyuta-hasta", "group-samyuta-hasta"],
+      "sections": {
+        "Definition": "Bharata's Nāṭyaśāstra and Nandikeśvara's later Abhinaya Darpaṇa catalogue a drilled hand-gesture vocabulary for classical Indian dance — roughly 28 single-hand (asaṃyuta) and 24 joined-hand (saṃyuta) hastas — each with a fixed name, a described shape, and a viniyoga: the list of things that shape may be used to mean. This school itemizes eight, chosen for how confidently their shape and viniyoga could be verified against a source rather than for coverage.",
+        "A many-to-many vocabulary, not a code": "This is the school's central claim, worth stating plainly. A code assigns one signal to one meaning. This vocabulary does neither half of that: patākā's single fixed shape carries dozens of distinct, often unrelated meanings (clouds, an oath, a forest, the word \"stop\"), disambiguated only by the song and the narrative moment around it — and a single referent, the moon, is carried by more than one shape (ardhacandra for its crescent phase, alapadma for its fullness). The mapping runs many gestures to many meanings in both directions at once, resolved entirely by context, never by the hand alone. That is a strikingly different model of how a body can carry meaning from a system where one sign reliably means one thing, and it is why this school belongs in a library about how emotional meaning gets made rather than simply displayed.",
+        "A lexicon, not a display of felt emotion": "Read honestly, these are communicative signs inside a performance grammar — closer to a vocabulary a dancer studies and drills than to spontaneous felt expression. A dancer forming śikhara or alapadma to signify longing is executing a taught, conventional sign, not necessarily undergoing the longing itself, the same performer/audience distinction schools/rasa already draws between a character's displayed state and the aesthetic event a qualified spectator experiences. This school documents the sign system; it makes no claim about what, if anything, the performer privately feels while using it.",
+        "What this does not cover": "This skeleton covers eight of roughly 52 named hastas, itemizes none of the nṛtta (pure-dance, non-signifying) uses several of these same shapes also carry, and does not work through the eight sāttvika bhāvas already named in schools/acting-traditions' abhinaya item. It is a representative sample of a much larger, still-living vocabulary, not a claim to have catalogued it.",
+        "Research note": "The Abhinaya Darpaṇa's viniyoga verses are the primary textual source for every item here; shapes and meanings were cross-checked against multiple independent secondary summaries of that text rather than taken from any single translation, since no specific translation is quoted.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim Bharata or Nandikeśvara made.* This vocabulary is a striking case for this library's substrate from an unusual angle: it is not proposing that emotion categories are constructed rather than found (classical treatises treat the hastas' meanings as settled convention within the tradition, not as improvised or personally variable) — it is a working demonstration that a *body* can be made to carry a large, flexible, context-resolved set of meanings without needing one shape per meaning. That a centuries-old performance tradition built its expressive grammar this way, rather than as a one-to-one code, is independent evidence that meaning-carrying gesture does not require fixed signal-to-referent mapping to be legible, learnable, and stable across generations of performers and audiences."
+      },
+      "keywords": ["hasta mudra", "abhinaya darpana", "nandikeshvara", "natyashastra", "bharatanatyam", "viniyoga"],
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "The Abhinaya Darpaṇa and the Nāṭyaśāstra's āngika chapters document a living performance-practice vocabulary, refined and transmitted within trained dance lineages over centuries, not an empirical claim about how emotion is produced or read in the body. A hasta's authority rests on its continued, checkable use and legibility within a specific dance tradition's own convention, not on experimental confirmation of any inner state it may be used to signify — the same distinction schools/acting-traditions draws for its own codified-external systems.",
+        "source_deck": "acting-traditions",
+        "source_item_id": "abhinaya-four-modes",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
+      }
+    }
+  ]
+}
