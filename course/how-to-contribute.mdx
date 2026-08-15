@@ -1,0 +1,123 @@
+---
+id: how-to-contribute
+title: "Ways to Contribute"
+description: "This library is public-domain and CC-BY-SA data in one open GitHub repo — the schools, the metadata that lets them cross-link honestly, and these very courses. Four routes in, gentlest first, and no git required for the easy ones."
+duration: 14
+author: PlayfulProcess
+date: 2026-08-15
+---
+
+# Ways to Contribute
+
+Everything in Recursive Repatterning is **open data in one place** — the [recursive-repatterning repo](https://github.com/PlayfulProcess/recursive-repatterning). Every school of emotion is a JSON file; the metadata that lets schools cross-link honestly is a pair of conventions anyone can check; these courses are Markdown. If something is wrong, thin, or missing, you can fix it.
+
+> Every change lands as a **pull request**, so nothing goes live until it's reviewed. You can't break anything by proposing something.
+
+## What a school actually is
+
+A **school** is one tradition's account of feeling, told in its own voice: Plutchik's wheel, Nonviolent Communication's needs, the Stoics' *pathē*, Bharata's *rasa*. Each one lives at `schools/<slug>/grammar.json` and carries exactly **one source** — the model's own originator, or the primary text it's drawn from.
+
+That's a rule, not a habit: **one source per grammar.** A school never stacks a second author's take on top of the first inside the same file. If Rosenberg's account of a feeling-as-signal and a different writer's account of the same territory both matter, they become two separate schools, cross-linked — never two voices braided into one item. The reason isn't tidiness. It's that a reader has no way to tell whose claim they're looking at once two authors share a card, and it lets one tradition's vocabulary quietly stand in for another's, which is exactly the flattening this library exists to refuse. Plutchik's wheel and Ekman's six overlap on five terms and still aren't the same theory, built from different premises, a few years apart — collapsing them into one entry would erase that.
+
+It follows that **each school gets to speak as itself.** A Nonviolent Communication item should sound like NVC — its own definitions, its own emphasis — not like this project's editorial voice describing NVC from outside. Where this library actually *disagrees* with a school, or reads it against the constructionist substrate the whole collection sits on, that reading goes in a clearly marked `Constructionist lens` section (never inside the school's own definition), or in the long form of a course. A school's own sections stay the school's own claims.
+
+## The two things every contribution has to carry
+
+Two metadata fields are non-negotiable on the content they apply to. Skip either one and a change won't be accepted, however good the prose is — they're not decoration, they're the honesty the whole project is built on.
+
+### `metadata.evidence_tier`
+
+Every **school-level item** carries an `evidence_tier`, one of four values, plus an `evidence_note` explaining *why that tier, for this claim specifically* — not a generic disclaimer copy-pasted across items:
+
+| Tier | What it means |
+|---|---|
+| `independently-replicated` | Tested and confirmed by researchers other than the model's own originator, more than once |
+| `growing` | A meaningful, expanding body of support exists, but independent replication isn't yet deep or settled |
+| `observational-only` | Support comes from clinical observation, case study, or correlational data — no controlled replication |
+| `theoretical` | A structural proposal with no independent empirical confirmation of its specific claims |
+
+Here's a real one, from `schools/ekman-basic/grammar.json`, on why the six-basic-emotions model sits at `observational-only` rather than higher:
+
+> *"The model's central empirical claim — cross-cultural universality of a small set of discrete facial expressions — rests on cross-cultural judgment studies that are genuinely observational and correlational rather than settled experimental fact: the original forced-choice studies… reported strong cross-cultural recognition; later studies using free-labeling methodology… reported substantially weaker agreement; and a 2019 meta-analysis… found no reliable one-to-one facial signature for discrete emotion categories across the wider literature."*
+
+The point of doing this at all: two schools can both sound confident in their own prose while resting on completely different evidence bases. A library that badges everything "evidence-based" without distinction hides that gap from a reader at exactly the moment it matters. `evidence_tier` is how a reader doesn't have to already know the literature to see what's load-bearing and what's still provisional.
+
+### `metadata.emotion_key`
+
+Every **emotion-level item** carries an `emotion_key` — a lowercase, singular string that lets the same feeling be found across every school that names it. It's the equivalent of tarot's "trump key": the thing that lets `across-the-schools` pull together every tradition's take on, say, fear, without the schools having agreed on anything in advance.
+
+**Picking this wrong fails silently** — a mismatched key just means the item never surfaces where it should, with no error to tell you. Two rules keep it honest:
+
+- **When a term maps cleanly onto an English emotion word, use that word:** `fear`, `shame`, `contempt`, `joy`.
+- **When it doesn't, keep the term's own form — don't force an English gloss.** Sanskrit *śṛṅgāra* is not simply "love"; Aquinas's *spes* is not simply "hope"; the alchemical *nigredo* is not simply "despair"; Chinese *xǐ* (喜) is not simply "joy." Each of those items keeps its transliterated `emotion_key` — `shringara`, `spes`, `nigredo`, `xi` — exactly as they appear today in `schools/rasa/`, `schools/aquinas-passions/`, `schools/alchemical-correspondences/`, and `schools/chinese-qing/`.
+
+The reason for the second rule is the whole reason this library exists. `emotion_key` is a **cross-grammar matching key**, not a claim that the underlying feeling is the same thing everywhere it appears — [`docs/GENEALOGY-OF-EMOTIONS.md`](https://github.com/PlayfulProcess/recursive-repatterning/blob/main/docs/GENEALOGY-OF-EMOTIONS.md) spends a full section on exactly this danger: a gloss that's accurate enough to pass a quick check and wrong enough to lose the concept's actual shape. Forcing *xǐ* into "joy" doesn't translate it — it quietly re-imports English folk-psychology categories through the one field whose entire job is to let honest comparison happen without doing that. If you're adding a term that doesn't have a clean English equivalent, transliterate it and let the mapping stay visible as a mapping.
+
+## The one way schools link to each other
+
+There is exactly one cross-link mechanism in this chassis, and it's the same one for every direction — a school pointing at a related school, an aggregator pointing at a source:
+
+```json
+"metadata": {
+  "source_deck": "<slug>",
+  "source_item_id": "<item-id>",
+  "deck": "<human label>"
+}
+```
+
+The viewer turns that into a pill reading **"Open in [label] →"**, and it suppresses itself automatically if you're already inside that school, so it never shows a circular link. **Don't invent a second link field** — every viewer in this repo only knows how to render this one.
+
+One thing this repo does *not* use: `GRAMMAR_FORMAT.md` documents a separate `item_type: "reference"` / `ref_document_id` mechanism, built for meta-grammars that point at whole other decks. It's real, but it's untested in this project and nothing here renders it. If you want to link two items, use `source_deck` / `source_item_id` / `deck` — it's the path that actually works.
+
+## Sourcing and copyright
+
+- **Public domain first.** Darwin (1872) and James (1890) are old enough, and their authors dead long enough, that their own text can be used directly.
+- **Original prose, always.** Where a school's source material is still in copyright — Rosenberg (NVC), Johnson (EFT), Brown (*Atlas of the Heart*), Linehan (DBT) — you paraphrase the category definitions and write entirely original prose for every section. **Never quote a passage.** Credit the source once, at the grammar root, in `_grammar_commons.attribution`, with an explicit "no text is copied from copyrighted publications" note.
+- **On institutions asserting fresh rights over public-domain scans:** a photograph of a flat, out-of-copyright work (say, a Darwin plate) sometimes carries its own license tag from the archive that scanned it — Wellcome-style CC BY on a 150-year-old image. That's a legally usable license, and using it honestly (with attribution) is fine. But where an equally good public-domain scan exists from a source that claims no fresh rights at all (Internet Archive, the Biodiversity Heritage Library), prefer that one — it's a commons library, and passing along an attribution obligation that an institution invented on top of already-public-domain material is a small, avoidable tax on how forkable the result is. Where the fresh-rights scan really is the only one available, use it and attribute it plainly. Never skip a needed image over this, and never hide the license claim either. The full reasoning is in [`docs/SOURCES-AND-CAVEATS.md`](https://github.com/PlayfulProcess/recursive-repatterning/blob/main/docs/SOURCES-AND-CAVEATS.md).
+
+## No totalising claims
+
+This library holds a handful of the ways people have organised feeling, and it could never hold them all — there is no complete set, and there won't be. Don't name a school, a page, or a section "All Schools," "The Complete X," or "Every Y," and don't write copy that implies the collection is exhaustive or settled. Name things for what they **do** — "Across the Schools," not "All Emotions" — and when a claim needs scoping, scope it explicitly: *the schools currently in this library*, not *the schools*.
+
+## Four routes in, gentlest first
+
+Pick the smallest one that fixes what's actually bothering you. Every route below ends the same way: a small, reviewable pull request.
+
+### 1. Fix a typo or a wrong fact
+
+The lightest possible contribution — a misdated source, a misspelled name, a `Research note` that got a year wrong.
+
+- **On GitHub.** Open the school's `grammar.json` (`schools/<slug>/grammar.json`) on GitHub, click the pencil, fix the text, and choose **"Propose changes."** GitHub opens the pull request for you — no local setup at all.
+- **In the app.** If you're signed in at [recursive.eco](https://flow.recursive.eco), open the item and use **Fork / Edit** to propose the same fix through the UI, or just ask the **Grammar Assistant** to make it for you.
+
+### 2. Add an item to an existing school
+
+A school is missing a term its own tradition clearly has — Plutchik's wheel without one of its eight families, NVC without a needs-category it names elsewhere.
+
+1. Open that school's `grammar.json` and look at a sibling item for the shape to match: `id`, `name`, `category`, `sections`, and `metadata`.
+2. Write the item **in that school's own voice** — its own definitions, not this library's gloss on them. Use whichever of the standard sections fit: `Definition`, `In the body`, `Where it shows up`, `Research note`, `Practice`. (`Constructionist lens` is reserved for this library's own editorial reading — never write it as if the school said it.)
+3. Set `metadata.evidence_tier` + `evidence_note` and `metadata.emotion_key`, following the rules above.
+4. Open the pull request. If your addition touches how the school cross-links to others, add the `source_deck` / `source_item_id` / `deck` pattern to the relevant items.
+
+### 3. Illustrate an item with verified public-domain art
+
+Plenty of items have no `image_url` yet. Adding one is a real, valuable contribution — as long as the license is airtight.
+
+- Only **public domain, CC0, CC-BY, or CC-BY-SA** images are acceptable. If nothing freely licensed exists for an item, it's fine — better, even — for it to stay imageless than to guess.
+- Record where the image came from and under what license in the item's `metadata` (`image_source`, `image_credit`) — `schools/rasa/grammar.json` is a working example: it illustrates the rasas it could confidently match to a public-domain Ragamala painting and leaves the rest unillustrated rather than force a weak match.
+- If you're working with Claude and have the recursive.eco MCP connected, `commons_image_search` and `wikipedia_summary` search and license-check candidates directly — free tools, no credits spent.
+
+### 4. Write a new school
+
+The deepest contribution: a whole tradition this library doesn't have yet — see `schools/_collection.json` for branches that are still empty (attachment & couples, skills-based, parts & depth, and others).
+
+1. Research the tradition's own literature before writing a line — its own terms, its own organizing logic, not a modern gloss dressed up as the original.
+2. Write the grammar file at `schools/<your-slug>/grammar.json`, following [`GRAMMAR_FORMAT.md`](https://github.com/PlayfulProcess/recursive-repatterning/blob/main/GRAMMAR_FORMAT.md) — one voice throughout, `evidence_tier` and `emotion_key` on every item that needs them, attribution recorded once at the grammar root.
+3. If the tradition is still living and taught by a named person, title the school by its tradition and say "inspired by," not by their name — dead, eponymous figures (Darwin, James, Jung) are the exception.
+4. Working with Claude Code or Claude Desktop and the repo cloned locally lets you build a whole school in one pass, run the repo's own validation script before you commit, and open the pull request when it's ready. That workflow — and the recursive.eco MCP, which can create and illustrate a grammar without ever touching a file by hand — is worth its own read if you're taking this route: see [`GRAMMAR_FORMAT.md`](https://github.com/PlayfulProcess/recursive-repatterning/blob/main/GRAMMAR_FORMAT.md) and the repo's `scripts/` directory for the checks a pull request needs to pass.
+
+## The ethos
+
+You're not filing a bug. You're tending a commons — a school you correct or extend well becomes something a stranger, in a tradition you've never studied, can read and trust. The repo is public so the work outlives any one contributor.
+
+Start at whatever rung feels easy. A one-word fix helps exactly as much as the library needs it to. Pick the smallest thing that bothers you, fix it, and open the pull request: **[github.com/PlayfulProcess/recursive-repatterning](https://github.com/PlayfulProcess/recursive-repatterning)**.
