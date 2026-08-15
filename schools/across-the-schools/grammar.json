@@ -35,7 +35,7 @@
     {
       "slug": "nvc-needs",
       "name": "Nonviolent Communication — Feelings and Needs",
-      "items": 5
+      "items": 33
     },
     {
       "slug": "attachment-theory",
@@ -1381,7 +1381,7 @@
     {
       "id": "nvc-needs--frustration",
       "name": "Frustration — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "In NVC practice, frustration typically points toward an unmet need for effectiveness, autonomy, or competence — the sense that one's efforts aren't landing, or that a choice one wants to make is being blocked. NVC asks the practitioner to locate the need underneath the frustration rather than stopping at the feeling or, worse, at blame directed at whoever seems to be causing it.",
         "Not a verdict about someone else": "NVC draws a sharp line between a genuine feeling word (\"I feel frustrated\") and a pseudo-feeling that smuggles in a claim about another person's behavior or character (\"I feel ignored,\" \"I feel dismissed\") — the second kind names a story about someone else's action, not a state in the speaker, and NVC practice asks a person to trace it back to the actual feeling and need underneath.",
@@ -1403,7 +1403,7 @@
     {
       "id": "nvc-needs--loneliness",
       "name": "Loneliness — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "Loneliness typically points toward an unmet need for connection, companionship, or being seen — NVC treats the feeling as accurate information about a real gap, not as a flaw in the person feeling it.",
         "Not a verdict about someone else": "As with frustration, NVC distinguishes loneliness (a feeling) from a pseudo-feeling like \"I feel abandoned\" or \"I feel unloved,\" which build in a specific causal story about another person's action or intent rather than simply naming the felt state and its underlying need.",
@@ -1426,7 +1426,7 @@
     {
       "id": "nvc-needs--anxious",
       "name": "Anxious — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "Anxious, in NVC's framing, typically points toward an unmet need for safety, security, clarity, or predictability — the sense that something important is uncertain or at risk. As with the other unmet-need signals here, NVC treats the feeling itself as useful data rather than as a problem to be argued away.",
         "Not a verdict about someone else": "NVC would flag \"I feel threatened\" or \"I feel set up\" as pseudo-feelings if they're standing in for anxious plus an unexamined story about someone's intent — the practice asks the speaker to separate the felt anxiety from any claim about why it's happening.",
@@ -1449,7 +1449,7 @@
     {
       "id": "nvc-needs--relief",
       "name": "Relief — Signals a Met Need",
-      "category": "met-need-signal",
+      "category": "feeling-met",
       "sections": {
         "Definition": "Relief typically signals that a need for safety, ease, or resolution has just been met — a tension that was present has resolved. NVC treats naming relief, and the specific need behind it, as just as useful a practice as naming a harder feeling: it builds the same fluency in the same direction.",
         "Practice": "NVC materials commonly ask practitioners to also notice and name met-need feelings deliberately, not only to diagnose problems — naming what need relief is pointing to (here, ease or safety) makes it easier to recognize and ask for the conditions that produce that state again."
@@ -1470,7 +1470,7 @@
     {
       "id": "nvc-needs--joyful",
       "name": "Joyful — Signals a Met Need",
-      "category": "met-need-signal",
+      "category": "feeling-met",
       "sections": {
         "Definition": "Joyful, in this framing, typically points toward needs like connection, play, meaning, or contribution being met — NVC treats it, like every feeling on this deck, as a signal rather than a self-sufficient endpoint, worth tracing back to the specific need it's responding to.",
         "Practice": "Naming which need is behind a joyful moment (was it connection? contribution? play?) is itself a practiced skill in NVC training, intended to build the same feeling-to-need fluency that the harder, unmet-need feelings require, so it isn't only exercised under difficulty."
@@ -1485,6 +1485,824 @@
         "emotion_key": "joy",
         "source_deck": "nvc-needs",
         "source_item_id": "joyful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--affectionate",
+      "name": "Affectionate — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "In NVC's vocabulary, affectionate names warmth directed toward another person — the tenderness that often shows up when a need for connection or closeness is being met."
+      },
+      "keywords": [
+        "compassionate",
+        "fond",
+        "loving",
+        "openhearted",
+        "tender",
+        "warm"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "affectionate",
+        "source_deck": "nvc-needs",
+        "source_item_id": "affectionate",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--engaged",
+      "name": "Engaged — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Engaged covers the family of feelings that show up when attention is fully caught by something — curiosity, absorption, fascination — usually a sign that needs like stimulation, meaning, or discovery are being met."
+      },
+      "keywords": [
+        "absorbed",
+        "curious",
+        "engrossed",
+        "enchanted",
+        "enthralled",
+        "entranced",
+        "fascinated",
+        "interested",
+        "intrigued",
+        "involved",
+        "open",
+        "spellbound",
+        "stimulated"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "engaged",
+        "source_deck": "nvc-needs",
+        "source_item_id": "engaged",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--excited",
+      "name": "Excited — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Excited names the more activated end of a need being met — energy, aliveness, anticipation — distinct from the calmer register of peaceful or content."
+      },
+      "keywords": [
+        "amazed",
+        "ardent",
+        "aroused",
+        "dazzled",
+        "energetic",
+        "enlivened",
+        "enthusiastic",
+        "exuberant",
+        "invigorated",
+        "lively",
+        "passionate",
+        "surprised",
+        "vibrant"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "excited",
+        "source_deck": "nvc-needs",
+        "source_item_id": "excited",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--exhilarated",
+      "name": "Exhilarated — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Exhilarated is excited turned up further still — an intense, often sudden charge, as when a need for stimulation or celebration is met all at once."
+      },
+      "keywords": [
+        "enthralled",
+        "radiant",
+        "electrified",
+        "euphoric",
+        "overjoyed",
+        "thrilled"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "exhilarated",
+        "source_deck": "nvc-needs",
+        "source_item_id": "exhilarated",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--grateful",
+      "name": "Grateful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Grateful names the feeling of having received something valued — appreciation turned toward whoever or whatever met the need."
+      },
+      "keywords": [
+        "appreciative",
+        "moved",
+        "thankful",
+        "touched"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "grateful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "grateful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--happy",
+      "name": "Happy — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Happy is the broadest, most familiar family here, covering everything from mild pleasure to jubilation — a useful starting point before narrowing to a more specific word."
+      },
+      "keywords": [
+        "amused",
+        "blissful",
+        "cheerful",
+        "delighted",
+        "ecstatic",
+        "elated",
+        "giddy",
+        "glad",
+        "jolly",
+        "joyful",
+        "jubilant",
+        "merry",
+        "overjoyed",
+        "pleased",
+        "rapturous",
+        "tickled"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "happy",
+        "source_deck": "nvc-needs",
+        "source_item_id": "happy",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--hopeful",
+      "name": "Hopeful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Hopeful points forward — confidence or expectancy that a need not yet met is on its way to being met."
+      },
+      "keywords": [
+        "confident",
+        "expectant",
+        "jazzed",
+        "lighthearted",
+        "sanguine",
+        "up",
+        "upbeat"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hopeful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "hopeful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--inspired",
+      "name": "Inspired — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Inspired names the feeling of being moved toward action or possibility, often when needs for meaning, contribution, or growth are met by something encountered outside oneself."
+      },
+      "keywords": [
+        "amazed",
+        "eager",
+        "enthused",
+        "motivated",
+        "moved",
+        "psyched",
+        "stimulated",
+        "stirred",
+        "wonder"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "inspired",
+        "source_deck": "nvc-needs",
+        "source_item_id": "inspired",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--peaceful",
+      "name": "Peaceful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Peaceful covers the settled end of the met-needs spectrum — calm, contentment, equanimity — a need met without urgency left over."
+      },
+      "keywords": [
+        "calm",
+        "comfortable",
+        "centered",
+        "content",
+        "equanimity",
+        "fulfilled",
+        "mellow",
+        "open",
+        "quiet",
+        "relaxed",
+        "relieved",
+        "satisfied",
+        "serene",
+        "tranquil"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "peaceful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "peaceful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--refreshed",
+      "name": "Refreshed — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Refreshed names the specific feeling of restoration — rest, recovery, renewal — when a need for physical or mental replenishment has just been met."
+      },
+      "keywords": [
+        "recharged",
+        "rejuvenated",
+        "renewed",
+        "rested",
+        "restored",
+        "revived"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "refreshed",
+        "source_deck": "nvc-needs",
+        "source_item_id": "refreshed",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--anger",
+      "name": "Anger — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Anger names the family of feelings that show up when a need is blocked and the energy of that block is directed outward — irritation, frustration, and their more intense relatives."
+      },
+      "keywords": [
+        "aggravated",
+        "angry",
+        "animosity",
+        "annoyed",
+        "contempt",
+        "disgruntled",
+        "enraged",
+        "exasperated",
+        "furious",
+        "hate",
+        "hostile",
+        "incensed",
+        "irate",
+        "irritated",
+        "irked",
+        "livid",
+        "miffed",
+        "nettled",
+        "outraged",
+        "peeved",
+        "resentful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "nvc-needs",
+        "source_item_id": "anger",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--aversion",
+      "name": "Aversion — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Aversion covers feelings of active dislike or repulsion — a signal that something is moving against a need rather than simply failing to meet it."
+      },
+      "keywords": [
+        "abhorrence",
+        "appalled",
+        "bothered",
+        "displeased",
+        "disgust",
+        "dislike",
+        "enmity",
+        "horrified",
+        "loathing",
+        "repulsion",
+        "revulsion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "aversion",
+        "source_deck": "nvc-needs",
+        "source_item_id": "aversion",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--confusion",
+      "name": "Confusion — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Confusion names the feeling of not yet being able to locate the need underneath a reaction — mixed, conflicted, unable to settle on one read of a situation."
+      },
+      "keywords": [
+        "ambivalent",
+        "baffled",
+        "bewildered",
+        "conflicted",
+        "dazed",
+        "discombobulated",
+        "disoriented",
+        "mixed",
+        "mystified",
+        "perplexed",
+        "puzzled",
+        "torn"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "confusion",
+        "source_deck": "nvc-needs",
+        "source_item_id": "confusion",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--disconnection",
+      "name": "Disconnection — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Disconnection covers the withdrawn end of unmet needs — numbness, distance, apathy — often present when a need for connection or engagement has gone unmet for a while."
+      },
+      "keywords": [
+        "apathetic",
+        "bored",
+        "closed",
+        "detached",
+        "distant",
+        "indifferent",
+        "listless",
+        "numb",
+        "withdrawn"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disconnection",
+        "source_deck": "nvc-needs",
+        "source_item_id": "disconnection",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--disquiet",
+      "name": "Disquiet — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Disquiet names a lower-grade, more diffuse unease than fear or anger — something feels off, though the specific unmet need may not yet be clear."
+      },
+      "keywords": [
+        "agitated",
+        "alarmed",
+        "concerned",
+        "distraught",
+        "disconcerted",
+        "dismayed",
+        "disturbed",
+        "frustrated",
+        "perturbed",
+        "rattled",
+        "restless",
+        "shocked",
+        "startled",
+        "surprised",
+        "troubled",
+        "turbulent",
+        "turmoil",
+        "uncomfortable",
+        "uneasy",
+        "unnerved",
+        "unsettled",
+        "upset"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disquiet",
+        "source_deck": "nvc-needs",
+        "source_item_id": "disquiet",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--embarrassment",
+      "name": "Embarrassment — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Embarrassment names the feeling that follows a sense of having been seen in a way that doesn't match how one wants to be seen — often pointing toward needs for acceptance or self-respect."
+      },
+      "keywords": [
+        "ashamed",
+        "chagrined",
+        "discomfited",
+        "flustered",
+        "mortified",
+        "self-conscious"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "embarrassment",
+        "source_deck": "nvc-needs",
+        "source_item_id": "embarrassment",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--fatigue",
+      "name": "Fatigue — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Fatigue names depletion — a need for rest, ease, or physical replenishment that has gone unmet for long enough to be felt in the body."
+      },
+      "keywords": [
+        "beat",
+        "burnt out",
+        "depleted",
+        "exhausted",
+        "listless",
+        "pooped",
+        "sleepy",
+        "tired",
+        "weary",
+        "wiped out",
+        "worn out"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fatigue",
+        "source_deck": "nvc-needs",
+        "source_item_id": "fatigue",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--fear",
+      "name": "Fear — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Fear covers the family of feelings that show up when safety, predictability, or security feel uncertain or at risk."
+      },
+      "keywords": [
+        "afraid",
+        "anxious",
+        "apprehensive",
+        "dread",
+        "fearful",
+        "foreboding",
+        "frightened",
+        "guarded",
+        "insecure",
+        "leery",
+        "mistrustful",
+        "panicked",
+        "petrified",
+        "scared",
+        "shaky",
+        "terrified",
+        "trepidation",
+        "wary",
+        "worried"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "nvc-needs",
+        "source_item_id": "fear",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--pain",
+      "name": "Pain — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Pain names some of the heavier feelings on this list — grief, hurt, heartbreak — usually present when a significant need has gone unmet for some time, not just momentarily."
+      },
+      "keywords": [
+        "aching",
+        "agony",
+        "anguished",
+        "devastated",
+        "grief",
+        "heartbroken",
+        "hungry",
+        "hurting",
+        "lonely",
+        "miserable",
+        "regretful",
+        "remorseful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "pain",
+        "source_deck": "nvc-needs",
+        "source_item_id": "pain",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--sadness",
+      "name": "Sadness — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Sadness covers the feeling of loss or disappointment when a hoped-for outcome doesn't happen, or a need that mattered goes unmet."
+      },
+      "keywords": [
+        "depressed",
+        "dejected",
+        "despairing",
+        "despondent",
+        "disappointed",
+        "discouraged",
+        "disheartened",
+        "forlorn",
+        "gloomy",
+        "heavy hearted",
+        "hopeless",
+        "melancholy",
+        "miserable",
+        "unhappy",
+        "wistful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "source_deck": "nvc-needs",
+        "source_item_id": "sadness",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--tension",
+      "name": "Tension — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Tension names a felt tightness or activation in the body or mind — often present when several needs are competing for attention at once, or a need feels urgent."
+      },
+      "keywords": [
+        "anxious",
+        "closed",
+        "distressed",
+        "edgy",
+        "fidgety",
+        "frazzled",
+        "frustrated",
+        "jittery",
+        "nervous",
+        "overwhelmed",
+        "restless",
+        "stressed out"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "tension",
+        "source_deck": "nvc-needs",
+        "source_item_id": "tension",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--yearning",
+      "name": "Yearning — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Yearning names the feeling of reaching toward something not currently had — longing that points fairly directly at the specific unmet need behind it."
+      },
+      "keywords": [
+        "longing",
+        "nostalgic",
+        "pining"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "yearning",
+        "source_deck": "nvc-needs",
+        "source_item_id": "yearning",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--autonomy",
+      "name": "Autonomy — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Autonomy names needs around choosing one's own path — freedom, independence, the space to set one's own direction rather than have it set by someone else."
+      },
+      "keywords": [
+        "choice",
+        "dignity",
+        "freedom",
+        "independence",
+        "self-expression",
+        "space",
+        "spontaneity"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "autonomy",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--connection",
+      "name": "Connection — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Connection is the largest need-family here, covering everything from closeness and belonging to being known, trusted, and supported by others."
+      },
+      "keywords": [
+        "acceptance",
+        "affection",
+        "appreciation",
+        "authenticity",
+        "belonging",
+        "care",
+        "closeness",
+        "communication",
+        "communion",
+        "community",
+        "companionship",
+        "compassion",
+        "consideration",
+        "empathy",
+        "friendship",
+        "inclusion",
+        "inspiration",
+        "integrity",
+        "intimacy",
+        "love",
+        "mutuality",
+        "nurturing",
+        "partnership",
+        "presence",
+        "respect/self-respect",
+        "security",
+        "self-acceptance",
+        "self-care",
+        "self-connection",
+        "self-expression",
+        "shared reality",
+        "stability",
+        "support",
+        "to know and be known",
+        "to see and be seen",
+        "trust",
+        "understanding",
+        "warmth"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "connection",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--meaning",
+      "name": "Meaning — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Meaning covers needs that point beyond the immediate moment — growth, purpose, contribution, understanding — the sense that something matters or is going somewhere."
+      },
+      "keywords": [
+        "awareness",
+        "celebration",
+        "challenge",
+        "clarity",
+        "competence",
+        "consciousness",
+        "contribution",
+        "creativity",
+        "discovery",
+        "efficiency",
+        "effectiveness",
+        "growth",
+        "integration",
+        "integrity",
+        "learning",
+        "mourning",
+        "movement",
+        "participation",
+        "perspective",
+        "presence",
+        "progress",
+        "purpose",
+        "self-expression",
+        "stimulation",
+        "understanding"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "meaning",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--peace",
+      "name": "Peace — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Peace names needs for balance and ease — harmony, order, equanimity — the absence of ongoing struggle rather than any particular gain."
+      },
+      "keywords": [
+        "acceptance",
+        "balance",
+        "beauty",
+        "communion",
+        "ease",
+        "equanimity",
+        "faith",
+        "harmony",
+        "hope",
+        "order",
+        "peace-of-mind",
+        "space"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "peace",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--physical-well-being",
+      "name": "Physical Well-Being — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Physical well-being covers the body's own needs — rest, food, safety, touch — the most concrete layer of the needs list, and often the layer underneath needs that look abstract at first."
+      },
+      "keywords": [
+        "air",
+        "care",
+        "comfort",
+        "food",
+        "movement/exercise",
+        "rest/sleep",
+        "safety (physical)",
+        "self-care",
+        "sexual expression",
+        "shelter",
+        "touch",
+        "water"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "physical-well-being",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--play",
+      "name": "Play — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Play names needs met through lightness — fun, humor, adventure, stimulation for its own sake rather than toward any further goal."
+      },
+      "keywords": [
+        "adventure",
+        "excitement",
+        "fun",
+        "humor",
+        "joy",
+        "relaxation",
+        "stimulation"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "play",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
