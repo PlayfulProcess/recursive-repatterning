@@ -1,0 +1,203 @@
+{
+  "name": "The Gottman Method",
+  "description": "The Gottman Method is the couples-therapy approach built by John Gottman and Julie Schwartz Gottman from four decades of direct observation of real couples — videotaped conversations, heart-rate and hormone monitoring, and long-term follow-up — conducted first at the University of Washington's 'Love Lab' and later through the Gottman Institute. Rather than starting from theory, the method starts from pattern: watching what actually distinguishes couples who stay together and grow closer from couples who drift apart or divorce, then naming what was observed. Four such patterns turned out to predict relationship trouble with notable reliability — the Four Horsemen of criticism, contempt, defensiveness, and stonewalling — each paired with a specific antidote the Gottmans also observed working in stable couples. Other findings from the same body of research describe what keeps a relationship resilient: bids for connection and how partners respond to them, the balance of positive to negative interaction during conflict (sentiment override), how couples navigate the conflicts that never fully resolve, and a willingness to be moved by a partner's perspective.\n\nThis grammar carries the Gottman Method's own voice and evidence base only. It draws on the same territory — couple conflict, connection, and repair — as Sue Johnson's Emotionally Focused Therapy and Bowlby and Ainsworth's attachment theory, elsewhere in this library, and is cross-linked to both; but per this library's one-source-per-grammar rule, those traditions' own claims live in their own grammars, not stacked into this one.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. The Gottman Method is a living, contemporary couples-therapy tradition with no period art to draw on — its own Love Lab footage, Gottman Institute branding, and training diagrams are copyrighted. Generic stock photography of couples or faces was considered and rejected: it would not depict this method's specific claims, and off-the-shelf 'happy couple' or 'arguing couple' imagery risks implying a fixed, universal visual signature for dynamics this school treats as behavioral patterns, not appearances. Leaving the school unillustrated is judged better than a generic or misleading substitute.",
+  "tags": ["gottman-method", "gottman", "couples-therapy", "four-horsemen", "relationship-science"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, split out of _seeds/grammars/relationship-cards.json (68-item couples oracle mixing Gottman, Johnson's EFT, Bowlby/Ainsworth attachment theory, and some Linehan/DBT content into single stacked cards). This grammar keeps only material that is genuinely the Gottmans' own research and method — the Four Horsemen, bids, sentiment override, perpetual problems and gridlock, flooding, accepting influence, and repair attempts — restated in original prose, not the seed's numbered build-tag scaffolding notes. Left out deliberately: the seed's Sue Johnson material (protest polka, attachment injury, softening, A.R.E.) now lives in schools/eft-bonds; its Bowlby material (secure base) now lives in schools/attachment-theory; its Marsha Linehan material (boundaries as DEAR MAN, dialectical both/and framing) belongs to neither of these three and is left out entirely, per instruction, for a separate DBT school being written elsewhere. Also left out: the seed's individually-named shadow cards (contempt, criticism, defensiveness, stonewalling as separate cards) and its Sound Relationship House as a distinct architecture item — both are folded into this grammar's existing items (the Four Horsemen covers all four behaviors together; the Sound Relationship House's floors are distributed across bids, sentiment override, and repair attempts) rather than duplicated as additional cards, to keep this a skeleton of 5-8 well-written items rather than a full re-import of the seed's 12-card pattern suit. Unwritten: the Gottman Method's specific 'Dreams Within Conflict' interview protocol, the seven-floor Sound Relationship House diagram as its own item, and the ATTUNE trust-building acronym are referenced only in passing, not built out as their own items.",
+  "_art_direction": {
+    "period_place": "The Gottman Method was developed by John Gottman and Julie Schwartz Gottman from the late 1970s onward, chiefly in the United States — a living, ongoing clinical and research tradition with no historical period or place to draw period art from, and no public-domain visual record of its own.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic, non-representational imagery (weather, water, architecture) that could stand in for concepts like 'flooding' or 'repair' without depicting a couple or a face."
+      },
+      {
+        "name": "Wikimedia Commons — contemporary photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY abstract or object-based imagery (a bridge, a tide line, a mended object) rather than any photograph of people, which risks implying this school's patterns look a particular way or belong to a particular kind of couple; confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "This library's own schools/parts-work and schools/nvc-needs precedent",
+        "url": "schools/parts-work/grammar.json",
+        "note": "Both sibling modern-clinical-tradition schools in this library ship deliberately unillustrated rather than reach for stock photography; the same call is made here."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "John Gottman and Julie Schwartz Gottman",
+        "role": "source tradition",
+        "note": "Structural basis: the observational and longitudinal couples research conducted at the University of Washington's 'Love Lab' from the late 1970s onward and through the Gottman Institute, and the derived Gottman Method for couples therapy — the Four Horsemen and their antidotes, bids for connection, sentiment override, perpetual problems, flooding, accepting influence, and repair attempts. The Gottmans' books (including The Seven Principles for Making Marriage Work and What Makes Love Last?) and the Gottman Institute's published training materials remain in copyright; no text is quoted from them. Every definition and example in this grammar is original prose describing the general shape of the research and method, not a reproduction of any published wording."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "four-horsemen",
+      "name": "The Four Horsemen",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 1,
+      "keywords": ["criticism", "contempt", "defensiveness", "stonewalling", "gottman"],
+      "sections": {
+        "Definition": "The Gottmans' name for four specific communication behaviors that, observed during a couple's conflict conversation, distinguished couples who later stayed together from couples who later separated. Criticism attacks a partner's character rather than naming a specific complaint ('you always' rather than 'this happened'). Contempt goes further, adding a stance of superiority or disgust — sarcasm, mockery, an eye-roll — and is the single behavior the Gottmans treat as most corrosive. Defensiveness deflects a complaint back onto the other partner rather than absorbing any of it. Stonewalling is a partner disengaging from the interaction almost entirely — a blank face, a turned body, silence. The four tend to arrive in sequence, each one making the next more likely.",
+        "Practice": "Each horseman has a counter-move the Gottmans observed in stable couples, covered elsewhere in this grammar: a specific complaint in place of a character attack, an active habit of appreciation in place of contempt, taking a small share of responsibility in place of defensiveness, and a self-soothing pause in place of stonewalling. Recognizing which horseman is present in the room is itself most of the intervention — a couple that can say 'there's contempt again' has already interrupted it.",
+        "Research note": "In some of the Gottmans' longitudinal samples, the presence and frequency of these four behaviors during a videotaped conflict conversation predicted with notable, though not perfect, accuracy which couples would later separate. The finding is one of the most widely cited in the Gottmans' own published work; independent replication of the exact prediction models by research teams outside the Gottmans' own lab is more limited than the finding's popularity suggests."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "bids-for-connection",
+      "name": "Bids for Connection",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 2,
+      "keywords": ["bids", "turning-toward", "attention", "gottman"],
+      "sections": {
+        "Definition": "A bid is any small attempt one partner makes to get the other's attention, affection, or engagement — a comment about the weather, a sigh, a story about the day, a hand reaching for a hand. Gottman's observational studies in a purpose-built apartment lab found that partners respond to a bid in one of three ways: turning toward it (engaging, even briefly), turning away from it (missing or ignoring it, often without meaning to), or turning against it (responding with irritation or dismissal).",
+        "Practice": "The intervention this finding suggests is almost absurdly small: notice the bid, and turn toward it, even minimally. A one-word acknowledgment counts. The claim isn't that grand romantic gestures don't matter — it's that they matter far less than the accumulation of thousands of small, low-stakes moments most couples never consciously track.",
+        "Research note": "In the Gottmans' original apartment-lab observational studies, couples who were still together at later follow-up had turned toward each other's bids in a clear majority of the moments observed, while couples who had separated by follow-up had done so distinctly less often. As with the Four Horsemen research, the specific figures are the Gottmans' own; independent replication of the precise proportions is thinner than the finding's wide popular circulation would suggest."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "positive-sentiment-override",
+      "name": "Sentiment Override — the Emotional Bank Account",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 3,
+      "keywords": ["sentiment-override", "ratio", "goodwill", "gottman"],
+      "sections": {
+        "Definition": "Sentiment override describes how an accumulated sense of goodwill (or its absence) colors the interpretation of a partner's neutral or ambiguous behavior. Under positive sentiment override, a partner running late gets read charitably ('traffic, probably'); under negative sentiment override, the same event gets read as evidence of not caring. The Gottmans describe the underlying reserve as something like an emotional bank account, built up through small deposits and depleted through small withdrawals.",
+        "Practice": "The practice this suggests is not grand reassurance but frequency: small, genuine deposits — a thank-you, a noticed effort, brief affection — made often enough that the account stays in credit. A widely cited finding from the Gottmans' analysis of couples' conflict conversations put stable couples' ratio of positive to negative moments during a disagreement at roughly five to one, with couples heading toward divorce closer to even.",
+        "Research note": "The specific ratio comes from the Gottmans' own coded analysis of conflict-conversation footage and is frequently repeated in both academic and popular accounts of this work; it describes conflict discussions specifically, not the couple's interactions generally, and independent replication of the exact number by teams outside the Gottmans' own lab is limited."
+      },
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "bonding-event",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "perpetual-problems-and-dreams",
+      "name": "Perpetual Problems and the Dreams Within Them",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 4,
+      "keywords": ["perpetual-problem", "gridlock", "dreams", "gottman"],
+      "sections": {
+        "Definition": "Gottman's research distinguishes solvable problems, which have a workable compromise, from perpetual problems, rooted in an enduring difference in personality, values, or life-stage needs, which the Gottmans found make up a substantial majority of the disagreements a typical couple returns to. A perpetual problem becomes gridlock when both partners dig into fixed positions and stop being curious about what the disagreement is actually protecting — usually an unspoken value or hope the Gottmans call the dream within the conflict.",
+        "Practice": "The suggested move is not to keep trying to solve an unsolvable problem but to ask what the position is defending: what would it mean, to this partner specifically, if their side of this recurring argument were honored? The aim isn't agreement — it's understanding good enough that the same disagreement stops feeling like a referendum on the relationship.",
+        "Research note": "The finding that most relationship conflict is perpetual rather than solvable is one of the more consistently reported results across the Gottmans' body of work; the specific coaching protocol for surfacing the 'dream' within a gridlocked position is the Gottman Institute's own clinical technique, with a much thinner independent evidence base than the underlying observational finding."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "flooding-and-self-soothing",
+      "name": "Flooding and Self-Soothing",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 5,
+      "keywords": ["flooding", "self-soothing", "nervous-system", "gottman"],
+      "sections": {
+        "Definition": "Flooding — diffuse physiological arousal, in the Gottmans' term — describes a state during conflict where a partner's heart rate and stress-hormone levels rise enough that they can no longer accurately process what the other person is saying. It is not a metaphor for feeling overwhelmed; it is a measurable physiological state the Gottmans tracked directly, and it makes a productive conversation close to impossible until it passes.",
+        "In the body": "The Gottmans' physiological monitoring during conflict conversations tracked elevated heart rate (commonly cited around, or above, roughly 100 beats per minute) alongside other stress-response markers. At that level of arousal, the body is oriented toward threat response rather than toward listening — a state some partners describe as going blank, or hearing words without being able to follow their meaning.",
+        "Practice": "The Gottmans' recommended response is a deliberate pause of at least twenty minutes — long enough for stress hormones to begin clearing — paired with an explicit agreement to return to the conversation. What happens during the pause matters: self-soothing (a walk, music, slow breathing) works; mentally rehearsing the argument does not, and tends to keep arousal elevated rather than lowering it.",
+        "Research note": "The physiological measurement of flooding during marital conflict is among the more distinctive parts of the Gottmans' research program, drawing on heart-rate and other psychophysiological data gathered alongside videotaped conversation. It is well established within the Gottmans' own research tradition; broader physiological research on stress and cognition supports the general mechanism (impaired processing under high arousal) without every specific claim about couples' conflict conversations having been independently replicated by outside labs."
+      },
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "pursue-withdraw-cycle",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "accepting-influence",
+      "name": "Accepting Influence",
+      "category": "repair",
+      "level": 1,
+      "sort_order": 6,
+      "keywords": ["accepting-influence", "respect", "yielding", "gottman"],
+      "sections": {
+        "Definition": "Accepting influence describes a partner's willingness to let the other partner's perspective, preference, or objection genuinely change a decision — not agreeing with everything, but treating the other partner's view as capable of moving the outcome. In one of the Gottmans' widely cited newlywed-study findings, a partner's habitual refusal to accept influence from the other was among the strongest single predictors of later separation in that sample.",
+        "Practice": "The practice is small and specific: noticing a moment of disagreement and asking, honestly, whether the other person's point has merit — and saying so out loud when it does, rather than conceding silently or not at all. Gottman's own framing is that this is less about big decisions than about a general posture a partner either has or doesn't.",
+        "Research note": "The finding is specific to a particular study sample and its own coding of 'accepting influence' as a behavior; it is frequently generalized in popular accounts beyond the population and method it was measured in, and independent replication outside the Gottmans' own research program is limited."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "repair-attempts",
+      "name": "Repair Attempts",
+      "category": "repair",
+      "level": 1,
+      "sort_order": 7,
+      "keywords": ["repair-attempt", "de-escalation", "humor", "gottman"],
+      "sections": {
+        "Definition": "A repair attempt is any effort, however small or clumsy, to de-escalate tension during a disagreement — a joke, a hand offered, an apology, a request to slow down or start over. The Gottmans found that the mere presence and frequency of repair attempts predicted relationship outcomes better than the smoothness or severity of the conflict itself: couples who fought hard but repaired often did better than couples whose disagreements looked calmer on the surface.",
+        "Practice": "A repair attempt's success depends heavily on the sentiment override already in place (see 'Sentiment Override' in this grammar): under positive sentiment override, even an unpolished repair attempt tends to land; under negative sentiment override, the same gesture can be read as insincere or manipulative. Couples can build a shared, agreed-upon set of repair signals in advance, when they're not mid-conflict, so both partners recognize an attempt when it happens.",
+        "Research note": "This finding — that the presence of repair attempts matters more than their polish — is one of the more consistently reported results in the Gottmans' published work and is widely used in the Gottman Method's clinical training; independent, non-institute replication of the specific predictive weight given to repair attempts is thinner than for the underlying observational data."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-warning-signs",
+      "name": "What Predicts Distress",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["four-horsemen", "flooding-and-self-soothing", "perpetual-problems-and-dreams"],
+      "keywords": ["gottman", "distress", "prediction"],
+      "sections": {
+        "Definition": "Three findings the Gottmans point to as what most reliably differentiates couples heading toward distress: an unmanaged pattern of communication under conflict (the Four Horsemen), the body's own veto on productive conversation once arousal crosses a threshold (flooding), and the specific way an ordinary, recurring disagreement calcifies into an entrenched standoff (gridlock)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-what-predicts-stability",
+      "name": "What Predicts Stability",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["bids-for-connection", "positive-sentiment-override", "repair-attempts", "accepting-influence"],
+      "keywords": ["gottman", "stability", "repair"],
+      "sections": {
+        "Definition": "Four findings the Gottmans point to as what characterized the couples who lasted: attentiveness to small bids for connection, an accumulated reserve of goodwill that colors how ambiguous moments get read, a working repair toolkit used often rather than flawlessly, and a habitual willingness to let a partner's perspective actually change a decision."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "gottman-method-root",
+      "name": "The Gottman Method — the Research and the Method",
+      "category": "root",
+      "level": 3,
+      "sort_order": 10,
+      "composite_of": ["group-warning-signs", "group-what-predicts-stability"],
+      "keywords": ["gottman method", "love lab", "couples therapy", "four horsemen"],
+      "sections": {
+        "Definition": "The Gottman Method starts from decades of direct observation of real couples rather than from prior theory: what actually distinguished couples who grew closer over time from couples who drifted apart or separated, coded from videotaped conversation and physiological measurement, then named and, where possible, taught as a set of skills. Four patterns (the Four Horsemen) predicted distress; several others — attentiveness to small bids, an accumulated reserve of goodwill, a habitual willingness to be influenced, and a working repair toolkit used often — characterized the couples who lasted.",
+        "Not the only lens on the same territory": "This grammar carries the Gottman Method's own voice only, per this library's one-source-per-grammar rule. It is cross-linked to Sue Johnson's Emotionally Focused Therapy and to Bowlby and Ainsworth's attachment theory elsewhere in this library — both address overlapping couple dynamics from different starting points and evidence traditions, and are worth reading alongside this one rather than instead of it.",
+        "Research note": "The Gottman Method rests on an unusually large and long-running observational and physiological research base — videotaped conflict conversations, heart-rate and hormone data, and follow-up assessments across multiple couple cohorts studied since the late 1970s — which supports its descriptive claims (the Four Horsemen, bids, sentiment override) reasonably well within the Gottmans' own research program. The intervention side is thinner: most outcome trials of the Gottman Method as a therapy have been conducted or sponsored by the Gottman Institute and its own researchers, and the independent, non-institute replication base for the method's therapeutic effectiveness is smaller than for some other approaches in this library.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim the Gottman Method makes.* The Gottman Method treats its four horsemen and its repair behaviors as observable, codable acts — closer to this library's constructionist substrate than a fixed-emotion account, since the method is explicit that these are learned patterns of behavior, not inborn traits or diagnoses. Where the two views could be read to diverge is in how much weight the method's own popular framing sometimes places on ratios and prediction percentages as near-deterministic — a stronger claim to precision than a constructionist reading of any single couple's situated, variable behavior would license."
+      },
+      "metadata": {
+        "evidence_tier": "growing",
+        "evidence_note": "The Gottman Method rests on an unusually large and long-running observational and physiological research base — videotaped conflict conversations, heart-rate and hormone data, and follow-up assessments across multiple couple cohorts studied since the late 1970s — which supports its descriptive claims (the Four Horsemen, bids, sentiment override) reasonably well. The intervention side is thinner: most outcome trials of the Gottman Method itself have been conducted or sponsored by the Gottman Institute and its own researchers, and the independent, non-institute replication base for the method's therapeutic effectiveness is smaller than for some other approaches in this library. 'Growing' — not yet 'independently-replicated' — is the honest tier here: a substantial and serious evidence base, with a real gap between how well-replicated the observational findings are and how independently tested the therapy outcomes built on them are."
+      }
+    }
+  ]
+}

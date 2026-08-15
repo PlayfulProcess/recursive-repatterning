@@ -1,0 +1,194 @@
+{
+  "name": "Bowlby and Ainsworth — Attachment Theory",
+  "description": "Attachment theory is the research tradition John Bowlby began from the late 1950s onward, drawing partly on ethology, to explain why infants form strong, specific bonds to a caregiver and what happens to their behavior when that bond feels threatened. Bowlby proposed an innate attachment behavioural system: under threat, distress, or fatigue, an infant is driven to seek proximity to a specific attachment figure, who serves both as a safe haven (comfort when distressed) and a secure base (the confidence to explore when not). Mary Ainsworth gave the theory its central empirical tool, the Strange Situation — a structured laboratory procedure of brief separations and reunions — and, from what she observed infants doing at reunion, described patterns of attachment now commonly called secure, anxious, and avoidant, with a fourth pattern, disorganised, added later by Mary Main and Judith Solomon. Bowlby's related concept of internal working models describes how repeated experience with a caregiver becomes an internalized template for what to expect from close relationships going forward — revisable, on his account, not fixed for life.\n\nThis grammar carries Bowlby and Ainsworth's own descriptive and empirical tradition — the research base the other couple-focused schools in this library draw from in different measure. Sue Johnson's Emotionally Focused Therapy and John and Julie Gottman's Gottman Method, elsewhere in this library, each apply and extend pieces of this theory to adult couples in their own way and are cross-linked here; this grammar itself stays with Bowlby and Ainsworth's own claims, not either therapy's application of them.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. Bowlby and Ainsworth's published research photography (including Ainsworth's original Strange Situation footage) and any period diagrams from their own papers remain in copyright, and generic stock photography of infants, caregivers, or families was considered and rejected: it would not depict this specific research tradition, and off-the-shelf 'parent and baby' imagery risks implying a fixed, universal visual signature for patterns this school treats as classifications derived from a specific structured procedure, not a general look. Leaving the school unillustrated is judged better than a generic or misleading substitute.",
+  "tags": ["attachment-theory", "bowlby", "ainsworth", "strange-situation", "developmental-psychology"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, split out of _seeds/grammars/relationship-cards.json (68-item couples oracle mixing Gottman, Johnson's EFT, Bowlby/Ainsworth attachment theory, and some Linehan/DBT content into single stacked cards). This grammar keeps only material that is genuinely Bowlby and Ainsworth's own descriptive and empirical tradition — the attachment behavioural system, the Strange Situation, the four attachment patterns, and internal working models — restated in original prose, not the seed's numbered build-tag scaffolding notes (the seed's own attachment-adjacent card, 'the-secure-base,' is folded into this grammar's attachment-behavioural-system item rather than kept as its own separate card, since safe haven and secure base are two functions of one system on Bowlby's own account). Left out deliberately: the seed's Gottman material now lives in schools/gottman-method; its Sue Johnson EFT material (protest polka, attachment injury as a couples-therapy event, softening) now lives in schools/eft-bonds, referenced here only via cross-link; its Marsha Linehan material belongs to neither of these three and is left out entirely, per instruction, for a separate DBT school being written elsewhere. Also left out: adult-attachment-specific measurement instruments (the Adult Attachment Interview, self-report questionnaires like the ECR) are referenced only in the root item's evidence_note as a source of measurement uncertainty, not built out as their own items; earned security is referenced only in passing inside internal-working-models. Unwritten: Main and Solomon's disorganised-attachment coding criteria in clinical detail, and the substantial later literature on attachment and caregiving behavior (maternal sensitivity, intergenerational transmission) are not built out as their own items.",
+  "_art_direction": {
+    "period_place": "Bowlby's foundational work dates from the late 1950s through the 1980s (he died in 1990) and Ainsworth's Strange Situation research from the 1960s-70s (she died in 1999) — a 20th-century research tradition whose original photography and diagrams remain in copyright, with no public-domain visual record of its own available to this library.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic, non-representational imagery (a compass, a tether, a returning path) that could stand in for concepts like the secure base or proximity-seeking without depicting an actual infant, caregiver, or family."
+      },
+      {
+        "name": "Wikimedia Commons — contemporary photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY abstract or object-based imagery rather than any photograph of people, which risks implying this school's classifications look a particular way or belong to a particular kind of family; confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "This library's own schools/parts-work and schools/nvc-needs precedent",
+        "url": "schools/parts-work/grammar.json",
+        "note": "Both sibling modern-clinical-tradition schools in this library ship deliberately unillustrated rather than reach for stock photography; the same call is made here."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "John Bowlby and Mary Ainsworth",
+        "role": "source tradition",
+        "note": "Structural basis: John Bowlby's attachment behavioural system and internal working models, developed from the late 1950s onward, and Mary Ainsworth's Strange Situation procedure and resulting attachment classifications, developed through the 1960s-70s, with the disorganised category added later by Mary Main and Judith Solomon. Bowlby's Attachment and Loss trilogy, Ainsworth's Patterns of Attachment, and subsequent published research remain in copyright; no text is quoted from them. Every definition and example in this grammar is original prose describing the general shape of the theory and research, not a reproduction of any published wording."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "attachment-behavioural-system",
+      "name": "The Attachment Behavioural System",
+      "category": "concept",
+      "level": 1,
+      "sort_order": 1,
+      "keywords": ["attachment", "safe-haven", "secure-base", "bowlby"],
+      "sections": {
+        "Definition": "Bowlby's central proposal, informed partly by ethology, is that infants (and, in later extensions of the theory, people at any age) carry an innate behavioural system that activates under threat, distress, or fatigue and drives proximity-seeking toward a specific attachment figure. The system has two functions: safe haven, offering comfort and protection when distressed, and secure base, offering enough felt security that exploration and independent activity become possible when not. Once proximity or comfort is achieved, the system quiets and exploration resumes.",
+        "In the body": "Bowlby described the system's activation in physiological and behavioral terms consistent with a general threat response — increased distress signaling, search behavior, difficulty settling — that quiets once proximity to the attachment figure is restored, distinguishing simple settling from a fuller sense of security.",
+        "Research note": "The attachment behavioural system is Bowlby's foundational theoretical construct, drawing on ethological observation of proximity-maintaining behavior in other species alongside clinical and developmental observation in humans; it underlies the empirical work (the Strange Situation, described elsewhere in this grammar) that later tested and extended it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "the-strange-situation",
+      "name": "The Strange Situation",
+      "category": "method",
+      "level": 1,
+      "sort_order": 2,
+      "keywords": ["strange-situation", "ainsworth", "method"],
+      "sections": {
+        "Definition": "Mary Ainsworth's structured laboratory procedure, developed through the 1960s-70s, designed to activate an infant's attachment system just enough to observe how the infant organizes behavior around a caregiver under mild stress. A young child (typically around a year old) and caregiver are placed in an unfamiliar room; across a short series of episodes, a stranger enters, the caregiver briefly leaves and returns, and the infant is observed throughout — especially at the moments of reunion.",
+        "How it works": "The procedure's episodes are brief and standardized, so that infants across different families and, later, different research sites go through comparable conditions. Coding focuses less on distress during separation, which most infants show to some degree, and more on how the infant organizes its behavior toward the caregiver specifically at reunion — the moment the classifications described elsewhere in this grammar are drawn from.",
+        "Research note": "The Strange Situation became the standard empirical tool for classifying infant attachment and has been used and replicated across many independent research laboratories over several decades; its extension to different cultural settings, and what those extensions do and do not show about the classifications' universality, is addressed in this grammar's root item."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "secure-attachment",
+      "name": "Secure Attachment",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 3,
+      "keywords": ["secure", "attachment-pattern", "ainsworth"],
+      "sections": {
+        "Definition": "In Ainsworth's original classification, a securely attached infant shows some distress when the caregiver leaves but is readily comforted at reunion — seeking contact, settling, and returning to play or exploration relatively quickly. This was the largest single category in Ainsworth's original research samples.",
+        "What it looks like": "The defining feature is not the absence of distress but the infant's evident confidence that contact with the caregiver, once available again, will actually help — proximity is sought and comfort is accepted, rather than resisted or avoided.",
+        "Research note": "Secure attachment as an infant classification is one of the most independently replicated findings in developmental psychology. Its later extension to adult romantic attachment, via separate self-report and interview measures, is a related but methodologically distinct research tradition — addressed with appropriate caution in this grammar's root item."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "anxious-attachment",
+      "name": "Anxious Attachment",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 4,
+      "keywords": ["anxious", "ambivalent", "attachment-pattern", "ainsworth"],
+      "sections": {
+        "Definition": "Ainsworth's anxious-resistant, or ambivalent, pattern: an infant shows marked distress at separation and, at reunion, a mixture of seeking contact and resisting or being angry toward the caregiver once contact is offered — reaching to be picked up and then arching away, for instance — with difficulty settling back into calm exploration.",
+        "What it looks like": "The infant's behavior at reunion reads as caught between wanting contact and being unable to fully accept the comfort offered, in contrast to the more straightforward comfort-seeking of secure attachment.",
+        "Research note": "This pattern, along with avoidant attachment, was part of Ainsworth's original three-category system from her 1970s research; both have been widely, though not universally, replicated across subsequent independent studies using the Strange Situation procedure."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "avoidant-attachment",
+      "name": "Avoidant Attachment",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 5,
+      "keywords": ["avoidant", "attachment-pattern", "ainsworth"],
+      "sections": {
+        "Definition": "Ainsworth's avoidant pattern: an infant shows little overt distress at separation and notably avoids or ignores the caregiver at reunion — turning away, focusing on toys, not seeking contact — in contrast to both the secure and the anxious patterns.",
+        "What it looks like": "The outward composure is the defining behavioral feature; some later studies using physiological measures (heart rate, cortisol) in avoidantly classified infants found signs of internal distress not visible in their outward behavior, a finding often cited as evidence that the avoidant pattern is a strategy for managing distress rather than an absence of it.",
+        "Research note": "Avoidant attachment was part of Ainsworth's original three-category system; the physiological-distress findings referenced above come from a smaller and later body of research than the original behavioral classification itself, and should be read as suggestive rather than as settled beyond dispute."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "disorganised-attachment",
+      "name": "Disorganised Attachment",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 6,
+      "keywords": ["disorganised", "attachment-pattern", "main-solomon"],
+      "sections": {
+        "Definition": "A fourth pattern, added later by Mary Main and Judith Solomon and not part of Ainsworth's original three categories: at reunion, the infant shows contradictory, disoriented, or momentarily frozen behavior — approaching the caregiver and then stopping, odd or stereotyped movements, an apparent lack of a coherent strategy for managing the reunion at all.",
+        "What it looks like": "Where the other three patterns each describe a coherent (if not always comfortable) strategy for handling separation and reunion, disorganised attachment is defined by the apparent absence of one.",
+        "Research note": "In research since Main and Solomon's original work, disorganised attachment has been associated with caregiving environments that are themselves frightened or frightening to the infant, and with elevated-risk contexts more broadly; this is a statistical association observed across studies, not a deterministic or diagnostic claim about any individual case, and should not be read as one."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "internal-working-models",
+      "name": "Internal Working Models",
+      "category": "concept",
+      "level": 1,
+      "sort_order": 7,
+      "keywords": ["internal-working-models", "schema", "bowlby"],
+      "sections": {
+        "Definition": "Bowlby's proposal that repeated experience with a caregiver becomes internalized into a working mental model — of the self (am I worthy of care?) and of others (can this person be relied on?) — that a person carries forward and uses, often without conscious awareness, to interpret and anticipate new relationships. Bowlby's own term, 'working,' was deliberate: the model is meant to be revisable with new relational experience, not a fixed blueprint set once in infancy.",
+        "In relationships": "Later attachment research uses the term earned security for cases where an adult's current relational functioning looks secure despite a difficult early attachment history — evidence, on this account, that a working model can shift meaningfully through later relationships (including a stable partnership or therapy), not only through infancy.",
+        "Research note": "Internal working models are a central theoretical construct in attachment theory; direct empirical measurement of the models themselves (as opposed to their behavioral and self-report correlates) remains genuinely difficult, and different measurement traditions (interview-based versus self-report) do not always converge cleanly — a point addressed further in this grammar's root item."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-the-patterns",
+      "name": "The Four Patterns",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["secure-attachment", "anxious-attachment", "avoidant-attachment", "disorganised-attachment"],
+      "keywords": ["attachment-patterns", "classification", "strange-situation"],
+      "sections": {
+        "Definition": "Ainsworth's original three classifications — secure, anxious-resistant, and avoidant — plus Main and Solomon's later addition of disorganised, all derived from how an infant organizes behavior toward a caregiver specifically at the reunion episodes of the Strange Situation."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-the-system",
+      "name": "The System Beneath the Patterns",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["attachment-behavioural-system", "the-strange-situation", "internal-working-models"],
+      "keywords": ["attachment-system", "method", "internal-working-models"],
+      "sections": {
+        "Definition": "Three items describing the theory and its tools rather than any single classification: the underlying behavioural system Bowlby proposed, the structured procedure Ainsworth built to observe it in action, and the cognitive-relational residue — internal working models — Bowlby proposed that repeated attachment experience leaves behind."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "attachment-theory-root",
+      "name": "Attachment Theory — the System and Its Patterns",
+      "category": "root",
+      "level": 3,
+      "sort_order": 10,
+      "composite_of": ["group-the-patterns", "group-the-system"],
+      "keywords": ["bowlby", "ainsworth", "attachment theory", "strange situation"],
+      "sections": {
+        "Definition": "Attachment theory holds that infants carry an innate behavioural system driving them toward a specific caregiver under threat or distress, that this system's two functions are safe haven and secure base, and that how an infant organizes its behavior toward a caregiver at reunion — observed through Ainsworth's Strange Situation procedure — sorts into recognizable patterns: secure, anxious, avoidant, and (Main and Solomon's later addition) disorganised. Repeated attachment experience is proposed to leave behind an internal working model of self and other that a person carries into later relationships, revisable rather than fixed.",
+        "Not the couples-therapy applications built on it": "This grammar carries Bowlby and Ainsworth's own descriptive and empirical tradition. Sue Johnson's Emotionally Focused Therapy and John and Julie Gottman's Gottman Method, elsewhere in this library, each extend and apply pieces of this theory to adult couples in their own distinct ways and are cross-linked from EFT's own items; this grammar itself does not adjudicate between those applications.",
+        "Research note": "The Strange Situation paradigm and its resulting infant classifications are among the most independently replicated findings in developmental psychology, reproduced across many independent laboratories over several decades. Cross-cultural reviews (notably a large meta-analysis by van IJzendoorn and Kroonenberg) found broadly similar orderings of classifications across many countries studied, alongside real and meaningful within- and between-country variation that some researchers read as evidence against strict universality of the distributions. Adult attachment measurement is a separate and more contested area: interview-based measures (the Adult Attachment Interview) and self-report questionnaires do not always converge well with each other, suggesting they may be capturing related but not identical constructs. Longitudinal studies tracking infant classification into adulthood (notably the Minnesota Longitudinal Study) find real but modest continuity, substantially moderated by intervening life experience — not the strong, fixed through-line sometimes assumed in popular accounts of attachment style.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim attachment theory makes.* Attachment theory and this library's constructionist substrate sit in some tension: attachment theory's classifications, especially in their popular adult-attachment-style form, are often read as fairly stable, trait-like categories a person simply has. A constructionist reading would instead treat 'attachment pattern' as a description of how a person's relational behavior has been shaped to date, situationally responsive and genuinely revisable — closer to Bowlby's own 'working' in internal working models than to the more fixed pop-psychology shorthand ('I'm an anxious attacher') that has grown up around the theory since."
+      },
+      "metadata": {
+        "evidence_tier": "independently-replicated",
+        "evidence_note": "Attachment theory's descriptive core — the Strange Situation paradigm and the resulting infant classifications — is among the most independently replicated findings in developmental psychology, reproduced across many independent laboratories over several decades. What is genuinely more contested: how universal the classification distributions are across cultures (large cross-cultural reviews find broadly similar orderings but also real variation that some researchers read as culturally shaped rather than fixed); how well adult self-report and interview measures of attachment actually converge with each other and with infant classification; and how strong the continuity is from infant classification to adult relationship patterns, which longitudinal research finds to be real but modest, not the fixed, deterministic through-line popular accounts sometimes imply. 'Independently-replicated' describes the classification and the paradigm; its extensions into adult attachment and lifespan continuity carry more genuine uncertainty than that tier alone would suggest."
+      }
+    }
+  ]
+}

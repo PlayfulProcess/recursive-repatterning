@@ -38,8 +38,12 @@
     {
       "id": "attachment-couples",
       "name": "Attachment & Couples",
-      "_note": "Gottman, Sue Johnson's Emotionally Focused Therapy, Bowlby/Ainsworth attachment.",
-      "school_slugs": []
+      "_note": "Feeling as something that happens between people rather than inside one. Bowlby and Ainsworth's research tradition, and the two couples methods that draw on it — kept as separate schools because they are separate bodies of work with genuinely different evidence behind them.",
+      "school_slugs": [
+        "attachment-theory",
+        "eft-bonds",
+        "gottman-method"
+      ]
     },
     {
       "id": "skills-based",
@@ -99,7 +103,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 121,
+      "items": 142,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -150,6 +154,22 @@
       "items": 8,
       "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/William_de_Brailes_-_The_Last_Judgment_%28Matthew_25_-31-46%29_-_Walters_W10623R_-_Full_Page.jpg",
       "path": "schools/aquinas-passions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "attachment-theory",
+      "name": "Bowlby and Ainsworth — Attachment Theory",
+      "common_name": "Bowlby and Ainsworth — Attachment Theory",
+      "type": "custom",
+      "branch": "attachment-couples",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 10,
+      "cover_image_url": "",
+      "path": "schools/attachment-theory/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
@@ -236,6 +256,22 @@
       "category": "historical"
     },
     {
+      "slug": "eft-bonds",
+      "name": "Emotionally Focused Therapy — Attachment Bonds Between Partners",
+      "common_name": "Emotionally Focused Therapy — Attachment Bonds Between Partners",
+      "type": "custom",
+      "branch": "attachment-couples",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 10,
+      "cover_image_url": "",
+      "path": "schools/eft-bonds/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
       "slug": "ekman-basic",
       "name": "Basic-Emotion / Affect-Programme Theory",
       "common_name": "Basic-Emotion / Affect-Programme Theory",
@@ -262,6 +298,22 @@
       "items": 25,
       "cover_image_url": "",
       "path": "schools/genealogy-of-emotions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "gottman-method",
+      "name": "The Gottman Method",
+      "common_name": "The Gottman Method",
+      "type": "custom",
+      "branch": "attachment-couples",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 10,
+      "cover_image_url": "",
+      "path": "schools/gottman-method/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
