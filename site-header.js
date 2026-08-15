@@ -5,10 +5,11 @@
  *
  * Usage:  <script src="<path-to>/site-header.js?v=7"></script>
  *         <site-header active="cards"></site-header>
+ * v50 (Aug 15 2026): populated COURSE_GROUPS with the first two real courses
+ * (history-of-emotions, how-to-contribute) — see course/_courses.json and
+ * pages/courses.html, which now show real cards instead of the empty state.
  * v49 (Aug 13 2026): removed the dead "Bus Passengers" PLAY_MENU entry (pointed at
- * schools/bus-passengers/grammar.json, which was never ported into this repo) and
- * emptied COURSE_GROUPS — there are zero course files here yet (course/ holds only
- * _courses.json); see pages/courses.html for the honest "no courses yet" state.
+ * schools/bus-passengers/grammar.json, which was never ported into this repo).
  * The `active` attribute highlights the matching tab; if omitted it is
  * auto-detected from the filename.
  *
@@ -73,10 +74,14 @@
     [PFX + 'pages/about.html',  'About'],
   ];
   // Courses — grouped into topics; each is a course-viewer ?course=… (deep-linkable with #section).
-  // Empty for now: this site has zero course files (course/ holds only _courses.json).
   // Keep in step with course/_courses.json — that file is the gallery's data, this is the
-  // dropdown's menu. See pages/courses.html for the "no courses yet" empty state.
-  const COURSE_GROUPS = [];
+  // dropdown's menu.
+  const COURSE_GROUPS = [
+    ['Start here', [
+      ['history-of-emotions', 'A History of Emotions'],
+      ['how-to-contribute', 'Ways to Contribute'],
+    ]],
+  ];
 
   function autoActive() {
     const f = location.pathname.split('/').pop() || 'index.html';

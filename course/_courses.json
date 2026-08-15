@@ -1,4 +1,12 @@
 {
-  "_note": "Catalog for the all-courses gallery (pages/courses.html). One entry per course shown in the gallery. `deck` resolves that deck's cover_image_url from schools/_collection.json at render time (so thumbnails follow the deck art); `thumb` is a direct image path when a deck cover isn't the right image. Keep the id/title in step with COURSE_GROUPS in site-header.js (the dropdown menu) — this file is the gallery's data, that array is the menu's. Empty for now: this site has zero course files (course/ holds only this manifest) — pages/courses.html shows an honest \"no courses yet\" state until the first one is written.",
-  "groups": []
+  "_note": "Catalog for the all-courses gallery (pages/courses.html). One entry per course shown in the gallery. `deck` resolves that deck's cover_image_url from schools/_collection.json at render time (so thumbnails follow the deck art); `thumb` is a direct image path when a deck cover isn't the right image. Keep the id/title in step with COURSE_GROUPS in site-header.js (the dropdown menu) — this file is the gallery's data, that array is the menu's.",
+  "groups": [
+    {
+      "name": "Start here",
+      "courses": [
+        { "id": "history-of-emotions", "title": "A History of Emotions", "blurb": "Five traditions independently asked what a feeling is and gave five incompatible answers — and \"six universal emotions\" is the most recent chapter, not the ending.", "deck": "rasa" },
+        { "id": "how-to-contribute", "title": "Ways to Contribute", "blurb": "This whole library is public-domain and CC-BY-SA data in one open repo. Fix a typo, add an item, illustrate one, or write a new school — by whatever route suits you.", "deck": "plutchik-wheel" }
+      ]
+    }
+  ]
 }
