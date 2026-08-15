@@ -76,7 +76,8 @@
       "_note": "Accounts that explain feeling by what a person is made of and where they sit in a larger order — humours, elements, planets, stages of an opus — rather than by cognition, expression, or category. Filing these under historical-scientific would misdescribe them: the alchemical tradition never claimed to be empirical, and humoral theory was the medicine of its day rather than a psychology.",
       "school_slugs": [
         "humoral-temperaments",
-        "alchemical-correspondences"
+        "alchemical-correspondences",
+        "thought-forms"
       ]
     },
     {
@@ -85,7 +86,8 @@
       "_note": "Accounts concerned with how feeling is shown or conveyed — in the face and body, or in the conventions of an art — rather than with what it is made of or how it is categorised. Darwin on expression and the Baroque doctrine of the affections ask the same question in different media.",
       "school_slugs": [
         "darwin-expression",
-        "affektenlehre"
+        "affektenlehre",
+        "acting-traditions"
       ]
     },
     {
@@ -111,9 +113,25 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 151,
+      "items": 194,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "acting-traditions",
+      "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
+      "common_name": "Acting Traditions — How Performers Are Taught to Show Emotion",
+      "type": "custom",
+      "branch": "expression-and-representation",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 10,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
+      "path": "schools/acting-traditions/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
@@ -399,7 +417,7 @@
       "branch": "needs-based",
       "is_meta": false,
       "default_preview": null,
-      "items": 8,
+      "items": 37,
       "cover_image_url": "",
       "path": "schools/nvc-needs/grammar.json",
       "year": null,
@@ -466,6 +484,22 @@
       "items": 9,
       "cover_image_url": "",
       "path": "schools/schools-of-emotion/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "thought-forms",
+      "name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+      "common_name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+      "type": "custom",
+      "branch": "constitution-and-correspondence",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 11,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Colorchart.jpg",
+      "path": "schools/thought-forms/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",

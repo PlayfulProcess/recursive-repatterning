@@ -35,7 +35,7 @@
     {
       "slug": "nvc-needs",
       "name": "Nonviolent Communication — Feelings and Needs",
-      "items": 5
+      "items": 33
     },
     {
       "slug": "attachment-theory",
@@ -78,6 +78,11 @@
       "items": 6
     },
     {
+      "slug": "thought-forms",
+      "name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+      "items": 8
+    },
+    {
       "slug": "darwin-expression",
       "name": "Darwin — The Expression of the Emotions",
       "items": 5
@@ -86,6 +91,11 @@
       "slug": "affektenlehre",
       "name": "Affektenlehre — the Baroque Doctrine of the Affections",
       "items": 6
+    },
+    {
+      "slug": "acting-traditions",
+      "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
+      "items": 7
     },
     {
       "slug": "greek-pathe",
@@ -1371,7 +1381,7 @@
     {
       "id": "nvc-needs--frustration",
       "name": "Frustration — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "In NVC practice, frustration typically points toward an unmet need for effectiveness, autonomy, or competence — the sense that one's efforts aren't landing, or that a choice one wants to make is being blocked. NVC asks the practitioner to locate the need underneath the frustration rather than stopping at the feeling or, worse, at blame directed at whoever seems to be causing it.",
         "Not a verdict about someone else": "NVC draws a sharp line between a genuine feeling word (\"I feel frustrated\") and a pseudo-feeling that smuggles in a claim about another person's behavior or character (\"I feel ignored,\" \"I feel dismissed\") — the second kind names a story about someone else's action, not a state in the speaker, and NVC practice asks a person to trace it back to the actual feeling and need underneath.",
@@ -1393,7 +1403,7 @@
     {
       "id": "nvc-needs--loneliness",
       "name": "Loneliness — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "Loneliness typically points toward an unmet need for connection, companionship, or being seen — NVC treats the feeling as accurate information about a real gap, not as a flaw in the person feeling it.",
         "Not a verdict about someone else": "As with frustration, NVC distinguishes loneliness (a feeling) from a pseudo-feeling like \"I feel abandoned\" or \"I feel unloved,\" which build in a specific causal story about another person's action or intent rather than simply naming the felt state and its underlying need.",
@@ -1416,7 +1426,7 @@
     {
       "id": "nvc-needs--anxious",
       "name": "Anxious — Signals an Unmet Need",
-      "category": "unmet-need-signal",
+      "category": "feeling-unmet",
       "sections": {
         "Definition": "Anxious, in NVC's framing, typically points toward an unmet need for safety, security, clarity, or predictability — the sense that something important is uncertain or at risk. As with the other unmet-need signals here, NVC treats the feeling itself as useful data rather than as a problem to be argued away.",
         "Not a verdict about someone else": "NVC would flag \"I feel threatened\" or \"I feel set up\" as pseudo-feelings if they're standing in for anxious plus an unexamined story about someone's intent — the practice asks the speaker to separate the felt anxiety from any claim about why it's happening.",
@@ -1439,7 +1449,7 @@
     {
       "id": "nvc-needs--relief",
       "name": "Relief — Signals a Met Need",
-      "category": "met-need-signal",
+      "category": "feeling-met",
       "sections": {
         "Definition": "Relief typically signals that a need for safety, ease, or resolution has just been met — a tension that was present has resolved. NVC treats naming relief, and the specific need behind it, as just as useful a practice as naming a harder feeling: it builds the same fluency in the same direction.",
         "Practice": "NVC materials commonly ask practitioners to also notice and name met-need feelings deliberately, not only to diagnose problems — naming what need relief is pointing to (here, ease or safety) makes it easier to recognize and ask for the conditions that produce that state again."
@@ -1460,7 +1470,7 @@
     {
       "id": "nvc-needs--joyful",
       "name": "Joyful — Signals a Met Need",
-      "category": "met-need-signal",
+      "category": "feeling-met",
       "sections": {
         "Definition": "Joyful, in this framing, typically points toward needs like connection, play, meaning, or contribution being met — NVC treats it, like every feeling on this deck, as a signal rather than a self-sufficient endpoint, worth tracing back to the specific need it's responding to.",
         "Practice": "Naming which need is behind a joyful moment (was it connection? contribution? play?) is itself a practiced skill in NVC training, intended to build the same feeling-to-need fluency that the harder, unmet-need feelings require, so it isn't only exercised under difficulty."
@@ -1475,6 +1485,824 @@
         "emotion_key": "joy",
         "source_deck": "nvc-needs",
         "source_item_id": "joyful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--affectionate",
+      "name": "Affectionate — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "In NVC's vocabulary, affectionate names warmth directed toward another person — the tenderness that often shows up when a need for connection or closeness is being met."
+      },
+      "keywords": [
+        "compassionate",
+        "fond",
+        "loving",
+        "openhearted",
+        "tender",
+        "warm"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "affectionate",
+        "source_deck": "nvc-needs",
+        "source_item_id": "affectionate",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--engaged",
+      "name": "Engaged — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Engaged covers the family of feelings that show up when attention is fully caught by something — curiosity, absorption, fascination — usually a sign that needs like stimulation, meaning, or discovery are being met."
+      },
+      "keywords": [
+        "absorbed",
+        "curious",
+        "engrossed",
+        "enchanted",
+        "enthralled",
+        "entranced",
+        "fascinated",
+        "interested",
+        "intrigued",
+        "involved",
+        "open",
+        "spellbound",
+        "stimulated"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "engaged",
+        "source_deck": "nvc-needs",
+        "source_item_id": "engaged",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--excited",
+      "name": "Excited — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Excited names the more activated end of a need being met — energy, aliveness, anticipation — distinct from the calmer register of peaceful or content."
+      },
+      "keywords": [
+        "amazed",
+        "ardent",
+        "aroused",
+        "dazzled",
+        "energetic",
+        "enlivened",
+        "enthusiastic",
+        "exuberant",
+        "invigorated",
+        "lively",
+        "passionate",
+        "surprised",
+        "vibrant"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "excited",
+        "source_deck": "nvc-needs",
+        "source_item_id": "excited",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--exhilarated",
+      "name": "Exhilarated — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Exhilarated is excited turned up further still — an intense, often sudden charge, as when a need for stimulation or celebration is met all at once."
+      },
+      "keywords": [
+        "enthralled",
+        "radiant",
+        "electrified",
+        "euphoric",
+        "overjoyed",
+        "thrilled"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "exhilarated",
+        "source_deck": "nvc-needs",
+        "source_item_id": "exhilarated",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--grateful",
+      "name": "Grateful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Grateful names the feeling of having received something valued — appreciation turned toward whoever or whatever met the need."
+      },
+      "keywords": [
+        "appreciative",
+        "moved",
+        "thankful",
+        "touched"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "grateful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "grateful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--happy",
+      "name": "Happy — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Happy is the broadest, most familiar family here, covering everything from mild pleasure to jubilation — a useful starting point before narrowing to a more specific word."
+      },
+      "keywords": [
+        "amused",
+        "blissful",
+        "cheerful",
+        "delighted",
+        "ecstatic",
+        "elated",
+        "giddy",
+        "glad",
+        "jolly",
+        "joyful",
+        "jubilant",
+        "merry",
+        "overjoyed",
+        "pleased",
+        "rapturous",
+        "tickled"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "happy",
+        "source_deck": "nvc-needs",
+        "source_item_id": "happy",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--hopeful",
+      "name": "Hopeful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Hopeful points forward — confidence or expectancy that a need not yet met is on its way to being met."
+      },
+      "keywords": [
+        "confident",
+        "expectant",
+        "jazzed",
+        "lighthearted",
+        "sanguine",
+        "up",
+        "upbeat"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hopeful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "hopeful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--inspired",
+      "name": "Inspired — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Inspired names the feeling of being moved toward action or possibility, often when needs for meaning, contribution, or growth are met by something encountered outside oneself."
+      },
+      "keywords": [
+        "amazed",
+        "eager",
+        "enthused",
+        "motivated",
+        "moved",
+        "psyched",
+        "stimulated",
+        "stirred",
+        "wonder"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "inspired",
+        "source_deck": "nvc-needs",
+        "source_item_id": "inspired",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--peaceful",
+      "name": "Peaceful — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Peaceful covers the settled end of the met-needs spectrum — calm, contentment, equanimity — a need met without urgency left over."
+      },
+      "keywords": [
+        "calm",
+        "comfortable",
+        "centered",
+        "content",
+        "equanimity",
+        "fulfilled",
+        "mellow",
+        "open",
+        "quiet",
+        "relaxed",
+        "relieved",
+        "satisfied",
+        "serene",
+        "tranquil"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "peaceful",
+        "source_deck": "nvc-needs",
+        "source_item_id": "peaceful",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--refreshed",
+      "name": "Refreshed — Feeling Category (Met Needs)",
+      "category": "feeling-met",
+      "sections": {
+        "Definition": "Refreshed names the specific feeling of restoration — rest, recovery, renewal — when a need for physical or mental replenishment has just been met."
+      },
+      "keywords": [
+        "recharged",
+        "rejuvenated",
+        "renewed",
+        "rested",
+        "restored",
+        "revived"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "refreshed",
+        "source_deck": "nvc-needs",
+        "source_item_id": "refreshed",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--anger",
+      "name": "Anger — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Anger names the family of feelings that show up when a need is blocked and the energy of that block is directed outward — irritation, frustration, and their more intense relatives."
+      },
+      "keywords": [
+        "aggravated",
+        "angry",
+        "animosity",
+        "annoyed",
+        "contempt",
+        "disgruntled",
+        "enraged",
+        "exasperated",
+        "furious",
+        "hate",
+        "hostile",
+        "incensed",
+        "irate",
+        "irritated",
+        "irked",
+        "livid",
+        "miffed",
+        "nettled",
+        "outraged",
+        "peeved",
+        "resentful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "nvc-needs",
+        "source_item_id": "anger",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--aversion",
+      "name": "Aversion — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Aversion covers feelings of active dislike or repulsion — a signal that something is moving against a need rather than simply failing to meet it."
+      },
+      "keywords": [
+        "abhorrence",
+        "appalled",
+        "bothered",
+        "displeased",
+        "disgust",
+        "dislike",
+        "enmity",
+        "horrified",
+        "loathing",
+        "repulsion",
+        "revulsion"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "aversion",
+        "source_deck": "nvc-needs",
+        "source_item_id": "aversion",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--confusion",
+      "name": "Confusion — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Confusion names the feeling of not yet being able to locate the need underneath a reaction — mixed, conflicted, unable to settle on one read of a situation."
+      },
+      "keywords": [
+        "ambivalent",
+        "baffled",
+        "bewildered",
+        "conflicted",
+        "dazed",
+        "discombobulated",
+        "disoriented",
+        "mixed",
+        "mystified",
+        "perplexed",
+        "puzzled",
+        "torn"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "confusion",
+        "source_deck": "nvc-needs",
+        "source_item_id": "confusion",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--disconnection",
+      "name": "Disconnection — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Disconnection covers the withdrawn end of unmet needs — numbness, distance, apathy — often present when a need for connection or engagement has gone unmet for a while."
+      },
+      "keywords": [
+        "apathetic",
+        "bored",
+        "closed",
+        "detached",
+        "distant",
+        "indifferent",
+        "listless",
+        "numb",
+        "withdrawn"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disconnection",
+        "source_deck": "nvc-needs",
+        "source_item_id": "disconnection",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--disquiet",
+      "name": "Disquiet — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Disquiet names a lower-grade, more diffuse unease than fear or anger — something feels off, though the specific unmet need may not yet be clear."
+      },
+      "keywords": [
+        "agitated",
+        "alarmed",
+        "concerned",
+        "distraught",
+        "disconcerted",
+        "dismayed",
+        "disturbed",
+        "frustrated",
+        "perturbed",
+        "rattled",
+        "restless",
+        "shocked",
+        "startled",
+        "surprised",
+        "troubled",
+        "turbulent",
+        "turmoil",
+        "uncomfortable",
+        "uneasy",
+        "unnerved",
+        "unsettled",
+        "upset"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disquiet",
+        "source_deck": "nvc-needs",
+        "source_item_id": "disquiet",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--embarrassment",
+      "name": "Embarrassment — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Embarrassment names the feeling that follows a sense of having been seen in a way that doesn't match how one wants to be seen — often pointing toward needs for acceptance or self-respect."
+      },
+      "keywords": [
+        "ashamed",
+        "chagrined",
+        "discomfited",
+        "flustered",
+        "mortified",
+        "self-conscious"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "embarrassment",
+        "source_deck": "nvc-needs",
+        "source_item_id": "embarrassment",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--fatigue",
+      "name": "Fatigue — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Fatigue names depletion — a need for rest, ease, or physical replenishment that has gone unmet for long enough to be felt in the body."
+      },
+      "keywords": [
+        "beat",
+        "burnt out",
+        "depleted",
+        "exhausted",
+        "listless",
+        "pooped",
+        "sleepy",
+        "tired",
+        "weary",
+        "wiped out",
+        "worn out"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fatigue",
+        "source_deck": "nvc-needs",
+        "source_item_id": "fatigue",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--fear",
+      "name": "Fear — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Fear covers the family of feelings that show up when safety, predictability, or security feel uncertain or at risk."
+      },
+      "keywords": [
+        "afraid",
+        "anxious",
+        "apprehensive",
+        "dread",
+        "fearful",
+        "foreboding",
+        "frightened",
+        "guarded",
+        "insecure",
+        "leery",
+        "mistrustful",
+        "panicked",
+        "petrified",
+        "scared",
+        "shaky",
+        "terrified",
+        "trepidation",
+        "wary",
+        "worried"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "nvc-needs",
+        "source_item_id": "fear",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--pain",
+      "name": "Pain — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Pain names some of the heavier feelings on this list — grief, hurt, heartbreak — usually present when a significant need has gone unmet for some time, not just momentarily."
+      },
+      "keywords": [
+        "aching",
+        "agony",
+        "anguished",
+        "devastated",
+        "grief",
+        "heartbroken",
+        "hungry",
+        "hurting",
+        "lonely",
+        "miserable",
+        "regretful",
+        "remorseful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "pain",
+        "source_deck": "nvc-needs",
+        "source_item_id": "pain",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--sadness",
+      "name": "Sadness — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Sadness covers the feeling of loss or disappointment when a hoped-for outcome doesn't happen, or a need that mattered goes unmet."
+      },
+      "keywords": [
+        "depressed",
+        "dejected",
+        "despairing",
+        "despondent",
+        "disappointed",
+        "discouraged",
+        "disheartened",
+        "forlorn",
+        "gloomy",
+        "heavy hearted",
+        "hopeless",
+        "melancholy",
+        "miserable",
+        "unhappy",
+        "wistful"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "source_deck": "nvc-needs",
+        "source_item_id": "sadness",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--tension",
+      "name": "Tension — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Tension names a felt tightness or activation in the body or mind — often present when several needs are competing for attention at once, or a need feels urgent."
+      },
+      "keywords": [
+        "anxious",
+        "closed",
+        "distressed",
+        "edgy",
+        "fidgety",
+        "frazzled",
+        "frustrated",
+        "jittery",
+        "nervous",
+        "overwhelmed",
+        "restless",
+        "stressed out"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "tension",
+        "source_deck": "nvc-needs",
+        "source_item_id": "tension",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--yearning",
+      "name": "Yearning — Feeling Category (Unmet Needs)",
+      "category": "feeling-unmet",
+      "sections": {
+        "Definition": "Yearning names the feeling of reaching toward something not currently had — longing that points fairly directly at the specific unmet need behind it."
+      },
+      "keywords": [
+        "longing",
+        "nostalgic",
+        "pining"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "yearning",
+        "source_deck": "nvc-needs",
+        "source_item_id": "yearning",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--autonomy",
+      "name": "Autonomy — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Autonomy names needs around choosing one's own path — freedom, independence, the space to set one's own direction rather than have it set by someone else."
+      },
+      "keywords": [
+        "choice",
+        "dignity",
+        "freedom",
+        "independence",
+        "self-expression",
+        "space",
+        "spontaneity"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "autonomy",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--connection",
+      "name": "Connection — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Connection is the largest need-family here, covering everything from closeness and belonging to being known, trusted, and supported by others."
+      },
+      "keywords": [
+        "acceptance",
+        "affection",
+        "appreciation",
+        "authenticity",
+        "belonging",
+        "care",
+        "closeness",
+        "communication",
+        "communion",
+        "community",
+        "companionship",
+        "compassion",
+        "consideration",
+        "empathy",
+        "friendship",
+        "inclusion",
+        "inspiration",
+        "integrity",
+        "intimacy",
+        "love",
+        "mutuality",
+        "nurturing",
+        "partnership",
+        "presence",
+        "respect/self-respect",
+        "security",
+        "self-acceptance",
+        "self-care",
+        "self-connection",
+        "self-expression",
+        "shared reality",
+        "stability",
+        "support",
+        "to know and be known",
+        "to see and be seen",
+        "trust",
+        "understanding",
+        "warmth"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "connection",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--meaning",
+      "name": "Meaning — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Meaning covers needs that point beyond the immediate moment — growth, purpose, contribution, understanding — the sense that something matters or is going somewhere."
+      },
+      "keywords": [
+        "awareness",
+        "celebration",
+        "challenge",
+        "clarity",
+        "competence",
+        "consciousness",
+        "contribution",
+        "creativity",
+        "discovery",
+        "efficiency",
+        "effectiveness",
+        "growth",
+        "integration",
+        "integrity",
+        "learning",
+        "mourning",
+        "movement",
+        "participation",
+        "perspective",
+        "presence",
+        "progress",
+        "purpose",
+        "self-expression",
+        "stimulation",
+        "understanding"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "meaning",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--peace",
+      "name": "Peace — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Peace names needs for balance and ease — harmony, order, equanimity — the absence of ongoing struggle rather than any particular gain."
+      },
+      "keywords": [
+        "acceptance",
+        "balance",
+        "beauty",
+        "communion",
+        "ease",
+        "equanimity",
+        "faith",
+        "harmony",
+        "hope",
+        "order",
+        "peace-of-mind",
+        "space"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "peace",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--physical-well-being",
+      "name": "Physical Well-Being — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Physical well-being covers the body's own needs — rest, food, safety, touch — the most concrete layer of the needs list, and often the layer underneath needs that look abstract at first."
+      },
+      "keywords": [
+        "air",
+        "care",
+        "comfort",
+        "food",
+        "movement/exercise",
+        "rest/sleep",
+        "safety (physical)",
+        "self-care",
+        "sexual expression",
+        "shelter",
+        "touch",
+        "water"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "physical-well-being",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "nvc-needs--play",
+      "name": "Play — Need Category",
+      "category": "need",
+      "sections": {
+        "Definition": "Play names needs met through lightness — fun, humor, adventure, stimulation for its own sake rather than toward any further goal."
+      },
+      "keywords": [
+        "adventure",
+        "excitement",
+        "fun",
+        "humor",
+        "joy",
+        "relaxation",
+        "stimulation"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "play",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2834,6 +3662,206 @@
       }
     },
     {
+      "id": "thought-forms--astral-body-besant-leadbeater",
+      "name": "The Astral Body — Besant and Leadbeater's Account",
+      "category": "system",
+      "sections": {
+        "Definition": "Besant and Leadbeater held that feeling is not private in the way it is ordinarily assumed to be. Every emotion, on their account, throws off matter of the astral (or \"desire\") body — a substance finer than the physical, interpenetrating and surrounding it — and that matter takes on a specific colour and outline determined by the quality, strength, and object of the feeling. Trained clairvoyant sight, they claimed, perceives this matter directly and immediately, the way ordinary sight perceives a printed page: not an inference drawn from a person's face or conduct, but a plain visual fact hanging in the air around the person feeling it.",
+        "Two claims, not one": "The tradition actually makes two related but distinct claims, and Thought-Forms keeps them apart. The aura is a standing field around a person, built up over time and tracking habitual, settled character. A thought-form is a discrete, temporary shape thrown off by one specific feeling or thought, which can detach entirely from the person who produced it, drift on its own, dissolve, or — in the case of a feeling deliberately aimed at another person, such as a grasping or covetous affection — travel toward its object and act on it. Man Visible and Invisible (1902) develops the first claim; Thought-Forms (1901) develops the second, plate by plate, each one presented as a record of one particular observed instance (a specific person's grief, a specific piece of music) rather than as invented illustration.",
+        "Research note": "Both authors held that this perception required extensive training and was not available to the ordinary reader without it; the book offers no method by which a reader could verify a given plate against their own perception, only the authors' description of what they say they saw. Leadbeater in particular presented decades of claimed clairvoyant practice as the basis for the plates' detail and consistency."
+      },
+      "keywords": [
+        "astral body",
+        "desire body",
+        "clairvoyance",
+        "theosophy",
+        "thought-form"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "thought-forms",
+        "source_item_id": "astral-body-besant-leadbeater",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
+      "id": "thought-forms--astral-body-steiner",
+      "name": "The Astral Body — Steiner's Account",
+      "category": "system",
+      "sections": {
+        "Definition": "Steiner names the same term — astral body (Astralleib) — for the third of four bodies he holds constitute a human being: the physical body, the etheric body (Ätherleib, which maintains the physical body's life processes), the astral body, and the \"I\" (Ich). The astral body, in his account, is specifically the seat of feeling, desire, sensation, and inner mental life — the part of a person that suffers, wants, and reacts — and it is this body, not the etheric or physical, that is claimed to be visible to supersensible perception as light and colour surrounding the physical form.",
+        "A method, not only a claim": "Where Besant and Leadbeater presented their perception as an already-attained clairvoyant gift, resting on the authors' own long practice, Steiner set out a specific graduated training — meditative concentration exercises paired with moral and characterological development — that he laid out at length in Knowledge of the Higher Worlds and Its Attainment (1904–05) and held any sufficiently disciplined student could undertake in order to develop supersensible perception of the astral body for themselves. The claim to perceive it is the same kind of claim; the path Steiner describes toward it is presented as reproducible rather than as a personal gift.",
+        "Where Steiner and Theosophy parted ways": "Steiner's account did not start as a rival system. He was for some years an office-holder inside the Theosophical Society itself — head of its German Section from 1902, appointed by Besant in 1904 to lead its Esoteric Section for Germany and Austria — so his description of the astral body began inside the same institutional and doctrinal world Besant and Leadbeater worked in. The public break came in 1912–13, when most German-speaking Theosophists left with him to found the Anthroposophical Society, over a dispute that was doctrinal rather than merely personal: Besant and Leadbeater promoted the young Jiddu Krishnamurti as the vehicle for a returning World Teacher, and Steiner rejected that claim outright, holding the Christ event of Jesus's life to be a unique, unrepeatable incarnation rather than a role a spiritual being could occupy again in a different body. That disagreement carried through into the astral body concept itself: Steiner ties it into a specifically Western, Christ-centred scheme of spiritual evolution, where Besant's and Leadbeater's usage sits inside a more Hindu- and Buddhist-inflected cosmology of reincarnation and karma, without Steiner's claim about Christ's singularity. This grammar keeps Steiner's account in its own item rather than folding it into Besant and Leadbeater's for exactly this reason — the two are related, not identical, and stating them as one voice would erase a disagreement the historical record shows was serious enough to split an organisation.",
+        "Research note": "Steiner's claim to supersensible perception carries the same evidentiary status as Besant's and Leadbeater's: a first-person report grounded in claimed trained practice, not independently testable by an outside observer, and not distinguished by this grammar as more or less credible than theirs."
+      },
+      "keywords": [
+        "astral body",
+        "etheric body",
+        "anthroposophy",
+        "steiner",
+        "supersensible perception"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "thought-forms",
+        "source_item_id": "astral-body-steiner",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
+      "id": "thought-forms--colour-key",
+      "name": "The Meaning of Colours — the Published Key",
+      "category": "system",
+      "sections": {
+        "Definition": "Thought-Forms opens with a published visual key — a plate titled \"The Meaning of Colours,\" running from a light blue at one corner to black at the other — pairing each named colour and shade with a specific quality of feeling or thought, so that a reader could in principle look at any plate elsewhere in the book and read off, colour by colour, which feeling it was said to depict. Man Visible and Invisible (1902) restates the same scheme for the standing aura rather than the discrete thought-form. The book states plainly that brilliance and depth of colour track the strength and activity of the feeling, not only its kind: a dull, muddy version of a colour marks a weaker or more self-interested form of the same feeling a clear, luminous version of that colour marks in its stronger or more selfless form.",
+        "The colour-to-feeling key, as published": "Black is given to hatred and malice. Red, across a range from a dull brick tone through brilliant scarlet to a deep \"dragon's blood\" red, is given to anger — the brightest scarlet read as indignation at a perceived wrong, the darkest red read as anger fused with animal passion and sensual desire. Grey, in a heavy, deep form, is given to depression; a livid, pale grey is given to fear; a grey tinted green is given to deceit. A brown-green flecked with scarlet is given to jealousy. Plain green is given to adaptability, reading upward into an unselfish, sympathetic form and downward into the same grey-green deceit. Clear brown is given to avarice, and a hard, dull brownish-grey to plain selfishness. Deep orange is given to pride or ambition. The crimson-to-rose family is given to affection, from a full, clear carmine (ordinary healthy affection) to a pale, delicate rose (affection with no self-interest left in it at all). Yellow, from a dull ochre through a clear gamboge to a pale, luminous primrose, is given to intellect, in each case moving from a self-interested use of the mind toward an unselfish one. Blue, across its own dark-to-pale range, is given to devotion or religious feeling — a dark brown-blue for devotion still mixed with self-interest, a rich clear blue for heartfelt adoration, and a pale azure for what the authors treat as the highest attainable form, self-renunciation and union with the divine. Violet is given to a mixture of affection and devotion together, its most delicate shades read as the capacity to absorb and respond to a high ideal.",
+        "Research note": "Some of the book's plates are not feelings at all in the ordinary sense, but responses to music — named, specific pieces by Gounod, Mendelssohn, and Wagner, each said to produce its own characteristic colour-form in a listener. That claim is a real, book-documented hook toward the doctrine-of-the-affections tradition covered elsewhere in this library (schools/affektenlehre), which independently assigns specific musical devices to specific named affects by an entirely different method and in an entirely different century; this grammar states the parallel here, in prose, rather than building a forced cross-link through an item this school does not yet contain. The book has also been widely credited with influencing early abstract painters — Wassily Kandinsky and Piet Mondrian are the names most often cited — which, if accurate, would make this colour key one channel by which a claimed clairvoyant vocabulary reached mainstream visual art independent of anyone believing the underlying clairvoyant claim.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either Besant or Leadbeater made.* A published key that assigns one colour to one feeling looks, at a glance, like exactly the kind of fixed biological mapping this library's own founding claim denies exists — a natural-kind account of emotion with a one-to-one, discoverable signature. But the key's own internal logic undercuts that reading before any outside critique is needed: the same feeling is given a whole range of the same colour family, varying continuously with the feeling's strength and how self-interested or selfless it is, and two feelings can share a colour region (affection and devotion both licensing violet where they blend) while one feeling's variants shade into an entirely different colour family at the extremes. That is closer to a constructed, graded vocabulary for describing a feeling's quality and intensity than to a lookup table — which does not make the underlying clairvoyant claim testable, but does mean the key is a more interesting structural object than \"anger equals red\" would suggest."
+      },
+      "keywords": [
+        "colour key",
+        "meaning of colours",
+        "aura colours",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Colorchart.jpg",
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:Colorchart.jpg",
+        "image_credit": "\"The Meaning of Colours,\" frontispiece key from Thought-Forms (1901) — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired (published before 1931; no fresh institutional rights claim on the file page).",
+        "source_deck": "thought-forms",
+        "source_item_id": "colour-key",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
+      "id": "thought-forms--affection",
+      "name": "Affection",
+      "category": "feeling",
+      "sections": {
+        "Definition": "Affection is assigned the crimson-to-rose part of the spectrum across its full range: a full, clear carmine for ordinary healthy affection, softening toward a pale, delicate rose for what the authors call absolutely unselfish love — affection with no remaining claim on its object. Violet marks a blend of affection with devotion, its most delicate shades read as an unusual capacity to respond to a high and beautiful ideal.",
+        "Shape as well as colour": "The book treats affection's outline, not only its colour, as carrying meaning. An affection turned toward an animal or a possession — described and plated under the heading \"Grasping Animal Affection\" — is drawn dull in colour and closed in shape, its edges curving inward into hook-like forms the authors read as self-interest built into the feeling itself, reaching toward its object to draw something back. Affection directed at another person, or radiating outward toward many people at once, is instead drawn as an open, expanding form with no closing hook: the same crimson family, but structured outward rather than inward. The plate set here (Fig. 13, \"Grasping Animal Affection\") shows the lower, closed-and-hooked variant specifically, as a deliberate contrast case to the open, radiating forms the book plates elsewhere under the same colour family.",
+        "Research note": "The grasping-versus-radiating distinction is the book's clearest instance of treating a single named feeling as a spectrum running from self-interested to selfless, rather than as one fixed thing — the same structural move the colour key makes with brightness and depth of colour, here made instead with the closed or open shape of the form.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Reading affection as varying continuously by how open or closed, other-directed or self-directed its form is comes closer to a constructionist account of emotion concepts as graded and context-sensitive than a fixed-colour key would suggest on its own — without this library taking any position on whether such a form is actually perceivable."
+      },
+      "keywords": [
+        "affection",
+        "love",
+        "crimson",
+        "rose",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Form13.jpg",
+      "metadata": {
+        "emotion_key": "affection",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form13.jpg",
+        "image_credit": "\"Grasping Animal Affection,\" Fig. 13 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
+        "source_deck": "thought-forms",
+        "source_item_id": "affection",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
+      "id": "thought-forms--devotion",
+      "name": "Devotion",
+      "category": "feeling",
+      "sections": {
+        "Definition": "Devotion, or religious feeling generally, is assigned the blue family across its own dark-to-pale range: a dark, brownish blue for devotion still mixed with self-interest, a rich, deep, clear blue for heartfelt adoration, and — at the top of the range — a pale, luminous azure the book presents as the highest attainable form, marking self-renunciation and union with the divine. The plate set here (Fig. 16, \"Self-Renunciation\") is described as resembling a pale blue lotus, its petals opening outward rather than closing around a centre — the devotional counterpart to affection's open, radiating form.",
+        "One of a family, not a fixed endpoint": "The colour key treats devotion's blue as continuous with affection's crimson-rose by way of violet, the colour given to the two feelings blended together. The book does not present devotion as categorically separate from affection so much as differently directed — affection toward a person, devotion toward an ideal or the divine — with violet marking the point where the two are not clearly distinguishable in the observed form.",
+        "Research note": "Man Visible and Invisible's own colour chart repeats the same blue-for-devotion assignment for the standing aura, not only the discrete, temporary thought-form Thought-Forms plates — the two books' colour vocabularies agree with each other on this point rather than diverging.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Devotion's placement on a single continuous scale with affection, rather than as its own unrelated category, is the same graded-vocabulary structure this grammar notes on the affection item — worth naming as a structural feature of the key itself, independent of whether the underlying perceptual claim is accepted."
+      },
+      "keywords": [
+        "devotion",
+        "religious feeling",
+        "blue",
+        "self-renunciation",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Form16.jpg",
+      "metadata": {
+        "emotion_key": "devotion",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form16.jpg",
+        "image_credit": "\"Self-Renunciation,\" Fig. 16 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
+        "source_deck": "thought-forms",
+        "source_item_id": "devotion",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
+      "id": "thought-forms--anger",
+      "name": "Anger",
+      "category": "feeling",
+      "sections": {
+        "Definition": "Anger is assigned the red family, and the book distinguishes at least three qualities within it by shade: a duller, brick-toned red for a lower, more brooding form; a bright, clear scarlet the authors read as noble indignation, anger with a perceived moral cause behind it; and a deep, dark \"dragon's blood\" red for anger fused with animal passion and sensual desire. Two plates given side by side (Fig. 22, \"Murderous Rage,\" and Fig. 23, \"Sustained Anger\") differ in shape as much as in colour: murderous rage is drawn as a single jagged spike thrown outward in one explosive burst, while sustained anger is drawn narrower and blade- or dagger-like, its edges sharper and more deliberately shaped — anger that has been held and aimed rather than discharged all at once.",
+        "Research note": "This school's independent, physiological account of anger's outward signs (see schools/darwin-expression, item \"anger\") describes a flushed, reddened face as one of anger's most consistent visible markers, arrived at from direct observation and comparison across species — a completely different method and evidentiary standard from Besant and Leadbeater's clairvoyant claim, but converging, descriptively, on the same colour for the same feeling.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* That two unrelated methods — trained clairvoyant perception and comparative behavioural observation — independently land on red for anger is not evidence for either one; it more plausibly reflects a shared cultural association (reddening, heat, blood) that both traditions drew on, one making it an empirical observation about faces and one making it a claimed perception about auras."
+      },
+      "keywords": [
+        "anger",
+        "rage",
+        "red",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Forms22-23.jpg",
+      "metadata": {
+        "emotion_key": "anger",
+        "source_deck": "thought-forms",
+        "source_item_id": "anger",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Forms22-23.jpg",
+        "image_credit": "\"Murderous Rage\" and \"Sustained Anger,\" Figs. 22–23 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
+      }
+    },
+    {
+      "id": "thought-forms--fear",
+      "name": "Fear",
+      "category": "feeling",
+      "sections": {
+        "Definition": "Fear is assigned a livid, pale grey. The plate given here (Fig. 27, \"Sudden Fright\") shows that grey shot through with red, which the authors read as anger mixing in exactly where naked fear tips over into a fight response rather than staying pure fright or flight.",
+        "Research note": "This school's independent, physiological account of fear's outward signs (see schools/darwin-expression, item \"fear\") describes a pale face — blood withdrawing to the internal organs — as one of fear's most consistent visible markers, arrived at by direct observation and a cross-cultural questionnaire rather than by claimed clairvoyant perception. Grey-as-pallor and pale-as-blood-withdrawal are descriptively close, though the two traditions reach that description by entirely different routes and neither validates the other.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* As with anger, the resemblance between the two traditions' accounts of fear's colour is worth naming without treating it as corroboration: a shared cultural vocabulary for pallor and fear long predates both Darwin's fieldwork and Besant and Leadbeater's clairvoyant claim, and both may simply be drawing on the same ordinary-language association between fear and going pale or grey."
+      },
+      "keywords": [
+        "fear",
+        "fright",
+        "grey",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sudden_Fright.jpg",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "thought-forms",
+        "source_item_id": "fear",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Sudden_Fright.jpg",
+        "image_credit": "\"Sudden Fright,\" Fig. 27 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD Old."
+      }
+    },
+    {
+      "id": "thought-forms--jealousy",
+      "name": "Jealousy",
+      "category": "feeling",
+      "sections": {
+        "Definition": "Jealousy is assigned a brownish-green flecked with scarlet — a colour the key places near plain green's lower, self-interested end (where green shades into the grey-green given to deceit) rather than near its higher, sympathetic end, treating jealousy as a corrupted or narrowed form of the same underlying quality that, directed outward without self-interest, would read as adaptability or sympathy instead. The book's own figure numbering (following directly from Figs. 22–23 for anger and preceding Fig. 27's fear) places two jealousy plates side by side: a more watchful, waiting form and a more overt, agitated one in which the scarlet flecking runs heavier through the green — jealousy tipping toward open anger, structurally paralleling how fear's grey (Fig. 27) is shown shot through with red at the same tipping point.",
+        "Research note": "Jealousy is the one item in this grammar whose plate identification rests on the book's consistent figure-numbering pattern (confirmed independently for Figs. 16, 19, 22–23, 27, and 34) rather than on a caption quoted directly from an external secondary source; the colour assignment itself — brownish-green flecked with scarlet — is stated plainly in the published key and is not in doubt.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim either author made.* Placing jealousy as a narrowed, self-interested variant of the same colour family used for sympathy and adaptability, rather than as a wholly separate hue, is the clearest single instance in this key of a moral judgment built directly into a supposedly descriptive colour scale — green's meaning shifts by how selfish the underlying feeling is read to be, and jealousy sits on the unflattering end of that same scale by construction, not by independent observation."
+      },
+      "keywords": [
+        "jealousy",
+        "brownish-green",
+        "thought-forms"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Form25.jpg",
+      "metadata": {
+        "emotion_key": "jealousy",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Form25.jpg",
+        "image_credit": "\"Watchful Jealousy,\" Fig. 25 from Thought-Forms (1901), Besant & Leadbeater, identified via the book's own figure-numbering sequence — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
+        "source_deck": "thought-forms",
+        "source_item_id": "jealousy",
+        "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
+      }
+    },
+    {
       "id": "darwin-expression--grief",
       "name": "Grief",
       "category": "darwin-expression",
@@ -3097,6 +4125,200 @@
         "source_deck": "affektenlehre",
         "source_item_id": "musica-poetica-figures",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
+      }
+    },
+    {
+      "id": "acting-traditions--abhinaya-four-modes",
+      "name": "Abhinaya — Bharata's Four Modes of Conveying Meaning",
+      "category": "codification-system",
+      "sections": {
+        "Definition": "The Nāṭyaśāstra names four abhinaya — modes by which a performer carries meaning to an audience. Āngika abhinaya is bodily expression, worked through the body (aṅga), its secondary limbs (pratyaṅga), and its minor parts (upāṅga, chiefly the face and eyes). Vāchika abhinaya is verbal expression — pronunciation, modulation, rhythm, and song. Āhārya abhinaya is costume, ornament, makeup, and stage properties, the externally furnished apparatus of a role. Sāttvika abhinaya is the involuntary and internal: the Nāṭyaśāstra names eight specific sāttvika bhāvas — stambha (paralysis), sveda (perspiration), romāñca (hair standing on end), svarabheda (breaking voice), vepathu (trembling), vaivarṇya (pallor), aśru (tears), and pralaya (fainting) — bodily signs the text treats as genuinely involuntary, arising only from real absorption in the role, and for that reason ranked as the most difficult and most prized of the four.",
+        "A codified hand vocabulary": "Āngika abhinaya includes a named, drilled repertoire of mudrā — hand positions with fixed, conventional meanings, taught and rehearsed rather than invented in the moment. The Nāṭyaśāstra itself names dozens; the later Abhinaya Darpaṇa (\"Mirror of Gesture,\" attributed to Nandikeśvara, date uncertain but well after Bharata) systematizes roughly two dozen single-hand (asaṃyuta) and about a dozen combined-hand (saṃyuta) positions, each with an assigned name and a list of what it may be used to signify. A performer does not improvise a gesture for love or fear; they select from an already-named set.",
+        "Research note": "Sāttvika abhinaya sits in real tension with the other three modes — the Nāṭyaśāstra prizes it precisely because it cannot be faked as easily as a learned hand position, yet it is taught and cultivated as part of the same fourfold system as the frankly external āhārya (costume and makeup). The text does not treat this as a contradiction: a trained performer is expected to be able to produce sāttvika signs reliably on cue, which already complicates any simple involuntary/voluntary divide."
+      },
+      "keywords": [
+        "abhinaya",
+        "angika",
+        "vachika",
+        "aharya",
+        "sattvika",
+        "mudra",
+        "bhava",
+        "natyashastra",
+        "bharata"
+      ],
+      "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-F2003.2_001&max=1200",
+      "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "abhinaya-four-modes",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
+        "image_source": "https://asia-archive.si.edu/object/F2003.2/",
+        "image_credit": "Shiva Nataraja, Chola dynasty, ca. 990, Tamil Nadu, bronze — Smithsonian's National Museum of Asian Art (Freer Gallery, F2003.2), CC0. Not a literal Natyashastra-era illustration of abhinaya; used because Nataraja's own iconography (his lower right hand shows the abhaya, \"fear not,\" mudra) is the canonical Indian icon of gesture doing conventionalized expressive work, in the same register as this school's other codification systems."
+      }
+    },
+    {
+      "id": "acting-traditions--noh-kata-and-masks",
+      "name": "Noh Kata and the Mask That Never Changes",
+      "category": "codification-system",
+      "sections": {
+        "Definition": "Noh, formalized in 14th-century Japan chiefly by Kan'ami and his son Zeami, builds a performance out of kata — fixed, named physical forms (a stance, a turn, a way of walking, suriashi's sliding gliding step) drilled for years within a hereditary school (ryū) and recombined rather than invented anew for each role. A Noh actor does not develop a personal physical vocabulary for grief; they select and sequence existing kata that generations of performers before them used for the same dramatic moment.",
+        "The mask that never changes": "For masked roles, Noh makes its point about codification unusually literal. The mask (omote) is a single carved, painted object that cannot itself change expression — and yet a trained shite is expected to make it read as joyful in one moment and sorrowful in the next, using a technique called terasu (\"illuminating\") and kumorasu (\"clouding\"): a slight upward tilt of the head brightens the mask by changing the angle at which stage light falls across its carved features, reading as joy; a slight downward tilt darkens it into shadow, reading as grief. The object supplying the emotional information never moves and is never repainted — only the actor's controlled tilt, itself a kata, changes what the audience reads off it. It is the clearest demonstration in this school of expression as something manufactured and externally located, rather than something radiating from a mobile human face.",
+        "Fixed types, not spontaneous portraiture": "Beyond the tilt technique, Noh's mask carving tradition itself sorts registers into named, reused types rather than individualized portraiture: ko-omote (a young woman, serene, associated with youthful beauty), shōjō (a sake-loving spirit, joyous revelry), and yoroboshi (a blind, wandering, grief-stricken young man) are three physically distinct objects, each built once and reused, unaltered, across centuries of different performers and performances.",
+        "Research note": "Zeami's own treatises (Fūshikaden and others, early 15th century) already theorize training itself as a lifelong, staged process of drilling kata before any personal expression is permitted — an explicit pedagogical doctrine centuries before Delsarte or Stanislavski articulated their own, and one this item's cross-reference does not develop further."
+      },
+      "keywords": [
+        "noh",
+        "kata",
+        "omote",
+        "mask",
+        "ko-omote",
+        "shojo",
+        "yoroboshi",
+        "japan"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
+      "metadata": {
+        "additional_image_urls": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
+            "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
+            "image_credit": "Shōjō (Noh mask), 15th–16th century — Tokyo National Museum, accession C-1535, CC BY 4.0. A sake-spirit mask for joyous, revelrous roles."
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Yoroboshi_%28Noh_mask%29%2C_Tokyo_National_Museum.jpg",
+            "image_source": "https://commons.wikimedia.org/wiki/File:Yoroboshi_(Noh_mask),_Tokyo_National_Museum.jpg",
+            "image_credit": "Yoroboshi (Noh mask), 17th–18th century — Tokyo National Museum, accession C-1482, CC BY 4.0. A blind, grief-stricken young man's mask (the character Shuntoku-maru)."
+          }
+        ],
+        "_additional_image_urls_note": "This chassis reads a single item.image_url; these two are recorded here, alongside the primary ko-omote image, so a future viewer pass can render all three side by side — the point being made is literally that three different fixed objects carry three different registers within one mask-carving tradition. Not yet rendered as a gallery anywhere in the site.",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Ko-omote_(Noh_mask),_Tokyo_National_Museum_C-1551.jpg",
+        "image_credit": "Ko-omote (Noh mask), early Edo-period copy of the \"Yuki-no-Ko-omote,\" 17th century — Tokyo National Museum, accession C-1551, CC BY 4.0. A young-woman mask for serene, youthful roles.",
+        "source_deck": "acting-traditions",
+        "source_item_id": "noh-kata-and-masks",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
+      }
+    },
+    {
+      "id": "acting-traditions--le-brun-conference-expression",
+      "name": "Le Brun's Conférence sur l'expression (1668)",
+      "category": "codification-system",
+      "sections": {
+        "Definition": "Charles Le Brun (1619–1690), first director and chancellor of the Académie Royale de Peinture et de Sculpture, delivered a lecture in 1668 — printed in 1689, illustrated with a set of engraved \"expressive heads\" drawn in 1698 and engraved in 1727 — proposing an explicit, teachable rule for how a painter (and, once the plates circulated widely, an actor) should render each of the soul's passions on a face. Le Brun builds directly on Descartes's Passions de l'âme (1649), naming and illustrating well over twenty passions: admiration, esteem, veneration, ravishment, scorn, horror, terror, simple love, desire, hope, fear, jealousy, hatred, sorrow, joy, laughter, weeping, anger, and extreme despair among them — a far larger set than the six Descartes himself called primitive.",
+        "An engineering of the eyebrow": "Le Brun's central technical claim, taught as drillable rule rather than left to intuition, concerns the eyebrow specifically: he holds that its angle — raised toward what he takes to be the soul's seat when a passion is noble, lowered toward the animal-spirit end when a passion is base — is the single most legible signal on the face, and gives students a near-mechanical account of how to draw it for each named passion. It is, in this school's terms, one of the most literal cases of a codifier reducing feeling to a specific, reproducible technical instruction.",
+        "Research note": "The plates' own afterlife makes the codification point almost by accident: they were reprinted, translated, and taught across Europe for over a century, closely enough that by 1800 Thomas Rowlandson could publish Le Brun Travested, a set of caricatures of the same twenty-odd heads — evidence the system had become recognizable enough, as a system, to parody."
+      },
+      "keywords": [
+        "le brun",
+        "conference sur l'expression",
+        "1668",
+        "eyebrows",
+        "engraving"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Terrour_or_Fright_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854027.jpg",
+      "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "le-brun-conference-expression",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Terrour_or_Fright_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854027.jpg",
+        "image_credit": "\"Terrour or Fright,\" plate 18 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). The same print series already illustrates several items in schools/descartes-passions; this plate depicts a passion outside Descartes's own six primitives, chosen to show the wider range of Le Brun's own catalogue."
+      }
+    },
+    {
+      "id": "acting-traditions--delsarte-system",
+      "name": "The Delsarte System of Expression",
+      "category": "codification-system",
+      "sections": {
+        "Definition": "François Delsarte (1811–1871), a Paris-trained singer who turned to teaching after his own voice was damaged by poor instruction, spent roughly two decades (chiefly the 1840s–1860s) cataloguing which gesture, posture, and facial configuration recurred with which mental or emotional state, organizing his findings into a body-zone system — head, torso, and limbs, each further subdivided into its own triads of expressive registers — taught directly to a generation of French, and later American, actors, singers, and elocution students as a reproducible technique rather than a personal style.",
+        "Codified after his death, not by his own pen": "Delsarte published almost nothing of his system in finished form himself. It survives chiefly through students' notes and compilations — l'Abbé Delaumosne's and Mme Angélique Arnaud's transcriptions, gathered into the English-language Delsarte System of Oratory (first American edition 1882, expanded 1893) — and was further systematized and popularized by his student's student, Genevieve Stebbins, in her own Delsarte System of Dramatic Expression (1885). The version of \"Delsarte\" that shaped decades of Anglo-American acting and elocution training is therefore a codification of a codification, several transcribing hands removed from Delsarte's own teaching.",
+        "Research note": "The American \"Delsarte craze\" of the 1870s–1890s reached well beyond the professional stage into finishing-school elocution and physical-culture instruction, and its gesture vocabulary is a documented influence on early silent-film acting convention — a direct throughline from a mid-19th-century Parisian singing teacher's system to some of the first moving images of trained emotional expression. This traces a strikingly different lineage from Darwin's near-contemporary The Expression of the Emotions (1872, see the cross-link on this item): Delsarte's system assumes expression can and should be taught because its signs are conventional; Darwin's argument, published the same decade, holds that many of the same signs are involuntary evolutionary residues that need no teaching at all. The two views were developed independently and were never reconciled by either camp."
+      },
+      "keywords": [
+        "delsarte",
+        "gesture",
+        "posture",
+        "elocution",
+        "19th century"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Fran%C3%A7ois_Delsarte_1864.jpg",
+      "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "delsarte-system",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Delsarte_1864.jpg",
+        "image_credit": "Portrait of François Delsarte, photograph by Étienne Carjat, 1864 — Bibliothèque nationale de France, via Wikimedia Commons, public domain (PD-old / CC-PD-Mark)."
+      }
+    },
+    {
+      "id": "acting-traditions--stanislavski-system",
+      "name": "Stanislavski's System",
+      "category": "inner-technique",
+      "sections": {
+        "Definition": "Konstantin Stanislavski (1863–1938), co-founder of the Moscow Art Theatre, developed across several decades and several books (An Actor Prepares, Building a Character, Creating a Role, published in stages from 1936 into the years after his death) a training method built around the actor's own genuine inner psychological and physical engagement with a role — given circumstances, objectives, the \"magic if\" — rather than a catalogue of external signs to study and reproduce. Where Le Brun or Delsarte hand a student a named vocabulary of visible signs, Stanislavski's premise is close to the opposite: train the actor's inner truthfulness, and the external expression will follow on its own without needing to be separately drilled.",
+        "A late turn away from his own emotional memory": "Stanislavski's earlier teaching leaned heavily on affective (emotional) memory — an actor deliberately recalling a personally remembered feeling to summon a comparable one on stage. In his own final years he grew concerned this technique was psychologically costly and unreliable from night to night, and moved toward what he called the method of physical actions: the claim that correctly executing a precise sequence of concrete physical tasks would summon the needed feeling more dependably than deliberately reopening the actor's own past. Stanislavski revised his own system within his own lifetime rather than leaving it fixed — a detail often lost in how \"the Stanislavski system\" gets invoked as a single settled thing.",
+        "Research note": "This item and the following one (Strasberg's Method) are included in this school specifically because they reject the premise every other item here shares — that expression is best taught as an external, nameable vocabulary. Holding both here, rather than only the codifiers, is a deliberate editorial choice: a library about how performers are taught to show emotion is incomplete if it only shows systems that answer \"teach a vocabulary of signs.\""
+      },
+      "keywords": [
+        "stanislavski",
+        "moscow art theatre",
+        "emotional memory",
+        "physical actions"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Konstantin_Stanislavskiy_1912.jpg",
+      "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "stanislavski-system",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
+      }
+    },
+    {
+      "id": "acting-traditions--strasberg-method",
+      "name": "Strasberg's Method (the Actors Studio)",
+      "category": "inner-technique",
+      "sections": {
+        "Definition": "Lee Strasberg (1901–1982), longtime artistic director of New York's Actors Studio, built what became known simply as \"the Method\" out of Stanislavski's earlier-period teaching, encountered largely secondhand through Richard Boleslavsky and Maria Ouspenskaya's American Laboratory Theatre in the 1920s — before most of Stanislavski's own later revisions had reached English translation. Strasberg made affective memory, which he called sense memory, the load-bearing center of American Method training: an actor is trained to recall not just a past emotion but the full sensory detail surrounding it (what was seen, heard, smelled, touched) as the reliable route into a truthful present feeling.",
+        "Explicitly rejecting a codified vocabulary of externals": "Where Le Brun, Delsarte, and Bharata's tradition each hand a performer a catalogue of specific, nameable, externally visible signs to learn and reproduce, Strasberg's Method holds that a genuinely and privately reconstructed inner state will produce whatever external expression is truthful for that actor in that moment — the external sign itself is never to be studied or rehearsed directly. This is precisely the technique (affective memory) Stanislavski himself was moving away from in his own final decades, making Strasberg's Method a documented divergence from its own acknowledged source, not merely a simplification of it.",
+        "Research note": "The psychological cost of leaning on personal affective memory night after night was disputed inside Strasberg's own circle, not only by outside critics: Stella Adler, a fellow member of the Group Theatre who studied briefly and directly with Stanislavski himself in Paris in 1934, publicly broke with Strasberg over this exact point, arguing for imaginative and given-circumstance work over the repeated excavation of an actor's own remembered pain — a live disagreement inside the American inheritance of Stanislavski that this item does not resolve."
+      },
+      "keywords": [
+        "strasberg",
+        "method acting",
+        "actors studio",
+        "affective memory",
+        "sense memory"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lee_Strasberg-1976.jpg",
+      "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "strasberg-method",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
+      }
+    },
+    {
+      "id": "acting-traditions--jingju-role-types",
+      "name": "Jingju Role Types and Liǎnpǔ",
+      "category": "codification-system",
+      "sections": {
+        "Definition": "Jingju (Peking, or Beijing, opera) consolidated as a distinct form in Beijing in the mid-19th century out of several regional traditions, and sorts every character into one of four role-type categories before a performer ever develops the individual role: sheng (male roles, further split by age and by civil or martial register), dan (female roles), jing (a forceful painted-face male role, generally secondary or antagonist), and chou (a clown role, marked by a small patch of white powder across the nose and eyes). Each role type carries its own prescribed vocal register, movement vocabulary, and — for jing and chou specifically — a facial-design system called liǎnpǔ (\"face register\").",
+        "A face repainted by rule, not by likeness": "Liǎnpǔ assigns roughly fifteen basic facial-design patterns, with well over a thousand specific named variants, each tied to a particular historical or legendary character, built from a working color code: red for loyalty and courage (Guan Yu, the God of War, is the paradigm red face), black for bluntness, impartiality, and integrity, and white for treachery or cunning (Cao Cao is the paradigm white face), with further conventions for blue, gold, and silver. A jing performer's face is painted according to a rule assigning a moral and emotional type to a color and pattern — decided by tradition before the performer applies makeup, not derived from that performer's own reading of the character.",
+        "Research note": "This item is deliberately narrower than the others in this school: reliable, checkable sourcing for jingju's codified gesture vocabulary specifically (as opposed to its makeup system, which is well documented) was not confirmed in the time available, so this item states only the role-type and liǎnpǔ claims that were independently corroborated, and leaves the gesture catalogue itself unwritten rather than asserted on thin sourcing."
+      },
+      "keywords": [
+        "jingju",
+        "peking opera",
+        "lianpu",
+        "role types",
+        "sheng",
+        "dan",
+        "jing",
+        "chou"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/%E7%84%A1%E6%AC%BE_%E6%B8%85%E6%9C%AB_%E4%BA%AC%E5%8A%87%E4%B8%80%E7%99%BE%E4%BA%BA%E7%89%A9%E5%83%8F_%E5%86%8A_%E7%B5%B9%E6%9C%AC-One_hundred_portraits_of_Peking_opera_characters_MET_DP280075.jpg",
+      "metadata": {
+        "image_source": "https://commons.wikimedia.org/wiki/File:%E7%84%A1%E6%AC%BE_%E6%B8%85%E6%9C%AB_%E4%BA%AC%E5%8A%87%E4%B8%80%E7%99%BE%E4%BA%BA%E7%89%A9%E5%83%8F_%E5%86%8A_%E7%B5%B9%E6%9C%AC-One_hundred_portraits_of_Peking_opera_characters_MET_DP280075.jpg",
+        "image_credit": "One leaf from One Hundred Portraits of Peking Opera Characters, unidentified artist, China, late Qing dynasty, ca. 1900, ink/color/gold on silk — The Metropolitan Museum of Art (accession 30.76.299, one of fifty leaves), CC0 (Open Access). The Commons file record does not identify which of the album's hundred characters or which role type this specific leaf depicts, so it is captioned here as a general representative leaf from the album rather than as a confirmed example of any one role type.",
+        "source_deck": "acting-traditions",
+        "source_item_id": "jingju-role-types",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
       }
     },
     {
