@@ -88,6 +88,59 @@ interesting than one that confirms them.
 machines trained on different corpora placing `saudade` in different neighbourhoods would demonstrate
 the library's central claim more vividly than any paragraph — variability, shown rather than argued.
 
+## 3b. Better: exhibit a cut of an existing model's space, rather than build our own map
+
+A stronger framing than §3. Do not compute a bespoke embedding and present the result. Instead take
+an **existing open-weights model's vector space**, light up the words this library already holds, and
+let a reader navigate the sub-cluster they form inside it.
+
+The difference is not cosmetic. A bespoke map is a claim we made. A cut of GloVe or fastText is an
+**artifact we are exhibiting**: *this is what a particular corpus produced, look at it.* That is the
+same move the library already makes with Plutchik and Ekman, and it sidesteps the objection that we
+tuned the map until it agreed with us.
+
+### Which model — and why the choice matters more here than usual
+
+| Model | Level | Why / why not |
+|---|---|---|
+| **fastText aligned vectors** | word | **The standout for this project.** Published for 157 languages **aligned into a common space**, so *saudade* in Portuguese and *longing* in English are directly comparable coordinates rather than two unrelated spaces. The untranslatability question is inherently cross-lingual, and this is the only option that answers it natively. Vectors are CC BY-SA 3.0 — verify, but that appears compatible with this repo's content licence. |
+| **GloVe** | word | Simplest first pass. Static, no model to run, well understood. English-only, so it can show the cluster but not the translation gap. |
+| **word2vec** | word | Equivalent to GloVe for our purposes; no particular advantage. |
+| **sentence-transformers / MiniLM** | sentence | Would embed an item's whole `Definition`, not just its name. Better semantics, but requires running a model and blurs "the word" with "our prose about the word". |
+| **Token embeddings from an open LLM** (Llama, Mistral) | subword | Tempting but wrong tool: `saudade` is several tokens, so there is no single vector for the word. Messy for no gain. |
+
+**Recommendation: GloVe to prototype, fastText aligned for the real thing** — because the cross-lingual
+alignment is the whole point of the saudade case, not a bonus.
+
+### Disk — the actual constraint
+
+This machine is ~94% full, and the standard distributions are large: full GloVe is ~1 GB, a single
+fastText language file ~7 GB. Do not download those.
+
+- `glove-wiki-gigaword-100` via `gensim.downloader` is ~130 MB — comfortably the right size to
+  prototype with.
+- **Extract only our words and delete the source immediately.** That is the "cut" in the literal
+  sense: ~400 terms × 100 dims stored as a small committed JSON, and the multi-hundred-MB original
+  gone the same session. This matches the standing rule in the root `CLAUDE.md`: fetch, do the work,
+  delete.
+
+### What "navigate the sub-cluster" should actually do
+
+Three behaviours, and the third is the one worth building for:
+
+1. **Show our words positioned by the model.** 2-D projection for display, computed offline.
+2. **Click a word, see its true nearest neighbours** — computed in the **full** space, not the
+   projection, because projections distort distance and a neighbour list computed from 2-D would be
+   quietly wrong.
+3. **Show neighbours the library does not contain.** This is the valuable one. If the model places
+   `wistfulness`, `yearning` or `melancholia` right beside terms we hold and we have no item for
+   them, the map is telling us what the collection is missing. A gap-finder, not just a picture.
+
+And the honest caption stays: this is one corpus's associations, not the structure of feeling. With
+fastText's aligned vectors there is a sharper version available — show where *saudade* sits in the
+Portuguese space and where its supposed English equivalents sit, and let the distance between them be
+the argument.
+
 ## 4. Expressing "near but not the same" in the data
 
 Before any map, the relation itself needs somewhere to live. Options:
