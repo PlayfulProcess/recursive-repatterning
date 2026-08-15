@@ -1331,6 +1331,22 @@
             transform: scale(1.02);
         }
 
+        /* Several depictions of one thing, shown side by side. Deliberately smaller
+           than the primary and scrollable rather than wrapped, so a long row reads as
+           a series to compare instead of a grid to browse. */
+        .modal-visual-strip { width: 100%; margin-top: .75rem; }
+        .modal-visual-strip .strip-note {
+            font-family: var(--sans); font-size: 10px; letter-spacing: .14em;
+            text-transform: uppercase; color: var(--mut); margin: 0 0 .4rem;
+        }
+        .modal-visual-strip .strip-imgs {
+            display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .25rem;
+        }
+        .modal-visual-strip .strip-imgs img {
+            max-height: 96px; width: auto; flex: 0 0 auto;
+            border: 1px solid var(--line); background: var(--thumb-bg);
+        }
+
         /* Image Lightbox */
         .image-lightbox {
             display: none;
@@ -4323,8 +4339,28 @@
 
             // Render visual - prefer explicit image, fall through to YouTube thumb, then icon
             const detailThumbUrl = getItemThumbnailUrl(item);
+
+            // Some items carry several depictions of the same thing — three Noh masks for
+            // one feeling, the same emotion drawn by Le Brun and danced in abhinaya. Showing
+            // them together is the point rather than a nicety: the variation IS the argument
+            // this library makes, and a single canonical image quietly asserts the opposite.
+            const _extraImgs = (((item.metadata || {}).additional_image_urls) || [])
+                .map(e => (typeof e === 'string' ? { url: e } : e))
+                .filter(e => e && e.url);
+
             if (detailThumbUrl) {
-                modalVisual.innerHTML = `<img src="${detailThumbUrl}" alt="${escapeHtml(item.name)}" onclick="openLightbox('${detailThumbUrl}')" title="Click to enlarge">`;
+                const stripHtml = _extraImgs.length ? `
+                <div class="modal-visual-strip">
+                    <p class="strip-note">The same, shown otherwise</p>
+                    <div class="strip-imgs">${_extraImgs.map(e => {
+                        const u = getProxiedImageUrl(e.url);
+                        const cap = e.image_credit || e.credit || '';
+                        return `<img src="${escapeHtml(u)}" alt="${escapeHtml(cap)}" loading="lazy"
+                                     title="${escapeHtml(cap || 'Click to enlarge')}"
+                                     onclick="openLightbox('${u}')" onerror="this.remove()">`;
+                    }).join('')}</div>
+                </div>` : '';
+                modalVisual.innerHTML = `<img src="${detailThumbUrl}" alt="${escapeHtml(item.name)}" onclick="openLightbox('${detailThumbUrl}')" title="Click to enlarge">` + stripHtml;
                 modalVisual.style.display = '';
             } else if (item.icon) {
                 modalVisual.innerHTML = `<span class="icon">${item.icon}</span>`;
