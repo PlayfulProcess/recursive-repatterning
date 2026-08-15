@@ -1,0 +1,206 @@
+{
+  "name": "Emotionally Focused Therapy — Attachment Bonds Between Partners",
+  "description": "Emotionally Focused Therapy (EFT) is the couples-therapy model developed by Sue Johnson from the 1980s onward, building on adult attachment theory: the idea that partners in a committed relationship are each other's primary source of emotional safety, and that most recurring couple conflict is really a protest about that safety being in doubt — 'Are you there for me?' EFT reads a couple's conflict cycle, commonly a pursue-withdraw pattern, as two people each defending against the same underlying fear of disconnection in opposite, self-reinforcing ways. Therapy works to de-escalate the cycle, help each partner access the softer, more vulnerable ('primary') emotion they are protecting with a faster, more visible ('secondary') reaction, and restructure their interactions around new, safer responses to each other's attachment needs.\n\nA necessary disambiguation, since the same three letters name two different things in couple and individual therapy: this grammar is Sue Johnson's Emotionally *Focused* Therapy for couples, built on attachment theory. It is a different person and a different model from Leslie Greenberg's Emotion-Focused Therapy, an individual, experiential approach with its own separate lineage. The two are easy to conflate by acronym alone; they are not the same tradition, and neither is a variant of the other.\n\nThis grammar carries Sue Johnson's own voice and evidence base only. It draws on attachment theory (Bowlby and Ainsworth, elsewhere in this library) and addresses much of the same couple territory as John and Julie Gottman's Gottman Method, elsewhere in this library; both are cross-linked here, but per this library's one-source-per-grammar rule, their own claims live in their own grammars, not stacked into this one.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. Emotionally Focused Therapy is a living, contemporary couples-therapy tradition with no period art to draw on — its own training materials, ICEEFT branding, and case footage are copyrighted. Generic stock photography of couples or faces was considered and rejected: it would not depict this specific model's claims, and off-the-shelf imagery of embracing or arguing couples risks implying a fixed visual signature for a dynamic (pursue-withdraw, softening) this school treats as a pattern of interaction, not an appearance. Leaving the school unillustrated is judged better than a generic or misleading substitute.",
+  "tags": ["eft", "emotionally-focused-therapy", "sue-johnson", "attachment", "couples-therapy"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "metadata": {
+    "status": "skeleton"
+  },
+  "_note": "Skeleton, split out of _seeds/grammars/relationship-cards.json (68-item couples oracle mixing Gottman, Johnson's EFT, Bowlby/Ainsworth attachment theory, and some Linehan/DBT content into single stacked cards). This grammar keeps only material that is genuinely Sue Johnson's own — the pursue-withdraw cycle (the seed's 'protest polka'), primary and secondary emotion, the attachment injury, the EFT Tango, de-escalation, softening, and the bonding event — restated in original prose, not the seed's numbered build-tag scaffolding notes. Left out deliberately: the seed's Gottman material (the Four Horsemen, bids, sentiment override) now lives in schools/gottman-method; its Bowlby/Ainsworth material (the secure base as its own concept, internal working models) now lives in schools/attachment-theory, referenced here only via cross-link; its Marsha Linehan material belongs to neither of these three and is left out entirely, per instruction, for a separate DBT school being written elsewhere. Also left out: the seed's full 'Hold Me Tight' seven-conversations structure and its A.R.E. (Accessible, Responsive, Engaged) acronym are referenced only in passing inside existing items rather than built out as their own items, to keep this a skeleton of 5-8 well-written items. Unwritten: EFT's three-stage treatment model (de-escalation, restructuring, consolidation) as a full standalone sequence, and the wider catalogue of secondary reactive emotions EFT names beyond anger and withdrawal, are not built out as their own items.",
+  "_art_direction": {
+    "period_place": "Emotionally Focused Therapy was developed by Sue Johnson from the 1980s onward, chiefly in Canada and the United States — a living, ongoing clinical tradition with no historical period or place to draw period art from, and no public-domain visual record of its own.",
+    "candidates": [
+      {
+        "name": "Openverse (CC-search aggregator)",
+        "url": "https://openverse.org/",
+        "note": "Aggregates openly-licensed (CC0 / CC BY) contemporary photography; searchable for generic, non-representational imagery (a closing and opening door, two paths converging) that could stand in for concepts like the pursue-withdraw cycle or softening without depicting a couple or a face."
+      },
+      {
+        "name": "Wikimedia Commons — contemporary photography",
+        "url": "https://commons.wikimedia.org/",
+        "note": "Search for CC0/CC BY abstract or object-based imagery rather than any photograph of people, which risks implying this school's cycle looks a particular way or belongs to a particular kind of couple; confirm each image's specific license rather than assuming category-wide clearance."
+      },
+      {
+        "name": "This library's own schools/parts-work and schools/nvc-needs precedent",
+        "url": "schools/parts-work/grammar.json",
+        "note": "Both sibling modern-clinical-tradition schools in this library ship deliberately unillustrated rather than reach for stock photography; the same call is made here."
+      }
+    ]
+  },
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Sue Johnson and the Emotionally Focused Therapy tradition",
+        "role": "source tradition",
+        "note": "Structural basis: the attachment-based couples model Sue Johnson developed from the 1980s onward — the pursue-withdraw cycle, primary and secondary emotion, the attachment injury, the EFT Tango, de-escalation, softening, and the bonding event. Johnson's books (including Hold Me Tight and The Practice of Emotionally Focused Couple Therapy) and ICEEFT's published training materials remain in copyright; no text is quoted from them. Every definition and example in this grammar is original prose describing the general shape of the model, not a reproduction of any published wording. This is Sue Johnson's Emotionally Focused Therapy for couples, distinct from Leslie Greenberg's separate Emotion-Focused Therapy for individuals — see this grammar's description."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "pursue-withdraw-cycle",
+      "name": "The Pursue-Withdraw Cycle",
+      "category": "pattern",
+      "level": 1,
+      "sort_order": 1,
+      "keywords": ["pursue", "withdraw", "cycle", "eft"],
+      "sections": {
+        "Definition": "EFT's name for one of the most common conflict patterns it observes in couples: one partner reaches for connection by escalating — getting louder, more insistent, more critical — while the other partner reaches for safety by disengaging — getting quieter, more distant, more shut down. Johnson's reframe is that both moves are protests against the same underlying loss of felt connection, expressed in opposite directions, rather than one partner being needy and the other being cold or uncaring.",
+        "Practice": "The move EFT teaches is to name the cycle itself as the shared problem, distinct from either partner: 'this is the pattern, not you.' Externalizing the cycle this way tends to reduce blame enough that both partners can start to notice what they are each protecting, rather than continuing to escalate or withdraw further.",
+        "Research note": "The pursue-withdraw pattern is widely described across the couples-therapy literature under several names (including Gottman's independently observed version of the same dynamic, cross-linked from this item); EFT's specific reading of it as a shared attachment protest, rather than a mismatch of personalities, is the tradition's own theoretical contribution."
+      },
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "attachment-behavioural-system",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "primary-and-secondary-emotion",
+      "name": "Primary and Secondary Emotion",
+      "category": "concept",
+      "level": 1,
+      "sort_order": 2,
+      "keywords": ["primary-emotion", "secondary-emotion", "eft"],
+      "sections": {
+        "Definition": "EFT distinguishes primary emotion — a deeper, often more vulnerable reaction such as fear of losing the relationship, sadness, or longing — from secondary emotion, the faster, more visible reactive emotion (anger, irritation, or a flat shutdown) that a partner is more likely to actually see and respond to. The secondary reaction usually formed for a good reason — it protected the person carrying it at some point — but it often obscures the primary feeling underneath from both partners.",
+        "Practice": "In session, and increasingly on their own, partners are asked to slow down at the moment of a secondary reaction and ask what softer feeling it might be standing in for. This is not a claim that anger is never real or worth expressing — only that in the specific context of a recurring couple cycle, it is often carrying something underneath it worth naming directly.",
+        "Research note": "The primary/secondary distinction is a clinical and theoretical framework within EFT rather than a claim about a fixed, universal order of emotional processing; it functions here as a description of a pattern, not a measured psychological mechanism independent of the therapy model that names it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "attachment-injury",
+      "name": "The Attachment Injury",
+      "category": "event",
+      "level": 1,
+      "sort_order": 3,
+      "keywords": ["attachment-injury", "wound", "eft"],
+      "sections": {
+        "Definition": "An attachment injury is EFT's name for a specific moment when one partner badly needed the other's responsiveness — during a crisis, a loss, a moment of fear — and experienced them as unavailable. The injury tends to function less like an ordinary memory and more like a live, recurring question: can this person actually be counted on when it matters. It resurfaces inside later, seemingly unrelated conflicts.",
+        "Practice": "EFT's resolution process for an attachment injury asks the partner who caused it to genuinely register its emotional impact — not simply to apologize for the event, but to show they understand what it meant to the other partner — before the injured partner is asked to risk being comforted by them again. Johnson treats this sequencing as necessary; skipping to reassurance before understanding tends not to hold.",
+        "Research note": "The attachment-injury concept and its resolution process are Johnson's own clinical formulation, drawn from and applied within EFT sessions; it is a widely used clinical construct within the tradition rather than an independently measured event category outside it."
+      },
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "internal-working-models",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "the-eft-tango",
+      "name": "The EFT Tango",
+      "category": "process",
+      "level": 1,
+      "sort_order": 4,
+      "keywords": ["eft-tango", "process", "choreography"],
+      "sections": {
+        "Definition": "Johnson's name for the structured sequence of moves a therapist and couple work through together in session: recognizing the couple's cycle as it happens in real time, deepening a partner's own emotional experience underneath their habitual reaction, helping that partner share what they've found with their partner in a new way, and helping the receiving partner respond with genuine engagement rather than the cycle's old, familiar response. It is described as a shared choreography the couple gradually learns to do on their own, not a technique performed on them.",
+        "Practice": "Outside a therapy session, the Tango's underlying moves can be practiced in miniature: notice the cycle starting, pause before the habitual reaction, and try naming what is actually felt underneath it to the other person, directly.",
+        "Research note": "The EFT Tango is Johnson's own structured description of within-session therapeutic process; its five specific moves are a clinical training framework rather than an independently validated behavioral sequence measured outside EFT training and supervision."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "de-escalation",
+      "name": "De-escalation",
+      "category": "process",
+      "level": 1,
+      "sort_order": 5,
+      "keywords": ["de-escalation", "stage-one", "eft"],
+      "sections": {
+        "Definition": "De-escalation is EFT's name for the first movement of the work: before either partner changes anything about how they act, both come to see the cycle itself — rather than each other — as the actual problem. Naming it explicitly out loud, in the moment ('there's the cycle again'), tends to loosen its grip enough to make the harder work of accessing primary emotion (see that item in this grammar) possible.",
+        "Practice": "A couple can practice this without a therapist present by agreeing, ahead of time, on a shared phrase for naming the cycle mid-argument — something both partners have agreed in advance is not blame, just recognition.",
+        "Research note": "De-escalation as EFT's first treatment stage is a clinical-process description drawn from the model's own three-stage structure (de-escalation, restructuring, consolidation), not an independently defined or measured construct outside the EFT literature."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "softening",
+      "name": "Softening",
+      "category": "event",
+      "level": 1,
+      "sort_order": 6,
+      "keywords": ["softening", "vulnerability", "eft"],
+      "sections": {
+        "Definition": "Softening is EFT's name for a turning point in the work, typically involving the partner who has usually been more guarded or withdrawn: that partner risks showing the primary emotion underneath their withdrawal — fear of not being enough, fear of loss — directly to the other partner, instead of through the secondary reaction or the withdrawal itself. Johnson describes this as a key change event later in the therapy, one that tends to shift how the whole cycle runs afterward.",
+        "Practice": "Softening is not something to force or rush, in or out of therapy; the practice, where it is safe to attempt, is simply naming a feeling underneath a defended stance out loud to a partner and staying present for however it lands.",
+        "Research note": "Softening is a clinically described change event within EFT's own model of therapeutic process; it functions in the tradition's literature as a marker therapists are trained to recognize, not as an independently measured psychological state outside that clinical framework."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "bonding-event",
+      "name": "The Bonding Event",
+      "category": "event",
+      "level": 1,
+      "sort_order": 7,
+      "keywords": ["bonding-event", "hold-me-tight", "eft"],
+      "sections": {
+        "Definition": "A bonding event is a moment where one partner expresses a genuine attachment need and the other responds with real engagement — creating, for both partners, fresh evidence that the relationship can hold vulnerability. EFT holds that a series of these moments, more than any single grand gesture, is what rebuilds a couple's felt sense of security over time; Johnson's popular formulation for this is the 'hold me tight' conversation.",
+        "Practice": "The practice is specific and repeatable: naming a real attachment need plainly ('I need to know I still matter to you right now') rather than through the pursue-withdraw cycle's usual indirect channels, and staying present long enough to actually receive the partner's response.",
+        "Research note": "Bonding events are a clinical marker within EFT's model of change; they are described and tracked within the therapy's own case material rather than measured as an independent behavioral category outside it."
+      },
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "positive-sentiment-override",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "group-the-cycle",
+      "name": "The Cycle",
+      "category": "group",
+      "level": 2,
+      "sort_order": 8,
+      "composite_of": ["pursue-withdraw-cycle", "primary-and-secondary-emotion", "attachment-injury"],
+      "keywords": ["eft", "cycle", "attachment"],
+      "sections": {
+        "Definition": "Three items describing what a couple caught in distress is actually caught in, in EFT's account: a shared pattern of reaching and retreating, a gap between the reactive emotion each partner shows and the more vulnerable emotion underneath it, and — often — a specific past moment of felt unavailability that keeps getting relived inside present-day conflict."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-the-repair",
+      "name": "The Repair",
+      "category": "group",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": ["the-eft-tango", "de-escalation", "softening", "bonding-event"],
+      "keywords": ["eft", "repair", "process"],
+      "sections": {
+        "Definition": "Four items describing EFT's account of how the work actually moves: a shared choreography of naming the cycle, deepening feeling, and restructuring how it's shared (the Tango); the first stage of seeing the cycle as the shared enemy (de-escalation); the turning-point moment of dropping the defended stance (softening); and the repeated small moments afterward that rebuild felt security (bonding events)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "eft-bonds-root",
+      "name": "Emotionally Focused Therapy — the Cycle and the Bond",
+      "category": "root",
+      "level": 3,
+      "sort_order": 10,
+      "composite_of": ["group-the-cycle", "group-the-repair"],
+      "keywords": ["eft", "sue johnson", "attachment", "couples therapy"],
+      "sections": {
+        "Definition": "Emotionally Focused Therapy reads couple conflict as an attachment protest: most recurring fights are, underneath their surface content, both partners asking the same question in different, self-reinforcing ways — can I count on you when it matters? The pursue-withdraw cycle names the shared pattern; primary and secondary emotion names the gap between what's shown and what's underneath; the attachment injury names the specific wound the cycle often circles back to. The work moves from naming the cycle as the shared problem (de-escalation), through a partner risking their more vulnerable feeling directly (softening), toward repeated moments of felt safety that rebuild the bond (bonding events).",
+        "Not the same EFT as Greenberg's": "This is Sue Johnson's Emotionally *Focused* Therapy for couples, built on attachment theory — a different person and a different model from Leslie Greenberg's Emotion-Focused Therapy for individuals. The overlapping acronym names two distinct traditions; see this grammar's description for the full disambiguation.",
+        "Research note": "A 1999 meta-analysis (Johnson, Hunsley, Greenberg, and Schindler) pooling multiple randomized controlled trials of EFT for couples found large effect sizes relative to waitlist controls, and subsequent outcome and follow-up studies — including trials run by research teams beyond Johnson's own — have generally supported those gains holding over time. This gives EFT a meaningfully larger independent-replication base than either of the other two couples-focused traditions split out of the same seed material in this library.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim EFT makes.* EFT and this library's constructionist substrate share a family resemblance: both treat a felt emotional state (fear of disconnection, the softened vulnerable feeling) as something that arises in a specific relational context rather than as a fixed trait a person simply has. Where they part is in EFT's attachment-theoretic commitment to primary emotion as something more foundational or 'real' than the secondary reaction covering it — a stronger claim about which feeling is more basic than a strict constructionist reading, which would treat both as equally constructed responses to the situation, would license."
+      },
+      "metadata": {
+        "evidence_tier": "independently-replicated",
+        "evidence_note": "Emotionally Focused Therapy has the strongest independent evidence base of the three couple-focused traditions split out of this library's original relationship-cards seed. A 1999 meta-analysis (Johnson, Hunsley, Greenberg & Schindler) pooling multiple randomized controlled trials found large effect sizes for EFT relative to waitlist controls, and subsequent outcome and follow-up studies — run by research teams beyond Johnson's own — have generally supported those gains holding over time. This is why EFT earns 'independently-replicated' rather than 'growing': its core therapeutic claims have been tested and supported outside the tradition's own institute, not only within it."
+      }
+    }
+  ]
+}

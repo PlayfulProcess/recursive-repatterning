@@ -33,6 +33,21 @@
       "items": 5
     },
     {
+      "slug": "attachment-theory",
+      "name": "Bowlby and Ainsworth — Attachment Theory",
+      "items": 7
+    },
+    {
+      "slug": "eft-bonds",
+      "name": "Emotionally Focused Therapy — Attachment Bonds Between Partners",
+      "items": 7
+    },
+    {
+      "slug": "gottman-method",
+      "name": "The Gottman Method",
+      "items": 7
+    },
+    {
       "slug": "dbt-skills",
       "name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
       "items": 9
@@ -1234,6 +1249,459 @@
         "source_deck": "nvc-needs",
         "source_item_id": "joyful",
         "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "attachment-theory--attachment-behavioural-system",
+      "name": "The Attachment Behavioural System",
+      "category": "concept",
+      "sections": {
+        "Definition": "Bowlby's central proposal, informed partly by ethology, is that infants (and, in later extensions of the theory, people at any age) carry an innate behavioural system that activates under threat, distress, or fatigue and drives proximity-seeking toward a specific attachment figure. The system has two functions: safe haven, offering comfort and protection when distressed, and secure base, offering enough felt security that exploration and independent activity become possible when not. Once proximity or comfort is achieved, the system quiets and exploration resumes.",
+        "In the body": "Bowlby described the system's activation in physiological and behavioral terms consistent with a general threat response — increased distress signaling, search behavior, difficulty settling — that quiets once proximity to the attachment figure is restored, distinguishing simple settling from a fuller sense of security.",
+        "Research note": "The attachment behavioural system is Bowlby's foundational theoretical construct, drawing on ethological observation of proximity-maintaining behavior in other species alongside clinical and developmental observation in humans; it underlies the empirical work (the Strange Situation, described elsewhere in this grammar) that later tested and extended it."
+      },
+      "keywords": [
+        "attachment",
+        "safe-haven",
+        "secure-base",
+        "bowlby"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "attachment-behavioural-system",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--the-strange-situation",
+      "name": "The Strange Situation",
+      "category": "method",
+      "sections": {
+        "Definition": "Mary Ainsworth's structured laboratory procedure, developed through the 1960s-70s, designed to activate an infant's attachment system just enough to observe how the infant organizes behavior around a caregiver under mild stress. A young child (typically around a year old) and caregiver are placed in an unfamiliar room; across a short series of episodes, a stranger enters, the caregiver briefly leaves and returns, and the infant is observed throughout — especially at the moments of reunion.",
+        "How it works": "The procedure's episodes are brief and standardized, so that infants across different families and, later, different research sites go through comparable conditions. Coding focuses less on distress during separation, which most infants show to some degree, and more on how the infant organizes its behavior toward the caregiver specifically at reunion — the moment the classifications described elsewhere in this grammar are drawn from.",
+        "Research note": "The Strange Situation became the standard empirical tool for classifying infant attachment and has been used and replicated across many independent research laboratories over several decades; its extension to different cultural settings, and what those extensions do and do not show about the classifications' universality, is addressed in this grammar's root item."
+      },
+      "keywords": [
+        "strange-situation",
+        "ainsworth",
+        "method"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "the-strange-situation",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--secure-attachment",
+      "name": "Secure Attachment",
+      "category": "pattern",
+      "sections": {
+        "Definition": "In Ainsworth's original classification, a securely attached infant shows some distress when the caregiver leaves but is readily comforted at reunion — seeking contact, settling, and returning to play or exploration relatively quickly. This was the largest single category in Ainsworth's original research samples.",
+        "What it looks like": "The defining feature is not the absence of distress but the infant's evident confidence that contact with the caregiver, once available again, will actually help — proximity is sought and comfort is accepted, rather than resisted or avoided.",
+        "Research note": "Secure attachment as an infant classification is one of the most independently replicated findings in developmental psychology. Its later extension to adult romantic attachment, via separate self-report and interview measures, is a related but methodologically distinct research tradition — addressed with appropriate caution in this grammar's root item."
+      },
+      "keywords": [
+        "secure",
+        "attachment-pattern",
+        "ainsworth"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "secure-attachment",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--anxious-attachment",
+      "name": "Anxious Attachment",
+      "category": "pattern",
+      "sections": {
+        "Definition": "Ainsworth's anxious-resistant, or ambivalent, pattern: an infant shows marked distress at separation and, at reunion, a mixture of seeking contact and resisting or being angry toward the caregiver once contact is offered — reaching to be picked up and then arching away, for instance — with difficulty settling back into calm exploration.",
+        "What it looks like": "The infant's behavior at reunion reads as caught between wanting contact and being unable to fully accept the comfort offered, in contrast to the more straightforward comfort-seeking of secure attachment.",
+        "Research note": "This pattern, along with avoidant attachment, was part of Ainsworth's original three-category system from her 1970s research; both have been widely, though not universally, replicated across subsequent independent studies using the Strange Situation procedure."
+      },
+      "keywords": [
+        "anxious",
+        "ambivalent",
+        "attachment-pattern",
+        "ainsworth"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "anxious-attachment",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--avoidant-attachment",
+      "name": "Avoidant Attachment",
+      "category": "pattern",
+      "sections": {
+        "Definition": "Ainsworth's avoidant pattern: an infant shows little overt distress at separation and notably avoids or ignores the caregiver at reunion — turning away, focusing on toys, not seeking contact — in contrast to both the secure and the anxious patterns.",
+        "What it looks like": "The outward composure is the defining behavioral feature; some later studies using physiological measures (heart rate, cortisol) in avoidantly classified infants found signs of internal distress not visible in their outward behavior, a finding often cited as evidence that the avoidant pattern is a strategy for managing distress rather than an absence of it.",
+        "Research note": "Avoidant attachment was part of Ainsworth's original three-category system; the physiological-distress findings referenced above come from a smaller and later body of research than the original behavioral classification itself, and should be read as suggestive rather than as settled beyond dispute."
+      },
+      "keywords": [
+        "avoidant",
+        "attachment-pattern",
+        "ainsworth"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "avoidant-attachment",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--disorganised-attachment",
+      "name": "Disorganised Attachment",
+      "category": "pattern",
+      "sections": {
+        "Definition": "A fourth pattern, added later by Mary Main and Judith Solomon and not part of Ainsworth's original three categories: at reunion, the infant shows contradictory, disoriented, or momentarily frozen behavior — approaching the caregiver and then stopping, odd or stereotyped movements, an apparent lack of a coherent strategy for managing the reunion at all.",
+        "What it looks like": "Where the other three patterns each describe a coherent (if not always comfortable) strategy for handling separation and reunion, disorganised attachment is defined by the apparent absence of one.",
+        "Research note": "In research since Main and Solomon's original work, disorganised attachment has been associated with caregiving environments that are themselves frightened or frightening to the infant, and with elevated-risk contexts more broadly; this is a statistical association observed across studies, not a deterministic or diagnostic claim about any individual case, and should not be read as one."
+      },
+      "keywords": [
+        "disorganised",
+        "attachment-pattern",
+        "main-solomon"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "disorganised-attachment",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "attachment-theory--internal-working-models",
+      "name": "Internal Working Models",
+      "category": "concept",
+      "sections": {
+        "Definition": "Bowlby's proposal that repeated experience with a caregiver becomes internalized into a working mental model — of the self (am I worthy of care?) and of others (can this person be relied on?) — that a person carries forward and uses, often without conscious awareness, to interpret and anticipate new relationships. Bowlby's own term, 'working,' was deliberate: the model is meant to be revisable with new relational experience, not a fixed blueprint set once in infancy.",
+        "In relationships": "Later attachment research uses the term earned security for cases where an adult's current relational functioning looks secure despite a difficult early attachment history — evidence, on this account, that a working model can shift meaningfully through later relationships (including a stable partnership or therapy), not only through infancy.",
+        "Research note": "Internal working models are a central theoretical construct in attachment theory; direct empirical measurement of the models themselves (as opposed to their behavioral and self-report correlates) remains genuinely difficult, and different measurement traditions (interview-based versus self-report) do not always converge cleanly — a point addressed further in this grammar's root item."
+      },
+      "keywords": [
+        "internal-working-models",
+        "schema",
+        "bowlby"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "attachment-theory",
+        "source_item_id": "internal-working-models",
+        "deck": "Bowlby and Ainsworth — Attachment Theory"
+      }
+    },
+    {
+      "id": "eft-bonds--pursue-withdraw-cycle",
+      "name": "The Pursue-Withdraw Cycle",
+      "category": "pattern",
+      "sections": {
+        "Definition": "EFT's name for one of the most common conflict patterns it observes in couples: one partner reaches for connection by escalating — getting louder, more insistent, more critical — while the other partner reaches for safety by disengaging — getting quieter, more distant, more shut down. Johnson's reframe is that both moves are protests against the same underlying loss of felt connection, expressed in opposite directions, rather than one partner being needy and the other being cold or uncaring.",
+        "Practice": "The move EFT teaches is to name the cycle itself as the shared problem, distinct from either partner: 'this is the pattern, not you.' Externalizing the cycle this way tends to reduce blame enough that both partners can start to notice what they are each protecting, rather than continuing to escalate or withdraw further.",
+        "Research note": "The pursue-withdraw pattern is widely described across the couples-therapy literature under several names (including Gottman's independently observed version of the same dynamic, cross-linked from this item); EFT's specific reading of it as a shared attachment protest, rather than a mismatch of personalities, is the tradition's own theoretical contribution."
+      },
+      "keywords": [
+        "pursue",
+        "withdraw",
+        "cycle",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "pursue-withdraw-cycle",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--primary-and-secondary-emotion",
+      "name": "Primary and Secondary Emotion",
+      "category": "concept",
+      "sections": {
+        "Definition": "EFT distinguishes primary emotion — a deeper, often more vulnerable reaction such as fear of losing the relationship, sadness, or longing — from secondary emotion, the faster, more visible reactive emotion (anger, irritation, or a flat shutdown) that a partner is more likely to actually see and respond to. The secondary reaction usually formed for a good reason — it protected the person carrying it at some point — but it often obscures the primary feeling underneath from both partners.",
+        "Practice": "In session, and increasingly on their own, partners are asked to slow down at the moment of a secondary reaction and ask what softer feeling it might be standing in for. This is not a claim that anger is never real or worth expressing — only that in the specific context of a recurring couple cycle, it is often carrying something underneath it worth naming directly.",
+        "Research note": "The primary/secondary distinction is a clinical and theoretical framework within EFT rather than a claim about a fixed, universal order of emotional processing; it functions here as a description of a pattern, not a measured psychological mechanism independent of the therapy model that names it."
+      },
+      "keywords": [
+        "primary-emotion",
+        "secondary-emotion",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "primary-and-secondary-emotion",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--attachment-injury",
+      "name": "The Attachment Injury",
+      "category": "event",
+      "sections": {
+        "Definition": "An attachment injury is EFT's name for a specific moment when one partner badly needed the other's responsiveness — during a crisis, a loss, a moment of fear — and experienced them as unavailable. The injury tends to function less like an ordinary memory and more like a live, recurring question: can this person actually be counted on when it matters. It resurfaces inside later, seemingly unrelated conflicts.",
+        "Practice": "EFT's resolution process for an attachment injury asks the partner who caused it to genuinely register its emotional impact — not simply to apologize for the event, but to show they understand what it meant to the other partner — before the injured partner is asked to risk being comforted by them again. Johnson treats this sequencing as necessary; skipping to reassurance before understanding tends not to hold.",
+        "Research note": "The attachment-injury concept and its resolution process are Johnson's own clinical formulation, drawn from and applied within EFT sessions; it is a widely used clinical construct within the tradition rather than an independently measured event category outside it."
+      },
+      "keywords": [
+        "attachment-injury",
+        "wound",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "attachment-injury",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--the-eft-tango",
+      "name": "The EFT Tango",
+      "category": "process",
+      "sections": {
+        "Definition": "Johnson's name for the structured sequence of moves a therapist and couple work through together in session: recognizing the couple's cycle as it happens in real time, deepening a partner's own emotional experience underneath their habitual reaction, helping that partner share what they've found with their partner in a new way, and helping the receiving partner respond with genuine engagement rather than the cycle's old, familiar response. It is described as a shared choreography the couple gradually learns to do on their own, not a technique performed on them.",
+        "Practice": "Outside a therapy session, the Tango's underlying moves can be practiced in miniature: notice the cycle starting, pause before the habitual reaction, and try naming what is actually felt underneath it to the other person, directly.",
+        "Research note": "The EFT Tango is Johnson's own structured description of within-session therapeutic process; its five specific moves are a clinical training framework rather than an independently validated behavioral sequence measured outside EFT training and supervision."
+      },
+      "keywords": [
+        "eft-tango",
+        "process",
+        "choreography"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "the-eft-tango",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--de-escalation",
+      "name": "De-escalation",
+      "category": "process",
+      "sections": {
+        "Definition": "De-escalation is EFT's name for the first movement of the work: before either partner changes anything about how they act, both come to see the cycle itself — rather than each other — as the actual problem. Naming it explicitly out loud, in the moment ('there's the cycle again'), tends to loosen its grip enough to make the harder work of accessing primary emotion (see that item in this grammar) possible.",
+        "Practice": "A couple can practice this without a therapist present by agreeing, ahead of time, on a shared phrase for naming the cycle mid-argument — something both partners have agreed in advance is not blame, just recognition.",
+        "Research note": "De-escalation as EFT's first treatment stage is a clinical-process description drawn from the model's own three-stage structure (de-escalation, restructuring, consolidation), not an independently defined or measured construct outside the EFT literature."
+      },
+      "keywords": [
+        "de-escalation",
+        "stage-one",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "de-escalation",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--softening",
+      "name": "Softening",
+      "category": "event",
+      "sections": {
+        "Definition": "Softening is EFT's name for a turning point in the work, typically involving the partner who has usually been more guarded or withdrawn: that partner risks showing the primary emotion underneath their withdrawal — fear of not being enough, fear of loss — directly to the other partner, instead of through the secondary reaction or the withdrawal itself. Johnson describes this as a key change event later in the therapy, one that tends to shift how the whole cycle runs afterward.",
+        "Practice": "Softening is not something to force or rush, in or out of therapy; the practice, where it is safe to attempt, is simply naming a feeling underneath a defended stance out loud to a partner and staying present for however it lands.",
+        "Research note": "Softening is a clinically described change event within EFT's own model of therapeutic process; it functions in the tradition's literature as a marker therapists are trained to recognize, not as an independently measured psychological state outside that clinical framework."
+      },
+      "keywords": [
+        "softening",
+        "vulnerability",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "softening",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "eft-bonds--bonding-event",
+      "name": "The Bonding Event",
+      "category": "event",
+      "sections": {
+        "Definition": "A bonding event is a moment where one partner expresses a genuine attachment need and the other responds with real engagement — creating, for both partners, fresh evidence that the relationship can hold vulnerability. EFT holds that a series of these moments, more than any single grand gesture, is what rebuilds a couple's felt sense of security over time; Johnson's popular formulation for this is the 'hold me tight' conversation.",
+        "Practice": "The practice is specific and repeatable: naming a real attachment need plainly ('I need to know I still matter to you right now') rather than through the pursue-withdraw cycle's usual indirect channels, and staying present long enough to actually receive the partner's response.",
+        "Research note": "Bonding events are a clinical marker within EFT's model of change; they are described and tracked within the therapy's own case material rather than measured as an independent behavioral category outside it."
+      },
+      "keywords": [
+        "bonding-event",
+        "hold-me-tight",
+        "eft"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "eft-bonds",
+        "source_item_id": "bonding-event",
+        "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
+      }
+    },
+    {
+      "id": "gottman-method--four-horsemen",
+      "name": "The Four Horsemen",
+      "category": "pattern",
+      "sections": {
+        "Definition": "The Gottmans' name for four specific communication behaviors that, observed during a couple's conflict conversation, distinguished couples who later stayed together from couples who later separated. Criticism attacks a partner's character rather than naming a specific complaint ('you always' rather than 'this happened'). Contempt goes further, adding a stance of superiority or disgust — sarcasm, mockery, an eye-roll — and is the single behavior the Gottmans treat as most corrosive. Defensiveness deflects a complaint back onto the other partner rather than absorbing any of it. Stonewalling is a partner disengaging from the interaction almost entirely — a blank face, a turned body, silence. The four tend to arrive in sequence, each one making the next more likely.",
+        "Practice": "Each horseman has a counter-move the Gottmans observed in stable couples, covered elsewhere in this grammar: a specific complaint in place of a character attack, an active habit of appreciation in place of contempt, taking a small share of responsibility in place of defensiveness, and a self-soothing pause in place of stonewalling. Recognizing which horseman is present in the room is itself most of the intervention — a couple that can say 'there's contempt again' has already interrupted it.",
+        "Research note": "In some of the Gottmans' longitudinal samples, the presence and frequency of these four behaviors during a videotaped conflict conversation predicted with notable, though not perfect, accuracy which couples would later separate. The finding is one of the most widely cited in the Gottmans' own published work; independent replication of the exact prediction models by research teams outside the Gottmans' own lab is more limited than the finding's popularity suggests."
+      },
+      "keywords": [
+        "criticism",
+        "contempt",
+        "defensiveness",
+        "stonewalling",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "four-horsemen",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--bids-for-connection",
+      "name": "Bids for Connection",
+      "category": "pattern",
+      "sections": {
+        "Definition": "A bid is any small attempt one partner makes to get the other's attention, affection, or engagement — a comment about the weather, a sigh, a story about the day, a hand reaching for a hand. Gottman's observational studies in a purpose-built apartment lab found that partners respond to a bid in one of three ways: turning toward it (engaging, even briefly), turning away from it (missing or ignoring it, often without meaning to), or turning against it (responding with irritation or dismissal).",
+        "Practice": "The intervention this finding suggests is almost absurdly small: notice the bid, and turn toward it, even minimally. A one-word acknowledgment counts. The claim isn't that grand romantic gestures don't matter — it's that they matter far less than the accumulation of thousands of small, low-stakes moments most couples never consciously track.",
+        "Research note": "In the Gottmans' original apartment-lab observational studies, couples who were still together at later follow-up had turned toward each other's bids in a clear majority of the moments observed, while couples who had separated by follow-up had done so distinctly less often. As with the Four Horsemen research, the specific figures are the Gottmans' own; independent replication of the precise proportions is thinner than the finding's wide popular circulation would suggest."
+      },
+      "keywords": [
+        "bids",
+        "turning-toward",
+        "attention",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "bids-for-connection",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--positive-sentiment-override",
+      "name": "Sentiment Override — the Emotional Bank Account",
+      "category": "pattern",
+      "sections": {
+        "Definition": "Sentiment override describes how an accumulated sense of goodwill (or its absence) colors the interpretation of a partner's neutral or ambiguous behavior. Under positive sentiment override, a partner running late gets read charitably ('traffic, probably'); under negative sentiment override, the same event gets read as evidence of not caring. The Gottmans describe the underlying reserve as something like an emotional bank account, built up through small deposits and depleted through small withdrawals.",
+        "Practice": "The practice this suggests is not grand reassurance but frequency: small, genuine deposits — a thank-you, a noticed effort, brief affection — made often enough that the account stays in credit. A widely cited finding from the Gottmans' analysis of couples' conflict conversations put stable couples' ratio of positive to negative moments during a disagreement at roughly five to one, with couples heading toward divorce closer to even.",
+        "Research note": "The specific ratio comes from the Gottmans' own coded analysis of conflict-conversation footage and is frequently repeated in both academic and popular accounts of this work; it describes conflict discussions specifically, not the couple's interactions generally, and independent replication of the exact number by teams outside the Gottmans' own lab is limited."
+      },
+      "keywords": [
+        "sentiment-override",
+        "ratio",
+        "goodwill",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "positive-sentiment-override",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--perpetual-problems-and-dreams",
+      "name": "Perpetual Problems and the Dreams Within Them",
+      "category": "pattern",
+      "sections": {
+        "Definition": "Gottman's research distinguishes solvable problems, which have a workable compromise, from perpetual problems, rooted in an enduring difference in personality, values, or life-stage needs, which the Gottmans found make up a substantial majority of the disagreements a typical couple returns to. A perpetual problem becomes gridlock when both partners dig into fixed positions and stop being curious about what the disagreement is actually protecting — usually an unspoken value or hope the Gottmans call the dream within the conflict.",
+        "Practice": "The suggested move is not to keep trying to solve an unsolvable problem but to ask what the position is defending: what would it mean, to this partner specifically, if their side of this recurring argument were honored? The aim isn't agreement — it's understanding good enough that the same disagreement stops feeling like a referendum on the relationship.",
+        "Research note": "The finding that most relationship conflict is perpetual rather than solvable is one of the more consistently reported results across the Gottmans' body of work; the specific coaching protocol for surfacing the 'dream' within a gridlocked position is the Gottman Institute's own clinical technique, with a much thinner independent evidence base than the underlying observational finding."
+      },
+      "keywords": [
+        "perpetual-problem",
+        "gridlock",
+        "dreams",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "perpetual-problems-and-dreams",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--flooding-and-self-soothing",
+      "name": "Flooding and Self-Soothing",
+      "category": "pattern",
+      "sections": {
+        "Definition": "Flooding — diffuse physiological arousal, in the Gottmans' term — describes a state during conflict where a partner's heart rate and stress-hormone levels rise enough that they can no longer accurately process what the other person is saying. It is not a metaphor for feeling overwhelmed; it is a measurable physiological state the Gottmans tracked directly, and it makes a productive conversation close to impossible until it passes.",
+        "In the body": "The Gottmans' physiological monitoring during conflict conversations tracked elevated heart rate (commonly cited around, or above, roughly 100 beats per minute) alongside other stress-response markers. At that level of arousal, the body is oriented toward threat response rather than toward listening — a state some partners describe as going blank, or hearing words without being able to follow their meaning.",
+        "Practice": "The Gottmans' recommended response is a deliberate pause of at least twenty minutes — long enough for stress hormones to begin clearing — paired with an explicit agreement to return to the conversation. What happens during the pause matters: self-soothing (a walk, music, slow breathing) works; mentally rehearsing the argument does not, and tends to keep arousal elevated rather than lowering it.",
+        "Research note": "The physiological measurement of flooding during marital conflict is among the more distinctive parts of the Gottmans' research program, drawing on heart-rate and other psychophysiological data gathered alongside videotaped conversation. It is well established within the Gottmans' own research tradition; broader physiological research on stress and cognition supports the general mechanism (impaired processing under high arousal) without every specific claim about couples' conflict conversations having been independently replicated by outside labs."
+      },
+      "keywords": [
+        "flooding",
+        "self-soothing",
+        "nervous-system",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "flooding-and-self-soothing",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--accepting-influence",
+      "name": "Accepting Influence",
+      "category": "repair",
+      "sections": {
+        "Definition": "Accepting influence describes a partner's willingness to let the other partner's perspective, preference, or objection genuinely change a decision — not agreeing with everything, but treating the other partner's view as capable of moving the outcome. In one of the Gottmans' widely cited newlywed-study findings, a partner's habitual refusal to accept influence from the other was among the strongest single predictors of later separation in that sample.",
+        "Practice": "The practice is small and specific: noticing a moment of disagreement and asking, honestly, whether the other person's point has merit — and saying so out loud when it does, rather than conceding silently or not at all. Gottman's own framing is that this is less about big decisions than about a general posture a partner either has or doesn't.",
+        "Research note": "The finding is specific to a particular study sample and its own coding of 'accepting influence' as a behavior; it is frequently generalized in popular accounts beyond the population and method it was measured in, and independent replication outside the Gottmans' own research program is limited."
+      },
+      "keywords": [
+        "accepting-influence",
+        "respect",
+        "yielding",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "accepting-influence",
+        "deck": "The Gottman Method"
+      }
+    },
+    {
+      "id": "gottman-method--repair-attempts",
+      "name": "Repair Attempts",
+      "category": "repair",
+      "sections": {
+        "Definition": "A repair attempt is any effort, however small or clumsy, to de-escalate tension during a disagreement — a joke, a hand offered, an apology, a request to slow down or start over. The Gottmans found that the mere presence and frequency of repair attempts predicted relationship outcomes better than the smoothness or severity of the conflict itself: couples who fought hard but repaired often did better than couples whose disagreements looked calmer on the surface.",
+        "Practice": "A repair attempt's success depends heavily on the sentiment override already in place (see 'Sentiment Override' in this grammar): under positive sentiment override, even an unpolished repair attempt tends to land; under negative sentiment override, the same gesture can be read as insincere or manipulative. Couples can build a shared, agreed-upon set of repair signals in advance, when they're not mid-conflict, so both partners recognize an attempt when it happens.",
+        "Research note": "This finding — that the presence of repair attempts matters more than their polish — is one of the more consistently reported results in the Gottmans' published work and is widely used in the Gottman Method's clinical training; independent, non-institute replication of the specific predictive weight given to repair attempts is thinner than for the underlying observational data."
+      },
+      "keywords": [
+        "repair-attempt",
+        "de-escalation",
+        "humor",
+        "gottman"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "gottman-method",
+        "source_item_id": "repair-attempts",
+        "deck": "The Gottman Method"
       }
     },
     {
