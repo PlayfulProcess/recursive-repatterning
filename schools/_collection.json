@@ -83,11 +83,12 @@
     {
       "id": "expression-and-representation",
       "name": "Expression & Representation",
-      "_note": "Accounts concerned with how feeling is shown or conveyed — in the face and body, or in the conventions of an art — rather than with what it is made of or how it is categorised. Darwin on expression and the Baroque doctrine of the affections ask the same question in different media.",
+      "_note": "Accounts concerned with how feeling is shown or conveyed — in the face and body, in a gesture lexicon, or in the conventions of an art — rather than with what it is made of or how it is categorised. Darwin, the Baroque doctrine of the affections, the acting traditions and the hasta vocabulary all ask the same question in different media.",
       "school_slugs": [
         "darwin-expression",
         "affektenlehre",
-        "acting-traditions"
+        "acting-traditions",
+        "hasta-mudra"
       ]
     },
     {
@@ -113,7 +114,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 194,
+      "items": 202,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -356,6 +357,22 @@
       "items": 9,
       "cover_image_url": "https://images.metmuseum.org/CRDImages/gr/original/DP337509.jpg",
       "path": "schools/greek-pathe/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "hasta-mudra",
+      "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
+      "common_name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
+      "type": "custom",
+      "branch": "expression-and-representation",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 11,
+      "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pataka-Hasta.jpg",
+      "path": "schools/hasta-mudra/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
