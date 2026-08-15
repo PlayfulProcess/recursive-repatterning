@@ -44,8 +44,10 @@
     {
       "id": "skills-based",
       "name": "Skills-Based",
-      "_note": "Linehan/DBT, behavior activation, emotion-regulation practice.",
-      "school_slugs": []
+      "_note": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT.",
+      "school_slugs": [
+        "dbt-skills"
+      ]
     },
     {
       "id": "parts-and-depth",
@@ -97,7 +99,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 112,
+      "items": 121,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -196,6 +198,22 @@
       "items": 8,
       "cover_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Expression_of_the_Emotions_in_Man_and_Animals_title_page.jpg",
       "path": "schools/darwin-expression/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "dbt-skills",
+      "name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
+      "common_name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
+      "type": "custom",
+      "branch": "skills-based",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 14,
+      "cover_image_url": "",
+      "path": "schools/dbt-skills/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
