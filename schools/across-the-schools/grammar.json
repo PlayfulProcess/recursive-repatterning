@@ -18,6 +18,11 @@
       "items": 5
     },
     {
+      "slug": "neuroscience-of-emotion",
+      "name": "Neuroscience of Emotion — Where Feeling Lives in the Body",
+      "items": 9
+    },
+    {
       "slug": "plutchik-wheel",
       "name": "Plutchik's Wheel of Emotions",
       "items": 24
@@ -221,6 +226,228 @@
         "source_deck": "constructed-emotion",
         "source_item_id": "sadness-as-population",
         "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--amygdala-fear",
+      "name": "Amygdala ↔ Fear",
+      "category": "classic-mapping",
+      "sections": {
+        "Definition": "The amygdala's claim to being the brain's 'fear centre' rests on two converging bodies of work: decades of rodent fear-conditioning studies (showing that amygdala lesions abolish learned fear responses, and that amygdala stimulation produces them) and human lesion and imaging studies from the 1990s onward, most famously patient S.M., a woman with rare bilateral amygdala damage (Urbach–Wiethe disease) who showed marked, specific deficits recognizing fear in faces and in seeking out or avoiding physically threatening situations she should have found frightening. On this account, the amygdala rapidly evaluates incoming sensory information for threat and triggers the coordinated defensive response — freezing, autonomic arousal, attention capture — that constitutes fear.",
+        "In the body": "The amygdala's outputs to the hypothalamus and brainstem are what the classic model holds responsible for fear's bodily signature: elevated heart rate, sweating, pupil dilation, and the freeze or flight response, all triggered before, and largely independent of, conscious appraisal.",
+        "Research note": "Two findings substantially revise this picture without erasing the underlying data. First, Feinstein, Buzza, Hurlemann, Follmer, Dahdaleh, Coryell, Welsh, Tranel & Wemmie (2013, Nature Neuroscience) gave patient S.M. — the same patient whose amygdala damage had defined the field's fear-recognition deficits — a single inhalation of 35% CO2, an interoceptive threat rather than an external one. She panicked immediately, gasped that she couldn't breathe, and tried to remove the mask; two other bilateral-amygdala-damage patients tested the same way showed the same pattern, with self-reported fear and panic at least as high as amygdala-intact controls. The amygdala, it turned out, was not required for fear or panic when the threat came from inside the body rather than from a face or a scene — and an intact amygdala may normally inhibit panic rather than only generate it. Second, Lindquist, Wager, Kober, Bliss-Moreau & Barrett's 2012 meta-analysis (Behavioral and Brain Sciences) found amygdala activity reliably elevated during any highly arousing negative emotion — anger and disgust as well as fear — rather than selectively during fear.",
+        "Constructionist lens": "*Editorial — this library's own commentary, not a claim either side of the dispute makes about itself.* The amygdala's role in rapid threat evaluation and autonomic arousal is not in question; what the S.M./CO2 finding and the Lindquist meta-analysis together undercut is the stronger claim that this one structure IS fear, or is fear-specific. See this item's own root's cross-linked sibling for the researcher who built the amygdala-fear link experimentally and later argued that identifying it with the felt experience of fear was his own field's category error."
+      },
+      "keywords": [
+        "amygdala",
+        "fear",
+        "threat",
+        "affect programme",
+        "fear conditioning"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "evidence_note": "The amygdala's role in fear conditioning, threat detection, and autonomic threat response is one of the best-replicated findings in affective neuroscience — decades of convergent rodent and human lesion work support it. The stronger, more popularized claim — that the amygdala is fear's dedicated seat, or is fear-specific — has not held up: Feinstein et al. (2013) found the amygdala unnecessary for CO2-induced panic in the same patient whose earlier deficits had anchored the field, and Lindquist et al.'s 2012 meta-analysis found amygdala activity elevated across multiple high-arousal negative categories, not selectively during fear.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "amygdala-fear",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--insula-disgust",
+      "name": "Insula ↔ Disgust",
+      "category": "classic-mapping",
+      "sections": {
+        "Definition": "The anterior insula's claim to being disgust's dedicated region grew out of its established role as visceral and gustatory cortex — the region long known to process taste, oral rejection, and internal bodily sensation. Patients with insula and basal-ganglia damage (studied especially in Huntington's disease, where these structures degenerate) showed selective difficulty recognizing disgusted facial expressions and reduced disgust reactivity in their own experience, while imaging studies found the anterior insula activated by disgusting tastes, smells, and images, and even by watching another person's disgusted face (Wicker et al., 2003) — evidence read as showing a shared neural substrate for feeling and perceiving disgust.",
+        "Research note": "Disgust's case is genuinely the strongest of the five classic mappings this school presents, and it is worth saying precisely why, and why that still falls short of a dedicated module. Lindquist et al.'s 2012 meta-analysis found the right anterior insula showed a more consistent increase during disgust than during any of the other five categories studied — making it the one classic pairing their pooled data came closest to supporting. But their own reading of that finding was not that the insula is a disgust centre: anterior insula activity was still elevated across other negative and interoceptive states in the broader literature (pain, general negative affect, cardiac and respiratory awareness), consistent with a domain-general role in interoception and affective bodily awareness that disgust draws on especially heavily, rather than a module built specifically for disgust.",
+        "Constructionist lens": "*Editorial.* Disgust-insula is the classic mapping this school's own meta-analytic evidence treats most gently — 'consistent, not selective' rather than 'not even consistent.' That distinction matters: it is the difference between a structure disgust relies on more than most emotions do, and a structure that is disgust's exclusive neural signature. This school holds both halves without pretending the disgust case is as thoroughly overturned as the amygdala-fear case."
+      },
+      "keywords": [
+        "insula",
+        "disgust",
+        "interoception",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "disgust",
+        "evidence_note": "Among the five classic mappings in this school, insula/disgust has the most consistent supporting evidence in Lindquist et al.'s 2012 pooled meta-analysis — right anterior insula activity was more reliably elevated during disgust than during the other categories studied. It still falls short of selectivity: anterior insula is also reliably active across other negative and interoceptive states, consistent with a general interoceptive role that disgust draws on heavily rather than a dedicated disgust module.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "insula-disgust",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--ofc-vmpfc-anger-regulation",
+      "name": "Orbitofrontal / Ventromedial Cortex ↔ Anger and Regulation",
+      "category": "classic-mapping",
+      "sections": {
+        "Definition": "Damage to orbitofrontal and ventromedial prefrontal cortex (OFC/vmPFC) has long been associated with disinhibited irritability, reduced anger regulation, and impaired social-emotional judgment. The emblematic case is Phineas Gage, the 19th-century railroad foreman whose 1848 injury — an iron tamping rod driven through his skull — destroyed much of this region; contemporary accounts described a marked post-injury change in temperament toward impatience and irritability, later reconstructed anatomically by Hanna Damasio and colleagues (1994, Science) using his preserved skull. Systematic lesion studies of larger patient cohorts since then (including work by James Blair on OFC/vmPFC and reactive aggression, and Grafman and colleagues' 1996 study of Vietnam War veterans with penetrating frontal injuries) associate damage to this region with increased reactive aggression and impaired anger regulation, and cognitive-reappraisal studies (Ochsner & Gross and colleagues) implicate the same general prefrontal territory in the top-down regulation of amygdala-driven anger and threat responses.",
+        "Research note": "The Gage case, this school's most famous piece of evidence for this mapping, is also its weakest as evidence: a single, sparsely documented 19th-century case, reconstructed 150 years later from a skull and a handful of contemporary paragraphs, not a controlled study, and Damasio and colleagues' own 1994 reconstruction has been contested on methodological grounds since. The systematic lesion-cohort studies (Grafman et al. 1996; Blair's later work) rest on considerably firmer ground than Gage alone. Even so, OFC/vmPFC is not anger-specific: the same territory is centrally implicated in value-based decision-making, regret, and social-emotional regulation across many affect categories, not narrowly in anger.",
+        "Constructionist lens": "*Editorial.* This is a useful case for seeing how a single vivid historical anecdote (Gage) can carry more of a claim's popular weight than the actual evidence base behind it — the emblematic case and the well-supported claim turn out to be only loosely the same thing."
+      },
+      "keywords": [
+        "orbitofrontal cortex",
+        "ventromedial prefrontal cortex",
+        "anger",
+        "regulation",
+        "phineas gage"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "anger",
+        "evidence_note": "The region's involvement in emotional and behavioral regulation more broadly is reasonably well supported by systematic lesion-cohort studies (Grafman et al. 1996; Blair and colleagues). The specific evidentiary anchor most people know — the Phineas Gage case — is a single, thinly documented 19th-century anecdote reconstructed a century and a half later, not a controlled finding, and should not carry the evidentiary weight its fame implies. The region is not anger-specific; it participates in regulation and valuation across many affective and decision-making domains.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "ofc-vmpfc-anger-regulation",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--acc-sadness-distress",
+      "name": "Anterior Cingulate ↔ Sadness and Distress",
+      "category": "classic-mapping",
+      "sections": {
+        "Definition": "The anterior cingulate cortex (ACC) — particularly its subgenual and pregenual subregions — became linked to sadness through PET studies using sadness-induction paradigms: George and colleagues (1995) and later Helen Mayberg's work found subgenual ACC activity tracked induced sadness (recalling a personal loss, viewing sad imagery) and was also implicated in clinical depression. A related and widely cited finding extended a nearby dorsal ACC region to social distress specifically: Eisenberger, Lieberman & Williams's 2003 Cyberball study found dorsal ACC activation during simulated social exclusion, read as evidence that 'social pain' shares neural machinery with physical pain.",
+        "Research note": "Broader meta-analytic work, including Lindquist et al.'s 2012 review, found ACC activity elevated across a wide range of negative and effortful states beyond sadness specifically — physical pain, cognitive conflict, and general negative affect all reliably engage overlapping ACC territory — consistent with a domain-general role in registering distress, salience, or conflict rather than a sadness-specific module. The 'social pain' claim built on the Cyberball finding has itself become a live methodological dispute in the years since: later studies and re-analyses have questioned whether dorsal ACC activation during social exclusion is specific to social distress as opposed to general conflict or salience detection, a debate this school does not adjudicate.",
+        "Constructionist lens": "*Editorial.* ACC's involvement in sadness is real and replicated; what has not survived is the inference from 'ACC is active during sadness' to 'ACC is sadness's region' — the same region does the same kind of work across many different negative and effortful states, sadness among them."
+      },
+      "keywords": [
+        "anterior cingulate cortex",
+        "sadness",
+        "distress",
+        "social pain",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sadness",
+        "evidence_note": "ACC (especially subgenual/pregenual regions) activation during induced sadness is a real, replicated finding from PET sadness-induction studies. It is not sadness-specific: the same territory reliably activates during physical pain, cognitive conflict, and other negative or effortful states, and the widely cited extension to social-exclusion-specific 'social pain' (Eisenberger et al. 2003) is itself contested in the subsequent literature on grounds of specificity.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "acc-sadness-distress",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--ventral-striatum-joy-reward",
+      "name": "Ventral Striatum / Nucleus Accumbens ↔ Joy and Reward",
+      "category": "classic-mapping",
+      "sections": {
+        "Definition": "The ventral striatum, and within it the nucleus accumbens (NAcc), is central to dopaminergic reward circuitry and became the textbook 'pleasure centre': Knutson, Adams, Fong & Hommer's 2001 monetary-incentive-delay fMRI study found NAcc activity scaled with the anticipated size of a monetary reward, and a large subsequent literature found NAcc activation during anticipation and receipt of rewarding outcomes of many kinds — food, money, social approval, drugs of abuse — making it, in popular science especially, joy's neural home.",
+        "Research note": "Even within the reward literature itself, before any locationist-versus-constructionist debate, the naive 'accumbens = pleasure' picture had already been complicated by Kent Berridge and Terry Robinson's liking-versus-wanting distinction: their rodent work localizes the actual hedonic 'liking' reaction to a small set of 'hedonic hotspots' within specific NAcc-shell and brainstem subregions, while the broader dopamine/NAcc signal more often tracks 'wanting' — incentive salience, the motivational pull toward a reward — which can be dissociated experimentally from the pleasure of receiving it. Lindquist et al.'s 2012 meta-analysis, working from human fMRI studies of discrete emotion categories rather than reward paradigms specifically, found ventral striatal activity elevated across positive affect broadly, again consistent with a domain-general valence signal rather than a joy-specific module.",
+        "Constructionist lens": "*Editorial.* This mapping is a good example of a claim that was already more complicated inside its own home literature (liking vs. wanting) before the wider emotion-neuroimaging critique reached it — the popular 'pleasure centre' framing had outrun even the reward-neuroscience field's own findings."
+      },
+      "keywords": [
+        "ventral striatum",
+        "nucleus accumbens",
+        "joy",
+        "reward",
+        "dopamine"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "evidence_note": "NAcc/ventral striatum activation during reward anticipation and receipt is a robust, well-replicated finding (Knutson et al. 2001 and a large subsequent literature). The inference to 'this is joy's region' is weaker on two independent grounds: within reward neuroscience itself, Berridge & Robinson's liking/wanting distinction shows the hedonic 'liking' response is far more anatomically circumscribed than whole-structure NAcc activation, which more often reflects motivational 'wanting'; and across the wider emotion-neuroimaging literature (Lindquist et al. 2012), ventral striatal activity is elevated across positive affect generally, not selectively during joy.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "ventral-striatum-joy-reward",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--papez-circuit",
+      "name": "The Papez Circuit",
+      "category": "architecture",
+      "sections": {
+        "Definition": "James Papez's 1937 paper 'A Proposed Mechanism of Emotion' (Archives of Neurology and Psychiatry) proposed a closed anatomical loop as the brain's dedicated circuit for emotion: hippocampus → fornix → mammillary bodies → mammillothalamic tract → anterior thalamic nuclei → cingulate gyrus → entorhinal cortex and cingulum bundle → back to the hippocampus. Papez proposed a division of labor within the loop: the hypothalamus and mammillary bodies generated emotion's outward, bodily expression, while the cingulate cortex was 'the receptive region for the experience of emotion' — the place where a bodily state became a felt emotion. It was the first influential attempt to give emotion a specific, closed neuroanatomical circuit, rather than treating it as a diffuse property of the whole brain, and it directly shaped everything that followed, including MacLean's limbic system.",
+        "Research note": "The circuit was built almost entirely from comparative anatomical tracing work and a single clinical case (a child with rabies-related brain damage) rather than from systematic lesion or physiological evidence pinpointing emotion specifically. Later research has shown these same structures — hippocampus, fornix, mammillary bodies, anterior thalamus, cingulate — are centrally involved in memory consolidation and spatial navigation; they substantially overlap what is now understood as the medial temporal lobe memory system, and damage to this circuit (as in the classic hippocampal amnesia literature) reliably devastates memory far more than it disrupts emotional experience. The structures themselves, and their anatomical connections, remain accurately described; the claim that they form a dedicated emotion circuit, as distinct from a memory circuit that also participates in emotional processing, has not held up."
+      },
+      "keywords": [
+        "papez circuit",
+        "hippocampus",
+        "cingulate gyrus",
+        "mammillary bodies",
+        "architecture"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Gray739-emphasizing-hippocampus.png",
+      "metadata": {
+        "evidence_note": "The anatomical connections Papez described are accurately mapped and still taught as such. The functional claim built on top of them — that this loop is emotion's dedicated circuit, with the cingulate as emotion's 'receptive region' — rested on a single clinical case and comparative anatomy rather than systematic evidence, and subsequent research has shown these structures are more centrally a memory system (medial temporal lobe memory circuitry) that also participates in emotional processing, not an emotion-dedicated loop.",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Gray739-emphasizing-hippocampus.png",
+        "image_credit": "Gray's Anatomy, plate 739 (hippocampus emphasized) — Henry Vandyke Carter, 1918, Wikimedia Commons, public domain. The hippocampus is the structure Papez's circuit both starts and ends at.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "papez-circuit",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--limbic-system-triune-brain",
+      "name": "The \"Limbic System\" and MacLean's Triune Brain",
+      "category": "architecture",
+      "sections": {
+        "Definition": "Two related architectural claims, presented together because the second grew directly out of the first. Paul Broca first described a 'grand lobe limbique' in 1878 — the cingulate and parahippocampal gyri, an anatomical description Broca himself considered chiefly olfactory. Paul MacLean coined the term 'limbic system' in 1952, folding Broca's lobe together with Papez's circuit and adding the amygdala, septal nuclei, and hypothalamus into a single functional system proposed as the seat of emotion and motivation, distinct from the 'newer' neocortex responsible for reason. MacLean later extended this, most fully in his 1990 book The Triune Brain in Evolution, into the 'triune brain': a 'reptilian complex' (brainstem and basal ganglia, governing instinct) with a 'paleomammalian' limbic system layered on top of it (governing emotion), and a 'neomammalian' neocortex layered on top of that (governing reason) — evolution pictured as adding whole new brains on top of preserved older ones. Both ideas passed directly into decades of psychology textbooks and popular science, including the still-common 'lizard brain' or 'reptilian brain' framing of impulsive behavior.",
+        "Research note": "Both claims are presented here as superseded findings, not live disputes. On the limbic system: there is no agreed anatomical boundary for which structures belong to it and which are excluded, and the criticism is not new — Brodal (1975) argued the term substitutes a name for an actual anatomical or functional understanding, a criticism echoed and extended by more recent reviews arguing that emotion and memory instead arise from multiple large-scale, overlapping brain networks rather than one bounded system. On the triune brain: comparative neuroanatomy has established that vertebrate brain evolution does not proceed by adding intact new layers on top of preserved old ones; homologues of the structures MacLean assigned to the 'newer' mammalian layers have been found in non-mammalian vertebrates, including reptiles and birds, so there is no reptile-only or mammal-only layer to point to (Cesario, Johnson & Eisthen, 2020, 'Your Brain Is Not an Onion With a Tiny Reptile Inside,' Current Directions in Psychological Science).",
+        "Constructionist lens": "*Editorial.* The network-level account this school also presents (salience network, default mode network, allostasis) is not a replacement label for the same bounded system MacLean described — it is explicitly NOT a bounded system, which is exactly the feature comparative neuroanatomy found untenable in MacLean's version."
+      },
+      "keywords": [
+        "limbic system",
+        "triune brain",
+        "maclean",
+        "reptilian brain",
+        "architecture"
+      ],
+      "image_url": "",
+      "metadata": {
+        "evidence_note": "Both the limbic system as a bounded anatomical/functional category and MacLean's triune-brain evolutionary sequence are treated by contemporary neuroanatomy as superseded rather than as live hypotheses. The limbic system lacks an agreed anatomical boundary; the triune brain's layered-evolution premise is contradicted by cross-species comparative anatomy. Both concepts remain widely taught in introductory contexts despite this.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "limbic-system-triune-brain",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--lindquist-meta-analysis-degeneracy",
+      "name": "The Meta-Analytic Finding: No Locus, and Degeneracy",
+      "category": "corrective-evidence",
+      "sections": {
+        "Definition": "Lindquist, Wager, Kober, Bliss-Moreau & Barrett's 2012 meta-analytic review (Behavioral and Brain Sciences) pooled the human neuroimaging literature on discrete emotion categories and tested two competing hypotheses against the combined data: the 'locationist' hypothesis, that each discrete emotion category consistently and specifically corresponds to its own brain region, against a 'psychological constructionist' hypothesis, that emotion categories are instead constructed from more general-purpose brain networks not specific to any one category. Reviewing the pooled coordinate data across hundreds of studies, they found no brain region was activated both consistently and selectively for any single discrete emotion category. Regions long claimed as dedicated 'emotion centres' — the amygdala, the insula, orbitofrontal cortex, and others — were each active across multiple different emotion categories, and each discrete emotion category recruited a distributed, overlapping set of regions rather than one dedicated locus.",
+        "Research note": "The specific pattern this literature calls degeneracy is a precise description of that finding at the level of neural populations: many different neural configurations can realize the same emotion category (a many-to-one relationship), and a single brain region participates in many different emotion categories (a one-to-many relationship). Neither direction supports a dedicated, non-overlapping module per category. This is the same underlying shape of finding — variable population-level instances grouped under one word, rather than one fixed signature — that free-sorting fieldwork found at the level of facial expression and behavior (see docs/GENEALOGY-OF-EMOTIONS.md Part B and this collection's ekman-basic school), now demonstrated at the level of brain regions instead of faces."
+      },
+      "keywords": [
+        "meta-analysis",
+        "degeneracy",
+        "lindquist",
+        "barrett",
+        "locationist",
+        "psychological constructionist"
+      ],
+      "image_url": "",
+      "metadata": {
+        "evidence_note": "This is the well-replicated half of this school's own subject matter: the finding that no discrete emotion category maps consistently and selectively onto one brain region is drawn from a large pooled meta-analysis of the published neuroimaging literature, not a single study, and later work (including subsequent degeneracy-focused analyses) has continued to find the same pattern rather than overturning it.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "lindquist-meta-analysis-degeneracy",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
+      }
+    },
+    {
+      "id": "neuroscience-of-emotion--network-alternative-salience-dmn-allostasis",
+      "name": "The Network-Level Alternative — Salience, Default Mode, and Allostasis",
+      "category": "corrective-evidence",
+      "sections": {
+        "Definition": "If no single region or closed circuit implements a discrete emotion, the working alternative in contemporary affective neuroscience is that feeling arises from interaction among distributed, domain-general large-scale networks. The salience network (anterior insula, dorsal anterior cingulate, and connected structures) generates and continually updates predictions about the body's internal, homeostatically relevant state; the default mode network (medial prefrontal and posterior cingulate/precuneus regions, among others) supplies the abstract situational and conceptual context those predictions are interpreted against. Together, these networks are held to support interoception — the brain's ongoing monitoring of internal bodily state — and allostasis — the anticipatory regulation of the body's resources before a need becomes a deficit. On this account, what earlier researchers localized to single regions (the amygdala 'detecting' fear, the insula 'registering' disgust) is better described as those same regions' participation in this broader, general-purpose predictive and regulatory system, engaged differently depending on the concept and context applied moment to moment.",
+        "In the body": "Allostasis reframes what 'the body' is doing during an emotional episode: not simply reacting to a trigger, but continuously predicting metabolic and physiological need and adjusting resources — heart rate, breathing, glucose regulation — ahead of demand, with core affect (see this school's cross-linked sibling) as the readout of how that prediction process is going.",
+        "Research note": "Kleckner, Zhang, Touroutoglou, Chanes, Xia, Simmons & Barrett's 2017 paper (Nature Human Behaviour) describing a large-scale brain system supporting allostasis and interoception is a central published anchor for this account; it argues the salience and default mode networks, and their interaction, form much of the anatomical infrastructure earlier research had misattributed piecemeal to individual 'emotion centres.'"
+      },
+      "keywords": [
+        "salience network",
+        "default mode network",
+        "interoception",
+        "allostasis",
+        "network"
+      ],
+      "image_url": "",
+      "metadata": {
+        "evidence_note": "The salience-network/default-mode-network/allostasis account is an active, still-developing research program rather than a single settled finding — it has real and growing published support (Kleckner et al. 2017 among the central anchors) but is newer and less exhaustively tested than the meta-analytic negative finding (no discrete locus) it is built to explain.",
+        "source_deck": "neuroscience-of-emotion",
+        "source_item_id": "network-alternative-salience-dmn-allostasis",
+        "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
     {
