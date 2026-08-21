@@ -5,6 +5,8 @@
  *
  * Usage:  <script src="<path-to>/site-header.js?v=7"></script>
  *         <site-header active="cards"></site-header>
+ * v52 (Aug 21 2026): added 'Practices' to TOOLS, pointing at tools/index.html —
+ * the practices-layer gallery (see docs/PLAN-practices-layer.md Phase 2).
  * v50 (Aug 15 2026): populated COURSE_GROUPS with the first two real courses
  * (history-of-emotions, how-to-contribute) — see course/_courses.json and
  * pages/courses.html, which now show real cards instead of the empty state.
@@ -59,6 +61,7 @@
   ];
   // [key, label, href, cssClass, external?]
   const TOOLS = [
+    ['practices', 'Practices', PFX + 'tools/index.html',    't-practices'],
     ['contribute', 'Contribute', PFX + 'pages/contribute.html', 't-contribute'],
     ['shop',   'Shop',    PFX + 'pages/shop.html',          't-shop'],
     ['github', 'GitHub ↗',  'https://github.com/PlayfulProcess/recursive-repatterning', 't-github', true],
@@ -160,8 +163,8 @@
           }
           .tab:hover{ color:#0f766e; }
           .tab.active{ color:#0f766e; font-weight:600; border-bottom-color:#0f766e; }
-          .t-caster,.t-course,.t-shop,.t-github,.t-contribute{ color:#6b6457; border:0; border-bottom:1.5px solid transparent; border-radius:0; }
-          .t-caster:hover,.t-course:hover,.t-shop:hover,.t-github:hover,.t-contribute:hover{ color:#0f766e; background:transparent; }
+          .t-caster,.t-course,.t-shop,.t-github,.t-contribute,.t-practices{ color:#6b6457; border:0; border-bottom:1.5px solid transparent; border-radius:0; }
+          .t-caster:hover,.t-course:hover,.t-shop:hover,.t-github:hover,.t-contribute:hover,.t-practices:hover{ color:#0f766e; background:transparent; }
           /* dropdowns */
           .dd{ position:relative; }
           .dd-btn{ background:none; font-family:inherit; cursor:pointer; }
