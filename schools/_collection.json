@@ -28,6 +28,14 @@
       ]
     },
     {
+      "id": "language-and-translation",
+      "name": "Language & Translation",
+      "_note": "What carries between languages, and what does not. Saudade beside longing and landing on neither; English grief distributed across luto, pesar, tristeza and saudade; and the empirical trace — 45 of this library's own words absent from a 400,000-word English model. The gaps are documented; every claim about what a gap means stays interpretive, per Wierzbicka's warning, which applies to this branch doubly.",
+      "school_slugs": [
+        "untranslatables"
+      ]
+    },
+    {
       "id": "brain-and-body",
       "name": "Brain & Body",
       "_note": "Accounts that explain feeling by its implementation in nervous tissue — which region, which circuit, which network. No other branch here asks that question: constitution asks what a person is made of, expression asks how feeling is shown, the basic-emotion schools ask how it is sorted.",
@@ -123,7 +131,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 242,
+      "items": 254,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -568,7 +576,7 @@
       "name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
       "common_name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
       "type": "custom",
-      "branch": null,
+      "branch": "language-and-translation",
       "is_meta": false,
       "default_preview": null,
       "items": 15,
