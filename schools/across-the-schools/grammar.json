@@ -5431,7 +5431,7 @@
       "sections": {
         "Definition": "Rhetoric II.8 defines pity (eleos) as pain at an apparently destructive or painful event happening to someone who does not deserve it, which the observer might expect could happen to himself or someone close to him. Both conditions matter: the suffering must look undeserved, and the observer must see it as possible for themselves — Aristotle notes that people who feel invulnerable feel less pity.",
         "Rhetoric-bound, not clinical": "Pity here is a lever, not a syndrome. Aristotle catalogues what makes a courtroom audience pity a defendant — visible, specific, nearby suffering, a person like the listener — because a speaker who understands the lever can pull it.",
-        "Research note": "Aristotle explicitly pairs eleos with nemesis (indignation at another's undeserved good fortune) as mirror-image judgments about desert, not as unrelated feelings — a structural pairing this skeleton does not yet include as its own item."
+        "Research note": "Aristotle explicitly pairs eleos with nemesis (indignation, below) as mirror-image judgments about desert rather than as unrelated feelings: pity answers suffering that was not earned, indignation answers fortune that was not."
       },
       "keywords": [
         "pity",
@@ -5962,7 +5962,7 @@
       "sections": {
         "Definition": "Timor is the irascible passion of shrinking from a future evil that is arduous to avoid — an evil difficult enough to escape that the appetite registers real resistance, not simply distaste. Aquinas catalogues species of timor by their object: laziness (fear of the effort a task requires), shame (fear of disgrace), and others.",
         "Why the key is transliterated, not \"fear\"": "As with spes, the arduousness condition is what makes timor a distinct technical category rather than the everyday English word. An evil that is easy to avoid produces no timor in Aquinas's scheme, only ordinary aversion (fuga, concupiscible). Using plain \"fear\" as the key would quietly fold that structural distinction back into the very undifferentiated folk category this taxonomy exists to divide.",
-        "Research note": "Timor's irascible partner is audacia (daring), the passion of confronting rather than fleeing the same arduous evil — not included as its own item in this skeleton."
+        "Research note": "Timor's irascible partner is audacia (daring, below), the passion of rising against rather than shrinking from the same arduous evil — one object, two contrary movements, and which of them stirs depends on whether the appetite judges that evil resistible."
       },
       "keywords": [
         "fear",
@@ -6438,7 +6438,7 @@
       "category": "five-viscera-emotion",
       "sections": {
         "Definition": "Bēi is paired with the lung (fèi), classically responsible for governing qì and respiration. Grief and sorrow are held to disperse or deplete lung qì, and the Neijing associates prolonged bēi with shortness of breath, a sunken or withdrawn bearing, and general depletion of vital energy.",
-        "Wider than the English word": "Some classical sources pair the lung with yōu (worry, anxious brooding) rather than, or alongside, bēi (grief proper) — the seven-emotion list and the five-viscera list do not map onto each other item-for-item, and different texts group yōu and bēi together under the lung differently. This item follows the more common grief-lung pairing; the worry-lung variant is noted here rather than given its own entry.",
+        "Wider than the English word": "Some classical sources pair the lung with yōu (worry, anxious brooding) rather than, or alongside, bēi (grief proper) — the seven-emotion list and the five-viscera list do not map onto each other item-for-item, and different texts group yōu and bēi together under the lung differently. This item follows the more common grief-lung pairing; yōu (below) carries the five-zhì table's own lung-paired term.",
         "Research note": "The lung's classical association with grief has an often-cited resonance with the Five Phases correspondence of metal (associated with autumn, decline, and letting go) to the lung — a symbolic-seasonal logic distinct from, and not reducible to, a modern respiratory-physiology account of sadness."
       },
       "keywords": [
