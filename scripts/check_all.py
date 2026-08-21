@@ -17,7 +17,7 @@ import json, os, re, glob, subprocess, sys
 import yaml
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-TAROT = os.path.join(ROOT, "tarot")
+SCHOOLS = os.path.join(ROOT, "schools")  # was tarot/ — a green run over a folder that does not exist checks nothing
 PEOPLE = os.path.join(ROOT, "research", "people")
 FM_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.S)
 VALID_ROLE_GROUPS = {"makers", "patrons", "occultists", "scholars", "institutions"}
@@ -42,7 +42,7 @@ MOJIBAKE_RE = re.compile(
 )
 
 # 1 + 2 + 3 — grammars
-for path in sorted(glob.glob(os.path.join(TAROT, "*", "grammar.json"))):
+for path in sorted(glob.glob(os.path.join(SCHOOLS, "*", "grammar.json"))):
     slug = os.path.basename(os.path.dirname(path))
     raw = open(path, encoding="utf-8").read()
     for m in MOJIBAKE_RE.finditer(raw):
@@ -81,31 +81,26 @@ for path in sorted(glob.glob(os.path.join(PEOPLE, "*.md"))):
         errors.append(f"people/{name}: bad role_group '{fm['role_group']}'")
 
 # 4 — rebuild generated grammars
-for script in ("build_people_grammar.py", "build_meta_grammar.py"):
+# build_people_grammar.py is tarot-era: it writes tarot/people-of-tarot from a
+# research/people/ directory this repo does not have, so every check_all run was
+# regenerating a stray tarot/ tree at the repo root that then had to be hand-deleted
+# (it happened twice before this was pinned). Only the adapted meta builder runs here.
+for script in ("build_meta_grammar.py",):
     r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", script)],
                        capture_output=True, text=True, cwd=ROOT)
     out = (r.stdout + r.stderr).strip()
     print(f"[{script}] {out.splitlines()[0] if out else '(no output)'}")
     if r.returncode != 0:
         errors.append(f"{script} failed:\n{out}")
-    if script == "build_meta_grammar.py" and "dangling=0" not in out:
-        warnings.append(f"meta build did not report dangling=0: {out[:200]}")
+    if script == "build_meta_grammar.py" and "wrote" not in out and "up to date" not in out:
+        warnings.append(f"meta build reported neither 'wrote' nor 'up to date': {out[:200]}")
 
-# 5 — semantic check on the freshly-rebuilt meta grammar's derived axes (structural
-# checks above can't catch role/trump_number/rank/deck semantics quietly rotting —
-# see check_derived_axes.py's own docstring for the Aug 7 2026 incident this pins).
-r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "check_derived_axes.py")],
-                   capture_output=True, text=True, cwd=ROOT)
-out = (r.stdout + r.stderr).strip()
-print(f"[check_derived_axes.py] {out.splitlines()[0] if out else '(no output)'}")
-if r.returncode != 0:
-    errors.append(f"check_derived_axes.py failed:\n{out}")
-
-for w in warnings:
-    print("WARN:", w)
+# 5 — (removed) check_derived_axes.py was tarot-era — trump/rank/deck semantics —
+# and the script itself was stripped in the original clone, so the call could only
+# fail on a missing file.
 if errors:
     print(f"\nFAIL: {len(errors)} ERROR(S):")
     for e in errors:
         print("  -", e)
     sys.exit(1)
-print(f"\nOK: all checks passed ({len(glob.glob(os.path.join(TAROT, '*', 'grammar.json')))} grammars)")
+print(f"\nOK: all checks passed ({len(glob.glob(os.path.join(SCHOOLS, '*', 'grammar.json')))} grammars)")
