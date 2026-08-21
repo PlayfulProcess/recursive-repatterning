@@ -5,6 +5,9 @@
  *
  * Usage:  <script src="<path-to>/site-header.js?v=7"></script>
  *         <site-header active="cards"></site-header>
+ * v53 (Aug 21 2026): added 'Spiral' to GRAMMAR_VIEWS (viewers/spiral.html) — the
+ * dynamic counterpart to Proximity: that view shows a corpus's priors, this one
+ * shows the visitor's own casts over time, held in their browser only.
  * v52 (Aug 21 2026): added 'Practices' to TOOLS, pointing at tools/index.html —
  * the practices-layer gallery (see docs/PLAN-practices-layer.md Phase 2).
  * v50 (Aug 15 2026): populated COURSE_GROUPS with the first two real courses
@@ -57,6 +60,7 @@
     ['timeline',   'Timeline',     PFX + 'viewers/timeline.html'],
     ['genealogy',  'Genealogy',    PFX + 'genealogy.html'],
     ['proximity',  'Proximity',    PFX + 'viewers/proximity.html'],
+    ['spiral',     'Spiral',       PFX + 'viewers/spiral.html'],
     ['channels',   'Channels',     PFX + 'pages/channels.html'],
   ];
   // [key, label, href, cssClass, external?]
@@ -96,6 +100,7 @@
     if (f.startsWith('explorer')) return 'explorer';
     if (f.startsWith('genealogy-tree')) return 'treeoflife';
     if (f.startsWith('timeline')) return 'timeline';
+    if (f.startsWith('spiral')) return 'spiral';
     if (f.startsWith('tree-viewer')) return 'tree';
     if (f.startsWith('play') || f.startsWith('caster')) return 'play';
     if (f.startsWith('genealogy')) return 'genealogy';

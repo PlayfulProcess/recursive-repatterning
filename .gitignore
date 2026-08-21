@@ -14,3 +14,6 @@ _private/
 # _seeds/README.md IS committed as the index.
 _seeds/*
 !_seeds/README.md
+
+# Local dev-server config for the preview pane (per-machine, not content)
+.claude/
