@@ -22,11 +22,11 @@ aggregator and `_collection.json`; always `git pull --rebase` before push (CI la
 |---|---|---|---|
 | 1 | Course: Relationship is Process | DONE (de77ec4) | — |
 | 2 | School: untranslatables | DONE (01c209d) | — |
-| 3 | Skeleton completion pass | DONE (c956470) — 3 residual stale Research-note sentences flagged in its report (timor, eleos, bei) need a copy-edit | next session |
+| 3 | Skeleton completion pass | DONE (c956470); residual copy-edit DONE (25f271d) | — |
 | 4 | Tools index page (practices Phase 2) | DONE (2e9d3e7) | — |
 | 5 | Integration: wire 1–4, rebuild, verify live | DONE — untranslatables in new branch language-and-translation | — |
-| 6 | Overflow cross-links through the library | **not started** — spec §A | next session |
-| 7 | The Spiral view | **not started** — spec §B | next session |
+| 6 | Overflow cross-links through the library | DONE (d21078a) — 8 forward links; see §A note below | — |
+| 7 | The Spiral view | DONE (49c2477) — viewers/spiral.html, plus the caster button and proximity's ?q= | — |
 | 8 | Love Bank port (practices Phase 3) | not started — see `docs/PLAN-practices-layer.md` | later |
 | 9 | Channel-time dedup | blocked on channel import — see `docs/PLAN-overflow-and-the-living-library.md` §8 | later |
 
@@ -64,6 +64,20 @@ trust):
 | the-recognition | jungian-archetypes (individuation) + rasa / shanta | knowing-again |
 | the-constriction | acting-traditions (kata/constraint) | constraint as equipment of play |
 | the-two-truths | attachment-theory (secure base ↔ exploration) | part and self held together |
+
+**Executed (d21078a).** Eight links landed; two of the map's target ids were wrong on
+reading (`the-modulation` points at `eft-bonds/the-eft-tango`, not the pursue-withdraw
+cycle — the cycle is the trap, the Tango is the craft; `the-two-truths` points at
+`attachment-theory/attachment-behavioural-system`, not `secure-attachment`), one row's
+proposed target does not exist at all (nvc-needs has no requests item — `the-ceding` went
+to `parts-work/self`), one row was dropped (`the-body` → interoception duplicates
+`the-prediction`), and one was added (`the-lineage` →
+`attachment-theory/internal-working-models`). **Open decision for the maintainer:** all
+eight are one-directional. Six targets would take a back-link cleanly — `nvc-needs-root`,
+`the-eft-tango`, `rasa/shanta`, `noh-kata-and-masks`, and both attachment items — but a
+back-link puts the house school's own synthesis inside another school's detail view, so
+it was left as an editorial call rather than made silently. Two cannot take one anyway:
+`dbt-skills/radical-acceptance` and `parts-work/self` already point elsewhere.
 
 Rules: only link where the connection is REAL on reading both items — drop any row that
 feels forced (the library's precedent: dbt-skills considered a jung link and dropped it).
