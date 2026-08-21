@@ -126,3 +126,18 @@ castable, since the spiral is a *history of casts* and needs casts to exist firs
 6. The Spiral view (§3) once casts exist to display.
 7. Channel sync via the app UI — later, per the maintainer; everything above keeps working
    standalone until then.
+8. **Dedup at channel time — do not skip.** Overflow and the Ethics of Fiction now exist
+   twice: app-side (grammar ids `076c445a…` and `755c6c94…`) and repo-side
+   (`schools/overflow`, `schools/ethics-of-fiction`), and the repo copy is canonical from
+   this commit forward. When this repo becomes an official channel:
+   - map the repo slugs onto the EXISTING app ids in `schools/_eco_ids.json` rather than
+     letting import mint new ids — otherwise the channel gains twins and every old link
+     (`flow.recursive.eco/g/076c445a…`) points at the orphan;
+   - backup then flows repo → GitHub like the tarot channel, NOT through the private vault
+     via recursive.eco — the vault path was the pre-channel arrangement and keeping both
+     running would double-write every edit;
+   - the app-side copies stop being edited the moment the channel syncs; any interim
+     app-side edits must be diffed back into the repo BEFORE the first sync, since
+     channel-level source-of-truth will otherwise overwrite them silently.
+   Until the channel exists, the app copies are live previews and may drift; this item is
+   the reconciliation debt, recorded so it is paid deliberately rather than discovered.
