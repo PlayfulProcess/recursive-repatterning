@@ -35,7 +35,7 @@
     {
       "slug": "ekman-basic",
       "name": "Basic-Emotion / Affect-Programme Theory",
-      "items": 6
+      "items": 7
     },
     {
       "slug": "nvc-needs",
@@ -110,7 +110,7 @@
     {
       "slug": "greek-pathe",
       "name": "Greek Pathē — Rhetoric and Stoic Ethics",
-      "items": 6
+      "items": 15
     },
     {
       "slug": "descartes-passions",
@@ -120,7 +120,7 @@
     {
       "slug": "aquinas-passions",
       "name": "Aquinas's Eleven Passions",
-      "items": 5
+      "items": 11
     },
     {
       "slug": "rasa",
@@ -130,7 +130,7 @@
     {
       "slug": "chinese-qing",
       "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
-      "items": 5
+      "items": 7
     }
   ],
   "items": [
@@ -1932,6 +1932,29 @@
         "emotion_key": "surprise",
         "source_deck": "ekman-basic",
         "source_item_id": "surprise",
+        "deck": "Basic-Emotion / Affect-Programme Theory"
+      }
+    },
+    {
+      "id": "ekman-basic--contempt",
+      "name": "Contempt — the Contested Seventh",
+      "category": "contested-basic-emotion",
+      "sections": {
+        "Definition": "Ekman and Friesen (1986) proposed contempt as a seventh pan-cultural basic emotion, triggered by an appraisal of another person, or their action, as morally or socially beneath one's own standards. They claimed a specific, cross-culturally recognizable signature distinct from the other six: a unilateral tightening and slight raising of one corner of the lip, without the matching movement on the opposite side that a symmetric expression would show.",
+        "The claimed signature": "FACS work associates the proposed contempt expression primarily with a unilateral AU12 (lip corner puller) and/or AU14 (dimpler) — tightened or raised on one side of the face only, the asymmetry itself being the feature Ekman and Friesen held distinguished it from a smile, a smirk, or any other single-sided facial movement lacking a specific emotional referent.",
+        "Research note": "Ekman and Friesen (1986, in Motivation and Emotion) reported cross-cultural agreement on the unilateral lip-curl as \"contempt\" across ten countries using a forced-choice task, and Ekman and Heider (1988) reported a replication among the Minangkabau of West Sumatra, a population with limited exposure to Western media. James Russell (1991) challenged the finding on methodological grounds: using free-labeling and quantitative rating-scale tasks instead of the original short preselected list, he found neither method's respondents converged on \"contempt\" as the label for the same expression. The dispute continues in the published literature without settlement on either side (see this school's root item for the wider universality debate the contempt claim sits inside)."
+      },
+      "keywords": [
+        "contempt",
+        "ekman",
+        "contested",
+        "affect programme"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "contempt",
+        "source_deck": "ekman-basic",
+        "source_item_id": "contempt",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -5139,6 +5162,207 @@
       }
     },
     {
+      "id": "greek-pathe--aristotle-praotes",
+      "name": "Praotēs — Calm (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.3 defines growing calm (praotēs) as a settling or quieting of anger, its direct contrary. People grow calm toward those who admit fault and show grief at what they have done, toward those who humble themselves and offer no resistance, and toward those who acted involuntarily — in each case the belief that one has been deliberately wronged and belittled, which orgē requires, is undone.",
+        "Rhetoric-bound, not clinical": "Aristotle presents praotēs as a lever just like orgē's own — an orator defending a client wants to know exactly which admissions or postures will cool a judge's anger, not to describe calm as a virtue in its own right (that discussion belongs to the Nicomachean Ethics, not the Rhetoric).",
+        "Research note": "The orgē/praotēs pair is the first of fourteen pathē catalogued across Rhetoric II.2–11 and sets the pattern the rest follow: each pathos is defined by the belief that produces it, the person it targets, and the belief that cancels it out again."
+      },
+      "keywords": [
+        "calm",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "calm",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-praotes",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-philia",
+      "name": "Philia — Friendly Feeling (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.4 defines philia (friendly feeling) as wishing for someone what one believes to be good, for that person's own sake rather than one's own, and being inclined to bring it about so far as one is able. Philoi (friends) are those who feel this toward each other and know that they do.",
+        "Rhetoric-bound, not clinical": "Unlike the Nicomachean Ethics's extended treatment of philia as a form of virtuous relationship, the Rhetoric's interest is narrower: which beliefs make an audience feel friendly disposed toward a speaker or a defendant, so a speech can cultivate or exploit that disposition.",
+        "Research note": "Aristotle pairs philia with its contrary, echthra (enmity/hatred), in the same chapter — not included as its own item in this skeleton — and the pairing anticipates a structural feature of nearly every pathos in Book II: each is defined partly by naming the state that cancels it."
+      },
+      "keywords": [
+        "friendship",
+        "philia",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "friendship",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-philia",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-phobos",
+      "name": "Phobos — Fear (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.5 defines fear (phobos) as pain or disturbance from the appearance of an imminent evil that is destructive or painful — specifically, an evil that appears near at hand rather than remote, and within someone's power to inflict.",
+        "Rhetoric-bound, not clinical": "Aristotle catalogues exactly what makes danger seem near rather than far — signs of hostile intent, evidence of ability to harm, precedent of similar people suffering similar harm — because a speaker who wants a jury frightened of an outcome needs to make it feel close, not just possible.",
+        "Research note": "Aristotle pairs phobos with tharsos (confidence, below) as direct contraries sharing one object — an apprehended danger — and differing only in how near or resistible it appears. The Stoic phobos above shares this item's emotion_key but is a different project: an ethical claim about a false judgment, not a rhetorical appraisal of nearness."
+      },
+      "keywords": [
+        "fear",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "fear",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-phobos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-tharsos",
+      "name": "Tharsos — Confidence (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.5 defines confidence (tharsos) as the direct contrary of fear: an expectation of safety, felt when what is dangerous seems either non-existent, far off, or well within one's power to resist — the hopeful counterpart to fear's felt nearness of harm.",
+        "Rhetoric-bound, not clinical": "Paired with phobos in the same chapter, tharsos gives the orator the flip side of the same lever — showing an audience that a danger is remote, resistible, or already overcome by people like them removes fear and installs confidence in its place.",
+        "Research note": "Aristotle notes people feel tharsos when they believe they have often escaped or overcome danger before, and when they see allies, resources, or means of safety available to them — a proto-appraisal account of confidence as a judgment about one's own resources relative to the threat."
+      },
+      "keywords": [
+        "confidence",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "confidence",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-tharsos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-aischyne",
+      "name": "Aischynē — Shame (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.6 defines shame (aischynē) as a pain or disturbance concerning present, past, or future faults that appear likely to bring one into disrepute — felt specifically before people whose opinion one values: those close to us, those we admire, or those who will judge us.",
+        "Rhetoric-bound, not clinical": "Aristotle's interest is in which disgraceful acts a speaker can make an audience feel, or fear feeling, ashamed of — cowardice, injustice, self-indulgence — and before whom that shame lands hardest, since shame felt before a stranger one will never see again barely registers by comparison.",
+        "Research note": "Aristotle pairs aischynē with anaischyntia (shamelessness) as its contrary in the same chapter, and ties shame closely to a concern for reputation rather than to private conscience alone — a social, audience-facing reading consistent with the Rhetoric's overall approach."
+      },
+      "keywords": [
+        "shame",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "shame",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-aischyne",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-charis",
+      "name": "Charis — Kindness (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.7 defines kindness (charis) as helpfulness shown to someone in need, given not in return for anything and not for the helper's own advantage but for the sake of the person helped — greater the more urgent, important, or difficult-to-obtain the need, and greater still if the helper acted alone or first.",
+        "Rhetoric-bound, not clinical": "This chapter tells a speaker how to make a past favor look as large as possible — or, arguing the other side, how to make a claimed favor look smaller, self-interested, or trivial — rather than analyzing gratitude as a virtue.",
+        "Research note": "Charis is one of the few pathē in this part of the Rhetoric defined primarily by an action performed (helping) rather than by a belief about one's own situation — its emotional charge lies in how the recipient and observers interpret the giver's motive."
+      },
+      "keywords": [
+        "kindness",
+        "gratitude",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "kindness",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-charis",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-nemesis",
+      "name": "Nemesis — Indignation (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.9 defines nemesis (righteous indignation) as pain at the sight of undeserved good fortune — the structural mirror of eleos (pity, above): both are judgments about desert, one triggered by undeserved suffering, the other by undeserved success.",
+        "Rhetoric-bound, not clinical": "Aristotle tells a speaker exactly which strokes of fortune provoke indignation in a listener — sudden wealth, power, or honor landing on someone judged to lack the virtue that ought to earn it — so an opponent's undeserved advantage can be made to sting rather than simply impress.",
+        "Research note": "Aristotle explicitly pairs nemesis with eleos as mirror-image judgments about desert, and separately treats nemesis in the Nicomachean Ethics as a mean state, felt rightly only toward genuinely undeserved fortune — its excess, feeling pain even at deserved good fortune, is phthonos (envy, next)."
+      },
+      "keywords": [
+        "indignation",
+        "nemesis",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "indignation",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-nemesis",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-phthonos",
+      "name": "Phthonos — Envy (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.10 defines envy (phthonos) as pain at the good fortune of people like oneself — equals in birth, ability, possessions, or reputation — not because their good fortune harms the envious person, but simply because those others have it.",
+        "Rhetoric-bound, not clinical": "Aristotle specifies that envy targets rivals and near-equals rather than people far above or below oneself — a speaker who wants a jury to feel proprietary hostility toward a successful equal, rather than mere admiration, needs exactly this comparison-to-a-peer framing.",
+        "Research note": "Aristotle treats phthonos as an unqualifiedly blameworthy pain in the Nicomachean Ethics — unlike nemesis, which can be felt rightly, phthonos has no virtuous mean: it is envy of another's good fortune regardless of whether that fortune is deserved."
+      },
+      "keywords": [
+        "envy",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "envy",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-phthonos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
+      "id": "greek-pathe--aristotle-zelos",
+      "name": "Zēlos — Emulation (Aristotle)",
+      "category": "aristotle-pathe",
+      "sections": {
+        "Definition": "Rhetoric II.11 defines emulation (zēlos) as a painful desire for goods that people like oneself possess and one lacks — not because the other person has them, but because one wants them too, a pain that moves one to act, not merely to resent.",
+        "Rhetoric-bound, not clinical": "Aristotle draws the line between zēlos and phthonos on exactly this point of action: emulation spurs a person toward acquiring the good themselves, while envy merely wants the other person to lose it — a distinction useful to a speaker deciding whether to cast an audience's reaction to a rival's success as productive ambition or corrosive resentment.",
+        "Research note": "Aristotle pairs zēlos with phthonos as the second of the two couples that close Book II's catalogue of pathē (pity/indignation and envy/emulation both concern judgments about the fortunes of others), and separately pairs zēlos with contempt (kataphronesis) as its own contrary in the same closing chapter — briefly discussed there but not developed here as its own item."
+      },
+      "keywords": [
+        "emulation",
+        "rhetoric",
+        "aristotle"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "emulation",
+        "source_deck": "greek-pathe",
+        "source_item_id": "aristotle-zelos",
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
+      }
+    },
+    {
       "id": "greek-pathe--stoic-lype",
       "name": "Lypē — Distress (Stoic)",
       "category": "stoic-pathe",
@@ -5495,6 +5719,142 @@
       }
     },
     {
+      "id": "aquinas-passions--odium",
+      "name": "Odium — Hatred (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Odium is the concupiscible passion contrary to amor: a disagreement or dissonance the sensitive appetite feels toward an apprehended evil, prior to any movement to avoid or destroy it. Where amor is a connaturality with a good, odium is its exact structural mirror toward an evil.",
+        "The arduousness axis": "Odium stays concupiscible, not irascible, for the same reason amor does: it responds to the evil simply as evil, without regard to whether resisting or escaping it is difficult. That is what separates it from timor (fear, irascible, above): fear requires the evil to be hard to avoid; hatred does not.",
+        "Research note": "Aquinas holds, against a more intuitive symmetry, that hatred is not a primary passion parallel to love but always presupposes it: \"omne odium ex amore causatur\" — every hatred is caused by some love (q. 29, a. 2). One hates an evil only because it opposes a good already loved; love, not hatred, is structurally first."
+      },
+      "keywords": [
+        "hatred",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hatred",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "odium",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--desiderium",
+      "name": "Desiderium — Desire (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Desiderium (also concupiscentia) is the concupiscible passion of movement toward a good not yet possessed. It follows directly from amor — one desires what one already loves — and precedes gaudium: desiderium is the appetite still in motion toward the good; gaudium is the appetite come to rest in it.",
+        "The arduousness axis": "As with amor, desiderium responds to the good simply as good, apprehended as not-yet-had, without regard to difficulty. This is the exact concupiscible counterpart to spes (hope, irascible, above): spes is what desiderium becomes when attaining the good turns out to require struggle against real resistance. No arduousness, no spes — only desiderium.",
+        "Research note": "Aquinas distinguishes desiderium of a good simply apprehended from the will's act of intending (intentio) the same object — the passion belongs to the sensitive appetite and is common to humans and animals in analogous form; intentio belongs to the will alone."
+      },
+      "keywords": [
+        "desire",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "desire",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "desiderium",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--fuga",
+      "name": "Fuga — Aversion (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Fuga is the concupiscible passion contrary to desiderium: a shrinking away from an apprehended evil not yet present, prior to any judgment about how hard that evil is to escape. Aquinas states the whole concupiscible scheme in one line: \"in concupiscibili sunt tres coniugationes passionum: scilicet amor et odium, desiderium et fuga, gaudium et tristitia\" — in the concupiscible faculty there are three pairings: love and hatred, desire and aversion, joy and sorrow (q. 23, a. 4).",
+        "Why the key is transliterated, not \"aversion\" alone": "English translations render fuga as \"aversion,\" \"dislike,\" or \"flight\" fairly interchangeably, which can blur the one distinction that matters here: fuga is the concupiscible response to a future evil considered simply as evil. The moment that same future evil is considered arduous — difficult to escape — the passion is no longer fuga but timor (fear, irascible, above). Aquinas states the boundary explicitly: fear adds to fuga a certain lowness of spirit, on account of the difficulty of shunning the evil.",
+        "Research note": "Fuga is the least discussed of the six concupiscible passions in the secondary literature relative to its partner desiderium — Aquinas treats it mostly by contrast, defining it against desire and against fear, rather than devoting it an extended discussion of its own species."
+      },
+      "keywords": [
+        "aversion",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "aversion",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "fuga",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--gaudium",
+      "name": "Gaudium — Joy (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sections": {
+        "Definition": "Gaudium (Aquinas also uses delectatio, pleasure/delight, largely interchangeably for the sensitive-appetite case) is the concupiscible passion of the appetite coming to rest in a good actually possessed — the counterpart to tristitia (sorrow, above) at a present evil, and the terminus of the sequence amor–desiderium–gaudium: one loves a good, desires it while absent, and rejoices in it once had.",
+        "Distinct from the pair already in this skeleton": "This school's first item, amor, already named gaudium as one of the passions following from love; this item gives it its own entry rather than leaving it a passing mention inside amor's. Gaudium and delectatio are not perfectly synonymous for Aquinas — delectatio can apply more broadly to bodily pleasure and gaudium more properly to a rational or willed satisfaction — but at the level of the sensitive-appetite passion this skeleton describes, the two names cover the same concupiscible passion of rest in a possessed good.",
+        "Research note": "Aquinas devotes several articles (qq. 31–34) to the causes of delectatio — operation, the presence of the good, likeness, hope, sorrow's cessation, and others — a more elaborate treatment than tristitia's shorter remedy-list receives, reflecting his general procedure of treating a passion and its contrary asymmetrically rather than as strict mirror images."
+      },
+      "keywords": [
+        "joy",
+        "delight",
+        "aquinas",
+        "concupiscible"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "joy",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "gaudium",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--desperatio",
+      "name": "Desperatio — Despair (Irascible)",
+      "category": "irascible-passion",
+      "sections": {
+        "Definition": "Desperatio is the irascible passion contrary to spes: a recoil from a future good that is arduous and, unlike spes's object, judged impossible to attain. Both passions concern the identical object — a hard-to-reach future good — differing only in the appetite's judgment of whether reaching it is possible.",
+        "Why the key is transliterated, not \"despair\"": "English \"despair\" is used broadly for hopelessness of many kinds, easy or hard, sudden or chronic. Aquinas's desperatio is defined narrowly against the same arduous future good spes targets — it names the specific judgment that a hard-won good is now impossible, not despondency in general. Keying this item as plain \"despair\" would erase the one feature shared with spes — the arduous object — that makes it a distinct irascible passion rather than a mood.",
+        "Research note": "Aquinas pairs desperatio with spes as the first couple of the irascible faculty and holds that hope naturally precedes despair in the order of the passions — one must first apprehend a good as attainable, however arduously, before that judgment can reverse into despair (q. 25, a. 3; q. 40)."
+      },
+      "keywords": [
+        "despair",
+        "aquinas",
+        "irascible",
+        "arduousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "desperatio",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "desperatio",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
+      "id": "aquinas-passions--audacia",
+      "name": "Audacia — Daring (Irascible)",
+      "category": "irascible-passion",
+      "sections": {
+        "Definition": "Audacia is the irascible passion contrary to timor: a movement toward confronting a future, arduous evil, arising when the appetite judges that evil resistible rather than overwhelming. Where timor shrinks from the arduous evil, audacia rises up against it — the same object, met with the opposite inclination.",
+        "Why the key is transliterated, not \"courage\" or \"daring\"": "Audacia is a passion of the sensitive appetite, not the intellectual virtue of fortitude — Aquinas treats it as the raw movement toward confronting danger that virtue must then govern and moderate, not as virtue itself. It is also narrower than everyday \"daring\": it specifically requires the same arduous future evil timor targets. An excess of audacia unchecked by reason is, on this account, rashness rather than courage.",
+        "Research note": "Aquinas holds anger (ira, above) presupposes audacia: no one seeks revenge without first daring to pursue it, which is part of why ira sits last in the irascible order and, uniquely among the eleven passions, has no contrary of its own."
+      },
+      "keywords": [
+        "daring",
+        "courage",
+        "aquinas",
+        "irascible",
+        "arduousness"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "audacia",
+        "source_deck": "aquinas-passions",
+        "source_item_id": "audacia",
+        "deck": "Aquinas's Eleven Passions"
+      }
+    },
+    {
       "id": "rasa--shringara",
       "name": "Śṛṅgāra — the Erotic/Romantic Rasa",
       "category": "natyashastra-rasa",
@@ -5833,6 +6193,58 @@
         "image_credit": "Acupuncture chart, kidney channel of foot shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
         "source_item_id": "kong",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--you",
+      "name": "Yōu (忧) — Worry, Paired with the Lung",
+      "category": "additional-qing-emotion",
+      "sections": {
+        "Definition": "Yōu is the term the classical five-organ correspondence table in Suwen chapter 5 (Yin Yang Ying Xiang Da Lun) itself pairs with the lung (fèi) — not bēi (grief), which this school's existing bēi item already flags as a later variant. Yōu names a settled, anxious brooding or apprehension rather than acute sorrow; the Neijing holds that yōu, sustained, injures lung qì the same way excessive bēi is elsewhere said to.",
+        "How it differs from bēi and from sī": "Three qīqíng terms sit close together and are worth distinguishing explicitly: bēi is acute grief at a loss, tied to the lung in the wider seven-emotion tradition; sī (this school's existing item) is a spleen-tied cognitive dwelling, closer to rumination; yōu, in the classical five-zhì (五志) table, is the lung's own paired term — a lower-grade, longer-lasting apprehensive worry rather than either sī's mental fixation or bēi's sharper grief. Later Chinese medical writing sometimes uses bēi and yōu together or nearly interchangeably for the lung, which is why this school's bēi item already notes the overlap; this item gives yōu its own entry as the more classically primary of the two lung-paired terms.",
+        "Research note": "The interaction cycle recorded alongside the five-zhì table states that yōu injures the lung and joy (xǐ) overcomes yōu — part of the same Five Phases control sequence (fire controls metal) that governs how the five organ-emotion pairs are held to check one another."
+      },
+      "keywords": [
+        "you",
+        "worry",
+        "lung",
+        "chinese-medicine"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Acupuncture_chart%2C_lung_channel_of_hand_taiyin%2C_Chinese_Wellcome_L0037808.jpg",
+      "metadata": {
+        "emotion_key": "worry",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
+        "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for bēi above; reused here because both terms are, in different classical sources, paired with the lung.",
+        "source_deck": "chinese-qing",
+        "source_item_id": "you",
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
+      }
+    },
+    {
+      "id": "chinese-qing--jing",
+      "name": "Jīng (惊) — Fright, the Sudden Counterpart to Kǒng",
+      "category": "additional-qing-emotion",
+      "sections": {
+        "Definition": "Jīng is the seventh term completing the qīqíng list alongside the five-viscera emotions and yōu — a sudden startle or fright, distinct in the classical texts from kǒng's more settled dread. The Suwen's Ju Tong Lun (chapter 39) states the difference in its own qì-movement vocabulary: kǒng makes qì descend (恐则气下), while jīng throws qì into disorder (惊则气乱) — a different disturbance, not simply a stronger dose of the same one.",
+        "Sudden versus sustained — the distinction that matters": "This is the one distinction worth stating plainly, because collapsing jīng into kǒng loses it: jīng is acute and initially unsettles the heart (xīn), which houses shén (spirit/mind) and is disturbed first by any sudden shock, scattering its qì chaotically. Only if the fright is severe or repeated does the disturbance settle into the kidney (shèn) as a more sustained kǒng, depleting the essence the kidney stores. Kǒng, by contrast, is already the sustained, dwelling apprehension this school's existing kǒng item describes — jīng is what a sudden, discrete startle does before it has had time to become that.",
+        "Research note": "Because jīng is described as unsettling the heart before the kidney, some later commentators treat it as sitting outside the strict five-viscera correspondence altogether — a seventh emotion with a two-organ trajectory rather than a single fixed pairing, which is part of why classical sources vary on whether to count it as its own qíng or as a variant of kǒng."
+      },
+      "keywords": [
+        "jing",
+        "fright",
+        "shock",
+        "heart",
+        "kidney",
+        "chinese-medicine"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Acupuncture_chart%2C_heart_channel_of_hand_shaoyin%2C_Chinese_Wellcome_L0037816.jpg",
+      "metadata": {
+        "emotion_key": "fright",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
+        "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for xǐ above; reused here because jīng's own classical description unsettles the heart before it settles into the kidney, unlike kǒng's kidney-only pairing.",
+        "source_deck": "chinese-qing",
+        "source_item_id": "jing",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     }
