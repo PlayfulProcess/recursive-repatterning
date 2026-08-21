@@ -562,6 +562,22 @@
       "year_label": null,
       "provenance": "record",
       "category": "historical"
+    },
+    {
+      "slug": "untranslatables",
+      "name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
+      "common_name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
+      "type": "custom",
+      "branch": null,
+      "is_meta": false,
+      "default_preview": null,
+      "items": 15,
+      "cover_image_url": "",
+      "path": "schools/untranslatables/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
     }
   ]
 }
