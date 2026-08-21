@@ -44,7 +44,13 @@ OUT = os.path.join(SCHOOLS, OUT_SLUG, "grammar.json")
 # moments (Descartes 1649, Bharata's Natyashastra), not feelings. They are worth
 # browsing but not worth drawing — a cast should return an emotion, not a citation.
 # It stays a full member of the channel; it is only kept out of the castable pool.
-NEVER_AGGREGATE = {OUT_SLUG, "schools-of-emotion", "genealogy-of-emotions"}
+# ethics-of-fiction is excluded on the same principle: its items are lenses,
+# contexts and case verdicts — a judging instrument. Drawing "Bettelheim — the
+# Judge Judged" in a pooled emotional reading would be noise. It remains fully
+# castable on its own through the deck picker; only the cross-school pool skips it.
+# overflow, by contrast, IS a drawable deck and joins the pool.
+NEVER_AGGREGATE = {OUT_SLUG, "schools-of-emotion", "genealogy-of-emotions",
+                   "ethics-of-fiction"}
 
 
 def load(path):

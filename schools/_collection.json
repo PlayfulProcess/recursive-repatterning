@@ -19,6 +19,15 @@
       ]
     },
     {
+      "id": "the-house-school",
+      "name": "The House School",
+      "_note": "The library's own synthesis — Overflow (structure, process, possibility, and the recursion between them) and the Ethics of Fiction (judging stories by their fruits, in their casting). First-person where every other branch is curatorial, and held to the same evidence discipline as everything it sits beside: evidence_tier theoretical, stated in each root's own note. A made meaning, held visibly as made.",
+      "school_slugs": [
+        "overflow",
+        "ethics-of-fiction"
+      ]
+    },
+    {
       "id": "brain-and-body",
       "name": "Brain & Body",
       "_note": "Accounts that explain feeling by its implementation in nervous tissue — which region, which circuit, which network. No other branch here asks that question: constitution asks what a person is made of, expression asks how feeling is shown, the basic-emotion schools ask how it is sorted.",
@@ -114,7 +123,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 202,
+      "items": 224,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -315,6 +324,22 @@
       "category": "historical"
     },
     {
+      "slug": "ethics-of-fiction",
+      "name": "The Ethics of Fiction — A Grammar for Judging Stories",
+      "common_name": "The Ethics of Fiction — A Grammar for Judging Stories",
+      "type": "custom",
+      "branch": "the-house-school",
+      "is_meta": true,
+      "default_preview": null,
+      "items": 36,
+      "cover_image_url": "",
+      "path": "schools/ethics-of-fiction/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
       "slug": "genealogy-of-emotions",
       "name": "A Genealogy of Emotions",
       "common_name": "A Genealogy of Emotions",
@@ -437,6 +462,22 @@
       "items": 37,
       "cover_image_url": "",
       "path": "schools/nvc-needs/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "overflow",
+      "name": "Overflow — Structures, Process, Possibilities",
+      "common_name": "Overflow — Structures, Process, Possibilities",
+      "type": "tarot",
+      "branch": "the-house-school",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 26,
+      "cover_image_url": "",
+      "path": "schools/overflow/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
