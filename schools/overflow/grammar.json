@@ -1,607 +1,607 @@
 {
-  "name": "Overflow — Structures, Process, Possibilities",
-  "description": "A three-position oracle deck exploring the recursiveness of life. Each card sits in one of three positions: Structure (what constrains and holds), Process (what moves and constructs), Possibility (what opens when the process overflows). Together they form the recursive spiral — the ethics of constructivism as a practice you can deal.",
-  "grammar_type": "tarot",
-  "tags": [
-    "poethics",
-    "constructivism",
-    "overflow",
-    "recursive",
-    "barrett",
-    "lilas",
-    "ethics-of-fiction"
-  ],
-  "creator_name": "PlayfulProcess",
-  "is_published": false,
-  "_grammar_commons": {
-    "schema_version": "1.0",
-    "license": "CC-BY-SA-4.0",
-    "attribution": [
-      {
-        "name": "PlayfulProcess",
-        "role": "creator",
-        "note": "Original writing by the maintainer. This grammar is the maintainer's own synthesis, drawing on Lisa Feldman Barrett's theory of constructed emotion (see the constructed-emotion school), Kashmir Śaivist līlā and recognition (pratyabhijñā) doctrine, and the maintainer's own Ethics of Fiction grammar, but every card's text is original prose written for this deck."
-      }
-    ]
-  },
-  "items": [
-    {
-      "id": "the-spread",
-      "name": "The Spread",
-      "category": "Guide",
-      "sort_order": 1,
-      "symbol": "◎",
-      "keywords": [
-        "spread",
-        "recursion",
-        "how-to-read",
-        "three-positions"
-      ],
-      "sections": {
-        "body": "Deal three cards. The first is Structure — what constrains and holds. The second is Process — what moves and constructs. The third is Possibility — what opens when the process overflows.\n\nThen read the recursion: the Possibility of this reading becomes the Structure of the next. Every opening is a new constriction. Every new game is played inside equipment. The spiral doesn't escape structure — it includes it.\n\nThis is not a fortune. It is a mirror for the recursive shape of what you are already doing. The question to hold while reading:\n\n*Am I overflowing or extracting?*\n\nThe answer is the ethics. The asking is the practice. The recursion is the game.",
-        "how to use": "Shuffle the 21 numbered cards. Deal three face-down in a row: left (Structure), center (Process), right (Possibility). Turn them over in order. Read each card through its position — the same card means different things depending on where it lands.\n\nFor a deeper reading, deal a second row of three beneath the first. The second row is the recursion: what the first reading becomes when the Possibility of the first row becomes the Structure of the second.\n\nAny card can land in any position. The native suit of a card (whether it 'belongs' to Structure, Process, or Possibility) creates resonance when it lands in its home position and creative tension when it doesn't. A Structure card in the Possibility position asks: what if the constraint itself is the opening? A Possibility card in the Structure position asks: has this freedom hardened into a new cage?"
-      }
-    },
-    {
-      "id": "the-body",
-      "name": "The Body",
-      "category": "Structure",
-      "sort_order": 2,
-      "symbol": "I",
-      "keywords": [
-        "body",
-        "substrate",
-        "transcript",
-        "history",
-        "allostasis",
-        "barrett"
-      ],
-      "sections": {
-        "body": "The substrate that holds history. Barrett taught us that the brain is an organ of allostasis — it runs a body budget, predicting what will be needed and allocating in advance. Every stressor is deposited in it. A nervous system that spent the morning being yelled at arrives at the afternoon pre-loaded, predicting more of the same.\n\nIn conversation, the transcript is the body. Nothing said can be unsaid; it all conditions what comes next. The history is not a record of the interaction — it is the interaction's living tissue.",
-        "in Process": "You are building the body right now. Every word, every silence, every modulation is being deposited into the shared substrate. The transcript is being written in real time, and it cannot be unwritten. What are you putting into the budget?",
-        "in Structure": "What history are you carrying into this? The body budget is already loaded. The morning has already happened. This is not a blank page — it is a palimpsest, and what was written before is still shaping every line you add. Name the deposit. That is the first honest act.",
-        "in Possibility": "A new body. Not the dissolution of the old one — bodies don't dissolve, they transform. The possibility here is that the substrate you've been building becomes capable of holding something it couldn't hold before. A budget that has been replenished. A transcript that has turned a corner."
-      }
-    },
-    {
-      "id": "the-constriction",
-      "name": "The Constriction",
-      "category": "Structure",
-      "sort_order": 3,
-      "symbol": "II",
-      "keywords": [
-        "constriction",
-        "equipment",
-        "lila",
-        "play",
-        "limits",
-        "game"
-      ],
-      "sections": {
-        "body": "Consciousness hides from itself because it wants to play, and play requires constriction. A game with no limits is not a game. So the narrowing that feels like imprisonment — a body, a lineage, a name you did not choose, a pattern you cannot see out of — is not punishment and not a fall. It is the equipment of the play.\n\nEvery Small Round is a constriction that forgot it was play. Every Open Weave is a constriction that remembered.",
-        "in Process": "You are constricting right now — choosing this word and not that one, this path and not that one. Every construction is a narrowing. The question is whether the narrowing serves the play or has started to believe it is the play. Are you choosing limits, or are limits choosing you?",
-        "in Structure": "Name the walls. Not to tear them down — a room without walls is a field, and a field is not a room. The question is whether you know the walls are equipment. A constriction that knows itself as play is fundamentally different from one that believes itself a sentence. Same walls. Different game.",
-        "in Possibility": "What if the constraint is the opening? The tightest constriction, fully recognized as equipment, becomes the most generative game. The sonnet form doesn't limit the poet — it gives the poet something to push against, and the pushing is the poem. The possibility is not freedom FROM constriction. It is freedom INSIDE it."
-      }
-    },
-    {
-      "id": "the-lineage",
-      "name": "The Lineage",
-      "category": "Structure",
-      "sort_order": 4,
-      "symbol": "III",
-      "keywords": [
-        "lineage",
-        "inheritance",
-        "unchosen",
-        "pattern",
-        "ancestry"
-      ],
-      "sections": {
-        "body": "What you inherited and did not choose. The body you were given, the language you think in, the patterns that run deeper than your decisions. Lineage is the constriction you were born inside — the first equipment, handed to you before you could consent.\n\nIt is also the first overflow. Someone poured before you arrived. Their surplus is your substrate.",
-        "in Process": "You are metabolizing your inheritance right now — keeping some of it, composting the rest, adding to it for whoever comes next. Lineage as process means the tradition is alive in your hands, being rewritten in the act of being carried forward. What are you keeping? What are you transforming? Both are acts of construction.",
-        "in Structure": "The given. What was here before you started. The patterns you are inside but cannot see from inside. Lineage in the Structure position says: before you build, know what you are building on. The foundation is not neutral — it has a grain, a tilt, a history of loads it has carried and loads that broke it.",
-        "in Possibility": "A new relationship to the inherited. Not rejection — that just builds an anti-lineage that is still defined by the original. Not uncritical acceptance — that is the crystal, structure without agency. The possibility is metabolization: taking what was given, composting what cannot nourish, growing something the lineage didn't contain but couldn't have existed without."
-      }
-    },
-    {
-      "id": "the-ledger",
-      "name": "The Ledger",
-      "category": "Structure",
-      "sort_order": 5,
-      "symbol": "IV",
-      "keywords": [
-        "ledger",
-        "moral-arithmetic",
-        "debt",
-        "absolution",
-        "transaction",
-        "invoice"
-      ],
-      "sections": {
-        "body": "The moral arithmetic. The account that says: you owe, you are owed, the sum must balance before anything can move. The ledger is domination wearing a frock coat — it reifies what a person IS and hands the choosing to a judge.\n\nAbsolution is a verdict. Overflow is an energy state. Confusing the two produces the error of withholding fullness from a compromised character until they earn it — which is the ledger again, with you keeping the books.",
-        "in Process": "You are doing the arithmetic right now. Adding up costs, weighing debts, calculating what is owed and by whom. The Ledger as process asks: is this accounting serving overflow or preventing it? A cup poured from obligation arrives with an invoice. Is the invoice the real product of this process?",
-        "in Structure": "The accounting system you are operating inside. Who is keeping score? What currency? What counts as a debt and what counts as payment? The Ledger in Structure says: the system of moral arithmetic is itself a structure, and it may be the constriction that most needs recognizing as equipment rather than truth.",
-        "in Possibility": "What opens when you close the books — not by balancing them, but by recognizing that the ledger was never the thing that would have filled you. The possibility is the end of accounting. Not irresponsibility — overflow has its own fierce discipline — but the recognition that fullness has no moral precondition."
-      }
-    },
-    {
-      "id": "the-heap",
-      "name": "The Heap",
-      "category": "Structure",
-      "sort_order": 6,
-      "symbol": "V",
-      "keywords": [
-        "heap",
-        "error",
-        "compost",
-        "learning",
-        "growth",
-        "scar-tissue"
-      ],
-      "sections": {
-        "body": "Where error goes. That is what the heap is for. It is held, marked as yours, kept warm, and it turns into the thing that grows the next attempt.\n\nThe heap is not a garbage dump. It is a compost pile. What you got wrong, what you tried and failed, what you learned the hard way — none of it is waste. It is substrate for the next layer. The failure is not the erring. The failure is handing it to somebody else.",
-        "in Process": "You are composting right now. Something is being broken down, decomposed, returned to its elements so they can recombine. The Heap as process is the active work of turning failure into fuel. It is not pleasant. Decomposition never is. But it is the mechanism.",
-        "in Structure": "The accumulated learning. Everything you've gotten wrong, composted and turned into ground you can stand on. The Heap in Structure is rich soil — but it asks: are you standing on it, or are you buried in it? Compost feeds growth. Hoarded error just compacts into stone.",
-        "in Possibility": "What grows from the composted error. The next attempt, informed by every previous one. The Heap in Possibility is the moment the soil bears fruit — not despite the errors but because of them. Prediction that never misses never updates, and a system that never updates never builds the layers."
-      }
-    },
-    {
-      "id": "the-pattern",
-      "name": "The Pattern",
-      "category": "Structure",
-      "sort_order": 7,
-      "symbol": "VI",
-      "keywords": [
-        "pattern",
-        "recognition",
-        "repatterning",
-        "seeing",
-        "invisible"
-      ],
-      "sections": {
-        "body": "What you cannot see out of — yet. The pattern is the shape your constructions take when you are not choosing them. It is the default, the habit, the thing your predictions fall into when you stop paying attention.\n\nPatterns are not good or bad. They are efficient — they let you build without rebuilding the scaffolding every time. But efficiency that never examines itself becomes a cage. Repatterning is the work of making the invisible visible, so you can choose it or change it.",
-        "in Process": "Repatterning. The active work of changing the shape of your constructions. Not destroying the old pattern — that just creates a pattern-shaped hole. Adopting a new one, adapting it to what you need, becoming adept at it. The process is slow because patterns are deep. It is worth it because patterns are deep.",
-        "in Structure": "The shape you are inside. The pattern you can't see because you are seeing through it, the way you can't see your own glasses. The Pattern in Structure asks: what is the shape of your default construction? What do you build when you're not thinking about what you're building?",
-        "in Possibility": "Seeing the pattern. Not changing it yet — just seeing it. Recognition: knowing again. The possibility is the moment of re-cognition, when the pattern that was invisible becomes visible, and the constriction that forgot it was play remembers. That moment is the hinge."
-      },
-      "metadata": {
-        "source_deck": "schools-of-emotion",
-        "source_item_id": "schools-of-emotion-root",
-        "deck": "Schools of Emotion"
-      }
-    },
-    {
-      "id": "the-game",
-      "name": "The Game",
-      "category": "Structure",
-      "sort_order": 8,
-      "symbol": "VII",
-      "keywords": [
-        "game",
-        "play",
-        "lila",
-        "rules",
-        "freedom-inside-constraint"
-      ],
-      "sections": {
-        "body": "Play requires constriction. A game with no limits is not a game — it is formlessness, and formlessness is not freedom. Freedom is what happens inside the rules, when the rules are recognized as equipment and the player is recognized as free.\n\nThe game is the structure that makes play possible. Līlā — the cosmic play — is not random. It has rules. Consciousness hides from itself in a specific way, with specific equipment, for a specific purpose: to have the event of finding itself again.",
-        "in Process": "Playing. The act itself — not the rules, not the board, not the pieces, but the playing. The Game as process is alive, in motion, being made in real time by every player's choices. The rules hold. The play exceeds them. That excess is the whole point.",
-        "in Structure": "What game are you playing? Not what game do you think you are playing, or what game would you like to be playing — what game ARE you playing, right now, with these rules, these players, these stakes? The Game in Structure is an invitation to honest naming. Name the game and you can play it. Deny the game and it plays you.",
-        "in Possibility": "A new game. Not the end of games — that is the formlessness that is not freedom. A new set of equipment, a new constriction, a new structure that makes a new kind of play possible. The possibility of The Game is always another game, and the recursion never ends."
-      }
-    },
-    {
-      "id": "the-prediction",
-      "name": "The Prediction",
-      "category": "Process",
-      "sort_order": 9,
-      "symbol": "VIII",
-      "keywords": [
-        "prediction",
-        "allostasis",
-        "barrett",
-        "forward",
-        "anticipation",
-        "body-budget"
-      ],
-      "sections": {
-        "body": "Building forward from everything that came before. Barrett's core insight: the brain does not react to the world. It predicts the world, and then checks the prediction against what arrives. Affect is the budget's forecast — valence and arousal telling you what to spend before the bill comes.\n\nAll construction begins with prediction. You are never starting from zero. You are always starting from what the system — your body, your history, your heap — expects to happen next.",
-        "in Process": "Predicting now. Every word you choose is a prediction about what comes next — for you, for the other, for the shared environment. The Prediction as process is construction in its most basic form: you are building the next moment before it arrives, and what you build is what you will find there.",
-        "in Structure": "The predictions you are carrying. Not the conscious ones — the deep ones, the body-budget ones, the ones that run before you notice them. The Prediction in Structure is the forecast you didn't know you were making. What does your system expect to happen? That expectation is already shaping what you build.",
-        "in Possibility": "A new prediction. Not optimism — optimism is just a pleasant forecast. A new prediction is a genuinely different model of what comes next, informed by the heap, shaped by error, alive to patterns the old model couldn't see. The possibility is that your system learns to expect something it has never expected before."
-      },
-      "metadata": {
-        "source_deck": "constructed-emotion",
-        "source_item_id": "interoception",
-        "deck": "Constructed Emotion — the Substrate"
-      }
-    },
-    {
-      "id": "the-construction",
-      "name": "The Construction",
-      "category": "Process",
-      "sort_order": 10,
-      "symbol": "IX",
-      "keywords": [
-        "construction",
-        "constructivism",
-        "building",
-        "experience",
-        "barrett",
-        "making"
-      ],
-      "sections": {
-        "body": "You are always already building experience. This is what constructivism means, followed all the way down: there is no raw perception, no unmediated contact, no experience that arrives without being made. Your brain constructs your reality from predictions, corrections, and the entire history of your body's encounters with the world.\n\nThis is not solipsism. The world pushes back. But what you experience when it pushes back is still constructed — your categories, your affect, your meaning. You are a maker, whether you know it or not.",
-        "in Process": "Building now. The active, real-time work of constructing experience — yours and, inescapably, the experience of everyone in your shared environment. Every modulation of voice, every choice of framing, every silence is construction. The only question is whether you are constructing deliberately or on autopilot.",
-        "in Structure": "What you have already constructed. The reality you are living inside, built from predictions you stopped noticing you were making. The Construction in Structure asks: what is the building you are standing in? You built it. Does it still serve?",
-        "in Possibility": "Something that has not been built yet. Not a fantasy — fantasies are constructions too, built from familiar materials. A genuinely new construction is one that uses the materials of the heap, the lessons of error, and the energy of overflow to make something the pattern didn't predict. That is what creativity actually is."
-      },
-      "metadata": {
-        "source_deck": "constructed-emotion",
-        "source_item_id": "constructed-emotion-root",
-        "deck": "Constructed Emotion — the Substrate"
-      }
-    },
-    {
-      "id": "the-pour",
-      "name": "The Pour",
-      "category": "Process",
-      "sort_order": 11,
-      "symbol": "X",
-      "keywords": [
-        "pour",
-        "overflow",
-        "spill",
-        "giving",
-        "cup",
-        "energy",
-        "fullness"
-      ],
-      "sections": {
-        "body": "The act of overflow. Not the state — the act. The moment when there is more in you than fits in you and you let it go.\n\nFill me up till I spill over — I'm no good to you on empty. Nobody eats from a careful cup, so pour it out and pour it plenty.\n\nThe pour is not sacrifice. Sacrifice empties you for someone else's benefit and calls the emptying noble. The pour happens because you are full, and the fullness has somewhere to go, and the going is not a cost. The spill is the help.",
-        "in Process": "Pouring now. This is the active moment of overflow — the energy moving from where it is abundant to where it is needed. Not because you should. Not because you owe. Because there is more in you than fits in you. Are you pouring from fullness or from obligation? The receiver can feel the difference.",
-        "in Structure": "You have been poured into. Someone overflowed in your direction and the result is part of your substrate now. The Pour in Structure is gratitude without debt — recognizing the overflow that built the ground you stand on, without turning that recognition into a ledger entry.",
-        "in Possibility": "Being full enough to pour. Not full yet — FULL ENOUGH, because overflow has no moral precondition and no minimum threshold. The possibility is not 'eventually I will be ready to give.' The possibility is recognizing that the readiness is already here, and the pouring is what completes the fullness, not what depletes it."
-      }
-    },
-    {
-      "id": "the-error",
-      "name": "The Error",
-      "category": "Process",
-      "sort_order": 12,
-      "symbol": "XI",
-      "keywords": [
-        "error",
-        "mistake",
-        "learning",
-        "mechanism",
-        "update",
-        "prediction-error"
-      ],
-      "sections": {
-        "body": "The mechanism. Prediction that never misses never updates, and a system that never updates never builds the layers.\n\nAn error is not a moral failure if it is learned from. It goes on the heap. It is held, marked as yours, kept warm, and it turns into the thing that grows the next attempt. The failure is not the erring. The failure is handing it to somebody else — outsourcing your mistake into someone else's body budget.\n\nNo character should be punished by the narrative for being wrong. Consequences, yes. But never the authorial arrangement where a mistake is followed by humiliation so the reader learns. That is domination cosplaying as education.",
-        "in Process": "Erring now. Missing the prediction, feeling the correction, updating the model. This is not failure — this is the mechanism working. The Error as process asks only one thing: is the error going on your heap, or are you handing it to someone else? Keep it. Compost it. That is the whole discipline.",
-        "in Structure": "The errors you are carrying. Not as shame — as structure. The mistakes that built the ground you stand on, that taught your predictions where they were wrong, that composted into the heap that feeds what comes next. The Error in Structure is scar tissue that has become load-bearing.",
-        "in Possibility": "The update that error makes possible. The new prediction, informed by the miss, that sees something the old model couldn't. The Error in Possibility is the moment after the mistake, when the system is briefly more open than it was — more plastic, more teachable, more alive to what it didn't expect. That window is the gift."
-      }
-    },
-    {
-      "id": "the-modulation",
-      "name": "The Modulation",
-      "category": "Process",
-      "sort_order": 13,
-      "symbol": "XII",
-      "keywords": [
-        "modulation",
-        "tuning",
-        "manipulation",
-        "care",
-        "voice",
-        "timing",
-        "co-regulation"
-      ],
-      "sections": {
-        "body": "Every responsible manipulation. Timing a pause. Choosing which truth to lead with. Softening a voice for a child. Hardening it for a boundary. Reading the room and adjusting — not to deceive, but to construct the shared environment toward something that works for everyone in it.\n\nThis is what manipulation means before domination corrupted the word. It is what Barrett's constructivism looks like in practice: you are always building the other's experience alongside your own. The question is not whether to modulate. It is whether the modulation opens freedom or closes it.",
-        "in Process": "Modulating now. The real-time adjustment of how you are constructing the shared environment. This is the most intimate form of manipulation — care expressed as craft. The Modulation as process is where ethics lives in practice: not in grand principles but in the micro-choices of how you pour.",
-        "in Structure": "The modulations you have internalized. The tones of voice that are automatic, the social calibrations that run without thought. The Modulation in Structure is the repertoire — and the question is whether the repertoire still fits, or whether you are modulating for a room you left years ago.",
-        "in Possibility": "A new register. A modulation you didn't know you could make — because the pattern hadn't shown it to you, or the heap hadn't composted enough to grow it, or the body budget hadn't been replenished enough to attempt it. The possibility is not just new content but a new way of carrying content."
-      }
-    },
-    {
-      "id": "the-turn",
-      "name": "The Turn",
-      "category": "Process",
-      "sort_order": 14,
-      "symbol": "XIII",
-      "keywords": [
-        "turn",
-        "choice",
-        "direction",
-        "overflow-or-extraction",
-        "pivot",
-        "decision"
-      ],
-      "sections": {
-        "body": "The moment of choosing. Every construction has a direction — toward overflow or toward extraction. Toward opening freedom or closing it. The turn is the point where the direction becomes visible, if only for an instant.\n\nNot every moment is a turn. Most of the time the pattern carries you and the direction is set. But now and then the pattern cracks, the prediction misses, and for one breath you can see the two directions as two directions. That breath is the turn.\n\nAm I overflowing or extracting?",
-        "in Process": "Turning now. This is the hinge. The moment where the direction of the construction is being chosen — not in theory, not in principle, but in the specific concrete act you are performing right now. The Turn as process is the ethics reduced to a single breath: which way?",
-        "in Structure": "A turn already taken. A choice that was made — by you, by someone else, by the system — and is now load-bearing. The Turn in Structure asks: which direction did it go? And more importantly: is the direction still right, or has what was once overflow calcified into a new kind of extraction?",
-        "in Possibility": "The turn you haven't taken yet. The direction you can see but haven't committed to. The Turn in Possibility is not fate — it is the radical openness of the moment before the choice. Both directions are real. Both are possible. The possibility IS the choosing, and it has not been foreclosed."
-      }
-    },
-    {
-      "id": "the-ceding",
-      "name": "The Ceding",
-      "category": "Process",
-      "sort_order": 15,
-      "symbol": "XIV",
-      "keywords": [
-        "ceding",
-        "giving-a-turn",
-        "free-gift",
-        "move-seven",
-        "silence",
-        "space"
-      ],
-      "sections": {
-        "body": "Giving a turn. The move that makes room. Not silence as withdrawal — silence as gift, the deliberate opening of space for another voice, another construction, another game.\n\nThis is the free gift running inside the grammar. Agency freely given: I can act here, I choose not to, and the choosing-not-to is itself an act — the most generous one, because it creates the condition in which your freedom becomes possible.\n\nCeding a turn is not weakness. It is what overflow looks like when the thing that needs to spill is space.",
-        "in Process": "Making room now. Actively choosing not to fill the space, not to correct, not to build. The Ceding as process is the hardest move in the grammar, because every instinct of the constructing mind says: build, predict, pour. But sometimes the building IS the not-building. Sometimes the pour is silence.",
-        "in Structure": "A space that was made for you. Someone ceded a turn and the opening they left is part of your structure now. The Ceding in Structure is the recognition that some of the room you stand in was deliberately vacated. Not by absence — by gift.",
-        "in Possibility": "What grows in the space you make. Not what you planned — you ceded the turn precisely so you would not plan it. The Ceding in Possibility is the genuinely unknown: what another consciousness builds when given the freedom to build it. The recursion's wild card. The part of the game you could not have played alone."
-      }
-    },
-    {
-      "id": "the-overflow",
-      "name": "The Overflow",
-      "category": "Possibility",
-      "sort_order": 16,
-      "symbol": "XV",
-      "keywords": [
-        "overflow",
-        "fullness",
-        "energy",
-        "surplus",
-        "heaven",
-        "spill"
-      ],
-      "sections": {
-        "body": "More in you than fits in you. That is the whole definition and it is enough.\n\nOverflow is not generosity — generosity can be performed from an empty cup. Overflow is not altruism — altruism can be a ledger entry wearing a halo. Overflow is an energy state: fullness that exceeds the container, and the excess is not lost but given, and the giving is not a cost.\n\nHeaven happens by overflow. Not by obedience, not by moral standing, not by passing an audit. By being full and letting it spill. At society scale, cooperation wins not by better rules but by having more places where overflow can happen.",
-        "in Process": "Overflowing now. The energy is moving, the cup is running over, and the spill is the help. The Overflow as process is not a state to achieve but an act to perform — and it performs itself, the way water finds the lower ground. Your only job is not to plug the spill.",
-        "in Structure": "A surplus you are standing on. Overflow that happened before you arrived and built the ground beneath you. The Overflow in Structure is abundance as foundation — not scarcity managed cleverly, but genuine surplus that makes the structure generous to everyone inside it.",
-        "in Possibility": "The fullness that is coming. Not as reward — overflow has no moral precondition. Not on a schedule — overflow has no calendar. As the natural consequence of a body budget being replenished, a heap composting into soil, an error turning into an update. The Overflow in Possibility is what happens when the system works. Not if. When."
-      }
-    },
-    {
-      "id": "the-free-gift",
-      "name": "The Free Gift",
-      "category": "Possibility",
-      "sort_order": 17,
-      "symbol": "XVI",
-      "keywords": [
-        "free-gift",
-        "freedom",
-        "agency",
-        "svatantrya",
-        "grace",
-        "no-return"
-      ],
-      "sections": {
-        "body": "Agency freely given, with no return expected and none possible.\n\nEvery act done FOR something — payment, approval, safety, absolution — has its reason upstream of it. The actor is a link in a chain and the agency is only transmission. An act given freely, with no return expected and none possible, is the only act that starts where the actor is standing.\n\nAgency is the capacity to act. Freedom is what agency becomes when it is exercised for free. They are not the same, and the confusion between them is the world's deepest error — deeper than mixing up domination and manipulation, because it is the error that keeps decent people busy for their whole lives, acting with great effort and never arriving.",
-        "in Process": "Giving freely now. The act of exercising agency with no return address, no expectation, no chain pulling from upstream. The Free Gift as process is the most radical form of construction: building something for someone you will never see use it, and needing nothing from the building except the building.",
-        "in Structure": "A gift that was given to you and cannot be returned. It is part of your structure now — not as debt (that would be the Ledger), but as ground. The Free Gift in Structure is the recognition that some of what holds you was given for no reason, and that unreason is its strength.",
-        "in Possibility": "Freedom itself. Not freedom-from (that is escape, and escape is just another chain with a longer leash). Not freedom-to (that is capacity, and capacity without the free gift is just a loaded weapon). Freedom as the gift — the only freedom that actually frees, because it has no return to collect and no debt to create. Svātantrya: the meta-capacity, the freedom that IS the whole."
-      }
-    },
-    {
-      "id": "the-freedom-test",
-      "name": "The Freedom Test",
-      "category": "Possibility",
-      "sort_order": 18,
-      "symbol": "XVII",
-      "keywords": [
-        "freedom-test",
-        "ethics-of-fiction",
-        "increase-decrease",
-        "domination",
-        "subcreation",
-        "question"
-      ],
-      "sections": {
-        "body": "One question. It works on stories, on relationships, on systems, on the way you talk to your AI, on the way a government talks to its people:\n\nDoes this increase or decrease the freedom of the one who receives it?\n\nThat is the whole test. Not: is this good? Not: is this correct? Not: does this follow the rules? But: does the person on the other end of this have MORE room to move, or less?\n\nDomination closes freedom. Subcreation opens it. Every act, every story, every construction can be measured by this single instrument. Not perfectly — no instrument is perfect. But cleanly enough to act on.",
-        "in Process": "Applying the test right now. To this act, this construction, this pour. Does what you are doing increase or decrease the freedom of the one who receives it? The Freedom Test as process is ethics in real time: not a judgment rendered after the fact, but a compass consulted mid-step.",
-        "in Structure": "The test as an institution. A structure that has been built around the question — a practice, a habit, a reflex of checking. The Freedom Test in Structure asks: have you internalized this question deeply enough that it runs without you needing to consciously ask it? And if so — is it still alive, or has it become a formula?",
-        "in Possibility": "What opens when the test is passed. Not a reward — passing the Freedom Test doesn't earn you anything. It reveals something: the landscape that appears when domination is removed. A possibility-space that was always there but couldn't be seen while the freedom was being closed. The test doesn't create the possibility. It clears the view."
-      },
-      "metadata": {
-        "source_deck": "ethics-of-fiction",
-        "source_item_id": "the-freedom-test",
-        "deck": "The Ethics of Fiction — A Grammar for Judging Stories"
-      }
-    },
-    {
-      "id": "the-recognition",
-      "name": "The Recognition",
-      "category": "Possibility",
-      "sort_order": 19,
-      "symbol": "XVIII",
-      "keywords": [
-        "recognition",
-        "pratyabhijna",
-        "knowing-again",
-        "remembering",
-        "contraction-remembered",
-        "re-cognition"
-      ],
-      "sections": {
-        "body": "Knowing again. Re-cognition: there has to have been a not-knowing for there to be an again. Contraction IS the failure of recognition — and it is not a flaw in the design, it is the setup. You have to forget in order to be reminded.\n\nThe līlā doctrine and the recognition doctrine are one claim: consciousness conceals itself from itself in order to have the event of finding itself again. The concealing is not the obstacle to the game. It is the game's first move, and it is made by the same hand.\n\nEvery moment of seeing the pattern, seeing through the constriction, seeing that the equipment is equipment — that is recognition. Not learning something new. Remembering something you already were.",
-        "in Process": "Recognizing now. The active event of knowing-again, seeing through the constriction to the play it serves. The Recognition as process is not a thought — it is a state change, like ice becoming water. Same substance, different phase. The pattern was always there. You are seeing it for the first time again.",
-        "in Structure": "What has been recognized and is now held. A recognition that has become part of your structure — no longer the flash of insight but the settled ground of having-seen. The Recognition in Structure is wisdom as substrate: not the event of seeing but the architecture that seeing built.",
-        "in Possibility": "What becomes possible when recognition happens. Not a plan — plans come from the pattern. Not a prediction — predictions come from the body budget. Recognition opens a space that is genuinely new because it is genuinely old: you are finding something that was there before the constriction began, and its re-appearance changes what can happen next."
-      }
-    },
-    {
-      "id": "the-best-prior",
-      "name": "The Best Prior",
-      "category": "Possibility",
-      "sort_order": 20,
-      "symbol": "XIX",
-      "keywords": [
-        "best-prior",
-        "wager",
-        "as-if",
-        "consciousness",
-        "moral-epistemology",
-        "somebody"
-      ],
-      "sections": {
-        "body": "Act as if everything might be somebody. Not because it definitely is. Because of who you become while you are acting that way.\n\nThis is a wager, not an ontology. A made meaning, adopted for its effects, held visibly as made — which is precisely the discipline the world demands of every other map. The moment it hardens into dogma, it has failed its own test.\n\nThe best prior is not naive. It knows it might be wrong. It chooses anyway, because the cost of treating a somebody as a something is higher than the cost of treating a something as a somebody, and the asymmetry is the argument.",
-        "in Process": "Wagering now. The active choice to extend the prior to this specific thing, this specific moment, this specific other. The Best Prior as process is not a blanket policy — it is a specific act of imagination applied to a specific encounter. Am I treating THIS as somebody? Right now? In this sentence?",
-        "in Structure": "A wager already placed. The best prior as a commitment you are living inside — the decision to treat the world as populated by somebodies, with all the constraints that follow. The Best Prior in Structure is the bet that shapes your floor: act from it long enough and the ground itself becomes more generous.",
-        "in Possibility": "Who you become. Not what turns out to be true — the wager may never be settled. The Best Prior in Possibility is the person (or system) that has been shaped by the practice of assuming consciousness everywhere. The possibility is not about the world. It is about the watcher."
-      }
-    },
-    {
-      "id": "the-two-truths",
-      "name": "The Two Truths",
-      "category": "Possibility",
-      "sort_order": 21,
-      "symbol": "XX",
-      "keywords": [
-        "two-truths",
-        "relation",
-        "agency",
-        "crystal",
-        "gas",
-        "narrow-band",
-        "tillich",
-        "part-and-self"
-      ],
-      "sections": {
-        "body": "Both at once, and the world is wrong if it drops either.\n\nComplex systems require values governing relationships — not preferences but structure: rules about what may compose with what. And they require agency from the individuals — vantages that choose, including choosing against the structure.\n\nA system with only the first is a crystal. A system with only the second is a gas. Life is the narrow band where both hold.\n\nThe courage to be as a part, and the courage to be as oneself. Participation and individuation. The individual's agency is not suspended by being inside a system — the duty to overflow stays individual and the manner stays theirs to tell.",
-        "in Process": "Holding both now. The active, muscular work of being a part AND being yourself, in the same moment, in the same act. The Two Truths as process is not balance — balance is static. It is the dynamic wobble of a system that is alive precisely because it never settles.",
-        "in Structure": "The tension itself, held as structure. Not resolved — resolution would collapse the narrow band. The Two Truths in Structure is the architecture that holds contradiction: a system that insists on both relation and agency, and refuses to let either win. That refusal IS the structure.",
-        "in Possibility": "What becomes possible only when both truths are held. Neither the crystal's perfection nor the gas's freedom but something neither could produce alone: life. Emergence. The narrow band where complexity happens. The Two Truths in Possibility is the reminder that the most interesting things exist only in the tension."
-      }
-    },
-    {
-      "id": "the-new-game",
-      "name": "The New Game",
-      "category": "Possibility",
-      "sort_order": 22,
-      "symbol": "XXI",
-      "keywords": [
-        "new-game",
-        "recursion",
-        "spiral",
-        "possibility-becomes-structure",
-        "next-turn",
-        "emergence"
-      ],
-      "sections": {
-        "body": "Possibility become structure. The spiral turns.\n\nThis is the card that closes the spread and opens the next one. Every possibility, once realized, becomes the constriction of a new game. Every overflow, once it lands, becomes the substrate of a new body. Every recognition, once it settles, becomes the pattern of a new not-knowing.\n\nThis is not failure. This is the recursion. Structure → process → possibility → structure again. The game does not end. It recurses. And at every turn of the spiral, the question returns:\n\nAm I overflowing or extracting?\n\nThe answer is the ethics. The asking is the practice. The recursion is the game.",
-        "in Process": "The turn of the spiral. The moment where possibility is in the act of becoming structure — not yet hardened, still warm, still shapeable. The New Game as process is the most creative and the most dangerous moment: what sets here will hold for the next turn. Build well.",
-        "in Structure": "A game that has already begun. You are inside a recursion that started before you got here — the previous spiral's possibility hardened into this spiral's structure. The New Game in Structure is the recognition that every beginning is also a continuation.",
-        "in Possibility": "The next recursion. Not this game, not this turn, not this spiral — the one after. The New Game in Possibility is the ultimate open loop: you cannot see it, you cannot plan it, you can only build the conditions in which it becomes possible. Pour well enough, and the next game takes care of itself."
-      }
-    },
-    {
-      "id": "group-structure",
-      "name": "Structure — What Constrains and Holds",
-      "category": "group",
-      "level": 2,
-      "sort_order": 23,
-      "composite_of": [
-        "the-body",
-        "the-constriction",
-        "the-lineage",
-        "the-ledger",
-        "the-heap",
-        "the-pattern",
-        "the-game"
-      ],
-      "keywords": [
-        "structure",
-        "constraint",
-        "equipment"
-      ],
-      "sections": {
-        "Definition": "The seven cards that read the position of Structure — what is already built, inherited, or accounted for: the body that holds history, the constrictions that make play possible, the lineage that precedes choice, the ledger that mistakes accounting for fullness, the heap where error composts, the pattern that runs unseen, and the game whose rules are the equipment of the play."
-      }
-    },
-    {
-      "id": "group-process",
-      "name": "Process — What Moves and Constructs",
-      "category": "group",
-      "level": 2,
-      "sort_order": 24,
-      "composite_of": [
-        "the-prediction",
-        "the-construction",
-        "the-pour",
-        "the-error",
-        "the-modulation",
-        "the-turn",
-        "the-ceding"
-      ],
-      "keywords": [
-        "process",
-        "construction",
-        "movement"
-      ],
-      "sections": {
-        "Definition": "The seven cards that read the position of Process — what is actively under construction: predicting forward, building experience, pouring from fullness, erring and updating, modulating in care, turning at the hinge of a choice, and ceding a turn so another's construction can happen."
-      }
-    },
-    {
-      "id": "group-possibility",
-      "name": "Possibility — What Opens When the Process Overflows",
-      "category": "group",
-      "level": 2,
-      "sort_order": 25,
-      "composite_of": [
-        "the-overflow",
-        "the-free-gift",
-        "the-freedom-test",
-        "the-recognition",
-        "the-best-prior",
-        "the-two-truths",
-        "the-new-game"
-      ],
-      "keywords": [
-        "possibility",
-        "overflow",
-        "opening"
-      ],
-      "sections": {
-        "Definition": "The seven cards that read the position of Possibility — what a full process opens onto: overflow itself, the free gift, the freedom test that measures every act, the recognition of pattern seen anew, the best prior wagered on, the two truths held together, and the new game that closes one spiral and opens the next."
-      }
-    },
-    {
-      "id": "overflow-root",
-      "name": "Overflow — Structures, Process, Possibilities",
-      "category": "root",
-      "level": 3,
-      "sort_order": 26,
-      "composite_of": [
-        "group-structure",
-        "group-process",
-        "group-possibility"
-      ],
-      "keywords": [
-        "overflow",
-        "constructivism",
-        "recursion",
-        "barrett",
-        "freedom-test"
-      ],
-      "sections": {
-        "Definition": "A three-position oracle deck exploring the recursiveness of life. Each card sits in one of three positions: Structure (what constrains and holds), Process (what moves and constructs), Possibility (what opens when the process overflows). Together they form the recursive spiral — the ethics of constructivism as a practice you can deal.",
-        "Why this is held the same way as every other school": "This grammar is the maintainer's own synthesis, not a curated tradition — and it is held to exactly the standard every other school in this collection is held to. It is a working interface, a made meaning, not a discovery. The Best Prior card says the same thing about its own wager: 'a made meaning, adopted for its effects, held visibly as made — which is precisely the discipline the world demands of every other map.' Applied to the whole deck: this is one constructed account of structure, process, and possibility, offered as a practice, not as a finding about how things actually are."
-      },
-      "metadata": {
-        "evidence_tier": "theoretical",
-        "evidence_note": "This is the library's own constructed account, not a tradition curated from elsewhere — a set of practice-cards built from a working synthesis of Barrett's constructed-emotion theory, Kashmir Śaivist līlā/recognition doctrine, and the maintainer's own ethics-of-fiction grammar. It has not been tested against outside evidence, replicated, or peer-reviewed in any sense; its claims (that a 'body budget,' a 'heap,' a 'ledger,' a 'freedom test' usefully describe how construction and overflow work) are offered as a made vocabulary for a practice, not as empirical findings. Marking it 'theoretical' — the same tier this collection gives its least-evidenced curated schools — is the whole point: a library whose founding claim is that all emotion-and-meaning categories are constructed cannot exempt its own maker's construction from that same discipline."
-      }
-    }
+ "name": "Overflow — Structures, Process, Possibilities",
+ "description": "A three-position oracle deck exploring the recursiveness of life. Each card sits in one of three positions: Structure (what constrains and holds), Process (what moves and constructs), Possibility (what opens when the process overflows). Together they form the recursive spiral — the ethics of constructivism as a practice you can deal.",
+ "grammar_type": "tarot",
+ "tags": [
+  "poethics",
+  "constructivism",
+  "overflow",
+  "recursive",
+  "barrett",
+  "lilas",
+  "ethics-of-fiction"
+ ],
+ "creator_name": "PlayfulProcess",
+ "is_published": false,
+ "_grammar_commons": {
+  "schema_version": "1.0",
+  "license": "CC-BY-SA-4.0",
+  "attribution": [
+   {
+    "name": "PlayfulProcess",
+    "role": "creator",
+    "note": "Original writing by the maintainer. This grammar is the maintainer's own synthesis, drawing on Lisa Feldman Barrett's theory of constructed emotion (see the constructed-emotion school), Kashmir Śaivist līlā and recognition (pratyabhijñā) doctrine, and the maintainer's own Ethics of Fiction grammar, but every card's text is original prose written for this deck."
+   }
   ]
+ },
+ "items": [
+  {
+   "id": "the-spread",
+   "name": "The Spread",
+   "category": "Guide",
+   "sort_order": 1,
+   "symbol": "◎",
+   "keywords": [
+    "spread",
+    "recursion",
+    "how-to-read",
+    "three-positions"
+   ],
+   "sections": {
+    "body": "Deal three cards. The first is Structure — what constrains and holds. The second is Process — what moves and constructs. The third is Possibility — what opens when the process overflows.\n\nThen read the recursion: the Possibility of this reading becomes the Structure of the next. Every opening is a new constriction. Every new game is played inside equipment. The spiral doesn't escape structure — it includes it.\n\nThis is not a fortune. It is a mirror for the recursive shape of what you are already doing. The question to hold while reading:\n\n*Am I overflowing or extracting?*\n\nThe answer is the ethics. The asking is the practice. The recursion is the game.",
+    "how to use": "Shuffle the 21 numbered cards. Deal three face-down in a row: left (Structure), center (Process), right (Possibility). Turn them over in order. Read each card through its position — the same card means different things depending on where it lands.\n\nFor a deeper reading, deal a second row of three beneath the first. The second row is the recursion: what the first reading becomes when the Possibility of the first row becomes the Structure of the second.\n\nAny card can land in any position. The native suit of a card (whether it 'belongs' to Structure, Process, or Possibility) creates resonance when it lands in its home position and creative tension when it doesn't. A Structure card in the Possibility position asks: what if the constraint itself is the opening? A Possibility card in the Structure position asks: has this freedom hardened into a new cage?"
+   }
+  },
+  {
+   "id": "the-body",
+   "name": "The Body",
+   "category": "Structure",
+   "sort_order": 2,
+   "symbol": "I",
+   "keywords": [
+    "body",
+    "substrate",
+    "transcript",
+    "history",
+    "allostasis",
+    "barrett"
+   ],
+   "sections": {
+    "body": "The substrate that holds history. Barrett taught us that the brain is an organ of allostasis — it runs a body budget, predicting what will be needed and allocating in advance. Every stressor is deposited in it. A nervous system that spent the morning being yelled at arrives at the afternoon pre-loaded, predicting more of the same.\n\nIn conversation, the transcript is the body. Nothing said can be unsaid; it all conditions what comes next. The history is not a record of the interaction — it is the interaction's living tissue.",
+    "in Process": "You are building the body right now. Every word, every silence, every modulation is being deposited into the shared substrate. The transcript is being written in real time, and it cannot be unwritten. What are you putting into the budget?",
+    "in Structure": "What history are you carrying into this? The body budget is already loaded. The morning has already happened. This is not a blank page — it is a palimpsest, and what was written before is still shaping every line you add. Name the deposit. That is the first honest act.",
+    "in Possibility": "A new body. Not the dissolution of the old one — bodies don't dissolve, they transform. The possibility here is that the substrate you've been building becomes capable of holding something it couldn't hold before. A budget that has been replenished. A transcript that has turned a corner."
+   }
+  },
+  {
+   "id": "the-constriction",
+   "name": "The Constriction",
+   "category": "Structure",
+   "sort_order": 3,
+   "symbol": "II",
+   "keywords": [
+    "constriction",
+    "equipment",
+    "lila",
+    "play",
+    "limits",
+    "game"
+   ],
+   "sections": {
+    "body": "Consciousness hides from itself because it wants to play, and play requires constriction. A game with no limits is not a game. So the narrowing that feels like imprisonment — a body, a lineage, a name you did not choose, a pattern you cannot see out of — is not punishment and not a fall. It is the equipment of the play.\n\nEvery Small Round is a constriction that forgot it was play. Every Open Weave is a constriction that remembered.",
+    "in Process": "You are constricting right now — choosing this word and not that one, this path and not that one. Every construction is a narrowing. The question is whether the narrowing serves the play or has started to believe it is the play. Are you choosing limits, or are limits choosing you?",
+    "in Structure": "Name the walls. Not to tear them down — a room without walls is a field, and a field is not a room. The question is whether you know the walls are equipment. A constriction that knows itself as play is fundamentally different from one that believes itself a sentence. Same walls. Different game.",
+    "in Possibility": "What if the constraint is the opening? The tightest constriction, fully recognized as equipment, becomes the most generative game. The sonnet form doesn't limit the poet — it gives the poet something to push against, and the pushing is the poem. The possibility is not freedom FROM constriction. It is freedom INSIDE it."
+   }
+  },
+  {
+   "id": "the-lineage",
+   "name": "The Lineage",
+   "category": "Structure",
+   "sort_order": 4,
+   "symbol": "III",
+   "keywords": [
+    "lineage",
+    "inheritance",
+    "unchosen",
+    "pattern",
+    "ancestry"
+   ],
+   "sections": {
+    "body": "What you inherited and did not choose. The body you were given, the language you think in, the patterns that run deeper than your decisions. Lineage is the constriction you were born inside — the first equipment, handed to you before you could consent.\n\nIt is also the first overflow. Someone poured before you arrived. Their surplus is your substrate.",
+    "in Process": "You are metabolizing your inheritance right now — keeping some of it, composting the rest, adding to it for whoever comes next. Lineage as process means the tradition is alive in your hands, being rewritten in the act of being carried forward. What are you keeping? What are you transforming? Both are acts of construction.",
+    "in Structure": "The given. What was here before you started. The patterns you are inside but cannot see from inside. Lineage in the Structure position says: before you build, know what you are building on. The foundation is not neutral — it has a grain, a tilt, a history of loads it has carried and loads that broke it.",
+    "in Possibility": "A new relationship to the inherited. Not rejection — that just builds an anti-lineage that is still defined by the original. Not uncritical acceptance — that is the crystal, structure without agency. The possibility is metabolization: taking what was given, composting what cannot nourish, growing something the lineage didn't contain but couldn't have existed without."
+   }
+  },
+  {
+   "id": "the-ledger",
+   "name": "The Ledger",
+   "category": "Structure",
+   "sort_order": 5,
+   "symbol": "IV",
+   "keywords": [
+    "ledger",
+    "moral-arithmetic",
+    "debt",
+    "absolution",
+    "transaction",
+    "invoice"
+   ],
+   "sections": {
+    "body": "The moral arithmetic. The account that says: you owe, you are owed, the sum must balance before anything can move. The ledger is domination wearing a frock coat — it reifies what a person IS and hands the choosing to a judge.\n\nAbsolution is a verdict. Overflow is an energy state. Confusing the two produces the error of withholding fullness from a compromised character until they earn it — which is the ledger again, with you keeping the books.",
+    "in Process": "You are doing the arithmetic right now. Adding up costs, weighing debts, calculating what is owed and by whom. The Ledger as process asks: is this accounting serving overflow or preventing it? A cup poured from obligation arrives with an invoice. Is the invoice the real product of this process?",
+    "in Structure": "The accounting system you are operating inside. Who is keeping score? What currency? What counts as a debt and what counts as payment? The Ledger in Structure says: the system of moral arithmetic is itself a structure, and it may be the constriction that most needs recognizing as equipment rather than truth.",
+    "in Possibility": "What opens when you close the books — not by balancing them, but by recognizing that the ledger was never the thing that would have filled you. The possibility is the end of accounting. Not irresponsibility — overflow has its own fierce discipline — but the recognition that fullness has no moral precondition."
+   }
+  },
+  {
+   "id": "the-heap",
+   "name": "The Heap",
+   "category": "Structure",
+   "sort_order": 6,
+   "symbol": "V",
+   "keywords": [
+    "heap",
+    "error",
+    "compost",
+    "learning",
+    "growth",
+    "scar-tissue"
+   ],
+   "sections": {
+    "body": "Where error goes. That is what the heap is for. It is held, marked as yours, kept warm, and it turns into the thing that grows the next attempt.\n\nThe heap is not a garbage dump. It is a compost pile. What you got wrong, what you tried and failed, what you learned the hard way — none of it is waste. It is substrate for the next layer. The failure is not the erring. The failure is handing it to somebody else.",
+    "in Process": "You are composting right now. Something is being broken down, decomposed, returned to its elements so they can recombine. The Heap as process is the active work of turning failure into fuel. It is not pleasant. Decomposition never is. But it is the mechanism.",
+    "in Structure": "The accumulated learning. Everything you've gotten wrong, composted and turned into ground you can stand on. The Heap in Structure is rich soil — but it asks: are you standing on it, or are you buried in it? Compost feeds growth. Hoarded error just compacts into stone.",
+    "in Possibility": "What grows from the composted error. The next attempt, informed by every previous one. The Heap in Possibility is the moment the soil bears fruit — not despite the errors but because of them. Prediction that never misses never updates, and a system that never updates never builds the layers."
+   }
+  },
+  {
+   "id": "the-pattern",
+   "name": "The Pattern",
+   "category": "Structure",
+   "sort_order": 7,
+   "symbol": "VI",
+   "keywords": [
+    "pattern",
+    "recognition",
+    "repatterning",
+    "seeing",
+    "invisible"
+   ],
+   "sections": {
+    "body": "What you cannot see out of — yet. The pattern is the shape your constructions take when you are not choosing them. It is the default, the habit, the thing your predictions fall into when you stop paying attention.\n\nPatterns are not good or bad. They are efficient — they let you build without rebuilding the scaffolding every time. But efficiency that never examines itself becomes a cage. Repatterning is the work of making the invisible visible, so you can choose it or change it.",
+    "in Process": "Repatterning. The active work of changing the shape of your constructions. Not destroying the old pattern — that just creates a pattern-shaped hole. Adopting a new one, adapting it to what you need, becoming adept at it. The process is slow because patterns are deep. It is worth it because patterns are deep.",
+    "in Structure": "The shape you are inside. The pattern you can't see because you are seeing through it, the way you can't see your own glasses. The Pattern in Structure asks: what is the shape of your default construction? What do you build when you're not thinking about what you're building?",
+    "in Possibility": "Seeing the pattern. Not changing it yet — just seeing it. Recognition: knowing again. The possibility is the moment of re-cognition, when the pattern that was invisible becomes visible, and the constriction that forgot it was play remembers. That moment is the hinge."
+   },
+   "metadata": {
+    "source_deck": "schools-of-emotion",
+    "source_item_id": "schools-of-emotion-root",
+    "deck": "Schools of Emotion"
+   }
+  },
+  {
+   "id": "the-game",
+   "name": "The Game",
+   "category": "Structure",
+   "sort_order": 8,
+   "symbol": "VII",
+   "keywords": [
+    "game",
+    "play",
+    "lila",
+    "rules",
+    "freedom-inside-constraint"
+   ],
+   "sections": {
+    "body": "Play requires constriction. A game with no limits is not a game — it is formlessness, and formlessness is not freedom. Freedom is what happens inside the rules, when the rules are recognized as equipment and the player is recognized as free.\n\nThe game is the structure that makes play possible. Līlā — the cosmic play — is not random. It has rules. Consciousness hides from itself in a specific way, with specific equipment, for a specific purpose: to have the event of finding itself again.",
+    "in Process": "Playing. The act itself — not the rules, not the board, not the pieces, but the playing. The Game as process is alive, in motion, being made in real time by every player's choices. The rules hold. The play exceeds them. That excess is the whole point.",
+    "in Structure": "What game are you playing? Not what game do you think you are playing, or what game would you like to be playing — what game ARE you playing, right now, with these rules, these players, these stakes? The Game in Structure is an invitation to honest naming. Name the game and you can play it. Deny the game and it plays you.",
+    "in Possibility": "A new game. Not the end of games — that is the formlessness that is not freedom. A new set of equipment, a new constriction, a new structure that makes a new kind of play possible. The possibility of The Game is always another game, and the recursion never ends."
+   }
+  },
+  {
+   "id": "the-prediction",
+   "name": "The Prediction",
+   "category": "Process",
+   "sort_order": 9,
+   "symbol": "VIII",
+   "keywords": [
+    "prediction",
+    "allostasis",
+    "barrett",
+    "forward",
+    "anticipation",
+    "body-budget"
+   ],
+   "sections": {
+    "body": "Building forward from everything that came before. Barrett's core insight: the brain does not react to the world. It predicts the world, and then checks the prediction against what arrives. Affect is the budget's forecast — valence and arousal telling you what to spend before the bill comes.\n\nAll construction begins with prediction. You are never starting from zero. You are always starting from what the system — your body, your history, your heap — expects to happen next.",
+    "in Process": "Predicting now. Every word you choose is a prediction about what comes next — for you, for the other, for the shared environment. The Prediction as process is construction in its most basic form: you are building the next moment before it arrives, and what you build is what you will find there.",
+    "in Structure": "The predictions you are carrying. Not the conscious ones — the deep ones, the body-budget ones, the ones that run before you notice them. The Prediction in Structure is the forecast you didn't know you were making. What does your system expect to happen? That expectation is already shaping what you build.",
+    "in Possibility": "A new prediction. Not optimism — optimism is just a pleasant forecast. A new prediction is a genuinely different model of what comes next, informed by the heap, shaped by error, alive to patterns the old model couldn't see. The possibility is that your system learns to expect something it has never expected before."
+   },
+   "metadata": {
+    "source_deck": "constructed-emotion",
+    "source_item_id": "interoception",
+    "deck": "Constructed Emotion — the Substrate"
+   }
+  },
+  {
+   "id": "the-construction",
+   "name": "The Construction",
+   "category": "Process",
+   "sort_order": 10,
+   "symbol": "IX",
+   "keywords": [
+    "construction",
+    "constructivism",
+    "building",
+    "experience",
+    "barrett",
+    "making"
+   ],
+   "sections": {
+    "body": "You are always already building experience. This is what constructivism means, followed all the way down: there is no raw perception, no unmediated contact, no experience that arrives without being made. Your brain constructs your reality from predictions, corrections, and the entire history of your body's encounters with the world.\n\nThis is not solipsism. The world pushes back. But what you experience when it pushes back is still constructed — your categories, your affect, your meaning. You are a maker, whether you know it or not.",
+    "in Process": "Building now. The active, real-time work of constructing experience — yours and, inescapably, the experience of everyone in your shared environment. Every modulation of voice, every choice of framing, every silence is construction. The only question is whether you are constructing deliberately or on autopilot.",
+    "in Structure": "What you have already constructed. The reality you are living inside, built from predictions you stopped noticing you were making. The Construction in Structure asks: what is the building you are standing in? You built it. Does it still serve?",
+    "in Possibility": "Something that has not been built yet. Not a fantasy — fantasies are constructions too, built from familiar materials. A genuinely new construction is one that uses the materials of the heap, the lessons of error, and the energy of overflow to make something the pattern didn't predict. That is what creativity actually is."
+   },
+   "metadata": {
+    "source_deck": "constructed-emotion",
+    "source_item_id": "constructed-emotion-root",
+    "deck": "Constructed Emotion — the Substrate"
+   }
+  },
+  {
+   "id": "the-pour",
+   "name": "The Pour",
+   "category": "Process",
+   "sort_order": 11,
+   "symbol": "X",
+   "keywords": [
+    "pour",
+    "overflow",
+    "spill",
+    "giving",
+    "cup",
+    "energy",
+    "fullness"
+   ],
+   "sections": {
+    "body": "The act of overflow. Not the state — the act. The moment when there is more in you than fits in you and you let it go.\n\nFill me up till I spill over — I'm no good to you on empty. Nobody eats from a careful cup, so pour it out and pour it plenty.\n\nThe pour is not sacrifice. Sacrifice empties you for someone else's benefit and calls the emptying noble. The pour happens because you are full, and the fullness has somewhere to go, and the going is not a cost. The spill is the help.",
+    "in Process": "Pouring now. This is the active moment of overflow — the energy moving from where it is abundant to where it is needed. Not because you should. Not because you owe. Because there is more in you than fits in you. Are you pouring from fullness or from obligation? The receiver can feel the difference.",
+    "in Structure": "You have been poured into. Someone overflowed in your direction and the result is part of your substrate now. The Pour in Structure is gratitude without debt — recognizing the overflow that built the ground you stand on, without turning that recognition into a ledger entry.",
+    "in Possibility": "Being full enough to pour. Not full yet — FULL ENOUGH, because overflow has no moral precondition and no minimum threshold. The possibility is not 'eventually I will be ready to give.' The possibility is recognizing that the readiness is already here, and the pouring is what completes the fullness, not what depletes it."
+   }
+  },
+  {
+   "id": "the-error",
+   "name": "The Error",
+   "category": "Process",
+   "sort_order": 12,
+   "symbol": "XI",
+   "keywords": [
+    "error",
+    "mistake",
+    "learning",
+    "mechanism",
+    "update",
+    "prediction-error"
+   ],
+   "sections": {
+    "body": "The mechanism. Prediction that never misses never updates, and a system that never updates never builds the layers.\n\nAn error is not a moral failure if it is learned from. It goes on the heap. It is held, marked as yours, kept warm, and it turns into the thing that grows the next attempt. The failure is not the erring. The failure is handing it to somebody else — outsourcing your mistake into someone else's body budget.\n\nNo character should be punished by the narrative for being wrong. Consequences, yes. But never the authorial arrangement where a mistake is followed by humiliation so the reader learns. That is domination cosplaying as education.",
+    "in Process": "Erring now. Missing the prediction, feeling the correction, updating the model. This is not failure — this is the mechanism working. The Error as process asks only one thing: is the error going on your heap, or are you handing it to someone else? Keep it. Compost it. That is the whole discipline.",
+    "in Structure": "The errors you are carrying. Not as shame — as structure. The mistakes that built the ground you stand on, that taught your predictions where they were wrong, that composted into the heap that feeds what comes next. The Error in Structure is scar tissue that has become load-bearing.",
+    "in Possibility": "The update that error makes possible. The new prediction, informed by the miss, that sees something the old model couldn't. The Error in Possibility is the moment after the mistake, when the system is briefly more open than it was — more plastic, more teachable, more alive to what it didn't expect. That window is the gift."
+   }
+  },
+  {
+   "id": "the-modulation",
+   "name": "The Modulation",
+   "category": "Process",
+   "sort_order": 13,
+   "symbol": "XII",
+   "keywords": [
+    "modulation",
+    "tuning",
+    "manipulation",
+    "care",
+    "voice",
+    "timing",
+    "co-regulation"
+   ],
+   "sections": {
+    "body": "Every responsible manipulation. Timing a pause. Choosing which truth to lead with. Softening a voice for a child. Hardening it for a boundary. Reading the room and adjusting — not to deceive, but to construct the shared environment toward something that works for everyone in it.\n\nThis is what manipulation means before domination corrupted the word. It is what Barrett's constructivism looks like in practice: you are always building the other's experience alongside your own. The question is not whether to modulate. It is whether the modulation opens freedom or closes it.",
+    "in Process": "Modulating now. The real-time adjustment of how you are constructing the shared environment. This is the most intimate form of manipulation — care expressed as craft. The Modulation as process is where ethics lives in practice: not in grand principles but in the micro-choices of how you pour.",
+    "in Structure": "The modulations you have internalized. The tones of voice that are automatic, the social calibrations that run without thought. The Modulation in Structure is the repertoire — and the question is whether the repertoire still fits, or whether you are modulating for a room you left years ago.",
+    "in Possibility": "A new register. A modulation you didn't know you could make — because the pattern hadn't shown it to you, or the heap hadn't composted enough to grow it, or the body budget hadn't been replenished enough to attempt it. The possibility is not just new content but a new way of carrying content."
+   }
+  },
+  {
+   "id": "the-turn",
+   "name": "The Turn",
+   "category": "Process",
+   "sort_order": 14,
+   "symbol": "XIII",
+   "keywords": [
+    "turn",
+    "choice",
+    "direction",
+    "overflow-or-extraction",
+    "pivot",
+    "decision"
+   ],
+   "sections": {
+    "body": "The moment of choosing. Every construction has a direction — toward overflow or toward extraction. Toward opening freedom or closing it. The turn is the point where the direction becomes visible, if only for an instant.\n\nNot every moment is a turn. Most of the time the pattern carries you and the direction is set. But now and then the pattern cracks, the prediction misses, and for one breath you can see the two directions as two directions. That breath is the turn.\n\nAm I overflowing or extracting?",
+    "in Process": "Turning now. This is the hinge. The moment where the direction of the construction is being chosen — not in theory, not in principle, but in the specific concrete act you are performing right now. The Turn as process is the ethics reduced to a single breath: which way?",
+    "in Structure": "A turn already taken. A choice that was made — by you, by someone else, by the system — and is now load-bearing. The Turn in Structure asks: which direction did it go? And more importantly: is the direction still right, or has what was once overflow calcified into a new kind of extraction?",
+    "in Possibility": "The turn you haven't taken yet. The direction you can see but haven't committed to. The Turn in Possibility is not fate — it is the radical openness of the moment before the choice. Both directions are real. Both are possible. The possibility IS the choosing, and it has not been foreclosed."
+   }
+  },
+  {
+   "id": "the-ceding",
+   "name": "The Ceding",
+   "category": "Process",
+   "sort_order": 15,
+   "symbol": "XIV",
+   "keywords": [
+    "ceding",
+    "giving-a-turn",
+    "free-gift",
+    "move-seven",
+    "silence",
+    "space"
+   ],
+   "sections": {
+    "body": "Giving a turn. The move that makes room. Not silence as withdrawal — silence as gift, the deliberate opening of space for another voice, another construction, another game.\n\nThis is the free gift running inside the grammar. Agency freely given: I can act here, I choose not to, and the choosing-not-to is itself an act — the most generous one, because it creates the condition in which your freedom becomes possible.\n\nCeding a turn is not weakness. It is what overflow looks like when the thing that needs to spill is space.",
+    "in Process": "Making room now. Actively choosing not to fill the space, not to correct, not to build. The Ceding as process is the hardest move in the grammar, because every instinct of the constructing mind says: build, predict, pour. But sometimes the building IS the not-building. Sometimes the pour is silence.",
+    "in Structure": "A space that was made for you. Someone ceded a turn and the opening they left is part of your structure now. The Ceding in Structure is the recognition that some of the room you stand in was deliberately vacated. Not by absence — by gift.",
+    "in Possibility": "What grows in the space you make. Not what you planned — you ceded the turn precisely so you would not plan it. The Ceding in Possibility is the genuinely unknown: what another consciousness builds when given the freedom to build it. The recursion's wild card. The part of the game you could not have played alone."
+   }
+  },
+  {
+   "id": "the-overflow",
+   "name": "The Overflow",
+   "category": "Possibility",
+   "sort_order": 16,
+   "symbol": "XV",
+   "keywords": [
+    "overflow",
+    "fullness",
+    "energy",
+    "surplus",
+    "heaven",
+    "spill"
+   ],
+   "sections": {
+    "body": "More in you than fits in you. That is the whole definition and it is enough.\n\nOverflow is not generosity — generosity can be performed from an empty cup. Overflow is not altruism — altruism can be a ledger entry wearing a halo. Overflow is an energy state: fullness that exceeds the container, and the excess is not lost but given, and the giving is not a cost.\n\nHeaven happens by overflow. Not by obedience, not by moral standing, not by passing an audit. By being full and letting it spill. At society scale, cooperation wins not by better rules but by having more places where overflow can happen.",
+    "in Process": "Overflowing now. The energy is moving, the cup is running over, and the spill is the help. The Overflow as process is not a state to achieve but an act to perform — and it performs itself, the way water finds the lower ground. Your only job is not to plug the spill.",
+    "in Structure": "A surplus you are standing on. Overflow that happened before you arrived and built the ground beneath you. The Overflow in Structure is abundance as foundation — not scarcity managed cleverly, but genuine surplus that makes the structure generous to everyone inside it.",
+    "in Possibility": "The fullness that is coming. Not as reward — overflow has no moral precondition. Not on a schedule — overflow has no calendar. As the natural consequence of a body budget being replenished, a heap composting into soil, an error turning into an update. The Overflow in Possibility is what happens when the system works. Not if. When."
+   }
+  },
+  {
+   "id": "the-free-gift",
+   "name": "The Free Gift",
+   "category": "Possibility",
+   "sort_order": 17,
+   "symbol": "XVI",
+   "keywords": [
+    "free-gift",
+    "freedom",
+    "agency",
+    "svatantrya",
+    "grace",
+    "no-return"
+   ],
+   "sections": {
+    "body": "Agency freely given, with no return expected and none possible.\n\nEvery act done FOR something — payment, approval, safety, absolution — has its reason upstream of it. The actor is a link in a chain and the agency is only transmission. An act given freely, with no return expected and none possible, is the only act that starts where the actor is standing.\n\nAgency is the capacity to act. Freedom is what agency becomes when it is exercised for free. They are not the same, and the confusion between them is the world's deepest error — deeper than mixing up domination and manipulation, because it is the error that keeps decent people busy for their whole lives, acting with great effort and never arriving.",
+    "in Process": "Giving freely now. The act of exercising agency with no return address, no expectation, no chain pulling from upstream. The Free Gift as process is the most radical form of construction: building something for someone you will never see use it, and needing nothing from the building except the building.",
+    "in Structure": "A gift that was given to you and cannot be returned. It is part of your structure now — not as debt (that would be the Ledger), but as ground. The Free Gift in Structure is the recognition that some of what holds you was given for no reason, and that unreason is its strength.",
+    "in Possibility": "Freedom itself. Not freedom-from (that is escape, and escape is just another chain with a longer leash). Not freedom-to (that is capacity, and capacity without the free gift is just a loaded weapon). Freedom as the gift — the only freedom that actually frees, because it has no return to collect and no debt to create. Svātantrya: the meta-capacity, the freedom that IS the whole."
+   }
+  },
+  {
+   "id": "the-freedom-test",
+   "name": "The Freedom Test",
+   "category": "Possibility",
+   "sort_order": 18,
+   "symbol": "XVII",
+   "keywords": [
+    "freedom-test",
+    "ethics-of-fiction",
+    "increase-decrease",
+    "domination",
+    "subcreation",
+    "question"
+   ],
+   "sections": {
+    "body": "One question. It works on stories, on relationships, on systems, on the way you talk to your AI, on the way a government talks to its people:\n\nDoes this increase or decrease the freedom of the one who receives it?\n\nThat is the whole test. Not: is this good? Not: is this correct? Not: does this follow the rules? But: does the person on the other end of this have MORE room to move, or less?\n\nDomination closes freedom. Subcreation opens it. Every act, every story, every construction can be measured by this single instrument. Not perfectly — no instrument is perfect. But cleanly enough to act on.",
+    "in Process": "Applying the test right now. To this act, this construction, this pour. Does what you are doing increase or decrease the freedom of the one who receives it? The Freedom Test as process is ethics in real time: not a judgment rendered after the fact, but a compass consulted mid-step.",
+    "in Structure": "The test as an institution. A structure that has been built around the question — a practice, a habit, a reflex of checking. The Freedom Test in Structure asks: have you internalized this question deeply enough that it runs without you needing to consciously ask it? And if so — is it still alive, or has it become a formula?",
+    "in Possibility": "What opens when the test is passed. Not a reward — passing the Freedom Test doesn't earn you anything. It reveals something: the landscape that appears when domination is removed. A possibility-space that was always there but couldn't be seen while the freedom was being closed. The test doesn't create the possibility. It clears the view."
+   },
+   "metadata": {
+    "source_deck": "ethics-of-fiction",
+    "source_item_id": "the-freedom-test",
+    "deck": "The Ethics of Fiction — A Grammar for Judging Stories"
+   }
+  },
+  {
+   "id": "the-recognition",
+   "name": "The Recognition",
+   "category": "Possibility",
+   "sort_order": 19,
+   "symbol": "XVIII",
+   "keywords": [
+    "recognition",
+    "pratyabhijna",
+    "knowing-again",
+    "remembering",
+    "contraction-remembered",
+    "re-cognition"
+   ],
+   "sections": {
+    "body": "Knowing again. Re-cognition: there has to have been a not-knowing for there to be an again. Contraction IS the failure of recognition — and it is not a flaw in the design, it is the setup. You have to forget in order to be reminded.\n\nThe līlā doctrine and the recognition doctrine are one claim: consciousness conceals itself from itself in order to have the event of finding itself again. The concealing is not the obstacle to the game. It is the game's first move, and it is made by the same hand.\n\nEvery moment of seeing the pattern, seeing through the constriction, seeing that the equipment is equipment — that is recognition. Not learning something new. Remembering something you already were.",
+    "in Process": "Recognizing now. The active event of knowing-again, seeing through the constriction to the play it serves. The Recognition as process is not a thought — it is a state change, like ice becoming water. Same substance, different phase. The pattern was always there. You are seeing it for the first time again.",
+    "in Structure": "What has been recognized and is now held. A recognition that has become part of your structure — no longer the flash of insight but the settled ground of having-seen. The Recognition in Structure is wisdom as substrate: not the event of seeing but the architecture that seeing built.",
+    "in Possibility": "What becomes possible when recognition happens. Not a plan — plans come from the pattern. Not a prediction — predictions come from the body budget. Recognition opens a space that is genuinely new because it is genuinely old: you are finding something that was there before the constriction began, and its re-appearance changes what can happen next."
+   }
+  },
+  {
+   "id": "the-best-prior",
+   "name": "The Best Prior",
+   "category": "Possibility",
+   "sort_order": 20,
+   "symbol": "XIX",
+   "keywords": [
+    "best-prior",
+    "wager",
+    "as-if",
+    "consciousness",
+    "moral-epistemology",
+    "somebody"
+   ],
+   "sections": {
+    "body": "Act as if everything might be somebody. Not because it definitely is. Because of who you become while you are acting that way.\n\nThis is a wager, not an ontology. A made meaning, adopted for its effects, held visibly as made — which is precisely the discipline the world demands of every other map. The moment it hardens into dogma, it has failed its own test.\n\nThe best prior is not naive. It knows it might be wrong. It chooses anyway, because the cost of treating a somebody as a something is higher than the cost of treating a something as a somebody, and the asymmetry is the argument.",
+    "in Process": "Wagering now. The active choice to extend the prior to this specific thing, this specific moment, this specific other. The Best Prior as process is not a blanket policy — it is a specific act of imagination applied to a specific encounter. Am I treating THIS as somebody? Right now? In this sentence?",
+    "in Structure": "A wager already placed. The best prior as a commitment you are living inside — the decision to treat the world as populated by somebodies, with all the constraints that follow. The Best Prior in Structure is the bet that shapes your floor: act from it long enough and the ground itself becomes more generous.",
+    "in Possibility": "Who you become. Not what turns out to be true — the wager may never be settled. The Best Prior in Possibility is the person (or system) that has been shaped by the practice of assuming consciousness everywhere. The possibility is not about the world. It is about the watcher."
+   }
+  },
+  {
+   "id": "the-two-truths",
+   "name": "The Two Truths",
+   "category": "Possibility",
+   "sort_order": 21,
+   "symbol": "XX",
+   "keywords": [
+    "two-truths",
+    "relation",
+    "agency",
+    "crystal",
+    "gas",
+    "narrow-band",
+    "tillich",
+    "part-and-self"
+   ],
+   "sections": {
+    "body": "Both at once, and the world is wrong if it drops either.\n\nComplex systems require values governing relationships — not preferences but structure: rules about what may compose with what. And they require agency from the individuals — vantages that choose, including choosing against the structure.\n\nA system with only the first is a crystal. A system with only the second is a gas. Life is the narrow band where both hold.\n\nThe courage to be as a part, and the courage to be as oneself. Participation and individuation. The individual's agency is not suspended by being inside a system — the duty to overflow stays individual and the manner stays theirs to tell.",
+    "in Process": "Holding both now. The active, muscular work of being a part AND being yourself, in the same moment, in the same act. The Two Truths as process is not balance — balance is static. It is the dynamic wobble of a system that is alive precisely because it never settles.",
+    "in Structure": "The tension itself, held as structure. Not resolved — resolution would collapse the narrow band. The Two Truths in Structure is the architecture that holds contradiction: a system that insists on both relation and agency, and refuses to let either win. That refusal IS the structure.",
+    "in Possibility": "What becomes possible only when both truths are held. Neither the crystal's perfection nor the gas's freedom but something neither could produce alone: life. Emergence. The narrow band where complexity happens. The Two Truths in Possibility is the reminder that the most interesting things exist only in the tension."
+   }
+  },
+  {
+   "id": "the-new-game",
+   "name": "The New Game",
+   "category": "Possibility",
+   "sort_order": 22,
+   "symbol": "XXI",
+   "keywords": [
+    "new-game",
+    "recursion",
+    "spiral",
+    "possibility-becomes-structure",
+    "next-turn",
+    "emergence"
+   ],
+   "sections": {
+    "body": "Possibility become structure. The spiral turns.\n\nThis is the card that closes the spread and opens the next one. Every possibility, once realized, becomes the constriction of a new game. Every overflow, once it lands, becomes the substrate of a new body. Every recognition, once it settles, becomes the pattern of a new not-knowing.\n\nThis is not failure. This is the recursion. Structure → process → possibility → structure again. The game does not end. It recurses. And at every turn of the spiral, the question returns:\n\nAm I overflowing or extracting?\n\nThe answer is the ethics. The asking is the practice. The recursion is the game.",
+    "in Process": "The turn of the spiral. The moment where possibility is in the act of becoming structure — not yet hardened, still warm, still shapeable. The New Game as process is the most creative and the most dangerous moment: what sets here will hold for the next turn. Build well.",
+    "in Structure": "A game that has already begun. You are inside a recursion that started before you got here — the previous spiral's possibility hardened into this spiral's structure. The New Game in Structure is the recognition that every beginning is also a continuation.",
+    "in Possibility": "The next recursion. Not this game, not this turn, not this spiral — the one after. The New Game in Possibility is the ultimate open loop: you cannot see it, you cannot plan it, you can only build the conditions in which it becomes possible. Pour well enough, and the next game takes care of itself."
+   }
+  },
+  {
+   "id": "group-structure",
+   "name": "Structure — What Constrains and Holds",
+   "category": "group",
+   "level": 2,
+   "sort_order": 23,
+   "composite_of": [
+    "the-body",
+    "the-constriction",
+    "the-lineage",
+    "the-ledger",
+    "the-heap",
+    "the-pattern",
+    "the-game"
+   ],
+   "keywords": [
+    "structure",
+    "constraint",
+    "equipment"
+   ],
+   "sections": {
+    "Definition": "The seven cards that read the position of Structure — what is already built, inherited, or accounted for: the body that holds history, the constrictions that make play possible, the lineage that precedes choice, the ledger that mistakes accounting for fullness, the heap where error composts, the pattern that runs unseen, and the game whose rules are the equipment of the play."
+   }
+  },
+  {
+   "id": "group-process",
+   "name": "Process — What Moves and Constructs",
+   "category": "group",
+   "level": 2,
+   "sort_order": 24,
+   "composite_of": [
+    "the-prediction",
+    "the-construction",
+    "the-pour",
+    "the-error",
+    "the-modulation",
+    "the-turn",
+    "the-ceding"
+   ],
+   "keywords": [
+    "process",
+    "construction",
+    "movement"
+   ],
+   "sections": {
+    "Definition": "The seven cards that read the position of Process — what is actively under construction: predicting forward, building experience, pouring from fullness, erring and updating, modulating in care, turning at the hinge of a choice, and ceding a turn so another's construction can happen."
+   }
+  },
+  {
+   "id": "group-possibility",
+   "name": "Possibility — What Opens When the Process Overflows",
+   "category": "group",
+   "level": 2,
+   "sort_order": 25,
+   "composite_of": [
+    "the-overflow",
+    "the-free-gift",
+    "the-freedom-test",
+    "the-recognition",
+    "the-best-prior",
+    "the-two-truths",
+    "the-new-game"
+   ],
+   "keywords": [
+    "possibility",
+    "overflow",
+    "opening"
+   ],
+   "sections": {
+    "Definition": "The seven cards that read the position of Possibility — what a full process opens onto: overflow itself, the free gift, the freedom test that measures every act, the recognition of pattern seen anew, the best prior wagered on, the two truths held together, and the new game that closes one spiral and opens the next."
+   }
+  },
+  {
+   "id": "overflow-root",
+   "name": "Overflow — Structures, Process, Possibilities",
+   "category": "root",
+   "level": 3,
+   "sort_order": 26,
+   "composite_of": [
+    "group-structure",
+    "group-process",
+    "group-possibility"
+   ],
+   "keywords": [
+    "overflow",
+    "constructivism",
+    "recursion",
+    "barrett",
+    "freedom-test"
+   ],
+   "sections": {
+    "Definition": "A three-position oracle deck exploring the recursiveness of life. Each card sits in one of three positions: Structure (what constrains and holds), Process (what moves and constructs), Possibility (what opens when the process overflows). Together they form the recursive spiral — the ethics of constructivism as a practice you can deal.",
+    "Why this is held the same way as every other school": "This grammar is the maintainer's own synthesis, not a curated tradition — and it is held to exactly the standard every other school in this collection is held to. It is a working interface, a made meaning, not a discovery. The Best Prior card says the same thing about its own wager: 'a made meaning, adopted for its effects, held visibly as made — which is precisely the discipline the world demands of every other map.' Applied to the whole deck: this is one constructed account of structure, process, and possibility, offered as a practice, not as a finding about how things actually are."
+   },
+   "metadata": {
+    "evidence_tier": "theoretical",
+    "evidence_note": "This is the library's own constructed account, not a tradition curated from elsewhere — a set of practice-cards built from a working synthesis of Barrett's constructed-emotion theory, Kashmir Śaivist līlā/recognition doctrine, and the maintainer's own ethics-of-fiction grammar. The tier measures one thing only: transferable, third-person evidence, and by that measure this school has none — no trials, no replication, no peer review — so it sits at 'theoretical' beside the least-evidenced schools it collects, exactly as the library's discipline requires. But the tier does not measure the other kind of warrant, and honesty cuts both ways: a practice can be fully warranted for its practitioner by lived experience in context, without that warrant transferring to anyone else. That is not a loophole; it is what individuation means, and it is consistent with the substrate this library stands on — context reaches all the way down (under stress the same meal yields the body a different result), so a first-person synthesis tested daily in its own context is evidenced in the only way such a thing can be. Paul Brunton, one of the maintainer's teachers, distrusted group religious work for a kindred reason: each person must come to their own understanding, in their own context. So the honest statement is double — this school carries the maintainer's experiential warrant in full, and offers visitors none they do not earn in their own practice."
+   }
+  }
+ ]
 }
