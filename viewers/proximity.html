@@ -20,6 +20,9 @@
   projection, so two dots sitting close on screen are not necessarily neighbours.
   That gap between what you see and what is true is stated on the page, because
   it is the honest caveat of every scatter like this.
+
+  Deep-linkable: ?q=<term> opens straight into that word's neighbourhood. The
+  Spiral view uses it to hand a card's keywords over to this one.
 -->
 <style>
   *{box-sizing:border-box}
@@ -69,7 +72,7 @@
 </style>
 </head>
 <body>
-<script src="../site-header.js?v=52"></script>
+<script src="../site-header.js?v=53"></script>
 <site-header active="proximity"></site-header>
 
 <div class="wrap">
@@ -120,6 +123,12 @@ function init(){
   $('btn-absent').addEventListener('click', ()=>showAbsent());
   $('btn-gaps').addEventListener('click', ()=>showGaps());
   showIntro();
+
+  // ?q=<term> — a deep link into one word's neighbourhood. The Spiral view sends
+  // people here from a card's keywords, so the term arrives already known to be
+  // in the model; anything unknown falls through to the intro rather than erroring.
+  const q = new URLSearchParams(location.search).get('q');
+  if (q){ $('q').value = q; onSearch({ target: $('q') }); }
 }
 
 let g, svg, zoom;
