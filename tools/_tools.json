@@ -1,13 +1,78 @@
 {
-  "_note": "Manifest for the tools/ layer — see docs/PLAN-practices-layer.md. Each entry's `schools` array names the school slugs (schools/<slug>/grammar.json) the tool practises; the relation lives here, not in the grammar, per CLAUDE.md's one-cross-link-pattern rule (no new grammar-side link field). needs_ai / needs_auth are both false for every tool in this Phase-1 pass — nothing here calls a model or requires sign-in.",
-  "tools": [
-    {
-      "id": "nvc-journaling",
-      "title": "NVC Journaling",
-      "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, no AI, nothing saved.",
-      "schools": ["nvc-needs"],
-      "needs_ai": false,
-      "needs_auth": false
-    }
-  ]
+ "_note": "Manifest for the tools/ layer — see docs/PLAN-practices-layer.md. Each entry's `schools` array names the school slugs (schools/<slug>/grammar.json) the tool practises; the relation lives here, not in the grammar, per CLAUDE.md's one-cross-link-pattern rule (no new grammar-side link field). needs_ai / needs_auth are both false for every tool in this Phase-1 pass — nothing here calls a model or requires sign-in. Entries with external_url are not yet hosted here — they live on outside platforms (claude.ai artifacts, a ChatGPT GPT, journal.recursive.eco) and are listed so the practices layer knows the full inventory; porting order lives in docs/PLAN-overflow-and-the-living-library.md.",
+ "tools": [
+  {
+   "id": "nvc-journaling",
+   "title": "NVC Journaling",
+   "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, no AI, nothing saved.",
+   "schools": [
+    "nvc-needs"
+   ],
+   "needs_ai": false,
+   "needs_auth": false
+  },
+  {
+   "id": "love-bank",
+   "title": "Parental Love Bank",
+   "blurb": "A 15-minute check-in on the balance of what you ask from a child and what you give — deposits and withdrawals in a shared account of connection.",
+   "schools": [
+    "gottman-method",
+    "attachment-theory"
+   ],
+   "needs_ai": true,
+   "needs_auth": false,
+   "external_url": "https://claude.ai/public/artifacts/24e22d4c-bf48-4b54-ac08-704c9d179c4c"
+  },
+  {
+   "id": "gottman-bagel",
+   "title": "Bagel Method — Perpetual Problems",
+   "blurb": "Distinguish the core of a perpetual problem from its flexible crust, per Gottman's finding that most couple conflicts are permanent and manageable rather than solvable.",
+   "schools": [
+    "gottman-method"
+   ],
+   "needs_ai": true,
+   "needs_auth": false,
+   "external_url": "https://chatgpt.com/g/g-68720797c88881918490b90ca9b85f05-gottman-bagel-method-relationship-coach"
+  },
+  {
+   "id": "wheel-of-life",
+   "title": "The Wheel of Life",
+   "blurb": "Rate the areas of your life on one wheel to see where attention is owed.",
+   "schools": [],
+   "needs_ai": false,
+   "needs_auth": false,
+   "external_url": "https://claude.ai/public/artifacts/75df7f31-ab9d-4a7e-993c-ce392b51ef25"
+  },
+  {
+   "id": "reframe-a-thought",
+   "title": "Reframe a Thought",
+   "blurb": "Walk one upsetting moment from what happened, to what you feel, to what matters — cognitive reappraisal as a form.",
+   "schools": [
+    "dbt-skills"
+   ],
+   "needs_ai": true,
+   "needs_auth": false,
+   "external_url": "https://claude.ai/public/artifacts/60498b55-5928-4aaf-a2d9-eccaa2a8f9e0"
+  },
+  {
+   "id": "best-possible-self",
+   "title": "Best Possible Self",
+   "blurb": "A journaling space with research-backed prompts, on the project's own infrastructure.",
+   "schools": [],
+   "needs_ai": true,
+   "needs_auth": true,
+   "external_url": "https://journal.recursive.eco/"
+  },
+  {
+   "id": "stoic-framework",
+   "title": "Stoic Self-Improvement Framework",
+   "blurb": "Who to be, rather than what to get — prohairesis as a daily practice. Reads naturally against the Stoic items in greek-pathe.",
+   "schools": [
+    "greek-pathe"
+   ],
+   "needs_ai": true,
+   "needs_auth": false,
+   "external_url": "https://claude.ai/public/artifacts/9b003d0c-1f4c-4975-a3b8-be1e792d2065"
+  }
+ ]
 }
