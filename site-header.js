@@ -85,6 +85,9 @@
       ['history-of-emotions', 'A History of Emotions'],
       ['how-to-contribute', 'Ways to Contribute'],
     ]],
+    ['From the house school', [
+      ['relationship-is-process', 'Relationship is Process'],
+    ]],
   ];
 
   function autoActive() {
