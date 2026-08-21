@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Five of the seven qiqing have items, matching the classical five-viscera correspondence (xǐ, nù, sī, bēi, kǒng); jīng (fright/shock, distinguished from kǒng in the full seven-emotion list) and the yōu/bēi distinction (worry versus grief, sometimes counted separately) are only noted, not given their own items. The Five Phases (wǔxíng) generative and controlling cycles that relate the five organ-emotion pairs to each other are not worked through. Later medical elaborations (e.g. Jin-Yuan dynasty physicians on emotion-induced disease) are not represented.",
+  "_note": "All seven qiqing now have items: the five-viscera correspondence (xǐ, nù, sī, bēi, kǒng) plus yōu (worry, the lung's own five-zhì pairing) and jīng (fright, the acute heart-first counterpart to kǒng). The Five Phases (wǔxíng) generative and controlling cycles that relate the organ-emotion pairs to each other are named piecemeal in individual items' Research notes (e.g. the fire-controls-metal relation between xǐ and yōu) but not worked through systematically as their own items. Later medical elaborations (e.g. Jin-Yuan dynasty physicians on emotion-induced disease) are not represented.",
   "_art_direction": {
     "period_place": "Classical and imperial China — the Han dynasty compilation of the Huangdi Neijing through later dynastic medical scholarship. Classical Chinese medical illustration (organ diagrams, meridian charts) and literati scholarly painting of the same eras are the natural visual register; avoid generic \"Chinese-style\" decoration disconnected from an actual medical or scholarly source.",
     "candidates": [
@@ -149,6 +149,42 @@
       }
     },
     {
+      "id": "you",
+      "name": "Yōu (忧) — Worry, Paired with the Lung",
+      "category": "additional-qing-emotion",
+      "sort_order": 8,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Acupuncture_chart%2C_lung_channel_of_hand_taiyin%2C_Chinese_Wellcome_L0037808.jpg",
+      "keywords": ["you", "worry", "lung", "chinese-medicine"],
+      "sections": {
+        "Definition": "Yōu is the term the classical five-organ correspondence table in Suwen chapter 5 (Yin Yang Ying Xiang Da Lun) itself pairs with the lung (fèi) — not bēi (grief), which this school's existing bēi item already flags as a later variant. Yōu names a settled, anxious brooding or apprehension rather than acute sorrow; the Neijing holds that yōu, sustained, injures lung qì the same way excessive bēi is elsewhere said to.",
+        "How it differs from bēi and from sī": "Three qīqíng terms sit close together and are worth distinguishing explicitly: bēi is acute grief at a loss, tied to the lung in the wider seven-emotion tradition; sī (this school's existing item) is a spleen-tied cognitive dwelling, closer to rumination; yōu, in the classical five-zhì (五志) table, is the lung's own paired term — a lower-grade, longer-lasting apprehensive worry rather than either sī's mental fixation or bēi's sharper grief. Later Chinese medical writing sometimes uses bēi and yōu together or nearly interchangeably for the lung, which is why this school's bēi item already notes the overlap; this item gives yōu its own entry as the more classically primary of the two lung-paired terms.",
+        "Research note": "The interaction cycle recorded alongside the five-zhì table states that yōu injures the lung and joy (xǐ) overcomes yōu — part of the same Five Phases control sequence (fire controls metal) that governs how the five organ-emotion pairs are held to check one another."
+      },
+      "metadata": {
+        "emotion_key": "worry",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
+        "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for bēi above; reused here because both terms are, in different classical sources, paired with the lung."
+      }
+    },
+    {
+      "id": "jing",
+      "name": "Jīng (惊) — Fright, the Sudden Counterpart to Kǒng",
+      "category": "additional-qing-emotion",
+      "sort_order": 9,
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Acupuncture_chart%2C_heart_channel_of_hand_shaoyin%2C_Chinese_Wellcome_L0037816.jpg",
+      "keywords": ["jing", "fright", "shock", "heart", "kidney", "chinese-medicine"],
+      "sections": {
+        "Definition": "Jīng is the seventh term completing the qīqíng list alongside the five-viscera emotions and yōu — a sudden startle or fright, distinct in the classical texts from kǒng's more settled dread. The Suwen's Ju Tong Lun (chapter 39) states the difference in its own qì-movement vocabulary: kǒng makes qì descend (恐则气下), while jīng throws qì into disorder (惊则气乱) — a different disturbance, not simply a stronger dose of the same one.",
+        "Sudden versus sustained — the distinction that matters": "This is the one distinction worth stating plainly, because collapsing jīng into kǒng loses it: jīng is acute and initially unsettles the heart (xīn), which houses shén (spirit/mind) and is disturbed first by any sudden shock, scattering its qì chaotically. Only if the fright is severe or repeated does the disturbance settle into the kidney (shèn) as a more sustained kǒng, depleting the essence the kidney stores. Kǒng, by contrast, is already the sustained, dwelling apprehension this school's existing kǒng item describes — jīng is what a sudden, discrete startle does before it has had time to become that.",
+        "Research note": "Because jīng is described as unsettling the heart before the kidney, some later commentators treat it as sitting outside the strict five-viscera correspondence altogether — a seventh emotion with a two-organ trajectory rather than a single fixed pairing, which is part of why classical sources vary on whether to count it as its own qíng or as a variant of kǒng."
+      },
+      "metadata": {
+        "emotion_key": "fright",
+        "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
+        "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for xǐ above; reused here because jīng's own classical description unsettles the heart before it settles into the kidney, unlike kǒng's kidney-only pairing."
+      }
+    },
+    {
       "id": "group-five-viscera-emotions",
       "name": "The Five-Viscera Emotion Correspondences",
       "category": "group",
@@ -162,12 +198,25 @@
       "metadata": {}
     },
     {
+      "id": "group-additional-qing",
+      "name": "Yōu and Jīng — Completing the Seven",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["you", "jing"],
+      "sections": {
+        "Definition": "The two qīqíng terms that complete the classical seven-emotion list alongside the five-viscera correspondence: yōu (worry), the term the Suwen's own five-zhì table pairs with the lung ahead of bēi, and jīng (fright), the acute, heart-disturbing counterpart to kǒng's sustained, kidney-settling dread."
+      },
+      "keywords": ["qiqing", "you", "jing", "chinese-medicine"],
+      "metadata": {}
+    },
+    {
       "id": "chinese-qing-root",
       "name": "Qíng and the Seven Emotions",
       "category": "root",
       "level": 3,
       "sort_order": 7,
-      "composite_of": ["group-five-viscera-emotions"],
+      "composite_of": ["group-five-viscera-emotions", "group-additional-qing"],
       "sections": {
         "Definition": "Classical Chinese medicine treats qíng (loosely, emotion, though the word's own range runs wider — disposition, circumstance, felt truth of a situation) as one of the recognized categories of pathogenic factor, alongside external climatic influences and internal factors like diet and overexertion. The qiqing (seven emotions — commonly joy, anger, worry, pensiveness, grief, fear, and fright) are held, in excess, duration, or suddenness beyond what a person can adapt to, to disturb the qì of a specific paired organ: heart–joy, liver–anger, spleen–pensiveness, lung–grief (or worry), kidney–fear.",
         "Qíng is wider than \"emotion\"": "This point is worth stating plainly rather than assuming it: qíng is not simply the Chinese word for the English concept \"emotion.\" Depending on context in classical and later Chinese usage, qíng can denote felt emotion, but also temperament, circumstance, or the genuine state of affairs (as in the compound qíngkuàng, situation). Treating qíng and \"emotion\" as interchangeable imports an English category boundary the source language does not draw the same way — which is exactly why this school keys its items to pinyin terms rather than to single English glosses.",

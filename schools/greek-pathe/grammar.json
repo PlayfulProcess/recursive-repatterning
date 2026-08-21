@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton, not a finished catalogue. Aristotle names fourteen pathē across Rhetoric II.1–11 (anger/calm, love/hatred, fear/confidence, shame/shamelessness, kindness, pity/indignation, envy/emulation, contempt); only anger (orgē) and pity (eleos) are written here as representative items. The Stoics' four canonical pathē (lypē, phobos, epithymia, hēdonē) are all present, but the many named species later Stoic doxographers catalogue under each genus are not. No cross-links to other schools in this collection have been added yet.",
+  "_note": "Skeleton, not a finished catalogue. Eleven of Aristotle's fourteen Rhetoric II pathē now have items (anger, calm, friendly feeling, fear, confidence, shame, kindness, pity, indignation, envy, emulation). The three remaining are each the contrary pole Aristotle treats briefly within the same chapter as a term already written here — enmity/hatred (echthra, contrary of philia), shamelessness (anaischyntia, contrary of aischynē), and contempt (kataphronesis, contrary of zēlos) — named in their partner items' Research notes but not yet given entries of their own. The Stoics' four canonical pathē (lypē, phobos, epithymia, hēdonē) are all present, but the many named species later Stoic doxographers catalogue under each genus are not. No cross-links to other schools in this collection have been added yet.",
   "_art_direction": {
     "period_place": "Athens and the wider Greek world, 5th–3rd century BCE — Attic red-figure and black-figure vase painting fits Aristotle's audience-facing, gesture-based pathe best. No comparably rich visual record survives specifically for the early Stoa, so the same vase-painting culture (Zeno taught in Athens a generation after Aristotle, in the Stoa Poikile the school is named for) is the nearest honest fit for both halves of this school.",
     "candidates": [
@@ -97,6 +97,141 @@
         "emotion_key": "pity",
         "image_source": "https://www.metmuseum.org/art/collection/search/248483",
         "image_credit": "Marble grave stele with a family group, Greek, Attic, ca. 360 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access)."
+      }
+    },
+    {
+      "id": "aristotle-praotes",
+      "name": "Praotēs — Calm (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 10,
+      "keywords": ["calm", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.3 defines growing calm (praotēs) as a settling or quieting of anger, its direct contrary. People grow calm toward those who admit fault and show grief at what they have done, toward those who humble themselves and offer no resistance, and toward those who acted involuntarily — in each case the belief that one has been deliberately wronged and belittled, which orgē requires, is undone.",
+        "Rhetoric-bound, not clinical": "Aristotle presents praotēs as a lever just like orgē's own — an orator defending a client wants to know exactly which admissions or postures will cool a judge's anger, not to describe calm as a virtue in its own right (that discussion belongs to the Nicomachean Ethics, not the Rhetoric).",
+        "Research note": "The orgē/praotēs pair is the first of fourteen pathē catalogued across Rhetoric II.2–11 and sets the pattern the rest follow: each pathos is defined by the belief that produces it, the person it targets, and the belief that cancels it out again."
+      },
+      "metadata": {
+        "emotion_key": "calm"
+      }
+    },
+    {
+      "id": "aristotle-philia",
+      "name": "Philia — Friendly Feeling (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 11,
+      "keywords": ["friendship", "philia", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.4 defines philia (friendly feeling) as wishing for someone what one believes to be good, for that person's own sake rather than one's own, and being inclined to bring it about so far as one is able. Philoi (friends) are those who feel this toward each other and know that they do.",
+        "Rhetoric-bound, not clinical": "Unlike the Nicomachean Ethics's extended treatment of philia as a form of virtuous relationship, the Rhetoric's interest is narrower: which beliefs make an audience feel friendly disposed toward a speaker or a defendant, so a speech can cultivate or exploit that disposition.",
+        "Research note": "Aristotle pairs philia with its contrary, echthra (enmity/hatred), in the same chapter — not included as its own item in this skeleton — and the pairing anticipates a structural feature of nearly every pathos in Book II: each is defined partly by naming the state that cancels it."
+      },
+      "metadata": {
+        "emotion_key": "friendship"
+      }
+    },
+    {
+      "id": "aristotle-phobos",
+      "name": "Phobos — Fear (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 12,
+      "keywords": ["fear", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.5 defines fear (phobos) as pain or disturbance from the appearance of an imminent evil that is destructive or painful — specifically, an evil that appears near at hand rather than remote, and within someone's power to inflict.",
+        "Rhetoric-bound, not clinical": "Aristotle catalogues exactly what makes danger seem near rather than far — signs of hostile intent, evidence of ability to harm, precedent of similar people suffering similar harm — because a speaker who wants a jury frightened of an outcome needs to make it feel close, not just possible.",
+        "Research note": "Aristotle pairs phobos with tharsos (confidence, below) as direct contraries sharing one object — an apprehended danger — and differing only in how near or resistible it appears. The Stoic phobos above shares this item's emotion_key but is a different project: an ethical claim about a false judgment, not a rhetorical appraisal of nearness."
+      },
+      "metadata": {
+        "emotion_key": "fear"
+      }
+    },
+    {
+      "id": "aristotle-tharsos",
+      "name": "Tharsos — Confidence (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 13,
+      "keywords": ["confidence", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.5 defines confidence (tharsos) as the direct contrary of fear: an expectation of safety, felt when what is dangerous seems either non-existent, far off, or well within one's power to resist — the hopeful counterpart to fear's felt nearness of harm.",
+        "Rhetoric-bound, not clinical": "Paired with phobos in the same chapter, tharsos gives the orator the flip side of the same lever — showing an audience that a danger is remote, resistible, or already overcome by people like them removes fear and installs confidence in its place.",
+        "Research note": "Aristotle notes people feel tharsos when they believe they have often escaped or overcome danger before, and when they see allies, resources, or means of safety available to them — a proto-appraisal account of confidence as a judgment about one's own resources relative to the threat."
+      },
+      "metadata": {
+        "emotion_key": "confidence"
+      }
+    },
+    {
+      "id": "aristotle-aischyne",
+      "name": "Aischynē — Shame (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 14,
+      "keywords": ["shame", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.6 defines shame (aischynē) as a pain or disturbance concerning present, past, or future faults that appear likely to bring one into disrepute — felt specifically before people whose opinion one values: those close to us, those we admire, or those who will judge us.",
+        "Rhetoric-bound, not clinical": "Aristotle's interest is in which disgraceful acts a speaker can make an audience feel, or fear feeling, ashamed of — cowardice, injustice, self-indulgence — and before whom that shame lands hardest, since shame felt before a stranger one will never see again barely registers by comparison.",
+        "Research note": "Aristotle pairs aischynē with anaischyntia (shamelessness) as its contrary in the same chapter, and ties shame closely to a concern for reputation rather than to private conscience alone — a social, audience-facing reading consistent with the Rhetoric's overall approach."
+      },
+      "metadata": {
+        "emotion_key": "shame"
+      }
+    },
+    {
+      "id": "aristotle-charis",
+      "name": "Charis — Kindness (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 15,
+      "keywords": ["kindness", "gratitude", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.7 defines kindness (charis) as helpfulness shown to someone in need, given not in return for anything and not for the helper's own advantage but for the sake of the person helped — greater the more urgent, important, or difficult-to-obtain the need, and greater still if the helper acted alone or first.",
+        "Rhetoric-bound, not clinical": "This chapter tells a speaker how to make a past favor look as large as possible — or, arguing the other side, how to make a claimed favor look smaller, self-interested, or trivial — rather than analyzing gratitude as a virtue.",
+        "Research note": "Charis is one of the few pathē in this part of the Rhetoric defined primarily by an action performed (helping) rather than by a belief about one's own situation — its emotional charge lies in how the recipient and observers interpret the giver's motive."
+      },
+      "metadata": {
+        "emotion_key": "kindness"
+      }
+    },
+    {
+      "id": "aristotle-nemesis",
+      "name": "Nemesis — Indignation (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 16,
+      "keywords": ["indignation", "nemesis", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.9 defines nemesis (righteous indignation) as pain at the sight of undeserved good fortune — the structural mirror of eleos (pity, above): both are judgments about desert, one triggered by undeserved suffering, the other by undeserved success.",
+        "Rhetoric-bound, not clinical": "Aristotle tells a speaker exactly which strokes of fortune provoke indignation in a listener — sudden wealth, power, or honor landing on someone judged to lack the virtue that ought to earn it — so an opponent's undeserved advantage can be made to sting rather than simply impress.",
+        "Research note": "Aristotle explicitly pairs nemesis with eleos as mirror-image judgments about desert, and separately treats nemesis in the Nicomachean Ethics as a mean state, felt rightly only toward genuinely undeserved fortune — its excess, feeling pain even at deserved good fortune, is phthonos (envy, next)."
+      },
+      "metadata": {
+        "emotion_key": "indignation"
+      }
+    },
+    {
+      "id": "aristotle-phthonos",
+      "name": "Phthonos — Envy (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 17,
+      "keywords": ["envy", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.10 defines envy (phthonos) as pain at the good fortune of people like oneself — equals in birth, ability, possessions, or reputation — not because their good fortune harms the envious person, but simply because those others have it.",
+        "Rhetoric-bound, not clinical": "Aristotle specifies that envy targets rivals and near-equals rather than people far above or below oneself — a speaker who wants a jury to feel proprietary hostility toward a successful equal, rather than mere admiration, needs exactly this comparison-to-a-peer framing.",
+        "Research note": "Aristotle treats phthonos as an unqualifiedly blameworthy pain in the Nicomachean Ethics — unlike nemesis, which can be felt rightly, phthonos has no virtuous mean: it is envy of another's good fortune regardless of whether that fortune is deserved."
+      },
+      "metadata": {
+        "emotion_key": "envy"
+      }
+    },
+    {
+      "id": "aristotle-zelos",
+      "name": "Zēlos — Emulation (Aristotle)",
+      "category": "aristotle-pathe",
+      "sort_order": 18,
+      "keywords": ["emulation", "rhetoric", "aristotle"],
+      "sections": {
+        "Definition": "Rhetoric II.11 defines emulation (zēlos) as a painful desire for goods that people like oneself possess and one lacks — not because the other person has them, but because one wants them too, a pain that moves one to act, not merely to resent.",
+        "Rhetoric-bound, not clinical": "Aristotle draws the line between zēlos and phthonos on exactly this point of action: emulation spurs a person toward acquiring the good themselves, while envy merely wants the other person to lose it — a distinction useful to a speaker deciding whether to cast an audience's reaction to a rival's success as productive ambition or corrosive resentment.",
+        "Research note": "Aristotle pairs zēlos with phthonos as the second of the two couples that close Book II's catalogue of pathē (pity/indignation and envy/emulation both concern judgments about the fortunes of others), and separately pairs zēlos with contempt (kataphronesis) as its own contrary in the same closing chapter — briefly discussed there but not developed here as its own item."
+      },
+      "metadata": {
+        "emotion_key": "emulation"
       }
     },
     {
@@ -177,9 +312,9 @@
       "category": "group",
       "level": 2,
       "sort_order": 7,
-      "composite_of": ["aristotle-orge", "aristotle-eleos"],
+      "composite_of": ["aristotle-orge", "aristotle-eleos", "aristotle-praotes", "aristotle-philia", "aristotle-phobos", "aristotle-tharsos", "aristotle-aischyne", "aristotle-charis", "aristotle-nemesis", "aristotle-phthonos", "aristotle-zelos"],
       "sections": {
-        "Definition": "Two of the fourteen pathē Aristotle catalogues in Rhetoric Book II as levers an orator can pull in an audience — states defined by who feels them, toward whom, and under what belief, not by an inner sensation alone."
+        "Definition": "Eleven of the fourteen pathē Aristotle catalogues in Rhetoric Book II as levers an orator can pull in an audience — states defined by who feels them, toward whom, and under what belief, not by an inner sensation alone. Aristotle presents most of them in contrastive pairs across adjoining chapters (anger/calm, fear/confidence, pity/indignation, envy/emulation) rather than as an unordered list."
       },
       "keywords": ["aristotle", "rhetoric", "pathe"],
       "metadata": {}
