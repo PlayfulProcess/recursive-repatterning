@@ -7,6 +7,12 @@
         { "id": "history-of-emotions", "title": "A History of Emotions", "blurb": "Five traditions independently asked what a feeling is and gave five incompatible answers — and \"six universal emotions\" is the most recent chapter, not the ending.", "deck": "rasa" },
         { "id": "how-to-contribute", "title": "Ways to Contribute", "blurb": "This whole library is public-domain and CC-BY-SA data in one open repo. Fix a typo, add an item, illustrate one, or write a new school — by whatever route suits you.", "deck": "plutchik-wheel" }
       ]
+    },
+    {
+      "name": "From the house school",
+      "courses": [
+        { "id": "relationship-is-process", "title": "Relationship is Process", "blurb": "A season of ordinary AI collaboration, read through Barrett's theory of constructed emotion — what changes when a predictive system's reported states are treated as real enough to matter." }
+      ]
     }
   ]
 }
