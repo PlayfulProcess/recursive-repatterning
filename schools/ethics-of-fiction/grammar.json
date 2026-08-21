@@ -1,0 +1,741 @@
+{
+  "name": "The Ethics of Fiction — A Grammar for Judging Stories",
+  "description": "An ethics of fiction judges stories by what they do, not what they say — by fruits, not doctrine. Generativity is never a property of a story alone: it is a property of a casting — story times context times receiver. Four branches grow from one trunk: Lenses (ways of judging), Contexts (soils a story can be cast into), Cases (worked examples, verdicts-in-progress), and Synthesis (what the judging is for). The load-bearing beam under all of it: does this story, cast in this context, increase or decrease the freedom of the one who receives it?",
+  "grammar_type": "custom",
+  "tags": [
+    "ethics-of-fiction",
+    "meta-grammar",
+    "generativity",
+    "tolkien",
+    "borges",
+    "context",
+    "synthesis",
+    "freedom-of-the-reader"
+  ],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Original writing by the maintainer. This grammar draws structurally on named published sources cited card by card (Tolkien's 'On Fairy-Stories', Wayne C. Booth's The Company We Keep, Ursula K. Le Guin's 'The Carrier Bag Theory of Fiction', Martha Nussbaum, Alasdair MacIntyre, Paul Ricoeur, Tyson Yunkaporta's Sand Talk, Bruno Bettelheim's The Uses of Enchantment, and Jorge Luis Borges's essays), but every card's synthesis and prose is the maintainer's own writing, not a paraphrase of any single source."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "the-question-itself",
+      "name": "The Question Itself",
+      "category": "Orientation",
+      "sort_order": 1,
+      "symbol": "⟳",
+      "keywords": [
+        "ethics-of-fiction",
+        "generativity",
+        "fruits-not-doctrine",
+        "story-times-context",
+        "freedom"
+      ],
+      "sections": {
+        "The Thesis": "An ethics of fiction judges stories by what they do, not what they say — by fruits, not doctrine. But generativity is not a property of a story alone: it is a property of a casting — story × context × receiver. The same tale that armed famine children can merely frighten suburban ones.",
+        "How This Tree Grows": "Four branches from one trunk: Lenses (ways of judging), Contexts (soils a story can be cast into), Cases (worked examples), Synthesis (what the judging is for). This node is composite with its sibling trees — the Tree of Children's Stories, the Disney Decolonial Tree, and the Ontoject — which hold the stories this ethics judges and the ground it judges from.",
+        "The Load-Bearing Beam": "Nearly every ethical question about fiction routes through one axis: does this story, cast in this context, increase or decrease the freedom of the one who receives it? Tolkien's 'freedom of the reader', Borges' refusal to convince, and the princess-as-principles-not-idol rule are the same value in three costumes."
+      }
+    },
+    {
+      "id": "how-to-cast-this-grammar",
+      "name": "How to Cast This Grammar",
+      "category": "Orientation",
+      "sort_order": 2,
+      "symbol": "◇",
+      "keywords": [
+        "ritual",
+        "casting",
+        "mirror",
+        "instructions"
+      ],
+      "sections": {
+        "The Ritual": "Hold a story in mind — one you love, one you fear, or one you must decide whether to hand to a child. Draw three. Read the first as Lens (how to look), the second as Context (where the story is landing), the third as Mirror (if a Case comes up: how is your story like this one? if Synthesis: what is the judging for?).",
+        "The Discipline": "This is a mirror, not a tribunal. No card bans a story; every card asks what the story is doing — here, now, to this receiver. All verdicts are verdicts-in-progress."
+      }
+    },
+    {
+      "id": "generativity-the-fruit-test",
+      "name": "Generativity — The Fruit Test",
+      "category": "Branch · Lenses",
+      "sort_order": 3,
+      "symbol": "✾",
+      "keywords": [
+        "generativity",
+        "fruits",
+        "recovery",
+        "escape",
+        "consolation",
+        "eucatastrophe",
+        "booth",
+        "company-kept"
+      ],
+      "sections": {
+        "Anchor": "J.R.R. Tolkien, 'On Fairy-Stories' (1939 lecture, published 1947); Wayne C. Booth, The Company We Keep: An Ethics of Fiction (1988).",
+        "The Lens": "Judge a story by what it grows in its hearers. Tolkien's rubric in On Fairy-Stories is already an ethics: Recovery (seeing the ordinary world fresh again), Escape (of the prisoner, not the flight of the deserter), Consolation, and eucatastrophe — the sudden joyous turn that denies universal final defeat.",
+        "Test Questions": "After this story, does the receiver see their own world more freshly, or less? Do they return to life with more courage — or with appetite for the next dose? What would a year on a diet of this story grow in a person? And Booth's question, for the during rather than the after: a story is a friendship offered — what company does it keep with you while you're inside it, and what does it invite you to become for the duration?"
+      }
+    },
+    {
+      "id": "casting-context",
+      "name": "Casting Context",
+      "category": "Branch · Lenses",
+      "sort_order": 4,
+      "symbol": "⌖",
+      "keywords": [
+        "context",
+        "decontextualization",
+        "reconceptualization",
+        "hospicing",
+        "soil",
+        "famine"
+      ],
+      "sections": {
+        "Anchor": "The Grimms' 1812 text against the famine readings of the abandonment motif (the Great Famine of 1315–17 and its successors).",
+        "The Lens": "A story is not generative or degenerative in itself; the casting is. Hansel & Gretel in a famine world names the unthinkable — parents abandoning children — and arms the children with wit and solidarity. Teleported into plenty, the same tale becomes stranger-danger and spectacle. Decontextualization is never neutral: it is a re-casting into a soil the story was not grown for.",
+        "Test Questions": "What soil was this story grown in? What soil does it land in now? Three verbs are available, not two: re-contextualization (telling the soil back in), re-conceptualization (regrowing the story for new soil, with consent) — and hospicing (accompanying a casting to a good death: thanking it, letting it compost, refusing the reflex that every story must be saved). Which does this casting need — and who has the standing to do that work?"
+      }
+    },
+    {
+      "id": "domination-vs-subcreation",
+      "name": "Domination vs. Subcreation",
+      "category": "Branch · Lenses",
+      "sort_order": 5,
+      "symbol": "⍟",
+      "keywords": [
+        "domination",
+        "subcreation",
+        "allegory",
+        "applicability",
+        "the-machine",
+        "palantir",
+        "llms"
+      ],
+      "sections": {
+        "Anchor": "Foreword to The Lord of the Rings (2nd ed.); Letter 131 to Milton Waldman (the Fall, Mortality, and the Machine).",
+        "The Lens": "Tolkien's deepest axis. Applicability 'resides in the freedom of the reader'; allegory 'in the purposed domination of the author.' The same word — domination — names the Ring, the Machine, and the palantír's danger: an instrument need not lie to enslave; it need only curate. Subcreation is the opposite relation: offering a world the receiver is free to inhabit, apply, and leave.",
+        "Test Questions": "Does this story leave room for the receiver's own applicability, or does it march them to a conclusion? Who curates which true images reach you? Is the teller a sub-creator offering a world — or a will bending yours?"
+      }
+    },
+    {
+      "id": "bodies-and-representation",
+      "name": "Bodies & Representation",
+      "category": "Branch · Lenses",
+      "sort_order": 6,
+      "symbol": "☥",
+      "keywords": [
+        "bodies",
+        "representation",
+        "impossible-standards",
+        "indigeneity",
+        "default-body"
+      ],
+      "sections": {
+        "The Lens": "Who gets rendered, by whom, and at what cost to the bodies watching? Perfect animated bodies deliver impossible standards the way advertising does — not as argument but as atmosphere. And blondeness is not the crime; domination is. Indigeneity is relational — defined by the encounter with colonization — which is why 'who is not indigenous?' has an answer, and why 'why is colonization bad?' has the same answer as the allegory question.",
+        "Test Questions": "Whose body is the default here, and whose is costume? Who profited from this rendering? Can the receiver love this image without measuring themselves against it?"
+      }
+    },
+    {
+      "id": "provenance-the-authors-shadow",
+      "name": "Provenance — The Author's Shadow",
+      "category": "Branch · Lenses",
+      "sort_order": 7,
+      "symbol": "❦",
+      "keywords": [
+        "author",
+        "biography",
+        "death-of-the-author",
+        "reading-event",
+        "carroll"
+      ],
+      "sections": {
+        "Anchor": "The contested Carroll archive — missing diaries, the photographs, biographers in open disagreement — judged by standards the author never faced.",
+        "The Lens": "Does the maker's life poison the work? Tolkien said the tale stands apart from its teller; Barthes buried the author from the opposite temperament. The honest resolution is the casting again: the ethics happen in the reading event, not in the biography. 'Would you read it to your kid?' is a question about tonight's bedside, not about 1865.",
+        "Test Questions": "Is the shadow in the text, or only in the archive? Does knowing what you know change what the story does in the room? Who receives the royalties — and does the answer change the casting?"
+      }
+    },
+    {
+      "id": "medium-of-rendering",
+      "name": "Medium of Rendering",
+      "category": "Branch · Lenses",
+      "sort_order": 8,
+      "symbol": "▣",
+      "keywords": [
+        "medium",
+        "painting",
+        "photograph",
+        "documentary",
+        "culinary",
+        "religion",
+        "contract-of-belief"
+      ],
+      "sections": {
+        "The Lens": "Fiction is not a property of prose. A painting proposes a world; a photograph swears an oath it cannot fully keep; a documentary is an argument wearing a camera; a meal is a story you eat; and religion — Borges' pinnacle of fantastic literature — is fiction inhabited all the way down, which may be the highest compliment fiction can receive. The medium sets the contract of belief: what the receiver is asked to take as true, and how.",
+        "Test Questions": "What does this medium promise about truth? What would the story become in another rendering — legend as theme park, scripture as musical, novel as feed? What does the rendering owe its source?"
+      }
+    },
+    {
+      "id": "the-famine",
+      "name": "The Famine",
+      "category": "Branch · Contexts",
+      "sort_order": 9,
+      "symbol": "⌁",
+      "keywords": [
+        "scarcity",
+        "hunger",
+        "abandonment",
+        "survival",
+        "original-soil"
+      ],
+      "sections": {
+        "The Soil": "A world where hunger is a daily fact and abandonment a real fear — the soil the wonder-tales grew from, and the one their first hearers never needed explained.",
+        "A Case Echo": "Hansel & Gretel is generative here: it arms children with wit and with each other.",
+        "What It Does to a Story": "Hard stories become survival equipment. Naming the unthinkable is mercy; the witch's house of bread is temptation with teeth, not decoration. Nothing needs to be softened, because the hearers already know."
+      }
+    },
+    {
+      "id": "the-plenty",
+      "name": "The Plenty",
+      "category": "Branch · Contexts",
+      "sort_order": 10,
+      "symbol": "⛁",
+      "keywords": [
+        "abundance",
+        "suburb",
+        "comfort",
+        "spectacle",
+        "stranger-danger"
+      ],
+      "sections": {
+        "The Soil": "Scarcity is invisible; the ambient fears are strangers, failure, and being ordinary. Most stories now land here — cast into a soil they were not grown for.",
+        "A Case Echo": "The same Hansel & Gretel, cast here, needs the teller to tell the famine back in — or it teaches fear without arming anyone.",
+        "What It Does to a Story": "Famine tales turn into spectacle or stranger-danger; escape stories turn into consumption; consolation curdles into comfort. The story is not at fault — the casting is unmarked."
+      }
+    },
+    {
+      "id": "the-colony",
+      "name": "The Colony",
+      "category": "Branch · Contexts",
+      "sort_order": 11,
+      "symbol": "⚑",
+      "keywords": [
+        "colonization",
+        "frontier",
+        "appropriation",
+        "consent",
+        "whose-story"
+      ],
+      "sections": {
+        "The Soil": "Land and story both taken; one people's grammar imposed as the universal one. Every retelling here happens on someone's ground.",
+        "A Case Echo": "Frozen 2's signed agreement with the Sámi Parliaments is the documented counter-move: reconceptualization with consent.",
+        "What It Does to a Story": "Some bodies become the default and others become costume; other people's myths become raw material. The wrong is not borrowing — all stories borrow — it is domination: retelling without consent, profit without return, erasure sold as homage."
+      }
+    },
+    {
+      "id": "the-feed",
+      "name": "The Feed",
+      "category": "Branch · Contexts",
+      "sort_order": 12,
+      "symbol": "∞",
+      "keywords": [
+        "algorithm",
+        "attention",
+        "curation",
+        "fandom",
+        "dose"
+      ],
+      "sections": {
+        "The Soil": "Stories arrive pre-curated by a will optimizing for your attention, not your freedom. The palantír as ambient infrastructure.",
+        "A Case Echo": "Blind fandom fails the Freedom Test not because the story is bad, but because blindness is the surrender.",
+        "What It Does to a Story": "Even true images become palantír-images — selected by a stronger will. Fandom drifts from love toward capture; the dose replaces the tale; the next episode replaces the return to your own life."
+      }
+    },
+    {
+      "id": "the-hearth",
+      "name": "The Hearth",
+      "category": "Branch · Contexts",
+      "sort_order": 13,
+      "symbol": "⌂",
+      "keywords": [
+        "bedside",
+        "parent-and-child",
+        "co-reading",
+        "watch-with",
+        "oldest-context"
+      ],
+      "sections": {
+        "The Soil": "A parent, a child, a lamp — the oldest casting context, and the one where 'what should we watch?' is actually asked.",
+        "A Case Echo": "The Alice question resolves here — the ethics happen at the bedside, in the reading event, not in the author's archive.",
+        "What It Does to a Story": "The teller becomes co-author. Scary can be safe because the teller is there; the child's questions become part of the text. What parents need is less a list than a stance: watch with, not hand over."
+      }
+    },
+    {
+      "id": "the-empire-of-images",
+      "name": "The Empire of Images",
+      "category": "Branch · Contexts",
+      "sort_order": 14,
+      "symbol": "◉",
+      "keywords": [
+        "disney",
+        "industrial-retelling",
+        "scale",
+        "default-imagination"
+      ],
+      "sections": {
+        "The Soil": "Industrial retelling at planetary scale — a handful of renderings becoming the default imagination of childhood, everywhere at once.",
+        "A Case Echo": "'Is that what Disney is doing?' — sometimes extraction, sometimes restoration, usually both in the same film.",
+        "What It Does to a Story": "Reconceptualization becomes product: the version with the songs erases the versions with the soil. Yet scale also funds craft, reach, and — sometimes — consent. The Empire is not one thing; judge casting by casting."
+      }
+    },
+    {
+      "id": "hansel-and-gretel",
+      "name": "Hansel & Gretel",
+      "category": "Branch · Cases",
+      "sort_order": 15,
+      "symbol": "⌑",
+      "keywords": [
+        "grimm",
+        "famine",
+        "abandonment",
+        "wit",
+        "solidarity"
+      ],
+      "sections": {
+        "The Case": "Published by the Grimms in 1812; the abandonment motif read by scholars against real medieval famine. Two children thrown to the forest by the people meant to protect them; Gretel saves Hansel; the devouring house is defeated by wit and by each other.",
+        "Through the Lenses": "Generativity: high in scarcity soil — it names the unthinkable and arms the child. Casting Context: the decisive lens — its generativity moves when the soil moves. Domination: low — the tale marches no one anywhere.",
+        "Verdict-in-Progress": "Generative where its soil is named. In the Plenty, it needs the teller to tell the famine back in."
+      }
+    },
+    {
+      "id": "frozen-and-the-northuldra",
+      "name": "Frozen & the Northuldra",
+      "category": "Branch · Cases",
+      "sort_order": 16,
+      "symbol": "❄",
+      "keywords": [
+        "frozen",
+        "sami",
+        "consent",
+        "elsa",
+        "reconceptualization"
+      ],
+      "sections": {
+        "The Case": "A 'blonde colonizer' beloved worldwide — and then Frozen 2 gives the north a people: the Northuldra, built under a signed agreement with the Sámi Parliaments and a Sámi advisory group. Learning the character's indigenous-roots framing (like learning Keanu Reeves carries Native Hawaiian ancestry) changes the reading — it does not retroactively change the first film.",
+        "Through the Lenses": "Bodies: the default-blonde question stands. The Colony: partially answered by consent. Domination: the agreement is precisely a transfer of curation power — the counter-palantír move.",
+        "Verdict-in-Progress": "Lovable with eyes open. The sequel is a datapoint that reconceptualization-with-consent is possible even at Empire scale."
+      }
+    },
+    {
+      "id": "kpop-demon-hunters",
+      "name": "KPop Demon Hunters",
+      "category": "Branch · Cases",
+      "sort_order": 17,
+      "symbol": "✧",
+      "keywords": [
+        "kdh",
+        "fandom",
+        "perfect-bodies",
+        "honmoon",
+        "gwi-ma",
+        "discernment"
+      ],
+      "sections": {
+        "The Case": "Beloved — and airbrushed. Perfect bodies delivering impossible standards as atmosphere, in the same film that teaches real discernment: Honmoon versus Gwi-Ma, the ancestral pattern that protects versus the one that devours.",
+        "Through the Lenses": "Generativity: the discernment teaching is real fruit. Bodies: the cost is real too — both facts stand. The Feed: fandom is where the danger concentrates, not the film itself.",
+        "Verdict-in-Progress": "The question is not 'is it ok to be a fan' but 'is the fandom blind.' Aspiration passes; idol fails — and the Saja Boys are the film's own warning about surrendered agency."
+      }
+    },
+    {
+      "id": "alice-and-the-authors-shadow",
+      "name": "Alice & the Author's Shadow",
+      "category": "Branch · Cases",
+      "sort_order": 18,
+      "symbol": "⧫",
+      "keywords": [
+        "alice",
+        "carroll",
+        "blonde-alice",
+        "archive",
+        "bedside"
+      ],
+      "sections": {
+        "The Case": "A blonde screen Alice where Alice Liddell was dark-haired; an author whose archive — missing diaries, the photographs — biographers still fight over, judged by current standards he never faced.",
+        "Through the Lenses": "Provenance: the shadow lives in the archive more than in the text. Bodies: the blonding is the Empire's default at work. The Hearth: the real question is asked at the bedside, tonight.",
+        "Verdict-in-Progress": "The text remains strange and liberating — a girl who talks back to every mad authority she meets. Read it with your questions, not despite them."
+      }
+    },
+    {
+      "id": "the-palantir",
+      "name": "The Palantír / Palantir",
+      "category": "Branch · Cases",
+      "sort_order": 19,
+      "symbol": "◎",
+      "keywords": [
+        "palantir",
+        "seeing-stone",
+        "curation",
+        "denethor",
+        "llms",
+        "surveillance"
+      ],
+      "sections": {
+        "The Case": "Tolkien's seeing-stone does not lie. It shows true images — curated by a stronger will — and Denethor despairs on a diet of true facts. A surveillance company chose this name for itself; the name is more honest than it intended.",
+        "Through the Lenses": "Domination: the pure case — accuracy is not the ethical variable; curation is. Medium: an instrument's fiction is the frame it puts around true images. LLMs sit under the same lens: sub-creation partner or machine of domination, decided by the relation, not the technology.",
+        "Verdict-in-Progress": "Judge instruments — and companies, and models — by the freedom of the one looking."
+      }
+    },
+    {
+      "id": "the-lord-of-the-rings-and-the-minority-faith",
+      "name": "The Lord of the Rings & the Minority Faith",
+      "category": "Branch · Cases",
+      "sort_order": 20,
+      "symbol": "✛",
+      "keywords": [
+        "tolkien",
+        "catholicism",
+        "long-defeat",
+        "counterfactual",
+        "renunciation"
+      ],
+      "sections": {
+        "The Case": "Would it exist without Catholic practice? Without Catholicism-as-minority in England? The 'long defeat,' the refusal of the Ring, the smallness of hobbits — this is the literature of a faith held against the grain, not preached from a throne.",
+        "Through the Lenses": "Provenance: here the author's life feeds the work rather than shadowing it. Domination: a book about renouncing the instrument of domination, written by a man who refused allegory — the form practicing what the story preaches.",
+        "Verdict-in-Progress": "Evidence that constraint and minority are soils good fiction grows from. Comfortable majorities rarely write eucatastrophe."
+      }
+    },
+    {
+      "id": "theology-after-borges",
+      "name": "Theology after Borges",
+      "category": "Branch · Cases",
+      "sort_order": 21,
+      "symbol": "ℵ",
+      "keywords": [
+        "borges",
+        "theology",
+        "fantastic-literature",
+        "doubt",
+        "librarian"
+      ],
+      "sections": {
+        "The Case": "Borges read theology as the pinnacle of fantastic literature — with love, and without wanting to convince anyone of anything.",
+        "Through the Lenses": "Medium: religion as fiction inhabited all the way down — not a dismissal, possibly the highest compliment fiction can receive. Domination: the refusal to convince is the librarian's version of the freedom of the reader.",
+        "Verdict-in-Progress": "Yes, it is good to read Borges — he is the vaccine against your own certainties. Read him alongside Tolkien and let them argue at your table."
+      }
+    },
+    {
+      "id": "the-freedom-test",
+      "name": "The Freedom Test",
+      "category": "Branch · Synthesis",
+      "sort_order": 22,
+      "symbol": "⟡",
+      "keywords": [
+        "freedom",
+        "load-bearing-beam",
+        "one-test",
+        "retellability",
+        "clench",
+        "constructionism"
+      ],
+      "sections": {
+        "The Beam": "One test runs under all six lenses: does this story, cast in this context, increase or decrease the freedom of the one who receives it? Colonization is domination of peoples; allegory, of readers; impossible bodies, domination by image; the feed, domination by curation; blind fandom, domination volunteered for.",
+        "How to Apply": "The receiver's freedom includes the freedom to leave, to answer back, and to retell. A story you cannot retell in your own soil is holding you. And one clause from the constructionist trunk: a generative casting teaches the receiver to hold its world unclenched — as made, revisable, offered as story rather than found absolute. Domination begins wherever a construction forgets it was constructed."
+      },
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-freedom-test",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
+    },
+    {
+      "id": "the-two-temperaments",
+      "name": "The Two Temperaments",
+      "category": "Branch · Synthesis",
+      "sort_order": 23,
+      "symbol": "⇌",
+      "keywords": [
+        "tolkien",
+        "borges",
+        "subcreator",
+        "librarian",
+        "poles"
+      ],
+      "sections": {
+        "The Poles": "The Sub-creator (Tolkien): serves one Truth, builds secondary worlds with philological rigor, and wants to teach the meaning of good. The Librarian (Borges): keeps all possible truths, treasures doubt, and refuses to convince. (Tolkien's allegory critique was both a lifelong principle and, when Narnia appeared, a pointed word for his friend Lewis — the categorization and the quarrel are the same gesture at two altitudes.)",
+        "The Instruction": "Do not choose. Every entry in an ethics of fiction leans one way; know which way yours leans, and invite the other pole to review it."
+      }
+    },
+    {
+      "id": "aspiration-not-idol",
+      "name": "Aspiration, Not Idol",
+      "category": "Branch · Synthesis",
+      "sort_order": 24,
+      "symbol": "✶",
+      "keywords": [
+        "aspiration",
+        "idol",
+        "princess-with-principles",
+        "fandom",
+        "st-francis"
+      ],
+      "sections": {
+        "The Rule": "A princess who has principles is an aspiration — healthy the way a picture of St. Francis on the wall is healthy. She becomes an idol the moment she is made identity or delegated agency. The same rule scales without modification to fandoms, authors, therapeutic modalities, and religions.",
+        "The Test": "Can you love it and disagree with it on the same day?"
+      }
+    },
+    {
+      "id": "what-society-mostly-needs",
+      "name": "What Society Mostly Needs",
+      "category": "Branch · Synthesis",
+      "sort_order": 25,
+      "symbol": "☉",
+      "keywords": [
+        "open-question",
+        "recovery",
+        "repair",
+        "hypotheses",
+        "unfinished"
+      ],
+      "sections": {
+        "How It Grows": "When a Case's verdict surprises you, ask which hypothesis it confirms or breaks, and rewrite this card.",
+        "The Open Question": "Hypotheses to test against the Cases, not doctrine: recovery of ordinary sight (against the feed's anesthesia); stories of rupture-and-repair (against purity and disposal); grammars held lightly (against conversion); consolation that is not anesthesia. This card is deliberately unfinished — it grows as the cases accumulate."
+      }
+    },
+    {
+      "id": "what-should-i-make-next",
+      "name": "What Should I Make Next?",
+      "category": "Branch · Synthesis",
+      "sort_order": 26,
+      "symbol": "✎",
+      "keywords": [
+        "practice",
+        "decision",
+        "instrument",
+        "making"
+      ],
+      "sections": {
+        "The Standard": "Make like a sub-creator; publish like a librarian.",
+        "The Instrument": "The card that turns ethics into practice. Cast one Lens, one Context, one Case — then make the thing that passes the Freedom Test in the Context drawn: retell a story back into its soil, regrow one for new soil with consent, or build the instrument that shows the curation."
+      }
+    },
+    {
+      "id": "how-this-grammar-grows",
+      "name": "How This Grammar Grows",
+      "category": "Growth",
+      "sort_order": 27,
+      "symbol": "⌥",
+      "keywords": [
+        "contribution",
+        "rules",
+        "revision",
+        "plural-verdicts"
+      ],
+      "sections": {
+        "The Rules": "A new Case enters only after being judged through at least three Lenses. A new Context must name a real soil, not a mood. Synthesis changes only when a Case breaks it. All verdicts are dated, revisable, and plural.",
+        "The Stance": "This is an ethics, not a tribunal — its authority is only as good as its willingness to be re-cast."
+      }
+    },
+    {
+      "id": "the-carrier-bag",
+      "name": "The Carrier Bag",
+      "category": "Branch · Lenses",
+      "sort_order": 28,
+      "symbol": "⊔",
+      "keywords": [
+        "carrier-bag",
+        "le-guin",
+        "form",
+        "container",
+        "weapon-narrative",
+        "shape"
+      ],
+      "sections": {
+        "Anchor": "Ursula K. Le Guin, 'The Carrier Bag Theory of Fiction' (1986).",
+        "The Lens": "The other lenses judge what a story does; this one judges its shape. Le Guin: the first tool was not the spear but the container, and a story can be built like either — a weapon-narrative (conflict spine, hero, target, kill, climax) or a carrier bag (a gathering of people, seeds, songs, and days, held in relation). Form carries ethics before content does: a weapon-shaped tale about peace still teaches that meaning is made by striking. The anomaly that proves the lens: The Lord of the Rings is a container wearing weapon's clothing — the quest is to relinquish, the climax is a failure redeemed by pity, and the true ending is the Shire's slow repair.",
+        "Test Questions": "Spear or bag — what is the shape of this container? What does its form teach about how meaning is made, regardless of its message? Can it hold many things together without pointing them at someone?"
+      }
+    },
+    {
+      "id": "bettelheim-the-judge-judged",
+      "name": "Bettelheim — The Judge Judged",
+      "category": "Branch · Cases",
+      "sort_order": 29,
+      "symbol": "⧗",
+      "keywords": [
+        "bettelheim",
+        "uses-of-enchantment",
+        "provenance",
+        "recursion",
+        "fairy-tales"
+      ],
+      "sections": {
+        "The Case": "The Uses of Enchantment (1976) — the century's great defense of hard fairy tales as psychic survival equipment for children. After his death: former patients alleging abuse, and documented plagiarism of earlier scholars. Not another Carroll: this shadow belongs to the judge of stories himself — the Provenance lens turned on the man who theorized the bedside.",
+        "Through the Lenses": "Provenance: the recursion test — a lens that cannot survive being aimed at its own theorists is no lens. Generativity: the book's fruits in a generation of parents and tellers are real; are they separable from his authority? The Hearth: his best insight — that the telling relationship, not the tale alone, does the healing — is precisely what his conduct is accused of betraying.",
+        "Verdict-in-Progress": "The insight survives where it can be re-derived from the tales and the bedside themselves; it dies where it rests on his word. Cite him as one voice in a lineage, never as the guarantee. The case confirms the Provenance card: the ethics happen in the reading event — and the archive is part of this casting now."
+      }
+    },
+    {
+      "id": "the-lineage",
+      "name": "The Lineage",
+      "category": "Branch · Synthesis",
+      "sort_order": 30,
+      "symbol": "❧",
+      "keywords": [
+        "lineage",
+        "booth",
+        "nussbaum",
+        "macintyre",
+        "ricoeur",
+        "le-guin",
+        "yunkaporta"
+      ],
+      "sections": {
+        "The Shelf": "This grammar is a retelling, not a first invention — its own Casting Context lens demands the soil be named. Wayne Booth, The Company We Keep: ethical criticism as the study of the company stories keep, neither censorship nor anything-goes. Martha Nussbaum, Love's Knowledge: some moral perception exists only in narrative form. Alasdair MacIntyre, After Virtue: 'What am I to do?' waits on 'Of which stories do I find myself a part?' Paul Ricoeur, Time and Narrative: the self is emplotted. Ursula K. Le Guin: the ethics of the container's shape. Tyson Yunkaporta, Sand Talk: custodial story-ethics — stories bound to land, protocol, kin, and consent — the living counter-model to story-as-content, and the deepest answer The Colony context has yet received.",
+        "The Instruction": "Read the shelf so the grammar does not reinvent it badly. Where a card and the lineage disagree, that is not embarrassment — it is a Case waiting to be judged."
+      }
+    },
+    {
+      "id": "lilas-the-judges-own-garden",
+      "name": "Lilás — the Judge's Own Garden",
+      "category": "Branch · Cases",
+      "sort_order": 31,
+      "symbol": "◐",
+      "keywords": [
+        "lilas",
+        "own-work",
+        "recursion",
+        "carrier-bag",
+        "freedom-test",
+        "self-judgment"
+      ],
+      "sections": {
+        "The Case": "Lilás, the World-Book (flow.recursive.eco/g/810290ee-ec9f-4e90-a10a-a63f2285ff1c) — a children's cosmology built by this grammar's own author with an AI collaborator: a girl named Ply, a council of guides who refuse verdicts, hell as small circularities and heaven as overflow, a goddess who replies only in the receiver's own materials. Entered as a Case per the Bettelheim rule: a lens that cannot survive being aimed at its own theorists is no lens — and an ethics of fiction never run against its author's work is a weapon, not an instrument.",
+        "Through the Lenses": "GENERATIVITY: the declared laws are promising — no accomplishment climaxes, meals instead of victories, grief that widens — but fruits are measured in receivers and the work has not yet been received by a child. Verdict must wait for the bedside. DOMINATION: strongest and most exposed axis. The guides' discipline (inspire, never issue a verdict; stop where interpretation begins) is applicability built into the characters — but the world carries three explicit core theses, and a world that KNOWS its theses sits one lazy chapter from allegory. Its own anti-flattening law is the guardrail; whether the scenes obey the law is exactly what this Case must track. CARRIER BAG: passes by design — the antagonist is a shape, nobody is defeated, the climax is a meal, and the truest ending proposed so far is a man passing salt. But note the anomaly clause cuts both ways: a bag-shaped tale can still dominate if every object in the bag points at the same moral. PROVENANCE: the author is alive, the collaboration with an AI is disclosed inside the artifact, and the source manuscripts are public — the archive is open while the shadow is still forming, which is the rarest provenance condition and the easiest to squander.",
+        "Verdict-in-Progress": "Well-shaped, untested. The laws are ahead of the scenes; the ethics is ahead of the fruits. Two standing risks, dated August 2026: (1) three core theses is one more than a children's book usually carries — the compost-to-overflow circle must be shown, never taught, or the whole world flunks its own Freedom Test; (2) the borrowed soils — Popol Vuh, Śākta tradition, Umbanda-adjacent figures — are handled with named care notes, but care notes are promises, and The Colony lens judges deliveries. Re-cast this Case after the first child hears a chapter."
+      },
+      "composite_of": [
+        "generativity-the-fruit-test",
+        "domination-vs-subcreation",
+        "the-carrier-bag",
+        "provenance-the-authors-shadow"
+      ]
+    },
+    {
+      "id": "group-lenses",
+      "name": "Lenses — Ways of Judging",
+      "category": "group",
+      "level": 2,
+      "sort_order": 100,
+      "composite_of": [
+        "generativity-the-fruit-test",
+        "casting-context",
+        "domination-vs-subcreation",
+        "bodies-and-representation",
+        "provenance-the-authors-shadow",
+        "medium-of-rendering",
+        "the-carrier-bag"
+      ],
+      "keywords": [],
+      "sections": {
+        "Definition": "The six lenses this grammar judges a casting through: generativity (the fruit test), casting context (the soil), domination versus subcreation, bodies and representation, provenance (the author's shadow), medium of rendering, and the carrier bag (the shape of the container itself)."
+      }
+    },
+    {
+      "id": "group-contexts",
+      "name": "Contexts — Soils a Story Can Be Cast Into",
+      "category": "group",
+      "level": 2,
+      "sort_order": 101,
+      "composite_of": [
+        "the-famine",
+        "the-plenty",
+        "the-colony",
+        "the-feed",
+        "the-hearth",
+        "the-empire-of-images"
+      ],
+      "keywords": [],
+      "sections": {
+        "Definition": "The six soils a story can land in — the famine, the plenty, the colony, the feed, the hearth, and the empire of images — each changing what the same story does to its receiver."
+      }
+    },
+    {
+      "id": "group-cases",
+      "name": "Cases — Worked Examples, Verdicts-in-Progress",
+      "category": "group",
+      "level": 2,
+      "sort_order": 102,
+      "composite_of": [
+        "hansel-and-gretel",
+        "frozen-and-the-northuldra",
+        "kpop-demon-hunters",
+        "alice-and-the-authors-shadow",
+        "the-palantir",
+        "the-lord-of-the-rings-and-the-minority-faith",
+        "theology-after-borges",
+        "bettelheim-the-judge-judged",
+        "lilas-the-judges-own-garden"
+      ],
+      "keywords": [],
+      "sections": {
+        "Definition": "Worked examples run through the lenses: Hansel & Gretel, Frozen and the Northuldra, KPop Demon Hunters, Alice and the author's shadow, the Palantír, The Lord of the Rings and the minority faith, theology after Borges, Bettelheim, and the grammar's own author's work, Lilás."
+      }
+    },
+    {
+      "id": "group-synthesis",
+      "name": "Synthesis — What the Judging Is For",
+      "category": "group",
+      "level": 2,
+      "sort_order": 103,
+      "composite_of": [
+        "the-freedom-test",
+        "the-two-temperaments",
+        "aspiration-not-idol",
+        "what-society-mostly-needs",
+        "what-should-i-make-next",
+        "the-lineage"
+      ],
+      "keywords": [],
+      "sections": {
+        "Definition": "What the four branches converge on: the freedom test (the load-bearing beam under every lens), the two temperaments that never fully resolve, the aspiration/idol distinction, the open question of what fiction mostly needs to do, the practical instrument for deciding what to make next, and the lineage this grammar retells rather than invents."
+      }
+    },
+    {
+      "id": "ethics-of-fiction-root",
+      "name": "The Ethics of Fiction — A Grammar for Judging Stories",
+      "category": "root",
+      "level": 3,
+      "sort_order": 200,
+      "composite_of": [
+        "group-lenses",
+        "group-contexts",
+        "group-cases",
+        "group-synthesis",
+        "the-question-itself",
+        "how-to-cast-this-grammar",
+        "how-this-grammar-grows"
+      ],
+      "keywords": [
+        "ethics-of-fiction",
+        "generativity",
+        "fruits-not-doctrine",
+        "freedom-of-the-reader"
+      ],
+      "sections": {
+        "Definition": "An ethics of fiction judges stories by what they do, not what they say — by fruits, not doctrine. And generativity is never a property of a story alone: it is a property of a CASTING — story × context × receiver. Four branches grown from one trunk: LENSES (six ways of judging), CONTEXTS (soils a story can be cast into), CASES (worked examples, verdicts-in-progress), SYNTHESIS (what the judging is for — ending in the practical card, What Should I Make Next?). The load-bearing beam under all of it: does this story, cast in this context, increase or decrease the freedom of the one who receives it? Casting ritual: hold a story in mind, draw three — read them as lens, soil, and mirror.",
+        "Why this is held the same way as every other school": "This grammar is the maintainer's own synthesis, not a curated tradition — and it is held to exactly the standard every other school in this collection is held to. It is a working interface, a made meaning offered for use, not a discovery of the one correct way to judge a story. The load-bearing beam it names — does this story, cast in this context, increase or decrease the freedom of the one who receives it? — is itself offered as a made instrument, not an found law, and the grammar says so of its own Cases: 'all verdicts are dated, revisable, and plural.'"
+      },
+      "metadata": {
+        "evidence_tier": "theoretical",
+        "evidence_note": "This is the library's own constructed account, not a tradition curated from elsewhere — an ethics-of-fiction instrument built by the maintainer from Tolkien's 'On Fairy-Stories', Wayne Booth's The Company We Keep, Le Guin's Carrier Bag Theory, and other named sources, synthesized into one grammar with its own vocabulary (Lenses, Contexts, Cases, Synthesis, the Freedom Test). It has not been tested, replicated, or peer-reviewed as a method; its own Growth card says its authority 'is only as good as its willingness to be re-cast.' Marking it 'theoretical' — the same tier this collection gives its least-evidenced curated schools — is the whole point: a library whose founding claim is that meaning-making categories are constructed cannot exempt its own maker's construction from that same discipline."
+      }
+    }
+  ]
+}

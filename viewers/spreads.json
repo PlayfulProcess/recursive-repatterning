@@ -44,6 +44,16 @@
       ]
     },
     {
+      "id": "overflow-spread",
+      "name": "The Overflow Spread",
+      "description": "Structure, Process, Possibility — then read the recursion: the Possibility of this reading becomes the Structure of the next. The question to hold: Am I overflowing or extracting?",
+      "positions": [
+        { "label": "Structure", "meaning": "What constrains and holds.", "x": 0.22, "y": 0.5 },
+        { "label": "Process", "meaning": "What moves and constructs.", "x": 0.5, "y": 0.5 },
+        { "label": "Possibility", "meaning": "What opens when the process overflows.", "x": 0.78, "y": 0.5 }
+      ]
+    },
+    {
       "id": "celtic-cross",
       "name": "The Celtic Cross",
       "description": "The famous ten — a cross of the situation and a staff of the self. Classic names; read for shape and tendency, not certainty.",
