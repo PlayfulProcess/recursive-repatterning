@@ -9,7 +9,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. All six of the most commonly cited basic emotions have items; contempt (added to some later versions of the list, and itself contested as a genuinely separate seventh category) is discussed only in the root item's Research note, not given its own entry. The Facial Action Coding System's specific action-unit vocabulary is referenced but not built out item by item. The live empirical dispute over universality is described in the root item's evidence_note deliberately without a verdict — see that field before assuming this school endorses either side.",
+  "_note": "Skeleton. All six of the most commonly cited basic emotions have items, plus contempt as a separate, deliberately ungrouped item presenting Ekman's own proposed-seventh claim (Ekman & Friesen, 1986) alongside the methodological contest over it (Russell, 1991) — its own entry rather than folded into either existing group, since the tradition itself never settled whether it belongs. The Facial Action Coding System's specific action-unit vocabulary is referenced but not built out item by item. The live empirical dispute over universality is described in the root item's evidence_note deliberately without a verdict — see that field before assuming this school endorses either side.",
   "_art_direction": {
     "period_place": "This is the collection's hardest case for the \"imagery contemporary to its own author and environment\" principle. Ekman's own environment is mid-to-late-20th-century American experimental psychology, and the tradition's own illustrative material — the specific research photographs used in the cross-cultural judgment studies, and most FACS training photography — is copyrighted and not usable here. There is no comparable public-domain visual culture the way there is Attic pottery for Aristotle or Ragamala painting for rasa.",
     "candidates": [
@@ -180,6 +180,21 @@
       "metadata": {
         "evidence_tier": "observational-only",
         "evidence_note": "The model's central empirical claim — cross-cultural universality of a small set of discrete facial expressions — rests on cross-cultural judgment studies that are genuinely observational and correlational rather than settled experimental fact: the original forced-choice studies (Ekman & Friesen 1971 and others) reported strong cross-cultural recognition; later studies using free-labeling methodology with populations having less media exposure (Gendron, Barrett, et al. 2014, the Himba) reported substantially weaker agreement; and a 2019 meta-analysis (Barrett, Adolphs, Marsella, Martinez, & Pollak) found no reliable one-to-one facial signature for discrete emotion categories across the wider literature. This school does not adjudicate that dispute — evidence_tier reflects that the underlying studies are real and published, not that the universality claim they are cited for has been independently confirmed."
+      }
+    },
+    {
+      "id": "contempt",
+      "name": "Contempt — the Contested Seventh",
+      "category": "contested-basic-emotion",
+      "sort_order": 10,
+      "keywords": ["contempt", "ekman", "contested", "affect programme"],
+      "sections": {
+        "Definition": "Ekman and Friesen (1986) proposed contempt as a seventh pan-cultural basic emotion, triggered by an appraisal of another person, or their action, as morally or socially beneath one's own standards. They claimed a specific, cross-culturally recognizable signature distinct from the other six: a unilateral tightening and slight raising of one corner of the lip, without the matching movement on the opposite side that a symmetric expression would show.",
+        "The claimed signature": "FACS work associates the proposed contempt expression primarily with a unilateral AU12 (lip corner puller) and/or AU14 (dimpler) — tightened or raised on one side of the face only, the asymmetry itself being the feature Ekman and Friesen held distinguished it from a smile, a smirk, or any other single-sided facial movement lacking a specific emotional referent.",
+        "Research note": "Ekman and Friesen (1986, in Motivation and Emotion) reported cross-cultural agreement on the unilateral lip-curl as \"contempt\" across ten countries using a forced-choice task, and Ekman and Heider (1988) reported a replication among the Minangkabau of West Sumatra, a population with limited exposure to Western media. James Russell (1991) challenged the finding on methodological grounds: using free-labeling and quantitative rating-scale tasks instead of the original short preselected list, he found neither method's respondents converged on \"contempt\" as the label for the same expression. The dispute continues in the published literature without settlement on either side (see this school's root item for the wider universality debate the contempt claim sits inside)."
+      },
+      "metadata": {
+        "emotion_key": "contempt"
       }
     }
   ]

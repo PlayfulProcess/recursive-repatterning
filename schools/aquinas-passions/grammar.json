@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Only 5 of the 11 passions have items: two concupiscible (amor/love, tristitia/sorrow) and three irascible (spes, timor, ira). Missing entirely: odium (hatred), desiderium/concupiscentia (desire), fuga (aversion), gaudium/delectatio (joy — distinct from the pair chosen here), desperatio (despair), and audacia (daring). Aquinas's extensive treatment of how the passions relate to virtue, sin, and the will (whether a passion can be sinful in itself) is not represented at all.",
+  "_note": "All eleven passions now have items: six concupiscible (amor/odium, desiderium/fuga, gaudium/tristitia) and five irascible (spes/desperatio, timor/audacia, ira). Aquinas's extensive treatment of how the passions relate to virtue, sin, and the will — whether a passion can be sinful in itself, and how reason and will are meant to govern the sensitive appetite — is not represented at all. The many named species he catalogues under individual passions (six species of fear per Damascene; envy and pity as species of sorrow; the causes of delight enumerated across qq. 31–34) are named inside individual items' Research notes but are not built out as separate items of their own.",
   "_art_direction": {
     "period_place": "13th-century Latin Christendom — Paris and Naples, where Aquinas taught and wrote. Gothic manuscript illumination of the mid-to-late 13th century is the closest visual contemporary.",
     "candidates": [
@@ -143,14 +143,104 @@
       }
     },
     {
+      "id": "odium",
+      "name": "Odium — Hatred (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 9,
+      "keywords": ["hatred", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Odium is the concupiscible passion contrary to amor: a disagreement or dissonance the sensitive appetite feels toward an apprehended evil, prior to any movement to avoid or destroy it. Where amor is a connaturality with a good, odium is its exact structural mirror toward an evil.",
+        "The arduousness axis": "Odium stays concupiscible, not irascible, for the same reason amor does: it responds to the evil simply as evil, without regard to whether resisting or escaping it is difficult. That is what separates it from timor (fear, irascible, above): fear requires the evil to be hard to avoid; hatred does not.",
+        "Research note": "Aquinas holds, against a more intuitive symmetry, that hatred is not a primary passion parallel to love but always presupposes it: \"omne odium ex amore causatur\" — every hatred is caused by some love (q. 29, a. 2). One hates an evil only because it opposes a good already loved; love, not hatred, is structurally first."
+      },
+      "metadata": {
+        "emotion_key": "hatred"
+      }
+    },
+    {
+      "id": "desiderium",
+      "name": "Desiderium — Desire (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 10,
+      "keywords": ["desire", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Desiderium (also concupiscentia) is the concupiscible passion of movement toward a good not yet possessed. It follows directly from amor — one desires what one already loves — and precedes gaudium: desiderium is the appetite still in motion toward the good; gaudium is the appetite come to rest in it.",
+        "The arduousness axis": "As with amor, desiderium responds to the good simply as good, apprehended as not-yet-had, without regard to difficulty. This is the exact concupiscible counterpart to spes (hope, irascible, above): spes is what desiderium becomes when attaining the good turns out to require struggle against real resistance. No arduousness, no spes — only desiderium.",
+        "Research note": "Aquinas distinguishes desiderium of a good simply apprehended from the will's act of intending (intentio) the same object — the passion belongs to the sensitive appetite and is common to humans and animals in analogous form; intentio belongs to the will alone."
+      },
+      "metadata": {
+        "emotion_key": "desire"
+      }
+    },
+    {
+      "id": "fuga",
+      "name": "Fuga — Aversion (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 11,
+      "keywords": ["aversion", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Fuga is the concupiscible passion contrary to desiderium: a shrinking away from an apprehended evil not yet present, prior to any judgment about how hard that evil is to escape. Aquinas states the whole concupiscible scheme in one line: \"in concupiscibili sunt tres coniugationes passionum: scilicet amor et odium, desiderium et fuga, gaudium et tristitia\" — in the concupiscible faculty there are three pairings: love and hatred, desire and aversion, joy and sorrow (q. 23, a. 4).",
+        "Why the key is transliterated, not \"aversion\" alone": "English translations render fuga as \"aversion,\" \"dislike,\" or \"flight\" fairly interchangeably, which can blur the one distinction that matters here: fuga is the concupiscible response to a future evil considered simply as evil. The moment that same future evil is considered arduous — difficult to escape — the passion is no longer fuga but timor (fear, irascible, above). Aquinas states the boundary explicitly: fear adds to fuga a certain lowness of spirit, on account of the difficulty of shunning the evil.",
+        "Research note": "Fuga is the least discussed of the six concupiscible passions in the secondary literature relative to its partner desiderium — Aquinas treats it mostly by contrast, defining it against desire and against fear, rather than devoting it an extended discussion of its own species."
+      },
+      "metadata": {
+        "emotion_key": "aversion"
+      }
+    },
+    {
+      "id": "gaudium",
+      "name": "Gaudium — Joy (Concupiscible)",
+      "category": "concupiscible-passion",
+      "sort_order": 12,
+      "keywords": ["joy", "delight", "aquinas", "concupiscible"],
+      "sections": {
+        "Definition": "Gaudium (Aquinas also uses delectatio, pleasure/delight, largely interchangeably for the sensitive-appetite case) is the concupiscible passion of the appetite coming to rest in a good actually possessed — the counterpart to tristitia (sorrow, above) at a present evil, and the terminus of the sequence amor–desiderium–gaudium: one loves a good, desires it while absent, and rejoices in it once had.",
+        "Distinct from the pair already in this skeleton": "This school's first item, amor, already named gaudium as one of the passions following from love; this item gives it its own entry rather than leaving it a passing mention inside amor's. Gaudium and delectatio are not perfectly synonymous for Aquinas — delectatio can apply more broadly to bodily pleasure and gaudium more properly to a rational or willed satisfaction — but at the level of the sensitive-appetite passion this skeleton describes, the two names cover the same concupiscible passion of rest in a possessed good.",
+        "Research note": "Aquinas devotes several articles (qq. 31–34) to the causes of delectatio — operation, the presence of the good, likeness, hope, sorrow's cessation, and others — a more elaborate treatment than tristitia's shorter remedy-list receives, reflecting his general procedure of treating a passion and its contrary asymmetrically rather than as strict mirror images."
+      },
+      "metadata": {
+        "emotion_key": "joy"
+      }
+    },
+    {
+      "id": "desperatio",
+      "name": "Desperatio — Despair (Irascible)",
+      "category": "irascible-passion",
+      "sort_order": 13,
+      "keywords": ["despair", "aquinas", "irascible", "arduousness"],
+      "sections": {
+        "Definition": "Desperatio is the irascible passion contrary to spes: a recoil from a future good that is arduous and, unlike spes's object, judged impossible to attain. Both passions concern the identical object — a hard-to-reach future good — differing only in the appetite's judgment of whether reaching it is possible.",
+        "Why the key is transliterated, not \"despair\"": "English \"despair\" is used broadly for hopelessness of many kinds, easy or hard, sudden or chronic. Aquinas's desperatio is defined narrowly against the same arduous future good spes targets — it names the specific judgment that a hard-won good is now impossible, not despondency in general. Keying this item as plain \"despair\" would erase the one feature shared with spes — the arduous object — that makes it a distinct irascible passion rather than a mood.",
+        "Research note": "Aquinas pairs desperatio with spes as the first couple of the irascible faculty and holds that hope naturally precedes despair in the order of the passions — one must first apprehend a good as attainable, however arduously, before that judgment can reverse into despair (q. 25, a. 3; q. 40)."
+      },
+      "metadata": {
+        "emotion_key": "desperatio"
+      }
+    },
+    {
+      "id": "audacia",
+      "name": "Audacia — Daring (Irascible)",
+      "category": "irascible-passion",
+      "sort_order": 14,
+      "keywords": ["daring", "courage", "aquinas", "irascible", "arduousness"],
+      "sections": {
+        "Definition": "Audacia is the irascible passion contrary to timor: a movement toward confronting a future, arduous evil, arising when the appetite judges that evil resistible rather than overwhelming. Where timor shrinks from the arduous evil, audacia rises up against it — the same object, met with the opposite inclination.",
+        "Why the key is transliterated, not \"courage\" or \"daring\"": "Audacia is a passion of the sensitive appetite, not the intellectual virtue of fortitude — Aquinas treats it as the raw movement toward confronting danger that virtue must then govern and moderate, not as virtue itself. It is also narrower than everyday \"daring\": it specifically requires the same arduous future evil timor targets. An excess of audacia unchecked by reason is, on this account, rashness rather than courage.",
+        "Research note": "Aquinas holds anger (ira, above) presupposes audacia: no one seeks revenge without first daring to pursue it, which is part of why ira sits last in the irascible order and, uniquely among the eleven passions, has no contrary of its own."
+      },
+      "metadata": {
+        "emotion_key": "audacia"
+      }
+    },
+    {
       "id": "group-concupiscible",
       "name": "The Concupiscible Passions",
       "category": "group",
       "level": 2,
       "sort_order": 6,
-      "composite_of": ["amor", "tristitia"],
+      "composite_of": ["amor", "tristitia", "odium", "desiderium", "fuga", "gaudium"],
       "sections": {
-        "Definition": "The concupiscible appetite responds to sensory good or evil simply apprehended as such, without regard to how difficult attaining or avoiding it is. Aquinas names six here in total (love/hatred, desire/aversion, joy/sorrow); this skeleton represents the pair with love and sorrow."
+        "Definition": "The concupiscible appetite responds to sensory good or evil simply apprehended as such, without regard to how difficult attaining or avoiding it is. Aquinas names six here, all represented in this skeleton: love/hatred (amor/odium), desire/aversion (desiderium/fuga), and joy/sorrow (gaudium/tristitia)."
       },
       "keywords": ["concupiscible", "aquinas"],
       "metadata": {}
@@ -161,9 +251,9 @@
       "category": "group",
       "level": 2,
       "sort_order": 7,
-      "composite_of": ["spes", "timor", "ira"],
+      "composite_of": ["spes", "timor", "ira", "desperatio", "audacia"],
       "sections": {
-        "Definition": "The irascible appetite responds to the same kind of good or evil the concupiscible appetite handles, but only insofar as attaining the good or escaping the evil is arduous — difficult, resisted, requiring struggle. Aquinas names five here (hope/despair, fear/daring, and anger with no contrary); this skeleton represents three: spes, timor, and ira."
+        "Definition": "The irascible appetite responds to the same kind of good or evil the concupiscible appetite handles, but only insofar as attaining the good or escaping the evil is arduous — difficult, resisted, requiring struggle. Aquinas names five here, all represented in this skeleton: hope/despair (spes/desperatio), fear/daring (timor/audacia), and anger (ira), which alone has no contrary."
       },
       "keywords": ["irascible", "aquinas", "arduousness"],
       "metadata": {}
