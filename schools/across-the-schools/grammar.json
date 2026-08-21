@@ -23,6 +23,11 @@
       "items": 22
     },
     {
+      "slug": "untranslatables",
+      "name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
+      "items": 12
+    },
+    {
       "slug": "neuroscience-of-emotion",
       "name": "Neuroscience of Emotion — Where Feeling Lives in the Body",
       "items": 9
@@ -793,6 +798,288 @@
         "source_deck": "overflow",
         "source_item_id": "the-new-game",
         "deck": "Overflow — Structures, Process, Possibilities"
+      }
+    },
+    {
+      "id": "untranslatables--saudade",
+      "name": "Saudade — Portuguese",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Saudade is the aching awareness of someone or something absent that you love — a person far away, a place left behind, a time that will not return, even a former version of yourself. The awareness is bittersweet rather than simply painful: the ache is itself proof that the thing mattered, and a kind of pleasure sits inside the pain without cancelling it.",
+        "Where English draws the line": "English has the pieces — miss, longing, nostalgia, homesickness — but no single noun holds them together the way saudade does, and English's closest single word, nostalgia, is retrospective in a way saudade is not: nostalgia reaches back to a past, while saudade can be felt for someone still living, for a future reunion that may not happen, or for a version of a place that never quite existed as remembered. Saudade is also not, on its own, a request for anything to change — it names the ache, not a plan to resolve it.",
+        "Research note": "The claim that saudade resists a single English translation, and that nostalgia specifically undersells it by importing a past-directed frame saudade doesn't share, is widely made in scholarly and lexicographic treatments of the word, including its long association with the Portuguese Age of Discovery, when families were separated by voyages with uncertain return."
+      },
+      "keywords": [
+        "saudade",
+        "longing",
+        "nostalgia",
+        "missing",
+        "portuguese"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "saudade",
+        "source_deck": "untranslatables",
+        "source_item_id": "saudade",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--sehnsucht",
+      "name": "Sehnsucht — German",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Sehnsucht names a longing for an ideal, more complete version of one's own life — not longing for a specific missing person or object, but for a life that feels unfinished measured against an imagined better one. Psychological research by Susanne Scheibe, Alexandra Freund and Paul Baltes on \"life longings\" identifies six features that co-occur in Sehnsucht: a utopian sense of ideal development, an awareness of the present life's incompleteness, a focus spanning past, present and future at once, bittersweet (ambivalent) emotion, ongoing reflection on one's life, and a rich, often symbolic imagery attached to the longed-for state.",
+        "Where English draws the line": "English offers longing, yearning, wistfulness and craving, and none of them packages the six co-occurring features above into one word — each English candidate names roughly one facet (yearning leans toward direction-of-desire, wistfulness toward mood, craving toward intensity) where Sehnsucht names the whole cluster at once, including its distinctive spanning of past, present and future together.",
+        "Research note": "Sehnsucht is frequently compared to Portuguese saudade in popular treatments; the comparison is useful as orientation but not exact — Sehnsucht's psychological literature centers it on longing for one's own life as it could be, where saudade centers on a specific absent person, place or time, so the two terms should not be treated as synonyms of each other any more than either is a synonym of English longing."
+      },
+      "keywords": [
+        "sehnsucht",
+        "longing",
+        "yearning",
+        "german"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "sehnsucht",
+        "source_deck": "untranslatables",
+        "source_item_id": "sehnsucht",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--schadenfreude",
+      "name": "Schadenfreude — German",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Schadenfreude, literally \"damage-joy\" (Schaden + Freude), names pleasure taken in someone else's misfortune. It has been a live subject in German philosophy since at least the mid-eighteenth century, discussed by Schopenhauer, Kant and Nietzsche among others, well before it entered English usage in the nineteenth century. Contemporary psychology distinguishes several distinct triggers for the feeling — a sense that the other person's misfortune is deserved (justice), pleasure from favorable comparison with a rival (rivalry), and simple aggression — which are not the same feeling wearing one name so much as several routes to the same label.",
+        "Where English draws the line": "English has no native single word for this and imported the German one directly rather than coining its own — itself a small piece of evidence for the gap. The nearest native options are gloating, which names an outward display of triumph rather than the inward feeling, and the clinical phrase malicious joy, which is accurate but not a word anyone reaches for in ordinary speech the way German speakers reach for Schadenfreude.",
+        "Research note": "That English borrowed Schadenfreude wholesale, rather than translating it, is itself frequently cited as evidence the concept had no ready native equivalent when the word entered English usage in the mid-1800s."
+      },
+      "keywords": [
+        "schadenfreude",
+        "pleasure",
+        "misfortune",
+        "german"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "schadenfreude",
+        "source_deck": "untranslatables",
+        "source_item_id": "schadenfreude",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--amae",
+      "name": "Amae (甘え) — Japanese",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Amae, from the verb amaeru, is the feeling behind presuming on another person's benevolence — wanting to be indulged, cared for and allowed to depend on someone, in a way Takeo Doi's The Anatomy of Dependence (1971) treats as a normal, socially sanctioned current running through Japanese relationships across the lifespan, not only between infant and caregiver. Doi builds an entire account of Japanese interpersonal behavior — including the nonverbal empathic guesswork called sasshi and the deliberate ambiguity of self-expression called enryo — around amae as an organizing psychological current.",
+        "Where English draws the line": "English has dependency, clinginess and neediness, and each one arrives with a negative or infantilizing charge in adult contexts that amae does not carry to the same degree within the relational norms Doi describes. English also lacks a everyday, non-clinical word for the specific feeling of wanting to presume on someone's goodwill — the nearest English has is a diagnostic-sounding phrase, not an ordinary-language word.",
+        "Research note": "Doi's own claim, stated carefully rather than as a claim about who can feel amae: the underlying wish to depend on another's benevolence is not exclusive to Japan, but Japanese is the language with the most extensive ordinary vocabulary for naming and discussing it — a claim about vocabulary density, not about which populations are capable of the feeling."
+      },
+      "keywords": [
+        "amae",
+        "dependence",
+        "indulgence",
+        "japanese"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "amae",
+        "source_deck": "untranslatables",
+        "source_item_id": "amae",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--toska",
+      "name": "Toska (тоска) — Russian",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Toska is a single Russian word for a range of feeling that English divides into several separate words. Vladimir Nabokov, in his commentary on his translation of Pushkin's Eugene Onegin, described toska as sliding along one continuous scale: at its most intense, a great spiritual anguish with no particular cause; at a milder pitch, a dull ache of the soul, a restlessness, a longing with nothing specific to long for; at a more specific pitch, a desire for a particular person or thing, or plain homesickness; and at its lowest register, ordinary boredom.",
+        "Where English draws the line": "English breaks Nabokov's single scale into separate, unconnected words — anguish, ennui, wistfulness, homesickness, boredom — each occupying one rung with no word that names the whole ladder or the slide between its rungs. Toska is exactly that slide: one word naming a family of intensities English treats as different feelings entirely.",
+        "Research note": "Nabokov's gloss, from volume two of his Eugene Onegin commentary, is the most widely cited English-language account of toska and is paraphrased here rather than quoted, per this repo's copyright policy for in-copyright source material."
+      },
+      "keywords": [
+        "toska",
+        "anguish",
+        "melancholy",
+        "russian",
+        "nabokov"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "toska",
+        "source_deck": "untranslatables",
+        "source_item_id": "toska",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--litost",
+      "name": "Lítost — Czech",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Lítost names a two-step feeling: first, the sudden sight of one's own misery or inadequacy — often in comparison with someone else, in a moment of embarrassment or failure — and second, a reflexive turn toward revenge, a wish to make the person who witnessed or caused the exposure feel equally miserable. Milan Kundera, who devotes a section of The Book of Laughter and Forgetting (1979) to the word, presents it as untranslatable into any other language he knew, and illustrates it through a character whose humiliation in front of someone he loves curdles immediately into a wish to hurt them back.",
+        "Where English draws the line": "English has self-pity, humiliation and shame, and none of them carries lítost's second half — the reflex toward retaliation that follows directly from the self-glimpse. Self-pity in English is usually described as passive, something a person sits in; lítost names an active pivot from that sight of one's own misery into wanting to inflict misery on someone else, in one continuous movement.",
+        "Research note": "Kundera's definition is paraphrased here, per this repo's copyright policy against quoting in-copyright passages; the two-step structure (self-glimpse, then reflex toward revenge) is the part of his account most consistently repeated across secondary discussions of the term."
+      },
+      "keywords": [
+        "litost",
+        "self-pity",
+        "humiliation",
+        "czech",
+        "kundera"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "litost",
+        "source_deck": "untranslatables",
+        "source_item_id": "litost",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--hygge",
+      "name": "Hygge — Danish",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Hygge names a quality of coziness and comfortable togetherness that produces a feeling of contentment — the Oxford English Dictionary's own definition, adopted when hygge was its 2016 word of the year. The word entered Danish from Norwegian in the eighteenth century, originally closer to \"wellbeing.\" As popularized by Meik Wiking and the Happiness Research Institute, hygge names both a physical setting (candlelight, warm textures, small domestic pleasures) and a social practice — deliberate, unhurried togetherness with people you're at ease with.",
+        "Where English draws the line": "English coziness names the physical half — warm light, soft blankets, a comfortable room — but not the social-practice half: the deliberate choice to slow down and be present with others without an agenda. A room can be cozy with no one in it; hygge, in its fuller Danish use, usually assumes company and a shared unhurried mood, not just a comfortable setting.",
+        "Research note": "The Oxford English Dictionary's 2016 word-of-the-year definition is the most citable anchor for hygge's English-facing definition; the fuller social-practice sense is drawn from Wiking's popular but widely cited account, paraphrased rather than quoted here."
+      },
+      "keywords": [
+        "hygge",
+        "coziness",
+        "conviviality",
+        "danish"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hygge",
+        "source_deck": "untranslatables",
+        "source_item_id": "hygge",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--gigil",
+      "name": "Gigil — Tagalog",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Gigil names the overwhelming urge to squeeze, pinch or bite something unbearably cute — a baby, a puppy, a friend's new haircut — often expressed through clenched fists, gritted teeth or an actual gentle squeeze. The feeling is positive at its root: a surge of fondness or delight so intense that it looks, from the outside, like a flash of aggression. The word was added to the Oxford English Dictionary in 2025 as a loanword, precisely because English had no equivalent to reach for.",
+        "Where English draws the line": "English's nearest equivalent, cute aggression, is a two-word clinical compound coined by psychology researchers (Oriana Aragón and colleagues) studying what they term \"dimorphous expression\" — positive and negative displays produced by the same underlying feeling. Tagalog already had an ordinary, single-word, first-person feeling-word for exactly this; English needed a research program and a technical label to name the same thing from the outside, as a studied phenomenon rather than a word a speaker reaches for about their own feeling.",
+        "Research note": "Gigil's 2025 addition to the Oxford English Dictionary, and its listed gloss, are the most direct citable anchor; the cute-aggression research comparison draws on the psychological literature on dimorphous expressions, which studies the same behavioral cluster from outside the feeling rather than naming it from within, as gigil does."
+      },
+      "keywords": [
+        "gigil",
+        "cute-aggression",
+        "tagalog",
+        "filipino"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "gigil",
+        "source_deck": "untranslatables",
+        "source_item_id": "gigil",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--meraki",
+      "name": "Meraki (μεράκι) — Greek",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Meraki names doing something with soul, creativity and devotion — putting a piece of yourself into a task, whether that task is cooking a meal, mending a net or preparing a lesson. It is not reserved for grand artistic work; in ordinary Greek use it applies just as easily to everyday labor done with full attention and care.",
+        "Where English draws the line": "English has passion, craftsmanship and the informal phrase \"tender loving care,\" and none names the specific act meraki names: investing part of yourself into an otherwise ordinary task. Passion names the feeling behind the act; craftsmanship names the skill in the result; meraki names something closer to what gets left inside the object or task itself.",
+        "Research note": "Meraki's popular framing as \"the untranslatable Greek word for soul\" should be held with more care than it usually gets: the word entered Modern Greek from Turkish merak, which in turn traces to Arabic maraq, and cognate words with closely related meanings — longing, eagerness, labor of love — appear across several Balkan languages (Macedonian, Bulgarian, Serbian, Croatian), not only Greek. Linguists examining the word's history have pushed back specifically on the claim that it expresses a distinctively Hellenic sentiment; the feeling it names may be real and the gap in English may be real, but the word's uniqueness to Greek culture specifically is the weaker part of the popular story, and this item declines to repeat that stronger claim."
+      },
+      "keywords": [
+        "meraki",
+        "soul",
+        "craftsmanship",
+        "greek"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "meraki",
+        "source_deck": "untranslatables",
+        "source_item_id": "meraki",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--hiraeth",
+      "name": "Hiraeth — Welsh",
+      "category": "untranslatable-term",
+      "sections": {
+        "Definition": "Hiraeth names a longing for home, or for a place, time or way of life that may no longer exist or may never have existed quite as it's remembered. It entered the Oxford English Dictionary in June 2020 as a loanword, still glossed as lacking a direct English equivalent.",
+        "Where English draws the line": "English has homesickness and nostalgia. Homesickness presupposes the home is still there, reachable, just currently absent; hiraeth carries no such assumption — the place, or the version of it being longed for, may be permanently gone or may be an idealized memory that was never quite accurate. Nostalgia covers some of that ground but, as with saudade, is bound more tightly to the past than hiraeth's sense of longing for a home that might be as much imagined as remembered.",
+        "Research note": "Hiraeth's 2020 addition to the Oxford English Dictionary and its standard gloss are the most direct citable anchor; the comparison with saudade and hygge in this school is this school's own observation, not a claim made by any single cited source, and should be read as orientation rather than as an assertion that the three words are equivalent to one another."
+      },
+      "keywords": [
+        "hiraeth",
+        "homesickness",
+        "welsh",
+        "longing"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "hiraeth",
+        "source_deck": "untranslatables",
+        "source_item_id": "hiraeth",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--grief-distributed",
+      "name": "Grief, Distributed — English Into Portuguese",
+      "category": "reverse-lexical-gap",
+      "sections": {
+        "Definition": "English grief covers a wide territory in one word: the ritual behavior of mourning, the heavy inward feeling of loss, and the longing for the person who is gone, all at once. Portuguese does not hold that territory together. Luto names the ritualized state and social behavior of mourning specifically tied to a death — closer to English mourning than to grief's fuller felt sense. Pesar names the heavy, weighted inward sorrow itself (from peso, weight — a peso no coração, \"a weight on the heart\"). Tristeza names ordinary sadness, with no necessary connection to loss at all; using it alone for a death would understate what English grief names. Saudade carries the longing component when what's missing is a specific absent person, but it isn't specific to death and reaches well beyond bereavement into any absence at all.",
+        "Where the territory splits": "None of the four Portuguese words is a clean one-to-one match for grief. English grief bundles ritual, felt weight, and longing into a single term; Portuguese keeps those three components in three or four separate words, none of which, alone, does what grief does in English.",
+        "Research note": "This item exists to keep the school from reading as tourism through other languages' vocabulary while treating English as the neutral baseline everything else gets measured against — the gap runs in both directions, and English's own single-word grief is, from Portuguese's vantage, at least as coarse as saudade looks from English's."
+      },
+      "keywords": [
+        "grief",
+        "luto",
+        "tristeza",
+        "saudade",
+        "pesar",
+        "mourning",
+        "portuguese"
+      ],
+      "image_url": "",
+      "metadata": {
+        "emotion_key": "grief",
+        "source_deck": "untranslatables",
+        "source_item_id": "grief-distributed",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
+      }
+    },
+    {
+      "id": "untranslatables--lexical-gap-evidence",
+      "name": "The Word Missing From the Model — Evidence From This Library's Own Proximity Build",
+      "category": "corpus-evidence",
+      "sections": {
+        "Definition": "This library's proximity-mapping build (schools/_proximity.json, generated by scripts/build_proximity.py) checked every name, keyword and emotion_key already in use across this library's schools against the vocabulary of glove-wiki-gigaword-100, a general-purpose English word-vector model trained on roughly 400,000 distinct word forms. 83 of the library's own terms were entirely absent from that vocabulary. Of those, 45 are single, unhyphenated words rather than English compound phrases — among them shringara and bhayanaka (the rasa school), nigredo, citrinitas and rubedo (alchemical-correspondences), allegrezza and concitato (affektenlehre), and tristitia and concupiscible (aquinas-passions).",
+        "What this does and doesn't show": "Absence from one static corpus's roughly 400,000-word vocabulary is a fact about that corpus's training text and tokenization, not a direct measurement of whether a concept can be expressed in English — a term can be missing simply because it is rare in the written English the corpus was built from, not because English has no way to describe what it names. It is also not proof that a word present in the model translates cleanly: grief and sadness are both in the model's vocabulary, and this school's own grief-distributed item argues neither maps cleanly onto Portuguese. Held at that more modest weight, the correlation is still worth exhibiting rather than asserting further: nearly all of the 45 absent single words are the specialist vocabulary of one particular non-English or historical tradition each, named by that tradition for a distinction ordinary English prose doesn't routinely need to draw — which is closer to what this school claims than a stronger \"proof of untranslatability\" would be.",
+        "Research note": "Full source: schools/_proximity.json, generated by scripts/build_proximity.py per the method described in docs/PLAN-proximity-and-untranslatables.md §3b. The figures above (650 terms in-model, 83 absent, 45 of those single-word) are read directly from that file's own counts and missing arrays as of this item's writing and will drift if the proximity build is re-run against a larger term list."
+      },
+      "keywords": [
+        "proximity",
+        "corpus",
+        "glove",
+        "lexical-gap",
+        "evidence"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "untranslatables",
+        "source_item_id": "lexical-gap-evidence",
+        "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
     {

@@ -20,11 +20,11 @@ aggregator and `_collection.json`; always `git pull --rebase` before push (CI la
 
 | # | Task | Status at writing | Owner |
 |---|---|---|---|
-| 1 | Course: Relationship is Process | agent running | background |
-| 2 | School: untranslatables | agent running | background |
-| 3 | Skeleton completion pass | agent running | background |
-| 4 | Tools index page (practices Phase 2) | agent running | background |
-| 5 | Integration: wire 1–4, rebuild, verify live | **not started** | next session |
+| 1 | Course: Relationship is Process | DONE (de77ec4) | — |
+| 2 | School: untranslatables | DONE (01c209d) | — |
+| 3 | Skeleton completion pass | DONE (c956470) — 3 residual stale Research-note sentences flagged in its report (timor, eleos, bei) need a copy-edit | next session |
+| 4 | Tools index page (practices Phase 2) | DONE (2e9d3e7) | — |
+| 5 | Integration: wire 1–4, rebuild, verify live | DONE — untranslatables in new branch language-and-translation | — |
 | 6 | Overflow cross-links through the library | **not started** — spec §A | next session |
 | 7 | The Spiral view | **not started** — spec §B | next session |
 | 8 | Love Bank port (practices Phase 3) | not started — see `docs/PLAN-practices-layer.md` | later |
