@@ -109,7 +109,11 @@
         "Practice": "Outside a therapy session, the Tango's underlying moves can be practiced in miniature: notice the cycle starting, pause before the habitual reaction, and try naming what is actually felt underneath it to the other person, directly.",
         "Research note": "The EFT Tango is Johnson's own structured description of within-session therapeutic process; its five specific moves are a clinical training framework rather than an independently validated behavioral sequence measured outside EFT training and supervision."
       },
-      "metadata": {}
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-modulation",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
     },
     {
       "id": "de-escalation",

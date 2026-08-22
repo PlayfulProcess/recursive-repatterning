@@ -59,7 +59,11 @@
         "In the body": "Bowlby described the system's activation in physiological and behavioral terms consistent with a general threat response — increased distress signaling, search behavior, difficulty settling — that quiets once proximity to the attachment figure is restored, distinguishing simple settling from a fuller sense of security.",
         "Research note": "The attachment behavioural system is Bowlby's foundational theoretical construct, drawing on ethological observation of proximity-maintaining behavior in other species alongside clinical and developmental observation in humans; it underlies the empirical work (the Strange Situation, described elsewhere in this grammar) that later tested and extended it."
       },
-      "metadata": {}
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-two-truths",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
     },
     {
       "id": "the-strange-situation",
@@ -143,7 +147,11 @@
         "In relationships": "Later attachment research uses the term earned security for cases where an adult's current relational functioning looks secure despite a difficult early attachment history — evidence, on this account, that a working model can shift meaningfully through later relationships (including a stable partnership or therapy), not only through infancy.",
         "Research note": "Internal working models are a central theoretical construct in attachment theory; direct empirical measurement of the models themselves (as opposed to their behavioral and self-report correlates) remains genuinely difficult, and different measurement traditions (interview-based versus self-report) do not always converge cleanly — a point addressed further in this grammar's root item."
       },
-      "metadata": {}
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-lineage",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
     },
     {
       "id": "group-the-patterns",

@@ -37,7 +37,7 @@
         "branch": "lineage-greek-latin-european",
         "source_deck": "greek-pathe",
         "source_item_id": "group-aristotle-rhetorical-pathe",
-        "deck": "Greek Pathē"
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
     {
@@ -56,7 +56,7 @@
         "derives_from": ["deck-aristotle-pathe"],
         "source_deck": "greek-pathe",
         "source_item_id": "group-stoic-four-pathe",
-        "deck": "Greek Pathē"
+        "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
     {
@@ -75,7 +75,7 @@
         "derives_from": ["deck-aristotle-pathe", "deck-stoic-classification"],
         "source_deck": "aquinas-passions",
         "source_item_id": "aquinas-passions-root",
-        "deck": "Aquinas's Passions"
+        "deck": "Aquinas's Eleven Passions"
       }
     },
     {
@@ -94,7 +94,7 @@
         "branch": "lineage-greek-latin-european",
         "source_deck": "descartes-passions",
         "source_item_id": "descartes-passions-root",
-        "deck": "Descartes's Passions"
+        "deck": "Descartes's Six Primitive Passions"
       }
     },
     {
@@ -162,7 +162,7 @@
         "derives_from": ["deck-dixon-emotion-coinage"],
         "source_deck": "darwin-expression",
         "source_item_id": "darwin-expression-root",
-        "deck": "Darwin's Expression of the Emotions"
+        "deck": "Darwin — The Expression of the Emotions"
       }
     },
     {
@@ -212,7 +212,7 @@
         "derives_from": ["deck-tomkins-1962"],
         "source_deck": "ekman-basic",
         "source_item_id": "ekman-basic-root",
-        "deck": "Ekman's Basic Emotions"
+        "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
     {
@@ -265,7 +265,7 @@
         "derives_from": ["deck-russell-circumplex"],
         "source_deck": "constructed-emotion",
         "source_item_id": "constructed-emotion-root",
-        "deck": "The Theory of Constructed Emotion"
+        "deck": "Constructed Emotion — the Substrate"
       }
     },
     {
@@ -323,7 +323,7 @@
         "branch": "lineage-chinese",
         "source_deck": "chinese-qing",
         "source_item_id": "chinese-qing-root",
-        "deck": "Chinese Qing — the Seven Emotions"
+        "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
     {
