@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton, not a finished catalogue. The four temperaments are all present as items. What is deliberately unwritten: the many named sub-species and mixed temperaments later humoral writers catalogue (e.g. sanguine-choleric, melancholic-phlegmatic combinations); the specific dietary, bloodletting, and purging remedies humoral physicians prescribed for each imbalance; the theory's afterlife in early modern psychiatry (e.g. Burton's own remedies for melancholy) beyond what the Burton item states; and its 20th-century echo in trait-based personality psychology (Eysenck explicitly borrowed the four names for his own, unrelated, arousal/stability model) — mentioning that echo is not the same as tracing it, and it is not traced here. No cross-links to other schools in this collection have been added yet.",
+  "_note": "Skeleton, not a finished catalogue. The four temperaments, Burton's Anatomy of Melancholy, Galen's own finer ninefold quality scheme (eukrasia and the four simple dyscrasias, alongside the four compound dyscrasias that give the familiar four temperaments their humour pairings), the historical dietary, bloodletting, and purging regimens humoral physicians prescribed, Timothie Bright's 1586 Treatise of Melancholie as Burton's acknowledged precursor, the 1790s moral-treatment turn away from humoral asylum practice (Pinel, Tuke), and the traced line from Kant through Wundt to Eysenck's unrelated extraversion/neuroticism model are all present as items. What remains deliberately unwritten: a specific per-temperament breakdown of which foods, herbs, and purgatives were prescribed for each of the four types individually, beyond the general picture given here; any confidently-sourced catalogue of named two-humour blend types (a 'sanguine-choleric' type and similar) — a search for a specific historical scheme naming such blends did not turn up a source solid enough to include, so this remains a gap rather than a written item; other named figures in the early modern humoral-psychiatric lineage between Bright, Burton, Pinel, and Tuke (for instance Thomas Willis's later, more anatomical turn); and the theory's presence in period visual and print culture beyond the Sadeler/de Vos temperament series and Burton's frontispiece already used here. No cross-links from this grammar to other schools in this collection have been added — the only existing connection is the reverse link already carried by alchemical-correspondences' own saturnine item, which points to this grammar's melancholic item.",
   "_art_direction": {
     "period_place": "Classical antiquity through early modern Europe (5th century BCE Hippocratic corpus; Galen, 2nd century CE Rome; the theory's cultural peak in 16th-17th century England and the Low Countries, where the Sadeler/de Vos temperament prints and Burton's Oxford both belong). The engraved-print culture of the Low Countries c. 1580-1650 gives the richest surviving visual record of the temperaments as a popular, widely-copied genre — not a scholarly abstraction but a household print series.",
     "candidates": [
@@ -153,11 +153,76 @@
       }
     },
     {
+      "id": "galen-nine-temperaments",
+      "name": "Galen's Ninefold Scheme — Eukrasia and the Simple Dyscrasias",
+      "category": "temperament-theory",
+      "keywords": ["galen", "de temperamentis", "eukrasia", "dyscrasia", "qualities", "temperament theory"],
+      "sections": {
+        "Definition": "Galen's own treatise on temperament, De Temperamentis (Peri kraseōn, \"On Mixtures\"), classifies the body's mixture of the four qualities — hot, cold, wet, dry — more finely than the familiar four-name scheme suggests. A perfectly even mixture is eukrasia, \"good mixture\": no quality dominates. Where one does dominate, the imbalance is a dyskrasia (\"bad mixture\"), and Galen counts eight of these: four simple dyskrasiai, where a single quality (heat, cold, wetness, or dryness) runs to excess alone, and four compound dyskrasiai, where two adjoining qualities run to excess together — hot-and-wet, hot-and-dry, cold-and-dry, cold-and-wet. Eukrasia plus the eight dyskrasiai make nine conditions in total.",
+        "How this grammar's four items fit in": "The four temperaments already catalogued in this school — sanguine, choleric, melancholic, phlegmatic — correspond to Galen's four compound dyskrasiai, each additionally tied by the tradition to a dominant bodily fluid (sanguine to blood, and so on). Eukrasia and the four simple, single-quality dyskrasiai have no equivalent humour-based name in the popular four-temperament vocabulary and are not given separate items here: they describe finer physiological distinctions within Galen's own scheme, not four further named \"personality types\" standing alongside sanguine and choleric.",
+        "Research note": "Galen's temperament treatise is a physiological argument about bodily mixture, worked out in its own technical vocabulary of qualities rather than in the more familiar sanguine/choleric/melancholic/phlegmatic terms. See J. R. Irwin, \"Galen on the Temperaments,\" The Journal of General Psychology 36 (1947), for a secondary account of the treatise's classification scheme. No text of Galen's is quoted here — the scheme above is stated in original prose."
+      },
+      "metadata": {},
+      "sort_order": 6
+    },
+    {
+      "id": "humoral-regimens",
+      "name": "Physic for the Humours — Diet, Bloodletting, and Purging",
+      "category": "historical-practice",
+      "keywords": ["bloodletting", "phlebotomy", "purging", "diet", "hellebore", "humoral medicine", "history of medicine"],
+      "sections": {
+        "Definition": "Humoral physicians treated both acute illness and unwanted temperament by trying to correct the underlying imbalance directly, chiefly through three tools. Diet: foods and drinks were themselves classed as hot, cold, wet, or dry, and prescribed or restricted to shift a patient's mixture back toward balance. Phlebotomy (bloodletting): opening a vein, most often at the arm, to reduce an excess of blood — plethora — diagnosed in sanguine or feverish patients. Purging: inducing vomiting or bowel evacuation with specific plant preparations to expel an excess humour. Which vein was opened, how much blood was drawn, and which purgative was chosen depended on which humour a physician judged to be in excess and where in the body it was thought to be seated.",
+        "Purging black bile": "Melancholy — on this theory, an excess of black bile — was classically treated with hellebore, a purgative plant the Hippocratic Aphorisms specifically direct physicians to use to purge melancholic patients thoroughly by stool. Because black hellebore is toxic in excess, historical accounts of its preparation stress careful processing before it was administered; ancient and early modern sources describe hellebore purges being used for both melancholy and epilepsy, conditions the theory attributed alike to a disordered, black-bile-producing spleen.",
+        "Research note": "These were the standard interventions of humoral medicine for roughly two thousand years, from the Hippocratic corpus through Galen and into early modern European practice. This item describes them as historical clinical practice, not as anything a reader should attempt: bloodletting in particular is now understood to have caused real, sometimes fatal, harm with no corresponding physiological benefit, consistent with what this school's own root item states about the theory generally."
+      },
+      "metadata": {},
+      "sort_order": 7
+    },
+    {
+      "id": "bright-treatise-of-melancholie",
+      "name": "Timothie Bright's A Treatise of Melancholie (1586)",
+      "category": "literary-monument",
+      "keywords": ["timothie bright", "melancholy", "early modern", "psychiatry", "burton", "history of medicine"],
+      "sections": {
+        "Definition": "Timothie Bright (c. 1549-1615), an English physician who later took holy orders, published A Treatise of Melancholie in 1586 — usually credited as the first work in English devoted specifically to melancholy as a medical and mental condition, thirty-five years ahead of Robert Burton's better-known Anatomy of Melancholy (1621, catalogued separately in this grammar). Bright's own career as a practising physician before ordination shows in the book, which works both sides of the subject: humoral physiology on one hand, pastoral counsel on the other.",
+        "Why it matters here": "Bright's most distinctive move is a diagnostic one: he separates ordinary, bodily melancholy — caused, on Galenic terms, by an excess of black bile, and treatable by a physician with diet and medicine — from what he calls affliction of conscience, a religious despair that can look similar from the outside but has a spiritual rather than a humoral cause, needing a minister's counsel rather than a physician's purge. Burton draws directly on Bright's Treatise in writing the Anatomy, and the two books are usually read together as an early English literature of melancholy rather than as unrelated projects. Bright's attempt to sort bodily from spiritual causes of a shared set of symptoms is one of this tradition's own earliest moves toward treating melancholy as a differentiated condition rather than a single undivided one.",
+        "Research note": "Bright's Treatise is also the text many literary historians connect to Shakespeare's Hamlet, on the strength of verbal parallels between the play and the book. That connection is a scholarly argument about influence, not a settled fact this grammar asserts as certain."
+      },
+      "metadata": {},
+      "sort_order": 8
+    },
+    {
+      "id": "moral-treatment-turn",
+      "name": "Moral Treatment and the End of Humoral Psychiatry (1790s)",
+      "category": "historical-turn",
+      "keywords": ["pinel", "tuke", "moral treatment", "asylum reform", "history of psychiatry", "enlightenment"],
+      "sections": {
+        "Definition": "Humoral physic remained the working theory behind institutional treatment of mental illness through the eighteenth century: bloodletting, purging, and physical restraint were standard tools in European asylums, justified on the same physiological grounds as the diet and phlebotomy prescribed for melancholy or choler elsewhere in this school. That practical dominance ended abruptly, if not overnight, in the 1790s. Philippe Pinel, physician at the Bicêtre and later the Salpêtrière in Paris, coined the phrase traitement moral (\"moral treatment\") for an approach that reduced bloodletting and physical restraint in favour of routine, occupation, and humane observation, and is associated with the removal of chains from patients at the Bicêtre in the 1790s — an episode the research note below qualifies. William Tuke, a Quaker layman with no medical training, founded the York Retreat in England in 1796 on comparable lines, explicitly setting aside standard medical intervention for a quiet, structured environment instead.",
+        "A practical break, not an instant theoretical one": "Pinel and Tuke did not set out to refute humoral theory as physiology — Pinel still used some pharmaceutical treatment, and neither man proposed a new physiological account to replace the four humours. What moral treatment broke was the clinical translation of the theory: the assumption that mental disturbance was itself a bodily excess to be bled or purged out of a patient. The vocabulary survived this practical break by a full century or more (see this school's existing Research notes on sanguine, choleric, melancholic, and phlegmatic as living English words); the theory's clinical authority over how the mentally ill were actually treated did not.",
+        "Research note": "Pinel and Tuke are the two figures historians of psychiatry most commonly cite as moral treatment's starting point, but the Pinel half of that story needs qualifying. The familiar image of Pinel striking off the chains himself is substantially a later construction, promoted by his son Scipion Pinel and by Esquirol; the unchaining at the Bicêtre is now generally credited to Jean-Baptiste Pussin, the lay governor of the ward, and historians continue to disagree about the sequence and about how much of it preceded or followed Pinel's own arrival. Tuke's Retreat is the better-documented of the two beginnings."
+      },
+      "metadata": {},
+      "sort_order": 9
+    },
+    {
+      "id": "eysenck-four-temperaments-echo",
+      "name": "Kant, Wundt, and Eysenck — the Names Without the Physiology",
+      "category": "modern-echo",
+      "keywords": ["eysenck", "wundt", "kant", "extraversion", "neuroticism", "personality psychology", "trait theory"],
+      "sections": {
+        "Definition": "The four temperament names survived Galenic physiology by passing through three later thinkers who kept the vocabulary while discarding, one step at a time, the bodily-fluid mechanism behind it. Immanuel Kant's Anthropology from a Pragmatic Point of View (1798) treats sanguine, choleric, melancholic, and phlegmatic as psychological categories of feeling and activity rather than as a report on blood or bile, and — unlike the tradition described elsewhere in this grammar — argues the four types cannot mix: on Kant's account a person has one of the four, not a blend. A century later, Wilhelm Wundt replotted the same four names onto two continuous axes — strength of emotion and changeability — in place of four separate boxes: strong-emotion types (choleric, melancholic) against weak-emotion types (sanguine, phlegmatic), crossed with changeable types (choleric, sanguine) against unchangeable types (melancholic, phlegmatic). The plot belongs to his Grundzüge der physiologischen Psychologie, a work that ran through several substantially revised editions between 1874 and 1903; this item does not pin it to one of them.",
+        "Eysenck's unrelated model, same four labels": "Hans Eysenck's Dimensions of Personality (London: Kegan Paul, Trench, Trubner, 1947) proposes two independent personality factors derived from factor-analysing questionnaire data — extraversion-introversion and neuroticism-stability — with no humoral or bodily-fluid claim behind either axis. Eysenck credited Wundt's two-dimensional plot as an anticipation of his own, and the pairing is usually presented as a circular quadrant diagram carrying the four ancient names: high extraversion with high neuroticism as choleric, high extraversion with low neuroticism (emotional stability) as sanguine, low extraversion with low neuroticism as phlegmatic, and low extraversion with high neuroticism as melancholic. That diagram is reproduced in many later personality-psychology textbooks. It is commonly attributed to Eysenck's later writing with Sybil Eysenck rather than to the 1947 book, and this item does not date it more precisely than that.",
+        "Research note": "This is a borrowing of names, not a vindication of the underlying theory. Eysenck's extraversion and neuroticism are statistically derived trait dimensions with their own, separately contested, biological arousal-based rationale, unconnected to blood, bile, or phlegm. Sources: Immanuel Kant, Anthropologie in pragmatischer Hinsicht (1798); Wilhelm Wundt, Grundzüge der physiologischen Psychologie (1874, and later revised editions to 1903); Hans J. Eysenck, Dimensions of Personality (London: Kegan Paul, Trench, Trubner, 1947). That Eysenck reused the four names is not the same claim as saying his model confirms, tests, or extends humoral physiology — it does not, and this item makes no such claim."
+      },
+      "metadata": {},
+      "sort_order": 10
+    },
+    {
       "id": "group-four-temperaments",
       "name": "The Four Temperaments",
       "category": "group",
       "level": 2,
-      "sort_order": 6,
+      "sort_order": 11,
       "composite_of": ["sanguine", "choleric", "melancholic", "phlegmatic"],
       "sections": {
         "Definition": "The complete Galenic set: four humours, four elements, four paired qualities, four durable dispositions. Every humoral pairing crosses one temperature axis (hot/cold) with one moisture axis (wet/dry), so the four types are not an arbitrary list but the four possible combinations of two binary qualities — a structural logic the theory shares with, but arrived at independently of, other four-fold schemes in this library."
@@ -170,8 +235,8 @@
       "name": "The Four Humours — Constitution, Not Cognition",
       "category": "root",
       "level": 3,
-      "sort_order": 7,
-      "composite_of": ["group-four-temperaments", "burton-anatomy-of-melancholy"],
+      "sort_order": 12,
+      "composite_of": ["group-four-temperaments", "burton-anatomy-of-melancholy", "galen-nine-temperaments", "humoral-regimens", "bright-treatise-of-melancholie", "moral-treatment-turn", "eysenck-four-temperaments-echo"],
       "sections": {
         "Definition": "Galenic humoral theory explains feeling by bodily fluid balance: four humours (blood, yellow bile, black bile, phlegm), each paired with an element and two of the four qualities hot/cold and wet/dry, whose relative proportion in a given body produces both short-term illness and a lifelong temperament. It dominated Western medicine from antiquity through the 18th century and left the deepest vocabulary trace of any framework in this library — sanguine, choleric, melancholic, phlegmatic, bilious, and \"good humour\" are all still ordinary English.",
         "Constitution, not cognition, expression, or category": "Every other school gathered in this library — appraisal theories, expression-based accounts, needs-based frameworks, basic-emotion wheels — explains feeling through some version of judgment, signal, or category. Humoral theory explains it through physiology alone: a fixed bodily ratio, set largely at birth and shifted only by things like diet, season, and age, that produces disposition the way a stronger or weaker constitution produces stamina. It is the one school here that locates feeling's source entirely below the neck, in fluid mechanics rather than mental content.",

@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Five of Darwin's many discussed expressions have items (grief, fear, anger, joy/laughter, shame/blushing); his extensive chapters on infant expression, the expression of the insane (drawn from asylum photography, itself an ethically fraught 19th-century source this skeleton does not interrogate), and cross-species comparison (dogs, cats, primates) are not represented. The book's own 1872 illustrative photographs are not reproduced here even though they are public domain — see _art_direction for where to find them rather than re-hosting them from this skeleton.",
+  "_note": "Skeleton. Eight of Darwin's discussed expressions or evidentiary sources now have items (grief, fear, anger, joy, shame, infant expression, the expression of the insane, and cross-species comparison via dogs, cats, and apes). Several named states from Chapters IX-XII of the book — reflection/ill-temper/sulkiness, hatred (as distinct from anger), disdain/contempt/disgust, guilt, pride, and surprise/astonishment/horror — are still without items of their own. Darwin's cross-cultural questionnaire, circulated to missionaries and colonial officials, is referenced inside several items' Research notes (fear, shame, the root item) but has no dedicated item describing its own method and reach. The infant-expression and expression-of-the-insane items are not yet part of any composite group — only the new cross-species item sits inside group-cross-species-continuity — leaving open whether Darwin's evidentiary methods (infants, the institutionalized, direct observation of animals) warrant a composite of their own alongside the existing continuity and uniquely-human groupings. The book's own 1872 photographic illustrations remain unreproduced here, per _art_direction.",
   "_art_direction": {
     "period_place": "Darwin's own 1872 first edition is itself the primary visual source: it was the first work of psychology illustrated with photographs, commissioned specifically to document facial expression (including the controversial Duchenne de Boulogne electrical-stimulation plates Darwin licensed for reuse).",
     "candidates": [
@@ -146,12 +146,51 @@
       }
     },
     {
+      "id": "infant-expression",
+      "name": "Infant Expression",
+      "category": "darwin-expression",
+      "keywords": ["darwin", "infants", "development", "crying", "smiling"],
+      "sections": {
+        "Definition": "Darwin treats infants as some of his most valuable evidence that many expressions are inherited rather than individually learned, since an infant displays them before it could plausibly have had the chance to copy other people's faces. His central case study was his own first son, William Erasmus Darwin, whom he began observing in a private notebook the day the boy was born in 1839 and continued recording for several years; Darwin later published a version of these notes separately, in 1877, as \"A Biographical Sketch of an Infant\" in the journal Mind. From that record, Chapter VI of this book draws a developmental timeline for weeping: screaming itself is present from birth, but tears rolling down the cheeks came much later and, in Darwin’s own summary, at no dependable age: the eyes were suffused with moisture in one infant at twenty days, tears ran down the face at forty-two days in a second case he calls unusually early, and in the child he watched most closely they did not do so until a hundred and thirty-nine days, while two others still showed none at eighty-four and a hundred and ten. Darwin’s own conclusion is that the period of free weeping is very variable. Chapter VIII separately records a first unmistakable smile — corners of the mouth retracted, eyes suddenly brighter — at forty-five days.",
+        "Evidence against expressions being learned": "Darwin's argument for using this timeline is explicit: an expression that appears in an infant on a fairly consistent schedule, before the infant has had meaningful opportunity to observe and imitate an adult's face, is evidence that the expression is inherited rather than acquired individually — the same logic, applied to development, that his cross-cultural questionnaire applies across separate adult populations (see the fear and shame items in this school): an expression showing up independently, without one observer having copied another, counts in Darwin's method as evidence against a purely learned or culturally taught origin.",
+        "Research note": "Darwin's notebook on his son predates The Expression of the Emotions by more than three decades and predates the formal discipline of developmental psychology; it is widely cited by historians of science as one of the earliest sustained diary studies of infant development written in English. It remains, on its own terms, a naturalist's private record of a single child kept by an involved parent, not a controlled study — a limitation this book's own text does not dwell on, and the ages it records vary enough between his own children that he draws no milestone from the weeping observations at all, only a range."
+      },
+      "metadata": {},
+      "sort_order": 6
+    },
+    {
+      "id": "expression-of-the-insane",
+      "name": "The Expression of the Insane",
+      "category": "darwin-expression",
+      "keywords": ["darwin", "insane", "asylum", "crichton-browne", "ethics"],
+      "sections": {
+        "Definition": "Darwin states his reasoning for using asylum patients directly, in the Introduction: \"the insane ought to be studied, as they are liable to the strongest passions, and give uncontrolled vent to them.\" His view was that confinement removed the voluntary social suppression that, in his account, ordinarily masks an emotion's natural, involuntary form. Having no asylum access of his own, he applied to the psychiatrist Henry Maudsley, who introduced him to Dr. James Crichton-Browne, medical director of the West Riding Pauper Lunatic Asylum near Wakefield. Crichton-Browne became a regular correspondent, sending Darwin case notes, descriptions of specific muscle contractions, and close to forty photographic portraits of patients at the asylum. The first of them, a photograph of a patient named Ruth Lockwood, reached Darwin in May 1869 enclosed in a letter from Maudsley relaying Crichton-Browne’s observations.",
+        "How Crichton-Browne's material was actually used": "Of the roughly forty photographs Crichton-Browne sent, only a single one was engraved for the published book: it appears in Chapter XII, among the expressions of terror, and is captioned to show the condition of a woman's hair, standing on end during a paroxysm of fear. The larger share of the material fed the text rather than the plates: case descriptions and correspondence about which conditions produced which muscular signs. Darwin also tested some of the material empirically, in a method that anticipates both his own cross-cultural questionnaire and, much later, Paul Ekman's forced-choice recognition experiments (see the fear item in this school): he showed the most characteristic photographs to twenty or thirty people without telling them what the images were meant to depict, and recorded what each viewer guessed.",
+        "Research note": "*Editorial — Recursive Repatterning's own commentary.* Darwin's stated rationale — that confinement let him observe passions given \"uncontrolled vent\" — treats a psychiatric patient's face as available for scientific use without the ordinary social permissions an adult outside an asylum could withhold or negotiate. Nothing in the surviving correspondence indicates that Ruth Lockwood or the other patients photographed at Wakefield were asked for, or in a position to give, consent to that use. This is not a marginal footnote to the book's method: Sander Gilman's history of psychiatric photography, Seeing the Insane (John Wiley & Sons, 1982), devotes a chapter specifically to Darwin's use of this material, treating it as a central case of nineteenth-century asylum patients being photographed for a physician's or scientist's purposes rather than their own. This school states the historical fact of the collaboration — real correspondence, a real named patient, a documented method — without treating the resulting evidence as ethically neutral."
+      },
+      "metadata": {},
+      "sort_order": 7
+    },
+    {
+      "id": "animal-expression-dogs-cats-apes",
+      "name": "Animal Expression: Dogs, Cats, and Apes",
+      "category": "darwin-expression",
+      "keywords": ["darwin", "dogs", "cats", "monkeys", "apes", "antithesis", "continuity"],
+      "sections": {
+        "Definition": "Beyond the single comparisons already folded into this school's grief, fear, anger, and joy items, Darwin gives two chapters mostly to non-human animals directly. Chapter II uses a dog and a cat, each shown first hostile and then affectionate, as his primary illustration of the principle of antithesis. A hostile dog \"walks upright and very stiffly,\" tail \"held erect, and quite rigid,\" hair bristling along the neck and back, ears pricked forward, eyes in a fixed stare; the same dog affectionate reverses nearly every feature at once — body lowered and curved, tail low and wagging from side to side, hair smooth, ears drawn back — a set of movements Darwin argues serves no purpose of its own and occurs only because it is the physical opposite of the hostile posture. A hostile cat crouches, tail lashing side to side, ears pressed back; an affectionate cat stands with back only slightly arched, tail held still and upright, ears erect.",
+        "Monkeys and apes": "Chapter V turns to primates directly, as evidence that expression is continuous across animals more closely related to humans than dogs or cats are. Darwin reports that young orangutans, when tickled, \"grin and make a chuckling sound\" with their eyes growing brighter; that a monkey kept by the Zoological Society was described by the woman who sold it, and later by its keepers, as weeping \"so copiously that the tears rolled down its cheeks\" when grieved; and, in Chapter VI rather than this one, that monkeys scream loudly when chased and caught — a remark he makes while arguing that sobbing, by contrast, is peculiar to humans. He reads these as evidence that the muscular and vocal mechanics behind joy, grief, and fear are not human inventions but inherited features shared with, and older than, the primate lineage humans belong to.",
+        "Research note": "Darwin's tickling observation anticipates, without approaching the rigor of, Marina Davila-Ross, Michael Owren, and Elke Zimmermann's 2009 acoustic study of tickle-induced vocalizations in orangutans, gorillas, chimpanzees, bonobos, and human infants (\"Reconstructing the Evolution of Laughter in Great Apes and Humans,\" Current Biology, vol. 19), which found that the acoustic structure of the recorded sounds tracked the great apes' already-known genetic relationships — the kind of controlled, comparative evidence Darwin's own anecdotes (a keeper's report, a brief personal observation) could gesture toward but not supply on their own."
+      },
+      "metadata": {},
+      "sort_order": 8
+    },
+    {
       "id": "group-cross-species-continuity",
       "name": "Expressions Darwin Traces Across Species",
       "category": "group",
       "level": 2,
-      "sort_order": 6,
-      "composite_of": ["grief", "fear", "anger", "joy"],
+      "sort_order": 9,
+      "composite_of": ["grief", "fear", "anger", "joy", "animal-expression-dogs-cats-apes"],
       "sections": {
         "Definition": "Four expressions Darwin argues have clear analogues in other animals — teeth-baring in anger, piloerection in fear, muscular contraction in grief, and antithetical postural opening in joy — forming the core of his continuity-of-species argument."
       },
@@ -163,7 +202,7 @@
       "name": "The Uniquely Human Case",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
+      "sort_order": 10,
       "composite_of": ["shame"],
       "sections": {
         "Definition": "Blushing is the one expression Darwin treats as lacking a clear animal precursor and a clear prior function — the hardest case for his own three-principle framework, which he presents candidly as such rather than forcing a tidy explanation."
@@ -172,12 +211,25 @@
       "metadata": {}
     },
     {
+      "id": "group-where-darwin-looked",
+      "name": "Where Darwin Looked",
+      "category": "group",
+      "level": 2,
+      "composite_of": ["infant-expression", "expression-of-the-insane"],
+      "sections": {
+        "Definition": "Two populations Darwin studied because he believed their expressions were unlearned or uncontrolled, and so showed the underlying pattern more plainly than an adult in company would: infants, whose expressions appear before there is much opportunity to imitate them, and asylum patients, whose photographs reached him through the alienists he corresponded with. The second of those is the ethically fraught one, and the item says so in its own research note rather than passing the material on uninterrogated."
+      },
+      "keywords": ["evidence", "infants", "asylum photography", "method"],
+      "metadata": {},
+      "sort_order": 11
+    },
+    {
       "id": "darwin-expression-root",
       "name": "The Expression of the Emotions in Man and Animals",
       "category": "root",
       "level": 3,
-      "sort_order": 8,
-      "composite_of": ["group-cross-species-continuity", "group-uniquely-human"],
+      "sort_order": 12,
+      "composite_of": ["group-cross-species-continuity", "group-uniquely-human", "group-where-darwin-looked"],
       "sections": {
         "Definition": "Darwin's 1872 book argues that human emotional expressions are evolved, largely involuntary, and continuous with expression in other animals, explained through three principles: serviceable associated habits (vestigial residues of once-functional acts), antithesis (opposite states producing physically opposite postures), and the direct action of the nervous system (expressions with no communicative function, simply the byproduct of nervous overload). He supports the argument with photography, direct observation of infants and the institutionalized, and a cross-cultural questionnaire circulated through missionary and colonial networks.",
         "An early empirical program, not a philosophical argument": "Unlike the historical-philosophical schools elsewhere in this collection (Aristotle, the Stoics, Descartes, Aquinas), Darwin's book is a work of 19th-century natural history and comparative observation — it collects evidence, however methodologically crude by later standards, rather than reasoning from first principles about the soul or right judgment.",

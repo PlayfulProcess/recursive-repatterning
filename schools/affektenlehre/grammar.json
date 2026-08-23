@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Four named affects (lamento, allegrezza, concitato, melancholy) plus the two main theoretical branches (Mattheson's key-characteristic catalogue, the musica poetica figure tradition) are represented. What is deliberately unwritten: Mattheson's much longer full key-by-key catalogue (this skeleton describes the system and a few named examples, not all twelve-plus keys); the dozens of further named affects and rhetorical figures the tradition catalogued beyond the ones described here (only four of Mattheson's affects and four of the figure tradition's dozens of figures are named at all, and none is given its own item); Kircher's physiological mechanism in any detail; and the doctrine's decline and eventual replacement by 19th-century organicist and expressive theories of music, which is not covered here at all.",
+  "_note": "Skeleton, now with additional depth. Four named affects (lamento, allegrezza, concitato, melancholy), the two main theoretical branches (Mattheson's key-characteristic catalogue, the musica poetica figure tradition), three further named Mattheson key characteristics (C major, D minor, G minor), two further named musica poetica figures (pathopoeia, saltus duriusculus), and one new item on the doctrine's 18th-19th century decline and replacement (empfindsamer Stil, Hoffmann's 1810 Beethoven review, Marx's organicist Formenlehre, Hanslick's formalism) are represented. What is deliberately still unwritten: the bulk of Mattheson's full key-by-key catalogue (seven keys are now named across the two Mattheson items; several more major and minor keys from his 1713 catalogue, plus his own 1739 revisions, remain undescribed); the great majority of the musica poetica tradition's further named figures beyond the six now named across the two figure items; Kircher's own physiological mechanism for how music moves the affects in any detail, beyond the one-sentence gloss on the musica-poetica-figures item; and, within the new decline item, anything after Hanslick (1854) — Wagner's own music-drama aesthetics, the doctrine's 20th-century scholarly revival under Kretzschmar, Goldschmidt and Schering (the historians who between them coined the term \"Affektenlehre\" itself, as the decline item states), and any account of the doctrine's reception outside German-language musicology are all left for a later pass.",
   "_art_direction": {
     "period_place": "17th–18th century Germany, Italy, and England — Hamburg (Mattheson), Rome (Kircher), Venice (Monteverdi), and London (Purcell). Baroque engraving, printed treatise title pages, and period instrument iconography are the natural visual register; portraiture of the theorists themselves is a secondary option where a treatise's own title page cannot be confidently sourced.",
     "candidates": [
@@ -173,11 +173,50 @@
       "metadata": {}
     },
     {
+      "id": "mattheson-further-key-examples",
+      "name": "Mattheson's Key Characteristics — Three Further Examples",
+      "category": "theoretical-monument",
+      "keywords": ["mattheson", "key characteristics", "c major", "d minor", "g minor", "affektenlehre"],
+      "sections": {
+        "Definition": "Das neu-eröffnete Orchestre (1713) assigns a character to every key it treats, not only the ones already named on the companion mattheson-key-characteristics item. Mattheson describes C major as bold and forward, its character suited to unrestrained rejoicing — a key in which free rein is given to joy. He describes D minor as devotional and calm, fit for the music of the church and of a contented, ordinary life: a mild, settled character rather than the sharper piety he assigns some other keys. He describes G minor as, in his own estimation, nearly the most beautiful of all the keys — it mixes the seriousness of its major-key neighbor with an alert tenderness, capable of moderate lament or moderate joy rather than either extreme.",
+        "Still not the catalogue": "These three keys are added here as further named examples, not as a step toward completeness. Mattheson's own 1713 catalogue extends across every major key and most minor keys he considered in use, and he revised several of his own characterizations again in his later Der vollkommene Capellmeister (1739; see the mattheson-key-characteristics item). A bold major key, a calm minor key, and a minor key Mattheson considered exceptionally beautiful are three different shades of the same underlying claim — that the available keys carry as many distinct affective colors as there are keys — without pretending to have named them all.",
+        "Research note": "Mattheson's key characterizations survive only in his own 18th-century German prose; every modern English rendering, including the paraphrase above, passes through a translator's choices. Rita Steblin's A History of Key Characteristics in the Eighteenth and Early Nineteenth Centuries (1983) is the standard modern scholarly compilation and translation of Mattheson's full catalogue, and is the source against which any specific attributed key characteristic should ultimately be checked."
+      },
+      "metadata": {},
+      "sort_order": 7
+    },
+    {
+      "id": "musica-poetica-further-figures",
+      "name": "Two More Named Figures — Pathopoeia and Saltus Duriusculus",
+      "category": "theoretical-monument",
+      "keywords": ["pathopoeia", "saltus duriusculus", "burmeister", "bernhard", "figurenlehre", "musica poetica"],
+      "sections": {
+        "Definition": "Beyond catabasis, anabasis, suspiratio, and passus duriusculus — the four figures named on the companion musica-poetica-figures item — the musica poetica tradition catalogued many further named figures. Pathopoeia, named by Joachim Burmeister in his own Musica Poetica (1606), is the use of a chromatic pitch outside the prevailing mode, most often approached by semitone, specifically to arouse a strong passion, grief and lament chief among them. Burmeister's own definition of the figure is narrowly technical — semitones foreign to the mode and genre, or the mode's own semitones repeated more than usual — and says nothing about how it sounds. Saltus duriusculus (\"a somewhat hard leap\"), a term coined later by Christoph Bernhard in his own Tractatus compositionis augmentatus (composed in manuscript, c. 1657), names a melodic leap treated as dissonant for rhetorical effect — Bernhard's account of the figure names the augmented fourth, the diminished fifth and the diminished seventh as its qualifying intervals. The minor sixth appears nearby in his discussion of which leaps the style permits at all, and is not part of this figure's own list.",
+        "Two generations of the same catalogue": "Pathopoeia and saltus duriusculus were named roughly half a century apart, by theorists working in different circumstances: Burmeister's Musica Poetica was a printed, public treatise, while Bernhard's Tractatus compositionis augmentatus, written while he was a pupil of Heinrich Schütz, circulated only in manuscript and was never printed in his own lifetime. Both terms nonetheless entered the same shared vocabulary the wider tradition drew on — passus duriusculus, already named on this school's companion item, is Bernhard's own related term for the same \"hardened\" harmonic idea applied to stepwise motion rather than to a leap.",
+        "Research note": "These two named figures still leave most of the tradition's catalogue untouched. Dietrich Bartel's modern reference work Musica Poetica: Musical-Rhetorical Figures in German Baroque Music catalogues several dozen more figures, organized by Burmeister's, Bernhard's, and later theorists' own categories; no attempt is made here to itemize that fuller list."
+      },
+      "metadata": {},
+      "sort_order": 8
+    },
+    {
+      "id": "affektenlehre-decline-and-replacement",
+      "name": "Decline and Replacement — Empfindsamkeit, Romantic Organicism, and Formalism",
+      "category": "historical-transition",
+      "keywords": ["decline", "empfindsamkeit", "hoffmann", "hanslick", "marx", "organicism", "19th century", "affektenlehre"],
+      "sections": {
+        "Definition": "The doctrine's own premise — that a specific musical means corresponds to a specific, nameable affect, one affect governing a whole movement — began to loosen from within German music itself, before any outside theory replaced it. Carl Philipp Emanuel Bach's empfindsamer Stil (\"sensitive style\"), the dominant idiom of his own keyboard music from around the 1740s onward, deliberately breaks the one-affect-per-movement convention: a single movement moves through abrupt, unprepared shifts of mood rather than sustaining one named affect throughout. Later in the century, a more outright replacement premise arrived from a different direction. E. T. A. Hoffmann's 1810 review of Beethoven's Fifth Symphony, published in the Allgemeine musikalische Zeitung, argues that Beethoven's instrumental music moves the listener precisely because it needs no catalogued affect or external referent at all — it takes \"the infinite\" itself as its subject, a claim usually credited as one of the earliest explicit statements of musical Romanticism.",
+        "Two more replacements, at mid-century": "Adolf Bernhard Marx's Die Lehre von der musikalischen Komposition (published in installments, 1837–1847) proposed an organicist theory of musical form, modeled on Beethoven's own works, in which a piece's form grows and develops the way a living organism does — displacing the older idea of a composer selecting from a taught catalogue of affect-bearing rhetorical figures. Eduard Hanslick's Vom Musikalisch-Schönen (1854) went further still, arguing directly against any claim, old or new, that music represents determinate feelings at all: for Hanslick, music's actual content is \"tonally moving forms\" (tönend bewegte Formen), and even the softened claim that music represents \"indeterminate feeling\" is, in his own words, a contradiction in terms.",
+        "Research note": "None of these three 19th-century positions frames itself as refuting \"Affektenlehre\" by that name — the term itself is a later coinage, first used by the 20th-century German musicologists Hermann Kretzschmar, Harry Goldschmidt, and Arnold Schering to name the Baroque practice retrospectively; no Baroque theorist gathered in this school ever used the word for their own work. What Empfindsamkeit, Hoffmann, Marx, and Hanslick each reject, independently and for different reasons, is the specific working premise the doctrine's own theorists shared: that a piece's expressive content could be built and read as a catalogued, named correspondence between a musical device and a specific affect."
+      },
+      "metadata": {},
+      "sort_order": 9
+    },
+    {
       "id": "group-affections",
       "name": "The Named Affects",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
+      "sort_order": 10,
       "composite_of": ["lamento", "allegrezza", "concitato", "melancholy"],
       "sections": {
         "Definition": "The four affects this skeleton represents by name — lament, joy, rage, and melancholy — each carrying its own conventionalized musical means: a ground-bass pattern, a mode-and-tempo profile, a rhythmic device, a key-and-harmony profile, respectively, rather than one shared technique for all four. Baroque theorists named many more than four (Mattheson's own key catalogue alone runs to a dozen or more finer shades); this group holds the four best-documented and most frequently cited across the tradition's surviving theoretical writing and repertoire."
@@ -190,8 +229,8 @@
       "name": "Affektenlehre — the Doctrine of the Affections",
       "category": "root",
       "level": 3,
-      "sort_order": 8,
-      "composite_of": ["group-affections", "mattheson-key-characteristics", "musica-poetica-figures"],
+      "sort_order": 11,
+      "composite_of": ["group-affections", "mattheson-key-characteristics", "musica-poetica-figures", "mattheson-further-key-examples", "musica-poetica-further-figures", "affektenlehre-decline-and-replacement"],
       "sections": {
         "Definition": "Affektenlehre names the explicit 17th–18th century Baroque theory, articulated across multiple overlapping strands — Mattheson's key-characteristic catalogue, the musica poetica rhetorical-figure tradition running from Burmeister through Kircher, Monteverdi's own theorized stile concitato, and Descartes's earlier Compendium musicae — that music does not merely accompany or soothe feeling but represents specific, nameable affects through specific, nameable technical means: a key, a bass pattern, a rhythmic figure, a rhetorical device. Baroque theorists and composers treated the connection between a musical device and an affect as conventionalized and teachable — a working system, catalogued in treatises, taught to composition students, and legible to a period audience as a kind of grammar, not a vague or private association.",
         "A taxonomy of feeling in a non-verbal medium": "This is the strongest argument for this school's place in this library, and it is worth stating plainly rather than leaving implicit. Every other school gathered here builds its account of feeling on top of language, cognition, or bodily state: a philosophical argument reasoned and written in words (Descartes, Aquinas), a physiological claim about bodily fluids (the humours), a facial or postural signal (Darwin, Ekman), a felt bodily sense mapped onto a spoken vocabulary of needs (NVC). Affektenlehre is the one school in this collection whose entire working medium is non-verbal: it is a theory of how a wordless art form — melody, harmony, rhythm, key, bass line — can name and represent a specific affect as reliably, within its own convention and for its own period audience, as a word can. That a period listener, hearing a descending chromatic tetrachord under a vocal line, could recognize \"lament\" without a single word being sung is exactly the kind of claim no other framework in this library makes about its own medium.",
