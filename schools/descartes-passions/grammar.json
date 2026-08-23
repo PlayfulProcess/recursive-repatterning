@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. All six primitive passions have items — that part of the taxonomy is genuinely complete, since Descartes himself claims only six are primitive. What is missing: Descartes's much longer treatment of the derived/compound passions (Part III of the treatise lists dozens — esteem, contempt, hope, fear, jealousy, remorse, and more, each built from combinations of the six), and his physiological mechanism (animal spirits, the pineal gland) is only summarized, not worked through case by case.",
+  "_note": "Six of Descartes's derived/compound passions from Part III are now represented — esteem and contempt (art. 149-150, species of wonder), hope and its contrary crainte (art. 165-166, joy+desire mixed, and its inverse), jealousy (art. 167-169, itself built from crainte plus desire for an already-possessed good), and remords de conscience (art. 60, 177, a doubt-gated species of sadness) — chosen because this school's own founding brief named them as the clearest worked examples of Descartes's compositional method, and because together they show different depths of derivation: two-primitive blends, a three-tier chain in jealousy, and a single-primitive-plus-condition case in remords. Part III catalogues dozens more (veneration, scorn, indecision, courage, boldness, emulation, derision, envy, pity, self-satisfaction, repentance, approval, gratitude, indignation, anger, vainglory, shame, and others) — this remains a sample of the compositional method, not a catalogue, and no claim of completeness is made or should be inferred. The physiological mechanism (animal spirits, the pineal gland) is now worked through with Descartes's own case study of a frightening encounter (art. 31-36, 39) rather than only summarized; its modern scientific status is confined to that item's own Research note, per house style. Remaining gaps: Descartes's treatment of how the passions relate to virtue and the will's power over them (Part I, art. 41-50, 147-148) is not yet represented; nor is his own separate passion of peur/terreur (art. 174, 176), which he argues is not really a distinct passion at all, or repentir (art. 191), the certainty-gated counterpart to remords — the school currently has an item for crainte (hope's contrary) but not for peur, and an item for remords but not repentir. No new group item was added for the six derived-passion items: unlike the three existing groups, which each partition an explicit structural pairing Descartes himself makes among the six primitives, these six derived passions do not share one single Cartesian organizing principle, and grouping them together would imply a systematic second tier this sample does not provide.",
   "_art_direction": {
     "period_place": "17th-century France and the Dutch Republic — Descartes wrote and published while living in the United Provinces, and the treatise is dedicated to a princess of the Rhine living in exile there. French and Dutch engraving and portraiture of the 1630s–1650s is the natural visual register.",
     "candidates": [
@@ -161,11 +161,118 @@
       }
     },
     {
+      "id": "estime",
+      "name": "Estime — Esteem",
+      "category": "derived-passion",
+      "keywords": ["esteem", "descartes", "wonder", "derived"],
+      "sections": {
+        "Definition": "Esteem opens Descartes's catalogue of derived passions in Part III of the treatise. Esteem, regarded as a passion, is \"the soul's inclination to represent to itself [an object's] value,\" caused by a movement of the spirits that strengthens the brain's impressions relating to that value (art. 149). Contempt is its mirror, covered in the same article: the soul's inclination to consider an object's baseness or insignificance. Article 54, Descartes's own summary from Part II, glosses self-directed esteem as \"esteem (with generosity or pride).\"",
+        "Built from wonder, not from love": "Descartes is explicit that esteem and contempt are not fresh primitives but two species of the very first one, wonder: we esteem or contemn an object by wondering at its greatness or its insignificance (art. 150). He adds a precise qualification: esteem is often aroused by love, and contempt by hatred, but \"this isn't universal\" — that affective route holds only in the special case where the inclination to weigh an object's greatness already comes from having more or less affection for it. Wonder, not love, is esteem's structural parent.",
+        "Self-esteem and generosity": "When esteem and contempt turn on the self, Descartes gives them an explicit composition (art. 160). Self-esteem felt as vanity, or as the virtue he calls generosity (générosité), is \"aroused by a movement composed of the movements of wonder, joy, and love\" — three movements, not four — self-love, plus love for whatever occasions the good opinion. Its contrary, humility (virtuous or unvirtuous), is \"composed of the movements of wonder, sadness, and self-love mingled with hatred\" for one's own faults. Generous self-esteem — knowing that only the free use of one's will truly belongs to oneself, and resolving to use it well — is what Descartes calls \"a kind of key to all the other virtues and a general remedy for every disorder of the passions\" (art. 161).",
+        "Research note": "No other school currently in this library uses \"esteem\" as a cross-grammar key, so no matching decision was needed here. Worth flagging for a future integrator: Aquinas's eleven passions (schools/aquinas-passions) have no analogue to Cartesian wonder at all — admiratio is not one of his eleven — so that scholastic scheme has no wonder-species slot for a self-evaluative passion of this kind. Descartes's admission of wonder as an irreducible primitive is what makes esteem and contempt possible as a distinct category in his system in the first place."
+      },
+      "metadata": {
+        "emotion_key": "esteem"
+      },
+      "sort_order": 7
+    },
+    {
+      "id": "mepris",
+      "name": "Mépris — Contempt",
+      "category": "derived-passion",
+      "keywords": ["contempt", "descartes", "wonder", "derived"],
+      "sections": {
+        "Definition": "Contempt (mépris), Descartes's mirror to esteem, is \"the soul's inclination to consider the baseness or insignificance of the object it contemns,\" caused by a movement of the spirits that strengthens the brain's impression of that insignificance (art. 149). Descartes notes that, ordinarily, \"esteem\" and \"contempt\" name only opinions about worth, with no passion involved — they become passions specifically when a movement of the animal spirits accompanies the judgment.",
+        "Built from wonder, sometimes joined to hatred": "Like esteem, contempt is a species of wonder (art. 150) — a felt reaction to how small an object seems, prior to any question of whether the low opinion is deserved. Contempt is often aroused by hatred, Descartes adds, but again \"isn't universal\": the affective case is a special instance, not contempt's structural definition. Article 54 glosses self-directed contempt as \"contempt (with humility or abjectness)\" — see this deck's \"estime\" item for the fuller compositional account of that self-directed case (wonder, sadness, and self-love mingled with hatred for one's own faults, art. 160).",
+        "Two related states Descartes names but does not rename": "Two further Part III articles extend contempt's family without giving it a new primary name. Veneration (art. 162) is esteem directed at a free cause capable of doing us good or harm, mixed with an anxious wish for its approval. Scorn (art. 163) is contempt for such a free cause, judged too far beneath us to help or harm us — composed, Descartes says explicitly, of the movement that produces wonder together with the movement that produces confidence or boldness.",
+        "Research note": "\"Contempt\" already appears as an emotion_key in ekman-basic, plutchik-wheel (its disgust+anger dyad), and the generated across-the-schools aggregate; it is reused here because the everyday concept — looking down on something as beneath notice — is genuinely shared. But the underlying mechanisms diverge enough to withhold a cross-link: Plutchik's contempt is explicitly hostile (\"rejection fused with hostility,\" in that school's own gloss), while Descartes's mépris is not — at root it is a dispassionate judgment of insignificance, arising from wonder rather than from anger or disgust, with hatred only ever a contingent accompaniment. No cross-link is proposed between this item and Plutchik's for that reason; the shared English word covers two structurally different accounts of what contempt is."
+      },
+      "metadata": {
+        "emotion_key": "contempt"
+      },
+      "sort_order": 8
+    },
+    {
+      "id": "esperance",
+      "name": "Espérance — Hope",
+      "category": "derived-passion",
+      "keywords": ["hope", "descartes", "desire", "joy", "derived"],
+      "sections": {
+        "Definition": "Hope is \"a disposition of the soul to be convinced that what it desires will happen\" (art. 165) — one of several derived passions for which Descartes states the compositional recipe outright: hope \"is caused by a particular movement of the spirits, namely the movements of joy and of desire mixed together.\" Its contrary in the same article, which he calls crainte (see this deck's separate \"crainte\" item), is the disposition convincing the soul that what it desires will not happen; the two, he notes, can occur together, since a person can hold reasons on both sides of the same desired outcome at once.",
+        "The extremes: confidence and despair": "Article 166 continues the same thought. When hope grows so strong that it entirely drives out crainte, it changes its nature and is called confidence or assurance — desire itself quiets, because the outcome now feels certain rather than merely awaited. When crainte instead drives out all hope, it becomes despair, which Descartes says extinguishes desire altogether, because despair represents the desired thing as impossible, and desire, on his account, applies only to what is still possible — a condition he states in articles 58 and 145 and restates inside article 166 itself.",
+        "Research note": "No other school in this library currently keys an item \"hope,\" so no cross-school matching decision was needed here. Worth flagging for a future integrator rather than silently linking: Aquinas's spes (schools/aquinas-passions) is deliberately kept transliterated in that grammar rather than keyed \"hope,\" precisely because spes gates on arduousness — a future good must be difficult to attain before Aquinas will call the appetite's movement toward it spes at all. Descartes's espérance carries no such gate; it needs only that the desired thing be believed possible, whether attaining it is easy or hard. The two are built from different premises about what makes a passion count as this one, so no cross-link to spes is proposed."
+      },
+      "metadata": {
+        "emotion_key": "hope"
+      },
+      "sort_order": 9
+    },
+    {
+      "id": "crainte",
+      "name": "Crainte — Fear (as Hope's Contrary)",
+      "category": "derived-passion",
+      "keywords": ["fear", "anxiety", "descartes", "desire", "derived"],
+      "sections": {
+        "Definition": "Crainte is the disposition of the soul convincing it that a desired outcome will not happen (art. 165) — the direct contrary of hope, built on the same underlying desire read under an unfavorable estimate of the odds. Descartes states hope's own spirit-composition explicitly (joy and desire mixed); he does not give crainte's composition with that same explicitness in article 165 — he treats it there, and again in article 166, as hope's opposite pole rather than defining a separate spirits-movement for it in its own right.",
+        "Not Descartes's only passion translated \"fear\"": "This is one of two Cartesian passions that English translations of this treatise render \"fear,\" and they are not the same passion. The crainte of article 165 is the future-facing negative partner of hope, gated only on desire and an unfavorable estimate of possibility. A second, harsher passion — peur or terreur, opposed to boldness rather than to hope (art. 174) — concerns a near evil that resists escape rather than a merely doubted future outcome; Descartes goes further and denies peur is even a distinct passion at all, calling it (art. 176) \"merely an excess of shrinking reluctance, wonder and anxiety [crainte].\" This item covers crainte only (art. 58, 165–166); the school does not yet have a separate item for peur/terreur (art. 174, 176).",
+        "Research note": "Keyed \"fear\" to match this library's existing precedent of using one plain-English key across structurally different technical \"fear\" concepts — see greek-pathe, where Aristotle's rhetorical phobos and the Stoics' ethical phobos are both keyed \"fear\" despite naming different projects, with the difference stated in each item's own Research note rather than resolved by transliteration. The alternative of keying this item \"crainte\" would avoid any risk of confusion with Descartes's own peur, but would break with that established cross-school pattern for a case that is, if anything, less divergent than the Aristotle/Stoic pair. No cross-link to aquinas-passions' timor is proposed: timor is gated on arduousness (a future evil hard to escape) in a way crainte is not, so the two concepts diverge in the same way spes and espérance do (see the \"esperance\" item)."
+      },
+      "metadata": {
+        "emotion_key": "fear"
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "jalousie",
+      "name": "Jalousie — Jealousy",
+      "category": "derived-passion",
+      "keywords": ["jealousy", "descartes", "fear", "possession", "derived"],
+      "sections": {
+        "Definition": "Jealousy is, in Descartes's own words, \"a kind of anxiety [crainte] having to do with our desire to keep possession of some good\" (art. 167) — a third-tier derivation: desire for a good already possessed, read through crainte, which is itself built from that same desire plus an unfavorable estimate of the odds (see this deck's \"crainte\" item). Descartes treats one diagnostic as central: jealousy tracks the esteem in which the good is held more than the objective strength of the reasons to doubt keeping it — \"it results less from the strength of the reasons that make us think we may lose the good, as from the high esteem in which we hold it,\" which is why it seizes on the slightest grounds for doubt and inflates them.",
+        "Honorable and blameworthy cases": "Articles 168–169 give Descartes's own worked contrast, useful for showing the passion is not condemned outright. A captain jealous of an important fortress, or a woman jealous of her honour, are jealous rightly, on his account, because the good genuinely at stake is great. A miser's jealousy over his hoard, or a husband's jealousy of his wife, he treats as contemptible — in the latter case because true love, on his analysis, carries no inclination to distrust; what the jealous husband actually loves, Descartes argues, is not the person but \"the good he imagines to consist in his having sole possession of her.\"",
+        "Research note": "No cross-link is proposed. \"Jealousy\" otherwise appears in this library only in thought-forms (Besant and Leadbeater's 1901 theosophical colour-and-shape key for auras, identifying a plate rather than analysing a passion) and in the generated across-the-schools aggregate, which draws on that same entry. Neither is a real conceptual peer for Descartes's structured, multi-tier account of jealousy as fear for a possessed good."
+      },
+      "metadata": {
+        "emotion_key": "jealousy"
+      },
+      "sort_order": 11
+    },
+    {
+      "id": "remords",
+      "name": "Remords — Remorse",
+      "category": "derived-passion",
+      "keywords": ["remorse", "descartes", "sadness", "doubt", "derived"],
+      "sections": {
+        "Definition": "Remords de conscience is \"a kind of sadness that comes from our doubt about whether something we are doing or have done is good\" (art. 177). Descartes treats the doubt as the passion's defining feature, not an incidental cause: if we were certain an ongoing action was bad we would not be doing it, since the will (on his account) is drawn only toward what has some semblance of goodness; if we were certain a past action was bad, the resulting sadness would be repentance (repentir, art. 191) instead, a different, more bitter passion. Remords's function, he holds, is to prompt inquiry into the doubtful action and to inhibit repeating it until the doubt resolves.",
+        "Why the key is transliterated, not \"remorse\"": "Ordinary English \"remorse\" names sadness or guilt over a wrong one is already convinced one has committed. Descartes's remords is narrower and points the other way: it requires uncertainty, and dissolves into a different passion (repentir) the moment that uncertainty resolves into conviction of wrongdoing. This is not an idiosyncratic reading of the French: the standard modern English edition of this treatise (Jonathan Bennett's translation, cross-checked here against the French Wikisource text for every article cited) flags the same gap in its own glossary, noting that articles 60 and 177 both show remords \"essentially involves uncertainty about whether one has acted wrongly, which our 'remorse' doesn't.\" Keying this item plain \"remorse\" would silently import the certainty Descartes's own definition excludes.",
+        "Research note": "plutchik-wheel already uses \"remorse\" as an emotion_key (its sadness+disgust dyad, glossed there as blended grief and self-disgust). That gloss reads closer to what Descartes calls repentir than to remords: Plutchik's dyad presumes the bad deed is already acknowledged, not doubted. No cross-link is proposed between this item and Plutchik's remorse for that reason. Should this school later add an item for Descartes's repentir (art. 191), that would be the closer candidate for comparison with Plutchik's dyad."
+      },
+      "metadata": {
+        "emotion_key": "remords"
+      },
+      "sort_order": 12
+    },
+    {
+      "id": "pineal-gland-mechanism",
+      "name": "Animal Spirits and the Pineal Gland — the Physiological Mechanism",
+      "category": "mechanism",
+      "keywords": ["animal spirits", "pineal gland", "physiology", "descartes", "mechanism"],
+      "sections": {
+        "The apparatus": "Descartes's mechanism rests on two moving parts. Animal spirits are, on his account, simply the finest and fastest-moving parts of the blood — \"merely bodies... except for being extremely small and moving very fast\" (art. 10) — sifted out by the heart's heat and channeled into the brain's cavities, from which they flow into the nerves (hollow fibre-bundles, art. 12) and on into the muscles, producing movement whenever more spirits arrive at one muscle of an opposed pair than at the other (art. 11). The pineal gland is the second part: a small, unpaired gland deep in the brain that Descartes argues is the soul's one point of direct contact with the body (art. 31).",
+        "Why a gland, and why this one": "Descartes's argument for the gland (art. 32) turns on symmetry. The eyes, ears, hands, and most of the brain itself come in pairs, yet a person has one unified perception of one object at a time. Somewhere, he reasons, the two channels of sense-information must be combined into a single impression before reaching the soul — and only this one small, unpaired gland fits that requirement. He explicitly rejects the heart as the passions' true seat (art. 33): the heart only feels involved because a nerve runs from brain to heart, in the same way pain is felt \"in the foot\" by means of nerves in the foot, without the soul doing any of its work there.",
+        "Worked through: seeing something frightening": "Descartes supplies his own case study (art. 35–36). Light from an approaching animal forms two retinal images, one per eye; these produce two further images on the brain via the optic nerves; spirits carry both images toward the pineal gland, where corresponding points of the two images converge onto the same points of the gland, fusing into one image that \"acts directly on the soul and makes it see the shape of the animal.\" If that shape resembles something that has hurt the body before, this arouses anxiety, then either boldness or fear/terror, depending on the body's state, the soul's habitual strength, and past experience of fighting or fleeing similar threats. Spirits from the gland are then routed partly to the leg-nerves (for flight) and partly to nerves that constrict or expand the heart's openings, in a way that keeps blood moving so as to maintain and strengthen the fear already begun — which is also why, Descartes notes, the passion is felt \"chiefly as if it were in the heart,\" even though, per article 33, the heart is not where the soul is actually doing anything at all.",
+        "The same stimulus, different outcomes": "Descartes adds (art. 39) that the identical gland-movement that produces fear in one person can produce courage in another, because brains are wired differently: in some people the spirits from that same gland-state flow instead toward the hand-muscles (for defense) and toward nerves that drive blood to the heart in the pattern needed to sustain fighting rather than fleeing. Habituation and training, on his account (art. 50), can rewire which gland-movement follows which stimulus — his own illustration is the difference between a gun-shy dog and one trained to run toward the sound of a shot.",
+        "Research note": "Descartes's mechanism was largely superseded within a generation of his own century. The pineal gland (epiphysis cerebri) is now understood as an endocrine structure that produces melatonin, with no established role as a singular mind-body interface; \"animal spirits\" as fine, fast-moving blood particles have no counterpart in the modern physiology of the nervous system, which instead describes electrochemical signaling along neurons. What is worth preserving from the mechanism, independent of its specific physiology, is the structural claim it was built to support: that a single, non-bilateral point is where sensory streams converge into unified experience, and that habituation can rewire which bodily response follows a given perception (art. 39, 50) — a structural intuition later, unrelated neuroscience would revisit by very different routes and very different evidence."
+      },
+      "metadata": {},
+      "sort_order": 13
+    },
+    {
       "id": "group-wonder-alone",
       "name": "Wonder — the Passion Without an Opposite",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
+      "sort_order": 14,
       "composite_of": ["wonder"],
       "sections": {
         "Definition": "Descartes treats wonder as structurally singular among the six: it has no bodily opposite, does not depend on the object's being judged good or bad, and functions as the gateway passion that makes the other five possible by first flagging an object as significant."
@@ -178,7 +285,7 @@
       "name": "Love and Hatred — Union and Separation",
       "category": "group",
       "level": 2,
-      "sort_order": 8,
+      "sort_order": 15,
       "composite_of": ["love", "hatred"],
       "sections": {
         "Definition": "The pair Descartes builds around the soul's movement toward or away from an object it has judged good or harmful — union (love) against separation (hatred)."
@@ -191,7 +298,7 @@
       "name": "Desire, Joy, and Sadness — Future and Present",
       "category": "group",
       "level": 2,
-      "sort_order": 9,
+      "sort_order": 16,
       "composite_of": ["desire", "joy", "sadness"],
       "sections": {
         "Definition": "Desire looks toward a future good or the avoidance of a future evil; joy and sadness register a good or evil the soul takes to already be present. Descartes treats these three as temporally distinct readings of the same underlying appraisal — good/evil, future/present."
@@ -200,12 +307,25 @@
       "metadata": {}
     },
     {
+      "id": "group-derived-passions",
+      "name": "Derived Passions — Built From the Six",
+      "category": "group",
+      "level": 2,
+      "composite_of": ["estime", "mepris", "esperance", "crainte", "jalousie", "remords"],
+      "sections": {
+        "Definition": "Descartes holds that only six passions are primitive and that every other is composed of them, so the derived passions are a second tier in his own scheme rather than a category imposed on it. These six are a sample of the dozens Part III works through — chosen because each shows the composition clearly — and not the set. Where a passion is built from particular primitives, its item says which."
+      },
+      "keywords": ["derived passions", "composition", "descartes"],
+      "metadata": {},
+      "sort_order": 17
+    },
+    {
       "id": "descartes-passions-root",
       "name": "Les Passions de l'Âme — the Six Primitives",
       "category": "root",
       "level": 3,
-      "sort_order": 10,
-      "composite_of": ["group-wonder-alone", "group-union-and-separation", "group-present-good-and-evil"],
+      "sort_order": 18,
+      "composite_of": ["group-wonder-alone", "group-union-and-separation", "group-present-good-and-evil", "group-derived-passions", "pineal-gland-mechanism"],
       "sections": {
         "Definition": "Descartes's 1649 treatise argues that every passion the soul can feel, however complex or culturally particular, reduces to six primitives — wonder, love, hatred, desire, joy, sadness — and their combinations. He arrives at the six through introspective philosophical analysis paired with his own mechanistic physiology (the animal spirits, the pineal gland as the point of contact between soul and body), not through cross-cultural observation or facial measurement.",
         "Not Ekman's six, three centuries earlier": "It is tempting to read Descartes's primitives as an early sketch of Paul Ekman's twentieth-century basic-emotion list (see the ekman-basic school in this collection), since both name a small closed set. They are not the same list (Descartes has wonder and love where Ekman has disgust and surprise, and neither list maps onto the other one-to-one), and they are not reached the same way: Ekman's rests on cross-cultural facial-recognition experiments conducted from the 1960s onward; Descartes's rests on 17th-century rationalist introspection and mechanistic physiology. The resemblance is in the ambition — a small, non-reducible set — not in the method or the content.",

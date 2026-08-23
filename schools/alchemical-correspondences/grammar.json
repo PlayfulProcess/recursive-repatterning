@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton, not a finished catalogue. The four-stage opus sequence (nigredo, albedo, citrinitas, rubedo) is fully present as items. Of the six planetary temperaments named in the tradition (saturnine, jovial, martial, venereal, mercurial, lunatic/lunar), only saturnine is written as a representative item — jovial, martial, venereal, mercurial, and lunatic are not yet their own items, though all six are named in the correspondentia item's own text. Paracelsus's tria prima (salt, sulphur, mercury as the three alchemical principles) and his specific medical-alchemical writings are named but not developed as their own items. citrinitas has no image: the yellowing stage is the least visually stable of the four in surviving period plates (many later schemes compress it into the albedo-to-rubedo transition), and no confidently period-matched public-domain plate specifically labelled as citrinitas was found — see the image note on that item. No cross-links to other schools in this collection have been added yet.",
+  "_note": "Skeleton, extended but still not a finished catalogue. All six planetary temperaments named in the tradition (saturnine, jovial, martial, venereal, mercurial, lunar/lunatic) are now present as items, and Paracelsus's tria prima (salt, sulphur, mercury) is developed as its own item. What remains deliberately unwritten: the humoral correspondence for Venus, Mercury, and the Moon is stated as genuinely contested within each of those items rather than resolved — only jovial (Jupiter/sanguine) and martial (Mars/choleric) carry a cross-link into humoral-temperaments, because those two are the only pairings this school found unanimous across the sources checked. Paracelsus's broader medical-alchemical corpus beyond the tria prima itself, and the many named sub-species period alchemical writers built on top of the four-stage opus and the six planetary temperaments, are still untouched. citrinitas still has no image: the yellowing stage is the least visually stable of the four in surviving period plates, and no confidently period-matched public-domain plate specifically labelled as citrinitas was found — see the image note on that item; this remains true and unaddressed by design, not by oversight. The group-cosmological-correspondence group and the school's root item currently describe only saturnine and correspondentia as the correspondence side of this school and will need their composite_of and Definition text updated to reflect the fuller set now that jovial, martial, venereal, mercurial, lunar, and tria-prima all exist. No new cross-links beyond jovial and martial have been added; venereal, mercurial, and lunar were deliberately left without one.",
   "_art_direction": {
     "period_place": "Late 16th to early 17th century Central Europe and England — Fludd's Oxford and London, Paracelsus's itinerant German-speaking Europe a century earlier, and the anonymous manuscript workshops (chiefly German) that produced Splendor Solis and the planetary-children cycles. This is emblem-book and manuscript-illumination culture, not fine-art painting: images built to carry a coded argument, meant to be read as much as looked at.",
     "candidates": [
@@ -176,11 +176,105 @@
       }
     },
     {
+      "id": "jovial",
+      "name": "Jovial — the Temperament of Jupiter",
+      "category": "planetary-temperament",
+      "keywords": ["jovial", "jupiter", "planetary temperament", "correspondence", "sanguine"],
+      "sections": {
+        "Definition": "Jovial names the disposition correspondence theory assigns to people governed by Jupiter (Jove), the largest of the classical planets and the one Hellenistic and later Western astrology consistently reads as the \"greater benefic.\" Where Saturn's character is cold, slow, and constricting, Jupiter's is warm, expansive, and enlarging: the tradition assigns it wealth, honour, generosity, good fortune, and social ease. Traditional Western astrology's occupational rulerships for Jupiter run along the same line — judges, clergy, and lawgivers, figures whose authority is exercised amply rather than harshly.",
+        "One planet among six": "Jovial is one of the six adjectives correspondence theory derives from the classical planets for a person's manner (the sun's own character, as this school's saturnine item notes, was generally folded into royal or solar imagery rather than named as a seventh). Of the six, jovial's link to a specific humour is among the least contested anywhere in the tradition: Ptolemy's 2nd-century Tetrabiblos already groups Jupiter with the \"hot and moist\" planets, and later medieval and Renaissance medical-astrological writers consistently pair it with the sanguine humour specifically — the same warm, moist quality set the humoral-temperaments school assigns sanguine blood. That stability sets it apart from Venus, Mercury, and the Moon, whose humoral correspondences this school's other new items describe as genuinely unsettled between sources.",
+        "Research note": "The English adjective \"jovial,\" meaning hearty and good-humoured, survives from this specific planetary claim independent of any residual belief in Jupiter's actual influence — the same durability-of-vocabulary pattern the saturnine item and the humoral-temperaments school both note for their own surviving words."
+      },
+      "metadata": {
+        "emotion_key": "jovial",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "sanguine",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      },
+      "sort_order": 7
+    },
+    {
+      "id": "martial",
+      "name": "Martial — the Temperament of Mars",
+      "category": "planetary-temperament",
+      "keywords": ["martial", "mars", "planetary temperament", "correspondence", "choleric"],
+      "sections": {
+        "Definition": "Martial names the disposition correspondence theory assigns to people governed by Mars: aggressive, combative, quick to anger, and drawn to conflict — the planet of war furnishing English both a temperament word and much of its military vocabulary (martial law, martial arts, court-martial). Traditional Western astrology's occupational rulerships for Mars follow the same logic: soldiers, and trades organised around fire, force, or cutting — blacksmiths who forge weapons from fire, butchers, and surgeons.",
+        "One planet among six": "Mars's link to yellow bile and the choleric humour is, like Jupiter's link to sanguine, one of the more stable correspondences the tradition offers: hot-and-dry is the shared quality set for both Mars and choleric bile from Ptolemy's Tetrabiblos (which assigns Mars \"excessive dryness\" as one of the two planets producing the malefic extremes, Saturn's excessive cold being the other) through later medieval medical astrology. Of the five planetary temperaments added to this school alongside jovial, martial, venereal, mercurial, and lunar, martial and jovial are the only two confident enough in their humoral counterpart to carry a cross-link into the humoral-temperaments school; the other three do not, for reasons stated in their own Research notes.",
+        "Research note": "\"Martial\" (from Mars) and \"choleric\" (from Greek cholē, bile) name the same hot-and-dry disposition from two different symbolic vocabularies — planetary and humoral — read together rather than as rival explanations in early modern practice, the same entanglement this school's saturnine item describes for Saturn and melancholic black bile."
+      },
+      "metadata": {
+        "emotion_key": "martial",
+        "source_deck": "humoral-temperaments",
+        "source_item_id": "choleric",
+        "deck": "The Four Humours — Galenic Temperament Theory"
+      },
+      "sort_order": 8
+    },
+    {
+      "id": "venereal",
+      "name": "Venereal — the Temperament of Venus",
+      "category": "planetary-temperament",
+      "keywords": ["venereal", "venus", "planetary temperament", "correspondence"],
+      "sections": {
+        "Definition": "Venereal names the disposition correspondence theory assigns to people governed by Venus: amorous, sensual, drawn to beauty, music, and pleasure. Traditional Western astrology's occupational rulerships for Venus include musicians, painters, and singers, and the \"children of Venus\" imagery in period planet cycles depicts her people absorbed in dancing, music-making, and courtship rather than labour of any kind. The word has since narrowed in English almost entirely to its medical sense (venereal disease) — a drift from \"of Venus\" in general to \"of sexual contact\" specifically that none of the other five planetary adjectives underwent.",
+        "One planet among six": "Where jovial and martial carry unusually stable humoral correspondences, Venus's does not, and this grammar states that rather than resolving it. Ptolemy's Tetrabiblos groups Venus with Jupiter and the Moon as the three \"hot and moist\" beneficent planets — the same warm-moist pairing that gives Jupiter its sanguine link. Later medieval and Renaissance medical-astrological synthesis instead commonly pairs Venus with the Moon under the opposite quality set, cold-and-moist, and the phlegmatic humour. These are not compatible readings of the same planet across the tradition's own history, and no cross-link to a humoral-temperaments item is made here for that reason.",
+        "Research note": "The disagreement above is between Ptolemy's own 2nd-century text and later medieval medical-astrological writers, not a distinction this grammar is introducing; some modern secondary treatments of medical astrology in fact split the difference further, describing Venus as \"partially sanguine, partially phlegmatic\" rather than settling on either. That degree of internal inconsistency is itself part of the honest picture — unlike Saturn, Jupiter, and Mars, Venus was never fixed to one humour across the tradition's history."
+      },
+      "metadata": {
+        "emotion_key": "venereal"
+      },
+      "sort_order": 9
+    },
+    {
+      "id": "mercurial",
+      "name": "Mercurial — the Temperament of Mercury",
+      "category": "planetary-temperament",
+      "keywords": ["mercurial", "mercury", "planetary temperament", "correspondence"],
+      "sections": {
+        "Definition": "Mercurial names the disposition correspondence theory assigns to people governed by Mercury: quick-witted, changeable, verbally agile, and given to trades of dexterity and exchange rather than force. Mercury is the planet nearest the sun and the fastest-moving of the seven classical planets, and its people are read as mentally quick and mutable to match; traditional Western astrology's occupational rulerships for Mercury include scholars, scribes, merchants, and skilled artisans — work organised around communication and craft.",
+        "Not the same Mercury twice": "The mercurial temperament is not the same concept as the alchemical Mercury of Paracelsus's tria prima, covered as its own item in this school. The two share a name, a planet, and a metal (quicksilver) because correspondence theory held all three to be linked expressions of one pattern — exactly the logic this school's correspondentia item describes — but one is a planet's astrological character and the other is one of three material-and-spiritual principles Paracelsus proposed for matter and for the human being. This grammar keeps them as separate items so the shared name is not mistaken for a shared claim.",
+        "Research note": "Mercury is the clearest case among the six planetary temperaments of a planet the tradition itself declines to fix to one humour. Ptolemy's Tetrabiblos describes Mercury, together with the sun, as having \"a common nature,\" joining its effect with whichever planet it is aspecting — sometimes drying, sometimes moistening, changing with what Ptolemy calls the speed of its motion near the sun. Later medieval medical-astrological writers are not consistent either: some fix Mercury to cold-and-dry melancholy alongside Saturn, others keep something closer to Ptolemy's variable reading. Given that disagreement, and Ptolemy's own explicit statement that Mercury does not hold one fixed quality, no humoral-temperaments cross-link is made on this item. The English word \"mercurial,\" for a quick, changeable temper, survives independent of any of this."
+      },
+      "metadata": {
+        "emotion_key": "mercurial"
+      },
+      "sort_order": 10
+    },
+    {
+      "id": "lunar",
+      "name": "Lunar — the Temperament of the Moon",
+      "category": "planetary-temperament",
+      "keywords": ["lunar", "lunatic", "moon", "planetary temperament", "correspondence"],
+      "sections": {
+        "Definition": "Lunar names the disposition correspondence theory assigns to people governed by the Moon: changeable, receptive, and unfixed, tied to the Moon's own visible cycle of waxing and waning rather than to a stable character. Traditional Western astrology's occupational rulerships for the Moon include sailors, fishermen, travellers, and trades dealing in liquids or in constant motion — the Moon's own restlessness read directly onto its people.",
+        "Lunatic, and why this item is titled otherwise": "The tradition's own older and more common adjective for this temperament is lunatic, not lunar — this school's correspondentia item names both, as \"lunatic or lunar.\" \"Lunatic\" named a belief older than systematic astrology and durable enough to outlast it: that the Moon's phases caused periodic derangement, moon-struck being the word's own etymology. That belief is unsupported and the word has since hardened into a term for mental illness now recognised as inaccurate and stigmatising. This item is titled Lunar to avoid using that word as a live descriptive label, while still naming lunatic plainly as the tradition's historical vocabulary rather than erasing it.",
+        "One planet among six": "The Moon's humoral correspondence is comparatively well attested in later tradition: medieval and Renaissance medical-astrological writers fairly consistently pair the Moon with phlegm, cold and moist, alongside Venus. Ptolemy's own Tetrabiblos complicates this, grouping the Moon instead with Jupiter and Venus among the \"hot and moist\" beneficent planets — a classification made for a different purpose (which planets act favourably) than the humoral-quality assignment later writers used. Because that same tension affects Venus's item in this school, and for consistency with the caution applied there, no humoral-temperaments cross-link is made on this item either, even though the later tradition is somewhat more unanimous for the Moon than for Venus."
+      },
+      "metadata": {
+        "emotion_key": "lunar"
+      },
+      "sort_order": 11
+    },
+    {
+      "id": "tria-prima",
+      "name": "Tria Prima — Paracelsus's Three Principles",
+      "category": "principle",
+      "keywords": ["tria prima", "paracelsus", "salt", "sulphur", "mercury", "alchemy", "correspondence"],
+      "sections": {
+        "Definition": "The tria prima (\"three primes\" or \"three principles\") are Paracelsus's alternative account of what matter is made of: salt, sulphur, and mercury, set out around 1530 in his Opus paramirum. They did not replace the four classical elements (earth, water, air, fire) so much as work alongside them as Paracelsus's preferred framework specifically for medicine and alchemy. Paracelsus illustrated the three with a simple demonstration: burn a piece of wood, and the flame is sulphur's work, the smoke is mercury's, and the ash left behind is salt's — combustibility, volatility, and fixed residue as the three principles made visible at once.",
+        "Body, spirit, and soul": "Paracelsus mapped the three principles onto the human being as well as onto matter generally: salt corresponds to the body (solid, permanent), mercury to the spirit (the seat of imagination and higher mental faculty, its fluid changeableness matching quicksilver's own), and sulphur to the soul (the seat of emotion and desire, its combustibility matching passion's heat). Illness, in this scheme, was read as a corruption or excess of one of the three principles in the body specifically, rather than an imbalance among the four humours — the physician's task was to identify which principle had gone wrong and treat it chemically, a direct precursor to the iatrochemical medicine Paracelsus's followers developed after him.",
+        "Not the same Mercury twice": "The mercury of the tria prima and this school's mercurial item (the planetary temperament of the planet Mercury) share a name and a real historical entanglement — correspondence theory held the planet, the metal quicksilver, and this principle to be linked expressions of one pattern — but they are two different claims. This item is about one of three constituents Paracelsus proposed for matter and the human being; mercurial is about a planet's astrological character. They are kept as separate items in this school so the shared name is not read as a shared claim."
+      },
+      "metadata": {},
+      "sort_order": 12
+    },
+    {
       "id": "group-opus-stages",
       "name": "The Opus Sequence — Nigredo to Rubedo",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
+      "sort_order": 13,
       "composite_of": ["nigredo", "albedo", "citrinitas", "rubedo"],
       "sections": {
         "Definition": "The alchemical Great Work's classic four-colour sequence: blackening, whitening, yellowing, reddening — a directional account of transformation through dissolution, purification, and integration, read by the tradition as happening to matter in the alchemist's vessel and, in later psychological readings, as a template for happening to a person."
@@ -193,10 +287,10 @@
       "name": "Planetary Temperament and the Correspondence Principle",
       "category": "group",
       "level": 2,
-      "sort_order": 8,
-      "composite_of": ["saturnine", "correspondentia"],
+      "sort_order": 14,
+      "composite_of": ["saturnine", "correspondentia", "jovial", "martial", "venereal", "mercurial", "lunar", "tria-prima"],
       "sections": {
-        "Definition": "The correspondence side of this school: one worked example (saturnine, the temperament of Saturn) alongside the general cosmological principle (Fludd's and Paracelsus's macrocosm-microcosm correspondence) that explains why a planet's character was ever thought to bear on a person's temperament in the first place."
+        "Definition": "The correspondence principle itself, and the planetary temperaments it generates: six planets, each lending its own quality to whatever falls under it. Saturn's is the one the emotional tradition kept longest — saturnine survived into ordinary English as a word for a temperament — but the tradition names six, and where the sources disagree about which humour a planet answers to, these items say so rather than settling it. Paracelsus's tria prima sits here too, as the other correspondence scheme this school carries."
       },
       "keywords": ["fludd", "paracelsus", "correspondence", "planetary temperament"],
       "metadata": {}
@@ -206,7 +300,7 @@
       "name": "Alchemical Correspondences — Transformation and Cosmic Pattern",
       "category": "root",
       "level": 3,
-      "sort_order": 9,
+      "sort_order": 15,
       "composite_of": ["group-opus-stages", "group-cosmological-correspondence"],
       "sections": {
         "Definition": "The alchemical and Neoplatonic-emblematic tradition, worked out most fully in this period by Robert Fludd and Paracelsus, reads inner and transformative states through a cosmology of correspondence: planets, metals, elements, and the four-stage sequence of the Great Work (nigredo, albedo, citrinitas, rubedo) are held to be linked expressions of one underlying pattern, rather than separate domains. A person's temperament could be described in the same breath as a planet's character (saturnine, jovial, martial, venereal, mercurial, lunatic) or as a stage of transformation (the blackening of loss, the whitening of clarification, the reddening of completion).",
