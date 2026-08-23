@@ -17,17 +17,22 @@ name: Rebuild meta-grammar
 # Only re-add `pages: write` / `deploy-pages` here if Pages is first switched to build_type
 # "workflow" — and then nothing else may deploy.
 
-# RE-ARMED. scripts/build_meta_grammar.py has been rewritten for this repo: it reads
-# schools/_collection.json, aggregates only non-composite items, and refuses to touch the
-# hand-authored schools/schools-of-emotion/grammar.json constellation (see NEVER_AGGREGATE).
-# It regenerates ONLY schools/across-the-schools/grammar.json, which is marked
-# _generated: true and must never be hand-edited.
+# RE-ARMED. Two builders run here, and between them they own three generated files:
+#   build_meta_grammar.py   -> schools/across-the-schools/grammar.json (the castable pool)
+#                              + schools/_collection.json's grammars[] index
+#   build_constellation.py  -> schools/schools-of-emotion/grammar.json (the L3->L2->L1 tree
+#                              the Tree of Life view loads by default)
+# All three are marked _generated and must never be hand-edited. The constellation was
+# hand-authored until Aug 2026 and had drifted five branches and twenty-six schools behind
+# the library before anyone noticed; it runs here so a push that skipped check_all.py cannot
+# ship that drift again.
 on:
   push:
     branches: [main]
     paths:
       - 'schools/**'
       - 'scripts/build_meta_grammar.py'
+      - 'scripts/build_constellation.py'
   workflow_dispatch:
 
 permissions:
@@ -46,6 +51,9 @@ jobs:
       - name: Rebuild meta-grammar
         run: python scripts/build_meta_grammar.py
 
+      - name: Rebuild constellation
+        run: python scripts/build_constellation.py
+
       - name: Commit regenerated meta (if changed)
         run: |
           git config user.name "github-actions[bot]"
@@ -55,10 +63,11 @@ jobs:
           # deck switcher read). Staging only the aggregator would throw the
           # regenerated index away every run, so the dropdown would silently go
           # stale whenever a school was added.
-          if ! git diff --quiet -- schools/across-the-schools/grammar.json schools/_collection.json; then
-            git add schools/across-the-schools/grammar.json schools/_collection.json
-            git commit -m "chore: rebuild meta-grammar + collection index [skip ci]"
+          GEN='schools/across-the-schools/grammar.json schools/_collection.json schools/schools-of-emotion/grammar.json'
+          if ! git diff --quiet -- $GEN; then
+            git add $GEN
+            git commit -m "chore: rebuild generated grammars [skip ci]"
             git push
           else
-            echo "meta and collection index unchanged"
+            echo "generated grammars unchanged"
           fi

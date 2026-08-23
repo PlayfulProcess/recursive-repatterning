@@ -72,11 +72,19 @@
 
 ## Core architecture
 
-- Grammar files live in `schools/<slug>/grammar.json`. Never hand-edit
-  `schools/across-the-schools/grammar.json` — it is generated.
+- Grammar files live in `schools/<slug>/grammar.json`. **Two of them are generated —
+  never hand-edit either:** `schools/across-the-schools/grammar.json` (the castable
+  pool) and `schools/schools-of-emotion/grammar.json` (the constellation the Tree of
+  Life view loads). The constellation is derived from `schools/_collection.json`, so
+  to change what the tree shows, edit a branch there — its `name`, its `_note` (which
+  becomes that branch's public prose) or its `school_slugs` — and rebuild. It was
+  hand-authored until Aug 2026 and had silently sat five branches and twenty-six
+  schools behind the library; that is why it is derived now.
 - Always run `python scripts/check_all.py` before committing. Must end "all checks
   passed" with `dangling=0`.
-- After any grammar edit: `python scripts/build_meta_grammar.py`, then check_all again.
+- After any grammar edit: `python scripts/build_meta_grammar.py` **and**
+  `python scripts/build_constellation.py`, then check_all again. (check_all runs both
+  for you and leaves the rebuilt files in the working tree — commit them with the edit.)
 - **ONE branch: `main`.** Site, app-sync and Pages all live there.
   - **GitHub Pages serves `main` in deploy-from-branch mode** (`build_type: "legacy"`,
     `source: {branch: "main", path: "/"}`). GitHub publishes the branch itself on every
@@ -170,7 +178,8 @@ private email).
 
 | Script | What it does |
 |--------|-------------|
-| `scripts/build_meta_grammar.py` | Rebuild the constellation meta-grammar |
+| `scripts/build_meta_grammar.py` | Rebuild the aggregator (`across-the-schools`) + `_collection.json`'s grammars index |
+| `scripts/build_constellation.py` | Rebuild the constellation (`schools-of-emotion`) from `_collection.json` |
 | `scripts/refresh_collection.py` | Sync `_collection.json` from grammars |
 | `scripts/check_all.py` | Pre-commit gate |
 | `scripts/apply_theme.py` | Re-consolidate colour onto `theme.css` |

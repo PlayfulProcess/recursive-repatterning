@@ -9,6 +9,9 @@ Checks:
   3. no mojibake — no UTF-8 text that was decoded as Latin-1/CP1252 anywhere;
   4. people dossiers (research/people/*.md) have the frontmatter the generator needs;
   5. rebuilds people + meta grammars and asserts the meta reports dangling=0;
+  5b. rebuilds the constellation (schools-of-emotion) from _collection.json — it
+      used to be hand-authored and sat five branches out of date for months, so it
+      is derived now and drift fails here instead of going unnoticed;
   6. semantic check on the built meta grammar's derived pivot axes (role /
      trump_number / rank / deck-attribution) — see check_derived_axes.py.
 Exits non-zero on any failure.
@@ -85,15 +88,15 @@ for path in sorted(glob.glob(os.path.join(PEOPLE, "*.md"))):
 # research/people/ directory this repo does not have, so every check_all run was
 # regenerating a stray tarot/ tree at the repo root that then had to be hand-deleted
 # (it happened twice before this was pinned). Only the adapted meta builder runs here.
-for script in ("build_meta_grammar.py",):
+for script in ("build_meta_grammar.py", "build_constellation.py"):
     r = subprocess.run([sys.executable, os.path.join(ROOT, "scripts", script)],
                        capture_output=True, text=True, cwd=ROOT)
     out = (r.stdout + r.stderr).strip()
     print(f"[{script}] {out.splitlines()[0] if out else '(no output)'}")
     if r.returncode != 0:
         errors.append(f"{script} failed:\n{out}")
-    if script == "build_meta_grammar.py" and "wrote" not in out and "up to date" not in out:
-        warnings.append(f"meta build reported neither 'wrote' nor 'up to date': {out[:200]}")
+    if "wrote" not in out and "up to date" not in out:
+        warnings.append(f"{script} reported neither 'wrote' nor 'up to date': {out[:200]}")
 
 # 5 — (removed) check_derived_axes.py was tarot-era — trump/rank/deck semantics —
 # and the script itself was stripped in the original clone, so the call could only
