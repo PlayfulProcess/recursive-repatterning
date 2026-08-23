@@ -20,7 +20,7 @@
   "metadata": {
     "status": "skeleton"
   },
-  "_note": "Skeleton. Two \"building block\" items (core affect, interoception) and three worked \"category instance\" items (anger, fear, sadness, deliberately reusing the same words other schools use as their own category names, to make the critique concrete) are written. Not yet represented: allostasis and the body-budget framing, affective realism (how current affect colors perception and judgment), concept acquisition in development (how a child learns which bodily/situational pattern counts as \"anger\" in their language and culture), and Barrett's own account of why this framework is falsifiable rather than merely a reinterpretation of the same data.",
+  "_note": "The three ingredients this framework names — core affect, interoception, and the learned concept — now each have an item, alongside the prediction mechanism that assembles them, affective realism as the consequence for perception, and three worked category instances (anger, fear, sadness) that deliberately reuse the words other schools here use as their own category names. The root item states what would count against the framework. Still unwritten: the neuroanatomy in any detail (the large-scale networks the interoception work implicates, and the degeneracy argument that the same category can be realised by different circuitry); population thinking as a general method, borrowed from evolutionary biology, rather than only as it appears in the three instance items; the framework's account of what emotion regulation amounts to once emotions are not things to be regulated; and the substantive counter-arguments from basic-emotion researchers, which are named in the root's research note but not given the room a fair statement of them would need.",
   "_art_direction": {
     "period_place": "Contemporary (2000s–2020s) cognitive neuroscience. Figurative period-art the way other schools use it would misrepresent this theory's own central claim — there is no single \"face of anger\" to paint, because the theory denies exactly that fixed signature exists. Diagrammatic and abstract sourcing fits the content better than portraiture or genre painting.",
     "candidates": [
@@ -93,10 +93,53 @@
       }
     },
     {
+      "id": "concept-acquisition",
+      "name": "The Learned Concept — Acquiring \"Anger\"",
+      "category": "building-block",
+      "sort_order": 3,
+      "keywords": ["concept", "development", "language", "granularity", "substrate"],
+      "sections": {
+        "Definition": "The third ingredient, alongside core affect and interoception: a concept, learned rather than inherited, that the brain applies to categorize the whole pattern. On this account a child is not born knowing which bodily and situational patterns count as anger; she learns it the way she learns other abstract categories, by hearing the same word used across events that look, sound and feel very different from one another. What holds those events together is not a shared appearance but a shared function in a context — which is why the category can be learned only from repeated, variable examples, and why the word itself does so much of the work.",
+        "Why the category has to be taught": "Two children raised in different languages do not simply attach different labels to the same set of inner states; they acquire different sets, carved at different joints. A language that has no single word for a given pattern gives its speakers no ready-made concept to apply to it, and one that draws a distinction English does not gives them one English speakers lack. This is the claim that connects the substrate to the rest of this library: if concepts are learned, then the taxonomies collected here are records of what particular communities taught, which is what makes them worth reading as interfaces rather than as competing discoveries.",
+        "Granularity — how finely a person carves": "Emotion differentiation, or granularity, is the degree to which someone distinguishes among their own affective states — whether an unpleasant, activated moment is experienced as one undifferentiated feeling-bad or specifically as irritation, or dread, or shame. On this framework granularity follows from the concepts available and practised, not from privileged access to a fixed inner state, and it is treated as something that can change with experience rather than as a fixed trait.",
+        "Not a category, an ingredient": "Like core affect and interoception, this item carries no emotion_key: it is the conceptual machinery a specific emotion gets built with, not itself a named emotion.",
+        "Research note": "The developmental account here follows Hoemann, Xu and Barrett, \"Emotion words, emotion concepts, and emotional development in children: A constructionist hypothesis\" (Developmental Psychology 55(9), 2019, 1830–1849), which treats emotional development as a concept-construction problem and argues that emotion categories are abstract categories whose instances share a goal-based function in context while varying widely in their physical and perceptual features. The cross-cultural strand of the argument rests on work with populations having minimal exposure to Western media, cited in this grammar's root item."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "prediction",
+      "name": "Prediction, Not Reaction",
+      "category": "mechanism",
+      "sort_order": 4,
+      "keywords": ["prediction", "active inference", "allostasis", "prediction error", "substrate"],
+      "sections": {
+        "Definition": "The assembly mechanism this framework proposes: a brain that does not sit waiting for stimuli and then respond, but continuously anticipates — issuing predictions about what is about to happen inside the body and outside it, and using incoming sensory and interoceptive signals to confirm or correct them. An emotional instance, on this account, is one of those predictions: the brain's best guess at what this pattern of core affect and bodily sensation means in this situation, made before the fact rather than after it. The felt experience is the prediction, not a readout of something that already happened.",
+        "Why the order matters": "Reversing the order changes what an emotion is. On a trigger account, a situation causes a fixed emotional program to fire, and the feeling reports it. On this account the brain has already committed to an interpretation, and what arrives from the body is used to check it. That is why context, expectation and prior experience are not modifiers layered on top of a real emotion underneath — they are constitutive of which emotion gets built at all.",
+        "Not a category, an ingredient": "This item carries no emotion_key: prediction is how an instance is assembled, not a named emotion in its own right.",
+        "Research note": "The prediction framing is set out in Barrett, \"The theory of constructed emotion: an active inference account of interoception and categorization\" (Social Cognitive and Affective Neuroscience 12(1), 2017, 1–23), which casts emotion as active inference and places interoception at the core of the brain's internal model, arising from allostasis. The neuroanatomical proposal it builds on is Barrett and Simmons, \"Interoceptive predictions in the brain\" (Nature Reviews Neuroscience 16, 2015, 419–429), whose Embodied Predictive Interoception Coding model argues that interoceptive experience largely reflects limbic predictions about the expected state of the body, constrained by ascending visceral sensation. Both sit inside the wider predictive-processing programme, which remains an active area of empirical work rather than settled consensus — the caveat this grammar's interoception item already states."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "affective-realism",
+      "name": "Affective Realism — Feeling Read as Fact",
+      "category": "consequence",
+      "sort_order": 5,
+      "keywords": ["affective realism", "perception", "judgment", "core affect", "substrate"],
+      "sections": {
+        "Definition": "What follows for perception if the brain builds experience predictively: affect does not stay neatly inside the person feeling it. It is folded into what the world looks like. Someone in an unpleasant, activated state does not simply feel unpleasant while seeing a neutral face accurately; on this account they are liable to see the face itself as less pleasant. The affect is experienced as a property of the thing being looked at rather than as a state of the looker — which is what the phrase names.",
+        "Why this is the substrate's sharpest edge": "It removes the comfortable separation between how a person feels and what they take themselves to be observing. A judgment that seems to be about a person, a proposal or a room may be substantially about the body budget of whoever is making it, and will not announce itself as such from the inside. Nothing in the framework licenses telling someone their feeling is wrong or unreal — the feeling is entirely real; the claim is about where it is coming from and what it is being attributed to.",
+        "Not a category, a consequence": "This item carries no emotion_key: affective realism is a property of how construction works, not a named emotion.",
+        "Research note": "The experimental case is made in Siegel, Wormwood, Quigley and Barrett, \"Seeing What You Feel: Affect Drives Visual Perception of Structurally Neutral Faces\" (Psychological Science 29(4), 2018, 496–503), which reports that manipulated affect changes how participants visually perceive structurally neutral faces, and treats this as evidence that affective realism involves changes in visual perception rather than only in reported judgment. Claims sometimes attached to this idea in popular writing — that unrelated bodily states drive high-stakes professional decisions — rest on separate and, in some cases, contested literatures, and are not part of what this item asserts."
+      },
+      "metadata": {}
+    },
+    {
       "id": "anger-as-population",
       "name": "\"Anger\" as a Population of Instances",
       "category": "category-instance",
-      "sort_order": 3,
+      "sort_order": 6,
       "keywords": ["anger", "population thinking", "constructed emotion"],
       "sections": {
         "Definition": "On this framework, \"anger\" does not name one fixed inner state with one fixed facial or physiological signature. It names a population of highly variable instances — different combinations of core affect, interoceptive state, situation, and concept — that a perceiver (or the person themselves) categorizes as anger because the concept \"anger,\" learned through language and culture, fits well enough in that moment. Two instances categorized as anger by the same person in the same week can differ substantially in their facial expression, physiology, and felt quality.",
@@ -111,7 +154,7 @@
       "id": "fear-as-population",
       "name": "\"Fear\" as a Population of Instances",
       "category": "category-instance",
-      "sort_order": 4,
+      "sort_order": 7,
       "keywords": ["fear", "population thinking", "constructed emotion"],
       "sections": {
         "Definition": "As with anger, \"fear\" on this account names a variable population of instances rather than one fixed inner state — the same core-affect and interoceptive raw material that gets categorized as fear in one moment might, with a different concept available or a different context, be categorized as excitement, anxiety, or anger in another.",
@@ -126,7 +169,7 @@
       "id": "sadness-as-population",
       "name": "\"Sadness\" as a Population of Instances",
       "category": "category-instance",
-      "sort_order": 5,
+      "sort_order": 8,
       "keywords": ["sadness", "population thinking", "constructed emotion"],
       "sections": {
         "Definition": "As with anger and fear, \"sadness\" on this account is a variable population of instances built from core affect, interoception, situation, and a learned concept — not a single essence with one physiological or facial fingerprint that shows up the same way every time.",
@@ -142,12 +185,25 @@
       "name": "Building Blocks — Before Any Category",
       "category": "group",
       "level": 2,
-      "sort_order": 6,
-      "composite_of": ["core-affect", "interoception"],
+      "sort_order": 9,
+      "composite_of": ["core-affect", "interoception", "concept-acquisition"],
       "sections": {
-        "Definition": "The two ingredients this framework holds are present before any emotion concept is applied: a continuously varying core-affect state, and the brain's ongoing interoceptive monitoring and prediction of the body's internal condition."
+        "Definition": "The three ingredients this framework holds an emotional instance is built from: a continuously varying core-affect state, the brain’s ongoing interoceptive monitoring and prediction of the body’s internal condition, and a learned concept that categorizes the whole pattern. The first two are present before any emotion concept is applied; the third is what applies it, and is taught rather than inherited."
       },
       "keywords": ["core affect", "interoception", "substrate"],
+      "metadata": {}
+    },
+    {
+      "id": "group-mechanism-and-consequence",
+      "name": "How the Building Happens, and What Follows",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["prediction", "affective-realism"],
+      "sections": {
+        "Definition": "The mechanism this framework proposes for assembling an instance out of the ingredients — a brain that predicts rather than reacts — and the consequence that follows for perception, where affect is experienced as a property of what is being looked at rather than of the looker."
+      },
+      "keywords": ["prediction", "affective realism", "substrate"],
       "metadata": {}
     },
     {
@@ -155,7 +211,7 @@
       "name": "Category Instances — the Same Words, Reframed",
       "category": "group",
       "level": 2,
-      "sort_order": 7,
+      "sort_order": 11,
       "composite_of": ["anger-as-population", "fear-as-population", "sadness-as-population"],
       "sections": {
         "Definition": "Three worked examples using the same emotion words other schools in this collection use as fixed category names — anger, fear, sadness — reframed here as variable populations of situated instances rather than as essences with one signature."
@@ -168,11 +224,12 @@
       "name": "Constructed Emotion — the Substrate, Not a Peer School",
       "category": "root",
       "level": 3,
-      "sort_order": 8,
-      "composite_of": ["group-building-blocks", "group-category-instances"],
+      "sort_order": 12,
+      "composite_of": ["group-building-blocks", "group-mechanism-and-consequence", "group-category-instances"],
       "sections": {
         "Definition": "This item is the substrate this entire library sits on, not one taxonomy among the others it lists. The theory of constructed emotion holds that an emotional instance is built in the moment from core affect (a continuously varying valence/arousal state), interoceptive signals from the body, and a learned concept — shaped by language and culture — that the brain applies to categorize the whole pattern. There is no fixed, pre-packaged \"anger program\" or \"fear program\" waiting to be triggered with one universal signature; there is a population of variable instances that get grouped under a shared word because the word is useful, not because the instances share one biological essence.",
         "Why this is the substrate and not a peer": "Every other school in this collection — Plutchik, the basic-emotion model, Aristotle, the Stoics, Aquinas, Descartes, rasa, the Chinese five-viscera correspondences, NVC, Darwin — proposes its own taxonomy of what the significant emotional categories are and how they relate. This school does not compete with those taxonomies on their own terms; it is the claim, stated in this project's own founding document, that none of those taxonomies describes a fixed biological fact independent of the concepts and culture used to build it. Read every other school's taxonomy as a working interface built on this substrate, not as a rival discovery this substrate is one entry among.",
+        "What would count against this": "A framework that sits underneath every other school in this library owes an account of how it could be wrong, and this one names its own defeaters. It predicts that no reliable, specific biological signature will be found that marks a discrete emotion category across contexts, bodies and cultures; a consistently replicated one — facial, physiological or neural — would count directly against it. It predicts that emotion concepts are learned rather than innate, so evidence that they emerge on a fixed maturational schedule independent of the concepts a community teaches would count against it. And it predicts that people who lack a given concept will not perceive that emotion the way people who hold it do, so a finding that emotion perception is unaffected by the concepts available would count against it too. Barrett’s 2017 account states the framework in these testable terms rather than as a reinterpretation of the same data; the honest position is that these are open questions still actively argued over, which is what this school’s evidence tier of ‘growing’ records.",
         "Research note": "Key empirical anchors for this framework include Barrett's own experimental and review work; the 2019 meta-analysis with Adolphs, Marsella, Martinez, and Pollak reviewing facial-expression evidence broadly; Maria Gendron and colleagues' cross-cultural work with populations having minimal exposure to Western media (e.g. the Himba, 2014); and predictive-processing and allostasis research on interoception more broadly (e.g. work associated with Karl Friston's predictive-coding framework, applied to interoception by Barrett and collaborators including W. Kyle Simmons)."
       },
       "keywords": ["constructed emotion", "barrett", "substrate", "core affect", "interoception"],

@@ -15,7 +15,7 @@
     {
       "slug": "constructed-emotion",
       "name": "Constructed Emotion — the Substrate",
-      "items": 5
+      "items": 8
     },
     {
       "slug": "overflow",
@@ -184,6 +184,79 @@
         "image_credit": "\"The phrenic nerve and its relations with the vagus nerve\", Gray's Anatomy (1918, US edition) — Wikimedia Commons, public domain. The vagus nerve carries the visceral afferent signals central to interoception theory.",
         "source_deck": "constructed-emotion",
         "source_item_id": "interoception",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--concept-acquisition",
+      "name": "The Learned Concept — Acquiring \"Anger\"",
+      "category": "building-block",
+      "sections": {
+        "Definition": "The third ingredient, alongside core affect and interoception: a concept, learned rather than inherited, that the brain applies to categorize the whole pattern. On this account a child is not born knowing which bodily and situational patterns count as anger; she learns it the way she learns other abstract categories, by hearing the same word used across events that look, sound and feel very different from one another. What holds those events together is not a shared appearance but a shared function in a context — which is why the category can be learned only from repeated, variable examples, and why the word itself does so much of the work.",
+        "Why the category has to be taught": "Two children raised in different languages do not simply attach different labels to the same set of inner states; they acquire different sets, carved at different joints. A language that has no single word for a given pattern gives its speakers no ready-made concept to apply to it, and one that draws a distinction English does not gives them one English speakers lack. This is the claim that connects the substrate to the rest of this library: if concepts are learned, then the taxonomies collected here are records of what particular communities taught, which is what makes them worth reading as interfaces rather than as competing discoveries.",
+        "Granularity — how finely a person carves": "Emotion differentiation, or granularity, is the degree to which someone distinguishes among their own affective states — whether an unpleasant, activated moment is experienced as one undifferentiated feeling-bad or specifically as irritation, or dread, or shame. On this framework granularity follows from the concepts available and practised, not from privileged access to a fixed inner state, and it is treated as something that can change with experience rather than as a fixed trait.",
+        "Not a category, an ingredient": "Like core affect and interoception, this item carries no emotion_key: it is the conceptual machinery a specific emotion gets built with, not itself a named emotion.",
+        "Research note": "The developmental account here follows Hoemann, Xu and Barrett, \"Emotion words, emotion concepts, and emotional development in children: A constructionist hypothesis\" (Developmental Psychology 55(9), 2019, 1830–1849), which treats emotional development as a concept-construction problem and argues that emotion categories are abstract categories whose instances share a goal-based function in context while varying widely in their physical and perceptual features. The cross-cultural strand of the argument rests on work with populations having minimal exposure to Western media, cited in this grammar's root item."
+      },
+      "keywords": [
+        "concept",
+        "development",
+        "language",
+        "granularity",
+        "substrate"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "concept-acquisition",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--prediction",
+      "name": "Prediction, Not Reaction",
+      "category": "mechanism",
+      "sections": {
+        "Definition": "The assembly mechanism this framework proposes: a brain that does not sit waiting for stimuli and then respond, but continuously anticipates — issuing predictions about what is about to happen inside the body and outside it, and using incoming sensory and interoceptive signals to confirm or correct them. An emotional instance, on this account, is one of those predictions: the brain's best guess at what this pattern of core affect and bodily sensation means in this situation, made before the fact rather than after it. The felt experience is the prediction, not a readout of something that already happened.",
+        "Why the order matters": "Reversing the order changes what an emotion is. On a trigger account, a situation causes a fixed emotional program to fire, and the feeling reports it. On this account the brain has already committed to an interpretation, and what arrives from the body is used to check it. That is why context, expectation and prior experience are not modifiers layered on top of a real emotion underneath — they are constitutive of which emotion gets built at all.",
+        "Not a category, an ingredient": "This item carries no emotion_key: prediction is how an instance is assembled, not a named emotion in its own right.",
+        "Research note": "The prediction framing is set out in Barrett, \"The theory of constructed emotion: an active inference account of interoception and categorization\" (Social Cognitive and Affective Neuroscience 12(1), 2017, 1–23), which casts emotion as active inference and places interoception at the core of the brain's internal model, arising from allostasis. The neuroanatomical proposal it builds on is Barrett and Simmons, \"Interoceptive predictions in the brain\" (Nature Reviews Neuroscience 16, 2015, 419–429), whose Embodied Predictive Interoception Coding model argues that interoceptive experience largely reflects limbic predictions about the expected state of the body, constrained by ascending visceral sensation. Both sit inside the wider predictive-processing programme, which remains an active area of empirical work rather than settled consensus — the caveat this grammar's interoception item already states."
+      },
+      "keywords": [
+        "prediction",
+        "active inference",
+        "allostasis",
+        "prediction error",
+        "substrate"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "prediction",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "constructed-emotion--affective-realism",
+      "name": "Affective Realism — Feeling Read as Fact",
+      "category": "consequence",
+      "sections": {
+        "Definition": "What follows for perception if the brain builds experience predictively: affect does not stay neatly inside the person feeling it. It is folded into what the world looks like. Someone in an unpleasant, activated state does not simply feel unpleasant while seeing a neutral face accurately; on this account they are liable to see the face itself as less pleasant. The affect is experienced as a property of the thing being looked at rather than as a state of the looker — which is what the phrase names.",
+        "Why this is the substrate's sharpest edge": "It removes the comfortable separation between how a person feels and what they take themselves to be observing. A judgment that seems to be about a person, a proposal or a room may be substantially about the body budget of whoever is making it, and will not announce itself as such from the inside. Nothing in the framework licenses telling someone their feeling is wrong or unreal — the feeling is entirely real; the claim is about where it is coming from and what it is being attributed to.",
+        "Not a category, a consequence": "This item carries no emotion_key: affective realism is a property of how construction works, not a named emotion.",
+        "Research note": "The experimental case is made in Siegel, Wormwood, Quigley and Barrett, \"Seeing What You Feel: Affect Drives Visual Perception of Structurally Neutral Faces\" (Psychological Science 29(4), 2018, 496–503), which reports that manipulated affect changes how participants visually perceive structurally neutral faces, and treats this as evidence that affective realism involves changes in visual perception rather than only in reported judgment. Claims sometimes attached to this idea in popular writing — that unrelated bodily states drive high-stakes professional decisions — rest on separate and, in some cases, contested literatures, and are not part of what this item asserts."
+      },
+      "keywords": [
+        "affective realism",
+        "perception",
+        "judgment",
+        "core affect",
+        "substrate"
+      ],
+      "image_url": "",
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "affective-realism",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -5045,6 +5118,9 @@
       ],
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
       "metadata": {
+        "source_deck": "acting-traditions",
+        "source_item_id": "noh-kata-and-masks",
+        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
         "additional_image_urls": [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sh%C5%8Dj%C5%8D_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1535.jpg",
@@ -5059,10 +5135,7 @@
         ],
         "_additional_image_urls_note": "This chassis reads a single item.image_url; these two are recorded here, alongside the primary ko-omote image, so a future viewer pass can render all three side by side — the point being made is literally that three different fixed objects carry three different registers within one mask-carving tradition. Not yet rendered as a gallery anywhere in the site.",
         "image_source": "https://commons.wikimedia.org/wiki/File:Ko-omote_(Noh_mask),_Tokyo_National_Museum_C-1551.jpg",
-        "image_credit": "Ko-omote (Noh mask), early Edo-period copy of the \"Yuki-no-Ko-omote,\" 17th century — Tokyo National Museum, accession C-1551, CC BY 4.0. A young-woman mask for serene, youthful roles.",
-        "source_deck": "acting-traditions",
-        "source_item_id": "noh-kata-and-masks",
-        "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
+        "image_credit": "Ko-omote (Noh mask), early Edo-period copy of the \"Yuki-no-Ko-omote,\" 17th century — Tokyo National Museum, accession C-1551, CC BY 4.0. A young-woman mask for serene, youthful roles."
       }
     },
     {
@@ -6349,11 +6422,11 @@
       "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-S2018.1.2_001crop",
       "metadata": {
         "emotion_key": "shanta",
-        "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
-        "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself.",
         "source_deck": "rasa",
         "source_item_id": "shanta",
-        "deck": "Rasa — Bharata's Aesthetics of Performance"
+        "deck": "Rasa — Bharata's Aesthetics of Performance",
+        "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
+        "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself."
       }
     },
     {
