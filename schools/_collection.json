@@ -46,7 +46,7 @@
     {
       "id": "basic-emotion",
       "name": "Basic-Emotion Schools",
-      "_note": "Discrete, evolutionarily-primary categories. Plutchik, Ekman.",
+      "_note": "Discrete, evolutionarily-primary categories: a small fixed set of emotions, with blends and intensities built out of them. Plutchik's wheel and Ekman's basic-emotion programme both work this way and still name different sets, which is itself worth noticing.",
       "school_slugs": [
         "plutchik-wheel",
         "ekman-basic"
@@ -55,7 +55,7 @@
     {
       "id": "needs-based",
       "name": "Needs-Based Schools",
-      "_note": "Feelings as signals of met/unmet needs. NVC.",
+      "_note": "Feelings read as signals of a met or unmet need rather than as categories in themselves — so what a feeling raises is the question of what it points to, not what it should be called. Nonviolent Communication is the school here.",
       "school_slugs": [
         "nvc-needs"
       ]
@@ -81,7 +81,7 @@
     {
       "id": "parts-and-depth",
       "name": "Parts & Depth",
-      "_note": "IFS/parts work, Jungian archetypes.",
+      "_note": "Accounts that treat a person as made of parts, or a feeling as the surface of something with its own aim underneath it — internal-family-systems parts work, and Jung's archetypal psychology.",
       "school_slugs": [
         "parts-work",
         "jungian-archetypes"
@@ -111,7 +111,7 @@
     {
       "id": "historical-scientific",
       "name": "Historical & Scientific",
-      "_note": "Public-domain foundations: Darwin 1872, James 1890.",
+      "_note": "The long record of the question before there was a discipline to ask it in, and the map of how those answers connect: Aristotle's rhetorical pathē and the Stoic four, Aquinas's eleven passions, Descartes's six primitives, Bharata's rasa, and the seven qíng of classical Chinese medicine — five traditions that asked what a feeling is and did not arrive at the same answer — together with the genealogy grammar that traces the lineages between them.",
       "school_slugs": [
         "greek-pathe",
         "descartes-passions",
@@ -547,7 +547,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "tree",
-      "items": 9,
+      "items": 40,
       "cover_image_url": "",
       "path": "schools/schools-of-emotion/grammar.json",
       "year": null,

@@ -13,7 +13,8 @@ pool of every drawable item across every school, so a cast can sample the whole
 library at once rather than one school at a time.
 
 What it is NOT: the constellation. schools/schools-of-emotion/grammar.json is
-the hand-authored L1->L2->L3 tree and is never generated — do not overwrite it.
+the L1->L2->L3 tree, and it has a builder of its own — scripts/build_constellation.py,
+which derives it from _collection.json. Do not write it from here.
 
 Rules this honours (see CLAUDE.md):
   - Cross-links use metadata.source_deck / source_item_id / deck. That is the
