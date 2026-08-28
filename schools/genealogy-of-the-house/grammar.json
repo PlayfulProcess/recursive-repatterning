@@ -1,0 +1,357 @@
+{
+ "name": "A Genealogy of the House",
+ "description": "Where the House School's water comes from, and where it pours. Every other genealogy in this library is curatorial — lineages followed on their own terms, no center privileged. This one is deliberately not: it stands in the House School's first-person register and maps the tributaries that feed Overflow and the Ethics of Fiction — the substrate stream, the contemplative stream, the clinical stream, the critical stream — and the three places the House pours back out. Read it as a watershed map drawn from inside the house, not as a claim that the house is where these rivers were headed. Each tributary school still speaks for itself in its own grammar; what is recorded here is only what the House took, and from whom.",
+ "grammar_type": "custom",
+ "tags": ["genealogy", "house-school", "overflow", "ethics-of-fiction", "tributaries", "barrett", "lila", "nvc", "dbt", "tillich", "andreotti"],
+ "creator_name": "PlayfulProcess",
+ "is_published": false,
+ "default_preview": "tree",
+ "metadata": {
+  "status": "draft"
+ },
+ "_note": "First-person by design: this grammar sits in the-house-school branch, where the library's one first-person voice lives, so 'what the House takes' phrasing is in register rather than a violation of let-each-school-speak-as-itself — every tributary named here still has (or could have) its own grammar speaking in its own voice, and the pill on each moment points there. Moments follow the genealogy-of-emotions conventions (category 'moment', metadata.when/era/branch, one pill each). Tributaries without a school in the library (līlā/pratyabhijñā, Brunton, Tillich, Andreotti) carry no pill until one exists; each is a candidate future school. The slug is in build_meta_grammar.py's NEVER_AGGREGATE — pointer stubs would be noise in the castable pool. No item carries metadata.emotion_key: these are lineage moments, not affect categories.",
+ "_grammar_commons": {
+  "schema_version": "1.0",
+  "license": "CC-BY-SA-4.0",
+  "attribution": [
+   {
+    "name": "PlayfulProcess",
+    "role": "creator",
+    "note": "Original first-person synthesis by the maintainer, AI-drafted and maintainer-reviewed. Sources are credited per moment; where a source is in copyright (Barrett, Rosenberg, Linehan, Schwartz, Andreotti, Tillich's estate, Brunton's estate), the moment paraphrases in original prose and no text is copied from copyrighted works."
+   }
+  ]
+ },
+ "items": [
+  {
+   "id": "moment-barrett-constructed-emotion",
+   "name": "Barrett — Constructed Emotion and the Body Budget",
+   "category": "moment",
+   "sort_order": 1,
+   "keywords": ["barrett", "allostasis", "prediction", "body-budget"],
+   "sections": {
+    "Definition": "The substrate itself: emotions have no fixed biological fingerprints; the brain predicts, budgets, and constructs experience from concepts it has practiced. Allostasis makes affect the felt readout of a body already preparing to act.",
+    "What the House takes": "Nearly everything structural. The Body, The Prediction, The Construction are this stream barely disguised; the whole deck's claim that maps are made, not found, is Barrett's negative result turned into a practice. The House also takes the responsibility corollary she presses in public writing: people assume less authorship over their predictions than they actually have."
+   },
+   "metadata": {
+    "when": "2017 (How Emotions Are Made)",
+    "era": "2017",
+    "branch": "stream-substrate",
+    "source_deck": "constructed-emotion",
+    "source_item_id": "constructed-emotion-root",
+    "deck": "Constructed Emotion — the Substrate"
+   }
+  },
+  {
+   "id": "moment-lila-pratyabhijna",
+   "name": "Līlā and Pratyabhijñā — the Play and the Recognition",
+   "category": "moment",
+   "sort_order": 2,
+   "keywords": ["lila", "pratyabhijna", "kashmir-shaivism", "svatantrya", "recognition"],
+   "sections": {
+    "Definition": "The Kashmir Śaivist doctrine pair: consciousness conceals itself from itself in order to play (līlā), and the goal of the path is not acquisition but recognition (pratyabhijñā) — knowing again what was never absent. Svātantrya, absolute freedom, is the concealing and the finding done by the same hand.",
+    "What the House takes": "The Constriction, The Game, The Recognition, and The Free Gift are this stream's water. The House reads the doctrine as the warmest available answer to why structure exists at all: limits as equipment of play rather than punishment. No school in the library holds this tradition yet; this moment is the placeholder and the debt."
+   },
+   "metadata": {
+    "when": "Kashmir, c. 900–1050 (Utpaladeva to Abhinavagupta)",
+    "era": "c. 1000",
+    "branch": "stream-contemplative"
+   }
+  },
+  {
+   "id": "moment-shanta-rasa",
+   "name": "Śānta — the Rasa of Stillness",
+   "category": "moment",
+   "sort_order": 3,
+   "keywords": ["shanta", "rasa", "abhinavagupta", "stillness"],
+   "sections": {
+    "Definition": "Abhinavagupta's argument that the eight rasas of performance admit a ninth — śānta, the taste of stillness — in which the aesthetic experience points past itself toward liberation.",
+    "What the House takes": "The precedent that a taxonomy can be reopened from inside by its own best practitioner, and the specific link the deck already carries: The Recognition pills to śānta, stillness as the flavor of knowing-again."
+   },
+   "metadata": {
+    "when": "Kashmir, c. 1000 (Abhinavabhāratī)",
+    "era": "c. 1000",
+    "branch": "stream-contemplative",
+    "source_deck": "rasa",
+    "source_item_id": "shanta",
+    "deck": "Rasa — Bharata's Aesthetics of Performance"
+   }
+  },
+  {
+   "id": "moment-brunton-own-context",
+   "name": "Brunton — Each in Their Own Context",
+   "category": "moment",
+   "sort_order": 4,
+   "keywords": ["brunton", "individuation", "solitary-path", "context"],
+   "sections": {
+    "Definition": "Paul Brunton's lifelong distrust of group religious work, held for a specific reason: each person must come to their own understanding, in their own context, and a warrant earned in one life does not transfer by membership.",
+    "What the House takes": "The evidence-tier honesty in the deck's own root: a first-person practice can be fully warranted for its practitioner by lived experience in context while offering visitors no warrant they do not earn in their own practice. Individuation as an epistemology, not a mood."
+   },
+   "metadata": {
+    "when": "1898–1981 (notebooks published posthumously)",
+    "era": "20th c.",
+    "branch": "stream-contemplative"
+   }
+  },
+  {
+   "id": "moment-nvc-needs-vocabulary",
+   "name": "NVC — Feelings as Signals of Needs",
+   "category": "moment",
+   "sort_order": 5,
+   "keywords": ["nvc", "rosenberg", "needs", "guilt"],
+   "sections": {
+    "Definition": "Rosenberg's practice: feelings read as signals of met or unmet needs, offered as a mirror for self-connection; moral judgment (guilt, should) replaced by responsibility for one's own needs and requests.",
+    "What the House takes": "The Ledger's foil — moral arithmetic dissolved into needs-language — and the guilt-to-responsibility move the Error and Heap cards run. The House holds the needs-reading as a chosen concept-set for the predicting brain, judged by its fruits, not as what affect 'really' says: that hinge is argued in docs/RESEARCH-affect-needs-overflow.md."
+   },
+   "metadata": {
+    "when": "1960s–2003 (Nonviolent Communication)",
+    "era": "1999",
+    "branch": "stream-clinical",
+    "source_deck": "nvc-needs",
+    "source_item_id": "nvc-needs-root",
+    "deck": "Nonviolent Communication — Feelings and Needs"
+   }
+  },
+  {
+   "id": "moment-dbt-dialectic",
+   "name": "DBT — Acceptance and Change, Held Together",
+   "category": "moment",
+   "sort_order": 6,
+   "keywords": ["dbt", "linehan", "wise-mind", "dialectic"],
+   "sections": {
+    "Definition": "Linehan's curriculum: radical acceptance and deliberate change practiced as one dialectic, with wise mind — the overlap of emotion mind and reasonable mind — as the ground every other skill assumes.",
+    "What the House takes": "The Heap composts on radical acceptance's ground, and wise mind is the House's borrowed name for the state a collective version of this practice would aim at — affect deliberately re-wired, through chosen concepts, toward collective overflow. The Fit card pills to wise mind for exactly that reason."
+   },
+   "metadata": {
+    "when": "1993 (Cognitive-Behavioral Treatment of Borderline Personality Disorder)",
+    "era": "1993",
+    "branch": "stream-clinical",
+    "source_deck": "dbt-skills",
+    "source_item_id": "wise-mind",
+    "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+   }
+  },
+  {
+   "id": "moment-ifs-self",
+   "name": "Parts Work — Self-Energy and the Ceded Turn",
+   "category": "moment",
+   "sort_order": 7,
+   "keywords": ["ifs", "schwartz", "self", "parts"],
+   "sections": {
+    "Definition": "Schwartz's architecture: a person as a system of parts, each protective in intention, organized around Self — a capacity for curiosity and calm that can be with any part without becoming it.",
+    "What the House takes": "The Ceding pills to Self: the move of making room without abandoning the field. The House reads Self-energy as what ceding a turn feels like from inside — agency exercised as space."
+   },
+   "metadata": {
+    "when": "mid-1980s onward (Internal Family Systems)",
+    "era": "1985",
+    "branch": "stream-clinical",
+    "source_deck": "parts-work",
+    "source_item_id": "self",
+    "deck": "Parts Work — after Internal Family Systems"
+   }
+  },
+  {
+   "id": "moment-attachment-working-models",
+   "name": "Attachment — the Inherited Working Model",
+   "category": "moment",
+   "sort_order": 8,
+   "keywords": ["attachment", "bowlby", "ainsworth", "internal-working-models"],
+   "sections": {
+    "Definition": "Bowlby and Ainsworth's research tradition: early bonds deposit internal working models — expectations about availability and response — that keep shaping relating long after the relationships that built them.",
+    "What the House takes": "The Lineage card pills to internal working models: the first equipment, handed over before consent. And The Two Truths pills to the attachment behavioural system — the claim that being held and being oneself are one architecture, not rivals."
+   },
+   "metadata": {
+    "when": "1958–1978 (Bowlby's trilogy; Ainsworth's Strange Situation)",
+    "era": "1969",
+    "branch": "stream-clinical",
+    "source_deck": "attachment-theory",
+    "source_item_id": "internal-working-models",
+    "deck": "Bowlby and Ainsworth — Attachment Theory"
+   }
+  },
+  {
+   "id": "moment-erickson-state-first",
+   "name": "Erickson — State Before Insight",
+   "category": "moment",
+   "sort_order": 9,
+   "keywords": ["erickson", "state-first", "utilization", "suggestion"],
+   "sections": {
+    "Definition": "Erickson's clinical wager, inherited by a whole unequal lineage: arranged experience reorganizes people before explanation does, and whatever the person brings — resistance included — is material for the work.",
+    "What the House takes": "The newest tributary, taken with its boundary attached: the state-first lever is real and reads cleanly as prediction re-weighting on the substrate stream, but The Fit guards its intake — suggestion aimed at a gauge that is accurately tracking a drained budget is not therapy. What the House refuses from this stream is exactly what its coaching terminus sells: the lever without the population question."
+   },
+   "metadata": {
+    "when": "1930s–1980 (clinical papers and case work)",
+    "era": "1950",
+    "branch": "stream-clinical",
+    "source_deck": "ericksonian-hypnosis",
+    "source_item_id": "state-before-insight",
+    "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
+   }
+  },
+  {
+   "id": "moment-tillich-courage",
+   "name": "Tillich — the Courage to Be as a Part and as Oneself",
+   "category": "moment",
+   "sort_order": 10,
+   "keywords": ["tillich", "courage", "participation", "individuation"],
+   "sections": {
+    "Definition": "Tillich's pairing in The Courage to Be: the courage to be as a part (participation) and the courage to be as oneself (individuation), with the loss of either collapsing a person into conformism or isolation.",
+    "What the House takes": "The Two Truths card's spine. The House restates it as system physics — a crystal with only relation, a gas with only agency, life in the narrow band where both hold — and keeps Tillich's insistence that the tension is not to be resolved. No school holds Tillich yet; this moment is a candidate seed for one (existential theology of feeling, which could also house Parker Palmer's lineage as items, the way the Ericksonian school houses its heirs)."
+   },
+   "metadata": {
+    "when": "1952 (The Courage to Be)",
+    "era": "1952",
+    "branch": "stream-critical"
+   }
+  },
+  {
+   "id": "moment-andreotti-hospicing",
+   "name": "Andreotti — Hospicing Modernity",
+   "category": "moment",
+   "sort_order": 11,
+   "keywords": ["andreotti", "modernity", "denials", "growth-critique"],
+   "sections": {
+    "Definition": "Andreotti's diagnosis: modernity is a story of linear progress and compulsory expansion that survives by dressing its values in the authority of nature, held in place by denials — of planetary limits, of systemic violence subsidizing comfort — that must be faced rather than bypassed.",
+    "What the House takes": "The critical solvent. Growth-as-law, wherever the House meets it (the six-needs hierarchy included), gets read as a culturally specific value in nature's costume; The Fit's population question is this stream applied clinically. The House also takes the caution against its own overreach: a library of constructed maps must not become a finished catalogue of them."
+   },
+   "metadata": {
+    "when": "2021 (Hospicing Modernity)",
+    "era": "2021",
+    "branch": "stream-critical"
+   }
+  },
+  {
+   "id": "moment-freedom-test-pour",
+   "name": "The Pour: the Freedom Test",
+   "category": "moment",
+   "sort_order": 12,
+   "keywords": ["freedom-test", "ethics-of-fiction", "downstream"],
+   "sections": {
+    "Definition": "The House's first outflow: one instrument for judging any act, story, or system — does it increase or decrease the freedom of the one who receives it?",
+    "What the House takes": "Nothing — this is what the House gives. The test is the tributaries condensed: Barrett's authorship, līlā's play, Rosenberg's refusal of moral arithmetic, Tillich's two courages, Andreotti's alarm at closed futures — run through one question small enough to carry."
+   },
+   "metadata": {
+    "when": "this library (Ethics of Fiction)",
+    "era": "2026",
+    "branch": "group-the-pours",
+    "source_deck": "ethics-of-fiction",
+    "source_item_id": "the-freedom-test",
+    "deck": "The Ethics of Fiction — A Grammar for Judging Stories"
+   }
+  },
+  {
+   "id": "moment-overflow-criterion-pour",
+   "name": "The Pour: the Overflow Criterion",
+   "category": "moment",
+   "sort_order": 13,
+   "keywords": ["overflow", "needs-wants", "fruits", "downstream"],
+   "sections": {
+    "Definition": "The House's second outflow: needs and wants distinguished by their fruits — a need, satisfied, produces fullness that spills outward; a want, satisfied, sharpens the next acquisition. An energy criterion in place of a taxonomy war.",
+    "What the House takes": "Nothing — this is what the House gives. The criterion is the deck's central question (am I overflowing or extracting?) made portable enough to test any needs-list against, the six-needs hierarchy included."
+   },
+   "metadata": {
+    "when": "this library (Overflow)",
+    "era": "2026",
+    "branch": "group-the-pours",
+    "source_deck": "overflow",
+    "source_item_id": "the-overflow",
+    "deck": "Overflow — Structures, Process, Possibilities"
+   }
+  },
+  {
+   "id": "moment-the-fit-pour",
+   "name": "The Pour: the Fit",
+   "category": "moment",
+   "sort_order": 14,
+   "keywords": ["fit", "population", "context", "downstream"],
+   "sections": {
+    "Definition": "The House's third outflow: maps are medicine, every medicine was tested on a population, and the first clinical fact about any framework is who it was made for. A method built for the full can free the full and bind the drained.",
+    "What the House takes": "Nothing — this is what the House gives, and the newest of the three. It is the critical stream turned into a bedside question, guarding the House's own intake as strictly as anyone else's."
+   },
+   "metadata": {
+    "when": "this library (Overflow, Guide card)",
+    "era": "2026",
+    "branch": "group-the-pours",
+    "source_deck": "overflow",
+    "source_item_id": "the-fit",
+    "deck": "Overflow — Structures, Process, Possibilities"
+   }
+  },
+  {
+   "id": "stream-substrate",
+   "name": "The Substrate Stream",
+   "category": "lineage",
+   "level": 2,
+   "sort_order": 15,
+   "composite_of": ["moment-barrett-constructed-emotion"],
+   "keywords": ["substrate", "barrett", "constructionism"],
+   "sections": {
+    "Definition": "The water everything else flows in: constructed emotion, allostasis, prediction. One tributary, but it is the riverbed — every other stream reaches the House already read through it."
+   }
+  },
+  {
+   "id": "stream-contemplative",
+   "name": "The Contemplative Stream",
+   "category": "lineage",
+   "level": 2,
+   "sort_order": 16,
+   "composite_of": ["moment-lila-pratyabhijna", "moment-shanta-rasa", "moment-brunton-own-context"],
+   "keywords": ["contemplative", "lila", "recognition", "individuation"],
+   "sections": {
+    "Definition": "Why there is play at all, and what finding feels like: līlā and recognition from Kashmir, śānta's stillness from Abhinavagupta's aesthetics, and Brunton's insistence that understanding is earned one context at a time."
+   }
+  },
+  {
+   "id": "stream-clinical",
+   "name": "The Clinical Stream",
+   "category": "lineage",
+   "level": 2,
+   "sort_order": 17,
+   "composite_of": ["moment-nvc-needs-vocabulary", "moment-dbt-dialectic", "moment-ifs-self", "moment-attachment-working-models", "moment-erickson-state-first"],
+   "keywords": ["clinical", "nvc", "dbt", "ifs", "attachment", "erickson"],
+   "sections": {
+    "Definition": "The practices the House composts into cards: needs-language, the acceptance-and-change dialectic, Self-energy, working models, and — newest — the state-first lever, taken with its population boundary attached."
+   }
+  },
+  {
+   "id": "stream-critical",
+   "name": "The Critical Stream",
+   "category": "lineage",
+   "level": 2,
+   "sort_order": 18,
+   "composite_of": ["moment-tillich-courage", "moment-andreotti-hospicing"],
+   "keywords": ["critical", "tillich", "andreotti", "modernity"],
+   "sections": {
+    "Definition": "The solvent that keeps the House from believing its own plumbing: Tillich's two courages held in tension, and Andreotti's exposure of values wearing nature's costume — aimed at every framework the House meets, including its own."
+   }
+  },
+  {
+   "id": "group-the-pours",
+   "name": "The Pours — Where the House Gives Back",
+   "category": "lineage",
+   "level": 2,
+   "sort_order": 19,
+   "composite_of": ["moment-freedom-test-pour", "moment-overflow-criterion-pour", "moment-the-fit-pour"],
+   "keywords": ["downstream", "freedom-test", "overflow-criterion", "fit"],
+   "sections": {
+    "Definition": "A genealogy centered on a living school owes an account of its outflow, not only its intake. Three instruments pour back out: the Freedom Test, the overflow criterion for needs and wants, and the Fit. Each is offered as a made meaning, held visibly as made."
+   }
+  },
+  {
+   "id": "genealogy-of-the-house-root",
+   "name": "A Genealogy of the House",
+   "category": "root",
+   "level": 3,
+   "sort_order": 20,
+   "composite_of": ["stream-substrate", "stream-contemplative", "stream-clinical", "stream-critical", "group-the-pours"],
+   "keywords": ["genealogy", "house-school", "tributaries", "pours", "watershed"],
+   "sections": {
+    "Definition": "Four streams in, three instruments out, one house between them. The substrate stream is the riverbed; the contemplative stream says why there is play; the clinical stream supplies the practices the cards compost; the critical stream keeps the whole from hardening into doctrine. What pours back out — the Freedom Test, the overflow criterion, the Fit — is the House's account of itself as a place water moves through, not a reservoir.",
+    "Why the center is allowed": "Every other genealogy in this library refuses a center on principle. This one takes a center openly, and that is the honesty rather than the breach: it is drawn in the first person, from inside the one school that is worked rather than curated, and it claims only to map this house's watershed — not to rank the rivers, and not to suggest they were flowing here on purpose. A tributary's own account of itself always outranks this map; the pill on each moment points to where that account lives."
+   },
+   "metadata": {
+    "evidence_tier": "theoretical",
+    "evidence_note": "A first-person influence map carries no transferable third-person evidence at all, and none is claimed: which streams actually shaped this school is attested only by its maker's own record and practice. The tier is 'theoretical' for the same reason the House School's own is — the tiers measure what transfers, and a watershed map transfers nothing but its example. The factual claims inside individual moments (dates, doctrines, what a tradition holds) are ordinary historical claims, checkable against each tradition's own grammar and sources."
+   }
+  }
+ ]
+}

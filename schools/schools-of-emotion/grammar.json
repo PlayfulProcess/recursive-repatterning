@@ -116,6 +116,31 @@
       }
     },
     {
+      "id": "link-genealogy-of-the-house",
+      "name": "A Genealogy of the House",
+      "category": "school-link",
+      "level": 1,
+      "sort_order": 203,
+      "sections": {
+        "What it is": "Where the House School's water comes from, and where it pours. Every other genealogy in this library is curatorial — lineages followed on their own terms, no center privileged. This one is deliberately not: it stands in the House School's first-person register and maps the tributaries that feed Overflow and the Ethics of Fiction — the substrate stream, the contemplative stream, the clinical stream, the critical stream — and the three places the House pours back out. Read it as a watershed map drawn from inside the house, not as a claim that the house is where these rivers were headed. Each tributary school still speaks for itself in its own grammar; what is recorded here is only what the House took, and from whom.",
+        "Evidence": "Held at evidence tier 'theoretical'. A first-person influence map carries no transferable third-person evidence at all, and none is claimed: which streams actually shaped this school is attested only by its maker's own record and practice. The tier is 'theoretical' for the same reason the House School's own is — the tiers measure what transfers, and a watershed map transfers nothing but its example. The factual claims inside individual moments (dates, doctrines, what a tradition holds) are ordinary historical claims, checkable against each tradition's own grammar and sources."
+      },
+      "keywords": [
+        "genealogy",
+        "house-school",
+        "overflow",
+        "ethics-of-fiction",
+        "tributaries",
+        "barrett"
+      ],
+      "metadata": {
+        "source_deck": "genealogy-of-the-house",
+        "source_item_id": "genealogy-of-the-house-root",
+        "deck": "A Genealogy of the House",
+        "branch_id": "the-house-school"
+      }
+    },
+    {
       "id": "branch-the-house-school",
       "name": "The House School",
       "category": "branch",
@@ -123,7 +148,8 @@
       "sort_order": 2,
       "composite_of": [
         "link-overflow",
-        "link-ethics-of-fiction"
+        "link-ethics-of-fiction",
+        "link-genealogy-of-the-house"
       ],
       "sections": {
         "What this branch is": "The library's own synthesis — Overflow (structure, process, possibility, and the recursion between them) and the Ethics of Fiction (judging stories by their fruits, in their casting). First-person where every other branch is curatorial. Its evidence tier is 'theoretical' because tiers measure transferable third-person evidence, and it claims none — but it carries a different warrant the tiers cannot see: lived experience in its own context, which is what individuation means. A made meaning, held visibly as made, and worked daily by its maker."
@@ -960,7 +986,7 @@
         "branch-historical-scientific"
       ],
       "sections": {
-        "What this is": "The constellation as it currently stands: 28 schools in 13 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
+        "What this is": "The constellation as it currently stands: 29 schools in 13 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
       },
       "keywords": [
         "schools of emotion",
