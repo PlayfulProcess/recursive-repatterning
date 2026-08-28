@@ -51,7 +51,7 @@ OUT = os.path.join(SCHOOLS, OUT_SLUG, "grammar.json")
 # castable on its own through the deck picker; only the cross-school pool skips it.
 # overflow, by contrast, IS a drawable deck and joins the pool.
 NEVER_AGGREGATE = {OUT_SLUG, "schools-of-emotion", "genealogy-of-emotions",
-                   "ethics-of-fiction"}
+                   "ethics-of-fiction", "genealogy-of-the-house"}
 
 
 def load(path):

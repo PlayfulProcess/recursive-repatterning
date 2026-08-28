@@ -203,6 +203,40 @@ brake. The original draft is kept below as the record of the half that came firs
 
 ---
 
+## 4b. The edge shelf — concepts dear but unhoused
+
+Named here so they stop being implicit; each with its likeliest future home. The
+deck's center stays still until a pattern has earned a card.
+
+- **The Reading** — interpretation as rudder, not hand-brake: it continues or
+  maintains a lean as readily as it catches one. Reworked from the retired
+  fight-framed draft below. Home: a 22nd card if the 3×7 is ever re-spoken, or a
+  section pattern across the Process suit.
+- **Collective Wise Mind** — Linehan's overlap scaled past one skull: a
+  community's affect re-wired through chosen concepts toward collective
+  overflow, in which contributing to one's own people is felt as fullness.
+  Home: a course, or a Possibility-side companion once lived longer.
+- **Culture's Needs vs. Life's Needs** — the spark of this whole inquiry: every
+  needs-list encodes a culture's ordering; the overflow criterion plus the
+  critical stream is the instrument for telling orderings apart. Home: an
+  Ethics of Fiction item — judging a culture's needs-story by its fruits is
+  that grammar's jurisdiction.
+- **The Clinically Fruitful Fiction** — false as anatomy, true as medicine
+  (Erickson's resourceful unconscious is the type specimen); adopt for effects,
+  hold visibly as made, drop it when it bills itself as discovery. Home: an
+  Ethics of Fiction item beside the Best Prior's wager.
+- **Guilt → Responsibility** — already carried by The Error and The Heap;
+  named so the thread is visible. Home: already housed; perhaps a spread.
+
+The genealogy question got its build: `schools/genealogy-of-the-house` — a
+first-person watershed map, four streams in (substrate, contemplative, clinical,
+critical), three pours out (the Freedom Test, the overflow criterion, the Fit),
+with the center taken openly and defended in the root's "Why the center is
+allowed" section. Tributaries without a school (līlā/pratyabhijñā, Brunton,
+Tillich, Andreotti) are pill-less moments — each a candidate future school; a
+Tillich school could carry Parker Palmer's lineage as items the way the
+Ericksonian school carries its heirs.
+
 ## 5. Structural notes (answers the maintainer asked for)
 
 - **Upstream and downstream between grammars (the Wikipedia question).** The
