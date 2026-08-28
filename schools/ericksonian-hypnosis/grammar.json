@@ -1,0 +1,217 @@
+{
+  "name": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
+  "description": "Milton Erickson (1901–1980) rebuilt clinical hypnosis around a simple reversal: trance is not a strange condition imposed by an authority, it is an everyday state — absorption in a story, a drive, a memory — that a skilled conversation can deepen and put to work. Where the older stage tradition commanded (\"you are getting sleepy\"), Erickson suggested indirectly, through stories, metaphor, ambiguity, and permissive language, and he treated whatever the patient brought — including their resistance — as material to use rather than an obstacle to overcome. He called that principle utilization, and it is the closest thing this school has to a creed.\n\nThis grammar holds the method in Erickson's own terms, and then holds the lineage — because Erickson's influence runs far beyond hypnotherapy proper. Strategic family therapy, solution-focused brief therapy, neuro-linguistic programming, and the mass-audience human-needs coaching built on NLP are all, in different ways, Erickson's descendants, and they did not inherit equal shares of his clinical care or of the evidence. This school says which is which.",
+  "grammar_type": "custom",
+  "image_credit": "Deliberately left without a cover or item images. Ericksonian hypnotherapy is a twentieth-century clinical tradition with no period art of its own; its published case material and training illustrations remain in copyright, and generic stock imagery of hypnosis (swinging watches, spirals) would depict precisely the stage tradition Erickson rejected. Leaving the school unillustrated is judged better than illustrating it with its own opposite.",
+  "tags": ["ericksonian", "hypnosis", "hypnotherapy", "utilization", "indirect-suggestion", "strategic-intervention", "trance"],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "roots": ["western-philosophy"],
+  "shelves": ["mirror", "wisdom"],
+  "lineages": ["Erickson"],
+  "worldview": "systemic-pluralism",
+  "metadata": {
+    "status": "draft"
+  },
+  "_note": "Erickson died in 1980, so per this library's naming rule the school may carry his name. The lineage items (strategic family therapy, solution-focused brief therapy, NLP, human-needs coaching) are deliberately pointer-depth only: per the one-source-per-grammar rule, each is a distinct tradition that would become its own grammar if built out, and this school describes only what each one inherited from Erickson — not the descendant tradition in full. The human-needs-coaching item names living teachers (\"after\"), paraphrases entirely, and quotes nothing. No item in this grammar carries metadata.emotion_key — these are methods and lineages, not affect categories, so none of them are emotion-level items in this library's sense. The library's own disagreements with this school (evidence boundaries, the growth-as-law critique, population fit) live in Research note sections and in docs/RESEARCH-affect-needs-overflow.md, never in the school's own voice.",
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Milton H. Erickson and the Ericksonian tradition",
+        "role": "source tradition",
+        "note": "Structural basis: Erickson's clinical approach to hypnosis — utilization, indirect suggestion, the naturalistic view of trance — as developed in his papers and case work and carried forward by the Milton H. Erickson Foundation and the traditions descended from him. Erickson's collected papers and the tradition's training materials remain in copyright; no text is quoted from them. Every definition here is original prose describing the general shape of the approach; no text is copied from copyrighted works."
+      },
+      {
+        "name": "Anthony Robbins, Cloe Madanes, and Robbins-Madanes Training (Strategic Intervention)",
+        "role": "source tradition (lineage item only)",
+        "note": "The human-needs-coaching item paraphrases the six-human-needs framework and the state-first premise of the coaching tradition built after Anthony Robbins with Cloe Madanes. Both are living teachers; their books, seminars, and training materials remain in copyright, and no text is copied or quoted from any copyrighted work. The item is titled by the tradition, per this library's naming rule."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, its composite items, and the library's editorial commentary (Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "utilization",
+      "name": "Utilization",
+      "category": "method",
+      "sort_order": 1,
+      "keywords": ["utilization", "resistance", "acceptance", "whatever-arrives"],
+      "sections": {
+        "Definition": "The organizing principle of the whole approach: whatever the patient brings is material, not obstacle. A rigid belief, a nervous habit, a refusal to close the eyes, outright skepticism about hypnosis — the Ericksonian move is never to argue any of it away but to fold it into the induction and the therapy itself. The patient who insists they cannot relax is invited to notice, with great precision, exactly how they hold their tension — and precise noticing is already absorption, which is already the beginning of trance.",
+        "Practice": "The transferable skill, hypnosis aside: when you meet resistance — in another person or in yourself — ask what it could be used for before asking how to remove it. Resistance marks the exact place where the person's own energy is already concentrated; work that recruits it moves with the current instead of against it.",
+        "Research note": "Utilization as a named principle is Erickson's, but the stance has close cousins across traditions this library holds separately: DBT's radical acceptance and IFS's befriending of protectors both begin from the same refusal to treat what arrives as the enemy. The resemblance is a family likeness, not a demonstrated equivalence."
+      },
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "radical-acceptance",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "the-everyday-trance",
+      "name": "The Everyday Trance",
+      "category": "method",
+      "sort_order": 2,
+      "keywords": ["trance", "naturalistic", "absorption", "common-everyday-trance"],
+      "sections": {
+        "Definition": "Erickson's naturalistic claim: trance is not an exotic condition produced by a hypnotist but a common state everyone enters many times a day — highway driving where the miles vanish, absorption in a book, the moment a memory replaces the room. Formal hypnosis, on this view, does not create a special state so much as notice, deepen, and direct a capacity for focused absorption that was already there.",
+        "Practice": "The observational version needs no induction at all: notice, over one ordinary day, how many times attention narrows and the surroundings fall away — and notice what kinds of suggestion (a song, an advertisement, a worry) walk in easily during exactly those windows. Knowing when you are suggestible is the lay version of this school's whole craft.",
+        "Research note": "Whether hypnosis is a distinct altered state or a heightened form of ordinary absorption and expectancy remains a genuinely open dispute in the research literature (the \"state vs. non-state\" debate). Erickson's everyday-trance framing sits closer to the non-state side than his mystique suggests: it needs only ordinary attention and response to suggestion, not a special neurological condition."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "indirect-suggestion",
+      "name": "Indirect Suggestion",
+      "category": "method",
+      "sort_order": 3,
+      "keywords": ["indirect", "permissive", "metaphor", "story", "ambiguity"],
+      "sections": {
+        "Definition": "The stylistic signature: where the older authoritarian tradition commanded, Erickson offered. Permissive phrasings (\"you might begin to notice...\"), truisms that gather assent, stories about other patients whose situations happened to rhyme with this one, ambiguity deliberately left open so the listener completes the meaning with their own material. The suggestion works, when it works, because the patient builds it — it arrives as their own thought, not as an order to obey or defy.",
+        "Practice": "Outside the clinic this is simply how change-talk lands: advice framed as command invites the counter-move; the same content framed as story, question, or possibility leaves the other person's authorship intact. The craft — and the ethical edge — is that indirect suggestion works partly because it is hard to refuse what was never openly asserted.",
+        "Research note": "The ethical edge is real and this library will not blur it: a method that bypasses deliberate scrutiny can serve therapy or manipulation with the same mechanics. The tradition's own answer is consent and the patient's benefit; the Overflow deck's answer is a test the tradition does not supply — whether the suggestion, once landed, increases or decreases the freedom of the one who received it."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "the-unconscious-as-resource",
+      "name": "The Unconscious as Resource",
+      "category": "method",
+      "sort_order": 4,
+      "keywords": ["unconscious", "resource", "learnings", "trust"],
+      "sections": {
+        "Definition": "Erickson's most distinctive ontological commitment, and his warmest: the unconscious is not Freud's cellar of dangerous drives but a storehouse of learnings — everything the person has ever absorbed about balance, language, healing, and survival, available to solve problems the conscious mind argues itself out of. Trance, in this school, is the doorway to that storehouse: the analytical mind is occupied or relaxed so the accumulated competence underneath can work.",
+        "Practice": "The usable core, no metaphysics required: deliberate effort is not the only mode of solving. Problems yield overnight, in the shower, on a walk — when the explicit trying stops. This school's practice is to arrange that handover on purpose: state the problem clearly, then genuinely stop working it, and let what you already know finish the job.",
+        "Research note": "Treated as a map rather than a discovery, this item is honest; treated as anatomy, it overreaches. Current predictive-processing accounts describe one brain continuously constructing experience from prediction — not two minds, one hiding resources from the other. But a map being constructed is not the same as a map being wrong: \"trust your unconscious\" may function clinically as a well-aimed reframe — it reassigns competence to the patient, lowers effortful over-control, and licenses change without demanding insight first. This library holds it exactly there: a clinically fruitful fiction, held visibly as one."
+      },
+      "metadata": {
+        "source_deck": "constructed-emotion",
+        "source_item_id": "prediction",
+        "deck": "Constructed Emotion — the Substrate"
+      }
+    },
+    {
+      "id": "state-before-insight",
+      "name": "State Before Insight",
+      "category": "method",
+      "sort_order": 5,
+      "keywords": ["state", "insight", "experience-first", "change"],
+      "sections": {
+        "Definition": "The premise the whole lineage inherited: change is not primarily produced by understanding. Erickson had little interest in interpretation or archaeology of childhood; he engineered experiences — in trance, in strange homework assignments, in ordeals — from which the patient's system reorganized itself, often without the patient ever being able to say quite why. The state comes first; the story about it, if it comes at all, comes after.",
+        "Practice": "The lay form is modest and portable: when stuck, change the state before re-arguing the problem — move the body, change the room, sleep, induce absorption in anything. Then look again. Not because insight is worthless, but because insight generated inside the stuck state tends to be the stuck state, restated.",
+        "Research note": "The strong version of this premise — that only altered-state work produces lasting change — is contradicted by behavioral activation, one of the best-evidenced treatments for depression, which changes affect through scheduled ordinary action with no trance anywhere. What survives is the weak version: action and state routinely precede insight, and waiting for insight before acting is itself a common way of staying stuck. The weak version is well supported; the strong version is this lineage's characteristic overreach."
+      },
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-prediction",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
+    },
+    {
+      "id": "strategic-family-therapy",
+      "name": "Strategic Family Therapy",
+      "category": "lineage",
+      "sort_order": 6,
+      "keywords": ["strategic", "family-therapy", "haley", "madanes", "directives"],
+      "sections": {
+        "Definition": "The first major clinical descendant. Jay Haley, who spent years studying Erickson and wrote the book that made his methods legible (Uncommon Therapy, 1973), carried the strategic stance — the therapist actively designs interventions for this family's specific stuckness, rather than offering insight and waiting — into family therapy, developing it with Cloe Madanes at their Family Therapy Institute. Directives, paradoxical prescriptions, and ordeals all descend from Erickson's homework assignments: the family is given something to do, and the doing rearranges the system.",
+        "Where it shows up": "This branch matters to this library twice over: once as Erickson's most clinically serious descendant, and once because Madanes later co-founded the coaching school held in this grammar's human-needs-coaching item — which is how a mass-audience seminar tradition comes to sit, two steps removed, on genuine family-therapy lineage.",
+        "Research note": "Strategic family therapy contributed methods that dissolved into the broader family-therapy field more than it survived as a freestanding brand; elements of it persist inside well-evidenced integrative models of family intervention. Its specific paradoxical techniques were always controversial and were never independently validated as a distinct mechanism."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "solution-focused-brief-therapy",
+      "name": "Solution-Focused Brief Therapy",
+      "category": "lineage",
+      "sort_order": 7,
+      "keywords": ["solution-focused", "sfbt", "brief-therapy", "miracle-question", "exceptions"],
+      "sections": {
+        "Definition": "The descendant that kept Erickson's optimism and dropped his trance. Steve de Shazer and Insoo Kim Berg, working from the brief-therapy tradition Erickson helped inspire, built a method around a radical narrowing: do not analyze the problem at all — study the exceptions, the times the problem somehow failed to happen, and amplify what the client was already doing then. The famous \"miracle question\" (suppose the problem vanished overnight — what would you notice first?) is pure utilization aimed at the future: the client's own imagination supplies the treatment plan.",
+        "Where it shows up": "Erickson's fingerprint here is the presupposition of competence — the client is treated as already possessing what they need, exactly as the unconscious-as-resource item holds — delivered without hypnosis of any kind, which is why this branch is evidence of how separable Erickson's stance is from his trance.",
+        "Research note": "SFBT is the best-evidenced member of this lineage: meta-analyses across several hundred studies support small-to-moderate effects for a range of presenting problems, comparable to other established brief therapies. It is the branch that shows the lineage can survive contact with outcome research."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "nlp",
+      "name": "Neuro-Linguistic Programming",
+      "category": "lineage",
+      "sort_order": 8,
+      "keywords": ["nlp", "bandler", "grinder", "modeling", "milton-model"],
+      "sections": {
+        "Definition": "In the mid-1970s Richard Bandler and John Grinder set out to \"model\" what master therapists actually did — Erickson above all, alongside Virginia Satir and Fritz Perls — and to extract it as a teachable pattern language. From Erickson they codified the \"Milton model\": the deliberately vague, permissive, presupposition-loaded language of conversational induction. NLP's founding wager was that the patterns could be lifted out of the clinical relationship and taught as general-purpose technique — for therapy, sales, persuasion, self-change.",
+        "Where it shows up": "NLP is the bridge by which Erickson's methods left the clinic and entered the seminar hall, the sales floor, and the self-help shelf. Nearly everything in mass-audience \"state change\" culture — anchoring, reframing, swish patterns, the physiology-first induction — passes through this codification on its way from Erickson to the stage.",
+        "Research note": "This is where the lineage's evidence breaks. NLP's specific theoretical claims (eye-accessing cues, representational-system matching) have repeatedly failed controlled tests, and systematic reviews find no reliable support for NLP as a treatment; it is a textbook case of a plausible-sounding codification outrunning its evidence. The paradox this library flags rather than resolves: the tradition NLP copied from (Ericksonian hypnotherapy) retains a real, if modest, clinical evidence base, while the copy itself does not — the packaging traveled further than the warrant."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "human-needs-coaching",
+      "name": "Human-Needs Coaching — after Anthony Robbins and Cloe Madanes",
+      "category": "lineage",
+      "sort_order": 9,
+      "keywords": ["six-human-needs", "strategic-intervention", "coaching", "state", "certainty", "significance", "contribution"],
+      "sections": {
+        "Definition": "The mass-audience terminus of the lineage. The coaching tradition built after Anthony Robbins — who skipped college to promote Jim Rohn's motivational seminars at seventeen, studied NLP under co-founder John Grinder in the early 1980s, learned firewalking from Tolly Burkan in 1983, and scaled the state-first premise to stadium size — proposes that all human behavior is an attempt to meet six needs: certainty, variety, significance, and love or connection (the four \"needs of the personality,\" which any strategy, constructive or destructive, can satisfy), and growth and contribution (the two \"needs of the spirit,\" which the framework holds are the only ones whose satisfaction fulfills rather than merely relieves). Practically, the method is Ericksonian induction at scale: peak-state rituals — loud music, mass movement, the firewalk as convincer — create the receptive state first, and belief-work is done inside it. With Madanes, the approach was codified as \"Strategic Intervention\" and is taught through a coach-certification school.",
+        "Where it shows up": "The six-needs list is this lineage's answer to the question the needs-based branch of this library asks in NVC's voice: what are feelings and behavior pointing at? The two lists are strikingly compatible — certainty maps toward safety and peace, significance toward mattering, connection toward connection — and strikingly different in posture: NVC offers its needs vocabulary as a mirror for self-connection, while this framework deploys its list diagnostically, to explain and redirect other people's behavior.",
+        "Research note": "Three boundaries, stated plainly in the library's own voice. Evidence: the six-needs framework and Strategic Intervention coaching have no independent outcome-trial base; the certification is a coaching credential (CCE-approved, not a clinical license), and whatever evidential warrant the practices carry is inherited from their better-tested clinical ancestors, not earned in trials of their own. Growth-as-law: the framework's claim that continuous growth is a law of life — \"grow or die\" — states a culturally specific value in nature's voice; living systems also mature, rest, hold steady, and senesce, and a claim that makes rest read as dying functions, as decolonial critics of modernity argue, to make expansion feel compulsory. Population fit: the method presupposes a client with slack — someone whose material conditions allow \"state is a choice\" to be approximately true. Aimed at a person whose affect is accurately tracking precarity, the same method misreads a structural signal as a personal state-management failure, and teaches them to override the one honest gauge they have. This library's position, argued in docs/RESEARCH-affect-needs-overflow.md: the six needs are a usable map, the state-first craft is real and inherited, and both must be prescribed like medicine — for the population they actually fit."
+      },
+      "metadata": {
+        "source_deck": "nvc-needs",
+        "source_item_id": "nvc-needs-root",
+        "deck": "Nonviolent Communication — Feelings and Needs"
+      }
+    },
+    {
+      "id": "group-the-method",
+      "name": "The Method — Utilization, Trance, and Suggestion",
+      "category": "group",
+      "level": 2,
+      "sort_order": 10,
+      "composite_of": ["utilization", "the-everyday-trance", "indirect-suggestion", "the-unconscious-as-resource", "state-before-insight"],
+      "keywords": ["method", "utilization", "trance", "suggestion"],
+      "sections": {
+        "Definition": "The five commitments that make an approach Ericksonian: whatever arrives is material (utilization); trance is an everyday capacity, not an imposed condition; suggestion works best when the listener builds it (indirectness); the person already carries more competence than their deliberating mind can reach (the unconscious as resource); and experience reorganizes people before explanation does (state before insight)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "group-the-lineage",
+      "name": "The Lineage — Where Erickson's Methods Went",
+      "category": "group",
+      "level": 2,
+      "sort_order": 11,
+      "composite_of": ["strategic-family-therapy", "solution-focused-brief-therapy", "nlp", "human-needs-coaching"],
+      "keywords": ["lineage", "descendants", "strategic", "coaching"],
+      "sections": {
+        "Definition": "Four descendants, unequal heirs. Strategic family therapy carried the active, designing stance into the clinic; solution-focused brief therapy kept the presupposition of competence and earned the lineage's best evidence; NLP codified the language patterns and lost the evidence; human-needs coaching scaled the state-first premise to stadium size and added a needs taxonomy of its own. Reading them side by side is a lesson this library cares about: methods and warrant travel separately, and the loudest branch is not the best-evidenced one."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "ericksonian-root",
+      "name": "Ericksonian Hypnotherapy — the Conversational Trance",
+      "category": "root",
+      "level": 3,
+      "sort_order": 12,
+      "composite_of": ["group-the-method", "group-the-lineage"],
+      "keywords": ["ericksonian", "hypnotherapy", "utilization", "trance", "lineage"],
+      "sections": {
+        "Definition": "Milton Erickson's clinical tradition holds that trance is an everyday capacity for absorption; that a skilled conversation can deepen and direct it without commands; that whatever a person brings — including resistance — is material for the work; and that people change through arranged experience more reliably than through explanation. Its descendants carried those commitments into family therapy, brief therapy, NLP, and mass-audience coaching, with sharply unequal fidelity and sharply unequal evidence.",
+        "Research note": "The evidence, plainly. Hypnotherapy in general has credible support in specific domains — strongest for pain and irritable bowel syndrome, moderate for smoking cessation. For the Ericksonian style specifically, a 2025 systematic review and meta-analysis of eight randomized trials (2015–2025) found large effects against inactive controls and outcomes comparable to CBT and motivational interviewing across pain, depression, grief, IBS, disordered eating, and alcohol use — a real signal, resting on a small trial base. That warrant belongs to the clinical hypnotherapy alone: it does not transfer to NLP (which has repeatedly failed controlled tests) or to the coaching tradition (which has no independent trial base), both of which descend from Erickson's methods without inheriting his evidence.",
+        "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim this school makes.* Erickson worked two decades before predictive-processing accounts of the brain, and it is striking how little translation his craft needs. If experience is constructed from prediction, then suggestion is precision-weighting: an offered prior, framed so the system adopts it as its own, around which perception and affect reorganize. Utilization is the same insight aimed at input — the patient's existing predictions are not obstacles but the only material there is. Two honest limits on the compatibility: translation into predictive-processing vocabulary is cheap, and almost any therapy survives it, so the fit is suggestive rather than evidential; and the constructionist substrate has no room for Erickson's two-minds ontology — one predicting brain, not a wise unconscious behind a curtain. What the substrate adds that this school lacks is a warning of its own: affect reads the body's actual budget, and some budgets are drained by circumstance rather than by unhelpful predictions. Suggestion aimed at re-weighting a prior that was accurately tracking a drained budget is not therapy — it is a gauge being talked out of its reading."
+      },
+      "metadata": {
+        "evidence_tier": "growing",
+        "evidence_note": "Clinical hypnotherapy carries genuine but domain-specific support (best for pain and IBS; moderate for smoking cessation), and Ericksonian hypnotherapy specifically has a 2025 meta-analysis of eight RCTs showing large effects versus inactive controls and parity with active treatments — a real but small trial base, hence 'growing' rather than 'independently-replicated'. The tier applies to the clinical hypnotherapy only. Two descendants held inside this grammar sit below it: NLP's distinctive claims have repeatedly failed controlled tests, and the human-needs coaching tradition has no independent outcome research — 'theoretical' by this library's tiers — so this school's evidence note is itself an example of the library's founding point: an undifferentiated badge over this lineage would be a false statement."
+      }
+    }
+  ]
+}

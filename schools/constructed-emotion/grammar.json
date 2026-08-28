@@ -119,7 +119,11 @@
         "Not a category, an ingredient": "This item carries no emotion_key: prediction is how an instance is assembled, not a named emotion in its own right.",
         "Research note": "The prediction framing is set out in Barrett, \"The theory of constructed emotion: an active inference account of interoception and categorization\" (Social Cognitive and Affective Neuroscience 12(1), 2017, 1–23), which casts emotion as active inference and places interoception at the core of the brain's internal model, arising from allostasis. The neuroanatomical proposal it builds on is Barrett and Simmons, \"Interoceptive predictions in the brain\" (Nature Reviews Neuroscience 16, 2015, 419–429), whose Embodied Predictive Interoception Coding model argues that interoceptive experience largely reflects limbic predictions about the expected state of the body, constrained by ascending visceral sensation. Both sit inside the wider predictive-processing programme, which remains an active area of empirical work rather than settled consensus — the caveat this grammar's interoception item already states."
       },
-      "metadata": {}
+      "metadata": {
+        "source_deck": "ericksonian-hypnosis",
+        "source_item_id": "the-unconscious-as-resource",
+        "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
+      }
     },
     {
       "id": "affective-realism",

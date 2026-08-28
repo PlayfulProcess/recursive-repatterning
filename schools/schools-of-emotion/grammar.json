@@ -116,6 +116,31 @@
       }
     },
     {
+      "id": "link-genealogy-of-the-house",
+      "name": "A Genealogy of the House",
+      "category": "school-link",
+      "level": 1,
+      "sort_order": 203,
+      "sections": {
+        "What it is": "Where the House School's water comes from, and where it pours. Every other genealogy in this library is curatorial — lineages followed on their own terms, no center privileged. This one is deliberately not: it stands in the House School's first-person register and maps the tributaries that feed Overflow and the Ethics of Fiction — the substrate stream, the contemplative stream, the clinical stream, the critical stream — and the three places the House pours back out. Read it as a watershed map drawn from inside the house, not as a claim that the house is where these rivers were headed. Each tributary school still speaks for itself in its own grammar; what is recorded here is only what the House took, and from whom.",
+        "Evidence": "Held at evidence tier 'theoretical'. A first-person influence map carries no transferable third-person evidence at all, and none is claimed: which streams actually shaped this school is attested only by its maker's own record and practice. The tier is 'theoretical' for the same reason the House School's own is — the tiers measure what transfers, and a watershed map transfers nothing but its example. The factual claims inside individual moments (dates, doctrines, what a tradition holds) are ordinary historical claims, checkable against each tradition's own grammar and sources."
+      },
+      "keywords": [
+        "genealogy",
+        "house-school",
+        "overflow",
+        "ethics-of-fiction",
+        "tributaries",
+        "barrett"
+      ],
+      "metadata": {
+        "source_deck": "genealogy-of-the-house",
+        "source_item_id": "genealogy-of-the-house-root",
+        "deck": "A Genealogy of the House",
+        "branch_id": "the-house-school"
+      }
+    },
+    {
       "id": "branch-the-house-school",
       "name": "The House School",
       "category": "branch",
@@ -123,7 +148,8 @@
       "sort_order": 2,
       "composite_of": [
         "link-overflow",
-        "link-ethics-of-fiction"
+        "link-ethics-of-fiction",
+        "link-genealogy-of-the-house"
       ],
       "sections": {
         "What this branch is": "The library's own synthesis — Overflow (structure, process, possibility, and the recursion between them) and the Ethics of Fiction (judging stories by their fruits, in their casting). First-person where every other branch is curatorial. Its evidence tier is 'theoretical' because tiers measure transferable third-person evidence, and it claims none — but it carries a different warrant the tiers cannot see: lived experience in its own context, which is what individuation means. A made meaning, held visibly as made, and worked daily by its maker."
@@ -451,11 +477,52 @@
       }
     },
     {
+      "id": "link-ericksonian-hypnosis",
+      "name": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
+      "category": "school-link",
+      "level": 1,
+      "sort_order": 901,
+      "sections": {
+        "What it is": "Milton Erickson (1901–1980) rebuilt clinical hypnosis around a simple reversal: trance is not a strange condition imposed by an authority, it is an everyday state — absorption in a story, a drive, a memory — that a skilled conversation can deepen and put to work. Where the older stage tradition commanded (\"you are getting sleepy\"), Erickson suggested indirectly, through stories, metaphor, ambiguity, and permissive language, and he treated whatever the patient brought — including their resistance — as material to use rather than an obstacle to overcome. He called that principle utilization, and it is the closest thing this school has to a creed.\n\nThis grammar holds the method in Erickson's own terms, and then holds the lineage — because Erickson's influence runs far beyond hypnotherapy proper. Strategic family therapy, solution-focused brief therapy, neuro-linguistic programming, and the mass-audience human-needs coaching built on NLP are all, in different ways, Erickson's descendants, and they did not inherit equal shares of his clinical care or of the evidence. This school says which is which.",
+        "Evidence": "Held at evidence tier 'growing'. Clinical hypnotherapy carries genuine but domain-specific support (best for pain and IBS; moderate for smoking cessation), and Ericksonian hypnotherapy specifically has a 2025 meta-analysis of eight RCTs showing large effects versus inactive controls and parity with active treatments — a real but small trial base, hence 'growing' rather than 'independently-replicated'. The tier applies to the clinical hypnotherapy only. Two descendants held inside this grammar sit below it: NLP's distinctive claims have repeatedly failed controlled tests, and the human-needs coaching tradition has no independent outcome research — 'theoretical' by this library's tiers — so this school's evidence note is itself an example of the library's founding point: an undifferentiated badge over this lineage would be a false statement."
+      },
+      "keywords": [
+        "ericksonian",
+        "hypnosis",
+        "hypnotherapy",
+        "utilization",
+        "indirect-suggestion",
+        "strategic-intervention"
+      ],
+      "metadata": {
+        "source_deck": "ericksonian-hypnosis",
+        "source_item_id": "ericksonian-root",
+        "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
+        "branch_id": "trance-and-suggestion"
+      }
+    },
+    {
+      "id": "branch-trance-and-suggestion",
+      "name": "Trance & Suggestion",
+      "category": "branch",
+      "level": 2,
+      "sort_order": 9,
+      "composite_of": [
+        "link-ericksonian-hypnosis"
+      ],
+      "sections": {
+        "What this branch is": "Schools that change feeling by arranging experience rather than explaining it — trance, suggestion, and the state-first premise that insight follows change instead of causing it. Erickson's conversational hypnotherapy is the school here, held together with its unequal heirs: strategic family therapy, solution-focused brief therapy, NLP, and the mass-audience human-needs coaching built on all of it. The branch exists partly to say out loud that those descendants did not inherit equal evidence."
+      },
+      "metadata": {
+        "branch_id": "trance-and-suggestion"
+      }
+    },
+    {
       "id": "link-parts-work",
       "name": "Parts Work — after Internal Family Systems",
       "category": "school-link",
       "level": 1,
-      "sort_order": 901,
+      "sort_order": 1001,
       "sections": {
         "What it is": "Parts work treats what feels like a single, unified self as a working system of parts — inner voices, each formed for a reason, each carrying its own memory, role, and protective intention. No part is the enemy. A part that criticizes, that panics, that overworks, that shuts down — each one took on that job at some point because it seemed to work, and none of them are the whole of who you are. Underneath or alongside the parts, this tradition holds there is a steadier quality often called Self: not another part fighting for control, but a capacity for curiosity, calm, and compassion that can be with any part without needing to fix, silence, or become it. The central move this tradition teaches is captured in a phrase common across parts-work practice: get curious, not merged — when a part takes over completely (\"blending\"), the practice is to notice that, and find enough distance to ask what the part is protecting, rather than either obeying it or fighting it.\n\nThis school is adapted primarily from the architecture of Richard Schwartz's Internal Family Systems (IFS) model — parts, Self, protectors (managers and firefighters), and exiles — written here in original prose, not drawn from IFS's own copyrighted training materials, session protocols, or specific terminology set. \"Internal Family Systems\" and \"IFS\" are trademarks of the IFS Institute; nothing here should be read as an IFS-branded or IFS-certified resource. No part described here is a diagnosis — this is a way of naming an inner experience, not a clinical assessment of it.",
         "Evidence": "Held at evidence tier 'growing'. Internal Family Systems has a small but expanding base of peer-reviewed outcome research (for example, a controlled trial for rheumatoid arthritis-related distress, and further studies in trauma and other clinical contexts) and was previously included on SAMHSA's National Registry of Evidence-Based Programs and Practices. This is real but limited independent replication compared to longer-established, more heavily studied therapies — \"growing\" rather than \"independently-replicated\" is the honest tier here, and much of the model's specific claims still rest on clinical case material rather than controlled research."
@@ -480,7 +547,7 @@
       "name": "Jungian Archetypes — The Collective Unconscious",
       "category": "school-link",
       "level": 1,
-      "sort_order": 902,
+      "sort_order": 1002,
       "sections": {
         "What it is": "Carl Jung's theory of archetypes: recurring, cross-culturally patterned figures and dynamics that Jung held to structure the collective unconscious, a layer of the psyche he distinguished from both ordinary consciousness and an individual's own personal unconscious. An archetype, in Jung's account, is not a fixed image but a predisposition to organize experience around a pattern — the Shadow, the Anima and Animus, the Self — patterns Jung argued appear independently across unrelated mythologies, dreams, and religious systems because they are inherited structures of the psyche itself, not because one culture borrowed from another. This school covers a working selection of Jung's archetypes, several of the dynamics between them, and the individuation process Jung held those dynamics serve: becoming, not perfecting, oneself.\n\nJung died in 1961; his Collected Works remain in copyright, as does the later archetypal-psychology and mythological scholarship (James Hillman, Marie-Louise von Franz, Joseph Campbell) that informs this school's selection and framing. No text is quoted from any of these authors anywhere in this grammar — every definition below is this library's own original prose, paraphrasing the concept, not reproducing anyone's wording.",
         "Evidence": "Held at evidence tier 'theoretical'. Jungian archetype theory has never been demonstrated as a claim about inherited psychic structure by genetics, neuroscience, or any other independent empirical discipline — it remains a theoretical and interpretive framework, argued through case material, dream analysis, and comparative mythology rather than through controlled research. Its considerable influence has been clinical, literary, and cultural rather than experimental; this library takes no position on whether archetypes are \"real\" in Jung's own strong sense, and presents the model as a symbolic vocabulary rather than as a validated psychological finding."
@@ -505,7 +572,7 @@
       "name": "Parts & Depth",
       "category": "branch",
       "level": 2,
-      "sort_order": 9,
+      "sort_order": 10,
       "composite_of": [
         "link-parts-work",
         "link-jungian-archetypes"
@@ -522,7 +589,7 @@
       "name": "The Four Humours — Galenic Temperament Theory",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1001,
+      "sort_order": 1101,
       "sections": {
         "What it is": "The longest-running account of feeling in the Western record: from Hippocratic writers in the 5th century BCE through Galen's systematization (2nd century CE) to its dominance in European medicine through the 18th century, the body was held to run on four fluids — blood, yellow bile, black bile, and phlegm — whose relative balance produced both momentary illness and a person's durable temperament. This is a genuinely different kind of account from every other school in this library: it explains feeling by bodily constitution, not by cognition, expression, or need. A temperament here is not a mood that passes; it is closer to what modern usage calls a personality — a standing disposition a humoral excess produces and holds in place for a lifetime. The physiology is discredited: there is no blood/bile/phlegm balance underlying mood, and bloodletting to correct it caused real harm. The vocabulary nonetheless survived the theory that produced it — English speakers still call someone \"sanguine,\" \"phlegmatic,\" \"melancholic,\" or \"good-humoured\" without any commitment to Galen's physiology, a rare case of a scientific model outliving its own falsification by centuries because the words it minted turned out to be useful for something else.",
         "Evidence": "Held at evidence tier 'theoretical'. Galenic humoral theory is a discredited physiological model: no fluid balance of the kind it describes exists, and the four humours do not correspond to any coherent modern biochemical category. It is retained here as the longest-running historical account of feeling in the Western record and as the direct source of vocabulary (sanguine, choleric, melancholic, phlegmatic) still in ordinary use — a historical and linguistic claim, not an empirical one, and it should not be read as a live physiological hypothesis."
@@ -547,7 +614,7 @@
       "name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1002,
+      "sort_order": 1102,
       "sections": {
         "What it is": "The alchemical and Neoplatonic-emblematic tradition read inner states through a cosmology of correspondence: planets, metals, elements, and stages of the Great Work (magnum opus) were held to map onto one another and onto the human temperament, so that a person's disposition could be described in the same vocabulary as a planet's character or a metal's properties. Robert Fludd (1574-1637), whose 1617 engraving Integrae naturae speculum artisque imago is this library's own homepage image, built an entire encyclopedic cosmology on this principle in his Utriusque Cosmi Historia. Paracelsus (1493-1541) reoriented alchemy toward medicine, treating the alchemist's transformation of matter and the physician's treatment of the body as versions of the same work. Neither offers an empirical account of emotion in any modern sense — this is a symbolic and cosmological system, read here for what it is: an unusually developed vocabulary of inner and transformative states, which is exactly the kind of material this library collects, whatever one makes of the cosmology built around it.",
         "Evidence": "Held at evidence tier 'theoretical'. Alchemical correspondence cosmology is a symbolic and cosmological system, not an empirical one — it offers no testable physical mechanism and no measurement, and this library takes no position on its metaphysical claims. Its interest here is as a highly developed, historically influential vocabulary of inner and transformative states, not as a scientific account of emotion; assessing it by empirical standards would be a category error the tradition itself did not intend, though it is worth naming plainly (unlike, say, a modern psychological model) that no empirical confirmation was ever the tradition's own aim."
@@ -572,7 +639,7 @@
       "name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1003,
+      "sort_order": 1103,
       "sections": {
         "What it is": "The Theosophical and Anthroposophical account of feeling as visible form and colour: not a state inferred from behaviour, but something claimed to be directly perceived, by trained clairvoyant sight, as coloured shapes in and around the body. Annie Besant and C. W. Leadbeater's Thought-Forms (1901) is the central text — a published key pairing specific colours with specific feelings (affection, devotion, anger, fear, jealousy, and more), illustrated with plates the authors presented as records of particular observed instances rather than as invented art. Leadbeater's Man Visible and Invisible (1902) extends the same colour scheme to the standing aura. Rudolf Steiner's account of the astral body as the seat of feeling grew out of the same Theosophical milieu but diverged from it, in both method and cosmology, on his way to founding Anthroposophy. Neither offers an empirical account of emotion in any modern sense; this library reads the material for what it is — an unusually literal vocabulary for inner states, one that claims a feeling has a shape and a colour that could in principle be drawn.",
         "Evidence": "Held at evidence tier 'theoretical'. Besant and Leadbeater's colour key, and Steiner's parallel account of the astral body, rest on a clairvoyant and visionary claim, not an empirical one: the perceptions described are not independently verifiable, and no controlled test has ever supported clairvoyant aura perception. This is stated plainly, without contempt for the tradition — its interest to this library is as an unusually developed and unusually literal vocabulary for inner states, one that claims feeling has a shape and colour precise enough to draw, not as a scientific account of what emotion physically is."
@@ -597,7 +664,7 @@
       "name": "Constitution & Correspondence",
       "category": "branch",
       "level": 2,
-      "sort_order": 10,
+      "sort_order": 11,
       "composite_of": [
         "link-humoral-temperaments",
         "link-alchemical-correspondences",
@@ -615,7 +682,7 @@
       "name": "Darwin — The Expression of the Emotions",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1101,
+      "sort_order": 1201,
       "sections": {
         "What it is": "Charles Darwin's The Expression of the Emotions in Man and Animals (1872) argues that human emotional expressions are not arbitrary or divinely designed signals but evolved, largely involuntary residues of once-functional behavior, continuous with expressions in other animals. Darwin builds the case on three explanatory principles — serviceable associated habits (an expression that once served a direct purpose, like baring teeth to bite, persists as a habit even when the purpose no longer applies), antithesis (an opposite emotional state produces a bodily posture that is the physical opposite of the first, even where that opposite posture serves no independent purpose of its own), and the direct action of the nervous system (some expressions, like trembling in fear, are simply what an overloaded nervous system does, with no communicative function at all) — and on evidence he gathered himself: photographs (making this the first psychology text illustrated photographically), direct observation of infants, the insane, and animals, and a questionnaire he circulated to missionaries, colonial officials, and travelers across multiple continents asking whether specific expressions appeared the same in the populations they knew. The book is in the public domain.",
         "Evidence": "Held at evidence tier 'observational-only'. Darwin's evidence — his own direct observation of infants and the institutionalized, comparative observation of animal behavior, and a cross-cultural questionnaire circulated through missionary and colonial contacts — is genuinely empirical for its period but methodologically pre-experimental: no controlled conditions, no standardized stimuli, untrained lay observers, and (in the questionnaire) leading questions asked of colonial-era informants under a power relationship this school does not sanitize. It is a historically foundational observational record, not evidence meeting modern experimental or cross-cultural methodological standards, and it should not be read as settling the same universality questions that later, more rigorous studies (and their critics) continue to dispute."
@@ -639,7 +706,7 @@
       "name": "Affektenlehre — the Baroque Doctrine of the Affections",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1102,
+      "sort_order": 1202,
       "sections": {
         "What it is": "Affektenlehre (\"doctrine of the affections\") is the explicit 17th–18th century Baroque theory that music does not merely accompany or soothe feeling but represents specific, nameable affects through specific, nameable technical means — a key, a bass pattern, a rhythmic figure, a rhetorical device. Johann Mattheson catalogued distinct affective characters for individual musical keys in Das neu-eröffnete Orchestre (1713); Athanasius Kircher's Musurgia Universalis (1650) proposed a fuller physiological-and-cultural account of how music moves the affects; the musica poetica tradition running from Joachim Burmeister through Kircher and Christoph Bernhard catalogued named rhetorical figures, each conventionally carrying its own affective charge; Monteverdi explicitly theorized and claimed credit for a new musical device — the stile concitato — built to represent rage and warfare; and Descartes's early Compendium musicae (1618, decades before his Passions de l'âme) argued that rhythm and interval themselves excite specific passions. This school belongs in this library on its own terms, not as a footnote to the others: it is a taxonomy of feeling built for a genuinely non-verbal medium, something no other school gathered here can claim about its own working material. A period listener, hearing a descending chromatic bass line, could recognize \"lament\" without a single word being sung — that is the specific, checkable claim Affektenlehre makes, and no other framework in this collection makes an equivalent claim about its own medium.",
         "Evidence": "Held at evidence tier 'theoretical'. Affektenlehre is a historical compositional and rhetorical doctrine — a set of conventions Baroque composers and theorists built, taught, and debated among themselves — not an empirical claim about how listeners actually respond to music, then or now. No controlled study of period or modern listener response is claimed anywhere in the surviving primary sources this school describes; the tradition's authority rests on theoretical treatises and compositional practice, not on experiment."
@@ -664,7 +731,7 @@
       "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1103,
+      "sort_order": 1203,
       "sections": {
         "What it is": "Every theatrical tradition that has ever tried to make an audience read grief, rage, or joy off a performer's body has had to codify expression — and each has codified it differently, in a system that has to be explicitly learned. Bharata's abhinaya assigns fixed hand positions and involuntary bodily signs to named states; Noh drills a performer for years to read as sorrow or joy through the tilt of a mask that itself never changes; Charles Le Brun taught 17th-century painters an explicit rule for the eyebrow; François Delsarte charted the body into expressive zones and drilled them into a generation of American and European actors; jingju assigns a color and pattern to a face before the performer ever puts it on. That is the school's argument, stated plainly: if emotional expression were a fixed biological readout, it would not need teaching, and every tradition would teach the same thing. Neither is true. This is empirical support for this library's constructionist substrate coming from centuries of practice rather than from the laboratory — evidence of a kind the lab literature cannot supply. It is not the whole case: actors also exploit real regularities (several of these traditions converge on the eyebrows and the eyes independently), and the traditions overlap rather than contradict each other outright. Two 20th-century traditions, Stanislavski's and Strasberg's, are included specifically because they reject the codified-external premise the other traditions share — the school is stronger for holding a live disagreement, not a settled consensus.",
         "Evidence": "Held at evidence tier 'theoretical'. Every tradition in this school is a working performance practice, refined by trial and audience response over years or centuries, not a controlled empirical study of what emotion is or how it is produced in the body. Their authority rests on demonstrated success at being legibly read by trained and untrained audiences alike within their own convention — a real and checkable kind of success, but a different and weaker warrant than a laboratory finding about the nature of emotion itself. That a system works to communicate a feeling to an audience is not the same claim as that system having discovered what the feeling underneath actually is, and this school does not treat the two as equivalent."
@@ -689,7 +756,7 @@
       "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1104,
+      "sort_order": 1204,
       "sections": {
         "What it is": "The Nāṭyaśāstra and, later, Nandikeśvara's Abhinaya Darpaṇa (\"Mirror of Gesture\") catalogue a drilled, named repertoire of hand positions used in classical Indian dance and dance-theatre — roughly 28 single-hand (asaṃyuta) and 24 joined-hand (saṃyuta) hastas, each with a fixed shape and a list of things it may be used to mean, its viniyoga. This school states its argument plainly: a hasta's meaning is not fixed the way a code's is. A single gesture can carry many different, sometimes unrelated meanings depending on context — pratākā alone signifies clouds, an oath, a blessing, a forest, and the word \"stop,\" among dozens of other things — and a single meaning (the moon, say) can be carried by more than one gesture. The mapping is many-to-many and resolved only by context: by the song, the narrative moment, and the accompanying facial and bodily abhinaya. That is a markedly different model of expression from a code in which one signal reliably means one thing, and it is the reason this school belongs in a library about how feeling gets made rather than found. `schools/acting-traditions` already covers Bharata's four modes of abhinaya (āngika, vāchika, āhārya, sāttvika) as one item in a wider survey of codified performance traditions; this school does not restate that ground and instead begins where it stops, inside āngika abhinaya's actual gesture vocabulary. `schools/rasa` documents what a successful performance does for a qualified spectator; this school does not re-argue rasa theory, only cross-links to it. Read honestly, hastas are communicative signs within a performance grammar — closer to a lexicon a dancer learns than to a display of felt emotion. A dancer whose hands show śṛṅgāra through the appropriate hastas need not personally feel desire in that moment, the same performer/audience distinction schools/rasa already draws for the aesthetic event a hasta helps produce.",
         "Evidence": "Held at evidence tier 'theoretical'. The Abhinaya Darpaṇa and the Nāṭyaśāstra's āngika chapters document a living performance-practice vocabulary, refined and transmitted within trained dance lineages over centuries, not an empirical claim about how emotion is produced or read in the body. A hasta's authority rests on its continued, checkable use and legibility within a specific dance tradition's own convention, not on experimental confirmation of any inner state it may be used to signify — the same distinction schools/acting-traditions draws for its own codified-external systems."
@@ -714,7 +781,7 @@
       "name": "Expression & Representation",
       "category": "branch",
       "level": 2,
-      "sort_order": 11,
+      "sort_order": 12,
       "composite_of": [
         "link-darwin-expression",
         "link-affektenlehre",
@@ -733,7 +800,7 @@
       "name": "Greek Pathē — Rhetoric and Stoic Ethics",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1201,
+      "sort_order": 1301,
       "sections": {
         "What it is": "Two adjacent, non-identical Greek frameworks gathered under one school because both use the word pathē (πάθη, roughly \"that which is undergone\") and both come out of the same fourth-to-third-century BCE philosophical culture in Athens — not because they agree with each other. Aristotle's Rhetoric (Book II) catalogues pathē as states a speaker can arouse in an audience to make a case land: they are appraisals bound to a rhetorical situation (who feels this, toward whom, and on what belief), not a clinical inventory of inner states. The Stoics, from Zeno and Chrysippus onward, use pathē in a stricter and more critical sense — an irrational, excessive impulse that follows from a false judgment about what is good or bad, which the wise person replaces with a calibrated \"good feeling\" (eupatheia) rather than simply having less of. Treating Aristotle's rhetorical pathē and Stoic ethical pathē as one undifferentiated \"Greek emotion theory\" flattens a real disagreement between them about what pathē even are.",
         "Evidence": "Held at evidence tier 'theoretical'. Both frameworks are philosophical argument, not empirical research — the Rhetoric is a handbook for persuasion and the Stoic pathē scheme is an ethical claim about which judgments are true. Neither offers, or claims to offer, cross-cultural or physiological evidence; assessing them by that standard would be a category error the traditions themselves did not intend."
@@ -758,7 +825,7 @@
       "name": "Descartes's Six Primitive Passions",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1202,
+      "sort_order": 1302,
       "sections": {
         "What it is": "René Descartes's Les passions de l'âme (The Passions of the Soul, 1649) proposes that every passion of the soul, however complex, is a combination or degree of six primitive ones: wonder (admiration), love (amour), hatred (haine), desire (désir), joy (joie), and sadness (tristesse). These six are not Paul Ekman's twentieth-century \"basic emotions\" wearing older dress — they predate that model by more than three centuries, arrive by a wholly different method (introspective philosophical analysis plus Descartes's own mechanistic physiology of \"animal spirits\" moving through the body and pineal gland), and answer a different question: not which facial expressions are cross-culturally recognized, but which passions cannot be built out of any others. Descartes wrote for a physician's and a princess's eyes (the treatise grew out of his correspondence with Princess Elisabeth of Bohemia) rather than for a laboratory.",
         "Evidence": "Held at evidence tier 'theoretical'. Descartes reached his six primitives by philosophical introspection combined with a since-superseded mechanistic physiology, not by empirical measurement of any kind. No cross-cultural or experimental evidence was collected or claimed; the taxonomy stands or falls as philosophical argument, not as a scientific finding."
@@ -782,7 +849,7 @@
       "name": "Aquinas's Eleven Passions",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1203,
+      "sort_order": 1303,
       "sections": {
         "What it is": "Thomas Aquinas's Summa Theologiae (Prima Secundae, questions 22–48, written c. 1270) sorts eleven passions of the sensitive appetite into two faculties: six concupiscible passions (love/hatred, desire/aversion, joy/sorrow) and five irascible passions (hope/despair, fear/daring, and anger, which Aquinas holds has no contrary). The organising line between the two faculties is not good-versus-bad — both faculties handle both good and evil objects. It is arduousness: the concupiscible appetite responds to a sensory good or evil simply apprehended as such; the irascible appetite responds to that same good or evil only insofar as it is arduous — difficult to attain, difficult to escape, or requiring struggle to reach or resist. A passion Aquinas calls hope is not simply modern-English \"hope\": it is, specifically, the appetite's movement toward a future good that is both possible and hard to get.",
         "Evidence": "Held at evidence tier 'theoretical'. Aquinas's eleven-passion taxonomy is a work of scholastic philosophical psychology, derived by argument from Aristotelian and Avicennian premises about the soul's powers, not from observation or experiment. No empirical support is claimed by the tradition itself, and none should be inferred here."
@@ -807,7 +874,7 @@
       "name": "Rasa — Bharata's Aesthetics of Performance",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1204,
+      "sort_order": 1304,
       "sections": {
         "What it is": "The Nāṭyaśāstra, a Sanskrit treatise on dramaturgy attributed to Bharata Muni (compiled roughly between the 2nd century BCE and 2nd century CE), names eight rasas — śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta — and the philosopher-aesthetician Abhinavagupta added a ninth, śānta, in his 10th–11th century commentary. A rasa is not a feeling a character has, and not a feeling a spectator merely catches by contagion. It is an aesthetic event that arises between a well-executed performance (built from vibhāva, the determinants; anubhāva, the consequents; and vyabhicāribhāva, the transitory states) and a qualified spectator's own aesthetic relish (āsvāda) of the sthāyibhāva, the stable emotional theme, that the performance has made tastable. Calling rasa \"the Indian emotion list\" collapses that relational, performance-dependent structure into the same fixed-inner-state model this whole library exists to question — rasa is closer to a claim about what good theatre does than to a claim about what feelings exist inside a body.",
         "Evidence": "Held at evidence tier 'theoretical'. Rasa theory is a work of dramaturgical and aesthetic philosophy developed and debated within the Sanskrit commentarial tradition over more than a millennium (Bharata through Abhinavagupta and beyond). It is not an empirical psychological theory and does not claim cross-cultural or physiological evidence; its authority within its own tradition rests on argument and on continued use by practitioners, not on experimental confirmation."
@@ -832,7 +899,7 @@
       "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1205,
+      "sort_order": 1305,
       "sections": {
         "What it is": "Classical Chinese medical theory, systematized in texts descending from the Huangdi Neijing (Yellow Emperor's Inner Classic, compiled roughly 2nd century BCE – 2nd century CE) and elaborated through later medical writing, names qīqíng — seven emotions — and links five of them to the five zàng (yin viscera): the heart governs joy (xǐ), the liver governs anger (nù), the spleen governs pensiveness/overthinking (sī), the lung governs grief (bēi, often paired with yōu, worry), and the kidney governs fear (kǒng). This is not a psychology in the Western sense grafted onto medicine; it is medicine — emotion is one of several categories of pathogenic factor (alongside diet, climate, and overexertion) capable of injuring qì circulation and, in excess or over time, the organ each is paired with. The word this school translates loosely as \"emotion,\" qíng (情), has a semantic range wider than the English word: across Chinese philosophical and medical usage qíng can mean felt emotion, but also disposition, circumstance, the true state of a thing, or human feeling in general — treating qíng as a one-to-one synonym for \"emotion\" narrows a term that classical sources use more broadly.",
         "Evidence": "Held at evidence tier 'theoretical'. The five-viscera emotion correspondences are a theoretical framework internal to classical Chinese medicine's Five Phases cosmology, transmitted and elaborated over roughly two millennia of textual and clinical tradition. They are not supported by, and do not claim to be supported by, controlled biomedical evidence in the modern sense; their standing here is as a historically significant and still clinically active framework, not as an independently replicated empirical finding."
@@ -856,7 +923,7 @@
       "name": "A Genealogy of Emotions",
       "category": "school-link",
       "level": 1,
-      "sort_order": 1206,
+      "sort_order": 1306,
       "sections": {
         "What it is": "How the unit of analysis itself — what counts as one feeling, how many there are, what axis organizes them — has been rebuilt independently by five traditions that mostly did not know of one another's work: Greek/Latin-Christian/European philosophy and psychology, Sanskrit dramaturgical aesthetics, Chinese classical medicine, Amazonian perspectivist ethnography, and Micronesian ethnopsychology. Each lineage is followed on its own terms, in its own internal chronology, rather than folded into one timeline with a single spine. Draw on this deck as a map of moments, not a single spine of progress toward a correct list.",
         "Evidence": "Held at evidence tier 'theoretical'. This root item's own claim is interpretive: that reading five independent traditions' histories together supports treating emotion categories as constructed rather than discovered. It aggregates five lineages whose own internal evidence tiers differ (theoretical for Greek/Sanskrit/Chinese, observational-only for Amazonian/Micronesian) and does not average or launder those differences into one rating."
@@ -881,7 +948,7 @@
       "name": "Historical & Scientific",
       "category": "branch",
       "level": 2,
-      "sort_order": 12,
+      "sort_order": 13,
       "composite_of": [
         "link-greek-pathe",
         "link-descartes-passions",
@@ -912,13 +979,14 @@
         "branch-needs-based",
         "branch-attachment-couples",
         "branch-skills-based",
+        "branch-trance-and-suggestion",
         "branch-parts-and-depth",
         "branch-constitution-and-correspondence",
         "branch-expression-and-representation",
         "branch-historical-scientific"
       ],
       "sections": {
-        "What this is": "The constellation as it currently stands: 27 schools in 12 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
+        "What this is": "The constellation as it currently stands: 29 schools in 13 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
       },
       "keywords": [
         "schools of emotion",

@@ -24,7 +24,8 @@
       "_note": "The library's own synthesis — Overflow (structure, process, possibility, and the recursion between them) and the Ethics of Fiction (judging stories by their fruits, in their casting). First-person where every other branch is curatorial. Its evidence tier is 'theoretical' because tiers measure transferable third-person evidence, and it claims none — but it carries a different warrant the tiers cannot see: lived experience in its own context, which is what individuation means. A made meaning, held visibly as made, and worked daily by its maker.",
       "school_slugs": [
         "overflow",
-        "ethics-of-fiction"
+        "ethics-of-fiction",
+        "genealogy-of-the-house"
       ]
     },
     {
@@ -76,6 +77,14 @@
       "_note": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT.",
       "school_slugs": [
         "dbt-skills"
+      ]
+    },
+    {
+      "id": "trance-and-suggestion",
+      "name": "Trance & Suggestion",
+      "_note": "Schools that change feeling by arranging experience rather than explaining it — trance, suggestion, and the state-first premise that insight follows change instead of causing it. Erickson's conversational hypnotherapy is the school here, held together with its unequal heirs: strategic family therapy, solution-focused brief therapy, NLP, and the mass-audience human-needs coaching built on all of it. The branch exists partly to say out loud that those descendants did not inherit equal evidence.",
+      "school_slugs": [
+        "ericksonian-hypnosis"
       ]
     },
     {
@@ -131,7 +140,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 281,
+      "items": 291,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -332,6 +341,22 @@
       "category": "historical"
     },
     {
+      "slug": "ericksonian-hypnosis",
+      "name": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
+      "common_name": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
+      "type": "custom",
+      "branch": "trance-and-suggestion",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 12,
+      "cover_image_url": "",
+      "path": "schools/ericksonian-hypnosis/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
       "slug": "ethics-of-fiction",
       "name": "The Ethics of Fiction — A Grammar for Judging Stories",
       "common_name": "The Ethics of Fiction — A Grammar for Judging Stories",
@@ -358,6 +383,22 @@
       "items": 25,
       "cover_image_url": "",
       "path": "schools/genealogy-of-emotions/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "genealogy-of-the-house",
+      "name": "A Genealogy of the House",
+      "common_name": "A Genealogy of the House",
+      "type": "custom",
+      "branch": "the-house-school",
+      "is_meta": true,
+      "default_preview": "tree",
+      "items": 20,
+      "cover_image_url": "",
+      "path": "schools/genealogy-of-the-house/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
@@ -483,7 +524,7 @@
       "branch": "the-house-school",
       "is_meta": false,
       "default_preview": null,
-      "items": 26,
+      "items": 27,
       "cover_image_url": "",
       "path": "schools/overflow/grammar.json",
       "year": null,
@@ -547,7 +588,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "tree",
-      "items": 40,
+      "items": 43,
       "cover_image_url": "",
       "path": "schools/schools-of-emotion/grammar.json",
       "year": null,

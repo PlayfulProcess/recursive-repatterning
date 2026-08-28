@@ -62,7 +62,11 @@
         "Practice": "Wise mind is described in DBT as something closer to a capacity than an achievement — most people have touched it already, in a decision that felt neither purely calculated nor purely impulsive but simply right. The practice is less about generating wise mind from nothing and more about noticing when reasonable mind or emotion mind has taken over completely, and asking what the other one would add before acting.",
         "Research note": "Wise mind, like several core-mindfulness concepts here, is a clinical construct drawn substantially from contemplative practice (Linehan has written about the influence of Zen training on DBT's mindfulness component) rather than an independently measured psychological trait. It functions as a teaching frame and a shared vocabulary between client and therapist more than as something a trial isolates and scores."
       },
-      "metadata": {}
+      "metadata": {
+        "source_deck": "overflow",
+        "source_item_id": "the-fit",
+        "deck": "Overflow — Structures, Process, Possibilities"
+      }
     },
     {
       "id": "mindfulness-what-how-skills",
