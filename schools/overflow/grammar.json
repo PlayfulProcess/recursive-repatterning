@@ -43,10 +43,34 @@
    }
   },
   {
+   "id": "the-fit",
+   "name": "The Fit",
+   "category": "Guide",
+   "sort_order": 2,
+   "symbol": "✦",
+   "keywords": [
+    "fit",
+    "context",
+    "population",
+    "map-choice",
+    "treatment",
+    "wise-mind"
+   ],
+   "sections": {
+    "body": "Before any card, any school, any practice: maps are medicine, and every medicine was tested on a population. A method built for the full — for a person whose material conditions leave slack — can free the full and bind the drained. Tell someone whose affect is accurately tracking precarity that state is a choice, and you have not treated them; you have misread a structural signal as a personal failure and taught them to override the one honest gauge they have.\n\nThe gauge reads the actual budget. Some budgets are drained by stories that can be re-authored. Some are drained by a leak upstream — and no amount of re-authoring at the gauge fixes a leak in the pipe.\n\nSo the fit is the first reading, before the spread is even dealt: who was this map made for, and is that who is asking? A map that fits is a constriction that serves the play. A map that doesn't is a constriction wearing a stethoscope.",
+    "how to use": "Three questions before adopting any framework, practice, or treatment — this deck included.\n\nFirst: who was this made for? Every method carries the population it was built on. Name it honestly.\n\nSecond: what is the affect actually tracking right now? A story that can be re-authored, or a drained budget upstream of any story? If upstream, the work is repair and solidarity, not state management.\n\nThird: the Freedom Test, applied to the map itself — does adopting it here, for this person, in this context, increase their room to move or shrink it?\n\nIf a map shames the gauge, put down the map. Never the gauge."
+   },
+   "metadata": {
+    "source_deck": "dbt-skills",
+    "source_item_id": "wise-mind",
+    "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+   }
+  },
+  {
    "id": "the-body",
    "name": "The Body",
    "category": "Structure",
-   "sort_order": 2,
+   "sort_order": 3,
    "symbol": "I",
    "keywords": [
     "body",
@@ -67,7 +91,7 @@
    "id": "the-constriction",
    "name": "The Constriction",
    "category": "Structure",
-   "sort_order": 3,
+   "sort_order": 4,
    "symbol": "II",
    "keywords": [
     "constriction",
@@ -93,7 +117,7 @@
    "id": "the-lineage",
    "name": "The Lineage",
    "category": "Structure",
-   "sort_order": 4,
+   "sort_order": 5,
    "symbol": "III",
    "keywords": [
     "lineage",
@@ -118,7 +142,7 @@
    "id": "the-ledger",
    "name": "The Ledger",
    "category": "Structure",
-   "sort_order": 5,
+   "sort_order": 6,
    "symbol": "IV",
    "keywords": [
     "ledger",
@@ -144,7 +168,7 @@
    "id": "the-heap",
    "name": "The Heap",
    "category": "Structure",
-   "sort_order": 6,
+   "sort_order": 7,
    "symbol": "V",
    "keywords": [
     "heap",
@@ -170,7 +194,7 @@
    "id": "the-pattern",
    "name": "The Pattern",
    "category": "Structure",
-   "sort_order": 7,
+   "sort_order": 8,
    "symbol": "VI",
    "keywords": [
     "pattern",
@@ -195,7 +219,7 @@
    "id": "the-game",
    "name": "The Game",
    "category": "Structure",
-   "sort_order": 8,
+   "sort_order": 9,
    "symbol": "VII",
    "keywords": [
     "game",
@@ -215,7 +239,7 @@
    "id": "the-prediction",
    "name": "The Prediction",
    "category": "Process",
-   "sort_order": 9,
+   "sort_order": 10,
    "symbol": "VIII",
    "keywords": [
     "prediction",
@@ -241,7 +265,7 @@
    "id": "the-construction",
    "name": "The Construction",
    "category": "Process",
-   "sort_order": 10,
+   "sort_order": 11,
    "symbol": "IX",
    "keywords": [
     "construction",
@@ -267,7 +291,7 @@
    "id": "the-pour",
    "name": "The Pour",
    "category": "Process",
-   "sort_order": 11,
+   "sort_order": 12,
    "symbol": "X",
    "keywords": [
     "pour",
@@ -289,7 +313,7 @@
    "id": "the-error",
    "name": "The Error",
    "category": "Process",
-   "sort_order": 12,
+   "sort_order": 13,
    "symbol": "XI",
    "keywords": [
     "error",
@@ -310,7 +334,7 @@
    "id": "the-modulation",
    "name": "The Modulation",
    "category": "Process",
-   "sort_order": 13,
+   "sort_order": 14,
    "symbol": "XII",
    "keywords": [
     "modulation",
@@ -337,7 +361,7 @@
    "id": "the-turn",
    "name": "The Turn",
    "category": "Process",
-   "sort_order": 14,
+   "sort_order": 15,
    "symbol": "XIII",
    "keywords": [
     "turn",
@@ -358,7 +382,7 @@
    "id": "the-ceding",
    "name": "The Ceding",
    "category": "Process",
-   "sort_order": 15,
+   "sort_order": 16,
    "symbol": "XIV",
    "keywords": [
     "ceding",
@@ -384,7 +408,7 @@
    "id": "the-overflow",
    "name": "The Overflow",
    "category": "Possibility",
-   "sort_order": 16,
+   "sort_order": 17,
    "symbol": "XV",
    "keywords": [
     "overflow",
@@ -405,7 +429,7 @@
    "id": "the-free-gift",
    "name": "The Free Gift",
    "category": "Possibility",
-   "sort_order": 17,
+   "sort_order": 18,
    "symbol": "XVI",
    "keywords": [
     "free-gift",
@@ -426,7 +450,7 @@
    "id": "the-freedom-test",
    "name": "The Freedom Test",
    "category": "Possibility",
-   "sort_order": 18,
+   "sort_order": 19,
    "symbol": "XVII",
    "keywords": [
     "freedom-test",
@@ -452,7 +476,7 @@
    "id": "the-recognition",
    "name": "The Recognition",
    "category": "Possibility",
-   "sort_order": 19,
+   "sort_order": 20,
    "symbol": "XVIII",
    "keywords": [
     "recognition",
@@ -478,7 +502,7 @@
    "id": "the-best-prior",
    "name": "The Best Prior",
    "category": "Possibility",
-   "sort_order": 20,
+   "sort_order": 21,
    "symbol": "XIX",
    "keywords": [
     "best-prior",
@@ -499,7 +523,7 @@
    "id": "the-two-truths",
    "name": "The Two Truths",
    "category": "Possibility",
-   "sort_order": 21,
+   "sort_order": 22,
    "symbol": "XX",
    "keywords": [
     "two-truths",
@@ -527,7 +551,7 @@
    "id": "the-new-game",
    "name": "The New Game",
    "category": "Possibility",
-   "sort_order": 22,
+   "sort_order": 23,
    "symbol": "XXI",
    "keywords": [
     "new-game",
@@ -549,7 +573,7 @@
    "name": "Structure — What Constrains and Holds",
    "category": "group",
    "level": 2,
-   "sort_order": 23,
+   "sort_order": 24,
    "composite_of": [
     "the-body",
     "the-constriction",
@@ -573,7 +597,7 @@
    "name": "Process — What Moves and Constructs",
    "category": "group",
    "level": 2,
-   "sort_order": 24,
+   "sort_order": 25,
    "composite_of": [
     "the-prediction",
     "the-construction",
@@ -597,7 +621,7 @@
    "name": "Possibility — What Opens When the Process Overflows",
    "category": "group",
    "level": 2,
-   "sort_order": 25,
+   "sort_order": 26,
    "composite_of": [
     "the-overflow",
     "the-free-gift",
@@ -621,7 +645,7 @@
    "name": "Overflow — Structures, Process, Possibilities",
    "category": "root",
    "level": 3,
-   "sort_order": 26,
+   "sort_order": 27,
    "composite_of": [
     "group-structure",
     "group-process",
