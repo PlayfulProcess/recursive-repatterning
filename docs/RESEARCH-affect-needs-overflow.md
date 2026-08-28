@@ -37,11 +37,18 @@ because it is both more accurate to Barrett and stronger for the hypothesis:
 preparing to act.** Allostasis is anticipatory: the brain budgets for action before
 the action, and before the name. By the time a feeling is nameable, the body has
 already leaned in a behavioral direction. Interpretation does not *decode* the
-signal; it arrives after the mobilization and can, with effort, *interrupt or
-redirect* it. And the fight with the body's inbuilt patterns is a real fight —
-prediction runs first, deep, and cheap, and deliberate override runs late, shallow,
-and expensive. This is why repatterning is slow, why insight alone is weak, and why
-state-first traditions (see §4) keep independently rediscovering the same lever.
+signal; it arrives after the mobilization — and (the maintainer's second
+correction, adopted here) it is not only a brake. **Interpretation serves
+sometimes to interrupt the lean, sometimes to continue or maintain it**: naming a
+mobilization can ratify it, steady it, give it permission and a channel, just as
+readily as it can catch it before the step. The concept chosen is a rudder, not
+only a hand-brake — which is exactly why the *choice of concept-set* (§1, §2)
+carries ethical weight: the same lean, read through different vocabularies, gets
+continued toward different ends. Where interruption *is* the aim, the fight with
+the body's inbuilt patterns is a real fight — prediction runs first, deep, and
+cheap, and deliberate override runs late, shallow, and expensive. This is why
+repatterning is slow, why insight alone is weak, and why state-first traditions
+(see §4) keep independently rediscovering the same lever.
 
 So the corrected hypothesis reads: *affect is the felt readout of anticipatory
 action; needs-vocabulary is a chosen concept-set for steering that action once it is
@@ -153,17 +160,26 @@ warrant travel separately; the loudest branch is not the best-evidenced one.
 
 ---
 
-## 4. Candidate card: The Interrupt (drafted, not dealt)
+## 4. Candidate card: The Interrupt (drafted, not dealt — and now set aside)
 
 The Fit went into the deck as a second Guide card — it is meta to the deck (how to
 choose maps at all), so it sits beside The Spread without disturbing the 21.
 
-A second candidate came out of §1a and is drafted here but **not** added, because it
-would be a 22nd numbered card: the deck's spine is 3×7, The Spread says "shuffle the
-21 numbered cards," and breaking that symmetry is the maintainer's call, not a
-research doc's. Options if wanted: add it and re-speak the Spread (3×7+1, the odd
-card as the spiral's hinge); or fold its content into The Prediction's sections;
-or swap it for a card the deck could lose (none obviously volunteers).
+A second candidate came out of §1a and is drafted below but **not** added — first
+because it would be a 22nd numbered card (the deck's spine is 3×7 and The Spread
+says "shuffle the 21 numbered cards"), and then, decisively, by the maintainer's
+call: **it is too early to commit the deck to a fight pattern.** The draft frames
+the relation to the body's lean as interruption — a hand on a moving thing — and
+§1a's second correction shows that framing is half the truth at most:
+interpretation continues and maintains leans as often as it catches them. A card
+built on the fight framing would teach the deck's readers to reach for the brake
+by default. The chosen direction instead: **build on the edges** — grow the
+library's connective tissue (reciprocal cross-links, lineage items, the genealogy
+pattern) and let the center of the deck stay still until the pattern has earned a
+card. If the material returns, its truer name is probably not The Interrupt but
+something like The Reading — the moment of choosing whether a lean gets continued,
+redirected, or caught — and that card should be written from the rudder, not the
+brake. The original draft is kept below as the record of the half that came first.
 
 > **The Interrupt** — Process.
 >
@@ -188,6 +204,39 @@ or swap it for a card the deck could lose (none obviously volunteers).
 ---
 
 ## 5. Structural notes (answers the maintainer asked for)
+
+- **Upstream and downstream between grammars (the Wikipedia question).** The
+  chassis already has both halves, and no new mechanism is needed:
+  - *Per-item edges:* the one cross-link pattern (`source_deck`/`source_item_id`),
+    made **reciprocal** — the pattern established when the links were made to
+    point both ways. An edge is "upstream" or "downstream" only in how the two
+    items narrate it; the mechanism is symmetric. This pass added two reciprocal
+    edges: `constructed-emotion/prediction ⇄ ericksonian-hypnosis/the-unconscious-as-resource`
+    (substrate ⇄ the clinical tradition that exploited it before it was named)
+    and `dbt-skills/wise-mind ⇄ overflow/the-fit`.
+  - *Whole-lineage maps:* the `genealogy-of-emotions` pattern — "moment" items,
+    each pill-linked to its school, grouped into lineage composites. That grammar
+    is scoped to the unit-of-analysis question (what counts as one feeling), so
+    Erickson's *treatment* lineage does not belong in it. If the library ever
+    wants the full Wikipedia-style influence map for clinical methods, the move
+    is a sibling grammar — a genealogy of treatments — built on the same pattern:
+    Mesmer → Braid → Charcot/Bernheim → Erickson → (Haley/Madanes, de Shazer,
+    Bandler/Grinder → Robbins), James → behaviorism → CBT → BA, and so on. Not
+    built now: consolidate, don't multiply; the ericksonian school's lineage
+    group carries the local stretch of that map until a second lineage needs one.
+
+- **Robbins's own training, for the record (also condensed into the
+  human-needs-coaching item):** no college — at seventeen he went to work
+  promoting Jim Rohn's motivational seminars instead; studied NLP under
+  co-founder John Grinder in the early 1980s (the Bandler association came
+  later and ended in litigation between Bandler and others in the NLP world);
+  learned firewalking from Tolly Burkan in 1983 and folded it into the seminars
+  as the signature convincer; *Unlimited Power* (1986) and *Awaken the Giant
+  Within* (1991) scaled the package; the clinical re-grounding came in 2002,
+  when he co-founded the Strategic Intervention coach-training school with Cloe
+  Madanes of the strategic-family-therapy tradition. The training lineage, in
+  other words, is promoter → NLP student → seminar innovator → coaching-school
+  co-founder: real inherited craft, no clinical credential at any step.
 
 - **Can branches hold practitioners?** The chassis pattern is: branch → schools
   (grammars) → items. A practitioner goes in as an *item* inside the school whose
@@ -225,6 +274,12 @@ or swap it for a card the deck could lose (none obviously volunteers).
   standard BA outcome literature (e.g., Jacobson et al. component analysis;
   subsequent trials showing BA ≈ CT for depression).
 
-*Not verified beyond secondary sources: the exact SMD figure and per-condition
-breakdown of the 2025 meta-analysis were taken from the abstract-level summary; if
-any of its numbers migrate into public-facing copy, read the paper first.*
+*Verification status of the meta-analysis numbers: cross-checked against the
+abstract as republished at multiple independent locations (MDPI landing page,
+ResearchGate record, figshare mirror), which agree on 8 RCTs (2015–2025), N = 676,
+pooled SMD = 1.17 vs. inactive controls, parity with CBT and motivational
+interviewing, and low-to-moderate within-subdomain heterogeneity (Pain I² = 42%;
+Depression/Anxiety I² = 37%; Functional/Behavioral I² = 48%; Addiction/Grief
+I² = 52%). The full text itself has not been read (publisher access unavailable
+from the build environment), so per-trial quality and the CI around the pooled
+SMD remain unchecked — abstract-level confidence, stated as such.*
