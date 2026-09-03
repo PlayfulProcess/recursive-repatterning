@@ -8,10 +8,10 @@
 <meta name="description" content="A self-guided, four-column NVC journaling walk — my feelings and needs, their feelings and needs — with reference lists read live from the nvc-needs school. No AI, no sign-in, nothing saved.">
 <link rel="icon" type="image/svg+xml" href="../public/favicon.svg?v=2">
 <link rel="stylesheet" href="../style.css?v=5">
-<!-- Deliberately no assistant.js on this page: the tool's whole promise is
-     "self-guided, no AI, your responses are private," and the sitewide AI
-     assistant widget belongs on content pages, not on the one page in this
-     repo that exists to be an AI-free space. See docs/PLAN-practices-layer.md. -->
+<!-- Assistant present sitewide (builder, Sep 3 2026 — the AI-free promise is
+     retired; see docs/PLAN-eco-integration.md). Responses still stay in the
+     browser unless the user chooses to bring them to the assistant. -->
+<script src="../assistant.js" defer></script>
 <style>
   main.wrap{max-width:1080px}
   .hero{text-align:center;padding:30px 8px 6px}
@@ -142,9 +142,10 @@
     <h1>NVC Journaling</h1>
     <p class="sub">A self-empathy walk through what I feel and need, and what I imagine you feel and need.</p>
     <p class="intro">
-      This is a <strong>self-guided</strong> journaling tool — there is no AI assistant, no sign-in, and nothing
-      you write here is sent anywhere or saved on any server. Everything stays on this page until you close or
-      print it; that privacy is literally true, not a promise layered on top of something that phones home.
+      This is a <strong>self-guided</strong> journaling tool — nothing you write here is sent anywhere or
+      saved on any server. Everything stays on this page until you close or print it. The site assistant
+      is available in the corner if you'd like to talk something through; nothing reaches it unless you
+      bring it there yourself.
       Ported from <a href="https://jongu-old.vercel.app/nvc_journaling.html" target="_blank" rel="noopener">an
       earlier self-guided NVC journaling tool</a>, itself inspired by
       <a href="https://www.nycnvc.org/the-exercise" target="_blank" rel="noopener">NYC NVC's self-empathy
