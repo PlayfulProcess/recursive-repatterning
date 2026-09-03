@@ -75,11 +75,12 @@
   .tree-answers{font-size:12.5px;color:var(--ink-soft);margin:2px 0 6px;line-height:1.5;white-space:pre-wrap}
   .footer-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:26px 0 60px}
   .savenote{font-family:var(--sans);font-size:12px;color:var(--ink-soft);text-align:center;margin-top:6px}
-  @media print{ .stages,.stage-hint,.footer-actions,.addrow,.keep-count,header,footer{display:none !important} }
+  @media print{ .stages,.stage-hint,.footer-actions,.addrow,.keep-count,site-header,site-footer{display:none !important} }
 </style>
 </head>
 <body>
 <script src="../site-header.js?v=53"></script>
+<site-header active="practices"></site-header>
 <main class="wrap">
   <section class="hero">
     <p class="kick">A practice</p>
@@ -314,5 +315,6 @@ document.getElementById('resetBtn').addEventListener('click', () => {
 render();
 </script>
 <script src="../site-footer.js?v=3"></script>
+<site-footer base="../"></site-footer>
 </body>
 </html>
