@@ -2,6 +2,14 @@
  "_note": "Manifest for the tools/ layer — see docs/PLAN-practices-layer.md. Each entry's `schools` array names the school slugs (schools/<slug>/grammar.json) the tool practises; the relation lives here, not in the grammar, per CLAUDE.md's one-cross-link-pattern rule (no new grammar-side link field). needs_ai / needs_auth are both false for every tool in this Phase-1 pass — nothing here calls a model or requires sign-in. Entries with external_url are not yet hosted here — they live on outside platforms (claude.ai artifacts, a ChatGPT GPT, journal.recursive.eco) and are listed so the practices layer knows the full inventory; porting order lives in docs/PLAN-overflow-and-the-living-library.md.",
  "tools": [
   {
+   "id": "living-into-values",
+   "title": "Living Into Values",
+   "blurb": "Choose the values that resonate, weave them until higher values emerge as a tree, then say what living them looks like. Inspired by Brené Brown's Living Into Our Values (paraphrased). Self-guided, no AI, saved in your browser only.",
+   "schools": [],
+   "needs_ai": false,
+   "needs_auth": false
+  },
+  {
    "id": "nvc-journaling",
    "title": "NVC Journaling",
    "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, no AI, nothing saved.",
