@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../theme.css?v=6">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Living Into Values · Recursive Repatterning</title>
+<meta name="description" content="A self-guided values walk inspired by Brené Brown's Living Into Our Values — choose the values that resonate, weave them into emergent groups, and answer the reflection questions. No AI, no sign-in; everything stays in your browser.">
+<link rel="icon" type="image/svg+xml" href="../public/favicon.svg?v=2">
+<link rel="stylesheet" href="../style.css?v=5">
+<!-- No assistant.js here, same promise as NVC journaling: self-guided, private,
+     an AI-free space. Answers live in localStorage only. -->
+<style>
+  main.wrap{max-width:980px}
+  .hero{text-align:center;padding:30px 8px 6px}
+  .hero .kick{font-family:var(--sans);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+  .hero h1{font-family:var(--serif-display);font-weight:600;font-size:clamp(28px,5.4vw,42px);line-height:1.08;margin:0;color:var(--ink)}
+  .hero .sub{font-family:var(--serif-body);font-style:italic;font-size:clamp(15px,2.2vw,18px);color:var(--ink-soft);margin:12px auto 0;max-width:62ch}
+  .intro{max-width:70ch;margin:14px auto 0;font-family:var(--sans);font-size:13.5px;line-height:1.65;color:var(--ink-soft);text-align:center}
+  .intro a{color:var(--gold)}
+
+  .stages{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:26px 0 8px}
+  .stage-btn{font-family:var(--sans);font-size:13px;font-weight:600;border-radius:999px;padding:.5rem 1rem;
+    border:1px solid var(--line-soft);background:var(--surface);color:var(--ink);cursor:pointer}
+  .stage-btn.active{background:var(--gold);border-color:var(--gold);color:#fff}
+  .stage-hint{font-family:var(--sans);font-size:13px;color:var(--ink-soft);text-align:center;max-width:64ch;margin:8px auto 20px;line-height:1.6}
+
+  .btn{font-family:var(--sans);font-size:13px;font-weight:600;border-radius:8px;padding:.6rem 1.1rem;
+    border:1px solid var(--gold);background:var(--gold);color:#fff;cursor:pointer}
+  .btn:hover{opacity:.88}
+  .btn.ghost{background:var(--surface);color:var(--ink);border-color:var(--line-soft)}
+  .btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
+  .btn.danger{background:var(--surface);color:var(--bad);border-color:var(--bad)}
+
+  /* Stage 1 — choose */
+  .chip-grid{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:10px 0 24px}
+  .chip{font-family:var(--sans);font-size:13px;border-radius:999px;padding:.45rem .85rem;cursor:pointer;
+    border:1px solid var(--line-soft);background:var(--surface);color:var(--ink)}
+  .chip.kept{background:var(--gold);border-color:var(--gold);color:#fff}
+  .keep-count{font-family:var(--sans);font-size:13px;color:var(--ink-soft);text-align:center;margin-bottom:14px}
+  .addrow{display:flex;gap:8px;justify-content:center;margin-bottom:18px}
+  .addrow input{font-family:var(--sans);font-size:13.5px;padding:.55rem .75rem;border-radius:8px;
+    border:1px solid var(--line);background:var(--surface);color:var(--ink);width:min(60vw,280px)}
+
+  /* Stage 2 — weave */
+  .board{margin:6px 0 40px}
+  .val-card{display:flex;align-items:center;gap:8px;border:1px solid var(--line-soft);background:var(--surface);
+    border-radius:10px;padding:.55rem .8rem;margin-bottom:6px;font-family:var(--sans);font-size:14px;color:var(--ink);cursor:pointer}
+  .val-card.selected{outline:2px solid var(--gold);outline-offset:1px}
+  .val-card.group{background:var(--panel2);border-color:var(--gold);font-weight:700}
+  .val-card .tag{font-size:11px;font-weight:400;color:var(--ink-soft)}
+  .val-card .spacer{flex:1}
+  .val-card button{border:none;background:none;color:var(--ink-soft);cursor:pointer;font-size:12px;padding:2px 5px}
+  .val-card button:hover{color:var(--gold)}
+  .nest{margin-left:22px}
+  .picked-banner{position:sticky;top:0;z-index:5;background:var(--panel2);border:1px solid var(--gold);
+    border-radius:10px;padding:.55rem .9rem;margin-bottom:12px;font-family:var(--sans);font-size:13.5px;color:var(--ink);
+    display:none;align-items:center;gap:10px}
+  .picked-banner.on{display:flex}
+  .picked-banner b{color:var(--gold)}
+
+  /* Stage 3 — deepen */
+  .deep-card{border:1px solid var(--line-soft);background:var(--surface);border-radius:12px;padding:16px;margin-bottom:14px}
+  .deep-card h3{margin:0 0 6px;font-family:var(--serif-display);font-weight:600;font-size:17px;color:var(--ink)}
+  .deep-card label{display:block;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--ink-soft);margin:10px 0 4px}
+  .deep-card textarea{width:100%;box-sizing:border-box;font-family:var(--sans);font-size:13.5px;padding:.55rem .7rem;
+    border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);resize:vertical;min-height:44px}
+
+  /* Stage 4 — tree */
+  .tree-node{font-family:var(--sans);font-size:14px;color:var(--ink);margin:4px 0;padding-left:14px;border-left:2px solid var(--line-soft)}
+  .tree-node.root{border-left-color:var(--gold)}
+  .tree-node .nm{font-weight:600}
+  .tree-node .nm.em{color:var(--gold)}
+  .tree-answers{font-size:12.5px;color:var(--ink-soft);margin:2px 0 6px;line-height:1.5;white-space:pre-wrap}
+  .footer-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:26px 0 60px}
+  .savenote{font-family:var(--sans);font-size:12px;color:var(--ink-soft);text-align:center;margin-top:6px}
+  @media print{ .stages,.stage-hint,.footer-actions,.addrow,.keep-count,header,footer{display:none !important} }
+</style>
+</head>
+<body>
+<script src="../site-header.js?v=53"></script>
+<main class="wrap">
+  <section class="hero">
+    <p class="kick">A practice</p>
+    <h1>Living Into Values</h1>
+    <p class="sub">Choose what resonates. Weave the pile until higher values emerge. Then say what living them looks like.</p>
+    <p class="intro">Inspired by Brené Brown's <em>Living Into Our Values</em> exercise (<em>Dare to Lead</em>) — questions paraphrased, no text copied; the original worksheet is at brenebrown.com. Self-guided and private: nothing leaves your browser.</p>
+  </section>
+
+  <nav class="stages" id="stages"></nav>
+  <p class="stage-hint" id="stageHint"></p>
+  <section id="stageBody"></section>
+
+  <div class="footer-actions">
+    <button class="btn ghost" onclick="window.print()">Print</button>
+    <button class="btn ghost" id="exportBtn">Export (grammar JSON)</button>
+    <button class="btn danger" id="resetBtn">Start over</button>
+  </div>
+  <p class="savenote">Saved automatically in this browser only.</p>
+</main>
+<script>
+'use strict';
+const VALUE_WORDS = ["Accountability","Achievement","Activism","Adaptability","Adventure","Altruism","Ambition","Authenticity","Balance","Beauty","Being the best","Being a good sport","Belonging","Career","Caring","Co-creation","Collaboration","Commitment","Community","Compassion","Competence","Confidence","Connection","Contentment","Contribution","Cooperation","Courage","Creativity","Curiosity","Dignity","Diversity","Efficiency","Environment","Equality","Ethics","Excellence","Fairness","Faith","Family","Financial stability","Forgiveness","Freedom","Friendship","Fun","Future generations","Generosity","Giving back","Grace","Gratitude","Growth","Harmony","Health","Heritage","Home","Honesty","Hope","Humility","Humor","Inclusion","Independence","Initiative","Integrity","Intuition","Job security","Joy","Justice","Kindness","Knowledge","Leadership","Learning","Legacy","Leisure","Love","Loyalty","Making a difference","Nature","Openness","Optimism","Order","Parenting","Patience","Patriotism","Peace","Perseverance","Personal fulfillment","Power","Pride","Recognition","Reliability","Resourcefulness","Respect","Responsibility","Risk-taking","Security","Self-discipline","Self-expression","Self-respect","Serenity","Service","Simplicity","Spirituality","Stewardship","Success","Teamwork","Thrift","Time","Tradition","Travel","Trust","Truth","Understanding","Uniqueness","Usefulness","Vision","Vulnerability","Wealth","Wellbeing","Wholeheartedness","Wisdom"];
+const QUESTIONS = [
+  ["expresses","Which one or two of your behaviors put this value into action?"],
+  ["betrays","Which behaviors quietly pull you outside it?"],
+  ["story","One moment you fully lived this value — tell it."]
+];
+const SUPPORT = [
+  ["who","Who knows your values and backs you in living them?"],
+  ["how","What does their support look like?"],
+  ["kind","What kindness to yourself makes the hard practice sustainable?"],
+  ["warn","What are your early warning signs of living outside your values?"],
+  ["feel","What does it feel like when you're living inside them?"],
+  ["check","How will you check yourself?"]
+];
+const KEY = 'living-into-values-v1';
+
+// State: entities = kept values + emergent groups. Same shape a grammar item
+// would take (composite_of = the emergence field), so Export is a grammar.
+let S = { stage: 1, entities: [], support: {} };
+try { const raw = localStorage.getItem(KEY); if (raw) S = JSON.parse(raw); } catch (e) {}
+let picked = null; // stage-2 tap-tap selection
+
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch (e) {} };
+const uid = () => 'v' + Math.random().toString(36).slice(2, 10);
+const byId = (id) => S.entities.find((e) => e.id === id);
+const parentOf = (id) => S.entities.find((e) => (e.composite_of || []).includes(id));
+const isGroup = (e) => (e.composite_of || []).length > 0;
+const roots = () => S.entities.filter((e) => !parentOf(e.id));
+
+const STAGES = [
+  [1, 'Choose', 'Tap every value that resonates — no limit yet. Add your own at the bottom. When the pile feels like you, move to Weave.'],
+  [2, 'Weave', 'Tap one value, then tap another: name what they share, and a higher value emerges holding both. Tap a gold group to add the selected value into it. Keep weaving until the top of the tree feels true.'],
+  [3, 'Deepen', 'For the values at the top of your tree, say what living them looks like. Then the support questions, once.'],
+  [4, 'Behold', 'Your values, as they emerged. Print it, export it, or go back to any stage — it is yours to keep reworking.']
+];
+
+function setStage(n) { S.stage = n; picked = null; save(); render(); }
+
+function keepToggle(word) {
+  const existing = S.entities.find((e) => e.name === word && e.base);
+  if (existing) {
+    // un-keeping removes it and pulls it out of any group
+    S.entities = S.entities.filter((e) => e.id !== existing.id)
+      .map((e) => e.composite_of ? { ...e, composite_of: e.composite_of.filter((c) => c !== existing.id) } : e);
+  } else {
+    S.entities.push({ id: uid(), name: word, base: true, sections: {} });
+  }
+  save(); render();
+}
+
+function addCustom() {
+  const input = document.getElementById('customVal');
+  const name = (input.value || '').trim();
+  if (!name) return;
+  S.entities.push({ id: uid(), name, base: true, custom: true, sections: {} });
+  input.value = '';
+  save(); render();
+}
+
+function tapCard(id) {
+  const target = byId(id);
+  if (!target) return;
+  if (!picked) { picked = id; render(); return; }
+  if (picked === id) { picked = null; render(); return; }
+  const dragged = byId(picked);
+  // refuse dropping a group into its own descendant
+  const inTree = (rootId, maybe) => {
+    const kids = (byId(rootId) || {}).composite_of || [];
+    return kids.includes(maybe) || kids.some((k) => inTree(k, maybe));
+  };
+  if (inTree(picked, id)) { picked = null; render(); return; }
+  const targetWasGroup = isGroup(target);
+  // leave wherever it was (rebuilds entities — re-look-up anything after this)
+  S.entities = S.entities.map((e) => e.composite_of
+    ? { ...e, composite_of: e.composite_of.filter((c) => c !== picked) } : e);
+  if (targetWasGroup) {
+    const fresh = byId(id);
+    fresh.composite_of = [...(fresh.composite_of || []), picked];
+  } else {
+    const name = prompt('These two share something. Name the value that emerges from them:');
+    if (name === null) { picked = null; render(); return; }
+    const g = { id: uid(), name: name.trim() || 'Unnamed', sections: {}, composite_of: [id, picked] };
+    S.entities.splice(S.entities.findIndex((e) => e.id === id), 0, g);
+  }
+  picked = null; save(); render();
+}
+
+function ungroup(id, ev) { ev.stopPropagation();
+  S.entities = S.entities.map((e) => e.composite_of
+    ? { ...e, composite_of: e.composite_of.filter((c) => c !== id) } : e);
+  // dissolve empty groups
+  S.entities = S.entities.filter((e) => e.base || (e.composite_of || []).length > 0);
+  save(); render();
+}
+function renameEntity(id, ev) { ev.stopPropagation();
+  const e = byId(id); if (!e) return;
+  const name = prompt('Rename:', e.name);
+  if (name !== null && name.trim()) { e.name = name.trim(); save(); render(); }
+}
+
+function esc(s){const d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+
+function renderWeaveNode(e, depth) {
+  const kids = (e.composite_of || []).map(byId).filter(Boolean);
+  const sel = picked === e.id ? ' selected' : '';
+  const cls = isGroup(e) ? ' group' : '';
+  let html = `<div class="val-card${cls}${sel}" onclick="tapCard('${e.id}')">`
+    + `<span>${esc(e.name)}</span>`
+    + (isGroup(e) ? `<span class="tag">emergent · ${kids.length}</span>` : '')
+    + `<span class="spacer"></span>`
+    + `<button onclick="renameEntity('${e.id}',event)" title="Rename">✎</button>`
+    + (parentOf(e.id) ? `<button onclick="ungroup('${e.id}',event)" title="Take out of group">⤴</button>` : '')
+    + `</div>`;
+  if (kids.length) html += `<div class="nest">${kids.map((k) => renderWeaveNode(k, depth + 1)).join('')}</div>`;
+  return html;
+}
+
+function renderTreeNode(e) {
+  const kids = (e.composite_of || []).map(byId).filter(Boolean);
+  const answers = QUESTIONS.map(([k, q]) => (e.sections || {})[k]
+    ? `• ${(e.sections)[k]}` : '').filter(Boolean).join('\n');
+  return `<div class="tree-node${parentOf(e.id) ? '' : ' root'}">`
+    + `<span class="nm${isGroup(e) ? ' em' : ''}">${esc(e.name)}</span>`
+    + (answers ? `<div class="tree-answers">${esc(answers)}</div>` : '')
+    + kids.map(renderTreeNode).join('')
+    + `</div>`;
+}
+
+function setSection(id, key, el) { const e = byId(id); if (e) { e.sections = e.sections || {}; e.sections[key] = el.value; save(); } }
+function setSupport(key, el) { S.support[key] = el.value; save(); }
+
+function render() {
+  document.getElementById('stages').innerHTML = STAGES.map(([n, label]) =>
+    `<button class="stage-btn${S.stage === n ? ' active' : ''}" onclick="setStage(${n})">${n} · ${label}</button>`).join('');
+  document.getElementById('stageHint').textContent = STAGES[S.stage - 1][2];
+  const body = document.getElementById('stageBody');
+
+  if (S.stage === 1) {
+    const keptNames = new Set(S.entities.filter((e) => e.base && !e.custom).map((e) => e.name));
+    body.innerHTML =
+      `<p class="keep-count">${S.entities.filter((e) => e.base).length} kept</p>`
+      + `<div class="chip-grid">${VALUE_WORDS.map((w) =>
+          `<button class="chip${keptNames.has(w) ? ' kept' : ''}" onclick="keepToggle('${w.replace(/'/g, "\\'")}')">${w}</button>`).join('')}</div>`
+      + `<div class="addrow"><input id="customVal" placeholder="Write your own…" onkeydown="if(event.key==='Enter')addCustom()">`
+      + `<button class="btn ghost" onclick="addCustom()">Add</button></div>`
+      + (S.entities.filter((e) => e.custom).length
+          ? `<div class="chip-grid">${S.entities.filter((e) => e.custom).map((e) =>
+              `<button class="chip kept" onclick="keepToggle('${e.name.replace(/'/g, "\\'")}')" title="Tap to remove">${esc(e.name)}</button>`).join('')}</div>` : '')
+      + `<div style="text-align:center"><button class="btn" onclick="setStage(2)">Weave these →</button></div>`;
+  } else if (S.stage === 2) {
+    const p = picked ? byId(picked) : null;
+    body.innerHTML =
+      `<div class="picked-banner${p ? ' on' : ''}"><span>Holding <b>${p ? esc(p.name) : ''}</b> — tap another value to weave them, tap a gold group to place it there, or tap it again to put it down.</span></div>`
+      + `<div class="board">${roots().map((e) => renderWeaveNode(e, 0)).join('')
+          || '<p class="stage-hint">Nothing kept yet — go back to Choose.</p>'}</div>`;
+  } else if (S.stage === 3) {
+    const tops = roots();
+    body.innerHTML = tops.map((e) =>
+      `<div class="deep-card"><h3>${esc(e.name)}${isGroup(e) ? ' <span style="color:var(--gold);font-size:12px">emergent</span>' : ''}</h3>`
+      + QUESTIONS.map(([k, q]) =>
+          `<label>${q}</label><textarea oninput="setSection('${e.id}','${k}',this)">${esc((e.sections || {})[k] || '')}</textarea>`).join('')
+      + `</div>`).join('')
+      + `<div class="deep-card"><h3>For all of them, once</h3>`
+      + SUPPORT.map(([k, q]) =>
+          `<label>${q}</label><textarea oninput="setSupport('${k}',this)">${esc(S.support[k] || '')}</textarea>`).join('')
+      + `</div>`;
+  } else {
+    body.innerHTML = `<div class="board">${roots().map(renderTreeNode).join('') || '<p class="stage-hint">Nothing yet.</p>'}</div>`
+      + (Object.values(S.support).some(Boolean)
+          ? `<div class="deep-card"><h3>Support</h3>${SUPPORT.map(([k, q]) => S.support[k]
+              ? `<label>${q}</label><p class="tree-answers">${esc(S.support[k])}</p>` : '').join('')}</div>` : '');
+  }
+}
+
+document.getElementById('exportBtn').addEventListener('click', () => {
+  const grammar = {
+    name: 'My values (Living Into Values)',
+    grammar_type: 'custom',
+    description: 'Personal values woven with the Living Into Values practice on repatterning.recursive.eco. Inspired by Brené Brown; questions paraphrased.',
+    items: S.entities.map((e, i) => ({
+      id: e.id, name: e.name, category: 'Values', sort_order: i,
+      sections: Object.fromEntries(Object.entries(e.sections || {}).filter(([, v]) => v)),
+      ...(isGroup(e) ? { composite_of: e.composite_of } : {}),
+    })),
+    metadata: { support_answers: S.support },
+  };
+  const blob = new Blob([JSON.stringify(grammar, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'my-values.grammar.json';
+  a.click();
+});
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if (confirm('Erase everything and start over?')) { S = { stage: 1, entities: [], support: {} }; save(); render(); }
+});
+render();
+</script>
+<script src="../site-footer.js?v=3"></script>
+</body>
+</html>
