@@ -76,7 +76,23 @@ into your own tree. The grouping IS the cultural layer.
 - Optional cosmetics: rows tinted by `category` — nice-to-have after the
   structural layer, not instead of it.
 
-## 5. Sequencing
+## 5. Collective weaving + repatterning-native viewing (builder, Sep 3)
+
+- **Invite people into HER grammar, not only a V0 fork.** The eco community
+  flow already covers it: publish her values grammar with
+  `open_to_community: true` — anyone signed in self-adds as Editor and
+  proposes edits, she reviews and merges; forks remain for people who want a
+  private practice. Like spreads, the WEAVING itself becomes a collective
+  artifact. Zero new code; her publish call.
+- **Repatterning-native item detail:** practice entries should open inside
+  this site's own viewer chassis (the way the tarot repo opens cards) —
+  needs the values/needs grammars public, then it's the existing
+  `?src=`/viewer pattern. Follow-up build.
+- **Editing FROM repatterning:** if cross-site editing proves heavy, ship a
+  "How to edit this" guide/course instead (open in eco's Emerge/Play, or ask
+  the assistant) — the eco fork/collaboration flow does the real work.
+
+## 6. Sequencing
 
 - **I1 (small):** "Talk this through" button on Living Into Values +
   NVC — injects launcher + passes context. 1 session, MEDIUM-HIGH
