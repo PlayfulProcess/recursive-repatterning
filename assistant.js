@@ -57,7 +57,7 @@
   }
 
   var s = document.createElement('script');
-  s.src = 'https://recursive.eco/js/assistant-launcher.js';
+  s.src = 'https://recursive.eco/js/assistant-launcher.js?v=2'; // v=2: visualViewport sync (mobile clipping fix)
   s.defer = true;
   s.onload = function () {
     if (!window.RecursiveAssistant) return;
