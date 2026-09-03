@@ -4,7 +4,7 @@
   {
    "id": "living-into-values",
    "title": "Living Into Values",
-   "blurb": "Choose the values that resonate, weave them until higher values emerge as a tree, then say what living them looks like. Inspired by Brené Brown's Living Into Our Values (paraphrased). Self-guided, no AI, saved in your browser only.",
+   "blurb": "Choose the values that resonate, weave them until higher values emerge as a tree, then say what living them looks like. Inspired by Brené Brown's Living Into Our Values (paraphrased). Self-guided, saved in your browser only.",
    "schools": [],
    "needs_ai": false,
    "needs_auth": false
@@ -12,7 +12,7 @@
   {
    "id": "nvc-journaling",
    "title": "NVC Journaling",
-   "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, no AI, nothing saved.",
+   "blurb": "A four-column self-empathy walk — what I feel and need, what I imagine you feel and need. Self-guided, nothing saved.",
    "schools": [
     "nvc-needs"
    ],

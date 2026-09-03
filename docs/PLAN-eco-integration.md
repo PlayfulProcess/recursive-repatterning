@@ -11,16 +11,17 @@ user wrote to the recursive.eco assistant for a real conversation, (2) save
 their results as grammars, and (3) lean on /emerge for structure-editing —
 while the site keeps its soul (light, quiet, no forced AI).
 
-## 1. The assistant on every page — with the AI-free promise kept
+## 1. The assistant on every page — DONE (Sep 3)
 
-`assistant.js` already runs on content pages; the tools deliberately omit it
-("self-guided, no AI"). Resolution: the assistant becomes available on tool
-pages as an **explicit invitation, not a resident** — a quiet "Talk this
-through with the assistant" button at the END of a practice. Nothing loads
-until tapped; the promise text changes from "no AI" to "no AI unless you ask
-for it". Mobile launcher clipping: FIXED in eco's assistant-launcher.js
-(visualViewport sync, Sep 2) — verify on the builder's phone after the
-landing deploy; the `?v=` on the injector here is bumped to bust caches.
+The AI-free promise is retired (builder's call, Sep 3: "let's not claim no
+AI anymore"). `assistant.js` now loads on the tool pages too (NVC journaling
++ Living Into Values); copy rewritten — the privacy claim that survives is
+the true one: nothing you type reaches the assistant unless you bring it
+there. The "Talk this through" handoff button (§2) remains the next build:
+presence is done, context-passing is not. Mobile launcher clipping: the
+visualViewport fix lives on eco branch `claude/ai-101-course`; prod
+`recursive.eco/js/assistant-launcher.js` updates AT MERGE — until then the
+builder's phone will still show the old launcher.
 
 ## 2. Tool → assistant handoff (the NVC upgrade, generalized)
 
