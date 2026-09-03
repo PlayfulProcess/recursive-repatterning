@@ -150,6 +150,19 @@ function keepToggle(word) {
   save(); render();
 }
 
+function keepAll() {
+  const have = new Set(S.entities.filter((e) => e.base && !e.custom).map((e) => e.name));
+  VALUE_WORDS.forEach((w) => { if (!have.has(w)) S.entities.push({ id: uid(), name: w, base: true, sections: {} }); });
+  save(); render();
+}
+function keepNone() {
+  const gone = new Set(S.entities.filter((e) => e.base && !e.custom).map((e) => e.id));
+  S.entities = S.entities.filter((e) => !gone.has(e.id))
+    .map((e) => e.composite_of ? { ...e, composite_of: e.composite_of.filter((c) => !gone.has(c)) } : e)
+    .filter((e) => e.base || (e.composite_of || []).length > 0);
+  save(); render();
+}
+
 function addCustom() {
   const input = document.getElementById('customVal');
   const name = (input.value || '').trim();
@@ -240,7 +253,9 @@ function render() {
   if (S.stage === 1) {
     const keptNames = new Set(S.entities.filter((e) => e.base && !e.custom).map((e) => e.name));
     body.innerHTML =
-      `<p class="keep-count">${S.entities.filter((e) => e.base).length} kept</p>`
+      `<p class="keep-count">${S.entities.filter((e) => e.base).length} kept · `
+      + `<a href="#" onclick="keepAll();return false" style="color:var(--gold)">select all</a> · `
+      + `<a href="#" onclick="keepNone();return false" style="color:var(--gold)">clear</a></p>`
       + `<div class="chip-grid">${VALUE_WORDS.map((w) =>
           `<button class="chip${keptNames.has(w) ? ' kept' : ''}" onclick="keepToggle('${w.replace(/'/g, "\\'")}')">${w}</button>`).join('')}</div>`
       + `<div class="addrow"><input id="customVal" placeholder="Write your own…" onkeydown="if(event.key==='Enter')addCustom()">`
