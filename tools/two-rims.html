@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../theme.css?v=6">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two Rims · Recursive Repatterning</title>
+<meta name="description" content="A nine-step walk through a working model of a couple — one dial at a time. Guess before each reveal, then move the dial yourself. Psychoeducational, not clinical: nothing is measured, scored, or saved anywhere but your own browser.">
+<link rel="icon" type="image/svg+xml" href="../public/favicon.svg?v=2">
+<link rel="stylesheet" href="../style.css?v=5">
+<script src="../assistant.js" defer></script>
+<style>
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px 90px}
+  .intro{margin:34px 0 10px}
+  .intro h1{font-family:var(--serif-display,Georgia,serif);font-size:clamp(30px,6vw,46px);
+    line-height:1.06;margin:0 0 12px;font-weight:600}
+  .intro .sub{font-family:var(--serif-body,Georgia,serif);font-size:1.06rem;color:var(--ink-soft,#555);
+    line-height:1.6;max-width:60ch;margin:0 0 14px}
+  .floor{border:1px solid var(--line-soft,#ddd);border-left:3px solid var(--gold,#b8860b);
+    background:var(--panel2,#fafafa);padding:13px 16px;font-family:var(--sans,system-ui);
+    font-size:.86rem;color:var(--ink-soft,#555);line-height:1.6;margin:18px 0 6px}
+
+  /* progress */
+  .prog{position:sticky;top:0;z-index:20;background:var(--surface,#fff);
+    border-bottom:1px solid var(--line-soft,#ddd);padding:10px 0 9px;margin-bottom:8px}
+  .prog .bar{height:4px;background:var(--line-soft,#e4e4e4);border-radius:2px;overflow:hidden}
+  .prog .fill{height:100%;background:var(--gold,#b8860b);width:0;transition:width .35s ease}
+  .prog .lbl{font-family:var(--sans,system-ui);font-size:11px;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--mut,#888);margin-top:6px;display:flex;
+    justify-content:space-between;gap:10px}
+
+  /* lesson */
+  .lesson{border:1px solid var(--line-soft,#ddd);background:var(--surface,#fff);
+    padding:22px 22px 24px;margin:20px 0}
+  .lesson.locked{opacity:.4;pointer-events:none}
+  .lesson.locked .body{display:none}
+  .lnum{font-family:var(--sans,system-ui);font-size:11px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--gold,#b8860b);margin:0 0 5px;font-weight:600}
+  .lesson h2{font-family:var(--serif-display,Georgia,serif);font-size:1.5rem;margin:0 0 10px;
+    font-weight:600;line-height:1.2}
+  .framing{font-family:var(--serif-body,Georgia,serif);font-size:1rem;line-height:1.65;
+    color:var(--ink,#222);margin:0 0 16px;max-width:62ch}
+
+  /* the gate */
+  .gate{border:1px dashed var(--gold,#b8860b);background:var(--panel2,#fafafa);padding:15px 16px;margin:0 0 4px}
+  .gate .q{font-family:var(--sans,system-ui);font-weight:600;font-size:.94rem;margin:0 0 11px;line-height:1.45}
+  .gate .why{font-family:var(--sans,system-ui);font-size:11px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--mut,#888);margin:0 0 10px}
+  .opt{display:block;width:100%;text-align:left;font-family:var(--serif-body,Georgia,serif);
+    font-size:.95rem;line-height:1.5;padding:10px 13px;margin-bottom:7px;cursor:pointer;
+    background:var(--surface,#fff);border:1px solid var(--line-soft,#ddd);color:inherit}
+  .opt:hover{border-color:var(--gold,#b8860b)}
+  .opt:disabled{cursor:default}
+  .opt.picked{border-color:var(--gold,#b8860b);border-width:2px;font-weight:600}
+  .opt.right{border-color:#2f7d5d;background:rgba(47,125,93,.09)}
+  .opt.wrong{border-color:#a8453a;background:rgba(168,69,58,.07)}
+  .opt .mark{font-family:var(--sans,system-ui);font-size:.8rem;font-weight:700;margin-right:7px}
+
+  .verdict{font-family:var(--serif-body,Georgia,serif);font-size:.97rem;line-height:1.65;
+    padding:13px 15px;margin:12px 0 0;border-left:3px solid var(--gold,#b8860b);
+    background:var(--panel2,#fafafa)}
+  .verdict .head{font-family:var(--sans,system-ui);font-size:11px;letter-spacing:.11em;
+    text-transform:uppercase;font-weight:600;display:block;margin-bottom:6px;color:var(--gold,#b8860b)}
+
+  .body{margin-top:16px}
+  .simwrap{border:1px solid var(--line-soft,#ddd);padding:12px;background:var(--panel2,#fafafa)}
+  canvas{display:block;width:100%;height:auto}
+  .readout{font-family:var(--sans,system-ui);font-size:12px;color:var(--mut,#888);
+    font-variant-numeric:tabular-nums;margin:0 0 8px;min-height:16px}
+  .dial{margin-top:12px}
+  .dial label{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+    font-family:var(--sans,system-ui);font-size:.84rem;color:var(--ink-soft,#555);margin-bottom:4px}
+  .dial label b{font-variant-numeric:tabular-nums;color:var(--ink,#222)}
+  input[type=range]{width:100%;accent-color:var(--gold,#b8860b);margin:0}
+  .nudge{font-family:var(--sans,system-ui);font-size:.8rem;color:var(--mut,#888);
+    margin:7px 0 0;line-height:1.5;font-style:italic}
+
+  .tuesday{margin-top:16px;border-top:1px solid var(--line-soft,#ddd);padding-top:14px}
+  .tuesday .head{font-family:var(--sans,system-ui);font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--mut,#888);font-weight:600;display:block;margin-bottom:7px}
+  .tuesday p{font-family:var(--serif-body,Georgia,serif);font-size:1rem;line-height:1.65;
+    margin:0;max-width:60ch}
+
+  .next{margin-top:18px}
+  button.go{font-family:var(--sans,system-ui);font-size:.88rem;font-weight:600;padding:9px 18px;
+    background:var(--gold,#b8860b);color:#fff;border:none;cursor:pointer}
+  button.go:hover{filter:brightness(1.08)}
+  button.ghost{font-family:var(--sans,system-ui);font-size:.84rem;padding:8px 14px;
+    background:transparent;border:1px solid var(--line-soft,#ddd);color:inherit;cursor:pointer}
+  button.ghost:hover{border-color:var(--gold,#b8860b)}
+
+  textarea{width:100%;min-height:74px;font-family:var(--serif-body,Georgia,serif);font-size:.95rem;
+    padding:10px;border:1px solid var(--line-soft,#ddd);background:var(--surface,#fff);
+    color:inherit;line-height:1.55;resize:vertical}
+
+  .score{border:1px solid var(--gold,#b8860b);background:var(--panel2,#fafafa);padding:22px;margin:24px 0}
+  .score h2{font-family:var(--serif-display,Georgia,serif);margin:0 0 10px;font-size:1.5rem}
+  .score .big{font-family:var(--sans,system-ui);font-size:2.6rem;font-weight:700;
+    font-variant-numeric:tabular-nums;line-height:1;margin:8px 0 4px}
+  .score ol{font-family:var(--serif-body,Georgia,serif);font-size:.93rem;line-height:1.6;
+    padding-left:20px;margin:14px 0 0}
+  .score li{margin-bottom:5px}
+
+  table.cannot{border-collapse:collapse;width:100%;margin:16px 0;font-size:.9rem}
+  table.cannot th,table.cannot td{text-align:left;padding:8px 10px;
+    border-bottom:1px solid var(--line-soft,#ddd);vertical-align:top}
+  table.cannot th{font-family:var(--sans,system-ui);font-size:10.5px;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--gold,#b8860b);font-weight:600}
+  table.cannot td{font-family:var(--serif-body,Georgia,serif);line-height:1.55}
+
+  .srcs{font-family:var(--sans,system-ui);font-size:.82rem;color:var(--mut,#888);line-height:1.7}
+  .srcs a{color:var(--gold,#b8860b)}
+
+  @media print{
+    .prog,.gate,.dial,.next,site-header,site-footer,.simwrap,button{display:none !important}
+    .lesson.locked{opacity:1}
+    .lesson.locked .body{display:block}
+  }
+</style>
+</head>
+<body>
+<script src="../site-header.js?v=53"></script>
+<site-header active="practices"></site-header>
+
+<div class="wrap">
+
+<div class="intro">
+  <h1>Two Rims</h1>
+  <p class="sub">A working model of a couple, one dial at a time. Nine steps. Each one asks
+  you to <strong>guess before it shows you</strong> — because a guess you have committed to
+  is the only way to find out what you actually believed.</p>
+  <p class="sub">By the end you will have moved every dial yourself, and you will know why
+  a model can explain a marriage beautifully and still not predict one.</p>
+  <div class="floor">
+    <strong>What this is and isn't.</strong> This is psychoeducational, not clinical. The
+    model has never met anyone. It cannot tell you anything about your relationship, it does
+    not measure or score you, and nothing you type here leaves your browser. The two people
+    in it are called <strong>A</strong> and <strong>B</strong> — not husband and wife, and
+    not you.
+  </div>
+</div>
+
+<div class="prog">
+  <div class="bar"><div class="fill" id="fill"></div></div>
+  <div class="lbl"><span id="progTxt">Step 1 of 9</span><span id="callTxt">called 0 of 0</span></div>
+</div>
+
+<div id="lessons"></div>
+
+<div id="ending" style="display:none">
+  <div class="score">
+    <h2>What you called</h2>
+    <div class="big" id="finalScore">—</div>
+    <p style="font-family:var(--serif-body,Georgia,serif);margin:0 0 4px" id="finalNote"></p>
+    <ol id="finalList"></ol>
+    <div style="margin-top:18px;display:flex;gap:8px;flex-wrap:wrap">
+      <button class="ghost" onclick="window.print()">Print this</button>
+      <button class="ghost" id="againBtn">Start over</button>
+    </div>
+  </div>
+
+  <h2 style="font-family:var(--serif-display,Georgia,serif);font-size:1.5rem;margin:30px 0 8px">
+    What this model cannot tell you</h2>
+  <table class="cannot">
+    <tr><th>It looks like</th><th>It is actually</th></tr>
+    <tr><td>A prediction about a relationship</td>
+        <td>A shape with dials. Step 8 is the proof: the gap between explaining and
+        predicting is the future's new information, not a shortfall in the instrument.</td></tr>
+    <tr><td>Gottman's model</td>
+        <td>The published <em>form</em> of it. The constants here are illustrative, not the
+        fitted ones from any study, and no real couple is in this page.</td></tr>
+    <tr><td>Evidence about couples</td>
+        <td>Evidence about <em>the model</em>. A simulation can show a story is coherent and
+        generate hypotheses. It cannot make a claim about people true.</td></tr>
+    <tr><td>A reason to distrust the research</td>
+        <td>A reason to read the numbers correctly. The 94% and the 29% are honest answers
+        to two different questions.</td></tr>
+  </table>
+
+  <p style="font-family:var(--serif-body,Georgia,serif);line-height:1.65;max-width:62ch">
+  One more thing worth carrying out of here. The pattern that survives <em>across</em> the
+  competing models — not any of their origin stories — is <strong>demand/withdraw</strong>:
+  one partner pressing while the other pulls back, at around <em>r</em> = .36 with
+  dissatisfaction. The schools disagree about why couples hurt. They agree remarkably well
+  about what it looks like.</p>
+
+  <p class="srcs" style="margin-top:26px">
+  <strong>Sources.</strong>
+  Gottman, Murray, Swanson, Tyson &amp; Swanson (2002), <em>The Mathematics of Marriage</em>, MIT Press ·
+  Buehlman, Gottman &amp; Katz (1992), <em>J Fam Psychol</em> 5, 295–318 (the 94%, on 52 couples) ·
+  Heyman &amp; Smith Slep (2001), <em>J Marriage Fam</em> 63, 473–479 (the 29%) ·
+  Schrodt, Witt &amp; Shimkowski (2014), <em>Communication Monographs</em> 81, 28–58 ·
+  Gode &amp; Sunder (1993), <em>J Polit Econ</em> 101, 119–137.<br><br>
+  The full model, with every dial exposed at once and its calibration failures logged:
+  <a href="https://playfulprocess.github.io/emergence-lab/models/dyad-lab.html">The Dyad Lab</a>.
+  Related practices here: <a href="nvc-journaling.html">NVC Journaling</a> ·
+  <a href="living-into-values.html">Living Into Values</a>.
+  </p>
+</div>
+
+</div>
+
+<script src="../site-footer.js?v=3"></script>
+<site-footer base="../"></site-footer>
+
+<script>
+(function(){
+"use strict";
+
+/* ============ the model (same form as the Dyad Lab) ============ */
+var RANGE=4, SAT=2.2;
+function clamp(x,a,b){return x<a?a:(x>b?b:x);}
+function influence(x,p){
+  var v;
+  if(x>=p.thr) v=p.pos*x;
+  else v=p.pos*p.thr + p.neg*(x-p.thr);
+  if(x<p.thr) v+=p.repair;
+  if(x>1.0)   v-=p.damp*(x-1.0);
+  return clamp(v,-SAT,SAT);
+}
+function base(){return {inertia:.55,baseA:.30,baseB:.10,pos:.45,neg:1.10,thr:-.60,repair:.35,damp:.15};}
+function run(p,opts){
+  opts=opts||{};
+  var a=opts.a0!==undefined?opts.a0:.05, b=opts.b0!==undefined?opts.b0:-.05;
+  var n=opts.n||60, coupled=opts.coupled!==false, out=[[],[]];
+  var knock=opts.knockAt;
+  for(var t=0;t<n;t++){
+    var ia=coupled?influence(b,p):0, ib=coupled?influence(a,p):0;
+    var na=p.inertia*a+p.baseA+ia, nb=p.inertia*b+p.baseB+ib;
+    if(knock!==undefined&&t===knock){
+      na+=(opts.knockA!==undefined?opts.knockA:-2.2);
+      nb+=(opts.knockB!==undefined?opts.knockB:-0.2);
+    }
+    a=clamp(na,-RANGE,RANGE); b=clamp(nb,-RANGE,RANGE);
+    out[0].push(a); out[1].push(b);
+  }
+  return out;
+}
+function rest(p,which){ return clamp((which==="A"?p.baseA:p.baseB)/(1-p.inertia),-RANGE,RANGE); }
+
+/* population (compact, seeded) */
+function mulberry(s){return function(){s|=0;s=s+0x6D2B79F5|0;var t=Math.imul(s^s>>>15,1|s);
+  t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+function gauss(r){var u=1-r(),v=r();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);}
+
+function population(cfg){
+  var N=240, T=50, PEEK=15, TARGET=cfg.baseRate, life=cfg.life;
+  var climate=0, res=null;
+  for(var it=0;it<24;it++){
+    res=sim(climate);
+    if(Math.abs(res.rate-TARGET)<.006) break;
+    climate=clamp(climate+(TARGET-res.rate)*1.6,-2.5,2.5);
+  }
+  function sim(cl){
+    var r=mulberry(987654), cs=[], sep=0;
+    for(var i=0;i<N;i++){
+      var p=base();
+      p.baseA+=.55*gauss(r)-cl; p.baseB+=.55*gauss(r)-cl;
+      p.neg=Math.max(0,p.neg+.35*gauss(r)); p.thr=clamp(p.thr+.30*gauss(r),-2.5,0);
+      var a=.6+.4*gauss(r), b=.6+.4*gauss(r), dA=0,dB=0, whole=0, early=0, tail=0;
+      for(var t=0;t<T;t++){
+        dA+=life*.075*gauss(r); dB+=life*.075*gauss(r);
+        var na=p.inertia*a+p.baseA+dA+influence(b,p)+.55*gauss(r);
+        var nb=p.inertia*b+p.baseB+dB+influence(a,p)+.55*gauss(r);
+        a=clamp(na,-RANGE,RANGE); b=clamp(nb,-RANGE,RANGE);
+        var m=(a+b)/2; whole+=m;
+        if(t<PEEK) early+=m;
+        if(t>=T-15) tail+=m;
+      }
+      var separated=(tail/15)<-.35; if(separated) sep++;
+      cs.push({whole:whole/T, early:early/PEEK, separated:separated});
+    }
+    return {rate:sep/N, cs:cs};
+  }
+  var cs=res.cs;
+  /* calibrate at 80% sensitivity, NOT by maximising accuracy — see the lab's log */
+  function thrAt(list,key){
+    var pos=list.filter(function(c){return c.separated;}).map(function(c){return c[key];})
+                .sort(function(x,y){return x-y;});
+    if(!pos.length) return -RANGE;
+    return pos[clamp(Math.floor(.80*pos.length),0,pos.length-1)];
+  }
+  function sc(list,key,thr){
+    var tp=0,fp=0,tn=0,fn=0;
+    list.forEach(function(c){var q=c[key]<thr;
+      if(q&&c.separated)tp++;else if(q&&!c.separated)fp++;else if(!q&&!c.separated)tn++;else fn++;});
+    return {acc:(tp+tn)/list.length, ppv:(tp+fp)?tp/(tp+fp):0, tp:tp, flagged:tp+fp};
+  }
+  var backS=sc(cs,"whole",thrAt(cs,"whole"));
+  var tr=cs.filter(function(_,i){return i%2===0;}), te=cs.filter(function(_,i){return i%2===1;});
+  var fwdS=sc(te,"early",thrAt(tr,"early"));
+  return {rate:res.rate, back:backS, fwd:fwdS};
+}
+
+/* ============ drawing ============ */
+function ctx(cv){
+  var dpr=window.devicePixelRatio||1, w=cv.clientWidth||600, h=Math.round(w*(cv.dataset.ar||0.42));
+  cv.width=Math.round(w*dpr); cv.height=Math.round(h*dpr); cv.style.height=h+"px";
+  var g=cv.getContext("2d"); g.setTransform(dpr,0,0,dpr,0,0); g.clearRect(0,0,w,h);
+  return {g:g,w:w,h:h};
+}
+function css(v,f){var x=getComputedStyle(document.documentElement).getPropertyValue(v).trim();return x||f;}
+var C={A:"#3a6ea5",B:"#a8453a",ok:"#2f7d5d",warn:"#b8860b",mut:"#9a9a9a"};
+
+function lineChart(cv,series,opt){
+  opt=opt||{}; var c=ctx(cv), g=c.g, W=c.w, H=c.h;
+  var x0=34,x1=W-8,y0=10,y1=H-20;
+  function py(v){return y1-(v+RANGE)/(2*RANGE)*(y1-y0);}
+  function px(i,n){return x0+(x1-x0)*i/Math.max(1,n-1);}
+  g.strokeStyle=css("--line-soft","#e0e0e0"); g.lineWidth=1;
+  g.beginPath(); g.moveTo(x0,py(0)); g.lineTo(x1,py(0)); g.stroke();
+  g.fillStyle=C.mut; g.font='10px system-ui';
+  g.fillText("warm",2,py(2.6)); g.fillText("cold",2,py(-2.4)); g.fillText("0",20,py(0)-3);
+  (opt.guides||[]).forEach(function(gd){
+    g.strokeStyle=gd.color||C.mut; g.setLineDash([3,3]); g.lineWidth=1;
+    g.beginPath(); g.moveTo(x0,py(gd.v)); g.lineTo(x1,py(gd.v)); g.stroke(); g.setLineDash([]);
+    if(gd.label){g.fillStyle=gd.color||C.mut; g.fillText(gd.label,x1-g.measureText(gd.label).width-2,py(gd.v)-4);}
+  });
+  if(opt.knockAt!==undefined){
+    g.strokeStyle=C.warn; g.globalAlpha=.5; g.setLineDash([2,3]);
+    var kx=px(opt.knockAt,series[0].data.length);
+    g.beginPath(); g.moveTo(kx,y0); g.lineTo(kx,y1); g.stroke();
+    g.setLineDash([]); g.globalAlpha=1;
+    g.fillStyle=C.warn; g.fillText("knock",kx+3,y0+10);
+  }
+  series.forEach(function(s){
+    g.strokeStyle=s.color; g.lineWidth=s.w||1.9; g.globalAlpha=s.alpha||1;
+    if(s.dash) g.setLineDash(s.dash);
+    g.beginPath();
+    s.data.forEach(function(v,i){var X=px(i,s.data.length),Y=py(v); i?g.lineTo(X,Y):g.moveTo(X,Y);});
+    g.stroke(); g.setLineDash([]); g.globalAlpha=1;
+  });
+}
+
+function barChart(cv,bars){
+  var c=ctx(cv), g=c.g, W=c.w, H=c.h;
+  var x0=12,x1=W-12,y0=22,y1=H-26, n=bars.length, bw=(x1-x0)/n*0.52;
+  bars.forEach(function(b,i){
+    var cx=x0+(x1-x0)*(i+0.5)/n, h=(b.v)*(y1-y0);
+    g.fillStyle=b.color; g.fillRect(cx-bw/2,y1-h,bw,h);
+    g.fillStyle=css("--ink","#222"); g.font='600 15px system-ui'; g.textAlign="center";
+    g.fillText(Math.round(b.v*100)+"%",cx,y1-h-7);
+    g.fillStyle=C.mut; g.font='10.5px system-ui';
+    var words=b.label.split("\n");
+    words.forEach(function(w,k){ g.fillText(w,cx,y1+13+k*12); });
+    g.textAlign="left";
+  });
+  g.strokeStyle=css("--line-soft","#e0e0e0"); g.beginPath(); g.moveTo(x0,y1); g.lineTo(x1,y1); g.stroke();
+}
+
+/* ============ the nine steps ============ */
+var LESSONS=[
+{
+  n:"Step one", title:"How long a bad moment gets to stay",
+  framing:"One person, alone in the room — nobody to react to yet. At the tenth turn something knocks their mood down hard. Everything about them is fixed except one thing: how much of each turn carries into the next.",
+  q:"With inertia set high, after the knock the line will…",
+  opts:[
+    {t:"snap back within a turn or two"},
+    {t:"take many turns to climb back", ok:true},
+    {t:"never come back at all"}],
+  why:"Inertia is drag. Set the dial low and the knock is absorbed almost immediately; set it high and one bad moment is still visible twenty turns later. Nothing about the person changed — only how much each turn hands to the next.<br><br>Watch the dashed line while you drag, though, because it moves too. Inertia doesn't <em>only</em> slow the return; it also raises where the return goes, because it compounds whatever you keep coming back to. That second effect is the whole of the next step.",
+  dial:{label:"Emotional inertia",key:"inertia",min:0,max:90,init:75,scale:100},
+  nudge:"Drag it to zero, then to the top. Watch how far right the recovery reaches.",
+  sim:function(p,cv){
+    var r=run(p,{coupled:false,n:60,a0:rest(p,"A"),knockAt:10});
+    lineChart(cv,[{data:r[0],color:C.A}],{knockAt:10,
+      guides:[{v:rest(p,"A"),color:C.mut,label:"where A rests"}]});
+    return "recovery drag: "+(p.inertia<.3?"short":p.inertia<.65?"moderate":"long")+
+           " · resting tone "+rest(p,"A").toFixed(2);
+  },
+  tuesday:"How long does a bad morning get to own the afternoon? That is a number, and it is not the same number every day — sleep, food, whether anyone asked. Noticing it as a <em>setting</em> rather than a personality is most of the work."
+},
+{
+  n:"Step two", title:"Where you sit when nobody's there",
+  framing:"Still no reaching between them — two people in the same room, each drifting to their own resting tone. Gottman called this the uninfluenced steady state: where you go when the other person isn't acting on you at all.",
+  q:"If I raise Partner A's baseline to 0.30, A will settle…",
+  opts:[
+    {t:"at 0.30 — the baseline is the destination"},
+    {t:"higher than 0.30", ok:true},
+    {t:"wherever B is, roughly"}],
+  why:"The resting tone is the baseline <em>divided by</em> (1 − inertia) — so at an inertia of 0.55, a baseline of 0.30 rests at about 0.67. Inertia doesn't just slow you down, it compounds whatever you keep returning to. And it has nothing to do with B, who isn't reaching them yet. Check the dashed lines: they sit above the numbers you set.",
+  dial:{label:"Partner A's baseline",key:"baseA",min:-150,max:150,init:30,scale:100},
+  nudge:"Push A's baseline up and down. B never moves — that's the point of this step.",
+  sim:function(p,cv){
+    var r=run(p,{coupled:false,n:45,a0:0,b0:0});
+    lineChart(cv,[{data:r[0],color:C.A},{data:r[1],color:C.B}],
+      {guides:[{v:rest(p,"A"),color:C.A,label:"A rests"},{v:rest(p,"B"),color:C.B,label:"B rests"}]});
+    return "baseline A "+p.baseA.toFixed(2)+" → rests at "+rest(p,"A").toFixed(2)+
+           "   ·   baseline B "+p.baseB.toFixed(2)+" → rests at "+rest(p,"B").toFixed(2);
+  },
+  tuesday:"Some of what I feel in this room isn't about this room. The useful question is not whose fault the mood is — it is which part of my own baseline I am quietly asking this relationship to fix."
+},
+{
+  n:"Step three", title:"The third thing in the room",
+  framing:"Now let them reach each other. Nothing else changes — same baselines, same inertia. The only new thing is that each one's tone now feeds into the other's next turn.",
+  q:"With influence switched on, where does the pair settle?",
+  opts:[
+    {t:"each at their own resting tone, as before"},
+    {t:"both at the average of the two"},
+    {t:"somewhere neither resting tone predicted", ok:true}],
+  why:"The dashed lines are where each would rest alone. Turn the dial up and both solid lines leave them — together, in the same direction, to a place that belongs to the pair rather than to either person. This is the first genuinely non-obvious thing the model says: a couple is a third object, with states of its own that you cannot read off either individual.",
+  dial:{label:"How much they reach each other",key:"reach",min:0,max:130,init:100,scale:100},
+  nudge:"Slide it to zero and back. The dashed lines never move; the solid ones leave them.",
+  sim:function(p,cv){
+    var r=run(p,{n:50,a0:.05,b0:-.05});
+    lineChart(cv,[{data:r[0],color:C.A},{data:r[1],color:C.B}],
+      {guides:[{v:rest(p,"A"),color:C.A,label:"A alone"},{v:rest(p,"B"),color:C.B,label:"B alone"}]});
+    var la=r[0][r[0].length-1], lb=r[1][r[1].length-1];
+    return "alone: A "+rest(p,"A").toFixed(2)+" / B "+rest(p,"B").toFixed(2)+
+           "   →   together: A "+la.toFixed(2)+" / B "+lb.toFixed(2);
+  },
+  tuesday:"“I'm not like this on my own” is very often literally true, and it isn't an accusation of anybody. It is a description of what coupling does. Both people are right about themselves and still surprised by the pair."
+},
+{
+  n:"Step four", title:"What counts as bad enough",
+  framing:"Reaching isn't symmetrical. Warmth lands one way; coldness lands harder — but only once it passes a threshold. Above that line a dip barely registers. Below it, the steep slope takes over. This conversation opens in a low place, so the threshold actually bites. (Repair is the next step; here it is switched off, so you can see the threshold on its own.)",
+  q:"Move the threshold close to zero — a hair trigger, where almost any dip counts as the serious kind. The couple gets…",
+  opts:[
+    {t:"colder", ok:true},
+    {t:"warmer, because nothing gets missed"},
+    {t:"about the same — it's only a definition"}],
+  why:"With a hair trigger, ordinary small dips get met with the steep response, and the two of them walk each other down over perfectly ordinary material. But drag it the other way and notice the cost on that side too: let too much pass and nothing registers until it is already large. There is no free setting. The useful thing isn't finding the <em>right</em> threshold — it's knowing that two people in a room rarely have the same one.",
+  dial:{label:"Negativity threshold",key:"thr",min:-250,max:-2,init:-60,scale:100},
+  nudge:"Take it to both extremes. Both ends cost something — that's the lesson.",
+  sim:function(p,cv){
+    p.repair=0;                       /* not introduced until the next step */
+    var r=run(p,{n:50,a0:-1.0,b0:-0.6});
+    lineChart(cv,[{data:r[0],color:C.A},{data:r[1],color:C.B}],
+      {guides:[{v:p.thr,color:C.warn,label:"threshold"}]});
+    var la=(r[0][49]+r[1][49])/2;
+    return "threshold "+p.thr.toFixed(2)+"   ·   from the same cold opening they end around "+
+           la.toFixed(2)+(la<-.5?"  (they sink)":la>.5?"  (they climb out)":"  (neutral)");
+  },
+  tuesday:"What counts as bad enough to react to — and when did the two of you decide that? Most couples never discover they are running different thresholds until they are already arguing about whether something was a big deal."
+},
+{
+  n:"Step five", title:"Repair is a term with a trigger",
+  framing:"Repair here is not general niceness, and that is the whole point of modelling it. It is a term that fires <em>only</em> once the other person has dropped below the threshold. Above the line it contributes nothing at all.",
+  q:"Raising repair strength does what to a couple that takes a knock?",
+  opts:[
+    {t:"stops the dip from happening"},
+    {t:"lets the dip happen, then pulls them back out", ok:true},
+    {t:"nothing, unless both partners raise it together"}],
+  why:"The knock is the same size either way — repair does not prevent it. What it governs is everything after: at zero they sit below the line for several turns, and turned up they are already climbing on the next one. Watch both numbers in the readout as you drag, because the model is more honest than the slogan: since repair fires in the very turn it is needed, it lifts the floor somewhat as well as shortening the stay. Its work is <em>after</em> the trouble, not instead of it — which is the model's version of the most durable finding in the field: what separates couples is not how much conflict they have.",
+  dial:{label:"Repair strength",key:"repair",min:0,max:150,init:35,scale:100},
+  nudge:"Set it to zero, watch the recovery, then take it high. Compare the widths, not the depths.",
+  sim:function(p,cv){
+    var r=run(p,{n:55,a0:2.3,b0:2.2,knockAt:12,knockA:-3.0,knockB:-3.0});
+    lineChart(cv,[{data:r[0],color:C.A},{data:r[1],color:C.B}],
+      {knockAt:12,guides:[{v:p.thr,color:C.warn,label:"threshold"}]});
+    var below=0, low=99;
+    r[0].forEach(function(v,i){ if(i>12){ if(v<0) below++; if(v<low) low=v; } });
+    return "repair "+p.repair.toFixed(2)+"   ·   fell to "+low.toFixed(2)+
+           "   ·   turns spent below zero afterwards: "+below;
+  },
+  tuesday:"Repair is timing, not eloquence. Early and clumsy beats late and perfect — and the model is blunt about why: the term only fires while you are still down there."
+},
+{
+  n:"Step six", title:"Same dials, two destinations",
+  framing:"This is the one worth the whole walk. Below are <strong>two conversations between the same couple</strong> — identical inertia, identical baselines, identical thresholds, identical everything. The only difference is that one opens warm and the other opens cold.",
+  q:"Same couple, same dials, different opening. They…",
+  opts:[
+    {t:"end in the same place — the dials are identical"},
+    {t:"end in two different places", ok:true},
+    {t:"both drift to neutral in the end"}],
+  why:"Past a certain coldness of reaction the shape acquires <strong>two stable states</strong> with a watershed between them. Which one a conversation lands in is decided by where it opens — not by who anybody is. Turn the dial down far enough and the second state vanishes; the two runs converge and the couple only has one place to go. The dial is doing that. Not the people.",
+  dial:{label:"How hard the cold side lands",key:"neg",min:20,max:280,init:150,scale:100},
+  nudge:"Low: the two runs converge. High: they split for good. Find the value where it flips.",
+  sim:function(p,cv){
+    var warm=run(p,{n:50,a0:1.8,b0:1.6}), cold=run(p,{n:50,a0:-1.6,b0:-1.4});
+    lineChart(cv,[
+      {data:warm[0],color:C.A},{data:warm[1],color:C.B},
+      {data:cold[0],color:C.A,dash:[4,3],alpha:.85},{data:cold[1],color:C.B,dash:[4,3],alpha:.85}]);
+    var e1=(warm[0][49]+warm[1][49])/2, e2=(cold[0][49]+cold[1][49])/2;
+    var split=Math.abs(e1-e2)>.5;
+    return "solid = opened warm, ends "+e1.toFixed(2)+"   ·   dashed = opened cold, ends "+e2.toFixed(2)+
+           "   ·   "+(split?"TWO destinations":"one destination — they converge");
+  },
+  tuesday:"“We always end up here” turns out to be a property of the shape, not a verdict on anyone's character. That sounds like fatalism and is the opposite of it: characters are hard to change, and shapes have dials."
+},
+{
+  n:"Step seven", title:"Accurate, and still wrong about you",
+  framing:"Now two hundred and forty couples at once. A model watches each one's first fifteen turns and points at the ones it thinks will end cold. It is tuned, like any real screening instrument, to catch about 80% of them.",
+  q:"If separation becomes <em>rarer</em> in the population, the model's overall accuracy and its hit-rate-when-it-points will…",
+  opts:[
+    {t:"both go down"},
+    {t:"both go up"},
+    {t:"accuracy goes up, hit-rate goes down", ok:true}],
+  why:"Nothing about the instrument changed — you only changed how common the thing is. Rarity makes “no” the safe answer, so overall accuracy <em>rises</em> while the hit-rate falls: at 55% it points at 51 couples and 43 end cold; at 5% it points at 17 and 4 do. One honest wrinkle you can see for yourself at the very bottom of the dial — accuracy stops rising and turns back down, because holding the instrument to catching 80% of a <em>rare</em> thing forces it into a lot of false alarms. The hit-rate, though, falls the entire way. This is why “the test is 90% accurate” is close to meaningless on its own, and it is the most transferable thing on this page.",
+  dial:{label:"How common separation is",key:"baseRate",min:5,max:55,init:35,scale:100,pop:true},
+  nudge:"Drag it down slowly and watch the two bars move in opposite directions.",
+  sim:function(p,cv,st){
+    var r=population({baseRate:st.baseRate,life:1.0});
+    barChart(cv,[
+      {v:r.fwd.acc,color:C.A,label:"overall\naccuracy"},
+      {v:r.fwd.ppv,color:C.B,label:"right when\nit points"},
+      {v:r.rate,color:C.mut,label:"how common\nit actually is"}]);
+    return "accuracy "+Math.round(r.fwd.acc*100)+"%   ·   right when it points "+
+           Math.round(r.fwd.ppv*100)+"%   ·   of the "+r.fwd.flagged+" couples it pointed at, "+
+           r.fwd.tp+" actually ended cold";
+  },
+  tuesday:"This is how to read any statistic about your own life. Before asking how accurate something is, ask how common the thing is. A very good test for a rare thing is wrong most of the times it speaks — and that is arithmetic, not incompetence."
+},
+{
+  n:"Step eight", title:"Why nobody can tell you how this ends",
+  framing:"Same population. Two numbers now: how well the model does <strong>looking back</strong> with each couple's whole history in hand, and how well it does <strong>looking forward</strong> at couples it has never seen. The dial is how much circumstance drifts after anyone looked — illness, work, a birth, a move.",
+  q:"Set “how much life happens after” to zero. Prediction becomes…",
+  opts:[
+    {t:"worse — there's less information"},
+    {t:"almost as good as looking back", ok:true},
+    {t:"unchanged — the model doesn't know about it"}],
+  why:"With nothing drifting afterwards the two bars nearly meet: the future holds nothing the past didn't already contain, so explaining and predicting become the same task. Every step you drag it back up is the gap being manufactured — <em>not</em> by bad science, and not by a weak instrument, but by time passing and containing news. This is where the famous 94% and the replicated 29% stop being a scandal and start being two honest answers to two different questions.",
+  dial:{label:"How much life happens after",key:"life",min:0,max:250,init:0,scale:100,pop:true},
+  nudge:"Start at zero — the bars nearly touch. Then drag right and watch them come apart.",
+  sim:function(p,cv,st){
+    var r=population({baseRate:.24,life:st.life});
+    barChart(cv,[
+      {v:r.back.acc,color:C.ok,label:"looking back\n(whole history)"},
+      {v:r.fwd.acc,color:C.A,label:"looking forward\n(never seen)"},
+      {v:r.fwd.ppv,color:C.B,label:"right when\nit points"}]);
+    var gap=Math.round((r.back.acc-r.fwd.acc)*100);
+    return "the gap between explaining and predicting: "+gap+" points";
+  },
+  tuesday:"Nobody can tell you how this ends, and the reason is not that they lack a good enough instrument. It is that the thing hasn't happened yet, and what happens will partly be made of events nothing has met."
+},
+{
+  n:"Step nine", title:"Your own run",
+  framing:"Every dial is yours now. But do the thing this whole walk has been training: <strong>write down what you expect before you move anything.</strong> Keeping a prediction where you can't quietly edit it afterwards is the entire difference between an experiment and an illustration — and it is mostly what the field under discussion did not do.",
+  q:"Last one. What is the honest reason to write the prediction down first?",
+  opts:[
+    {t:"so you can show someone else you were right"},
+    {t:"because a guess you can still edit isn't a guess", ok:true},
+    {t:"it makes the model more accurate"}],
+  why:"It does nothing to the model. It does everything to you. Without a committed prediction, whatever happens will feel like roughly what you expected — and you will have learned nothing while feeling like you learned something.",
+  free:true,
+  dial:{label:"How hard the cold side lands",key:"neg",min:20,max:280,init:110,scale:100},
+  nudge:"Write your expectation, then move the dial and find out.",
+  sim:function(p,cv){
+    var warm=run(p,{n:50,a0:1.8,b0:1.6}), cold=run(p,{n:50,a0:-1.6,b0:-1.4});
+    lineChart(cv,[
+      {data:warm[0],color:C.A},{data:warm[1],color:C.B},
+      {data:cold[0],color:C.A,dash:[4,3],alpha:.85},{data:cold[1],color:C.B,dash:[4,3],alpha:.85}]);
+    var e1=(warm[0][49]+warm[1][49])/2, e2=(cold[0][49]+cold[1][49])/2;
+    return "opened warm → "+e1.toFixed(2)+"   ·   opened cold → "+e2.toFixed(2);
+  },
+  tuesday:"Being wrong on purpose, cheaply, somewhere it costs nothing — that is what a model is for. It is also, on a good day, what a conversation is for."
+}];
+
+/* ============ state ============ */
+var KEY="two-rims-v1";
+var state={step:0, answers:[], note:""};
+try{ var raw=localStorage.getItem(KEY); if(raw) state=JSON.parse(raw); }catch(e){}
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify(state)); }catch(e){} }
+
+function build(){
+  var host=document.getElementById("lessons");
+  host.innerHTML="";
+  LESSONS.forEach(function(L,i){ host.appendChild(card(L,i)); });
+  refresh();
+}
+
+function card(L,i){
+  var el=document.createElement("section");
+  el.className="lesson"; el.id="s"+i;
+  var answered=state.answers[i]!==undefined;
+
+  var optsHtml=L.opts.map(function(o,k){
+    return '<button class="opt" data-k="'+k+'">'+
+           '<span class="mark">'+String.fromCharCode(97+k)+'</span>'+o.t+'</button>';
+  }).join("");
+
+  el.innerHTML=
+    '<p class="lnum">'+L.n+'</p>'+
+    '<h2>'+L.title+'</h2>'+
+    '<p class="framing">'+L.framing+'</p>'+
+    '<div class="gate">'+
+      '<p class="why">Commit first — then it shows you</p>'+
+      '<p class="q">'+L.q+'</p>'+ optsHtml +
+    '</div>'+
+    '<div class="body">'+
+      '<div class="verdict"><span class="head"></span><span class="vtext"></span></div>'+
+      '<div class="simwrap" style="margin-top:14px">'+
+        '<p class="readout"></p>'+
+        '<canvas data-ar="'+(L.dial&&L.dial.pop?0.38:0.42)+'"></canvas>'+
+        '<div class="dial"><label><span>'+L.dial.label+'</span><b></b></label>'+
+        '<input type="range" min="'+L.dial.min+'" max="'+L.dial.max+'" value="'+L.dial.init+'"></div>'+
+        '<p class="nudge">'+L.nudge+'</p>'+
+      '</div>'+
+      (L.free?'<div style="margin-top:14px"><label style="font-family:var(--sans,system-ui);font-size:.84rem;color:var(--mut,#888);display:block;margin-bottom:6px">Write your expectation before you move it</label><textarea placeholder="I expect that if I…"></textarea></div>':'')+
+      '<div class="tuesday"><span class="head">On a Tuesday</span><p>'+L.tuesday+'</p></div>'+
+      '<div class="next"><button class="go">'+(i===LESSONS.length-1?"See what I called":"Next step")+'</button></div>'+
+    '</div>';
+
+  /* gate */
+  var opts=el.querySelectorAll(".opt");
+  opts.forEach(function(b){
+    b.addEventListener("click",function(){
+      if(state.answers[i]!==undefined) return;
+      state.answers[i]=+b.dataset.k; save();
+      reveal(el,L,i); refresh();
+    });
+  });
+
+  /* dial */
+  var slider=el.querySelector("input[type=range]"), lab=el.querySelector(".dial b");
+  var st={};
+  st[L.dial.key]=L.dial.init/L.dial.scale;
+  function redraw(){
+    var v=(+slider.value)/L.dial.scale;
+    st[L.dial.key]=v;
+    lab.textContent = L.dial.key==="baseRate" ? Math.round(v*100)+"%" : v.toFixed(2);
+    var p=base();
+    if(L.dial.key==="reach"){ p.pos=.45*v; p.neg=1.10*v; }
+    else if(!L.dial.pop){ p[L.dial.key]=v; }
+    var txt=L.sim(p, el.querySelector("canvas"), st);
+    el.querySelector(".readout").textContent=txt||"";
+  }
+  slider.addEventListener("input",redraw);
+  el._redraw=redraw;
+
+  if(L.free){
+    var ta=el.querySelector("textarea");
+    ta.value=state.note||"";
+    ta.addEventListener("input",function(){ state.note=ta.value; save(); });
+  }
+
+  el.querySelector(".go").addEventListener("click",function(){
+    if(i===LESSONS.length-1){ finish(); }
+    else{
+      state.step=Math.max(state.step,i+1); save(); refresh();
+      var nx=document.getElementById("s"+(i+1));
+      if(nx) nx.scrollIntoView({behavior:"smooth",block:"start"});
+    }
+  });
+
+  if(answered) reveal(el,L,i);
+  return el;
+}
+
+function reveal(el,L,i){
+  var pick=state.answers[i], correct=L.opts.findIndex(function(o){return o.ok;});
+  el.querySelectorAll(".opt").forEach(function(b,k){
+    b.disabled=true;
+    if(k===pick) b.classList.add("picked");
+    if(k===correct) b.classList.add("right");
+    else if(k===pick) b.classList.add("wrong");
+  });
+  var got=pick===correct;
+  el.querySelector(".verdict .head").textContent = got?"You called it":"Not this time";
+  el.querySelector(".verdict .vtext").innerHTML = L.why;
+  if(el._redraw) el._redraw();
+}
+
+function refresh(){
+  var done=state.answers.filter(function(a){return a!==undefined;}).length;
+  var right=0;
+  LESSONS.forEach(function(L,i){
+    if(state.answers[i]!==undefined && state.answers[i]===L.opts.findIndex(function(o){return o.ok;})) right++;
+  });
+  LESSONS.forEach(function(L,i){
+    var el=document.getElementById("s"+i);
+    if(!el) return;
+    var open = i<=state.step;
+    el.classList.toggle("locked",!open);
+    if(open && state.answers[i]!==undefined && el._redraw) el._redraw();
+  });
+  var cur=Math.min(state.step+1,LESSONS.length);
+  document.getElementById("progTxt").textContent="Step "+cur+" of "+LESSONS.length;
+  document.getElementById("callTxt").textContent="called "+right+" of "+done;
+  document.getElementById("fill").style.width=(done/LESSONS.length*100)+"%";
+}
+
+function finish(){
+  var right=0, list="";
+  LESSONS.forEach(function(L,i){
+    var ok = state.answers[i]===L.opts.findIndex(function(o){return o.ok;});
+    if(ok) right++;
+    list+='<li><strong>'+(ok?"✓":"✗")+'</strong> '+L.title+'</li>';
+  });
+  document.getElementById("finalScore").textContent=right+" of "+LESSONS.length;
+  document.getElementById("finalNote").innerHTML = right>=7
+    ? "You had most of these before the model showed you. The ones you missed are the ones worth going back to — a wrong guess you committed to is the most useful thing on this page."
+    : right>=4
+    ? "Roughly half. That is a good result, and not a soft thing to say: a model that only confirmed what you already expected would not have been worth building."
+    : "Most of these surprised you. That is the best possible outcome of the walk — you now know several specific things you believed that turned out not to be how the shape behaves.";
+  document.getElementById("finalList").innerHTML=list;
+  document.getElementById("ending").style.display="block";
+  document.getElementById("ending").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+document.getElementById("againBtn").addEventListener("click",function(){
+  state={step:0,answers:[],note:""}; save();
+  document.getElementById("ending").style.display="none";
+  build();
+  window.scrollTo({top:0,behavior:"smooth"});
+});
+
+build();
+window.addEventListener("resize",function(){
+  LESSONS.forEach(function(L,i){
+    var el=document.getElementById("s"+i);
+    if(el && !el.classList.contains("locked") && el._redraw) el._redraw();
+  });
+});
+
+})();
+</script>
+
+</body>
+</html>

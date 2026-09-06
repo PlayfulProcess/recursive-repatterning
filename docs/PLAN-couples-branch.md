@@ -24,14 +24,37 @@ here that nothing else has. A **branch** gets the reach without the cost.
 
 ## What lands here
 
-1. **A course — "Two Rims", one course with two beats per lesson.** Each lesson is one dial
-   in the Dyad Lab (a *lab beat*: one aha, one under-the-hood panel) plus the same idea as a
-   question to sit with (a *life beat*, never advice). Nine lessons; the built lab already
-   supports 1–6, and 7–9 need only text. Uses the existing `course/` pipeline and
-   `pages/course-viewer.html`. Yardstick inherited from AI 101: a curious 70-year-old must
-   enjoy it.
-2. **A tool entry** in `tools/_tools.json`, beside `nvc-journaling` and
-   `living-into-values` — the bare lab with all dials exposed.
+1. ~~**A course — "Two Rims"**~~ — **BUILT: `tools/two-rims.html`**, registered in
+   `tools/_tools.json` (renders as a hosted card, first in the list).
+
+   **It shipped as a tool, not as `course/<slug>.mdx`, and that was a deliberate departure
+   from `HOW-TO-WRITE-A-COURSE.md`.** That pipeline renders prose; this course's whole
+   engagement mechanic is a live model the reader drives, which MDX through
+   `pages/course-viewer.html` cannot carry. `tools/` is already where this repo puts
+   self-guided interactives (`nvc-journaling`, `living-into-values`), so it went there.
+   The prose guardrails from that doc still applied and were followed — honesty spine,
+   no overclaiming, report against yourself.
+
+   **Shape:** nine steps, each with a **prediction gate** — you must commit to an answer
+   before the model will show you, which is the same discipline `LAB-DESIGN.md` used with
+   H1–H5, enacted rather than described. Then a *lab beat* (one dial, live chart, verdict on
+   your guess) and a *life beat* ("On a Tuesday", a question, never advice). Ends with a
+   scorecard of what you called before seeing it, plus the *what this cannot tell you*
+   table. Progress and answers in `localStorage` only. Yardstick inherited from AI 101: a
+   curious 70-year-old must enjoy it.
+
+   **Three errors were caught by testing the dials rather than trusting the prose** — worth
+   keeping, because all three were plausible-sounding and wrong:
+   - Step 4's threshold dial did *nothing* across its whole range: the pair opened warm, so
+     the threshold never bound. Fixed by opening the conversation cold (and switching repair
+     off, since it isn't introduced until step 5).
+   - Step 5's repair dial did nothing: the knock never carried them below zero. Fixed with
+     a larger symmetric knock from the warm attractor.
+   - Step 1's explanation claimed inertia changes only *how long* recovery takes. False —
+     the resting point is baseline/(1−inertia), so inertia moves the destination too.
+     Rewritten, and it now sets up step 2 instead of contradicting it.
+2. **A tool entry** in `tools/_tools.json` — done, schools
+   `gottman-method` / `eft-bonds` / `attachment-theory`.
 3. **Enrichment of the four relational schools already here** — `gottman-method`,
    `eft-bonds`, `attachment-theory`, `nvc-needs` — with the verified numbers from
    `book-repo/books/what-survives-the-number/research/couples-therapy-dossier.md`.
