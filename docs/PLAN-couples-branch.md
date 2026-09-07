@@ -35,7 +35,21 @@ here that nothing else has. A **branch** gets the reach without the cost.
    The prose guardrails from that doc still applied and were followed — honesty spine,
    no overclaiming, report against yourself.
 
-   **Shape:** nine steps, each with a **prediction gate** — you must commit to an answer
+   **v2 REBUILD (Sep 6, evening) — the builder walked v1 and did not understand it.**
+   "If I did not understand nobody will." Diagnosis, in order of damage: (1) v1 quizzed
+   before it showed — you cannot predict a system you have not seen, so the gate felt like
+   a test you were set up to fail; (2) numbers instead of meaning ("resting tone 1.20");
+   (3) two wobbling lines labelled A and B — nothing to picture; (4) nine dense steps, the
+   first two being setup for a modeller. v2 inverts all four: **watch first, then guess
+   about one change, then see it**; two faces (Sam and Alex — not real, not you) whose
+   expression and colour ARE the mood, with words (warm / okay / tense / cold / icy) and no
+   numbers anywhere; six steps; the population lesson as a room of a hundred couples with
+   a fortune-teller putting rings on them, then the endings colouring in. Both the
+   dial-sweep discipline and the "watch the words, not the prose" rule caught a fresh bug
+   in v2 (the repair step's dial looked dead because the caption only reported endings and
+   the dip happens in the middle — now the caption reports the dip).
+
+   **v1 shape, for the record:** nine steps, each with a **prediction gate** — you must commit to an answer
    before the model will show you, which is the same discipline `LAB-DESIGN.md` used with
    H1–H5, enacted rather than described. Then a *lab beat* (one dial, live chart, verdict on
    your guess) and a *life beat* ("On a Tuesday", a question, never advice). Ends with a
