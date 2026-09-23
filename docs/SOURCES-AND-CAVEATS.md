@@ -12,9 +12,10 @@ issue](https://github.com/PlayfulProcess/recursive-repatterning/issues).
 This repo splits its license by kind, following the pattern set in [`LICENSE`](../LICENSE)
 and [`LICENSE-CONTENT.txt`](../LICENSE-CONTENT.txt):
 
-- **Code is MIT.** Everything under `viewers/`, `scripts/`, `pages/` markup and JS, and the
-  chassis mechanics — copy it, fork it, embed it in a commercial product, no attribution
-  required (though appreciated).
+- **Code is Apache-2.0.** Everything under `viewers/`, `scripts/`, `pages/` markup and JS, and the
+  chassis mechanics — copy it, fork it, embed it in a commercial product; keep the `LICENSE`
+  and `NOTICE` files with it. The recursive.eco names and logo are not part of that grant
+  (see [`TRADEMARKS.md`](../TRADEMARKS.md)).
 - **Content is CC-BY-SA-4.0.** The grammars (`schools/*/grammar.json`), the docs, the course
   material — anything that is the library's *voice* rather than its *machinery*.
 
@@ -32,7 +33,7 @@ In plain language, for someone forking a grammar or reusing content from this li
 
 If you fork the whole repo (code + content together), the two licenses travel with their
 respective files — you don't get to relicense the grammars just because the surrounding
-code is MIT.
+code is Apache-2.0.
 
 ---
 

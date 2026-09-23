@@ -85,7 +85,14 @@ repo's, unmodified.
 
 ## License
 
-Code MIT (`LICENSE`) · Content CC-BY-SA-4.0 (`LICENSE-CONTENT.txt`).
+| What | License |
+|------|---------|
+| Code — `viewers/`, `scripts/`, `tools/`, `public/` scripts and styles, the site pages (`*.html`, `*.js`, `*.css`), and the format spec `GRAMMAR_FORMAT.md` | Apache-2.0 — [`LICENSE`](LICENSE), [`NOTICE`](NOTICE) |
+| Content — grammars (`schools/`), `docs/`, `course/`, `recording/`, `_seeds/`, images | CC-BY-SA-4.0 — [`LICENSE-CONTENT.txt`](LICENSE-CONTENT.txt), unless a file or item says otherwise |
+| Third-party — `public/vendor/cytoscape.min.js`; Wellcome/Commons images | Cytoscape.js: MIT, © The Cytoscape Consortium (licence in the file header). Images keep the licence recorded for each (see `docs/ILLUSTRATION-SOURCES.md`) |
+| The names "recursive.eco" and "Recursive", and the spiral logo (`public/recursive-logo.svg`, `public/recursive-mark.svg`, `public/spiral-*.svg`, `public/spiral/spiral-v2.svg`, `public/favicon.svg`) | Not licensed — see [`TRADEMARKS.md`](TRADEMARKS.md) |
+
+The code was MIT until September 2026; copies taken before then keep that licence.
 
 Grammars are original synthesis. Where a school's source material is in copyright
 (Rosenberg, Johnson, Brown, Linehan), category definitions are paraphrased and the

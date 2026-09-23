@@ -72,7 +72,7 @@ Not decoration. Three real behaviours, in increasing order of effort:
 
 1. **Where does written work go?** Both tools currently persist nothing — print or copy to clipboard. Options: keep it that way (privacy by construction, and the NVC tool advertises "your responses are private"); localStorage; or real per-user storage via the flow API. The last needs sign-in and changes the tools' privacy claim, so it is a product decision, not a technical one.
 2. **Are tools part of the channel?** `recursive-eco.json` currently declares only grammars. Should tools be importable to recursive.eco too, or stay site-only?
-3. **Licensing.** Tool code would be MIT like the rest of the code here; their *content* (prompts, reference lists) is CC-BY-SA. Worth stating in `docs/SOURCES-AND-CAVEATS.md` once tools exist.
+3. **Licensing.** Tool code would be Apache-2.0 like the rest of the code here; their *content* (prompts, reference lists) is CC-BY-SA. Worth stating in `docs/SOURCES-AND-CAVEATS.md` once tools exist.
 4. **Which other wellness-channel tools exist?** This plan covers the two seen so far. An inventory of the rest would change the phasing.
 
 ## 6. Recommendation
