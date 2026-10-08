@@ -13,6 +13,12 @@
       "courses": [
         { "id": "relationship-is-process", "title": "Relationship is Process", "blurb": "A season of ordinary AI collaboration, read through Barrett's theory of constructed emotion — what changes when a predictive system's reported states are treated as real enough to matter." }
       ]
+    },
+    {
+      "name": "Practices",
+      "courses": [
+        { "id": "sleep-gently", "title": "Sleep, gently: a short course", "blurb": "(Draft) Is broken sleep a problem? Can four hours be enough? What does cannabis do to sleep? Fourteen short lessons, each ending in one practice step, walking through the CBT-I informed practice. Psychoeducation, not therapy.", "deck": "sleep-gently" }
+      ]
     }
   ]
 }

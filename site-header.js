@@ -5,6 +5,8 @@
  *
  * Usage:  <script src="<path-to>/site-header.js?v=7"></script>
  *         <site-header active="cards"></site-header>
+ * v54 (Oct 8 2026): added a "Practices" course group with the sleep course
+ * (sleep-gently); kept in step with course/_courses.json.
  * v53 (Aug 21 2026): added 'Spiral' to GRAMMAR_VIEWS (viewers/spiral.html) — the
  * dynamic counterpart to Proximity: that view shows a corpus's priors, this one
  * shows the visitor's own casts over time, held in their browser only.
@@ -91,6 +93,9 @@
     ]],
     ['From the house school', [
       ['relationship-is-process', 'Relationship is Process'],
+    ]],
+    ['Practices', [
+      ['sleep-gently', 'Sleep, gently: a short course'],
     ]],
   ];
 
