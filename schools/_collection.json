@@ -74,9 +74,10 @@
     {
       "id": "skills-based",
       "name": "Skills-Based",
-      "_note": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT.",
+      "_note": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT, and CBT-I for sleep.",
       "school_slugs": [
-        "dbt-skills"
+        "dbt-skills",
+        "sleep-gently"
       ]
     },
     {
@@ -140,7 +141,7 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "grammar",
-      "items": 291,
+      "items": 306,
       "cover_image_url": "",
       "path": "schools/across-the-schools/grammar.json",
       "year": null,
@@ -588,9 +589,25 @@
       "branch": null,
       "is_meta": true,
       "default_preview": "tree",
-      "items": 43,
+      "items": 44,
       "cover_image_url": "",
       "path": "schools/schools-of-emotion/grammar.json",
+      "year": null,
+      "year_label": null,
+      "provenance": "record",
+      "category": "historical"
+    },
+    {
+      "slug": "sleep-gently",
+      "name": "Sleep, gently (CBT-I informed)",
+      "common_name": "Sleep, gently (CBT-I informed)",
+      "type": "custom",
+      "branch": "skills-based",
+      "is_meta": false,
+      "default_preview": null,
+      "items": 21,
+      "cover_image_url": "",
+      "path": "schools/sleep-gently/grammar.json",
       "year": null,
       "year_label": null,
       "provenance": "record",
