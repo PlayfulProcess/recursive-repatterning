@@ -1,0 +1,487 @@
+{
+  "name": "Sleep, gently (CBT-I informed)",
+  "description": "A gentle walk through cognitive behavioural therapy for insomnia (CBT-I), in plain words: what insomnia is, the two forces that time our sleep, the bed and the clock, the quiet mind, what to do at 3am, and when to see a doctor. It ends in a daily practice: an evening line, a morning sleep diary kept in your own private journal, and a weekly review. Psychoeducation, not therapy or treatment. Talk to a clinician before changing your time in bed, especially with bipolar disorder, seizures, sleep apnoea, pregnancy, or driving and safety-critical work.",
+  "grammar_type": "custom",
+  "image_credit": "Left without a cover or item images for now. CBT-I is a contemporary clinical model with no period art of its own, and stock images of sleeping people would suggest a single look for rest that this library avoids elsewhere (see schools/dbt-skills).",
+  "tags": [
+    "cbt-i",
+    "insomnia",
+    "sleep",
+    "sleep-diary",
+    "stimulus-control",
+    "sleep-compression",
+    "psychoeducation",
+    "daily-practice"
+  ],
+  "creator_name": "PlayfulProcess",
+  "is_published": false,
+  "roots": [
+    "behavioral-science"
+  ],
+  "shelves": [
+    "wisdom"
+  ],
+  "lineages": [
+    "behavioral sleep medicine"
+  ],
+  "worldview": "behavioral",
+  "metadata": {
+    "status": "draft"
+  },
+  "_note": "Written Oct 2026 as a personal practice for PlayfulProcess and as the first test of a recursive.eco practice measured by its user's own numbers (see docs/PLAN-sleep-practice.md). The repo holds only the method and the blank diary; diary entries live in the user's private journal and never in this repo. Not covered here: paradoxical intention, CBT-I adaptations for specific conditions (pain, menopause, cancer, shift work, PTSD nightmares), sleep medicines and tapering, and children's sleep. Every citation was checked against Crossref or the source page on Oct 8 2026.",
+  "_grammar_commons": {
+    "schema_version": "1.0",
+    "license": "CC-BY-SA-4.0",
+    "attribution": [
+      {
+        "name": "Cognitive behavioural therapy for insomnia (CBT-I) and behavioural sleep medicine",
+        "role": "source tradition",
+        "note": "Structural basis: the components of multicomponent CBT-I as described in public guidelines (AASM 2021, ACP 2016), the US VA CBT-i Coach, NHLBI and NHS pages, and the peer-reviewed papers cited in each item. The diary fields follow the Consensus Sleep Diary (Carney et al. 2012), paraphrased. No text is copied from copyrighted manuals, workbooks or handouts; every item is original prose."
+      },
+      {
+        "name": "PlayfulProcess",
+        "role": "creator",
+        "note": "Author of this grammar's text, the daily practice, and the editorial sections (Toward the middle, Research note, Constructionist lens, evidence_tier)."
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "what-insomnia-is",
+      "name": "What insomnia is",
+      "category": "how-sleep-works",
+      "sort_order": 1,
+      "keywords": [
+        "insomnia",
+        "chronic insomnia",
+        "3P model",
+        "perpetuating factors"
+      ],
+      "sections": {
+        "Definition": "Insomnia is trouble falling asleep, staying asleep, or waking too early, even with a fair chance to sleep, and it shows up in the day: tired, foggy, short-tempered.\nA few rough nights after a hard week are short-term insomnia. Most people have them.\nIt is called chronic when it happens at least three nights a week for at least three months.",
+        "Why it stays": "Something starts it: grief, a move, a baby, illness, worry.\nThen we cope in sensible ways. We go to bed early to catch up. We stay in bed longer. We nap. We have more coffee.\nThose ways of coping can keep the insomnia going after the first cause has passed. This is the hopeful part: the habits that keep it going can be changed.",
+        "Practice": "Notice, without blame, what you have been doing to cope with bad nights. Write the list down. Most of CBT-I is a gentle way of undoing that list.",
+        "Research note": "The three-nights, three-months definition is the one used by the American Academy of Sleep Medicine (the AASM patient guide to the same guideline, https://aasm.org/wp-content/uploads/2021/08/Behavioral-and-Psychological-Treatments-for-Insomnia-Patient-Guide.pdf) and by NHLBI (US National Institutes of Health), Insomnia, https://www.nhlbi.nih.gov/health/insomnia. The idea that a trigger starts insomnia and coping habits keep it going is the '3P' model (predisposing, precipitating, perpetuating factors): Spielman, Caruso & Glovinsky 1987, A behavioral perspective on insomnia treatment, Psychiatr Clin North Am 10(4):541-553, https://doi.org/10.1016/S0193-953X(18)30532-X."
+      },
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "please-and-building-mastery",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "two-processes",
+      "name": "Two forces: sleep drive and the body clock",
+      "category": "how-sleep-works",
+      "sort_order": 2,
+      "keywords": [
+        "sleep drive",
+        "sleep pressure",
+        "body clock",
+        "circadian rhythm",
+        "two-process model"
+      ],
+      "sections": {
+        "Definition": "Two forces decide when we sleep.\nSleep drive builds the longer we are awake, like sand in an hourglass. Sleep empties it. A nap or a long lie-in spends some of it early, so there is less left for the night.\nThe body clock runs on a cycle of about a day. It makes us alert at some hours and sleepy at others. Light sets it, morning light most of all.\nWe sleep best when the two line up: plenty of sleep drive, at the hour the clock calls night.",
+        "Practice": "Most of the behavioural part of CBT-I is about these two forces. A steady wake time sets the clock. Less time lying awake in bed, and fewer naps, lets the sleep drive build.",
+        "Research note": "The two-process model was proposed by Alexander Borbely in 1982 and is still the standard frame: Borbely, Daan, Wirz-Justice & Deboer 2016, The two-process model of sleep regulation: a reappraisal, J Sleep Res 25:131-143, https://doi.org/10.1111/jsr.12371."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "stimulus-control",
+      "name": "The bed is for sleep",
+      "category": "the-bed-and-the-clock",
+      "sort_order": 3,
+      "keywords": [
+        "stimulus control",
+        "bed",
+        "conditioning",
+        "get up"
+      ],
+      "sections": {
+        "Definition": "After many hours of lying awake, the bed itself can start to mean 'awake and worried'. Stimulus control teaches the body again that bed means sleep.",
+        "Practice": "- Go to bed when sleepy, not just tired, and not before your chosen bedtime.\n- Use the bed for sleep and sex only. Read, scroll and worry somewhere else.\n- If you are awake for what feels like about 20 minutes, get up. Go to another room, dim light, something calm. Come back when sleepy. Repeat as often as needed. Guess the time; do not watch the clock.\n- Get up at the same time every morning, whatever the night was like.\n- No naps, or one short early-afternoon nap if you need one to be safe.",
+        "Research note": "Stimulus control was introduced by Richard Bootzin (1972). The 2021 AASM guideline gives it a conditional recommendation as a single therapy: Edinger et al. 2021, AASM clinical practice guideline, J Clin Sleep Med 17(2):255-262, https://doi.org/10.5664/jcsm.8986 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/). Some people find getting up at night too stimulating; a clinician can adapt it, for example by resting in bed with a relaxation practice instead (Kaplan & Harvey 2013, Behavioral treatment of insomnia in bipolar disorder, Am J Psychiatry 170(7):716-720, https://doi.org/10.1176/appi.ajp.2013.12050708 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC4185309/))."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "anchor-wake-time",
+      "name": "One wake time",
+      "category": "the-bed-and-the-clock",
+      "sort_order": 4,
+      "keywords": [
+        "wake time",
+        "rise time",
+        "regular schedule",
+        "anchor"
+      ],
+      "sections": {
+        "Definition": "Pick one time to get up, and keep it every day, weekends too. It is the anchor for the body clock and the start of the hourglass of sleep drive.\nAfter a bad night the urge is to sleep in. Getting up anyway is what makes the next night easier.",
+        "Practice": "Choose a wake time you can keep seven days a week. Set one alarm. Get out of bed when it rings. Go towards light: open the curtains, step outside if you can.\nThis one change is safe for almost everyone, and it is often the place to start.",
+        "Toward the middle": "This is DBT's opposite action applied to sleep. The feeling after a bad night is real. Its urge (stay in bed, cancel the day) does not help here, so we act against it, gently and all the way.",
+        "Research note": "In a case series of people with bipolar disorder and insomnia, regular bed and rise times alone brought marked improvement for most participants, before any other step was added: Kaplan & Harvey 2013, Behavioral treatment of insomnia in bipolar disorder, Am J Psychiatry 170(7):716-720, https://doi.org/10.1176/appi.ajp.2013.12050708 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC4185309/). NHS self-help advice also asks for a fixed wake time: NHS, Insomnia, https://www.nhs.uk/conditions/insomnia/."
+      },
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "opposite-action",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "sleep-window",
+      "name": "The sleep window",
+      "category": "the-bed-and-the-clock",
+      "sort_order": 5,
+      "keywords": [
+        "sleep restriction",
+        "sleep compression",
+        "sleep window",
+        "time in bed",
+        "sleep efficiency"
+      ],
+      "sections": {
+        "Definition": "Many people with insomnia spend far longer in bed than they sleep. Eight hours in bed for six hours of sleep means two hours a night of lying awake.\nThe sleep window brings time in bed closer to the sleep you are actually getting, for a while. Sleep drive builds, sleep becomes deeper and less broken, and then the window is widened again, step by step.",
+        "Two ways": "Sleep restriction sets the window all at once, at your average sleep time from the diary. It works well and it is hard: in the first weeks people are sleepier and slower.\nSleep compression does the same thing gradually: the window shrinks by 15 to 30 minutes a week. For self-guided use, prefer compression, and do it only after talking with a clinician.",
+        "Before you try this": "Talk to a doctor or a trained CBT-I clinician before you shorten your time in bed. Please do not try it on your own if any of these apply:\n- bipolar disorder, or a past episode of mania or hypomania (less sleep can tip mood upward);\n- epilepsy or any seizures (sleep loss can lower the seizure threshold);\n- schizophrenia or another psychotic illness;\n- sleep apnoea, or loud snoring, gasping or pauses in breathing, or another sleep disorder such as restless legs;\n- pregnancy;\n- you drive for work, fly, operate machinery, work in emergency care, or work shifts;\n- you already feel very sleepy in the day, or you already sleep under about five and a half hours.\nStop and call your clinician if you nod off while sitting or driving, or if your mood lifts in a way that is not like you: needing less sleep, racing thoughts, much more energy.",
+        "Practice": "1. Keep the morning diary for two weeks first. Change nothing except a fixed wake time.\n2. Work out your average sleep efficiency (see the weekly review). If it is 85% or more, you may not need a window at all.\n3. If it is lower, and a clinician agrees: keep the wake time fixed and move bedtime 15 to 30 minutes later each week, until time in bed is about your average sleep plus half an hour.\n4. In this practice the window never goes under six hours in bed. Clinical programmes sometimes go lower; that is for supervised care.\n5. Review once a week, never night by night.",
+        "Research note": "Sleep restriction was described by Spielman, Saskin & Thorpy (1987). Sleep compression was tested against relaxation and a placebo in older adults, and clinical significance analyses favoured compression: Lichstein et al. 2001, Relaxation and sleep compression for late-life insomnia: a placebo-controlled trial, J Consult Clin Psychol 69(2):227-239, https://doi.org/10.1037/0022-006X.69.2.227. In the first weeks of sleep restriction, measured sleep falls, daytime sleepiness rises and vigilance is impaired, returning to baseline by three months: Kyle et al. 2014, Sleep 37(2):229-237, https://doi.org/10.5665/sleep.3386 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC3900612/). The cautions above come from: the Australian joint position statement, which names bipolar disorder, schizophrenia, unmanaged epilepsy, excessive daytime sleepiness, and work as a commercial driver, pilot, in emergency care or on shifts (Sweetman et al. 2026, Management of adult insomnia in Australia: a joint position statement, SLEEP Advances 7, https://doi.org/10.1093/sleepadvances/zpag086 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC13600392/)); Kaplan & Harvey on mood monitoring in bipolar disorder and on not driving while sleepy (Kaplan & Harvey 2013, Behavioral treatment of insomnia in bipolar disorder, Am J Psychiatry 170(7):716-720, https://doi.org/10.1176/appi.ajp.2013.12050708 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC4185309/)); and trial exclusion lists for sleep restriction, which leave out pregnancy, sleep apnoea and other sleep disorders, epilepsy and bipolar disorder (Fleming et al. 2024, INVEST trial protocol, PLOS ONE 19:e0305304, https://doi.org/10.1371/journal.pone.0305304). Exclusion from trials means little is known, not that harm is proven; it is still a reason to ask first."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "buffer-zone",
+      "name": "Wind-down and the buffer zone",
+      "category": "the-quiet-mind",
+      "sort_order": 6,
+      "keywords": [
+        "wind-down",
+        "buffer zone",
+        "bedtime routine",
+        "screens",
+        "dim light"
+      ],
+      "sections": {
+        "Definition": "Sleep is not a switch. The body needs a slope down into it.\nThe buffer zone is the last hour or so before bed: a protected stretch with no work, no hard conversations, no problem-solving.",
+        "Practice": "About an hour before bed: lights low, screens down or dimmed, something calm that you like. A bath, a book, music, stretching, a slow tidy.\nKeep it the same most nights, so the routine itself becomes a cue.",
+        "Research note": "NHS self-help advice suggests relaxing for at least an hour before bed and keeping devices away right before it: NHS, Insomnia, https://www.nhs.uk/conditions/insomnia/."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "constructive-worry",
+      "name": "Worry time, earlier",
+      "category": "the-quiet-mind",
+      "sort_order": 7,
+      "keywords": [
+        "constructive worry",
+        "worry time",
+        "pre-sleep arousal",
+        "problem solving"
+      ],
+      "sections": {
+        "Definition": "Night is a bad time to solve problems. The mind is tired, the room is dark, and everything looks bigger.\nConstructive worry moves the thinking to the early evening, onto paper, so the night has less to do.",
+        "Practice": "Early evening, 10 to 15 minutes, at a table, not in bed.\nTwo columns. Left: what is on my mind. Right: the next small step, or 'nothing to do tonight', or 'not mine to solve'.\nClose the notebook. If a worry comes back in bed, tell it: it is written down, and I will look at it tomorrow.",
+        "Research note": "In a controlled study with students reporting insomnia, writing possible solutions to worries in the early evening lowered pre-sleep mental arousal compared with writing the worries alone: Carney & Waters 2006, Behav Sleep Med 4(1):13-28, https://doi.org/10.1207/s15402010bsm0401_2."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "relaxation-body-scan",
+      "name": "Relaxation and the body scan",
+      "category": "the-quiet-mind",
+      "sort_order": 8,
+      "keywords": [
+        "relaxation",
+        "body scan",
+        "breathing",
+        "progressive muscle relaxation"
+      ],
+      "sections": {
+        "Definition": "Relaxation practices lower the body's alarm: breathing slowly, tensing and releasing muscles, or moving attention through the body, part by part.",
+        "Practice": "Body scan: lie or sit comfortably. Start at the feet. Notice what is there: warmth, weight, tightness. Do not fix anything. Move slowly upward to the crown of the head.\nPractise it in the day first, when the stakes are low. At night, do it for its own sake. If it becomes another way of trying hard to sleep, it stops working.",
+        "Research note": "The 2021 AASM guideline gives relaxation therapy a conditional recommendation as a single therapy: Edinger et al. 2021, AASM clinical practice guideline, J Clin Sleep Med 17(2):255-262, https://doi.org/10.5664/jcsm.8986 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "sleep-thoughts",
+      "name": "Check the facts on sleep thoughts",
+      "category": "the-quiet-mind",
+      "sort_order": 9,
+      "keywords": [
+        "cognitive therapy",
+        "sleep thoughts",
+        "catastrophizing",
+        "check the facts",
+        "worry about sleep"
+      ],
+      "sections": {
+        "Definition": "Lying awake, the mind makes predictions. 'If I don't sleep now, tomorrow is ruined.' 'I'll never sleep normally again.'\nThese thoughts raise the alarm, and the alarm keeps us awake. Then the night seems to prove the thought.",
+        "Practice": "In the day, not at 3am, take one sleep thought and check the facts:\n- What actually happened after my last bad night? Was the day ruined, or hard and still lived?\n- What am I assuming?\n- What else fits the same facts?\n- If a friend said this, what would I tell them?\nWrite a kinder, truer sentence beside the first one. For example: 'A poor night makes tomorrow harder. I have done hard days before.'",
+        "Constructionist lens": "'I will never sleep' feels like a fact about the body. It is a prediction, built from past nights and present fear. Predictions can be tested and revised.",
+        "Research note": "The cognitive model of insomnia describes how worry, watching for threat (the clock, body sensations) and mistaken beliefs about sleep feed each other: Harvey 2002, A cognitive model of insomnia, Behav Res Ther 40(8):869-893, https://doi.org/10.1016/S0005-7967(01)00061-4. Cognitive therapy is one of the components of multicomponent CBT-I (Edinger et al. 2021, AASM clinical practice guideline, J Clin Sleep Med 17(2):255-262, https://doi.org/10.5664/jcsm.8986 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/))."
+      },
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "check-the-facts",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "light-caffeine-alcohol",
+      "name": "Light, caffeine and alcohol",
+      "category": "days-nights-and-help",
+      "sort_order": 10,
+      "keywords": [
+        "light",
+        "morning light",
+        "caffeine",
+        "alcohol",
+        "sleep hygiene"
+      ],
+      "sections": {
+        "Definition": "Light: morning daylight tells the body clock that day has begun. Bright light late in the evening pushes the clock later.\nCaffeine: it blocks the feeling of sleep drive, and it lasts. A strong dose even six hours before bed can still cost sleep.\nAlcohol: it can help us fall asleep, then breaks up sleep in the second half of the night.",
+        "Practice": "Get outside light within an hour of waking. Dim the house in the evening.\nKeep caffeine to the morning, or stop at least six hours before bed. Notice tea, cola and chocolate too.\nIf you drink alcohol, less and earlier. Note it in the diary so you can see your own pattern.",
+        "Research note": "Light and the body clock: Blume, Garbazza & Spitschan 2019, Effects of light on human circadian rhythms, sleep and mood, Somnologie 23:147-156, https://doi.org/10.1007/s11818-019-00215-x (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC6751071/). Caffeine: 400 mg taken 0, 3 or 6 hours before bed each disturbed sleep compared with placebo (Drake et al. 2013, Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed, J Clin Sleep Med 9(11):1195-1200, https://doi.org/10.5664/jcsm.3170 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC3805807/)). Alcohol: shorter time to fall asleep, more disruption in the second half of the night (Ebrahim et al. 2013, Alcohol and sleep I: effects on normal sleep, Alcohol Clin Exp Res 37(4), https://doi.org/10.1111/acer.12006). These facts help, but on their own they are rarely enough for chronic insomnia: the AASM patient guide says most people need more than basic sleep hygiene (the AASM patient guide to the same guideline, https://aasm.org/wp-content/uploads/2021/08/Behavioral-and-Psychological-Treatments-for-Insomnia-Patient-Guide.pdf)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "three-am",
+      "name": "What to do at 3am",
+      "category": "days-nights-and-help",
+      "sort_order": 11,
+      "keywords": [
+        "night waking",
+        "3am",
+        "clock watching",
+        "acceptance",
+        "awake at night"
+      ],
+      "sections": {
+        "Definition": "Brief wakings are a normal part of sleep, and many are never remembered.\nWhat turns a waking into an hour awake is usually the fight: checking the clock, counting the hours left, trying hard to sleep.",
+        "Practice": "- Turn the clock away. Do not count.\n- Let the body rest. Rest is not nothing.\n- If you have been awake a while (a guess is fine) and feel restless, get up, dim light, something calm and dull. Back to bed when sleepy.\n- No problem-solving, no news, no bright screens.\n- Say the evening line to yourself: I accept tonight as it comes. I keep my wake time.\n- If the night brings thoughts of harming yourself, that is not a sleep problem. Call a crisis line or emergency services now.",
+        "Toward the middle": "Two errors pull at 3am: catastrophizing (tomorrow is ruined) and fighting (I must sleep now). The middle is acceptance and change together: accept this waking, and keep the plan that changes the pattern.",
+        "Research note": "Clock-watching and monitoring for signs of poor sleep are among the processes the cognitive model says keep insomnia going: Harvey 2002, A cognitive model of insomnia, Behav Res Ther 40(8):869-893, https://doi.org/10.1016/S0005-7967(01)00061-4."
+      },
+      "metadata": {
+        "source_deck": "dbt-skills",
+        "source_item_id": "radical-acceptance",
+        "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
+      }
+    },
+    {
+      "id": "see-a-doctor",
+      "name": "When to see a doctor",
+      "category": "days-nights-and-help",
+      "sort_order": 12,
+      "keywords": [
+        "doctor",
+        "sleep apnoea",
+        "restless legs",
+        "referral",
+        "red flags"
+      ],
+      "sections": {
+        "Definition": "Insomnia is common and it is treatable. Some sleep problems need a doctor, not a practice.",
+        "See a doctor if": "- changing your sleep habits has not helped;\n- you have had trouble sleeping for months;\n- it is making it hard to cope with daily life;\n- someone hears you snore loudly, gasp, or stop breathing in your sleep, or you wake with a dry mouth or a headache;\n- you feel very sleepy in the day, or nod off while driving;\n- you have an urge to move your legs at night, pain, night sweats, or another health change;\n- your mood is low or high for days, or anxiety is heavy;\n- you want to change or stop a sleep medicine. Do not stop one suddenly on your own.",
+        "Get help now if": "you have thoughts of harming yourself. Call a crisis line or emergency services.",
+        "Research note": "The first three points follow NHS, Insomnia, https://www.nhs.uk/conditions/insomnia/. The breathing signs follow NHLBI, Sleep apnea symptoms, https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms. Sleep apnoea and other sleep disorders can look like insomnia, and may need a sleep study first (Sweetman et al. 2026, Management of adult insomnia in Australia: a joint position statement, SLEEP Advances 7, https://doi.org/10.1093/sleepadvances/zpag086 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC13600392/)). CBT-I is recommended as the first treatment for chronic insomnia in adults by the AASM (Edinger et al. 2021, AASM clinical practice guideline, J Clin Sleep Med 17(2):255-262, https://doi.org/10.5664/jcsm.8986 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/)) and the American College of Physicians (Qaseem et al. 2016, American College of Physicians guideline, Ann Intern Med 165:125-133, https://doi.org/10.7326/M15-2175)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "evening-practice",
+      "name": "Evening: wind down, one line",
+      "category": "daily-practice",
+      "sort_order": 13,
+      "keywords": [
+        "evening",
+        "wind-down",
+        "intention",
+        "daily practice"
+      ],
+      "sections": {
+        "Definition": "The evening half of the daily practice. About ten minutes of steps, then an hour of slope.",
+        "Practice": "1. Early evening: worry time, ten minutes, on paper (see Worry time, earlier).\n2. About an hour before bed: lights low, screens down, start the buffer zone.\n3. Write one line in your private journal:\n   Tonight I accept ______. Tomorrow I keep ______.\n   For example: Tonight I accept that sleep may come late. Tomorrow I keep my 7:00 wake time.\n4. Go to bed when sleepy, and not before your bedtime.\n5. If you wake, see What to do at 3am.",
+        "Toward the middle": "The line holds both poles in one breath: acceptance first, then the one change you keep."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "morning-diary",
+      "name": "Morning: the sleep diary",
+      "category": "daily-practice",
+      "sort_order": 14,
+      "keywords": [
+        "sleep diary",
+        "consensus sleep diary",
+        "morning",
+        "self-monitoring",
+        "daily practice"
+      ],
+      "sections": {
+        "Definition": "The morning half of the daily practice. Two minutes, within an hour of getting up.\nThe diary is the heart of CBT-I: it is how you see your own pattern, and how the weekly review decides anything.",
+        "Template": "Date (the night of):\n1. Got into bed at:\n2. Started trying to sleep at:\n3. Minutes to fall asleep (a guess is fine):\n4. Times I woke in the night (not counting the last):\n5. Minutes awake in total during those wakings:\n6. Final wake time:\n7. Got out of bed at:\n8. Sleep quality, 1 to 5 (1 very poor, 5 very good):\n9. Naps yesterday (when, how long):\n10. Caffeine yesterday (what, and the last time):\n11. Alcohol yesterday (how much, and the last time):\n12. Anything else (medicine, pain, a dream, one word for the night):",
+        "Practice": "Copy the blank template into your private journal each morning and fill it in. Your answers live only there, never in this library.\nUse guesses. Do not look at the clock in the night to fill this in; that would cost the very sleep it measures.\nA missed day is fine. Leave it blank and carry on.",
+        "Research note": "The fields follow the Consensus Sleep Diary, a standard diary agreed by insomnia researchers and tested with focus groups of people with insomnia: Carney et al. 2012, The Consensus Sleep Diary, Sleep 35(2):287-302, https://doi.org/10.5665/sleep.1642 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC3250369/). Its core asks about bed time, trying-to-sleep time, time to fall asleep, number and length of awakenings, final waking, rise time and quality; naps, caffeine and alcohol come from its expanded version. A free digital diary is also part of the US Department of Veterans Affairs CBT-i Coach app, a free public companion to CBT-I, https://mobile.va.gov/app/cbt-i-coach."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "weekly-review",
+      "name": "Weekly: sleep efficiency and the window",
+      "category": "daily-practice",
+      "sort_order": 15,
+      "keywords": [
+        "sleep efficiency",
+        "weekly review",
+        "sleep onset",
+        "wake after sleep onset",
+        "titration"
+      ],
+      "sections": {
+        "Definition": "Once a week, add up the diary. Four numbers are enough:\n- sleep efficiency: how much of your time in bed was sleep;\n- sleep onset: average minutes to fall asleep;\n- wake after sleep onset: average minutes awake in the night;\n- a weekly 1 to 5: how rested did this week feel, overall?",
+        "How to compute": "For each night:\n- Time in bed = got out of bed (7) minus got into bed (1).\n- Time asleep = final wake (6) minus started trying (2), minus minutes to fall asleep (3), minus minutes awake (5).\n- Sleep efficiency = time asleep divided by time in bed, times 100.\nExample: in bed 23:00 to 7:00 is 480 minutes. Tried to sleep at 23:15, final wake 6:45: 450 minutes. Minus 30 to fall asleep and 45 awake: 375 minutes asleep. 375 / 480 = 78%.\nFor the week, average each number over the nights you filled in.",
+        "Adjusting the window": "Only if you are using a sleep window, and a clinician has agreed (see The sleep window):\n- 90% or more: widen it by 15 minutes (go to bed 15 minutes earlier).\n- 85 to 89%: keep it as it is.\n- under 85%, two weeks running: narrow it by 15 minutes, never below six hours in bed.\nKeep the wake time fixed through all of it. Change one thing per week.",
+        "A caution about numbers": "The diary is a set of rough guesses, and that is fine. If tracking starts to make nights more anxious, pause it for a week. The aim is rest, not a perfect score.",
+        "Research note": "Sleep efficiency (time asleep divided by time in bed), weekly review, and adjustment of the window by sleep efficiency are described in Kaplan & Harvey 2013, Behavioral treatment of insomnia in bipolar disorder, Am J Psychiatry 170(7):716-720, https://doi.org/10.1176/appi.ajp.2013.12050708 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC4185309/), which names a target of 85 to 90%. The 15-minute steps and the 85% and 90% cut-points above are common practice in CBT-I programmes; programmes differ in the exact numbers. Some people chase perfect sleep data until the chase itself keeps them awake: Baron et al. 2017, Orthosomnia, J Clin Sleep Med 13(2):351-354, https://doi.org/10.5664/jcsm.6472 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC5263088/)."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-how-sleep-works",
+      "name": "How sleep works",
+      "category": "module",
+      "level": 2,
+      "sort_order": 20,
+      "composite_of": [
+        "what-insomnia-is",
+        "two-processes"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "how sleep works"
+      ],
+      "sections": {
+        "Definition": "What insomnia is, why it can outlast its cause, and the two forces (sleep drive and the body clock) that the rest of the practice works with."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-bed-and-clock",
+      "name": "The bed and the clock",
+      "category": "module",
+      "level": 2,
+      "sort_order": 21,
+      "composite_of": [
+        "stimulus-control",
+        "anchor-wake-time",
+        "sleep-window"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "the bed and the clock"
+      ],
+      "sections": {
+        "Definition": "The behavioural core of CBT-I: teach the bed to mean sleep, anchor the clock with one wake time, and, with care, bring time in bed closer to time asleep."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-quiet-mind",
+      "name": "The quiet mind",
+      "category": "module",
+      "level": 2,
+      "sort_order": 22,
+      "composite_of": [
+        "buffer-zone",
+        "constructive-worry",
+        "relaxation-body-scan",
+        "sleep-thoughts"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "the quiet mind"
+      ],
+      "sections": {
+        "Definition": "Lowering the alarm: a slope into the night, worry moved to the early evening, the body scan, and checking the facts on sleep thoughts."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-days-nights-help",
+      "name": "Days, nights and help",
+      "category": "module",
+      "level": 2,
+      "sort_order": 23,
+      "composite_of": [
+        "light-caffeine-alcohol",
+        "three-am",
+        "see-a-doctor"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "days, nights and help"
+      ],
+      "sections": {
+        "Definition": "What light, caffeine and alcohol do; what to do when awake in the night; and when a sleep problem needs a doctor rather than a practice."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "module-daily-practice",
+      "name": "The daily practice",
+      "category": "module",
+      "level": 2,
+      "sort_order": 24,
+      "composite_of": [
+        "evening-practice",
+        "morning-diary",
+        "weekly-review"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "the daily practice"
+      ],
+      "sections": {
+        "Definition": "Evening: wind down and write one line. Morning: two minutes of diary in your private journal. Once a week: four numbers, and one decision at most."
+      },
+      "metadata": {}
+    },
+    {
+      "id": "sleep-gently-root",
+      "name": "Sleep, gently",
+      "category": "root",
+      "level": 3,
+      "sort_order": 30,
+      "composite_of": [
+        "module-how-sleep-works",
+        "module-bed-and-clock",
+        "module-quiet-mind",
+        "module-days-nights-help",
+        "module-daily-practice"
+      ],
+      "relationship_type": "emergence",
+      "keywords": [
+        "cbt-i",
+        "insomnia",
+        "sleep",
+        "psychoeducation",
+        "daily practice"
+      ],
+      "sections": {
+        "Definition": "Cognitive behavioural therapy for insomnia (CBT-I) is a short, structured treatment, usually four to eight sessions with a trained clinician. It works on the habits and thoughts that keep insomnia going, not on sleep itself, which cannot be forced.\nThis grammar retells its parts in plain words and adds a daily practice: an evening line, a morning diary, a weekly review.\nThis is psychoeducation, not therapy or treatment. It explains what CBT-I teaches so you can understand it and talk about it with a clinician. It does not diagnose anything and it does not replace care.",
+        "Toward the middle": "Insomnia pulls two ways. One is catastrophizing: every bad night is proof of disaster. The other is ignoring the data: one more episode, one more coffee, one more hour in bed.\nThe practice brings us back to the middle, the DBT way: accept the night as it comes, and change the habits that keep it going. The diary is how we check the facts.",
+        "Research note": "Multicomponent CBT-I has a strong recommendation from the American Academy of Sleep Medicine (Edinger et al. 2021, AASM clinical practice guideline, J Clin Sleep Med 17(2):255-262, https://doi.org/10.5664/jcsm.8986 (free: https://pmc.ncbi.nlm.nih.gov/articles/PMC7853203/)) and is recommended as the first treatment for chronic insomnia in adults by the American College of Physicians (Qaseem et al. 2016, American College of Physicians guideline, Ann Intern Med 165:125-133, https://doi.org/10.7326/M15-2175). Internet-delivered CBT-I showed effects comparable to face-to-face CBT-I in a meta-analysis of eleven trials, with larger effects when there was more personal support (Zachariae et al. 2016, internet-delivered CBT-I meta-analysis, Sleep Med Rev 30:1-10, https://doi.org/10.1016/j.smrv.2015.10.004). Free public companions: the US Department of Veterans Affairs CBT-i Coach app, a free public companion to CBT-I, https://mobile.va.gov/app/cbt-i-coach; NHLBI (US National Institutes of Health), Insomnia, https://www.nhlbi.nih.gov/health/insomnia; NHS, Insomnia, https://www.nhs.uk/conditions/insomnia/.",
+        "Constructionist lens": "'I am an insomniac' can harden into an identity. Read here, it is a pattern: learned, kept going by habits, and open to relearning."
+      },
+      "metadata": {
+        "evidence_tier": "independently-replicated",
+        "evidence_note": "CBT-I as a full, multicomponent treatment has many randomized trials by independent groups and strong guideline recommendations (AASM 2021, ACP 2016). Digital and app-based versions also have trial support. What is weaker: single components on their own carry conditional recommendations; the trials tested CBT-I delivered as a programme, often with a clinician, not a reader working through a grammar alone; and this grammar and its daily practice have not been tested at all. The tier describes CBT-I, not this page."
+      }
+    }
+  ]
+}

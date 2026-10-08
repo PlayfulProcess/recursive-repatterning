@@ -461,16 +461,42 @@
       }
     },
     {
+      "id": "link-sleep-gently",
+      "name": "Sleep, gently (CBT-I informed)",
+      "category": "school-link",
+      "level": 1,
+      "sort_order": 802,
+      "sections": {
+        "What it is": "A gentle walk through cognitive behavioural therapy for insomnia (CBT-I), in plain words: what insomnia is, the two forces that time our sleep, the bed and the clock, the quiet mind, what to do at 3am, and when to see a doctor. It ends in a daily practice: an evening line, a morning sleep diary kept in your own private journal, and a weekly review. Psychoeducation, not therapy or treatment. Talk to a clinician before changing your time in bed, especially with bipolar disorder, seizures, sleep apnoea, pregnancy, or driving and safety-critical work.",
+        "Evidence": "Held at evidence tier 'independently-replicated'. CBT-I as a full, multicomponent treatment has many randomized trials by independent groups and strong guideline recommendations (AASM 2021, ACP 2016). Digital and app-based versions also have trial support. What is weaker: single components on their own carry conditional recommendations; the trials tested CBT-I delivered as a programme, often with a clinician, not a reader working through a grammar alone; and this grammar and its daily practice have not been tested at all. The tier describes CBT-I, not this page."
+      },
+      "keywords": [
+        "cbt-i",
+        "insomnia",
+        "sleep",
+        "sleep-diary",
+        "stimulus-control",
+        "sleep-compression"
+      ],
+      "metadata": {
+        "source_deck": "sleep-gently",
+        "source_item_id": "sleep-gently-root",
+        "deck": "Sleep, gently (CBT-I informed)",
+        "branch_id": "skills-based"
+      }
+    },
+    {
       "id": "branch-skills-based",
       "name": "Skills-Based",
       "category": "branch",
       "level": 2,
       "sort_order": 8,
       "composite_of": [
-        "link-dbt-skills"
+        "link-dbt-skills",
+        "link-sleep-gently"
       ],
       "sections": {
-        "What this branch is": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT."
+        "What this branch is": "Skills taught as a curriculum — acceptance and change held together, practised deliberately rather than arrived at. Linehan's DBT, and CBT-I for sleep."
       },
       "metadata": {
         "branch_id": "skills-based"
@@ -986,7 +1012,7 @@
         "branch-historical-scientific"
       ],
       "sections": {
-        "What this is": "The constellation as it currently stands: 29 schools in 13 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
+        "What this is": "The constellation as it currently stands: 30 schools in 13 branches, sitting on a constructionist substrate rather than on any one branch's claim to have found emotion's true shape. This is a handful of the ways people have organised feeling, not a catalogue of them — the library could not hold them all, and does not claim to. Open a branch to see its schools; open a school to draw from it directly."
       },
       "keywords": [
         "schools of emotion",
