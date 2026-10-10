@@ -82,7 +82,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "abhinaya-four-modes",
       "name": "Abhinaya — Bharata's Four Modes of Conveying Meaning",
@@ -97,7 +97,7 @@
       },
       "metadata": {
         "source_deck": "rasa",
-        "source_item_id": "rasa-root",
+        "source_node_id": "rasa-root",
         "deck": "Rasa — Bharata's Aesthetics of Performance",
         "image_source": "https://asia-archive.si.edu/object/F2003.2/",
         "image_credit": "Shiva Nataraja, Chola dynasty, ca. 990, Tamil Nadu, bronze — Smithsonian's National Museum of Asian Art (Freer Gallery, F2003.2), CC0. Not a literal Natyashastra-era illustration of abhinaya; used because Nataraja's own iconography (his lower right hand shows the abhaya, \"fear not,\" mudra) is the canonical Indian icon of gesture doing conventionalized expressive work, in the same register as this school's other codification systems."
@@ -118,7 +118,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-constriction",
+        "source_node_id": "the-constriction",
         "deck": "Overflow — Structures, Process, Possibilities",
         "additional_image_urls": [
           {
@@ -151,7 +151,7 @@
       },
       "metadata": {
         "source_deck": "descartes-passions",
-        "source_item_id": "descartes-passions-root",
+        "source_node_id": "descartes-passions-root",
         "deck": "Descartes's Six Primitive Passions",
         "image_source": "https://commons.wikimedia.org/wiki/File:Terrour_or_Fright_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854027.jpg",
         "image_credit": "\"Terrour or Fright,\" plate 18 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). The same print series already illustrates several items in schools/descartes-passions; this plate depicts a passion outside Descartes's own six primitives, chosen to show the wider range of Le Brun's own catalogue."
@@ -171,7 +171,7 @@
       },
       "metadata": {
         "source_deck": "darwin-expression",
-        "source_item_id": "darwin-expression-root",
+        "source_node_id": "darwin-expression-root",
         "deck": "Darwin — The Expression of the Emotions",
         "image_source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Delsarte_1864.jpg",
         "image_credit": "Portrait of François Delsarte, photograph by Étienne Carjat, 1864 — Bibliothèque nationale de France, via Wikimedia Commons, public domain (PD-old / CC-PD-Mark)."
@@ -226,9 +226,8 @@
       "id": "group-codified-externals",
       "name": "The Codifiers — External Vocabularies Taught as Technique",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["abhinaya-four-modes", "noh-kata-and-masks", "le-brun-conference-expression", "delsarte-system", "jingju-role-types"],
+      "parts": ["abhinaya-four-modes", "noh-kata-and-masks", "le-brun-conference-expression", "delsarte-system", "jingju-role-types"],
       "sections": {
         "Definition": "Five traditions, spanning roughly two thousand years and four continents, that each hand a performer — or, in Le Brun's case, a painter — an explicit, learnable catalogue of externally visible signs: a hand position, a mask's tilt, an eyebrow angle, a body-zone attitude, a face color. In every case the sign is conventionalized and drilled rather than left to a performer's spontaneous impulse, and in every case the specific catalogue is different from the others'."
       },
@@ -239,9 +238,8 @@
       "id": "group-inner-technique",
       "name": "The Inner-Technique Traditions — Rejecting the Codified External",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["stanislavski-system", "strasberg-method"],
+      "parts": ["stanislavski-system", "strasberg-method"],
       "sections": {
         "Definition": "Two 20th-century traditions, one the acknowledged historical descendant of the other, that hold the opposite premise from the five codifiers: that a genuinely produced inner state will generate whatever external expression is needed on its own, so a taught catalogue of externals is unnecessary or even counterproductive. They are held here deliberately alongside the codifiers, not despite disagreeing with them — both are answers to \"how are performers taught to show emotion,\" even where the answer is to deny that showing should be studied as a separate, external craft at all."
       },
@@ -252,9 +250,8 @@
       "id": "acting-traditions-root",
       "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
       "category": "root",
-      "level": 3,
       "sort_order": 10,
-      "composite_of": ["group-codified-externals", "group-inner-technique"],
+      "parts": ["group-codified-externals", "group-inner-technique"],
       "sections": {
         "Definition": "Every theatrical tradition gathered here has faced the same practical problem — how to make an audience read a specific feeling off a performer — and none of them has solved it the same way. Bharata's abhinaya assigns fixed hand positions and eight named involuntary bodily signs; Noh trains a performer to make an unmoving carved mask read as joy or grief through a controlled tilt of the head; Le Brun taught 17th-century painters an explicit rule for the eyebrow; Delsarte charted the body into expressive zones and drilled them into a generation of Anglo-American actors; jingju assigns a face color and pattern to a character before the performer ever applies makeup. Stanislavski and, after him, Strasberg represent a documented rejection of this whole premise: that expression should be externally catalogued and taught at all, rather than produced as the byproduct of a genuinely engaged inner state.",
         "A taxonomy taught, not caught": "This is the school's central claim, worth stating plainly rather than leaving implicit: if emotional expression were a fixed biological readout — the same signal, produced the same way, in every body — it would not need years of drilled training to produce reliably, and every tradition that set out to teach it would have converged on the same vocabulary. Neither is true. Each of the traditions gathered here required, and still requires, years of explicit instruction to reproduce, and no two of their vocabularies match: a mudrā is not a mask tilt is not an eyebrow angle is not a body-zone attitude is not a face color. That divergence, produced by people whose sole professional concern was being legibly understood by an audience, is a different and arguably more demanding kind of evidence for this library's constructionist substrate than a laboratory result — it is what happens when the fixed-signal hypothesis is tested by centuries of people whose livelihood depended on getting it right.",
@@ -268,7 +265,7 @@
         "evidence_tier": "theoretical",
         "evidence_note": "Every tradition in this school is a working performance practice, refined by trial and audience response over years or centuries, not a controlled empirical study of what emotion is or how it is produced in the body. Their authority rests on demonstrated success at being legibly read by trained and untrained audiences alike within their own convention — a real and checkable kind of success, but a different and weaker warrant than a laboratory finding about the nature of emotion itself. That a system works to communicate a feeling to an audience is not the same claim as that system having discovered what the feeling underneath actually is, and this school does not treat the two as equivalent.",
         "source_deck": "affektenlehre",
-        "source_item_id": "affektenlehre-root",
+        "source_node_id": "affektenlehre-root",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     }

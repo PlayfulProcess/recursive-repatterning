@@ -89,16 +89,16 @@ def collect_vocabulary():
     item's own name, and keywords (where the NVC school carries several hundred
     inventory words that exist nowhere else).
     """
-    vocab = defaultdict(lambda: {"schools": set(), "sources": set(), "items": set()})
+    vocab = defaultdict(lambda: {"schools": set(), "sources": set(), "nodes": set()})
 
     for entry in sorted(os.listdir(SCHOOLS)):
         gpath = os.path.join(SCHOOLS, entry, "grammar.json")
         if not os.path.isfile(gpath) or entry in SKIP_SCHOOLS:
             continue
         g = load(gpath)
-        for item in g.get("items", []):
+        for item in g.get("nodes", []):
             meta = item.get("metadata") or {}
-            if item.get("composite_of"):
+            if item.get("parts"):
                 continue  # groups and roots are structure, not vocabulary
 
             def add(raw, source):
@@ -108,7 +108,7 @@ def collect_vocabulary():
                 v = vocab[t]
                 v["schools"].add(entry)
                 v["sources"].add(source)
-                v["items"].add(f"{entry}/{item.get('id','')}")
+                v["nodes"].add(f"{entry}/{item.get('id','')}")
 
             if meta.get("emotion_key"):
                 add(meta["emotion_key"], "emotion_key")
@@ -188,7 +188,7 @@ def main():
             "xy": [round(float(xy[i][0]), 4), round(float(xy[i][1]), 4)],
             "schools": sorted(found[t]["schools"]),
             "sources": sorted(found[t]["sources"]),
-            "items": sorted(found[t]["items"])[:6],
+            "nodes": sorted(found[t]["nodes"])[:6],
             "near": [{"term": terms[j], "score": round(float(sims[i][j]), 3)}
                      for j in order],
         })

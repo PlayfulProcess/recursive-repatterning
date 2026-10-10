@@ -50,7 +50,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "wise-mind",
       "name": "Wise Mind",
@@ -64,7 +64,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-fit",
+        "source_node_id": "the-fit",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -94,7 +94,7 @@
       },
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "self",
+        "source_node_id": "self",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -180,9 +180,8 @@
       "id": "module-mindfulness",
       "name": "Mindfulness",
       "category": "module",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["wise-mind", "mindfulness-what-how-skills"],
+      "parts": ["wise-mind", "mindfulness-what-how-skills"],
       "relationship_type": "emergence",
       "keywords": ["mindfulness", "core mindfulness", "foundation"],
       "sections": {
@@ -194,9 +193,8 @@
       "id": "module-distress-tolerance",
       "name": "Distress Tolerance",
       "category": "module",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["radical-acceptance", "crisis-survival-skills"],
+      "parts": ["radical-acceptance", "crisis-survival-skills"],
       "relationship_type": "emergence",
       "keywords": ["distress tolerance", "crisis survival", "radical acceptance", "acceptance"],
       "sections": {
@@ -208,9 +206,8 @@
       "id": "module-emotion-regulation",
       "name": "Emotion Regulation",
       "category": "module",
-      "level": 2,
       "sort_order": 12,
-      "composite_of": ["check-the-facts", "opposite-action", "please-and-building-mastery"],
+      "parts": ["check-the-facts", "opposite-action", "please-and-building-mastery"],
       "relationship_type": "emergence",
       "keywords": ["emotion regulation", "change", "vulnerability", "opposite action"],
       "sections": {
@@ -218,7 +215,7 @@
       },
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "nvc-needs-root",
+        "source_node_id": "nvc-needs-root",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -226,9 +223,8 @@
       "id": "module-interpersonal-effectiveness",
       "name": "Interpersonal Effectiveness",
       "category": "module",
-      "level": 2,
       "sort_order": 13,
-      "composite_of": ["dear-man", "give-fast-and-priorities"],
+      "parts": ["dear-man", "give-fast-and-priorities"],
       "relationship_type": "emergence",
       "keywords": ["interpersonal effectiveness", "dear man", "give", "fast"],
       "sections": {
@@ -240,9 +236,8 @@
       "id": "dbt-root",
       "name": "Dialectical Behavior Therapy — Holding Acceptance and Change",
       "category": "root",
-      "level": 3,
       "sort_order": 14,
-      "composite_of": ["module-mindfulness", "module-distress-tolerance", "module-emotion-regulation", "module-interpersonal-effectiveness"],
+      "parts": ["module-mindfulness", "module-distress-tolerance", "module-emotion-regulation", "module-interpersonal-effectiveness"],
       "relationship_type": "emergence",
       "keywords": ["dbt", "dialectical behavior therapy", "linehan", "acceptance and change", "dialectics"],
       "sections": {

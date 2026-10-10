@@ -21,7 +21,7 @@
    }
   ]
  },
- "items": [
+ "nodes": [
   {
    "id": "moment-barrett-constructed-emotion",
    "name": "Barrett — Constructed Emotion and the Body Budget",
@@ -37,7 +37,7 @@
     "era": "2017",
     "branch": "stream-substrate",
     "source_deck": "constructed-emotion",
-    "source_item_id": "constructed-emotion-root",
+    "source_node_id": "constructed-emotion-root",
     "deck": "Constructed Emotion — the Substrate"
    }
   },
@@ -72,7 +72,7 @@
     "era": "c. 1000",
     "branch": "stream-contemplative",
     "source_deck": "rasa",
-    "source_item_id": "shanta",
+    "source_node_id": "shanta",
     "deck": "Rasa — Bharata's Aesthetics of Performance"
    }
   },
@@ -107,7 +107,7 @@
     "era": "1999",
     "branch": "stream-clinical",
     "source_deck": "nvc-needs",
-    "source_item_id": "nvc-needs-root",
+    "source_node_id": "nvc-needs-root",
     "deck": "Nonviolent Communication — Feelings and Needs"
    }
   },
@@ -126,7 +126,7 @@
     "era": "1993",
     "branch": "stream-clinical",
     "source_deck": "dbt-skills",
-    "source_item_id": "wise-mind",
+    "source_node_id": "wise-mind",
     "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
    }
   },
@@ -145,7 +145,7 @@
     "era": "1985",
     "branch": "stream-clinical",
     "source_deck": "parts-work",
-    "source_item_id": "self",
+    "source_node_id": "self",
     "deck": "Parts Work — after Internal Family Systems"
    }
   },
@@ -164,7 +164,7 @@
     "era": "1969",
     "branch": "stream-clinical",
     "source_deck": "attachment-theory",
-    "source_item_id": "internal-working-models",
+    "source_node_id": "internal-working-models",
     "deck": "Bowlby and Ainsworth — Attachment Theory"
    }
   },
@@ -183,7 +183,7 @@
     "era": "1950",
     "branch": "stream-clinical",
     "source_deck": "ericksonian-hypnosis",
-    "source_item_id": "state-before-insight",
+    "source_node_id": "state-before-insight",
     "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
    }
   },
@@ -234,7 +234,7 @@
     "era": "2026",
     "branch": "group-the-pours",
     "source_deck": "ethics-of-fiction",
-    "source_item_id": "the-freedom-test",
+    "source_node_id": "the-freedom-test",
     "deck": "The Ethics of Fiction — A Grammar for Judging Stories"
    }
   },
@@ -253,7 +253,7 @@
     "era": "2026",
     "branch": "group-the-pours",
     "source_deck": "overflow",
-    "source_item_id": "the-overflow",
+    "source_node_id": "the-overflow",
     "deck": "Overflow — Structures, Process, Possibilities"
    }
   },
@@ -272,7 +272,7 @@
     "era": "2026",
     "branch": "group-the-pours",
     "source_deck": "overflow",
-    "source_item_id": "the-fit",
+    "source_node_id": "the-fit",
     "deck": "Overflow — Structures, Process, Possibilities"
    }
   },
@@ -280,9 +280,8 @@
    "id": "stream-substrate",
    "name": "The Substrate Stream",
    "category": "lineage",
-   "level": 2,
    "sort_order": 15,
-   "composite_of": ["moment-barrett-constructed-emotion"],
+   "parts": ["moment-barrett-constructed-emotion"],
    "keywords": ["substrate", "barrett", "constructionism"],
    "sections": {
     "Definition": "The water everything else flows in: constructed emotion, allostasis, prediction. One tributary, but it is the riverbed — every other stream reaches the House already read through it."
@@ -292,9 +291,8 @@
    "id": "stream-contemplative",
    "name": "The Contemplative Stream",
    "category": "lineage",
-   "level": 2,
    "sort_order": 16,
-   "composite_of": ["moment-lila-pratyabhijna", "moment-shanta-rasa", "moment-brunton-own-context"],
+   "parts": ["moment-lila-pratyabhijna", "moment-shanta-rasa", "moment-brunton-own-context"],
    "keywords": ["contemplative", "lila", "recognition", "individuation"],
    "sections": {
     "Definition": "Why there is play at all, and what finding feels like: līlā and recognition from Kashmir, śānta's stillness from Abhinavagupta's aesthetics, and Brunton's insistence that understanding is earned one context at a time."
@@ -304,9 +302,8 @@
    "id": "stream-clinical",
    "name": "The Clinical Stream",
    "category": "lineage",
-   "level": 2,
    "sort_order": 17,
-   "composite_of": ["moment-nvc-needs-vocabulary", "moment-dbt-dialectic", "moment-ifs-self", "moment-attachment-working-models", "moment-erickson-state-first"],
+   "parts": ["moment-nvc-needs-vocabulary", "moment-dbt-dialectic", "moment-ifs-self", "moment-attachment-working-models", "moment-erickson-state-first"],
    "keywords": ["clinical", "nvc", "dbt", "ifs", "attachment", "erickson"],
    "sections": {
     "Definition": "The practices the House composts into cards: needs-language, the acceptance-and-change dialectic, Self-energy, working models, and — newest — the state-first lever, taken with its population boundary attached."
@@ -316,9 +313,8 @@
    "id": "stream-critical",
    "name": "The Critical Stream",
    "category": "lineage",
-   "level": 2,
    "sort_order": 18,
-   "composite_of": ["moment-tillich-courage", "moment-andreotti-hospicing"],
+   "parts": ["moment-tillich-courage", "moment-andreotti-hospicing"],
    "keywords": ["critical", "tillich", "andreotti", "modernity"],
    "sections": {
     "Definition": "The solvent that keeps the House from believing its own plumbing: Tillich's two courages held in tension, and Andreotti's exposure of values wearing nature's costume — aimed at every framework the House meets, including its own."
@@ -328,9 +324,8 @@
    "id": "group-the-pours",
    "name": "The Pours — Where the House Gives Back",
    "category": "lineage",
-   "level": 2,
    "sort_order": 19,
-   "composite_of": ["moment-freedom-test-pour", "moment-overflow-criterion-pour", "moment-the-fit-pour"],
+   "parts": ["moment-freedom-test-pour", "moment-overflow-criterion-pour", "moment-the-fit-pour"],
    "keywords": ["downstream", "freedom-test", "overflow-criterion", "fit"],
    "sections": {
     "Definition": "A genealogy centered on a living school owes an account of its outflow, not only its intake. Three instruments pour back out: the Freedom Test, the overflow criterion for needs and wants, and the Fit. Each is offered as a made meaning, held visibly as made."
@@ -340,9 +335,8 @@
    "id": "genealogy-of-the-house-root",
    "name": "A Genealogy of the House",
    "category": "root",
-   "level": 3,
    "sort_order": 20,
-   "composite_of": ["stream-substrate", "stream-contemplative", "stream-clinical", "stream-critical", "group-the-pours"],
+   "parts": ["stream-substrate", "stream-contemplative", "stream-clinical", "stream-critical", "group-the-pours"],
    "keywords": ["genealogy", "house-school", "tributaries", "pours", "watershed"],
    "sections": {
     "Definition": "Four streams in, three instruments out, one house between them. The substrate stream is the riverbed; the contemplative stream says why there is play; the clinical stream supplies the practices the cards compost; the critical stream keeps the whole from hardening into doctrine. What pours back out — the Freedom Test, the overflow criterion, the Fit — is the House's account of itself as a place water moves through, not a reservoir.",

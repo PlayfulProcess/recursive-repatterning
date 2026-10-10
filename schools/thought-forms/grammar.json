@@ -47,7 +47,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "astral-body-besant-leadbeater",
       "name": "The Astral Body — Besant and Leadbeater's Account",
@@ -146,7 +146,7 @@
       "metadata": {
         "emotion_key": "anger",
         "source_deck": "darwin-expression",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Darwin — The Expression of the Emotions",
         "image_source": "https://commons.wikimedia.org/wiki/File:Forms22-23.jpg",
         "image_credit": "\"Murderous Rage\" and \"Sustained Anger,\" Figs. 22–23 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
@@ -167,7 +167,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "darwin-expression",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Darwin — The Expression of the Emotions",
         "image_source": "https://commons.wikimedia.org/wiki/File:Sudden_Fright.jpg",
         "image_credit": "\"Sudden Fright,\" Fig. 27 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD Old."
@@ -196,9 +196,8 @@
       "id": "group-visible-feeling",
       "name": "Feelings Given a Colour and a Shape",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["affection", "devotion", "anger", "fear", "jealousy"],
+      "parts": ["affection", "devotion", "anger", "fear", "jealousy"],
       "sections": {
         "Definition": "The five named feelings this grammar builds out from the published colour key, each given its own colour range, its own plate, and — for affection and anger in particular — a distinct shape as well as a colour, so that the same feeling at different strengths or degrees of self-interest is drawn differently rather than merely tinted differently."
       },
@@ -209,9 +208,8 @@
       "id": "group-clairvoyant-apparatus",
       "name": "The Clairvoyant Apparatus — Astral Body and Colour Key",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["astral-body-besant-leadbeater", "astral-body-steiner", "colour-key"],
+      "parts": ["astral-body-besant-leadbeater", "astral-body-steiner", "colour-key"],
       "sections": {
         "Definition": "The apparatus side of this school: two related but distinct accounts of the astral body as the seat of feeling (Besant and Leadbeater's, and Steiner's, kept deliberately separate) alongside the published colour key that gives the specific feeling-items their vocabulary in the first place."
       },
@@ -222,9 +220,8 @@
       "id": "thought-forms-root",
       "name": "Thought-Forms — Feeling as Visible Colour",
       "category": "root",
-      "level": 3,
       "sort_order": 11,
-      "composite_of": ["group-visible-feeling", "group-clairvoyant-apparatus"],
+      "parts": ["group-visible-feeling", "group-clairvoyant-apparatus"],
       "sections": {
         "Definition": "The Theosophical and Anthroposophical tradition, worked out most fully by Annie Besant and C. W. Leadbeater in Thought-Forms (1901) and Man Visible and Invisible (1902), and given a distinct account by Rudolf Steiner on his way to founding Anthroposophy, holds that feeling is directly perceivable as colour and form by trained clairvoyant sight — not inferred from a person's face, voice, or conduct, but seen, the way a shape or a colour is ordinarily seen. The published colour key at the centre of Thought-Forms pairs specific colours and shades with specific named feelings (affection, devotion, anger, fear, jealousy, and others), and the book's plates are presented as records of particular observed instances rather than as invented illustration.",
         "What kind of account this is": "This is a visionary and clairvoyant claim, not an empirical one, and it should be read in those terms. The perceptions described are not independently verifiable by a reader without the same claimed training, no controlled test has ever supported clairvoyant aura perception, and the book offers no method by which its claims could be checked against an outside measurement. That does not make the material uninteresting to this library — the opposite: it is one of the most literal vocabularies for inner states this collection holds, a system built on the premise that a feeling has a shape and a colour precise enough to be drawn and published as a key, which is exactly the kind of highly developed vocabulary for inner states this library exists to collect, independent of whether the underlying perceptual claim is accepted.",

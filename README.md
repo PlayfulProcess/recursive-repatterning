@@ -59,7 +59,7 @@ schools-of-emotion  (constellation root)
 └── Historical & Scientific               Darwin 1872 · James 1890
 ```
 
-This is the same `composite_of` mechanism the rest of this project family uses for
+This is the same `parts` mechanism the rest of this project family uses for
 meta-grammars — one mechanism catalogues everything.
 
 ### Honesty by construction

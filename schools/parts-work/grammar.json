@@ -50,7 +50,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "self",
       "name": "Self",
@@ -64,7 +64,7 @@
       },
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-self",
+        "source_node_id": "the-self",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -150,9 +150,8 @@
       "id": "group-protectors",
       "name": "The Protectors — Managers, Firefighters, and the Inner Critic",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["manager", "firefighter", "inner-critic"],
+      "parts": ["manager", "firefighter", "inner-critic"],
       "keywords": ["protectors", "manager", "firefighter", "inner critic"],
       "sections": {
         "Definition": "Managers, firefighters, and the inner critic are all protectors in this model — parts organized around keeping an exile's pain from surfacing, whether by preventing it in advance (managers, the inner critic) or extinguishing it the moment it breaks through (firefighters). None of them are the pain itself; all of them are organized around it."
@@ -163,9 +162,8 @@
       "id": "group-self-and-exile",
       "name": "Self Meets Exile",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["self", "exile"],
+      "parts": ["self", "exile"],
       "keywords": ["self", "exile", "witnessing"],
       "sections": {
         "Definition": "The central relationship this tradition describes: Self approaching an exile's pain with curiosity rather than the system's usual response of protecting against it. This is presented as the direction the work moves in, not as something to force or rush."
@@ -176,9 +174,8 @@
       "id": "group-the-work",
       "name": "Blending and Unburdening — How the System Moves",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["blending", "unburdening"],
+      "parts": ["blending", "unburdening"],
       "keywords": ["blending", "unburdening", "change"],
       "sections": {
         "Definition": "Two ends of the same arc: blending names how completely a part can take over the system, and unburdening names what this tradition holds becomes possible once a part is met by Self instead of blended with or fought against."
@@ -189,9 +186,8 @@
       "id": "parts-work-root",
       "name": "Parts Work — the Inner System",
       "category": "root",
-      "level": 3,
       "sort_order": 11,
-      "composite_of": ["group-protectors", "group-self-and-exile", "group-the-work"],
+      "parts": ["group-protectors", "group-self-and-exile", "group-the-work"],
       "keywords": ["parts work", "ifs", "internal family systems", "self-leadership"],
       "sections": {
         "Definition": "This tradition's core claim is that what feels like a single, continuous self is better described as a system of parts — each with its own role, history, and protective intention — organized around a steadier capacity, Self, that can be curious about any part without needing to become it, silence it, or obey it. Protectors (managers, firefighters, the inner critic among them) exist to keep exiled pain from resurfacing; the work this tradition describes is not eliminating any part, but changing the system's internal relationships, so protectors no longer have to work so hard and exiled pain can finally be met.",

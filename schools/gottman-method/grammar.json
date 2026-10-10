@@ -46,12 +46,11 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "four-horsemen",
       "name": "The Four Horsemen",
       "category": "pattern",
-      "level": 1,
       "sort_order": 1,
       "keywords": ["criticism", "contempt", "defensiveness", "stonewalling", "gottman"],
       "sections": {
@@ -65,7 +64,6 @@
       "id": "bids-for-connection",
       "name": "Bids for Connection",
       "category": "pattern",
-      "level": 1,
       "sort_order": 2,
       "keywords": ["bids", "turning-toward", "attention", "gottman"],
       "sections": {
@@ -79,7 +77,6 @@
       "id": "positive-sentiment-override",
       "name": "Sentiment Override — the Emotional Bank Account",
       "category": "pattern",
-      "level": 1,
       "sort_order": 3,
       "keywords": ["sentiment-override", "ratio", "goodwill", "gottman"],
       "sections": {
@@ -89,7 +86,7 @@
       },
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "bonding-event",
+        "source_node_id": "bonding-event",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -97,7 +94,6 @@
       "id": "perpetual-problems-and-dreams",
       "name": "Perpetual Problems and the Dreams Within Them",
       "category": "pattern",
-      "level": 1,
       "sort_order": 4,
       "keywords": ["perpetual-problem", "gridlock", "dreams", "gottman"],
       "sections": {
@@ -111,7 +107,6 @@
       "id": "flooding-and-self-soothing",
       "name": "Flooding and Self-Soothing",
       "category": "pattern",
-      "level": 1,
       "sort_order": 5,
       "keywords": ["flooding", "self-soothing", "nervous-system", "gottman"],
       "sections": {
@@ -122,7 +117,7 @@
       },
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "pursue-withdraw-cycle",
+        "source_node_id": "pursue-withdraw-cycle",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -130,7 +125,6 @@
       "id": "accepting-influence",
       "name": "Accepting Influence",
       "category": "repair",
-      "level": 1,
       "sort_order": 6,
       "keywords": ["accepting-influence", "respect", "yielding", "gottman"],
       "sections": {
@@ -144,7 +138,6 @@
       "id": "repair-attempts",
       "name": "Repair Attempts",
       "category": "repair",
-      "level": 1,
       "sort_order": 7,
       "keywords": ["repair-attempt", "de-escalation", "humor", "gottman"],
       "sections": {
@@ -158,9 +151,8 @@
       "id": "group-warning-signs",
       "name": "What Predicts Distress",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["four-horsemen", "flooding-and-self-soothing", "perpetual-problems-and-dreams"],
+      "parts": ["four-horsemen", "flooding-and-self-soothing", "perpetual-problems-and-dreams"],
       "keywords": ["gottman", "distress", "prediction"],
       "sections": {
         "Definition": "Three findings the Gottmans point to as what most reliably differentiates couples heading toward distress: an unmanaged pattern of communication under conflict (the Four Horsemen), the body's own veto on productive conversation once arousal crosses a threshold (flooding), and the specific way an ordinary, recurring disagreement calcifies into an entrenched standoff (gridlock)."
@@ -171,9 +163,8 @@
       "id": "group-what-predicts-stability",
       "name": "What Predicts Stability",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["bids-for-connection", "positive-sentiment-override", "repair-attempts", "accepting-influence"],
+      "parts": ["bids-for-connection", "positive-sentiment-override", "repair-attempts", "accepting-influence"],
       "keywords": ["gottman", "stability", "repair"],
       "sections": {
         "Definition": "Four findings the Gottmans point to as what characterized the couples who lasted: attentiveness to small bids for connection, an accumulated reserve of goodwill that colors how ambiguous moments get read, a working repair toolkit used often rather than flawlessly, and a habitual willingness to let a partner's perspective actually change a decision."
@@ -184,9 +175,8 @@
       "id": "gottman-method-root",
       "name": "The Gottman Method — the Research and the Method",
       "category": "root",
-      "level": 3,
       "sort_order": 10,
-      "composite_of": ["group-warning-signs", "group-what-predicts-stability"],
+      "parts": ["group-warning-signs", "group-what-predicts-stability"],
       "keywords": ["gottman method", "love lab", "couples therapy", "four horsemen"],
       "sections": {
         "Definition": "The Gottman Method starts from decades of direct observation of real couples rather than from prior theory: what actually distinguished couples who grew closer over time from couples who drifted apart or separated, coded from videotaped conversation and physiological measurement, then named and, where possible, taught as a set of skills. Four patterns (the Four Horsemen) predicted distress; several others — attentiveness to small bids, an accumulated reserve of goodwill, a habitual willingness to be influenced, and a working repair toolkit used often — characterized the couples who lasted.",

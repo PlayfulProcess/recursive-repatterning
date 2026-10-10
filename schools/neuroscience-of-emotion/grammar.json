@@ -62,7 +62,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "amygdala-fear",
       "name": "Amygdala ↔ Fear",
@@ -79,7 +79,7 @@
         "emotion_key": "fear",
         "evidence_note": "The amygdala's role in fear conditioning, threat detection, and autonomic threat response is one of the best-replicated findings in affective neuroscience — decades of convergent rodent and human lesion work support it. The stronger, more popularized claim — that the amygdala is fear's dedicated seat, or is fear-specific — has not held up: Feinstein et al. (2013) found the amygdala unnecessary for CO2-induced panic in the same patient whose earlier deficits had anchored the field, and Lindquist et al.'s 2012 meta-analysis found amygdala activity elevated across multiple high-arousal negative categories, not selectively during fear.",
         "source_deck": "ekman-basic",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -98,7 +98,7 @@
         "emotion_key": "disgust",
         "evidence_note": "Among the five classic mappings in this school, insula/disgust has the most consistent supporting evidence in Lindquist et al.'s 2012 pooled meta-analysis — right anterior insula activity was more reliably elevated during disgust than during the other categories studied. It still falls short of selectivity: anterior insula is also reliably active across other negative and interoceptive states, consistent with a general interoceptive role that disgust draws on heavily rather than a dedicated disgust module.",
         "source_deck": "ekman-basic",
-        "source_item_id": "disgust",
+        "source_node_id": "disgust",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -117,7 +117,7 @@
         "emotion_key": "anger",
         "evidence_note": "The region's involvement in emotional and behavioral regulation more broadly is reasonably well supported by systematic lesion-cohort studies (Grafman et al. 1996; Blair and colleagues). The specific evidentiary anchor most people know — the Phineas Gage case — is a single, thinly documented 19th-century anecdote reconstructed a century and a half later, not a controlled finding, and should not carry the evidentiary weight its fame implies. The region is not anger-specific; it participates in regulation and valuation across many affective and decision-making domains.",
         "source_deck": "ekman-basic",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -136,7 +136,7 @@
         "emotion_key": "sadness",
         "evidence_note": "ACC (especially subgenual/pregenual regions) activation during induced sadness is a real, replicated finding from PET sadness-induction studies. It is not sadness-specific: the same territory reliably activates during physical pain, cognitive conflict, and other negative or effortful states, and the widely cited extension to social-exclusion-specific 'social pain' (Eisenberger et al. 2003) is itself contested in the subsequent literature on grounds of specificity.",
         "source_deck": "ekman-basic",
-        "source_item_id": "sadness",
+        "source_node_id": "sadness",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -155,7 +155,7 @@
         "emotion_key": "joy",
         "evidence_note": "NAcc/ventral striatum activation during reward anticipation and receipt is a robust, well-replicated finding (Knutson et al. 2001 and a large subsequent literature). The inference to 'this is joy's region' is weaker on two independent grounds: within reward neuroscience itself, Berridge & Robinson's liking/wanting distinction shows the hedonic 'liking' response is far more anatomically circumscribed than whole-structure NAcc activation, which more often reflects motivational 'wanting'; and across the wider emotion-neuroimaging literature (Lindquist et al. 2012), ventral striatal activity is elevated across positive affect generally, not selectively during joy.",
         "source_deck": "ekman-basic",
-        "source_item_id": "joy",
+        "source_node_id": "joy",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -204,7 +204,7 @@
       "metadata": {
         "evidence_note": "This is the well-replicated half of this school's own subject matter: the finding that no discrete emotion category maps consistently and selectively onto one brain region is drawn from a large pooled meta-analysis of the published neuroimaging literature, not a single study, and later work (including subsequent degeneracy-focused analyses) has continued to find the same pattern rather than overturning it.",
         "source_deck": "constructed-emotion",
-        "source_item_id": "constructed-emotion-root",
+        "source_node_id": "constructed-emotion-root",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -222,7 +222,7 @@
       "metadata": {
         "evidence_note": "The salience-network/default-mode-network/allostasis account is an active, still-developing research program rather than a single settled finding — it has real and growing published support (Kleckner et al. 2017 among the central anchors) but is newer and less exhaustively tested than the meta-analytic negative finding (no discrete locus) it is built to explain.",
         "source_deck": "constructed-emotion",
-        "source_item_id": "interoception",
+        "source_node_id": "interoception",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -230,9 +230,8 @@
       "id": "group-classic-mappings",
       "name": "The Classic One-Region-One-Emotion Mappings",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["amygdala-fear", "insula-disgust", "ofc-vmpfc-anger-regulation", "acc-sadness-distress", "ventral-striatum-joy-reward"],
+      "parts": ["amygdala-fear", "insula-disgust", "ofc-vmpfc-anger-regulation", "acc-sadness-distress", "ventral-striatum-joy-reward"],
       "sections": {
         "Definition": "Five textbook region-emotion pairings built up over the second half of the twentieth century and the neuroimaging boom that followed: amygdala for fear, insula for disgust, orbitofrontal/ventromedial cortex for anger and its regulation, anterior cingulate for sadness and distress, and ventral striatum for joy and reward. Each rests on real, published evidence — lesion studies, imaging studies, or both — and each has been shown, with varying degrees of force, to fall short of the stronger claim that the region is that emotion's dedicated, selective seat."
       },
@@ -243,9 +242,8 @@
       "id": "group-architectures",
       "name": "The Architectural Claims — Circuit, System, and Triune Layers",
       "category": "group",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["papez-circuit", "limbic-system-triune-brain"],
+      "parts": ["papez-circuit", "limbic-system-triune-brain"],
       "sections": {
         "Definition": "Two proposals about how emotion-relevant structures are organized into a whole, rather than claims about any one emotion: Papez's 1937 closed anatomical circuit, and MacLean's limbic system and triune brain, which built directly on Papez's work. Both shaped how emotion was taught and pictured for decades; both are now understood, on different grounds, as inaccurate architectural claims about structures that are otherwise real."
       },
@@ -256,9 +254,8 @@
       "id": "group-corrective-evidence",
       "name": "What Superseded the Localisationist Picture",
       "category": "group",
-      "level": 2,
       "sort_order": 12,
-      "composite_of": ["lindquist-meta-analysis-degeneracy", "network-alternative-salience-dmn-allostasis"],
+      "parts": ["lindquist-meta-analysis-degeneracy", "network-alternative-salience-dmn-allostasis"],
       "sections": {
         "Definition": "The two pieces of this school's own content that are not classic claims but the evidence and framework that replaced them: the 2012 meta-analytic finding that no discrete emotion category maps consistently and selectively onto one brain region, and the network-level alternative (salience network, default mode network, interoception, allostasis) that contemporary affective neuroscience offers in its place."
       },
@@ -269,9 +266,8 @@
       "id": "neuroscience-of-emotion-root",
       "name": "Neuroscience of Emotion — the Localisationist Picture and What Replaced It",
       "category": "root",
-      "level": 3,
       "sort_order": 13,
-      "composite_of": ["group-classic-mappings", "group-architectures", "group-corrective-evidence"],
+      "parts": ["group-classic-mappings", "group-architectures", "group-corrective-evidence"],
       "sections": {
         "Definition": "This is the one school in this library that explains feeling by its implementation in nervous tissue — a different kind of account from every other branch here, none of which stake their claim on where in the brain or body a category is located. From 1937 (Papez's circuit) through the mid-century limbic system and triune brain, into the PET- and fMRI-driven localization boom of the 1990s and 2000s, researchers proposed that specific structures and circuits — the amygdala, the insula, orbitofrontal and cingulate cortex, a closed anatomical loop, a bounded 'emotional brain' layered beneath a 'rational' neocortex — implement specific emotions or emotion in general. This school holds that picture faithfully, in its own terms, because it is what was reasonably believed on the evidence available and what much of psychology still teaches. It holds, alongside that picture and without collapsing either into the other, the pooled evidence that has substantially revised it: Lindquist et al.'s 2012 meta-analysis found no discrete emotion category maps consistently and selectively onto one brain region; the pattern is degeneracy, not dedicated modules; and Joseph LeDoux, the researcher most responsible for establishing the amygdala-fear link experimentally in the first place, has since argued explicitly that the amygdala implements a defensive survival circuit rather than the conscious feeling of fear, and that his own field conflated the two.",
         "Why this school is different in kind": "Every other school in this library proposes a taxonomy — a set of named categories and how they relate. This school instead asks where, physically, feeling has been located, and by what kind of evidence. That question can be asked of any taxonomy (does anger, however a tradition defines it, have a locus?), which is why this school does not compete with the others' category lists the way they compete with each other; it sits underneath them, addressing embodiment rather than category structure. It is also the one school where a central figure in its own history — LeDoux — publicly revised his own signature finding, which is presented here as this school's own version of the gradient every school in this library shows to varying degrees: reasonable belief, real evidence, and later correction.",

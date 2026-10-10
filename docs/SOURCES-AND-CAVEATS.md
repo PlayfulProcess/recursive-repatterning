@@ -147,7 +147,7 @@ contract in [`GRAMMAR_FORMAT.md`](../GRAMMAR_FORMAT.md):
 
 - **One source per grammar.** A grammar carries one school's, one author's voice. If a
   second author's take on the same subject matters enough to include, it becomes a
-  *separate* grammar, cross-linked back via the `source_deck`/`source_item_id`/`deck`
+  *separate* grammar, cross-linked back via the `source_deck`/`source_node_id`/`deck`
   metadata pattern documented in `CLAUDE.md` — never stacked into the same item as a
   second voice. This is the same rule `GRAMMAR_FORMAT.md` documents (under "ONE SOURCE PER
   DECK") for the sibling tarot chassis this repo was copied from, applied here to schools

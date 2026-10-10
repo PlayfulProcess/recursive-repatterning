@@ -46,7 +46,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "anger",
       "name": "Anger",
@@ -141,9 +141,8 @@
       "id": "group-negative-basic-emotions",
       "name": "The Negatively-Valenced Basic Emotions",
       "category": "group",
-      "level": 2,
       "sort_order": 7,
-      "composite_of": ["anger", "disgust", "fear", "sadness"],
+      "parts": ["anger", "disgust", "fear", "sadness"],
       "sections": {
         "Definition": "Four of the six most commonly cited basic emotions, each tied to a negatively-valenced appraisal (obstruction, contamination, threat, loss) and each claimed to have a distinct facial affect-programme signature distinguishing it from the other three."
       },
@@ -154,9 +153,8 @@
       "id": "group-positive-and-orienting",
       "name": "Joy and Surprise",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["joy", "surprise"],
+      "parts": ["joy", "surprise"],
       "sections": {
         "Definition": "The two most commonly cited basic emotions that are not tied to a negative appraisal — joy (positively valenced) and surprise (valence-neutral, resolving into another emotion depending on what the unexpected event turns out to mean)."
       },
@@ -167,9 +165,8 @@
       "id": "ekman-basic-root",
       "name": "Basic-Emotion Theory — the Six-Emotion Model",
       "category": "root",
-      "level": 3,
       "sort_order": 9,
-      "composite_of": ["group-negative-basic-emotions", "group-positive-and-orienting"],
+      "parts": ["group-negative-basic-emotions", "group-positive-and-orienting"],
       "sections": {
         "Definition": "The basic-emotion / affect-programme model, developed from the 1960s onward and associated chiefly with Paul Ekman's research programme, holds that a small set of discrete emotions — most commonly anger, disgust, fear, joy, sadness, and surprise — are each produced by a fast, largely involuntary, evolved affect programme with a specific, cross-culturally recognizable facial signature. The model is closely tied to the Facial Action Coding System (FACS, Ekman & Friesen), a detailed anatomical vocabulary for describing facial muscle movement independent of any particular emotion theory.",
         "Research note — the case for": "The strongest evidence cited for the model is a series of cross-cultural recognition studies beginning in the late 1960s, most famously Ekman and Friesen's (1971) work with the Fore, a group in Papua New Guinea with minimal prior contact with outside media, who were reported to match photographs of Western facial expressions to emotion-story descriptions at rates well above chance using a forced-choice task.",

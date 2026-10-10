@@ -24,7 +24,7 @@
    }
   ]
  },
- "items": [
+ "nodes": [
   {
    "id": "the-spread",
    "name": "The Spread",
@@ -62,7 +62,7 @@
    },
    "metadata": {
     "source_deck": "dbt-skills",
-    "source_item_id": "wise-mind",
+    "source_node_id": "wise-mind",
     "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
    }
   },
@@ -109,7 +109,7 @@
    },
    "metadata": {
     "source_deck": "acting-traditions",
-    "source_item_id": "noh-kata-and-masks",
+    "source_node_id": "noh-kata-and-masks",
     "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
    }
   },
@@ -134,7 +134,7 @@
    },
    "metadata": {
     "source_deck": "attachment-theory",
-    "source_item_id": "internal-working-models",
+    "source_node_id": "internal-working-models",
     "deck": "Bowlby and Ainsworth — Attachment Theory"
    }
   },
@@ -160,7 +160,7 @@
    },
    "metadata": {
     "source_deck": "nvc-needs",
-    "source_item_id": "nvc-needs-root",
+    "source_node_id": "nvc-needs-root",
     "deck": "Nonviolent Communication — Feelings and Needs"
    }
   },
@@ -186,7 +186,7 @@
    },
    "metadata": {
     "source_deck": "dbt-skills",
-    "source_item_id": "radical-acceptance",
+    "source_node_id": "radical-acceptance",
     "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
    }
   },
@@ -211,7 +211,7 @@
    },
    "metadata": {
     "source_deck": "schools-of-emotion",
-    "source_item_id": "schools-of-emotion-root",
+    "source_node_id": "schools-of-emotion-root",
     "deck": "Schools of Emotion"
    }
   },
@@ -257,7 +257,7 @@
    },
    "metadata": {
     "source_deck": "constructed-emotion",
-    "source_item_id": "interoception",
+    "source_node_id": "interoception",
     "deck": "Constructed Emotion — the Substrate"
    }
   },
@@ -283,7 +283,7 @@
    },
    "metadata": {
     "source_deck": "constructed-emotion",
-    "source_item_id": "constructed-emotion-root",
+    "source_node_id": "constructed-emotion-root",
     "deck": "Constructed Emotion — the Substrate"
    }
   },
@@ -353,7 +353,7 @@
    },
    "metadata": {
     "source_deck": "eft-bonds",
-    "source_item_id": "the-eft-tango",
+    "source_node_id": "the-eft-tango",
     "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
    }
   },
@@ -400,7 +400,7 @@
    },
    "metadata": {
     "source_deck": "parts-work",
-    "source_item_id": "self",
+    "source_node_id": "self",
     "deck": "Parts Work — after Internal Family Systems"
    }
   },
@@ -468,7 +468,7 @@
    },
    "metadata": {
     "source_deck": "ethics-of-fiction",
-    "source_item_id": "the-freedom-test",
+    "source_node_id": "the-freedom-test",
     "deck": "The Ethics of Fiction — A Grammar for Judging Stories"
    }
   },
@@ -494,7 +494,7 @@
    },
    "metadata": {
     "source_deck": "rasa",
-    "source_item_id": "shanta",
+    "source_node_id": "shanta",
     "deck": "Rasa — Bharata's Aesthetics of Performance"
    }
   },
@@ -543,7 +543,7 @@
    },
    "metadata": {
     "source_deck": "attachment-theory",
-    "source_item_id": "attachment-behavioural-system",
+    "source_node_id": "attachment-behavioural-system",
     "deck": "Bowlby and Ainsworth — Attachment Theory"
    }
   },
@@ -572,9 +572,8 @@
    "id": "group-structure",
    "name": "Structure — What Constrains and Holds",
    "category": "group",
-   "level": 2,
    "sort_order": 24,
-   "composite_of": [
+   "parts": [
     "the-body",
     "the-constriction",
     "the-lineage",
@@ -596,9 +595,8 @@
    "id": "group-process",
    "name": "Process — What Moves and Constructs",
    "category": "group",
-   "level": 2,
    "sort_order": 25,
-   "composite_of": [
+   "parts": [
     "the-prediction",
     "the-construction",
     "the-pour",
@@ -620,9 +618,8 @@
    "id": "group-possibility",
    "name": "Possibility — What Opens When the Process Overflows",
    "category": "group",
-   "level": 2,
    "sort_order": 26,
-   "composite_of": [
+   "parts": [
     "the-overflow",
     "the-free-gift",
     "the-freedom-test",
@@ -644,9 +641,8 @@
    "id": "overflow-root",
    "name": "Overflow — Structures, Process, Possibilities",
    "category": "root",
-   "level": 3,
    "sort_order": 27,
-   "composite_of": [
+   "parts": [
     "group-structure",
     "group-process",
     "group-possibility"

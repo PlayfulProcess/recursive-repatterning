@@ -62,7 +62,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "sanguine",
       "name": "Sanguine — Blood (Air, Hot & Wet)",
@@ -221,9 +221,8 @@
       "id": "group-four-temperaments",
       "name": "The Four Temperaments",
       "category": "group",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["sanguine", "choleric", "melancholic", "phlegmatic"],
+      "parts": ["sanguine", "choleric", "melancholic", "phlegmatic"],
       "sections": {
         "Definition": "The complete Galenic set: four humours, four elements, four paired qualities, four durable dispositions. Every humoral pairing crosses one temperature axis (hot/cold) with one moisture axis (wet/dry), so the four types are not an arbitrary list but the four possible combinations of two binary qualities — a structural logic the theory shares with, but arrived at independently of, other four-fold schemes in this library."
       },
@@ -234,9 +233,8 @@
       "id": "humoral-temperaments-root",
       "name": "The Four Humours — Constitution, Not Cognition",
       "category": "root",
-      "level": 3,
       "sort_order": 12,
-      "composite_of": ["group-four-temperaments", "burton-anatomy-of-melancholy", "galen-nine-temperaments", "humoral-regimens", "bright-treatise-of-melancholie", "moral-treatment-turn", "eysenck-four-temperaments-echo"],
+      "parts": ["group-four-temperaments", "burton-anatomy-of-melancholy", "galen-nine-temperaments", "humoral-regimens", "bright-treatise-of-melancholie", "moral-treatment-turn", "eysenck-four-temperaments-echo"],
       "sections": {
         "Definition": "Galenic humoral theory explains feeling by bodily fluid balance: four humours (blood, yellow bile, black bile, phlegm), each paired with an element and two of the four qualities hot/cold and wet/dry, whose relative proportion in a given body produces both short-term illness and a lifelong temperament. It dominated Western medicine from antiquity through the 18th century and left the deepest vocabulary trace of any framework in this library — sanguine, choleric, melancholic, phlegmatic, bilious, and \"good humour\" are all still ordinary English.",
         "Constitution, not cognition, expression, or category": "Every other school gathered in this library — appraisal theories, expression-based accounts, needs-based frameworks, basic-emotion wheels — explains feeling through some version of judgment, signal, or category. Humoral theory explains it through physiology alone: a fixed bodily ratio, set largely at birth and shifted only by things like diet, season, and age, that produces disposition the way a stronger or weaker constitution produces stamina. It is the one school here that locates feeling's source entirely below the neck, in fluid mechanics rather than mental content.",

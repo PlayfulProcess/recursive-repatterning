@@ -35,7 +35,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "utilization",
       "name": "Utilization",
@@ -49,7 +49,7 @@
       },
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "radical-acceptance",
+        "source_node_id": "radical-acceptance",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -92,7 +92,7 @@
       },
       "metadata": {
         "source_deck": "constructed-emotion",
-        "source_item_id": "prediction",
+        "source_node_id": "prediction",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -109,7 +109,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-prediction",
+        "source_node_id": "the-prediction",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -165,7 +165,7 @@
       },
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "nvc-needs-root",
+        "source_node_id": "nvc-needs-root",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -173,9 +173,8 @@
       "id": "group-the-method",
       "name": "The Method — Utilization, Trance, and Suggestion",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["utilization", "the-everyday-trance", "indirect-suggestion", "the-unconscious-as-resource", "state-before-insight"],
+      "parts": ["utilization", "the-everyday-trance", "indirect-suggestion", "the-unconscious-as-resource", "state-before-insight"],
       "keywords": ["method", "utilization", "trance", "suggestion"],
       "sections": {
         "Definition": "The five commitments that make an approach Ericksonian: whatever arrives is material (utilization); trance is an everyday capacity, not an imposed condition; suggestion works best when the listener builds it (indirectness); the person already carries more competence than their deliberating mind can reach (the unconscious as resource); and experience reorganizes people before explanation does (state before insight)."
@@ -186,9 +185,8 @@
       "id": "group-the-lineage",
       "name": "The Lineage — Where Erickson's Methods Went",
       "category": "group",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["strategic-family-therapy", "solution-focused-brief-therapy", "nlp", "human-needs-coaching"],
+      "parts": ["strategic-family-therapy", "solution-focused-brief-therapy", "nlp", "human-needs-coaching"],
       "keywords": ["lineage", "descendants", "strategic", "coaching"],
       "sections": {
         "Definition": "Four descendants, unequal heirs. Strategic family therapy carried the active, designing stance into the clinic; solution-focused brief therapy kept the presupposition of competence and earned the lineage's best evidence; NLP codified the language patterns and lost the evidence; human-needs coaching scaled the state-first premise to stadium size and added a needs taxonomy of its own. Reading them side by side is a lesson this library cares about: methods and warrant travel separately, and the loudest branch is not the best-evidenced one."
@@ -199,9 +197,8 @@
       "id": "ericksonian-root",
       "name": "Ericksonian Hypnotherapy — the Conversational Trance",
       "category": "root",
-      "level": 3,
       "sort_order": 12,
-      "composite_of": ["group-the-method", "group-the-lineage"],
+      "parts": ["group-the-method", "group-the-lineage"],
       "keywords": ["ericksonian", "hypnotherapy", "utilization", "trance", "lineage"],
       "sections": {
         "Definition": "Milton Erickson's clinical tradition holds that trance is an everyday capacity for absorption; that a skilled conversation can deepen and direct it without commands; that whatever a person brings — including resistance — is material for the work; and that people change through arranged experience more reliably than through explanation. Its descendants carried those commitments into family therapy, brief therapy, NLP, and mass-audience coaching, with sharply unequal fidelity and sharply unequal evidence.",

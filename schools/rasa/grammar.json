@@ -63,7 +63,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "shringara",
       "name": "Śṛṅgāra — the Erotic/Romantic Rasa",
@@ -202,7 +202,7 @@
       "metadata": {
         "emotion_key": "shanta",
         "source_deck": "overflow",
-        "source_item_id": "the-recognition",
+        "source_node_id": "the-recognition",
         "deck": "Overflow — Structures, Process, Possibilities",
         "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
         "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself."
@@ -212,9 +212,8 @@
       "id": "group-natyashastra-five",
       "name": "The Nāṭyaśāstra's Eight Rasas",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["shringara", "hasya", "karuna", "raudra", "vira", "bhayanaka", "bibhatsa", "adbhuta"],
+      "parts": ["shringara", "hasya", "karuna", "raudra", "vira", "bhayanaka", "bibhatsa", "adbhuta"],
       "sections": {
         "Definition": "Bharata's Nāṭyaśāstra names eight rasas built from eight sthāyibhāvas; this group holds all eight (śṛṅgāra, hāsya, karuṇa, raudra, vīra, bhayānaka, bībhatsa, adbhuta)."
       },
@@ -225,9 +224,8 @@
       "id": "group-abhinavagupta-shanta",
       "name": "Abhinavagupta's Contested Ninth",
       "category": "group",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["shanta"],
+      "parts": ["shanta"],
       "sections": {
         "Definition": "Śānta stands apart from Bharata's original eight both in date (added roughly a millennium later) and in kind (its sthāyibhāva is a cessation rather than an active display), which is why it is grouped separately even though the tradition today generally treats the rasas as nine."
       },
@@ -238,9 +236,8 @@
       "id": "rasa-root",
       "name": "Rasa — the Nāṭyaśāstra's Aesthetics of Performance",
       "category": "root",
-      "level": 3,
       "sort_order": 12,
-      "composite_of": ["group-natyashastra-five", "group-abhinavagupta-shanta"],
+      "parts": ["group-natyashastra-five", "group-abhinavagupta-shanta"],
       "sections": {
         "Definition": "The Nāṭyaśāstra (compiled roughly 2nd century BCE – 2nd century CE, attributed to Bharata Muni) is a treatise on dramaturgy, not a psychology of the individual. Its rasa theory holds that a well-built performance — combining vibhāva (the determinants that set a scene), anubhāva (the consequent physical signs a performer displays), and vyabhicāribhāva (transitory supporting states) — makes a sthāyibhāva (a stable emotional theme like rati, love, or śoka, grief) tastable by a qualified spectator. That act of tasting, āsvāda, generalized and held at an aesthetic remove from ordinary personal feeling, is the rasa. Abhinavagupta added a ninth, śānta, several centuries later, arguing it as the ground state from which the other eight arise.",
         "Rasa is an aesthetic event, not an inner-state inventory": "This is the single most important framing point for this school. Rasa theory is not a list of emotions a person can have; it is an account of what happens between craft and a trained audience when a performance succeeds. The sthāyibhāva (love, grief, anger, fear, and so on) is closer to the raw material; the rasa is the specific aesthetic accomplishment of that material being successfully relished. Describing this school as \"the Indian emotion list\" — as though it were a taxonomy of feelings parallel to Ekman's or Plutchik's — erases the very feature (its dependence on performance and a qualified spectator) that makes it a distinct kind of theory.",

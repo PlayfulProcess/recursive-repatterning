@@ -57,7 +57,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "wonder",
       "name": "Admiration — Wonder",
@@ -271,9 +271,8 @@
       "id": "group-wonder-alone",
       "name": "Wonder — the Passion Without an Opposite",
       "category": "group",
-      "level": 2,
       "sort_order": 14,
-      "composite_of": ["wonder"],
+      "parts": ["wonder"],
       "sections": {
         "Definition": "Descartes treats wonder as structurally singular among the six: it has no bodily opposite, does not depend on the object's being judged good or bad, and functions as the gateway passion that makes the other five possible by first flagging an object as significant."
       },
@@ -284,9 +283,8 @@
       "id": "group-union-and-separation",
       "name": "Love and Hatred — Union and Separation",
       "category": "group",
-      "level": 2,
       "sort_order": 15,
-      "composite_of": ["love", "hatred"],
+      "parts": ["love", "hatred"],
       "sections": {
         "Definition": "The pair Descartes builds around the soul's movement toward or away from an object it has judged good or harmful — union (love) against separation (hatred)."
       },
@@ -297,9 +295,8 @@
       "id": "group-present-good-and-evil",
       "name": "Desire, Joy, and Sadness — Future and Present",
       "category": "group",
-      "level": 2,
       "sort_order": 16,
-      "composite_of": ["desire", "joy", "sadness"],
+      "parts": ["desire", "joy", "sadness"],
       "sections": {
         "Definition": "Desire looks toward a future good or the avoidance of a future evil; joy and sadness register a good or evil the soul takes to already be present. Descartes treats these three as temporally distinct readings of the same underlying appraisal — good/evil, future/present."
       },
@@ -310,8 +307,7 @@
       "id": "group-derived-passions",
       "name": "Derived Passions — Built From the Six",
       "category": "group",
-      "level": 2,
-      "composite_of": ["estime", "mepris", "esperance", "crainte", "jalousie", "remords"],
+      "parts": ["estime", "mepris", "esperance", "crainte", "jalousie", "remords"],
       "sections": {
         "Definition": "Descartes holds that only six passions are primitive and that every other is composed of them, so the derived passions are a second tier in his own scheme rather than a category imposed on it. These six are a sample of the dozens Part III works through — chosen because each shows the composition clearly — and not the set. Where a passion is built from particular primitives, its item says which."
       },
@@ -323,9 +319,8 @@
       "id": "descartes-passions-root",
       "name": "Les Passions de l'Âme — the Six Primitives",
       "category": "root",
-      "level": 3,
       "sort_order": 18,
-      "composite_of": ["group-wonder-alone", "group-union-and-separation", "group-present-good-and-evil", "group-derived-passions", "pineal-gland-mechanism"],
+      "parts": ["group-wonder-alone", "group-union-and-separation", "group-present-good-and-evil", "group-derived-passions", "pineal-gland-mechanism"],
       "sections": {
         "Definition": "Descartes's 1649 treatise argues that every passion the soul can feel, however complex or culturally particular, reduces to six primitives — wonder, love, hatred, desire, joy, sadness — and their combinations. He arrives at the six through introspective philosophical analysis paired with his own mechanistic physiology (the animal spirits, the pineal gland as the point of contact between soul and body), not through cross-cultural observation or facial measurement.",
         "Not Ekman's six, three centuries earlier": "It is tempting to read Descartes's primitives as an early sketch of Paul Ekman's twentieth-century basic-emotion list (see the ekman-basic school in this collection), since both name a small closed set. They are not the same list (Descartes has wonder and love where Ekman has disgust and surprise, and neither list maps onto the other one-to-one), and they are not reached the same way: Ekman's rests on cross-cultural facial-recognition experiments conducted from the 1960s onward; Descartes's rests on 17th-century rationalist introspection and mechanistic physiology. The resemblance is in the ambition — a small, non-reducible set — not in the method or the content.",

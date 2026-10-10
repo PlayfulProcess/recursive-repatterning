@@ -66,7 +66,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "the-ego",
       "name": "The Ego",
@@ -151,7 +151,7 @@
       },
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "self",
+        "source_node_id": "self",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -243,9 +243,8 @@
       "id": "group-shadow-ego",
       "name": "Shadow Meets Ego",
       "category": "group",
-      "level": 2,
       "sort_order": 13,
-      "composite_of": ["the-shadow", "the-ego"],
+      "parts": ["the-shadow", "the-ego"],
       "keywords": ["shadow", "ego", "confrontation"],
       "sections": {
         "Definition": "The confrontation Jung treated as central to psychological maturity: the conscious, responsible Ego encountering the Shadow it has spent a lifetime disowning, and discovering — often unwillingly — that the disowned material is its own."
@@ -256,9 +255,8 @@
       "id": "group-persona-shadow",
       "name": "The Persona-Shadow Pairing",
       "category": "group",
-      "level": 2,
       "sort_order": 14,
-      "composite_of": ["the-persona", "the-shadow"],
+      "parts": ["the-persona", "the-shadow"],
       "keywords": ["persona", "shadow", "compensation"],
       "sections": {
         "Definition": "Jung held these two archetypes to be structurally linked: the more polished and rigid the Persona a person maintains, the more material tends to accumulate in the Shadow behind it. A wide gap between public performance and private reality is, on this account, the predictable cost of an especially well-defended mask."
@@ -269,9 +267,8 @@
       "id": "group-anima-animus",
       "name": "The Projection of the Soul-Image",
       "category": "group",
-      "level": 2,
       "sort_order": 15,
-      "composite_of": ["the-anima", "the-animus"],
+      "parts": ["the-anima", "the-animus"],
       "keywords": ["anima", "animus", "projection", "relationship"],
       "sections": {
         "Definition": "Jung read falling in love, in part, as falling into a projection: the Anima or Animus cast onto another person, who then appears larger, more luminous, and more necessary than an ordinary acquaintance would. The work of a relationship, on this account, is gradually telling the projected image apart from the actual person carrying it."
@@ -282,9 +279,8 @@
       "id": "group-night-sea-journey",
       "name": "The Night Sea Journey",
       "category": "group",
-      "level": 2,
       "sort_order": 16,
-      "composite_of": ["the-hero", "the-shadow", "the-great-mother"],
+      "parts": ["the-hero", "the-shadow", "the-great-mother"],
       "keywords": ["descent", "night sea journey", "dissolution"],
       "sections": {
         "Definition": "A mythic pattern of descent — Jonah in the whale, a period of depression or dissolution that cannot be shortcut — in which the Hero's usual forward momentum meets the regressive, engulfing pull Jung associated with the Great Mother's darker aspect, with unintegrated Shadow material surfacing along the way. Jung read the pattern as necessary rather than pathological: a stage a person passes through, not a permanent condition."
@@ -295,16 +291,15 @@
       "id": "group-sacred-marriage",
       "name": "The Sacred Marriage",
       "category": "group",
-      "level": 2,
       "sort_order": 17,
-      "composite_of": ["the-anima", "the-animus", "the-self"],
+      "parts": ["the-anima", "the-animus", "the-self"],
       "keywords": ["coniunctio", "sacred marriage", "union of opposites"],
       "sections": {
         "Definition": "The alchemical coniunctio, read psychologically: Anima and Animus — the inner contrasexual figures — reconciled rather than left in projection or conflict, an inner event Jung treated as the image of the Self achieved, not a claim about an actual outer marriage. The alchemical \"chymical wedding\" imagery is the historical source Jung drew on most explicitly for this reading; see schools/alchemical-correspondences, item rubedo, whose own Research note names Jung's psychological use of the same motif."
       },
       "metadata": {
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "rubedo",
+        "source_node_id": "rubedo",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -312,9 +307,8 @@
       "id": "jungian-archetypes-root",
       "name": "Individuation — Becoming, Not Perfecting, Yourself",
       "category": "root",
-      "level": 3,
       "sort_order": 18,
-      "composite_of": ["group-shadow-ego", "group-persona-shadow", "group-anima-animus", "group-night-sea-journey", "group-sacred-marriage"],
+      "parts": ["group-shadow-ego", "group-persona-shadow", "group-anima-animus", "group-night-sea-journey", "group-sacred-marriage"],
       "keywords": ["individuation", "jung", "archetypes", "collective unconscious"],
       "sections": {
         "Definition": "Individuation is Jung's name for the lifelong process these dynamics all serve: not achieving a perfected, conflict-free self, but becoming a more complete one — integrating the Shadow, withdrawing projections cast through the Anima or Animus, and developing an ongoing relationship with the Self rather than either ignoring it or being inflated by it. Jung held that this process has a rough shape (confrontation, descent, reconciliation of opposites) without being a fixed sequence any two people go through identically.",

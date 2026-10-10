@@ -60,14 +60,14 @@ There is exactly one cross-link mechanism in this chassis, and it's the same one
 ```json
 "metadata": {
   "source_deck": "<slug>",
-  "source_item_id": "<item-id>",
+  "source_node_id": "<node-id>",
   "deck": "<human label>"
 }
 ```
 
 The viewer turns that into a pill reading **"Open in [label] →"**, and it suppresses itself automatically if you're already inside that school, so it never shows a circular link. **Don't invent a second link field** — every viewer in this repo only knows how to render this one.
 
-One thing this repo does *not* use: `GRAMMAR_FORMAT.md` documents a separate `item_type: "reference"` / `ref_document_id` mechanism, built for meta-grammars that point at whole other decks. It's real, but it's untested in this project and nothing here renders it. If you want to link two items, use `source_deck` / `source_item_id` / `deck` — it's the path that actually works.
+One thing this repo does *not* use: `GRAMMAR_FORMAT.md` documents a separate `node_type: "reference"` / `ref_grammar_id` mechanism, built for meta-grammars that point at whole other decks. It's real, but it's untested in this project and nothing here renders it. If you want to link two items, use `source_deck` / `source_node_id` / `deck` — it's the path that actually works.
 
 ## Sourcing and copyright
 
@@ -97,7 +97,7 @@ A school is missing a term its own tradition clearly has — Plutchik's wheel wi
 1. Open that school's `grammar.json` and look at a sibling item for the shape to match: `id`, `name`, `category`, `sections`, and `metadata`.
 2. Write the item **in that school's own voice** — its own definitions, not this library's gloss on them. Use whichever of the standard sections fit: `Definition`, `In the body`, `Where it shows up`, `Research note`, `Practice`. (`Constructionist lens` is reserved for this library's own editorial reading — never write it as if the school said it.)
 3. Set `metadata.evidence_tier` + `evidence_note` and `metadata.emotion_key`, following the rules above.
-4. Open the pull request. If your addition touches how the school cross-links to others, add the `source_deck` / `source_item_id` / `deck` pattern to the relevant items.
+4. Open the pull request. If your addition touches how the school cross-links to others, add the `source_deck` / `source_node_id` / `deck` pattern to the relevant items.
 
 ### 3. Illustrate an item with verified public-domain art
 

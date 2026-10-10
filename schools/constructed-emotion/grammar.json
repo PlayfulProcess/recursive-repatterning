@@ -57,7 +57,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "core-affect",
       "name": "Core Affect",
@@ -121,7 +121,7 @@
       },
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "the-unconscious-as-resource",
+        "source_node_id": "the-unconscious-as-resource",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -188,9 +188,8 @@
       "id": "group-building-blocks",
       "name": "Building Blocks — Before Any Category",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["core-affect", "interoception", "concept-acquisition"],
+      "parts": ["core-affect", "interoception", "concept-acquisition"],
       "sections": {
         "Definition": "The three ingredients this framework holds an emotional instance is built from: a continuously varying core-affect state, the brain’s ongoing interoceptive monitoring and prediction of the body’s internal condition, and a learned concept that categorizes the whole pattern. The first two are present before any emotion concept is applied; the third is what applies it, and is taught rather than inherited."
       },
@@ -201,9 +200,8 @@
       "id": "group-mechanism-and-consequence",
       "name": "How the Building Happens, and What Follows",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["prediction", "affective-realism"],
+      "parts": ["prediction", "affective-realism"],
       "sections": {
         "Definition": "The mechanism this framework proposes for assembling an instance out of the ingredients — a brain that predicts rather than reacts — and the consequence that follows for perception, where affect is experienced as a property of what is being looked at rather than of the looker."
       },
@@ -214,9 +212,8 @@
       "id": "group-category-instances",
       "name": "Category Instances — the Same Words, Reframed",
       "category": "group",
-      "level": 2,
       "sort_order": 11,
-      "composite_of": ["anger-as-population", "fear-as-population", "sadness-as-population"],
+      "parts": ["anger-as-population", "fear-as-population", "sadness-as-population"],
       "sections": {
         "Definition": "Three worked examples using the same emotion words other schools in this collection use as fixed category names — anger, fear, sadness — reframed here as variable populations of situated instances rather than as essences with one signature."
       },
@@ -227,9 +224,8 @@
       "id": "constructed-emotion-root",
       "name": "Constructed Emotion — the Substrate, Not a Peer School",
       "category": "root",
-      "level": 3,
       "sort_order": 12,
-      "composite_of": ["group-building-blocks", "group-mechanism-and-consequence", "group-category-instances"],
+      "parts": ["group-building-blocks", "group-mechanism-and-consequence", "group-category-instances"],
       "sections": {
         "Definition": "This item is the substrate this entire library sits on, not one taxonomy among the others it lists. The theory of constructed emotion holds that an emotional instance is built in the moment from core affect (a continuously varying valence/arousal state), interoceptive signals from the body, and a learned concept — shaped by language and culture — that the brain applies to categorize the whole pattern. There is no fixed, pre-packaged \"anger program\" or \"fear program\" waiting to be triggered with one universal signature; there is a population of variable instances that get grouped under a shared word because the word is useful, not because the instances share one biological essence.",
         "Why this is the substrate and not a peer": "Every other school in this collection — Plutchik, the basic-emotion model, Aristotle, the Stoics, Aquinas, Descartes, rasa, the Chinese five-viscera correspondences, NVC, Darwin — proposes its own taxonomy of what the significant emotional categories are and how they relate. This school does not compete with those taxonomies on their own terms; it is the claim, stated in this project's own founding document, that none of those taxonomies describes a fixed biological fact independent of the concepts and culture used to build it. Read every other school's taxonomy as a working interface built on this substrate, not as a rival discovery this substrate is one entry among.",

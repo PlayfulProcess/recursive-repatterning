@@ -72,7 +72,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "lamento",
       "name": "Lamento — Lament and the Descending Tetrachord",
@@ -138,7 +138,7 @@
       "metadata": {
         "emotion_key": "melancholy",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "melancholic",
+        "source_node_id": "melancholic",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -215,9 +215,8 @@
       "id": "group-affections",
       "name": "The Named Affects",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["lamento", "allegrezza", "concitato", "melancholy"],
+      "parts": ["lamento", "allegrezza", "concitato", "melancholy"],
       "sections": {
         "Definition": "The four affects this skeleton represents by name — lament, joy, rage, and melancholy — each carrying its own conventionalized musical means: a ground-bass pattern, a mode-and-tempo profile, a rhythmic device, a key-and-harmony profile, respectively, rather than one shared technique for all four. Baroque theorists named many more than four (Mattheson's own key catalogue alone runs to a dozen or more finer shades); this group holds the four best-documented and most frequently cited across the tradition's surviving theoretical writing and repertoire."
       },
@@ -228,9 +227,8 @@
       "id": "affektenlehre-root",
       "name": "Affektenlehre — the Doctrine of the Affections",
       "category": "root",
-      "level": 3,
       "sort_order": 11,
-      "composite_of": ["group-affections", "mattheson-key-characteristics", "musica-poetica-figures", "mattheson-further-key-examples", "musica-poetica-further-figures", "affektenlehre-decline-and-replacement"],
+      "parts": ["group-affections", "mattheson-key-characteristics", "musica-poetica-figures", "mattheson-further-key-examples", "musica-poetica-further-figures", "affektenlehre-decline-and-replacement"],
       "sections": {
         "Definition": "Affektenlehre names the explicit 17th–18th century Baroque theory, articulated across multiple overlapping strands — Mattheson's key-characteristic catalogue, the musica poetica rhetorical-figure tradition running from Burmeister through Kircher, Monteverdi's own theorized stile concitato, and Descartes's earlier Compendium musicae — that music does not merely accompany or soothe feeling but represents specific, nameable affects through specific, nameable technical means: a key, a bass pattern, a rhythmic figure, a rhetorical device. Baroque theorists and composers treated the connection between a musical device and an affect as conventionalized and teachable — a working system, catalogued in treatises, taught to composition students, and legible to a period audience as a kind of grammar, not a vague or private association.",
         "A taxonomy of feeling in a non-verbal medium": "This is the strongest argument for this school's place in this library, and it is worth stating plainly rather than leaving implicit. Every other school gathered here builds its account of feeling on top of language, cognition, or bodily state: a philosophical argument reasoned and written in words (Descartes, Aquinas), a physiological claim about bodily fluids (the humours), a facial or postural signal (Darwin, Ekman), a felt bodily sense mapped onto a spoken vocabulary of needs (NVC). Affektenlehre is the one school in this collection whose entire working medium is non-verbal: it is a theory of how a wordless art form — melody, harmony, rhythm, key, bass line — can name and represent a specific affect as reliably, within its own convention and for its own period audience, as a word can. That a period listener, hearing a descending chromatic tetrachord under a vocal line, could recognize \"lament\" without a single word being sung is exactly the kind of claim no other framework in this library makes about its own medium.",

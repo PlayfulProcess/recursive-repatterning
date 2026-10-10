@@ -72,6 +72,11 @@
 
 ## Core architecture
 
+- **Grammars are format v2** (Oct 10 2026, recursive-eco
+  `docs/architecture/model-track/FORMAT-V2-NODES.md`): a grammar's array is `nodes`, a
+  node's members are `parts`, a named pick is `category: "selection"`, and no node stores
+  a `level` (the viewers compute depth from `parts`). Count fields in `_collection.json`
+  and `_sources[]` are `nodes`. No reader accepts the v1 names.
 - Grammar files live in `schools/<slug>/grammar.json`. **Two of them are generated —
   never hand-edit either:** `schools/across-the-schools/grammar.json` (the castable
   pool) and `schools/schools-of-emotion/grammar.json` (the constellation the Tree of
@@ -117,7 +122,7 @@ The viewer renders a pill link automatically when an item has:
 {
   "metadata": {
     "source_deck": "<slug>",
-    "source_item_id": "<item-id>",
+    "source_node_id": "<node-id>",
     "deck": "<human label>"
   }
 }
@@ -126,9 +131,9 @@ The pill reads: **"Open in [label] →"**. This is the ONLY cross-grammar naviga
 mechanism in this chassis. Use it for everything — constellation → school, school →
 related school. **Never add a new link field.**
 
-> Note: `GRAMMAR_FORMAT.md` also documents an `item_type: "reference"` /
-> `ref_document_id` mechanism. It is **not used anywhere in this repo family** and is
-> effectively untested. Use `source_deck`/`source_item_id` — it is the path that works.
+> Note: `GRAMMAR_FORMAT.md` also documents a `node_type: "reference"` /
+> `ref_grammar_id` mechanism. It is **not used anywhere in this repo family** and is
+> effectively untested. Use `source_deck`/`source_node_id` — it is the path that works.
 
 The pill suppresses itself if the current page URL already contains `/<slug>/`, so it
 never shows a circular link.

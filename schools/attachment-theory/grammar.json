@@ -46,12 +46,11 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "attachment-behavioural-system",
       "name": "The Attachment Behavioural System",
       "category": "concept",
-      "level": 1,
       "sort_order": 1,
       "keywords": ["attachment", "safe-haven", "secure-base", "bowlby"],
       "sections": {
@@ -61,7 +60,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-two-truths",
+        "source_node_id": "the-two-truths",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -69,7 +68,6 @@
       "id": "the-strange-situation",
       "name": "The Strange Situation",
       "category": "method",
-      "level": 1,
       "sort_order": 2,
       "keywords": ["strange-situation", "ainsworth", "method"],
       "sections": {
@@ -83,7 +81,6 @@
       "id": "secure-attachment",
       "name": "Secure Attachment",
       "category": "pattern",
-      "level": 1,
       "sort_order": 3,
       "keywords": ["secure", "attachment-pattern", "ainsworth"],
       "sections": {
@@ -97,7 +94,6 @@
       "id": "anxious-attachment",
       "name": "Anxious Attachment",
       "category": "pattern",
-      "level": 1,
       "sort_order": 4,
       "keywords": ["anxious", "ambivalent", "attachment-pattern", "ainsworth"],
       "sections": {
@@ -111,7 +107,6 @@
       "id": "avoidant-attachment",
       "name": "Avoidant Attachment",
       "category": "pattern",
-      "level": 1,
       "sort_order": 5,
       "keywords": ["avoidant", "attachment-pattern", "ainsworth"],
       "sections": {
@@ -125,7 +120,6 @@
       "id": "disorganised-attachment",
       "name": "Disorganised Attachment",
       "category": "pattern",
-      "level": 1,
       "sort_order": 6,
       "keywords": ["disorganised", "attachment-pattern", "main-solomon"],
       "sections": {
@@ -139,7 +133,6 @@
       "id": "internal-working-models",
       "name": "Internal Working Models",
       "category": "concept",
-      "level": 1,
       "sort_order": 7,
       "keywords": ["internal-working-models", "schema", "bowlby"],
       "sections": {
@@ -149,7 +142,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-lineage",
+        "source_node_id": "the-lineage",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -157,9 +150,8 @@
       "id": "group-the-patterns",
       "name": "The Four Patterns",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["secure-attachment", "anxious-attachment", "avoidant-attachment", "disorganised-attachment"],
+      "parts": ["secure-attachment", "anxious-attachment", "avoidant-attachment", "disorganised-attachment"],
       "keywords": ["attachment-patterns", "classification", "strange-situation"],
       "sections": {
         "Definition": "Ainsworth's original three classifications — secure, anxious-resistant, and avoidant — plus Main and Solomon's later addition of disorganised, all derived from how an infant organizes behavior toward a caregiver specifically at the reunion episodes of the Strange Situation."
@@ -170,9 +162,8 @@
       "id": "group-the-system",
       "name": "The System Beneath the Patterns",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["attachment-behavioural-system", "the-strange-situation", "internal-working-models"],
+      "parts": ["attachment-behavioural-system", "the-strange-situation", "internal-working-models"],
       "keywords": ["attachment-system", "method", "internal-working-models"],
       "sections": {
         "Definition": "Three items describing the theory and its tools rather than any single classification: the underlying behavioural system Bowlby proposed, the structured procedure Ainsworth built to observe it in action, and the cognitive-relational residue — internal working models — Bowlby proposed that repeated attachment experience leaves behind."
@@ -183,9 +174,8 @@
       "id": "attachment-theory-root",
       "name": "Attachment Theory — the System and Its Patterns",
       "category": "root",
-      "level": 3,
       "sort_order": 10,
-      "composite_of": ["group-the-patterns", "group-the-system"],
+      "parts": ["group-the-patterns", "group-the-system"],
       "keywords": ["bowlby", "ainsworth", "attachment theory", "strange situation"],
       "sections": {
         "Definition": "Attachment theory holds that infants carry an innate behavioural system driving them toward a specific caregiver under threat or distress, that this system's two functions are safe haven and secure base, and that how an infant organizes its behavior toward a caregiver at reunion — observed through Ainsworth's Strange Situation procedure — sorts into recognizable patterns: secure, anxious, avoidant, and (Main and Solomon's later addition) disorganised. Repeated attachment experience is proposed to leave behind an internal working model of self and other that a person carries into later relationships, revisable rather than fixed.",

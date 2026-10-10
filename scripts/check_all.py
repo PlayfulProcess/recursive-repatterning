@@ -5,7 +5,7 @@
 
 Checks:
   1. every schools/*/grammar.json is valid JSON with name + items[];
-  2. composite_of references resolve within each grammar (no dangling);
+  2. parts references resolve within each grammar (no dangling);
   3. no mojibake — no UTF-8 text that was decoded as Latin-1/CP1252 anywhere;
   4. people dossiers (research/people/*.md) have the frontmatter the generator needs;
   5. rebuilds people + meta grammars and asserts the meta reports dangling=0;
@@ -59,15 +59,15 @@ for path in sorted(glob.glob(os.path.join(SCHOOLS, "*", "grammar.json"))):
         continue
     if not g.get("name"):
         errors.append(f"{slug}: missing name")
-    items = g.get("items")
+    items = g.get("nodes")
     if not isinstance(items, list) or not items:
-        errors.append(f"{slug}: items[] missing/empty")
+        errors.append(f"{slug}: nodes[] missing/empty")
         continue
     ids = {it.get("id") for it in items}
     for it in items:
-        for c in it.get("composite_of", []) or []:
+        for c in it.get("parts", []) or []:
             if c not in ids:
-                errors.append(f"{slug}: dangling composite_of '{c}' in item '{it.get('id')}'")
+                errors.append(f"{slug}: dangling parts '{c}' in item '{it.get('id')}'")
 
 # 3 — people dossiers
 for path in sorted(glob.glob(os.path.join(PEOPLE, "*.md"))):

@@ -435,7 +435,7 @@
     return tag;
   }
 
-  function isLeaf(item) { return !item.composite_of; }
+  function isLeaf(item) { return !item.parts; }
 
   function renderLists(items) {
     var metRow = document.getElementById('feelingsMetRow');
@@ -462,7 +462,7 @@
   fetch(GRAMMAR_URL)
     .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
     .then(function (g) {
-      var items = g.items || [];
+      var items = g.nodes || [];
       lastItems = items;
       renderLists(items);
     })

@@ -25,7 +25,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "the-question-itself",
       "name": "The Question Itself",
@@ -450,7 +450,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-freedom-test",
+        "source_node_id": "the-freedom-test",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -620,7 +620,7 @@
         "Through the Lenses": "GENERATIVITY: the declared laws are promising — no accomplishment climaxes, meals instead of victories, grief that widens — but fruits are measured in receivers and the work has not yet been received by a child. Verdict must wait for the bedside. DOMINATION: strongest and most exposed axis. The guides' discipline (inspire, never issue a verdict; stop where interpretation begins) is applicability built into the characters — but the world carries three explicit core theses, and a world that KNOWS its theses sits one lazy chapter from allegory. Its own anti-flattening law is the guardrail; whether the scenes obey the law is exactly what this Case must track. CARRIER BAG: passes by design — the antagonist is a shape, nobody is defeated, the climax is a meal, and the truest ending proposed so far is a man passing salt. But note the anomaly clause cuts both ways: a bag-shaped tale can still dominate if every object in the bag points at the same moral. PROVENANCE: the author is alive, the collaboration with an AI is disclosed inside the artifact, and the source manuscripts are public — the archive is open while the shadow is still forming, which is the rarest provenance condition and the easiest to squander.",
         "Verdict-in-Progress": "Well-shaped, untested. The laws are ahead of the scenes; the ethics is ahead of the fruits. Two standing risks, dated August 2026: (1) three core theses is one more than a children's book usually carries — the compost-to-overflow circle must be shown, never taught, or the whole world flunks its own Freedom Test; (2) the borrowed soils — Popol Vuh, Śākta tradition, Umbanda-adjacent figures — are handled with named care notes, but care notes are promises, and The Colony lens judges deliveries. Re-cast this Case after the first child hears a chapter."
       },
-      "composite_of": [
+      "parts": [
         "generativity-the-fruit-test",
         "domination-vs-subcreation",
         "the-carrier-bag",
@@ -631,9 +631,8 @@
       "id": "group-lenses",
       "name": "Lenses — Ways of Judging",
       "category": "group",
-      "level": 2,
       "sort_order": 100,
-      "composite_of": [
+      "parts": [
         "generativity-the-fruit-test",
         "casting-context",
         "domination-vs-subcreation",
@@ -651,9 +650,8 @@
       "id": "group-contexts",
       "name": "Contexts — Soils a Story Can Be Cast Into",
       "category": "group",
-      "level": 2,
       "sort_order": 101,
-      "composite_of": [
+      "parts": [
         "the-famine",
         "the-plenty",
         "the-colony",
@@ -670,9 +668,8 @@
       "id": "group-cases",
       "name": "Cases — Worked Examples, Verdicts-in-Progress",
       "category": "group",
-      "level": 2,
       "sort_order": 102,
-      "composite_of": [
+      "parts": [
         "hansel-and-gretel",
         "frozen-and-the-northuldra",
         "kpop-demon-hunters",
@@ -692,9 +689,8 @@
       "id": "group-synthesis",
       "name": "Synthesis — What the Judging Is For",
       "category": "group",
-      "level": 2,
       "sort_order": 103,
-      "composite_of": [
+      "parts": [
         "the-freedom-test",
         "the-two-temperaments",
         "aspiration-not-idol",
@@ -711,9 +707,8 @@
       "id": "ethics-of-fiction-root",
       "name": "The Ethics of Fiction — A Grammar for Judging Stories",
       "category": "root",
-      "level": 3,
       "sort_order": 200,
-      "composite_of": [
+      "parts": [
         "group-lenses",
         "group-contexts",
         "group-cases",

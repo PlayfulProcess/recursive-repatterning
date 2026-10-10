@@ -52,7 +52,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "frustration",
       "name": "Frustration — Signals an Unmet Need",
@@ -880,9 +880,8 @@
       "id": "group-met-needs-signals",
       "name": "Feelings That Signal a Met Need",
       "category": "feeling-met-group",
-      "level": 2,
       "sort_order": 200,
-      "composite_of": [
+      "parts": [
         "relief",
         "joyful",
         "affectionate",
@@ -909,9 +908,8 @@
       "id": "group-unmet-needs-signals",
       "name": "Feelings That Signal an Unmet Need",
       "category": "feeling-unmet-group",
-      "level": 2,
       "sort_order": 201,
-      "composite_of": [
+      "parts": [
         "frustration",
         "loneliness",
         "anxious",
@@ -941,9 +939,8 @@
       "id": "group-needs",
       "name": "Needs",
       "category": "need-group",
-      "level": 2,
       "sort_order": 202,
-      "composite_of": [
+      "parts": [
         "autonomy",
         "connection",
         "meaning",
@@ -964,9 +961,8 @@
       "id": "nvc-needs-root",
       "name": "Nonviolent Communication — Feelings as Signals of Needs",
       "category": "root",
-      "level": 3,
       "sort_order": 300,
-      "composite_of": [
+      "parts": [
         "group-met-needs-signals",
         "group-unmet-needs-signals",
         "group-needs"
@@ -987,7 +983,7 @@
         "evidence_tier": "growing",
         "evidence_note": "NVC has an expanding body of applied and practitioner-reported evidence (workplace, mediation, education, couples contexts) and increasing academic interest, but a comparatively thin base of independently replicated controlled outcome studies isolating NVC's specific mechanisms from those of adjacent communication and conflict-resolution training it shares territory with. This is a live, growing evidence base, not yet an independently-replicated one in the strict sense.",
         "source_deck": "overflow",
-        "source_item_id": "the-ledger",
+        "source_node_id": "the-ledger",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     }

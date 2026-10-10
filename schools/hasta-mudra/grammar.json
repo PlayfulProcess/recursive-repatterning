@@ -67,7 +67,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "pataka",
       "name": "Patākā — the Flag Hand",
@@ -191,7 +191,7 @@
       "metadata": {
         "emotion_key": "alapadma",
         "source_deck": "rasa",
-        "source_item_id": "shringara",
+        "source_node_id": "shringara",
         "deck": "Rasa — Bharata's Aesthetics of Performance",
         "image_source": "https://commons.wikimedia.org/wiki/File:Alapadma-Hasta.jpg",
         "image_credit": "Alapadma Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
@@ -219,9 +219,8 @@
       "id": "group-asamyuta-hasta",
       "name": "The Asaṃyuta Hastas — Single-Hand Gestures",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["pataka", "tripataka", "ardhachandra", "shikhara", "kartarimukha", "katakamukha", "alapadma"],
+      "parts": ["pataka", "tripataka", "ardhachandra", "shikhara", "kartarimukha", "katakamukha", "alapadma"],
       "sections": {
         "Definition": "Seven of the Abhinaya Darpaṇa's 28 asaṃyuta (single-hand) hastas, chosen for how clearly and checkably their shapes and viniyoga could be sourced: patākā, tripatākā, ardhacandra, śikhara, kartarīmukha, kaṭakāmukha, and alapadma. Each is formed by one hand alone, and each carries a viniyoga list running from a handful to several dozen distinct, often unrelated meanings."
       },
@@ -232,9 +231,8 @@
       "id": "group-samyuta-hasta",
       "name": "The Saṃyuta Hastas — Joined-Hand Gestures",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["anjali"],
+      "parts": ["anjali"],
       "sections": {
         "Definition": "The Abhinaya Darpaṇa names 24 saṃyuta (joined-hand) hastas, formed by combining two hands rather than shaping one. Only añjali, the salutation gesture, is itemized in this skeleton; it is grouped separately from the asaṃyuta hastas because it is built and read differently — two identical hand shapes combined, rather than one hand's own fingers configured."
       },
@@ -245,9 +243,8 @@
       "id": "hasta-mudra-root",
       "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
       "category": "root",
-      "level": 3,
       "sort_order": 11,
-      "composite_of": ["group-asamyuta-hasta", "group-samyuta-hasta"],
+      "parts": ["group-asamyuta-hasta", "group-samyuta-hasta"],
       "sections": {
         "Definition": "Bharata's Nāṭyaśāstra and Nandikeśvara's later Abhinaya Darpaṇa catalogue a drilled hand-gesture vocabulary for classical Indian dance — roughly 28 single-hand (asaṃyuta) and 24 joined-hand (saṃyuta) hastas — each with a fixed name, a described shape, and a viniyoga: the list of things that shape may be used to mean. This school itemizes eight, chosen for how confidently their shape and viniyoga could be verified against a source rather than for coverage.",
         "A many-to-many vocabulary, not a code": "This is the school's central claim, worth stating plainly. A code assigns one signal to one meaning. This vocabulary does neither half of that: patākā's single fixed shape carries dozens of distinct, often unrelated meanings (clouds, an oath, a forest, the word \"stop\"), disambiguated only by the song and the narrative moment around it — and a single referent, the moon, is carried by more than one shape (ardhacandra for its crescent phase, alapadma for its fullness). The mapping runs many gestures to many meanings in both directions at once, resolved entirely by context, never by the hand alone. That is a strikingly different model of how a body can carry meaning from a system where one sign reliably means one thing, and it is why this school belongs in a library about how emotional meaning gets made rather than simply displayed.",
@@ -261,7 +258,7 @@
         "evidence_tier": "theoretical",
         "evidence_note": "The Abhinaya Darpaṇa and the Nāṭyaśāstra's āngika chapters document a living performance-practice vocabulary, refined and transmitted within trained dance lineages over centuries, not an empirical claim about how emotion is produced or read in the body. A hasta's authority rests on its continued, checkable use and legibility within a specific dance tradition's own convention, not on experimental confirmation of any inner state it may be used to signify — the same distinction schools/acting-traditions draws for its own codified-external systems.",
         "source_deck": "acting-traditions",
-        "source_item_id": "abhinaya-four-modes",
+        "source_node_id": "abhinaya-four-modes",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
       }
     }

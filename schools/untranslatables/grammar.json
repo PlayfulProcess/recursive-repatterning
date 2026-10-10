@@ -45,7 +45,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "saudade",
       "name": "Saudade — Portuguese",
@@ -60,7 +60,7 @@
       "metadata": {
         "emotion_key": "saudade",
         "source_deck": "nvc-needs",
-        "source_item_id": "yearning",
+        "source_node_id": "yearning",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -213,7 +213,7 @@
       "metadata": {
         "emotion_key": "grief",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "grief",
+        "source_node_id": "grief",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -234,9 +234,8 @@
       "id": "group-untranslated-into-english",
       "name": "Words English Has No Single Term For",
       "category": "group",
-      "level": 2,
       "sort_order": 13,
-      "composite_of": ["saudade", "sehnsucht", "schadenfreude", "amae", "toska", "litost", "hygge", "gigil", "meraki", "hiraeth"],
+      "parts": ["saudade", "sehnsucht", "schadenfreude", "amae", "toska", "litost", "hygge", "gigil", "meraki", "hiraeth"],
       "sections": {
         "Definition": "Ten cases where another language holds a feeling together in one word that English only has scattered across several separate words, or names only with a clinical compound built after the fact. The gap runs in one direction here: from a source language into English."
       },
@@ -247,9 +246,8 @@
       "id": "group-reverse-and-evidence",
       "name": "The Gap Runs Both Ways, and the Evidence for It",
       "category": "group",
-      "level": 2,
       "sort_order": 14,
-      "composite_of": ["grief-distributed", "lexical-gap-evidence"],
+      "parts": ["grief-distributed", "lexical-gap-evidence"],
       "sections": {
         "Definition": "Two items that turn the school's own method back on itself: one showing that English is not the fixed, fine-grained baseline other languages fall short of — grief is itself coarse from Portuguese's vantage — and one showing, cautiously, what this library's own build tooling can and can't say about which words are missing from an English-trained model and why that is weaker evidence than it looks."
       },
@@ -260,9 +258,8 @@
       "id": "untranslatables-root",
       "name": "Untranslatables — Root",
       "category": "root",
-      "level": 3,
       "sort_order": 15,
-      "composite_of": ["group-untranslated-into-english", "group-reverse-and-evidence"],
+      "parts": ["group-untranslated-into-english", "group-reverse-and-evidence"],
       "sections": {
         "Definition": "A collection of lexical gaps between English and other languages, in both directions: words other languages hold together that English keeps in pieces, and at least one case of the reverse, where English's grief turns out to be coarser than it looks once measured against Portuguese. None of these items claims to have found a hidden universal feeling underneath the words — the opposite claim is closer to the point.",
         "Constructionist lens": "*Editorial — Recursive Repatterning's own commentary, not a claim any cited source makes.* This school doubles down on a caution that runs through the whole library: a shared gloss is not evidence of a shared concept. Wierzbicka's Natural Semantic Metalanguage program and Viveiros de Castro's controlled equivocation, both discussed in docs/GENEALOGY-OF-EMOTIONS.md Part C, exist because researchers have repeatedly supplied a target-language category and then reported having discovered it, rather than checked for it. This school tries to hold that discipline at the level of individual words: naming what a term covers and what's left uncovered, rather than presenting a foreign word as a beautiful synonym English simply forgot to invent."

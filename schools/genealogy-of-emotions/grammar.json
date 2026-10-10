@@ -21,7 +21,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "deck-aristotle-pathe",
       "name": "Aristotle's Pathē (Rhetoric, Book II)",
@@ -36,7 +36,7 @@
         "era": "4th century BCE",
         "branch": "lineage-greek-latin-european",
         "source_deck": "greek-pathe",
-        "source_item_id": "group-aristotle-rhetorical-pathe",
+        "source_node_id": "group-aristotle-rhetorical-pathe",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -55,7 +55,7 @@
         "branch": "lineage-greek-latin-european",
         "derives_from": ["deck-aristotle-pathe"],
         "source_deck": "greek-pathe",
-        "source_item_id": "group-stoic-four-pathe",
+        "source_node_id": "group-stoic-four-pathe",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -74,7 +74,7 @@
         "branch": "lineage-greek-latin-european",
         "derives_from": ["deck-aristotle-pathe", "deck-stoic-classification"],
         "source_deck": "aquinas-passions",
-        "source_item_id": "aquinas-passions-root",
+        "source_node_id": "aquinas-passions-root",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -93,7 +93,7 @@
         "era": "1649",
         "branch": "lineage-greek-latin-european",
         "source_deck": "descartes-passions",
-        "source_item_id": "descartes-passions-root",
+        "source_node_id": "descartes-passions-root",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -161,7 +161,7 @@
         "branch": "lineage-greek-latin-european",
         "derives_from": ["deck-dixon-emotion-coinage"],
         "source_deck": "darwin-expression",
-        "source_item_id": "darwin-expression-root",
+        "source_node_id": "darwin-expression-root",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -211,7 +211,7 @@
         "branch": "lineage-greek-latin-european",
         "derives_from": ["deck-tomkins-1962"],
         "source_deck": "ekman-basic",
-        "source_item_id": "ekman-basic-root",
+        "source_node_id": "ekman-basic-root",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -230,7 +230,7 @@
         "era": "1980",
         "branch": "lineage-greek-latin-european",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "plutchik-wheel-root",
+        "source_node_id": "plutchik-wheel-root",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -264,7 +264,7 @@
         "branch": "lineage-greek-latin-european",
         "derives_from": ["deck-russell-circumplex"],
         "source_deck": "constructed-emotion",
-        "source_item_id": "constructed-emotion-root",
+        "source_node_id": "constructed-emotion-root",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -283,7 +283,7 @@
         "era": "roughly 200 BCE – 200 CE (scholarly estimate spans several centuries)",
         "branch": "lineage-sanskrit",
         "source_deck": "rasa",
-        "source_item_id": "group-natyashastra-five",
+        "source_node_id": "group-natyashastra-five",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -303,7 +303,7 @@
         "branch": "lineage-sanskrit",
         "derives_from": ["deck-bharata-natyashastra"],
         "source_deck": "rasa",
-        "source_item_id": "group-abhinavagupta-shanta",
+        "source_node_id": "group-abhinavagupta-shanta",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -322,7 +322,7 @@
         "era": "Han dynasty, roughly 206 BCE – 220 CE",
         "branch": "lineage-chinese",
         "source_deck": "chinese-qing",
-        "source_item_id": "chinese-qing-root",
+        "source_node_id": "chinese-qing-root",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -362,9 +362,8 @@
       "id": "lineage-greek-latin-european",
       "name": "Lineage: Greek, Latin-Christian, and European",
       "category": "lineage",
-      "level": 2,
       "sort_order": 20,
-      "composite_of": [
+      "parts": [
         "deck-aristotle-pathe", "deck-stoic-classification", "deck-aquinas-eleven-passions",
         "deck-descartes-1649", "deck-spinoza-ethics", "deck-hume-treatise",
         "deck-dixon-emotion-coinage", "deck-darwin-1872", "deck-james-1884",
@@ -385,9 +384,8 @@
       "id": "lineage-sanskrit",
       "name": "Lineage: Sanskrit — Rasa",
       "category": "lineage",
-      "level": 2,
       "sort_order": 21,
-      "composite_of": ["deck-bharata-natyashastra", "deck-abhinavagupta-shanta"],
+      "parts": ["deck-bharata-natyashastra", "deck-abhinavagupta-shanta"],
       "sections": {
         "Definition": "Rasa theory treats feeling as an aesthetic event produced between a well-made performance and a qualified spectator's own relish of it — not a private inner state a person simply has. Bharata's eight rasas and Abhinavagupta's ninth, śānta, are the two dated moments in this lineage this deck currently covers; the tradition's own later commentarial life, and its nineteenth-century reception into European philology, continue well beyond both."
       },
@@ -401,9 +399,8 @@
       "id": "lineage-chinese",
       "name": "Lineage: Chinese — Qing and the Seven Emotions",
       "category": "lineage",
-      "level": 2,
       "sort_order": 22,
-      "composite_of": ["deck-chinese-seven-emotions"],
+      "parts": ["deck-chinese-seven-emotions"],
       "sections": {
         "Definition": "Chinese medical and philosophical texts group feeling under qing, a term broader than the English \"emotion.\" What is well documented is the clinical taxonomy: the Huangdi Neijing's seven emotions, each in correspondence with one of the five viscera, an organizing axis that is neither valence nor judgment-alteration nor performer-audience relation but a physiological correspondence system folding feeling into a theory of disease."
       },
@@ -417,9 +414,8 @@
       "id": "lineage-amazonian",
       "name": "Lineage: Amazonian — Perspectivism and Multinaturalism",
       "category": "lineage",
-      "level": 2,
       "sort_order": 23,
-      "composite_of": ["deck-viveiros-de-castro-perspectivism"],
+      "parts": ["deck-viveiros-de-castro-perspectivism"],
       "sections": {
         "Definition": "The other four lineages this deck follows each produce a taxonomy — a list of pathē, a set of rasas, seven qing, eleven Thomist passions — naming and counting the feelings a person can have. Amerindian perspectivism does not, and that absence is the finding here, not a gap in this deck's research: on this account, asking \"what are the emotions in Amazonian cosmology\" misrepresents the material rather than filling a gap in it, because what varies between kinds of being is which world a body's perspective discloses, not which feelings it has access to."
       },
@@ -433,9 +429,8 @@
       "id": "lineage-micronesian",
       "name": "Lineage: Micronesian — Ifaluk's Fago and Song",
       "category": "lineage",
-      "level": 2,
       "sort_order": 24,
-      "composite_of": ["deck-lutz-ifaluk"],
+      "parts": ["deck-lutz-ifaluk"],
       "sections": {
         "Definition": "Catherine Lutz's fieldwork on Ifaluk atoll works through a fifth, independent case: an emotion vocabulary organized primarily around relationship and moral order, anchored by fago and song, rather than around a private interior state to be labeled. It is the most recent fieldwork of the five lineages this deck follows, and the only one produced by direct, extended ethnographic immersion in a living community's own vocabulary rather than through a canonical philosophical or medical text."
       },
@@ -449,9 +444,8 @@
       "id": "genealogy-of-emotions-root",
       "name": "A Genealogy of Emotions",
       "category": "root",
-      "level": 3,
       "sort_order": 25,
-      "composite_of": [
+      "parts": [
         "lineage-greek-latin-european", "lineage-sanskrit", "lineage-chinese",
         "lineage-amazonian", "lineage-micronesian"
       ],

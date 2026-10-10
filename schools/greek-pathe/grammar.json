@@ -62,7 +62,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "aristotle-orge",
       "name": "Orgē — Anger (Aristotle)",
@@ -310,9 +310,8 @@
       "id": "group-aristotle-rhetorical-pathe",
       "name": "Aristotle's Rhetorical Pathē",
       "category": "group",
-      "level": 2,
       "sort_order": 7,
-      "composite_of": ["aristotle-orge", "aristotle-eleos", "aristotle-praotes", "aristotle-philia", "aristotle-phobos", "aristotle-tharsos", "aristotle-aischyne", "aristotle-charis", "aristotle-nemesis", "aristotle-phthonos", "aristotle-zelos"],
+      "parts": ["aristotle-orge", "aristotle-eleos", "aristotle-praotes", "aristotle-philia", "aristotle-phobos", "aristotle-tharsos", "aristotle-aischyne", "aristotle-charis", "aristotle-nemesis", "aristotle-phthonos", "aristotle-zelos"],
       "sections": {
         "Definition": "Eleven of the fourteen pathē Aristotle catalogues in Rhetoric Book II as levers an orator can pull in an audience — states defined by who feels them, toward whom, and under what belief, not by an inner sensation alone. Aristotle presents most of them in contrastive pairs across adjoining chapters (anger/calm, fear/confidence, pity/indignation, envy/emulation) rather than as an unordered list."
       },
@@ -323,9 +322,8 @@
       "id": "group-stoic-four-pathe",
       "name": "The Stoic Four Pathē",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["stoic-lype", "stoic-phobos", "stoic-epithymia", "stoic-hedone"],
+      "parts": ["stoic-lype", "stoic-phobos", "stoic-epithymia", "stoic-hedone"],
       "sections": {
         "Definition": "The Stoics' complete top-level classification: two temporal axes (present, future) crossed with two valences (wrongly judged good, wrongly judged bad), all four built on a false value-judgment, and all but lypē paired with a \"good feeling\" (eupatheia) available to the wise."
       },
@@ -336,9 +334,8 @@
       "id": "greek-pathe-root",
       "name": "Greek Pathē — the Rhetorical and Stoic Readings",
       "category": "root",
-      "level": 3,
       "sort_order": 9,
-      "composite_of": ["group-aristotle-rhetorical-pathe", "group-stoic-four-pathe"],
+      "parts": ["group-aristotle-rhetorical-pathe", "group-stoic-four-pathe"],
       "sections": {
         "Definition": "Two Greek philosophical traditions used the same word, pathē, for genuinely different projects. Aristotle's Rhetoric treats pathē as persuasion-relevant judgments an audience can be moved into or out of — the concern is rhetorical effectiveness, not moral evaluation of the feeling itself. The Stoa treats pathē as a technical term for a specific kind of error: an irrational, excessive impulse built on a false judgment about what is good or bad, which the wise person replaces with a calibrated \"good feeling\" rather than simply feeling it less.",
         "Research note": "Neither tradition offers an empirical account of emotion in the modern sense — no physiology, no cross-cultural measurement. Both are philosophical: one about persuasion, one about ethics and right judgment. Later cognitive-appraisal theories of emotion (Richard Lazarus; Robert Solomon; Martha Nussbaum's explicitly neo-Stoic Upheavals of Thought, 2001) draw structural inspiration from the idea that an emotion involves a judgment, without claiming empirical continuity with either ancient text.",

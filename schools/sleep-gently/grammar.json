@@ -45,7 +45,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "what-insomnia-is",
       "name": "What insomnia is",
@@ -65,7 +65,7 @@
       },
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "please-and-building-mastery",
+        "source_node_id": "please-and-building-mastery",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -125,7 +125,7 @@
       },
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "opposite-action",
+        "source_node_id": "opposite-action",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -225,7 +225,7 @@
       },
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "check-the-facts",
+        "source_node_id": "check-the-facts",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -268,7 +268,7 @@
       },
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "radical-acceptance",
+        "source_node_id": "radical-acceptance",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -355,9 +355,8 @@
       "id": "module-how-sleep-works",
       "name": "How sleep works",
       "category": "module",
-      "level": 2,
       "sort_order": 20,
-      "composite_of": [
+      "parts": [
         "what-insomnia-is",
         "two-processes"
       ],
@@ -374,9 +373,8 @@
       "id": "module-bed-and-clock",
       "name": "The bed and the clock",
       "category": "module",
-      "level": 2,
       "sort_order": 21,
-      "composite_of": [
+      "parts": [
         "stimulus-control",
         "anchor-wake-time",
         "sleep-window"
@@ -394,9 +392,8 @@
       "id": "module-quiet-mind",
       "name": "The quiet mind",
       "category": "module",
-      "level": 2,
       "sort_order": 22,
-      "composite_of": [
+      "parts": [
         "buffer-zone",
         "constructive-worry",
         "relaxation-body-scan",
@@ -415,9 +412,8 @@
       "id": "module-days-nights-help",
       "name": "Days, nights and help",
       "category": "module",
-      "level": 2,
       "sort_order": 23,
-      "composite_of": [
+      "parts": [
         "light-caffeine-alcohol",
         "three-am",
         "see-a-doctor"
@@ -435,9 +431,8 @@
       "id": "module-daily-practice",
       "name": "The daily practice",
       "category": "module",
-      "level": 2,
       "sort_order": 24,
-      "composite_of": [
+      "parts": [
         "evening-practice",
         "morning-diary",
         "weekly-review"
@@ -455,9 +450,8 @@
       "id": "sleep-gently-root",
       "name": "Sleep, gently",
       "category": "root",
-      "level": 3,
       "sort_order": 30,
-      "composite_of": [
+      "parts": [
         "module-how-sleep-works",
         "module-bed-and-clock",
         "module-quiet-mind",

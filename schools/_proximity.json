@@ -21,7 +21,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/shanta"
    ],
    "near": [
@@ -72,7 +72,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/abhinaya-four-modes"
    ],
    "near": [
@@ -123,7 +123,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion",
     "plutchik-wheel/loathing"
    ],
@@ -174,7 +174,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -226,7 +226,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/peace",
     "plutchik-wheel/acceptance"
@@ -278,7 +278,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -330,7 +330,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/wonder",
     "plutchik-wheel/admiration"
    ],
@@ -381,7 +381,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/play"
    ],
    "near": [
@@ -434,7 +434,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "thought-forms/affection"
    ],
@@ -486,7 +486,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -537,7 +537,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear",
     "plutchik-wheel/fear"
    ],
@@ -588,7 +588,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -638,7 +638,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -688,7 +688,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -738,7 +738,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/anxious-attachment",
     "attachment-theory/avoidant-attachment",
     "attachment-theory/secure-attachment",
@@ -792,7 +792,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/sanguine",
     "nvc-needs/physical-well-being"
    ],
@@ -843,7 +843,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -895,7 +895,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/albedo"
    ],
    "near": [
@@ -946,7 +946,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/albedo",
     "alchemical-correspondences/citrinitas",
     "alchemical-correspondences/nigredo",
@@ -1000,7 +1000,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/vigilance"
    ],
    "near": [
@@ -1050,7 +1050,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/acceptance"
    ],
    "near": [
@@ -1100,7 +1100,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited",
     "nvc-needs/inspired"
    ],
@@ -1151,7 +1151,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/amazement"
    ],
    "near": [
@@ -1202,7 +1202,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/anxious-attachment",
     "nvc-needs/confusion"
    ],
@@ -1253,7 +1253,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/amor"
    ],
    "near": [
@@ -1303,7 +1303,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/love"
    ],
    "near": [
@@ -1353,7 +1353,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -1403,7 +1403,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/amygdala-fear"
    ],
    "near": [
@@ -1466,7 +1466,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/concitato",
     "aquinas-passions/ira",
     "chinese-qing/nu",
@@ -1521,7 +1521,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/abhinaya-four-modes"
    ],
    "near": [
@@ -1571,7 +1571,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -1621,7 +1621,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/grief"
    ],
    "near": [
@@ -1671,7 +1671,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -1721,7 +1721,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-anima"
    ],
    "near": [
@@ -1771,7 +1771,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -1821,7 +1821,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-animus"
    ],
    "near": [
@@ -1873,7 +1873,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/anjali"
    ],
    "near": [
@@ -1923,7 +1923,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/annoyance"
    ],
    "near": [
@@ -1973,7 +1973,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -2023,7 +2023,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/astral-body-steiner"
    ],
    "near": [
@@ -2074,7 +2074,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/anticipation",
     "plutchik-wheel/interest",
     "plutchik-wheel/vigilance"
@@ -2129,7 +2129,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/anxious-attachment",
     "nvc-needs/anxious",
     "nvc-needs/fear",
@@ -2183,7 +2183,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection",
     "plutchik-wheel/boredom"
    ],
@@ -2234,7 +2234,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -2284,7 +2284,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -2334,7 +2334,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/grateful"
    ],
    "near": [
@@ -2384,7 +2384,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/apprehension"
    ],
    "near": [
@@ -2434,7 +2434,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -2484,7 +2484,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/amor",
     "aquinas-passions/ira",
     "aquinas-passions/spes",
@@ -2538,7 +2538,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/limbic-system-triune-brain",
     "neuroscience-of-emotion/papez-circuit"
    ],
@@ -2589,7 +2589,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -2639,7 +2639,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/aristotle-orge"
    ],
    "near": [
@@ -2689,7 +2689,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "constructed-emotion/core-affect"
    ],
    "near": [
@@ -2739,7 +2739,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -2789,7 +2789,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -2839,7 +2839,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/dear-man"
    ],
    "near": [
@@ -2889,7 +2889,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/check-the-facts"
    ],
    "near": [
@@ -2939,7 +2939,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/amazement"
    ],
    "near": [
@@ -2989,7 +2989,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/adbhuta"
    ],
    "near": [
@@ -3039,7 +3039,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/attachment-behavioural-system"
    ],
    "near": [
@@ -3089,7 +3089,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/bids-for-connection"
    ],
    "near": [
@@ -3139,7 +3139,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/interest",
     "plutchik-wheel/vigilance"
    ],
@@ -3190,7 +3190,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -3240,7 +3240,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -3294,7 +3294,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/hatred",
     "nvc-needs/aversion",
     "rasa/bibhatsa"
@@ -3346,7 +3346,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/avoidant-attachment"
    ],
    "near": [
@@ -3396,7 +3396,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/anticipation"
    ],
    "near": [
@@ -3446,7 +3446,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -3496,7 +3496,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/admiration"
    ],
    "near": [
@@ -3546,7 +3546,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/amazement"
    ],
    "near": [
@@ -3596,7 +3596,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -3646,7 +3646,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace"
    ],
    "near": [
@@ -3696,7 +3696,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/lindquist-meta-analysis-degeneracy"
    ],
    "near": [
@@ -3746,7 +3746,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -3796,7 +3796,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace"
    ],
    "near": [
@@ -3848,7 +3848,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/bei"
    ],
    "near": [
@@ -3898,7 +3898,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/trust"
    ],
    "near": [
@@ -3948,7 +3948,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -3998,7 +3998,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -4048,7 +4048,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/abhinaya-four-modes"
    ],
    "near": [
@@ -4098,7 +4098,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/abhinaya-four-modes"
    ],
    "near": [
@@ -4148,7 +4148,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/bids-for-connection"
    ],
    "near": [
@@ -4198,7 +4198,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/nigredo"
    ],
    "near": [
@@ -4249,7 +4249,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "parts-work/blending"
    ],
    "near": [
@@ -4299,7 +4299,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -4349,7 +4349,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -4399,7 +4399,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/sanguine"
    ],
    "near": [
@@ -4450,7 +4450,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/pensiveness",
     "thought-forms/devotion"
    ],
@@ -4501,7 +4501,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/shame"
    ],
    "near": [
@@ -4551,7 +4551,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/crisis-survival-skills"
    ],
    "near": [
@@ -4601,7 +4601,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -4651,7 +4651,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/boredom"
    ],
    "near": [
@@ -4702,7 +4702,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion",
     "plutchik-wheel/annoyance"
    ],
@@ -4753,7 +4753,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/attachment-behavioural-system",
     "attachment-theory/internal-working-models"
    ],
@@ -4804,7 +4804,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/exile"
    ],
    "near": [
@@ -4854,7 +4854,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/musica-poetica-figures"
    ],
    "near": [
@@ -4904,7 +4904,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/burton-anatomy-of-melancholy"
    ],
    "near": [
@@ -4955,7 +4955,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful",
     "plutchik-wheel/serenity"
    ],
@@ -5006,7 +5006,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/physical-well-being"
    ],
@@ -5057,7 +5057,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -5107,7 +5107,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -5157,7 +5157,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -5207,7 +5207,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -5257,7 +5257,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/unburdening"
    ],
    "near": [
@@ -5307,7 +5307,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -5357,7 +5357,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -5409,7 +5409,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric"
    ],
    "near": [
@@ -5459,7 +5459,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/the-eft-tango"
    ],
    "near": [
@@ -5509,7 +5509,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/jingju-role-types"
    ],
    "near": [
@@ -5559,7 +5559,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/astral-body-besant-leadbeater"
    ],
    "near": [
@@ -5609,7 +5609,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -5659,7 +5659,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection",
     "nvc-needs/tension"
    ],
@@ -5710,7 +5710,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -5760,7 +5760,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/melancholic",
     "humoral-temperaments/phlegmatic"
    ],
@@ -5811,7 +5811,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/hasya"
    ],
    "near": [
@@ -5861,7 +5861,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/physical-well-being"
    ],
    "near": [
@@ -5911,7 +5911,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -5961,7 +5961,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -6011,7 +6011,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/peace"
    ],
@@ -6062,7 +6062,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -6112,7 +6112,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -6164,7 +6164,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/aristotle-eleos",
     "nvc-needs/connection",
     "rasa/karuna"
@@ -6216,7 +6216,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -6266,7 +6266,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -6316,7 +6316,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/rubedo"
    ],
    "near": [
@@ -6367,7 +6367,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "plutchik-wheel/apprehension"
    ],
@@ -6418,7 +6418,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/trust"
    ],
    "near": [
@@ -6468,7 +6468,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful"
    ],
    "near": [
@@ -6518,7 +6518,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -6569,7 +6569,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -6620,7 +6620,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/loneliness"
    ],
@@ -6672,7 +6672,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-ego",
     "jungian-archetypes/the-hero",
     "nvc-needs/meaning"
@@ -6724,7 +6724,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -6775,7 +6775,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/four-horsemen",
     "nvc-needs/anger"
    ],
@@ -6827,7 +6827,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful",
     "plutchik-wheel/serenity"
    ],
@@ -6878,7 +6878,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/joy"
    ],
    "near": [
@@ -6928,7 +6928,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -6978,7 +6978,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-animus"
    ],
    "near": [
@@ -7028,7 +7028,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia",
     "alchemical-correspondences/saturnine"
    ],
@@ -7079,7 +7079,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/vira"
    ],
    "near": [
@@ -7129,7 +7129,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -7179,7 +7179,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/affection"
    ],
    "near": [
@@ -7229,7 +7229,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/firefighter"
    ],
    "near": [
@@ -7279,7 +7279,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/four-horsemen"
    ],
    "near": [
@@ -7329,7 +7329,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/tripataka"
    ],
    "near": [
@@ -7380,7 +7380,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "plutchik-wheel/interest"
    ],
@@ -7431,7 +7431,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/pursue-withdraw-cycle"
    ],
    "near": [
@@ -7481,7 +7481,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/jingju-role-types"
    ],
    "near": [
@@ -7531,7 +7531,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/anger",
     "darwin-expression/fear",
     "darwin-expression/grief",
@@ -7585,7 +7585,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -7635,7 +7635,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -7685,7 +7685,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/four-horsemen"
    ],
    "near": [
@@ -7735,7 +7735,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/lindquist-meta-analysis-degeneracy"
    ],
    "near": [
@@ -7786,7 +7786,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness",
     "plutchik-wheel/sadness"
    ],
@@ -7837,7 +7837,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/joy"
    ],
    "near": [
@@ -7887,7 +7887,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -7937,7 +7937,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/delsarte-system"
    ],
    "near": [
@@ -7987,7 +7987,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -8037,7 +8037,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -8088,7 +8088,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/allegrezza",
     "descartes-passions/desire",
     "descartes-passions/hatred",
@@ -8143,7 +8143,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/mindfulness-what-how-skills"
    ],
    "near": [
@@ -8193,7 +8193,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/desire"
    ],
    "near": [
@@ -8245,7 +8245,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/desire",
     "greek-pathe/stoic-epithymia"
    ],
@@ -8296,7 +8296,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -8346,7 +8346,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -8396,7 +8396,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -8446,7 +8446,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -8498,7 +8498,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/devotion"
    ],
    "near": [
@@ -8548,7 +8548,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -8598,7 +8598,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -8648,7 +8648,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -8698,7 +8698,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -8748,7 +8748,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -8799,7 +8799,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -8849,7 +8849,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -8899,7 +8899,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -8949,7 +8949,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -9005,7 +9005,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "ekman-basic/disgust",
     "neuroscience-of-emotion/insula-disgust",
     "nvc-needs/aversion",
@@ -9060,7 +9060,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -9110,7 +9110,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -9160,7 +9160,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -9210,7 +9210,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/disorganised-attachment"
    ],
    "near": [
@@ -9260,7 +9260,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -9310,7 +9310,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -9361,7 +9361,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -9411,7 +9411,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-trickster"
    ],
    "near": [
@@ -9461,7 +9461,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -9513,7 +9513,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/crisis-survival-skills",
     "plutchik-wheel/distraction"
    ],
@@ -9564,7 +9564,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -9616,7 +9616,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/stoic-lype",
     "neuroscience-of-emotion/acc-sadness-distress"
    ],
@@ -9667,7 +9667,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -9717,7 +9717,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -9767,7 +9767,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/distraction"
    ],
    "near": [
@@ -9817,7 +9817,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/ventral-striatum-joy-reward"
    ],
    "near": [
@@ -9867,7 +9867,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/sadness"
    ],
    "near": [
@@ -9918,7 +9918,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear",
     "plutchik-wheel/terror"
    ],
@@ -9969,7 +9969,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/perpetual-problems-and-dreams"
    ],
    "near": [
@@ -10019,7 +10019,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric",
     "humoral-temperaments/melancholic"
    ],
@@ -10071,7 +10071,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired",
     "plutchik-wheel/anticipation"
    ],
@@ -10122,7 +10122,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/melancholic"
    ],
    "near": [
@@ -10172,7 +10172,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace"
    ],
    "near": [
@@ -10222,7 +10222,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -10272,7 +10272,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -10322,7 +10322,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -10372,7 +10372,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/mindfulness-what-how-skills"
    ],
    "near": [
@@ -10422,7 +10422,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -10472,7 +10472,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -10522,7 +10522,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/attachment-injury",
     "eft-bonds/bonding-event",
     "eft-bonds/de-escalation",
@@ -10577,7 +10577,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-ego"
    ],
    "near": [
@@ -10627,7 +10627,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "ekman-basic/anger",
     "ekman-basic/disgust",
     "ekman-basic/fear",
@@ -10682,7 +10682,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -10732,7 +10732,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -10782,7 +10782,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated"
    ],
    "near": [
@@ -10832,7 +10832,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/delsarte-system"
    ],
    "near": [
@@ -10883,7 +10883,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -10933,7 +10933,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -10983,7 +10983,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -11033,7 +11033,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -11086,7 +11086,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "plutchik-wheel/interest"
    ],
@@ -11137,7 +11137,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/le-brun-conference-expression"
    ],
    "near": [
@@ -11187,7 +11187,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -11237,7 +11237,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-great-mother"
    ],
    "near": [
@@ -11287,7 +11287,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -11337,7 +11337,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -11387,7 +11387,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -11437,7 +11437,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "nvc-needs/exhilarated"
    ],
@@ -11488,7 +11488,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired"
    ],
    "near": [
@@ -11538,7 +11538,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -11588,7 +11588,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -11638,7 +11638,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace",
     "nvc-needs/peaceful"
    ],
@@ -11689,7 +11689,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated"
    ],
    "near": [
@@ -11739,7 +11739,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -11790,7 +11790,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -11840,7 +11840,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/play"
    ],
    "near": [
@@ -11890,7 +11890,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -11941,7 +11941,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated"
    ],
    "near": [
@@ -11991,7 +11991,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/exile"
    ],
    "near": [
@@ -12042,7 +12042,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful",
     "plutchik-wheel/anticipation"
    ],
@@ -12093,7 +12093,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -12143,7 +12143,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/le-brun-conference-expression"
    ],
    "near": [
@@ -12194,7 +12194,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace",
     "plutchik-wheel/trust"
    ],
@@ -12245,7 +12245,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -12295,7 +12295,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/give-fast-and-priorities"
    ],
    "near": [
@@ -12346,7 +12346,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -12408,7 +12408,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/timor",
     "chinese-qing/kong",
     "constructed-emotion/fear-as-population",
@@ -12463,7 +12463,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -12513,7 +12513,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -12563,7 +12563,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric"
    ],
    "near": [
@@ -12613,7 +12613,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/firefighter"
    ],
    "near": [
@@ -12663,7 +12663,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/check-the-facts"
    ],
    "near": [
@@ -12713,7 +12713,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/pataka"
    ],
    "near": [
@@ -12763,7 +12763,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/flooding-and-self-soothing"
    ],
    "near": [
@@ -12813,7 +12813,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia"
    ],
    "near": [
@@ -12863,7 +12863,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -12913,7 +12913,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -12963,7 +12963,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/physical-well-being"
    ],
    "near": [
@@ -13013,7 +13013,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -13063,7 +13063,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -13113,7 +13113,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -13163,7 +13163,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -13213,7 +13213,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -13264,7 +13264,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/terror",
     "thought-forms/fear"
    ],
@@ -13315,7 +13315,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -13366,7 +13366,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "nvc-needs/tension",
     "plutchik-wheel/anger"
@@ -13420,7 +13420,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/frustration"
    ],
    "near": [
@@ -13470,7 +13470,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -13520,7 +13520,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/play"
    ],
    "near": [
@@ -13570,7 +13570,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -13621,7 +13621,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/rage",
     "rasa/raudra"
    ],
@@ -13672,7 +13672,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/desire"
    ],
    "near": [
@@ -13722,7 +13722,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric",
     "humoral-temperaments/melancholic",
     "humoral-temperaments/phlegmatic",
@@ -13775,7 +13775,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/delsarte-system"
    ],
    "near": [
@@ -13825,7 +13825,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -13875,7 +13875,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/give-fast-and-priorities"
    ],
    "near": [
@@ -13925,7 +13925,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -13975,7 +13975,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -14025,7 +14025,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/positive-sentiment-override"
    ],
    "near": [
@@ -14075,7 +14075,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/accepting-influence",
     "gottman-method/bids-for-connection",
     "gottman-method/flooding-and-self-soothing",
@@ -14131,7 +14131,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/grateful"
    ],
    "near": [
@@ -14181,7 +14181,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/fear"
    ],
    "near": [
@@ -14231,7 +14231,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/perpetual-problems-and-dreams"
    ],
    "near": [
@@ -14287,7 +14287,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/bei",
     "darwin-expression/grief",
     "nvc-needs/pain",
@@ -14341,7 +14341,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -14391,7 +14391,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -14441,7 +14441,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/hatred"
    ],
    "near": [
@@ -14492,7 +14492,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "ekman-basic/joy",
     "plutchik-wheel/joy"
    ],
@@ -14544,7 +14544,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -14594,7 +14594,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace"
    ],
    "near": [
@@ -14644,7 +14644,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/alapadma",
     "hasta-mudra/anjali",
     "hasta-mudra/ardhachandra",
@@ -14699,7 +14699,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -14751,7 +14751,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/hatred",
     "plutchik-wheel/loathing"
    ],
@@ -14802,7 +14802,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/xi"
    ],
    "near": [
@@ -14852,7 +14852,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/grief"
    ],
    "near": [
@@ -14902,7 +14902,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -14952,7 +14952,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia"
    ],
    "near": [
@@ -15002,7 +15002,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-hero"
    ],
    "near": [
@@ -15052,7 +15052,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/vira"
    ],
    "near": [
@@ -15102,7 +15102,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/papez-circuit"
    ],
    "near": [
@@ -15153,7 +15153,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/spes",
     "nvc-needs/peace"
    ],
@@ -15205,7 +15205,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful"
    ],
    "near": [
@@ -15255,7 +15255,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness"
    ],
    "near": [
@@ -15305,7 +15305,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -15355,7 +15355,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/terror"
    ],
    "near": [
@@ -15406,7 +15406,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger",
     "plutchik-wheel/anger"
    ],
@@ -15457,7 +15457,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric",
     "humoral-temperaments/sanguine"
    ],
@@ -15509,7 +15509,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/repair-attempts",
     "nvc-needs/play"
    ],
@@ -15560,7 +15560,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/melancholy"
    ],
    "near": [
@@ -15610,7 +15610,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -15660,7 +15660,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -15710,7 +15710,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-ego"
    ],
    "near": [
@@ -15760,7 +15760,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -15810,7 +15810,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -15860,7 +15860,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -15911,7 +15911,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection",
     "plutchik-wheel/boredom"
    ],
@@ -15962,7 +15962,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -16012,7 +16012,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-wise-old-man"
    ],
    "near": [
@@ -16062,7 +16062,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -16113,7 +16113,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired"
    ],
    "near": [
@@ -16163,7 +16163,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/insula-disgust"
    ],
    "near": [
@@ -16213,7 +16213,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -16263,7 +16263,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/meaning"
    ],
@@ -16314,7 +16314,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -16364,7 +16364,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/interest"
    ],
    "near": [
@@ -16414,7 +16414,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -16464,7 +16464,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/check-the-facts"
    ],
    "near": [
@@ -16514,7 +16514,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -16565,7 +16565,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "plutchik-wheel/interest"
    ],
@@ -16616,7 +16616,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -16666,7 +16666,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -16717,7 +16717,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/ira"
    ],
    "near": [
@@ -16767,7 +16767,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/ira",
     "aquinas-passions/spes",
     "aquinas-passions/timor"
@@ -16819,7 +16819,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -16869,7 +16869,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -16920,7 +16920,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger",
     "plutchik-wheel/anger",
     "plutchik-wheel/annoyance"
@@ -16972,7 +16972,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/noh-kata-and-masks"
    ],
    "near": [
@@ -17022,7 +17022,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful"
    ],
    "near": [
@@ -17074,7 +17074,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/jealousy"
    ],
    "near": [
@@ -17124,7 +17124,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/jingju-role-types"
    ],
    "near": [
@@ -17174,7 +17174,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -17224,7 +17224,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/joy"
    ],
    "near": [
@@ -17274,7 +17274,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -17333,7 +17333,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/allegrezza",
     "chinese-qing/xi",
     "darwin-expression/joy",
@@ -17389,7 +17389,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy",
     "nvc-needs/joyful"
    ],
@@ -17440,7 +17440,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -17492,7 +17492,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "rasa/karuna"
    ],
    "near": [
@@ -17542,7 +17542,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/noh-kata-and-masks"
    ],
    "near": [
@@ -17592,7 +17592,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/kong"
    ],
    "near": [
@@ -17642,7 +17642,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/musica-poetica-figures"
    ],
    "near": [
@@ -17694,7 +17694,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/kong"
    ],
    "near": [
@@ -17744,7 +17744,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/lamento"
    ],
    "near": [
@@ -17796,7 +17796,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/lamento"
    ],
    "near": [
@@ -17846,7 +17846,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/joy"
    ],
    "near": [
@@ -17896,7 +17896,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -17946,7 +17946,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -17996,7 +17996,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful"
    ],
    "near": [
@@ -18046,7 +18046,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/lindquist-meta-analysis-degeneracy"
    ],
    "near": [
@@ -18096,7 +18096,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection",
     "nvc-needs/fatigue"
    ],
@@ -18147,7 +18147,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/burton-anatomy-of-melancholy"
    ],
    "near": [
@@ -18197,7 +18197,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -18247,7 +18247,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/nu"
    ],
    "near": [
@@ -18297,7 +18297,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -18349,7 +18349,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion",
     "plutchik-wheel/loathing"
    ],
@@ -18402,7 +18402,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/loneliness"
    ],
    "near": [
@@ -18452,7 +18452,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -18502,7 +18502,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/yearning"
    ],
    "near": [
@@ -18552,7 +18552,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/sadness"
    ],
    "near": [
@@ -18602,7 +18602,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/alapadma"
    ],
    "near": [
@@ -18657,7 +18657,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/amor",
     "descartes-passions/love",
     "nvc-needs/connection",
@@ -18711,7 +18711,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -18761,7 +18761,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/bei"
    ],
    "near": [
@@ -18811,7 +18811,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/limbic-system-triune-brain"
    ],
    "near": [
@@ -18861,7 +18861,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia"
    ],
    "near": [
@@ -18911,7 +18911,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/anger"
    ],
    "near": [
@@ -18961,7 +18961,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-magician"
    ],
    "near": [
@@ -19011,7 +19011,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/manager"
    ],
    "near": [
@@ -19061,7 +19061,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-self"
    ],
    "near": [
@@ -19111,7 +19111,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/adbhuta"
    ],
    "near": [
@@ -19162,7 +19162,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/noh-kata-and-masks",
     "jungian-archetypes/the-persona"
    ],
@@ -19213,7 +19213,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/mattheson-key-characteristics",
     "affektenlehre/melancholy"
    ],
@@ -19264,7 +19264,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -19316,7 +19316,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/burton-anatomy-of-melancholy",
     "humoral-temperaments/melancholic"
    ],
@@ -19372,7 +19372,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/melancholy",
     "alchemical-correspondences/saturnine",
     "nvc-needs/sadness",
@@ -19425,7 +19425,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -19475,7 +19475,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/blending"
    ],
    "near": [
@@ -19525,7 +19525,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -19575,7 +19575,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/lindquist-meta-analysis-degeneracy"
    ],
    "near": [
@@ -19625,7 +19625,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/the-strange-situation"
    ],
    "near": [
@@ -19675,7 +19675,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia"
    ],
    "near": [
@@ -19725,7 +19725,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -19775,7 +19775,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain",
     "nvc-needs/sadness"
    ],
@@ -19826,7 +19826,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -19876,7 +19876,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -19926,7 +19926,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/concitato",
     "affektenlehre/lamento"
    ],
@@ -19977,7 +19977,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -20027,7 +20027,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired"
    ],
    "near": [
@@ -20078,7 +20078,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning",
     "plutchik-wheel/grief"
    ],
@@ -20129,7 +20129,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/grateful",
     "nvc-needs/inspired"
    ],
@@ -20180,7 +20180,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning",
     "nvc-needs/physical-well-being"
    ],
@@ -20232,7 +20232,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/abhinaya-four-modes",
     "hasta-mudra/alapadma",
     "hasta-mudra/anjali",
@@ -20287,7 +20287,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -20337,7 +20337,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -20388,7 +20388,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension",
     "plutchik-wheel/apprehension"
    ],
@@ -20439,7 +20439,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -20489,7 +20489,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/network-alternative-salience-dmn-allostasis"
    ],
    "near": [
@@ -20539,7 +20539,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/noh-kata-and-masks"
    ],
    "near": [
@@ -20589,7 +20589,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/yearning"
    ],
    "near": [
@@ -20639,7 +20639,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-great-mother"
    ],
    "near": [
@@ -20689,7 +20689,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/wonder"
    ],
    "near": [
@@ -20739,7 +20739,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -20789,7 +20789,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -20839,7 +20839,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anxious",
     "nvc-needs/frustration",
     "nvc-needs/joyful",
@@ -20893,7 +20893,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/mindfulness-what-how-skills"
    ],
    "near": [
@@ -20943,7 +20943,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/disgust"
    ],
    "near": [
@@ -20993,7 +20993,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "nvc-needs/peaceful"
    ],
@@ -21044,7 +21044,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -21094,7 +21094,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/acceptance"
    ],
    "near": [
@@ -21144,7 +21144,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/albedo",
     "alchemical-correspondences/citrinitas",
     "alchemical-correspondences/nigredo",
@@ -21197,7 +21197,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace"
    ],
    "near": [
@@ -21247,7 +21247,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/aristotle-orge"
    ],
    "near": [
@@ -21297,7 +21297,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/rage"
    ],
    "near": [
@@ -21347,7 +21347,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -21397,7 +21397,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated",
     "nvc-needs/happy"
    ],
@@ -21448,7 +21448,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/si"
    ],
    "near": [
@@ -21498,7 +21498,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -21549,7 +21549,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -21599,7 +21599,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/terror"
    ],
    "near": [
@@ -21649,7 +21649,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -21699,7 +21699,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/correspondentia"
    ],
    "near": [
@@ -21749,7 +21749,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/mindfulness-what-how-skills"
    ],
    "near": [
@@ -21799,7 +21799,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -21849,7 +21849,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -21899,7 +21899,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -21949,7 +21949,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/stoic-epithymia",
     "greek-pathe/stoic-hedone",
     "greek-pathe/stoic-lype",
@@ -22004,7 +22004,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peace",
     "rasa/shanta"
    ],
@@ -22058,7 +22058,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful",
     "plutchik-wheel/serenity"
    ],
@@ -22109,7 +22109,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -22160,7 +22160,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger",
     "plutchik-wheel/annoyance"
    ],
@@ -22211,7 +22211,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -22261,7 +22261,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-persona"
    ],
    "near": [
@@ -22311,7 +22311,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -22361,7 +22361,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -22411,7 +22411,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -22461,7 +22461,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/phlegmatic"
    ],
    "near": [
@@ -22513,7 +22513,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/phlegmatic"
    ],
    "near": [
@@ -22563,7 +22563,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/stoic-phobos"
    ],
    "near": [
@@ -22613,7 +22613,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/yearning"
    ],
    "near": [
@@ -22664,7 +22664,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/aristotle-eleos"
    ],
    "near": [
@@ -22714,7 +22714,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/manager"
    ],
    "near": [
@@ -22764,7 +22764,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/play"
    ],
    "near": [
@@ -22814,7 +22814,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -22866,7 +22866,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/stoic-hedone",
     "plutchik-wheel/joy"
    ],
@@ -22917,7 +22917,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -22967,7 +22967,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/joy"
    ],
    "near": [
@@ -23017,7 +23017,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/delsarte-system"
    ],
    "near": [
@@ -23067,7 +23067,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-divine-child"
    ],
    "near": [
@@ -23117,7 +23117,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/meaning"
    ],
@@ -23168,7 +23168,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/please-and-building-mastery"
    ],
    "near": [
@@ -23218,7 +23218,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/give-fast-and-priorities"
    ],
    "near": [
@@ -23268,7 +23268,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/the-eft-tango"
    ],
    "near": [
@@ -23318,7 +23318,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -23368,7 +23368,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-anima",
     "jungian-archetypes/the-shadow"
    ],
@@ -23419,7 +23419,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/exile"
    ],
    "near": [
@@ -23469,7 +23469,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/firefighter",
     "parts-work/inner-critic",
     "parts-work/manager"
@@ -23521,7 +23521,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired"
    ],
    "near": [
@@ -23571,7 +23571,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/lamento"
    ],
    "near": [
@@ -23621,7 +23621,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/albedo"
    ],
    "near": [
@@ -23671,7 +23671,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning"
    ],
    "near": [
@@ -23721,7 +23721,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/pursue-withdraw-cycle"
    ],
    "near": [
@@ -23771,7 +23771,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/nigredo"
    ],
    "near": [
@@ -23821,7 +23821,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -23871,7 +23871,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-hero"
    ],
    "near": [
@@ -23921,7 +23921,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -23971,7 +23971,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated"
    ],
    "near": [
@@ -24024,7 +24024,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/concitato",
     "plutchik-wheel/rage",
     "thought-forms/anger"
@@ -24076,7 +24076,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/ecstasy"
    ],
    "near": [
@@ -24126,7 +24126,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -24176,7 +24176,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/adbhuta",
     "rasa/bhayanaka",
     "rasa/bibhatsa",
@@ -24231,7 +24231,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/positive-sentiment-override"
    ],
    "near": [
@@ -24281,7 +24281,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -24331,7 +24331,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/anticipation"
    ],
    "near": [
@@ -24381,7 +24381,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/radical-acceptance"
    ],
    "near": [
@@ -24431,7 +24431,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/acceptance"
    ],
    "near": [
@@ -24481,7 +24481,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -24531,7 +24531,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/anger"
    ],
    "near": [
@@ -24581,7 +24581,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/rubedo"
    ],
    "near": [
@@ -24631,7 +24631,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/pensiveness"
    ],
    "near": [
@@ -24682,7 +24682,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -24732,7 +24732,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -24782,7 +24782,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/ofc-vmpfc-anger-regulation"
    ],
    "near": [
@@ -24832,7 +24832,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -24882,7 +24882,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/play"
    ],
    "near": [
@@ -24932,7 +24932,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -24982,7 +24982,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/unburdening"
    ],
    "near": [
@@ -25032,7 +25032,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/trust"
    ],
    "near": [
@@ -25084,7 +25084,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/relief"
    ],
    "near": [
@@ -25134,7 +25134,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -25184,7 +25184,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/pain"
    ],
    "near": [
@@ -25234,7 +25234,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -25284,7 +25284,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/loathing"
    ],
    "near": [
@@ -25334,7 +25334,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/disgust"
    ],
    "near": [
@@ -25384,7 +25384,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion"
    ],
    "near": [
@@ -25434,7 +25434,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/dear-man"
    ],
    "near": [
@@ -25484,7 +25484,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anger"
    ],
    "near": [
@@ -25536,7 +25536,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/accepting-influence",
     "nvc-needs/connection",
     "plutchik-wheel/admiration"
@@ -25588,7 +25588,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/physical-well-being"
    ],
    "near": [
@@ -25638,7 +25638,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -25688,7 +25688,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "nvc-needs/tension"
    ],
@@ -25739,7 +25739,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -25789,7 +25789,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/admiration"
    ],
    "near": [
@@ -25839,7 +25839,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/refreshed"
    ],
    "near": [
@@ -25889,7 +25889,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/disgust"
    ],
    "near": [
@@ -25940,7 +25940,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/aversion",
     "plutchik-wheel/loathing"
    ],
@@ -25991,7 +25991,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/ventral-striatum-joy-reward"
    ],
    "near": [
@@ -26042,7 +26042,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/musica-poetica-figures",
     "greek-pathe/aristotle-eleos",
     "greek-pathe/aristotle-orge"
@@ -26094,7 +26094,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-persona"
    ],
    "near": [
@@ -26144,7 +26144,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/affection"
    ],
    "near": [
@@ -26201,7 +26201,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "constructed-emotion/sadness-as-population",
     "descartes-passions/sadness",
     "ekman-basic/sadness",
@@ -26256,7 +26256,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/attachment-behavioural-system"
    ],
    "near": [
@@ -26306,7 +26306,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/anxious"
    ],
    "near": [
@@ -26356,7 +26356,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/anjali"
    ],
    "near": [
@@ -26409,7 +26409,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/sanguine",
     "nvc-needs/hopeful"
    ],
@@ -26460,7 +26460,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "rasa/shanta"
    ],
    "near": [
@@ -26510,7 +26510,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -26560,7 +26560,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/saturnine"
    ],
    "near": [
@@ -26612,7 +26612,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/saturnine"
    ],
    "near": [
@@ -26663,7 +26663,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear",
     "plutchik-wheel/fear"
    ],
@@ -26714,7 +26714,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/internal-working-models"
    ],
    "near": [
@@ -26764,7 +26764,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/kartarimukha"
    ],
    "near": [
@@ -26814,7 +26814,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "attachment-theory/secure-attachment"
    ],
    "near": [
@@ -26864,7 +26864,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -26916,7 +26916,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-self",
     "parts-work/self"
    ],
@@ -26967,7 +26967,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -27017,7 +27017,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/physical-well-being"
    ],
@@ -27068,7 +27068,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/embarrassment"
    ],
    "near": [
@@ -27118,7 +27118,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "parts-work/self"
    ],
    "near": [
@@ -27168,7 +27168,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy",
     "nvc-needs/connection",
     "nvc-needs/meaning"
@@ -27220,7 +27220,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/give-fast-and-priorities"
    ],
    "near": [
@@ -27270,7 +27270,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-wise-old-man"
    ],
    "near": [
@@ -27320,7 +27320,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful"
    ],
    "near": [
@@ -27370,7 +27370,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/serenity"
    ],
    "near": [
@@ -27420,7 +27420,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-shadow"
    ],
    "near": [
@@ -27470,7 +27470,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -27522,7 +27522,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/shame"
    ],
    "near": [
@@ -27573,7 +27573,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "rasa/shanta"
    ],
    "near": [
@@ -27623,7 +27623,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/physical-well-being"
    ],
    "near": [
@@ -27673,7 +27673,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/jingju-role-types"
    ],
    "near": [
@@ -27723,7 +27723,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/shikhara"
    ],
    "near": [
@@ -27774,7 +27774,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/shikhara"
    ],
    "near": [
@@ -27824,7 +27824,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -27874,7 +27874,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/noh-kata-and-masks"
    ],
    "near": [
@@ -27924,7 +27924,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/disgust"
    ],
    "near": [
@@ -27974,7 +27974,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/distraction"
    ],
    "near": [
@@ -28024,7 +28024,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/shikhara"
    ],
    "near": [
@@ -28074,7 +28074,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -28125,7 +28125,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/softening"
    ],
    "near": [
@@ -28178,7 +28178,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/tristitia",
     "chinese-qing/bei",
     "plutchik-wheel/grief"
@@ -28230,7 +28230,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/sadness"
    ],
    "near": [
@@ -28280,7 +28280,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy",
     "nvc-needs/peace"
    ],
@@ -28331,7 +28331,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged"
    ],
    "near": [
@@ -28382,7 +28382,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/spes"
    ],
    "near": [
@@ -28432,7 +28432,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "hasta-mudra/shikhara"
    ],
    "near": [
@@ -28482,7 +28482,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "chinese-qing/si"
    ],
    "near": [
@@ -28532,7 +28532,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/autonomy"
    ],
    "near": [
@@ -28582,7 +28582,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -28632,7 +28632,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/stanislavski-system"
    ],
    "near": [
@@ -28683,7 +28683,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "plutchik-wheel/surprise"
    ],
@@ -28734,7 +28734,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/astral-body-steiner"
    ],
    "near": [
@@ -28784,7 +28784,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/engaged",
     "nvc-needs/inspired"
    ],
@@ -28835,7 +28835,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/meaning",
     "nvc-needs/play"
    ],
@@ -28886,7 +28886,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/inspired"
    ],
    "near": [
@@ -28936,7 +28936,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "greek-pathe/stoic-epithymia",
     "greek-pathe/stoic-hedone",
     "greek-pathe/stoic-lype",
@@ -28989,7 +28989,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/four-horsemen"
    ],
    "near": [
@@ -29039,7 +29039,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "acting-traditions/strasberg-method"
    ],
    "near": [
@@ -29089,7 +29089,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/amazement"
    ],
    "near": [
@@ -29139,7 +29139,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "constructed-emotion/core-affect",
     "constructed-emotion/interoception"
    ],
@@ -29190,7 +29190,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/radical-acceptance"
    ],
    "near": [
@@ -29240,7 +29240,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -29293,7 +29293,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "ekman-basic/surprise",
     "plutchik-wheel/amazement",
     "plutchik-wheel/distraction",
@@ -29346,7 +29346,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "nvc-needs/excited"
    ],
@@ -29397,7 +29397,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/wise-mind"
    ],
    "near": [
@@ -29447,7 +29447,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/choleric",
     "humoral-temperaments/melancholic",
     "humoral-temperaments/phlegmatic",
@@ -29500,7 +29500,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -29551,7 +29551,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/tension"
    ],
    "near": [
@@ -29601,7 +29601,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -29651,7 +29651,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/terror"
    ],
    "near": [
@@ -29701,7 +29701,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/grateful"
    ],
    "near": [
@@ -29751,7 +29751,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "thought-forms/astral-body-besant-leadbeater"
    ],
    "near": [
@@ -29801,7 +29801,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "neuroscience-of-emotion/amygdala-fear"
    ],
    "near": [
@@ -29851,7 +29851,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/fear"
    ],
    "near": [
@@ -29901,7 +29901,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/exhilarated"
    ],
    "near": [
@@ -29951,7 +29951,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/happy"
    ],
    "near": [
@@ -30002,7 +30002,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "aquinas-passions/timor"
    ],
    "near": [
@@ -30052,7 +30052,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/crisis-survival-skills"
    ],
    "near": [
@@ -30102,7 +30102,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue"
    ],
    "near": [
@@ -30152,7 +30152,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/acceptance"
    ],
    "near": [
@@ -30202,7 +30202,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/confusion"
    ],
    "near": [
@@ -30252,7 +30252,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/physical-well-being"
    ],
    "near": [
@@ -30302,7 +30302,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/grateful"
    ],
    "near": [
@@ -30353,7 +30353,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/peaceful",
     "plutchik-wheel/serenity"
    ],
@@ -30404,7 +30404,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-magician"
    ],
    "near": [
@@ -30454,7 +30454,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/fear"
    ],
    "near": [
@@ -30504,7 +30504,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear"
    ],
    "near": [
@@ -30554,7 +30554,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-trickster"
    ],
    "near": [
@@ -30604,7 +30604,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/sadness"
    ],
    "near": [
@@ -30654,7 +30654,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -30707,7 +30707,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "plutchik-wheel/acceptance",
     "plutchik-wheel/admiration",
@@ -30760,7 +30760,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -30810,7 +30810,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -30861,7 +30861,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "parts-work/unburdening"
    ],
    "near": [
@@ -30911,7 +30911,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -30961,7 +30961,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-shadow"
    ],
    "near": [
@@ -31011,7 +31011,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection",
     "nvc-needs/meaning"
    ],
@@ -31063,7 +31063,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet",
     "plutchik-wheel/apprehension"
    ],
@@ -31114,7 +31114,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/surprise"
    ],
    "near": [
@@ -31164,7 +31164,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/distraction"
    ],
    "near": [
@@ -31215,7 +31215,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness",
     "plutchik-wheel/sadness"
    ],
@@ -31266,7 +31266,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/boredom"
    ],
    "near": [
@@ -31316,7 +31316,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/love"
    ],
    "near": [
@@ -31366,7 +31366,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -31416,7 +31416,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -31466,7 +31466,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/hopeful"
    ],
    "near": [
@@ -31516,7 +31516,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disquiet"
    ],
    "near": [
@@ -31566,7 +31566,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "constructed-emotion/core-affect"
    ],
    "near": [
@@ -31616,7 +31616,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/annoyance"
    ],
    "near": [
@@ -31666,7 +31666,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/excited"
    ],
    "near": [
@@ -31716,7 +31716,7 @@
    "sources": [
     "name"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/vigilance"
    ],
    "near": [
@@ -31768,7 +31768,7 @@
     "keyword",
     "name"
    ],
-   "items": [
+   "nodes": [
     "rasa/vira"
    ],
    "near": [
@@ -31819,7 +31819,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "dbt-skills/please-and-building-mastery",
     "eft-bonds/softening"
    ],
@@ -31870,7 +31870,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "affektenlehre/concitato"
    ],
    "near": [
@@ -31920,7 +31920,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/affectionate"
    ],
    "near": [
@@ -31970,7 +31970,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/connection"
    ],
    "near": [
@@ -32021,7 +32021,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear",
     "plutchik-wheel/vigilance"
    ],
@@ -32072,7 +32072,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/vigilance"
    ],
    "near": [
@@ -32123,7 +32123,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/phlegmatic",
     "nvc-needs/physical-well-being"
    ],
@@ -32175,7 +32175,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fatigue",
     "plutchik-wheel/boredom"
    ],
@@ -32226,7 +32226,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "darwin-expression/grief"
    ],
    "near": [
@@ -32276,7 +32276,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "humoral-temperaments/phlegmatic",
     "humoral-temperaments/sanguine"
    ],
@@ -32327,7 +32327,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/albedo"
    ],
    "near": [
@@ -32377,7 +32377,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "jungian-archetypes/the-self"
    ],
    "near": [
@@ -32428,7 +32428,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/sadness",
     "plutchik-wheel/pensiveness"
    ],
@@ -32479,7 +32479,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/pursue-withdraw-cycle"
    ],
    "near": [
@@ -32529,7 +32529,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/disconnection"
    ],
    "near": [
@@ -32583,7 +32583,7 @@
     "emotion_key",
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "descartes-passions/wonder",
     "nvc-needs/inspired",
     "plutchik-wheel/amazement",
@@ -32637,7 +32637,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/fear",
     "plutchik-wheel/apprehension",
     "plutchik-wheel/fear"
@@ -32689,7 +32689,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/admiration"
    ],
    "near": [
@@ -32739,7 +32739,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "eft-bonds/attachment-injury"
    ],
    "near": [
@@ -32789,7 +32789,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "plutchik-wheel/rage"
    ],
    "near": [
@@ -32840,7 +32840,7 @@
     "emotion_key",
     "name"
    ],
-   "items": [
+   "nodes": [
     "nvc-needs/yearning"
    ],
    "near": [
@@ -32890,7 +32890,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "alchemical-correspondences/citrinitas"
    ],
    "near": [
@@ -32940,7 +32940,7 @@
    "sources": [
     "keyword"
    ],
-   "items": [
+   "nodes": [
     "gottman-method/accepting-influence"
    ],
    "near": [

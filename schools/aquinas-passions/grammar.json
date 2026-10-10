@@ -57,7 +57,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "amor",
       "name": "Amor — Love (Concupiscible)",
@@ -236,9 +236,8 @@
       "id": "group-concupiscible",
       "name": "The Concupiscible Passions",
       "category": "group",
-      "level": 2,
       "sort_order": 6,
-      "composite_of": ["amor", "tristitia", "odium", "desiderium", "fuga", "gaudium"],
+      "parts": ["amor", "tristitia", "odium", "desiderium", "fuga", "gaudium"],
       "sections": {
         "Definition": "The concupiscible appetite responds to sensory good or evil simply apprehended as such, without regard to how difficult attaining or avoiding it is. Aquinas names six here, all represented in this skeleton: love/hatred (amor/odium), desire/aversion (desiderium/fuga), and joy/sorrow (gaudium/tristitia)."
       },
@@ -249,9 +248,8 @@
       "id": "group-irascible",
       "name": "The Irascible Passions",
       "category": "group",
-      "level": 2,
       "sort_order": 7,
-      "composite_of": ["spes", "timor", "ira", "desperatio", "audacia"],
+      "parts": ["spes", "timor", "ira", "desperatio", "audacia"],
       "sections": {
         "Definition": "The irascible appetite responds to the same kind of good or evil the concupiscible appetite handles, but only insofar as attaining the good or escaping the evil is arduous — difficult, resisted, requiring struggle. Aquinas names five here, all represented in this skeleton: hope/despair (spes/desperatio), fear/daring (timor/audacia), and anger (ira), which alone has no contrary."
       },
@@ -262,9 +260,8 @@
       "id": "aquinas-passions-root",
       "name": "The Eleven Passions — Concupiscible and Irascible",
       "category": "root",
-      "level": 3,
       "sort_order": 8,
-      "composite_of": ["group-concupiscible", "group-irascible"],
+      "parts": ["group-concupiscible", "group-irascible"],
       "sections": {
         "Definition": "Aquinas's Summa Theologiae (Prima Secundae, qq. 22–48) organises eleven passions of the sensitive appetite into two faculties. The dividing line is not valence — both faculties handle good and evil objects — it is arduousness: whether the object is apprehended simply as good or evil (concupiscible), or as a good or evil that is difficult to reach or resist (irascible). Six passions are concupiscible (love/hatred, desire/aversion, joy/sorrow); five are irascible (hope/despair, fear/daring, and anger, which alone has no contrary).",
         "Arduousness, not valence": "This is worth stating plainly because it is easy to misread: a taxonomy with a \"hope/fear\" pair and a \"love/hatred\" pair looks at first glance like it is organised by positive versus negative feeling. It is not. Aquinas already has a positive/negative pair inside the concupiscible faculty alone (love/hatred, joy/sorrow). What moves a passion into the irascible faculty is entirely the difficulty of its object — arduousness is the axis, valence is orthogonal to it.",

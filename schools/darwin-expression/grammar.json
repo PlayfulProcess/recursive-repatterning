@@ -57,7 +57,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "grief",
       "name": "Grief",
@@ -188,9 +188,8 @@
       "id": "group-cross-species-continuity",
       "name": "Expressions Darwin Traces Across Species",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["grief", "fear", "anger", "joy", "animal-expression-dogs-cats-apes"],
+      "parts": ["grief", "fear", "anger", "joy", "animal-expression-dogs-cats-apes"],
       "sections": {
         "Definition": "Four expressions Darwin argues have clear analogues in other animals — teeth-baring in anger, piloerection in fear, muscular contraction in grief, and antithetical postural opening in joy — forming the core of his continuity-of-species argument."
       },
@@ -201,9 +200,8 @@
       "id": "group-uniquely-human",
       "name": "The Uniquely Human Case",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["shame"],
+      "parts": ["shame"],
       "sections": {
         "Definition": "Blushing is the one expression Darwin treats as lacking a clear animal precursor and a clear prior function — the hardest case for his own three-principle framework, which he presents candidly as such rather than forcing a tidy explanation."
       },
@@ -214,8 +212,7 @@
       "id": "group-where-darwin-looked",
       "name": "Where Darwin Looked",
       "category": "group",
-      "level": 2,
-      "composite_of": ["infant-expression", "expression-of-the-insane"],
+      "parts": ["infant-expression", "expression-of-the-insane"],
       "sections": {
         "Definition": "Two populations Darwin studied because he believed their expressions were unlearned or uncontrolled, and so showed the underlying pattern more plainly than an adult in company would: infants, whose expressions appear before there is much opportunity to imitate them, and asylum patients, whose photographs reached him through the alienists he corresponded with. The second of those is the ethically fraught one, and the item says so in its own research note rather than passing the material on uninterrogated."
       },
@@ -227,9 +224,8 @@
       "id": "darwin-expression-root",
       "name": "The Expression of the Emotions in Man and Animals",
       "category": "root",
-      "level": 3,
       "sort_order": 12,
-      "composite_of": ["group-cross-species-continuity", "group-uniquely-human", "group-where-darwin-looked"],
+      "parts": ["group-cross-species-continuity", "group-uniquely-human", "group-where-darwin-looked"],
       "sections": {
         "Definition": "Darwin's 1872 book argues that human emotional expressions are evolved, largely involuntary, and continuous with expression in other animals, explained through three principles: serviceable associated habits (vestigial residues of once-functional acts), antithesis (opposite states producing physically opposite postures), and the direct action of the nervous system (expressions with no communicative function, simply the byproduct of nervous overload). He supports the argument with photography, direct observation of infants and the institutionalized, and a cross-cultural questionnaire circulated through missionary and colonial networks.",
         "An early empirical program, not a philosophical argument": "Unlike the historical-philosophical schools elsewhere in this collection (Aristotle, the Stoics, Descartes, Aquinas), Darwin's book is a work of 19th-century natural history and comparative observation — it collects evidence, however methodologically crude by later standards, rather than reasoning from first principles about the soul or right judgment.",

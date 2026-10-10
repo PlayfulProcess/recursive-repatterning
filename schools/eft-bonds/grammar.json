@@ -46,12 +46,11 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "pursue-withdraw-cycle",
       "name": "The Pursue-Withdraw Cycle",
       "category": "pattern",
-      "level": 1,
       "sort_order": 1,
       "keywords": ["pursue", "withdraw", "cycle", "eft"],
       "sections": {
@@ -61,7 +60,7 @@
       },
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "attachment-behavioural-system",
+        "source_node_id": "attachment-behavioural-system",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -69,7 +68,6 @@
       "id": "primary-and-secondary-emotion",
       "name": "Primary and Secondary Emotion",
       "category": "concept",
-      "level": 1,
       "sort_order": 2,
       "keywords": ["primary-emotion", "secondary-emotion", "eft"],
       "sections": {
@@ -83,7 +81,6 @@
       "id": "attachment-injury",
       "name": "The Attachment Injury",
       "category": "event",
-      "level": 1,
       "sort_order": 3,
       "keywords": ["attachment-injury", "wound", "eft"],
       "sections": {
@@ -93,7 +90,7 @@
       },
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "internal-working-models",
+        "source_node_id": "internal-working-models",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -101,7 +98,6 @@
       "id": "the-eft-tango",
       "name": "The EFT Tango",
       "category": "process",
-      "level": 1,
       "sort_order": 4,
       "keywords": ["eft-tango", "process", "choreography"],
       "sections": {
@@ -111,7 +107,7 @@
       },
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-modulation",
+        "source_node_id": "the-modulation",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -119,7 +115,6 @@
       "id": "de-escalation",
       "name": "De-escalation",
       "category": "process",
-      "level": 1,
       "sort_order": 5,
       "keywords": ["de-escalation", "stage-one", "eft"],
       "sections": {
@@ -133,7 +128,6 @@
       "id": "softening",
       "name": "Softening",
       "category": "event",
-      "level": 1,
       "sort_order": 6,
       "keywords": ["softening", "vulnerability", "eft"],
       "sections": {
@@ -147,7 +141,6 @@
       "id": "bonding-event",
       "name": "The Bonding Event",
       "category": "event",
-      "level": 1,
       "sort_order": 7,
       "keywords": ["bonding-event", "hold-me-tight", "eft"],
       "sections": {
@@ -157,7 +150,7 @@
       },
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "positive-sentiment-override",
+        "source_node_id": "positive-sentiment-override",
         "deck": "The Gottman Method"
       }
     },
@@ -165,9 +158,8 @@
       "id": "group-the-cycle",
       "name": "The Cycle",
       "category": "group",
-      "level": 2,
       "sort_order": 8,
-      "composite_of": ["pursue-withdraw-cycle", "primary-and-secondary-emotion", "attachment-injury"],
+      "parts": ["pursue-withdraw-cycle", "primary-and-secondary-emotion", "attachment-injury"],
       "keywords": ["eft", "cycle", "attachment"],
       "sections": {
         "Definition": "Three items describing what a couple caught in distress is actually caught in, in EFT's account: a shared pattern of reaching and retreating, a gap between the reactive emotion each partner shows and the more vulnerable emotion underneath it, and — often — a specific past moment of felt unavailability that keeps getting relived inside present-day conflict."
@@ -178,9 +170,8 @@
       "id": "group-the-repair",
       "name": "The Repair",
       "category": "group",
-      "level": 2,
       "sort_order": 9,
-      "composite_of": ["the-eft-tango", "de-escalation", "softening", "bonding-event"],
+      "parts": ["the-eft-tango", "de-escalation", "softening", "bonding-event"],
       "keywords": ["eft", "repair", "process"],
       "sections": {
         "Definition": "Four items describing EFT's account of how the work actually moves: a shared choreography of naming the cycle, deepening feeling, and restructuring how it's shared (the Tango); the first stage of seeing the cycle as the shared enemy (de-escalation); the turning-point moment of dropping the defended stance (softening); and the repeated small moments afterward that rebuild felt security (bonding events)."
@@ -191,9 +182,8 @@
       "id": "eft-bonds-root",
       "name": "Emotionally Focused Therapy — the Cycle and the Bond",
       "category": "root",
-      "level": 3,
       "sort_order": 10,
-      "composite_of": ["group-the-cycle", "group-the-repair"],
+      "parts": ["group-the-cycle", "group-the-repair"],
       "keywords": ["eft", "sue johnson", "attachment", "couples therapy"],
       "sections": {
         "Definition": "Emotionally Focused Therapy reads couple conflict as an attachment protest: most recurring fights are, underneath their surface content, both partners asking the same question in different, self-reinforcing ways — can I count on you when it matters? The pursue-withdraw cycle names the shared pattern; primary and secondary emotion names the gap between what's shown and what's underneath; the attachment injury names the specific wound the cycle often circles back to. The work moves from naming the cycle as the shared problem (de-escalation), through a partner risking their more vulnerable feeling directly (softening), toward repeated moments of felt safety that rebuild the bond (bonding events).",

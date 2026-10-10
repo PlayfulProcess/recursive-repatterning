@@ -15,140 +15,140 @@
     {
       "slug": "constructed-emotion",
       "name": "Constructed Emotion — the Substrate",
-      "items": 8
+      "nodes": 8
     },
     {
       "slug": "overflow",
       "name": "Overflow — Structures, Process, Possibilities",
-      "items": 23
+      "nodes": 23
     },
     {
       "slug": "untranslatables",
       "name": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly",
-      "items": 12
+      "nodes": 12
     },
     {
       "slug": "neuroscience-of-emotion",
       "name": "Neuroscience of Emotion — Where Feeling Lives in the Body",
-      "items": 9
+      "nodes": 9
     },
     {
       "slug": "plutchik-wheel",
       "name": "Plutchik's Wheel of Emotions",
-      "items": 24
+      "nodes": 24
     },
     {
       "slug": "ekman-basic",
       "name": "Basic-Emotion / Affect-Programme Theory",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "nvc-needs",
       "name": "Nonviolent Communication — Feelings and Needs",
-      "items": 33
+      "nodes": 33
     },
     {
       "slug": "attachment-theory",
       "name": "Bowlby and Ainsworth — Attachment Theory",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "eft-bonds",
       "name": "Emotionally Focused Therapy — Attachment Bonds Between Partners",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "gottman-method",
       "name": "The Gottman Method",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "dbt-skills",
       "name": "Dialectical Behavior Therapy — Acceptance and Change Skills",
-      "items": 9
+      "nodes": 9
     },
     {
       "slug": "sleep-gently",
       "name": "Sleep, gently (CBT-I informed)",
-      "items": 15
+      "nodes": 15
     },
     {
       "slug": "ericksonian-hypnosis",
       "name": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage",
-      "items": 9
+      "nodes": 9
     },
     {
       "slug": "parts-work",
       "name": "Parts Work — after Internal Family Systems",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "jungian-archetypes",
       "name": "Jungian Archetypes — The Collective Unconscious",
-      "items": 12
+      "nodes": 12
     },
     {
       "slug": "humoral-temperaments",
       "name": "The Four Humours — Galenic Temperament Theory",
-      "items": 10
+      "nodes": 10
     },
     {
       "slug": "alchemical-correspondences",
       "name": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
-      "items": 12
+      "nodes": 12
     },
     {
       "slug": "thought-forms",
       "name": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
-      "items": 8
+      "nodes": 8
     },
     {
       "slug": "darwin-expression",
       "name": "Darwin — The Expression of the Emotions",
-      "items": 8
+      "nodes": 8
     },
     {
       "slug": "affektenlehre",
       "name": "Affektenlehre — the Baroque Doctrine of the Affections",
-      "items": 9
+      "nodes": 9
     },
     {
       "slug": "acting-traditions",
       "name": "Acting Traditions — How Performers Are Taught to Show Emotion",
-      "items": 7
+      "nodes": 7
     },
     {
       "slug": "hasta-mudra",
       "name": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
-      "items": 8
+      "nodes": 8
     },
     {
       "slug": "greek-pathe",
       "name": "Greek Pathē — Rhetoric and Stoic Ethics",
-      "items": 15
+      "nodes": 15
     },
     {
       "slug": "descartes-passions",
       "name": "Descartes's Six Primitive Passions",
-      "items": 13
+      "nodes": 13
     },
     {
       "slug": "aquinas-passions",
       "name": "Aquinas's Eleven Passions",
-      "items": 11
+      "nodes": 11
     },
     {
       "slug": "rasa",
       "name": "Rasa — Bharata's Aesthetics of Performance",
-      "items": 9
+      "nodes": 9
     },
     {
       "slug": "chinese-qing",
       "name": "Qíng and the Seven Emotions — Classical Chinese Medicine",
-      "items": 7
+      "nodes": 7
     }
   ],
-  "items": [
+  "nodes": [
     {
       "id": "constructed-emotion--core-affect",
       "name": "Core Affect",
@@ -169,7 +169,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Valence-Arousal_Circumplex.jpg",
         "image_credit": "Valence-Arousal Circumplex diagram, illustrating James A. Russell's 1980 model this item's own Research note cites — Wikimedia Commons, CC BY 3.0 (attribution: imagine-it.org / GAMES survey project).",
         "source_deck": "constructed-emotion",
-        "source_item_id": "core-affect",
+        "source_node_id": "core-affect",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -193,7 +193,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Gray806.png",
         "image_credit": "\"The phrenic nerve and its relations with the vagus nerve\", Gray's Anatomy (1918, US edition) — Wikimedia Commons, public domain. The vagus nerve carries the visceral afferent signals central to interoception theory.",
         "source_deck": "constructed-emotion",
-        "source_item_id": "interoception",
+        "source_node_id": "interoception",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -218,7 +218,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "constructed-emotion",
-        "source_item_id": "concept-acquisition",
+        "source_node_id": "concept-acquisition",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -242,7 +242,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "constructed-emotion",
-        "source_item_id": "prediction",
+        "source_node_id": "prediction",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -266,7 +266,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "constructed-emotion",
-        "source_item_id": "affective-realism",
+        "source_node_id": "affective-realism",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -288,7 +288,7 @@
       "metadata": {
         "emotion_key": "anger",
         "source_deck": "constructed-emotion",
-        "source_item_id": "anger-as-population",
+        "source_node_id": "anger-as-population",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -310,7 +310,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "constructed-emotion",
-        "source_item_id": "fear-as-population",
+        "source_node_id": "fear-as-population",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -332,7 +332,7 @@
       "metadata": {
         "emotion_key": "sadness",
         "source_deck": "constructed-emotion",
-        "source_item_id": "sadness-as-population",
+        "source_node_id": "sadness-as-population",
         "deck": "Constructed Emotion — the Substrate"
       }
     },
@@ -353,7 +353,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-spread",
+        "source_node_id": "the-spread",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -376,7 +376,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-fit",
+        "source_node_id": "the-fit",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -401,7 +401,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-body",
+        "source_node_id": "the-body",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -426,7 +426,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-constriction",
+        "source_node_id": "the-constriction",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -450,7 +450,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-lineage",
+        "source_node_id": "the-lineage",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -475,7 +475,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-ledger",
+        "source_node_id": "the-ledger",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -500,7 +500,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-heap",
+        "source_node_id": "the-heap",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -524,7 +524,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-pattern",
+        "source_node_id": "the-pattern",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -548,7 +548,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-game",
+        "source_node_id": "the-game",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -573,7 +573,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-prediction",
+        "source_node_id": "the-prediction",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -598,7 +598,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-construction",
+        "source_node_id": "the-construction",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -624,7 +624,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-pour",
+        "source_node_id": "the-pour",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -649,7 +649,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-error",
+        "source_node_id": "the-error",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -675,7 +675,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-modulation",
+        "source_node_id": "the-modulation",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -700,7 +700,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-turn",
+        "source_node_id": "the-turn",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -725,7 +725,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-ceding",
+        "source_node_id": "the-ceding",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -750,7 +750,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-overflow",
+        "source_node_id": "the-overflow",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -775,7 +775,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-free-gift",
+        "source_node_id": "the-free-gift",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -800,7 +800,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-freedom-test",
+        "source_node_id": "the-freedom-test",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -825,7 +825,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-recognition",
+        "source_node_id": "the-recognition",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -850,7 +850,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-best-prior",
+        "source_node_id": "the-best-prior",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -877,7 +877,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-two-truths",
+        "source_node_id": "the-two-truths",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -902,7 +902,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "overflow",
-        "source_item_id": "the-new-game",
+        "source_node_id": "the-new-game",
         "deck": "Overflow — Structures, Process, Possibilities"
       }
     },
@@ -926,7 +926,7 @@
       "metadata": {
         "emotion_key": "saudade",
         "source_deck": "untranslatables",
-        "source_item_id": "saudade",
+        "source_node_id": "saudade",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -949,7 +949,7 @@
       "metadata": {
         "emotion_key": "sehnsucht",
         "source_deck": "untranslatables",
-        "source_item_id": "sehnsucht",
+        "source_node_id": "sehnsucht",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -972,7 +972,7 @@
       "metadata": {
         "emotion_key": "schadenfreude",
         "source_deck": "untranslatables",
-        "source_item_id": "schadenfreude",
+        "source_node_id": "schadenfreude",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -995,7 +995,7 @@
       "metadata": {
         "emotion_key": "amae",
         "source_deck": "untranslatables",
-        "source_item_id": "amae",
+        "source_node_id": "amae",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1019,7 +1019,7 @@
       "metadata": {
         "emotion_key": "toska",
         "source_deck": "untranslatables",
-        "source_item_id": "toska",
+        "source_node_id": "toska",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1043,7 +1043,7 @@
       "metadata": {
         "emotion_key": "litost",
         "source_deck": "untranslatables",
-        "source_item_id": "litost",
+        "source_node_id": "litost",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1066,7 +1066,7 @@
       "metadata": {
         "emotion_key": "hygge",
         "source_deck": "untranslatables",
-        "source_item_id": "hygge",
+        "source_node_id": "hygge",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1089,7 +1089,7 @@
       "metadata": {
         "emotion_key": "gigil",
         "source_deck": "untranslatables",
-        "source_item_id": "gigil",
+        "source_node_id": "gigil",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1112,7 +1112,7 @@
       "metadata": {
         "emotion_key": "meraki",
         "source_deck": "untranslatables",
-        "source_item_id": "meraki",
+        "source_node_id": "meraki",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1135,7 +1135,7 @@
       "metadata": {
         "emotion_key": "hiraeth",
         "source_deck": "untranslatables",
-        "source_item_id": "hiraeth",
+        "source_node_id": "hiraeth",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1161,7 +1161,7 @@
       "metadata": {
         "emotion_key": "grief",
         "source_deck": "untranslatables",
-        "source_item_id": "grief-distributed",
+        "source_node_id": "grief-distributed",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1184,7 +1184,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "untranslatables",
-        "source_item_id": "lexical-gap-evidence",
+        "source_node_id": "lexical-gap-evidence",
         "deck": "Untranslatables — Where Feeling-Words Don't Cross Languages Cleanly"
       }
     },
@@ -1210,7 +1210,7 @@
         "emotion_key": "fear",
         "evidence_note": "The amygdala's role in fear conditioning, threat detection, and autonomic threat response is one of the best-replicated findings in affective neuroscience — decades of convergent rodent and human lesion work support it. The stronger, more popularized claim — that the amygdala is fear's dedicated seat, or is fear-specific — has not held up: Feinstein et al. (2013) found the amygdala unnecessary for CO2-induced panic in the same patient whose earlier deficits had anchored the field, and Lindquist et al.'s 2012 meta-analysis found amygdala activity elevated across multiple high-arousal negative categories, not selectively during fear.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "amygdala-fear",
+        "source_node_id": "amygdala-fear",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1234,7 +1234,7 @@
         "emotion_key": "disgust",
         "evidence_note": "Among the five classic mappings in this school, insula/disgust has the most consistent supporting evidence in Lindquist et al.'s 2012 pooled meta-analysis — right anterior insula activity was more reliably elevated during disgust than during the other categories studied. It still falls short of selectivity: anterior insula is also reliably active across other negative and interoceptive states, consistent with a general interoceptive role that disgust draws on heavily rather than a dedicated disgust module.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "insula-disgust",
+        "source_node_id": "insula-disgust",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1259,7 +1259,7 @@
         "emotion_key": "anger",
         "evidence_note": "The region's involvement in emotional and behavioral regulation more broadly is reasonably well supported by systematic lesion-cohort studies (Grafman et al. 1996; Blair and colleagues). The specific evidentiary anchor most people know — the Phineas Gage case — is a single, thinly documented 19th-century anecdote reconstructed a century and a half later, not a controlled finding, and should not carry the evidentiary weight its fame implies. The region is not anger-specific; it participates in regulation and valuation across many affective and decision-making domains.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "ofc-vmpfc-anger-regulation",
+        "source_node_id": "ofc-vmpfc-anger-regulation",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1284,7 +1284,7 @@
         "emotion_key": "sadness",
         "evidence_note": "ACC (especially subgenual/pregenual regions) activation during induced sadness is a real, replicated finding from PET sadness-induction studies. It is not sadness-specific: the same territory reliably activates during physical pain, cognitive conflict, and other negative or effortful states, and the widely cited extension to social-exclusion-specific 'social pain' (Eisenberger et al. 2003) is itself contested in the subsequent literature on grounds of specificity.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "acc-sadness-distress",
+        "source_node_id": "acc-sadness-distress",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1309,7 +1309,7 @@
         "emotion_key": "joy",
         "evidence_note": "NAcc/ventral striatum activation during reward anticipation and receipt is a robust, well-replicated finding (Knutson et al. 2001 and a large subsequent literature). The inference to 'this is joy's region' is weaker on two independent grounds: within reward neuroscience itself, Berridge & Robinson's liking/wanting distinction shows the hedonic 'liking' response is far more anatomically circumscribed than whole-structure NAcc activation, which more often reflects motivational 'wanting'; and across the wider emotion-neuroimaging literature (Lindquist et al. 2012), ventral striatal activity is elevated across positive affect generally, not selectively during joy.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "ventral-striatum-joy-reward",
+        "source_node_id": "ventral-striatum-joy-reward",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1334,7 +1334,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Gray739-emphasizing-hippocampus.png",
         "image_credit": "Gray's Anatomy, plate 739 (hippocampus emphasized) — Henry Vandyke Carter, 1918, Wikimedia Commons, public domain. The hippocampus is the structure Papez's circuit both starts and ends at.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "papez-circuit",
+        "source_node_id": "papez-circuit",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1358,7 +1358,7 @@
       "metadata": {
         "evidence_note": "Both the limbic system as a bounded anatomical/functional category and MacLean's triune-brain evolutionary sequence are treated by contemporary neuroanatomy as superseded rather than as live hypotheses. The limbic system lacks an agreed anatomical boundary; the triune brain's layered-evolution premise is contradicted by cross-species comparative anatomy. Both concepts remain widely taught in introductory contexts despite this.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "limbic-system-triune-brain",
+        "source_node_id": "limbic-system-triune-brain",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1382,7 +1382,7 @@
       "metadata": {
         "evidence_note": "This is the well-replicated half of this school's own subject matter: the finding that no discrete emotion category maps consistently and selectively onto one brain region is drawn from a large pooled meta-analysis of the published neuroimaging literature, not a single study, and later work (including subsequent degeneracy-focused analyses) has continued to find the same pattern rather than overturning it.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "lindquist-meta-analysis-degeneracy",
+        "source_node_id": "lindquist-meta-analysis-degeneracy",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1406,7 +1406,7 @@
       "metadata": {
         "evidence_note": "The salience-network/default-mode-network/allostasis account is an active, still-developing research program rather than a single settled finding — it has real and growing published support (Kleckner et al. 2017 among the central anchors) but is newer and less exhaustively tested than the meta-analytic negative finding (no discrete locus) it is built to explain.",
         "source_deck": "neuroscience-of-emotion",
-        "source_item_id": "network-alternative-salience-dmn-allostasis",
+        "source_node_id": "network-alternative-salience-dmn-allostasis",
         "deck": "Neuroscience of Emotion — Where Feeling Lives in the Body"
       }
     },
@@ -1441,7 +1441,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
         "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "ecstasy",
+        "source_node_id": "ecstasy",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1476,7 +1476,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
         "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "joy",
+        "source_node_id": "joy",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1506,7 +1506,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Sh%C5%8Dj%C5%8D_(Noh_mask),_Tokyo_National_Museum_C-1535.jpg",
         "image_credit": "Shōjō (a spirit associated with sake and revelry) Noh mask — Tokyo National Museum, via Wikimedia Commons, public domain. A named-mask tradition rather than a photographed face, used deliberately to break the \"one universal joy-face\" pattern.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "serenity",
+        "source_node_id": "serenity",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1540,7 +1540,7 @@
         "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
         "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "admiration",
+        "source_node_id": "admiration",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1575,7 +1575,7 @@
         "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
         "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "trust",
+        "source_node_id": "trust",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1605,7 +1605,7 @@
         "image_source": "https://asia-archive.si.edu/object/S2018.1.49/",
         "image_credit": "Gauri Ragini, folio from a Ragamala, Central India, 17th-18th century — Smithsonian's National Museum of Asian Art, CC0. A devotional/companionate mood painting, used for trust's family.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "acceptance",
+        "source_node_id": "acceptance",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1639,7 +1639,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
         "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "terror",
+        "source_node_id": "terror",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1674,7 +1674,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
         "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1704,7 +1704,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
         "image_credit": "“Terror”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material — see docs/SOURCES-AND-CAVEATS.md §2). Captioned here as historical argument for a universal fear-face, not as evidence the argument is correct.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "apprehension",
+        "source_node_id": "apprehension",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1738,7 +1738,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
         "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "amazement",
+        "source_node_id": "amazement",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1772,7 +1772,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
         "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "surprise",
+        "source_node_id": "surprise",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1801,7 +1801,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Surprise_and_distress_in_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049511.jpg",
         "image_credit": "“Surprise and distress”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "distraction",
+        "source_node_id": "distraction",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1835,7 +1835,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
         "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "grief",
+        "source_node_id": "grief",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1870,7 +1870,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
         "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "sadness",
+        "source_node_id": "sadness",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1900,7 +1900,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
         "image_credit": "“Grief”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "pensiveness",
+        "source_node_id": "pensiveness",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1934,7 +1934,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
         "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "loathing",
+        "source_node_id": "loathing",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1969,7 +1969,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
         "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "disgust",
+        "source_node_id": "disgust",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -1999,7 +1999,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Disdain_and_disgust_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049514.jpg",
         "image_credit": "“Disdain and disgust”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "boredom",
+        "source_node_id": "boredom",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2033,7 +2033,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
         "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "rage",
+        "source_node_id": "rage",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2068,7 +2068,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
         "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2098,7 +2098,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
         "image_credit": "“Snarling dog”, plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Darwin's cross-species illustration of the teeth-baring habit.",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "annoyance",
+        "source_node_id": "annoyance",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2130,7 +2130,7 @@
           "optimism"
         ],
         "source_deck": "plutchik-wheel",
-        "source_item_id": "vigilance",
+        "source_node_id": "vigilance",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2163,7 +2163,7 @@
           "optimism"
         ],
         "source_deck": "plutchik-wheel",
-        "source_item_id": "anticipation",
+        "source_node_id": "anticipation",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2191,7 +2191,7 @@
         "opposite_id": "distraction",
         "intense_id": "anticipation",
         "source_deck": "plutchik-wheel",
-        "source_item_id": "interest",
+        "source_node_id": "interest",
         "deck": "Plutchik's Wheel of Emotions"
       }
     },
@@ -2213,7 +2213,7 @@
       "metadata": {
         "emotion_key": "anger",
         "source_deck": "ekman-basic",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2235,7 +2235,7 @@
       "metadata": {
         "emotion_key": "disgust",
         "source_deck": "ekman-basic",
-        "source_item_id": "disgust",
+        "source_node_id": "disgust",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2257,7 +2257,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "ekman-basic",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2280,7 +2280,7 @@
       "metadata": {
         "emotion_key": "joy",
         "source_deck": "ekman-basic",
-        "source_item_id": "joy",
+        "source_node_id": "joy",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2302,7 +2302,7 @@
       "metadata": {
         "emotion_key": "sadness",
         "source_deck": "ekman-basic",
-        "source_item_id": "sadness",
+        "source_node_id": "sadness",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2324,7 +2324,7 @@
       "metadata": {
         "emotion_key": "surprise",
         "source_deck": "ekman-basic",
-        "source_item_id": "surprise",
+        "source_node_id": "surprise",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2347,7 +2347,7 @@
       "metadata": {
         "emotion_key": "contempt",
         "source_deck": "ekman-basic",
-        "source_item_id": "contempt",
+        "source_node_id": "contempt",
         "deck": "Basic-Emotion / Affect-Programme Theory"
       }
     },
@@ -2369,7 +2369,7 @@
       "metadata": {
         "emotion_key": "frustration",
         "source_deck": "nvc-needs",
-        "source_item_id": "frustration",
+        "source_node_id": "frustration",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2392,7 +2392,7 @@
       "metadata": {
         "emotion_key": "loneliness",
         "source_deck": "nvc-needs",
-        "source_item_id": "loneliness",
+        "source_node_id": "loneliness",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2415,7 +2415,7 @@
       "metadata": {
         "emotion_key": "anxious",
         "source_deck": "nvc-needs",
-        "source_item_id": "anxious",
+        "source_node_id": "anxious",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2436,7 +2436,7 @@
       "metadata": {
         "emotion_key": "relief",
         "source_deck": "nvc-needs",
-        "source_item_id": "relief",
+        "source_node_id": "relief",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2457,7 +2457,7 @@
       "metadata": {
         "emotion_key": "joy",
         "source_deck": "nvc-needs",
-        "source_item_id": "joyful",
+        "source_node_id": "joyful",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2480,7 +2480,7 @@
       "metadata": {
         "emotion_key": "affectionate",
         "source_deck": "nvc-needs",
-        "source_item_id": "affectionate",
+        "source_node_id": "affectionate",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2510,7 +2510,7 @@
       "metadata": {
         "emotion_key": "engaged",
         "source_deck": "nvc-needs",
-        "source_item_id": "engaged",
+        "source_node_id": "engaged",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2540,7 +2540,7 @@
       "metadata": {
         "emotion_key": "excited",
         "source_deck": "nvc-needs",
-        "source_item_id": "excited",
+        "source_node_id": "excited",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2563,7 +2563,7 @@
       "metadata": {
         "emotion_key": "exhilarated",
         "source_deck": "nvc-needs",
-        "source_item_id": "exhilarated",
+        "source_node_id": "exhilarated",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2584,7 +2584,7 @@
       "metadata": {
         "emotion_key": "grateful",
         "source_deck": "nvc-needs",
-        "source_item_id": "grateful",
+        "source_node_id": "grateful",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2617,7 +2617,7 @@
       "metadata": {
         "emotion_key": "happy",
         "source_deck": "nvc-needs",
-        "source_item_id": "happy",
+        "source_node_id": "happy",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2641,7 +2641,7 @@
       "metadata": {
         "emotion_key": "hopeful",
         "source_deck": "nvc-needs",
-        "source_item_id": "hopeful",
+        "source_node_id": "hopeful",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2667,7 +2667,7 @@
       "metadata": {
         "emotion_key": "inspired",
         "source_deck": "nvc-needs",
-        "source_item_id": "inspired",
+        "source_node_id": "inspired",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2698,7 +2698,7 @@
       "metadata": {
         "emotion_key": "peaceful",
         "source_deck": "nvc-needs",
-        "source_item_id": "peaceful",
+        "source_node_id": "peaceful",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2721,7 +2721,7 @@
       "metadata": {
         "emotion_key": "refreshed",
         "source_deck": "nvc-needs",
-        "source_item_id": "refreshed",
+        "source_node_id": "refreshed",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2759,7 +2759,7 @@
       "metadata": {
         "emotion_key": "anger",
         "source_deck": "nvc-needs",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2787,7 +2787,7 @@
       "metadata": {
         "emotion_key": "aversion",
         "source_deck": "nvc-needs",
-        "source_item_id": "aversion",
+        "source_node_id": "aversion",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2816,7 +2816,7 @@
       "metadata": {
         "emotion_key": "confusion",
         "source_deck": "nvc-needs",
-        "source_item_id": "confusion",
+        "source_node_id": "confusion",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2842,7 +2842,7 @@
       "metadata": {
         "emotion_key": "disconnection",
         "source_deck": "nvc-needs",
-        "source_item_id": "disconnection",
+        "source_node_id": "disconnection",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2881,7 +2881,7 @@
       "metadata": {
         "emotion_key": "disquiet",
         "source_deck": "nvc-needs",
-        "source_item_id": "disquiet",
+        "source_node_id": "disquiet",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2904,7 +2904,7 @@
       "metadata": {
         "emotion_key": "embarrassment",
         "source_deck": "nvc-needs",
-        "source_item_id": "embarrassment",
+        "source_node_id": "embarrassment",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2932,7 +2932,7 @@
       "metadata": {
         "emotion_key": "fatigue",
         "source_deck": "nvc-needs",
-        "source_item_id": "fatigue",
+        "source_node_id": "fatigue",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2968,7 +2968,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "nvc-needs",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -2997,7 +2997,7 @@
       "metadata": {
         "emotion_key": "pain",
         "source_deck": "nvc-needs",
-        "source_item_id": "pain",
+        "source_node_id": "pain",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3029,7 +3029,7 @@
       "metadata": {
         "emotion_key": "sadness",
         "source_deck": "nvc-needs",
-        "source_item_id": "sadness",
+        "source_node_id": "sadness",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3058,7 +3058,7 @@
       "metadata": {
         "emotion_key": "tension",
         "source_deck": "nvc-needs",
-        "source_item_id": "tension",
+        "source_node_id": "tension",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3078,7 +3078,7 @@
       "metadata": {
         "emotion_key": "yearning",
         "source_deck": "nvc-needs",
-        "source_item_id": "yearning",
+        "source_node_id": "yearning",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3101,7 +3101,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "autonomy",
+        "source_node_id": "autonomy",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3155,7 +3155,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "connection",
+        "source_node_id": "connection",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3196,7 +3196,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "meaning",
+        "source_node_id": "meaning",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3224,7 +3224,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "peace",
+        "source_node_id": "peace",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3252,7 +3252,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "physical-well-being",
+        "source_node_id": "physical-well-being",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3275,7 +3275,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "nvc-needs",
-        "source_item_id": "play",
+        "source_node_id": "play",
         "deck": "Nonviolent Communication — Feelings and Needs"
       }
     },
@@ -3297,7 +3297,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "attachment-behavioural-system",
+        "source_node_id": "attachment-behavioural-system",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3318,7 +3318,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "the-strange-situation",
+        "source_node_id": "the-strange-situation",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3339,7 +3339,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "secure-attachment",
+        "source_node_id": "secure-attachment",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3361,7 +3361,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "anxious-attachment",
+        "source_node_id": "anxious-attachment",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3382,7 +3382,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "avoidant-attachment",
+        "source_node_id": "avoidant-attachment",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3403,7 +3403,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "disorganised-attachment",
+        "source_node_id": "disorganised-attachment",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3424,7 +3424,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "attachment-theory",
-        "source_item_id": "internal-working-models",
+        "source_node_id": "internal-working-models",
         "deck": "Bowlby and Ainsworth — Attachment Theory"
       }
     },
@@ -3446,7 +3446,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "pursue-withdraw-cycle",
+        "source_node_id": "pursue-withdraw-cycle",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3467,7 +3467,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "primary-and-secondary-emotion",
+        "source_node_id": "primary-and-secondary-emotion",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3488,7 +3488,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "attachment-injury",
+        "source_node_id": "attachment-injury",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3509,7 +3509,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "the-eft-tango",
+        "source_node_id": "the-eft-tango",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3530,7 +3530,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "de-escalation",
+        "source_node_id": "de-escalation",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3551,7 +3551,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "softening",
+        "source_node_id": "softening",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3572,7 +3572,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "eft-bonds",
-        "source_item_id": "bonding-event",
+        "source_node_id": "bonding-event",
         "deck": "Emotionally Focused Therapy — Attachment Bonds Between Partners"
       }
     },
@@ -3595,7 +3595,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "four-horsemen",
+        "source_node_id": "four-horsemen",
         "deck": "The Gottman Method"
       }
     },
@@ -3617,7 +3617,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "bids-for-connection",
+        "source_node_id": "bids-for-connection",
         "deck": "The Gottman Method"
       }
     },
@@ -3639,7 +3639,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "positive-sentiment-override",
+        "source_node_id": "positive-sentiment-override",
         "deck": "The Gottman Method"
       }
     },
@@ -3661,7 +3661,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "perpetual-problems-and-dreams",
+        "source_node_id": "perpetual-problems-and-dreams",
         "deck": "The Gottman Method"
       }
     },
@@ -3684,7 +3684,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "flooding-and-self-soothing",
+        "source_node_id": "flooding-and-self-soothing",
         "deck": "The Gottman Method"
       }
     },
@@ -3706,7 +3706,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "accepting-influence",
+        "source_node_id": "accepting-influence",
         "deck": "The Gottman Method"
       }
     },
@@ -3728,7 +3728,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "gottman-method",
-        "source_item_id": "repair-attempts",
+        "source_node_id": "repair-attempts",
         "deck": "The Gottman Method"
       }
     },
@@ -3750,7 +3750,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "wise-mind",
+        "source_node_id": "wise-mind",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3774,7 +3774,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "mindfulness-what-how-skills",
+        "source_node_id": "mindfulness-what-how-skills",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3796,7 +3796,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "radical-acceptance",
+        "source_node_id": "radical-acceptance",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3819,7 +3819,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "crisis-survival-skills",
+        "source_node_id": "crisis-survival-skills",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3841,7 +3841,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "check-the-facts",
+        "source_node_id": "check-the-facts",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3862,7 +3862,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "opposite-action",
+        "source_node_id": "opposite-action",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3884,7 +3884,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "please-and-building-mastery",
+        "source_node_id": "please-and-building-mastery",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3906,7 +3906,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "dear-man",
+        "source_node_id": "dear-man",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3929,7 +3929,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "dbt-skills",
-        "source_item_id": "give-fast-and-priorities",
+        "source_node_id": "give-fast-and-priorities",
         "deck": "Dialectical Behavior Therapy — Acceptance and Change Skills"
       }
     },
@@ -3952,7 +3952,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "what-insomnia-is",
+        "source_node_id": "what-insomnia-is",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -3975,7 +3975,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "two-processes",
+        "source_node_id": "two-processes",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -3997,7 +3997,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "stimulus-control",
+        "source_node_id": "stimulus-control",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4020,7 +4020,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "anchor-wake-time",
+        "source_node_id": "anchor-wake-time",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4045,7 +4045,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "sleep-window",
+        "source_node_id": "sleep-window",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4068,7 +4068,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "buffer-zone",
+        "source_node_id": "buffer-zone",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4090,7 +4090,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "constructive-worry",
+        "source_node_id": "constructive-worry",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4112,7 +4112,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "relaxation-body-scan",
+        "source_node_id": "relaxation-body-scan",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4136,7 +4136,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "sleep-thoughts",
+        "source_node_id": "sleep-thoughts",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4159,7 +4159,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "light-caffeine-alcohol",
+        "source_node_id": "light-caffeine-alcohol",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4183,7 +4183,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "three-am",
+        "source_node_id": "three-am",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4207,7 +4207,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "see-a-doctor",
+        "source_node_id": "see-a-doctor",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4229,7 +4229,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "evening-practice",
+        "source_node_id": "evening-practice",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4253,7 +4253,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "morning-diary",
+        "source_node_id": "morning-diary",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4278,7 +4278,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "sleep-gently",
-        "source_item_id": "weekly-review",
+        "source_node_id": "weekly-review",
         "deck": "Sleep, gently (CBT-I informed)"
       }
     },
@@ -4300,7 +4300,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "utilization",
+        "source_node_id": "utilization",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4322,7 +4322,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "the-everyday-trance",
+        "source_node_id": "the-everyday-trance",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4345,7 +4345,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "indirect-suggestion",
+        "source_node_id": "indirect-suggestion",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4367,7 +4367,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "the-unconscious-as-resource",
+        "source_node_id": "the-unconscious-as-resource",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4389,7 +4389,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "state-before-insight",
+        "source_node_id": "state-before-insight",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4412,7 +4412,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "strategic-family-therapy",
+        "source_node_id": "strategic-family-therapy",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4435,7 +4435,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "solution-focused-brief-therapy",
+        "source_node_id": "solution-focused-brief-therapy",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4458,7 +4458,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "nlp",
+        "source_node_id": "nlp",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4483,7 +4483,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "ericksonian-hypnosis",
-        "source_item_id": "human-needs-coaching",
+        "source_node_id": "human-needs-coaching",
         "deck": "Ericksonian Hypnotherapy — the Conversational Trance and Its Lineage"
       }
     },
@@ -4504,7 +4504,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "self",
+        "source_node_id": "self",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4525,7 +4525,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "manager",
+        "source_node_id": "manager",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4546,7 +4546,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "firefighter",
+        "source_node_id": "firefighter",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4567,7 +4567,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "exile",
+        "source_node_id": "exile",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4588,7 +4588,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "inner-critic",
+        "source_node_id": "inner-critic",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4609,7 +4609,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "blending",
+        "source_node_id": "blending",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4630,7 +4630,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "parts-work",
-        "source_item_id": "unburdening",
+        "source_node_id": "unburdening",
         "deck": "Parts Work — after Internal Family Systems"
       }
     },
@@ -4652,7 +4652,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-ego",
+        "source_node_id": "the-ego",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4674,7 +4674,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-persona",
+        "source_node_id": "the-persona",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4696,7 +4696,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-shadow",
+        "source_node_id": "the-shadow",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4718,7 +4718,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-anima",
+        "source_node_id": "the-anima",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4740,7 +4740,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-animus",
+        "source_node_id": "the-animus",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4762,7 +4762,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-self",
+        "source_node_id": "the-self",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4784,7 +4784,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-great-mother",
+        "source_node_id": "the-great-mother",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4806,7 +4806,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-wise-old-man",
+        "source_node_id": "the-wise-old-man",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4828,7 +4828,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-trickster",
+        "source_node_id": "the-trickster",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4850,7 +4850,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-hero",
+        "source_node_id": "the-hero",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4872,7 +4872,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-divine-child",
+        "source_node_id": "the-divine-child",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4894,7 +4894,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "jungian-archetypes",
-        "source_item_id": "the-magician",
+        "source_node_id": "the-magician",
         "deck": "Jungian Archetypes — The Collective Unconscious"
       }
     },
@@ -4922,7 +4922,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Sanguinisch,_RP-P-1991-71.jpg",
         "image_credit": "Sanguine temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "sanguine",
+        "source_node_id": "sanguine",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -4950,7 +4950,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Cholerisch,_RP-P-1991-73.jpg",
         "image_credit": "Choleric temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "choleric",
+        "source_node_id": "choleric",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -4978,7 +4978,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Melancholie,_RP-P-1991-74.jpg",
         "image_credit": "Melancholic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "melancholic",
+        "source_node_id": "melancholic",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5006,7 +5006,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Flegmatisch,_RP-P-1991-72.jpg",
         "image_credit": "Phlegmatic temperament, engraving by Hieronymus Lederer after Raphaël Sadeler I, after a design by Maerten de Vos, c. 1600-1615 — Rijksmuseum, Amsterdam, CC0 1.0 (Rijksmuseum open collection).",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "phlegmatic",
+        "source_node_id": "phlegmatic",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5031,7 +5031,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:The_Anatomy_of_Melancholy_by_Robert_Burton_frontispiece_1638_edition.jpg",
         "image_credit": "Engraved frontispiece to the 1638 (third) edition of The Anatomy of Melancholy, engraved by Christian Le Blon — Wikimedia Commons, public domain (17th-century engraving, no fresh-rights claim found on the file page).",
         "source_deck": "humoral-temperaments",
-        "source_item_id": "burton-anatomy-of-melancholy",
+        "source_node_id": "burton-anatomy-of-melancholy",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5055,7 +5055,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "humoral-temperaments",
-        "source_item_id": "galen-nine-temperaments",
+        "source_node_id": "galen-nine-temperaments",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5080,7 +5080,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "humoral-temperaments",
-        "source_item_id": "humoral-regimens",
+        "source_node_id": "humoral-regimens",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5104,7 +5104,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "humoral-temperaments",
-        "source_item_id": "bright-treatise-of-melancholie",
+        "source_node_id": "bright-treatise-of-melancholie",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5128,7 +5128,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "humoral-temperaments",
-        "source_item_id": "moral-treatment-turn",
+        "source_node_id": "moral-treatment-turn",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5153,7 +5153,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "humoral-temperaments",
-        "source_item_id": "eysenck-four-temperaments-echo",
+        "source_node_id": "eysenck-four-temperaments-echo",
         "deck": "The Four Humours — Galenic Temperament Theory"
       }
     },
@@ -5179,7 +5179,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_19_-_The_dark_sun.jpg",
         "image_credit": "\"The dark sun,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to the mid-1500s) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "nigredo",
+        "source_node_id": "nigredo",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5205,7 +5205,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_17_-_Mercure_-_The_White_Queen.jpg",
         "image_credit": "\"Mercure — The White Queen,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to 1535) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "albedo",
+        "source_node_id": "albedo",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5228,7 +5228,7 @@
       "metadata": {
         "emotion_key": "citrinitas",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "citrinitas",
+        "source_node_id": "citrinitas",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5254,7 +5254,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Splendor_Solis._Image_18_-_Moon_-_The_Red_King.jpg",
         "image_credit": "\"Moon — The Red King,\" plate from a 16th-century Splendor Solis manuscript (anonymous, dated on the file page to 1535) — Wikimedia Commons, public domain (published before 1931; life+70 tag; no fresh institutional rights claim found on the file page).",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "rubedo",
+        "source_node_id": "rubedo",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5278,7 +5278,7 @@
       "metadata": {
         "emotion_key": "saturnine",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "saturnine",
+        "source_node_id": "saturnine",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus",
         "image_source": "https://commons.wikimedia.org/wiki/File:Hausbuch_Wolfegg_11r_Saturn.jpg",
         "image_credit": "\"Saturn and his children\" (Saturn und seine Kinder), folio 11r of the Wolfegg Housebook, Master of the Housebook, after 1480 — Wikimedia Commons, public domain (PD-old, life+70)."
@@ -5306,7 +5306,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Robert_Fludd,_Integra_naturae_speculum_artisque_imago.jpg",
         "image_credit": "Integrae naturae speculum artisque imago, Robert Fludd, from Utriusque Cosmi Historia, 1617-1619 — Wellcome Collection, via Wikimedia Commons, CC BY 4.0. Same image and credit already used as this site's own homepage hero (see index.html and docs/SOURCES-AND-CAVEATS.md §2).",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "correspondentia",
+        "source_node_id": "correspondentia",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5330,7 +5330,7 @@
       "metadata": {
         "emotion_key": "jovial",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "jovial",
+        "source_node_id": "jovial",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5354,7 +5354,7 @@
       "metadata": {
         "emotion_key": "martial",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "martial",
+        "source_node_id": "martial",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5377,7 +5377,7 @@
       "metadata": {
         "emotion_key": "venereal",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "venereal",
+        "source_node_id": "venereal",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5400,7 +5400,7 @@
       "metadata": {
         "emotion_key": "mercurial",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "mercurial",
+        "source_node_id": "mercurial",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5424,7 +5424,7 @@
       "metadata": {
         "emotion_key": "lunar",
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "lunar",
+        "source_node_id": "lunar",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5449,7 +5449,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "alchemical-correspondences",
-        "source_item_id": "tria-prima",
+        "source_node_id": "tria-prima",
         "deck": "Alchemical Correspondences — Fludd, Paracelsus, and the Opus"
       }
     },
@@ -5472,7 +5472,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "thought-forms",
-        "source_item_id": "astral-body-besant-leadbeater",
+        "source_node_id": "astral-body-besant-leadbeater",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5496,7 +5496,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "thought-forms",
-        "source_item_id": "astral-body-steiner",
+        "source_node_id": "astral-body-steiner",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5521,7 +5521,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Colorchart.jpg",
         "image_credit": "\"The Meaning of Colours,\" frontispiece key from Thought-Forms (1901) — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired (published before 1931; no fresh institutional rights claim on the file page).",
         "source_deck": "thought-forms",
-        "source_item_id": "colour-key",
+        "source_node_id": "colour-key",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5548,7 +5548,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Form13.jpg",
         "image_credit": "\"Grasping Animal Affection,\" Fig. 13 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
         "source_deck": "thought-forms",
-        "source_item_id": "affection",
+        "source_node_id": "affection",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5575,7 +5575,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Form16.jpg",
         "image_credit": "\"Self-Renunciation,\" Fig. 16 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
         "source_deck": "thought-forms",
-        "source_item_id": "devotion",
+        "source_node_id": "devotion",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5598,7 +5598,7 @@
       "metadata": {
         "emotion_key": "anger",
         "source_deck": "thought-forms",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
         "image_source": "https://commons.wikimedia.org/wiki/File:Forms22-23.jpg",
         "image_credit": "\"Murderous Rage\" and \"Sustained Anger,\" Figs. 22–23 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired."
@@ -5623,7 +5623,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "thought-forms",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura",
         "image_source": "https://commons.wikimedia.org/wiki/File:Sudden_Fright.jpg",
         "image_credit": "\"Sudden Fright,\" Fig. 27 from Thought-Forms (1901), Besant & Leadbeater — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD Old."
@@ -5649,7 +5649,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Form25.jpg",
         "image_credit": "\"Watchful Jealousy,\" Fig. 25 from Thought-Forms (1901), Besant & Leadbeater, identified via the book's own figure-numbering sequence — Wikimedia Commons via Project Gutenberg eText 16269, Public Domain Mark 1.0 / PD-old-70-expired.",
         "source_deck": "thought-forms",
-        "source_item_id": "jealousy",
+        "source_node_id": "jealousy",
         "deck": "Thought-Forms — Besant, Leadbeater, and the Coloured Aura"
       }
     },
@@ -5673,7 +5673,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Grief,_from_Darwin%27s_Expressions_of_Emotions_in_Man....._Wellcome_L0049517.jpg",
         "image_credit": "\"Grief\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over 1872 PD material, see this deck's image_credit).",
         "source_deck": "darwin-expression",
-        "source_item_id": "grief",
+        "source_node_id": "grief",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5697,7 +5697,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Terror,_from_Darwin%27s_Expression_of_Emotions_in_Man...._Wellcome_L0049512.jpg",
         "image_credit": "\"Terror\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "darwin-expression",
-        "source_item_id": "fear",
+        "source_node_id": "fear",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5721,7 +5721,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Snarling_dog_from_Darwin%27s_Expression_of_Emotions...._Wellcome_L0049522.jpg",
         "image_credit": "\"Snarling dog\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). Used for anger as Darwin's own cross-species illustration of the teeth-baring habit this item's text describes.",
         "source_deck": "darwin-expression",
-        "source_item_id": "anger",
+        "source_node_id": "anger",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5745,7 +5745,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Smiling_girl_and_man_from_Darwin%27s_Expression_of_Emotions..._Wellcome_L0049516.jpg",
         "image_credit": "\"Smiling girl and man\", plate from Darwin's Expression of the Emotions in Man and Animals (1872) — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "darwin-expression",
-        "source_item_id": "joy",
+        "source_node_id": "joy",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5767,7 +5767,7 @@
       "metadata": {
         "emotion_key": "shame",
         "source_deck": "darwin-expression",
-        "source_item_id": "shame",
+        "source_node_id": "shame",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5790,7 +5790,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "darwin-expression",
-        "source_item_id": "infant-expression",
+        "source_node_id": "infant-expression",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5813,7 +5813,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "darwin-expression",
-        "source_item_id": "expression-of-the-insane",
+        "source_node_id": "expression-of-the-insane",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5838,7 +5838,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "darwin-expression",
-        "source_item_id": "animal-expression-dogs-cats-apes",
+        "source_node_id": "animal-expression-dogs-cats-apes",
         "deck": "Darwin — The Expression of the Emotions"
       }
     },
@@ -5865,7 +5865,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Henry_Purcell_-_Dido_and_Aeneas._(BL_Add_MS_15979_f._4v).jpg",
         "image_credit": "Leaf from an 18th-century manuscript copy of Purcell's Dido and Aeneas (British Library, Add MS 15979, f. 4v) — Wikimedia Commons, public domain (PD-old / Public Domain Mark 1.0). This is a general leaf from the opera's manuscript tradition, not the lament page itself, used here as period documentation of the work that contains Dido's Lament.",
         "source_deck": "affektenlehre",
-        "source_item_id": "lamento",
+        "source_node_id": "lamento",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -5889,7 +5889,7 @@
       "metadata": {
         "emotion_key": "allegrezza",
         "source_deck": "affektenlehre",
-        "source_item_id": "allegrezza",
+        "source_node_id": "allegrezza",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -5915,7 +5915,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Monteverdi_-_Madrigali_guerrieri_et_amorosi.jpg",
         "image_credit": "Title page, Claudio Monteverdi, Madrigali guerrieri, et amorosi (Book Eight), Venice, 1638 — the volume containing both Il Combattimento di Tancredi e Clorinda and the preface announcing the genere concitato. Wikimedia Commons, public domain (PD-old and Public Domain Mark 1.0; Monteverdi died 1643).",
         "source_deck": "affektenlehre",
-        "source_item_id": "concitato",
+        "source_node_id": "concitato",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -5939,7 +5939,7 @@
       "metadata": {
         "emotion_key": "melancholy",
         "source_deck": "affektenlehre",
-        "source_item_id": "melancholy",
+        "source_node_id": "melancholy",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -5963,7 +5963,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Johann_mattheson.jpg",
         "image_credit": "Portrait of Johann Mattheson, engraving by Johann Jakob Haid (1704-1767) after a painting by Johann Salomon Wahl, 1746 — Bibliothèque nationale de France (Gallica), via Wikimedia Commons, public domain (PD-old). A period portrait of the theorist, not an illustration of the treatise itself.",
         "source_deck": "affektenlehre",
-        "source_item_id": "mattheson-key-characteristics",
+        "source_node_id": "mattheson-key-characteristics",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -5986,7 +5986,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "affektenlehre",
-        "source_item_id": "musica-poetica-figures",
+        "source_node_id": "musica-poetica-figures",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -6010,7 +6010,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "affektenlehre",
-        "source_item_id": "mattheson-further-key-examples",
+        "source_node_id": "mattheson-further-key-examples",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -6034,7 +6034,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "affektenlehre",
-        "source_item_id": "musica-poetica-further-figures",
+        "source_node_id": "musica-poetica-further-figures",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -6060,7 +6060,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "affektenlehre",
-        "source_item_id": "affektenlehre-decline-and-replacement",
+        "source_node_id": "affektenlehre-decline-and-replacement",
         "deck": "Affektenlehre — the Baroque Doctrine of the Affections"
       }
     },
@@ -6087,7 +6087,7 @@
       "image_url": "https://ids.si.edu/ids/deliveryService?id=FS-F2003.2_001&max=1200",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "abhinaya-four-modes",
+        "source_node_id": "abhinaya-four-modes",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
         "image_source": "https://asia-archive.si.edu/object/F2003.2/",
         "image_credit": "Shiva Nataraja, Chola dynasty, ca. 990, Tamil Nadu, bronze — Smithsonian's National Museum of Asian Art (Freer Gallery, F2003.2), CC0. Not a literal Natyashastra-era illustration of abhinaya; used because Nataraja's own iconography (his lower right hand shows the abhaya, \"fear not,\" mudra) is the canonical Indian icon of gesture doing conventionalized expressive work, in the same register as this school's other codification systems."
@@ -6116,7 +6116,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Ko-omote_%28Noh_mask%29%2C_Tokyo_National_Museum_C-1551.jpg",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "noh-kata-and-masks",
+        "source_node_id": "noh-kata-and-masks",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
         "additional_image_urls": [
           {
@@ -6154,7 +6154,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Terrour_or_Fright_%28from_Heads_Representing_the_Various_Passions_of_the_Soul%3B_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun%29_MET_DP854027.jpg",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "le-brun-conference-expression",
+        "source_node_id": "le-brun-conference-expression",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
         "image_source": "https://commons.wikimedia.org/wiki/File:Terrour_or_Fright_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854027.jpg",
         "image_credit": "\"Terrour or Fright,\" plate 18 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). The same print series already illustrates several items in schools/descartes-passions; this plate depicts a passion outside Descartes's own six primitives, chosen to show the wider range of Le Brun's own catalogue."
@@ -6179,7 +6179,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Fran%C3%A7ois_Delsarte_1864.jpg",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "delsarte-system",
+        "source_node_id": "delsarte-system",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion",
         "image_source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Delsarte_1864.jpg",
         "image_credit": "Portrait of François Delsarte, photograph by Étienne Carjat, 1864 — Bibliothèque nationale de France, via Wikimedia Commons, public domain (PD-old / CC-PD-Mark)."
@@ -6203,7 +6203,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Konstantin_Stanislavskiy_1912.jpg",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "stanislavski-system",
+        "source_node_id": "stanislavski-system",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
       }
     },
@@ -6226,7 +6226,7 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Lee_Strasberg-1976.jpg",
       "metadata": {
         "source_deck": "acting-traditions",
-        "source_item_id": "strasberg-method",
+        "source_node_id": "strasberg-method",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
       }
     },
@@ -6254,7 +6254,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:%E7%84%A1%E6%AC%BE_%E6%B8%85%E6%9C%AB_%E4%BA%AC%E5%8A%87%E4%B8%80%E7%99%BE%E4%BA%BA%E7%89%A9%E5%83%8F_%E5%86%8A_%E7%B5%B9%E6%9C%AC-One_hundred_portraits_of_Peking_opera_characters_MET_DP280075.jpg",
         "image_credit": "One leaf from One Hundred Portraits of Peking Opera Characters, unidentified artist, China, late Qing dynasty, ca. 1900, ink/color/gold on silk — The Metropolitan Museum of Art (accession 30.76.299, one of fifty leaves), CC0 (Open Access). The Commons file record does not identify which of the album's hundred characters or which role type this specific leaf depicts, so it is captioned here as a general representative leaf from the album rather than as a confirmed example of any one role type.",
         "source_deck": "acting-traditions",
-        "source_item_id": "jingju-role-types",
+        "source_node_id": "jingju-role-types",
         "deck": "Acting Traditions — How Performers Are Taught to Show Emotion"
       }
     },
@@ -6281,7 +6281,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Pataka-Hasta.jpg",
         "image_credit": "Pataka Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "pataka",
+        "source_node_id": "pataka",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6307,7 +6307,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Tripataka-Hasta.jpg",
         "image_credit": "Tripataka Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "tripataka",
+        "source_node_id": "tripataka",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6334,7 +6334,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Ardhachandra-Hasta.jpg",
         "image_credit": "Ardhachandra Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "ardhachandra",
+        "source_node_id": "ardhachandra",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6361,7 +6361,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Shikara-Hasta.jpg",
         "image_credit": "Shikara Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "shikhara",
+        "source_node_id": "shikhara",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6387,7 +6387,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Katarimukha-Hasta.jpg",
         "image_credit": "Kartarimukha Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0. The Commons filename spells the hasta \"Katarimukha\"; this item uses the standard transliteration kartarīmukha in its name and prose.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "kartarimukha",
+        "source_node_id": "kartarimukha",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6413,7 +6413,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Katakamukha-Hasta.jpg",
         "image_credit": "Katakamukha Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "katakamukha",
+        "source_node_id": "katakamukha",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6437,7 +6437,7 @@
       "metadata": {
         "emotion_key": "alapadma",
         "source_deck": "hasta-mudra",
-        "source_item_id": "alapadma",
+        "source_node_id": "alapadma",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance",
         "image_source": "https://commons.wikimedia.org/wiki/File:Alapadma-Hasta.jpg",
         "image_credit": "Alapadma Hasta, demonstrated — photograph by Arpitha Hegde (Wikimedia Commons: Arpitha05), 30 December 2019, CC BY-SA 4.0."
@@ -6466,7 +6466,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Bhupatindra_Malla_in_Anjali_mudra_2.jpg",
         "image_credit": "Statue of King Bhupatindra Malla in añjali/namaskāra pose atop a stone pillar, Bhaktapur Durbar Square, Nepal — bronze, Malla period (statue erected 1699, per local tradition); photograph by Wikimedia Commons user Nyeta, 14 February 2022, CC BY-SA 4.0. A Newar royal-devotional statue, not a South Indian dance sculpture, chosen because it is confidently identified by the uploader as añjali and no dance-specific image of the gesture with a clear, checkable licence was found in the time available.",
         "source_deck": "hasta-mudra",
-        "source_item_id": "anjali",
+        "source_node_id": "anjali",
         "deck": "Hasta Mudrā — The Hand-Gesture Vocabulary of Classical Indian Dance"
       }
     },
@@ -6490,7 +6490,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/247964",
         "image_credit": "Terracotta volute-krater with battle scene (Amazonomachy), Greek, Attic, ca. 450 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-orge",
+        "source_node_id": "aristotle-orge",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6514,7 +6514,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/248483",
         "image_credit": "Marble grave stele with a family group, Greek, Attic, ca. 360 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-eleos",
+        "source_node_id": "aristotle-eleos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6536,7 +6536,7 @@
       "metadata": {
         "emotion_key": "calm",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-praotes",
+        "source_node_id": "aristotle-praotes",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6559,7 +6559,7 @@
       "metadata": {
         "emotion_key": "friendship",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-philia",
+        "source_node_id": "aristotle-philia",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6581,7 +6581,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-phobos",
+        "source_node_id": "aristotle-phobos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6603,7 +6603,7 @@
       "metadata": {
         "emotion_key": "confidence",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-tharsos",
+        "source_node_id": "aristotle-tharsos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6625,7 +6625,7 @@
       "metadata": {
         "emotion_key": "shame",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-aischyne",
+        "source_node_id": "aristotle-aischyne",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6648,7 +6648,7 @@
       "metadata": {
         "emotion_key": "kindness",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-charis",
+        "source_node_id": "aristotle-charis",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6671,7 +6671,7 @@
       "metadata": {
         "emotion_key": "indignation",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-nemesis",
+        "source_node_id": "aristotle-nemesis",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6693,7 +6693,7 @@
       "metadata": {
         "emotion_key": "envy",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-phthonos",
+        "source_node_id": "aristotle-phthonos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6715,7 +6715,7 @@
       "metadata": {
         "emotion_key": "emulation",
         "source_deck": "greek-pathe",
-        "source_item_id": "aristotle-zelos",
+        "source_node_id": "aristotle-zelos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6739,7 +6739,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/255949",
         "image_credit": "Terracotta lekythos (oil flask), tomb scene, Greek, Attic, ca. 440 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). White-ground lekythoi of this type were funerary offerings, commonly painted with mourning-at-the-tomb scenes.",
         "source_deck": "greek-pathe",
-        "source_item_id": "stoic-lype",
+        "source_node_id": "stoic-lype",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6763,7 +6763,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/247488",
         "image_credit": "Terracotta lekythos (oil flask) depicting Perseus, Medusa, and Pegasus, Greek, Attic, ca. 500 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access). The Gorgon's head is the standard Greek apotropaic image of terror.",
         "source_deck": "greek-pathe",
-        "source_item_id": "stoic-phobos",
+        "source_node_id": "stoic-phobos",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6787,7 +6787,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/247472",
         "image_credit": "Terracotta statuette of Eros, Greek, probably Attic, first half of the 4th century BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
-        "source_item_id": "stoic-epithymia",
+        "source_node_id": "stoic-epithymia",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6811,7 +6811,7 @@
         "image_source": "https://www.metmuseum.org/art/collection/search/246647",
         "image_credit": "Terracotta kylix (drinking cup), men drinking (symposium scene), Greek, Attic, ca. 480-470 BCE — The Metropolitan Museum of Art, public domain / CC0 (Open Access).",
         "source_deck": "greek-pathe",
-        "source_item_id": "stoic-hedone",
+        "source_node_id": "stoic-hedone",
         "deck": "Greek Pathē — Rhetoric and Stoic Ethics"
       }
     },
@@ -6834,7 +6834,7 @@
       "metadata": {
         "emotion_key": "wonder",
         "source_deck": "descartes-passions",
-        "source_item_id": "wonder",
+        "source_node_id": "wonder",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6856,7 +6856,7 @@
       "metadata": {
         "emotion_key": "love",
         "source_deck": "descartes-passions",
-        "source_item_id": "love",
+        "source_node_id": "love",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6880,7 +6880,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Hatred_or_Jealousy_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854028.jpg",
         "image_credit": "\"Hatred or Jealousy\", plate 20 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
-        "source_item_id": "hatred",
+        "source_node_id": "hatred",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6904,7 +6904,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Desire_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854025.jpg",
         "image_credit": "\"Desire\", plate 8 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
-        "source_item_id": "desire",
+        "source_node_id": "desire",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6928,7 +6928,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Laughter_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854026.jpg",
         "image_credit": "\"Laughter\", plate 10 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access). Used for joy (Le Brun's plate is titled by its outward expression, laughter, rather than by Descartes's own term).",
         "source_deck": "descartes-passions",
-        "source_item_id": "joy",
+        "source_node_id": "joy",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6952,7 +6952,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Sadness_(from_Heads_Representing_the_Various_Passions_of_the_Soul;_as_they_are_Expressed_in_the_Human_Countenance-_Drawn_by_that_Great_Master_Monsieur_Le_Brun)_MET_DP854030.jpg",
         "image_credit": "\"Sadness\", plate 13 from Heads Representing the Various Passions of the Soul (after Charles Le Brun), British print, 1765 — The Metropolitan Museum of Art, CC0 (Open Access).",
         "source_deck": "descartes-passions",
-        "source_item_id": "sadness",
+        "source_node_id": "sadness",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -6976,7 +6976,7 @@
       "metadata": {
         "emotion_key": "esteem",
         "source_deck": "descartes-passions",
-        "source_item_id": "estime",
+        "source_node_id": "estime",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7000,7 +7000,7 @@
       "metadata": {
         "emotion_key": "contempt",
         "source_deck": "descartes-passions",
-        "source_item_id": "mepris",
+        "source_node_id": "mepris",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7024,7 +7024,7 @@
       "metadata": {
         "emotion_key": "hope",
         "source_deck": "descartes-passions",
-        "source_item_id": "esperance",
+        "source_node_id": "esperance",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7048,7 +7048,7 @@
       "metadata": {
         "emotion_key": "fear",
         "source_deck": "descartes-passions",
-        "source_item_id": "crainte",
+        "source_node_id": "crainte",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7072,7 +7072,7 @@
       "metadata": {
         "emotion_key": "jealousy",
         "source_deck": "descartes-passions",
-        "source_item_id": "jalousie",
+        "source_node_id": "jalousie",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7096,7 +7096,7 @@
       "metadata": {
         "emotion_key": "remords",
         "source_deck": "descartes-passions",
-        "source_item_id": "remords",
+        "source_node_id": "remords",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7121,7 +7121,7 @@
       "image_url": "",
       "metadata": {
         "source_deck": "descartes-passions",
-        "source_item_id": "pineal-gland-mechanism",
+        "source_node_id": "pineal-gland-mechanism",
         "deck": "Descartes's Six Primitive Passions"
       }
     },
@@ -7145,7 +7145,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Guillaume_de_Lorris_-_Franciscan_and_Fat_Dominican_Before_God_of_Love_-_Walters_W14372V_-_Open_Reverse.jpg",
         "image_credit": "Leaf from a Roman de la Rose manuscript (Guillaume de Lorris's God of Love allegory), mid-14th century — The Walters Art Museum, via Wikimedia Commons, public domain. Roughly a lifetime after Aquinas (d. 1274); used as the closest available Gothic manuscript treatment of amor, not as an illustration of the Summa itself.",
         "source_deck": "aquinas-passions",
-        "source_item_id": "amor",
+        "source_node_id": "amor",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7167,7 +7167,7 @@
       "metadata": {
         "emotion_key": "sorrow",
         "source_deck": "aquinas-passions",
-        "source_item_id": "tristitia",
+        "source_node_id": "tristitia",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7190,7 +7190,7 @@
       "metadata": {
         "emotion_key": "spes",
         "source_deck": "aquinas-passions",
-        "source_item_id": "spes",
+        "source_node_id": "spes",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7215,7 +7215,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Last_Judgment_(Matthew_25_-31-46)_-_Walters_W10623R_-_Full_Page.jpg",
         "image_credit": "The Last Judgment, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. A generation before Aquinas, same broad Latin Christendom manuscript tradition.",
         "source_deck": "aquinas-passions",
-        "source_item_id": "timor",
+        "source_node_id": "timor",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7240,7 +7240,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:William_de_Brailes_-_The_Fall_of_the_Rebel_Angels_(Apocryphal)_-_Walters_W10624R_-_Full_Page.jpg",
         "image_credit": "The Fall of the Rebel Angels, leaf from Bible Pictures by William de Brailes, Oxford, c. 1250 — The Walters Art Museum, via Wikimedia Commons, public domain. Used for ira as the closest available period image of righteous wrath and violent retribution; not a literal illustration of Aquinas's ira.",
         "source_deck": "aquinas-passions",
-        "source_item_id": "ira",
+        "source_node_id": "ira",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7262,7 +7262,7 @@
       "metadata": {
         "emotion_key": "hatred",
         "source_deck": "aquinas-passions",
-        "source_item_id": "odium",
+        "source_node_id": "odium",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7284,7 +7284,7 @@
       "metadata": {
         "emotion_key": "desire",
         "source_deck": "aquinas-passions",
-        "source_item_id": "desiderium",
+        "source_node_id": "desiderium",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7306,7 +7306,7 @@
       "metadata": {
         "emotion_key": "aversion",
         "source_deck": "aquinas-passions",
-        "source_item_id": "fuga",
+        "source_node_id": "fuga",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7329,7 +7329,7 @@
       "metadata": {
         "emotion_key": "joy",
         "source_deck": "aquinas-passions",
-        "source_item_id": "gaudium",
+        "source_node_id": "gaudium",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7352,7 +7352,7 @@
       "metadata": {
         "emotion_key": "desperatio",
         "source_deck": "aquinas-passions",
-        "source_item_id": "desperatio",
+        "source_node_id": "desperatio",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7376,7 +7376,7 @@
       "metadata": {
         "emotion_key": "audacia",
         "source_deck": "aquinas-passions",
-        "source_item_id": "audacia",
+        "source_node_id": "audacia",
         "deck": "Aquinas's Eleven Passions"
       }
     },
@@ -7401,7 +7401,7 @@
         "image_source": "https://asia-archive.si.edu/object/F1930.81/",
         "image_credit": "Bangal Ragini, from a Ragamala series, c. 1650, Malwa (Central Indian School) — Smithsonian's National Museum of Asian Art, CC0. Ragamala paintings of this raga are typically about longing for an absent lover, fitting śṛṅgāra's vipralambha (love-in-separation) register.",
         "source_deck": "rasa",
-        "source_item_id": "shringara",
+        "source_node_id": "shringara",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7424,7 +7424,7 @@
       "metadata": {
         "emotion_key": "hasya",
         "source_deck": "rasa",
-        "source_item_id": "hasya",
+        "source_node_id": "hasya",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7447,7 +7447,7 @@
       "metadata": {
         "emotion_key": "karuna",
         "source_deck": "rasa",
-        "source_item_id": "karuna",
+        "source_node_id": "karuna",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7470,7 +7470,7 @@
       "metadata": {
         "emotion_key": "raudra",
         "source_deck": "rasa",
-        "source_item_id": "raudra",
+        "source_node_id": "raudra",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7494,7 +7494,7 @@
       "metadata": {
         "emotion_key": "vira",
         "source_deck": "rasa",
-        "source_item_id": "vira",
+        "source_node_id": "vira",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7517,7 +7517,7 @@
       "metadata": {
         "emotion_key": "bhayanaka",
         "source_deck": "rasa",
-        "source_item_id": "bhayanaka",
+        "source_node_id": "bhayanaka",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7541,7 +7541,7 @@
       "metadata": {
         "emotion_key": "bibhatsa",
         "source_deck": "rasa",
-        "source_item_id": "bibhatsa",
+        "source_node_id": "bibhatsa",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7566,7 +7566,7 @@
       "metadata": {
         "emotion_key": "adbhuta",
         "source_deck": "rasa",
-        "source_item_id": "adbhuta",
+        "source_node_id": "adbhuta",
         "deck": "Rasa — Bharata's Aesthetics of Performance"
       }
     },
@@ -7589,7 +7589,7 @@
       "metadata": {
         "emotion_key": "shanta",
         "source_deck": "rasa",
-        "source_item_id": "shanta",
+        "source_node_id": "shanta",
         "deck": "Rasa — Bharata's Aesthetics of Performance",
         "image_source": "https://asia-archive.si.edu/object/S2018.1.2",
         "image_credit": "Vilaval Ragini, from a Ragamala, c. 1690-95, Basohli — Smithsonian's National Museum of Asian Art, CC0. Used here for śānta's tranquil register; a general mood painting, not a painting specifically keyed to śānta by the tradition itself."
@@ -7616,7 +7616,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
         "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection; fresh-rights claim over historical PD material, see this deck's image_credit).",
         "source_deck": "chinese-qing",
-        "source_item_id": "xi",
+        "source_node_id": "xi",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7641,7 +7641,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_liver_channel_of_foot_jueyin,_Chinese_Wellcome_L0037826.jpg",
         "image_credit": "Acupuncture chart, liver channel of foot jueyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
-        "source_item_id": "nu",
+        "source_node_id": "nu",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7667,7 +7667,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_spleen_channel_of_foot_taiyin,_Chinese_Wellcome_L0037814.jpg",
         "image_credit": "Acupuncture chart, spleen channel of foot taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
-        "source_item_id": "si",
+        "source_node_id": "si",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7693,7 +7693,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
         "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
-        "source_item_id": "bei",
+        "source_node_id": "bei",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7718,7 +7718,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_kidney_channel_of_foot_shaoyin,_Chinese_Wellcome_L0037822.jpg",
         "image_credit": "Acupuncture chart, kidney channel of foot shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection).",
         "source_deck": "chinese-qing",
-        "source_item_id": "kong",
+        "source_node_id": "kong",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7743,7 +7743,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_lung_channel_of_hand_taiyin,_Chinese_Wellcome_L0037808.jpg",
         "image_credit": "Acupuncture chart, lung channel of hand taiyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for bēi above; reused here because both terms are, in different classical sources, paired with the lung.",
         "source_deck": "chinese-qing",
-        "source_item_id": "you",
+        "source_node_id": "you",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     },
@@ -7770,7 +7770,7 @@
         "image_source": "https://commons.wikimedia.org/wiki/File:Acupuncture_chart,_heart_channel_of_hand_shaoyin,_Chinese_Wellcome_L0037816.jpg",
         "image_credit": "Acupuncture chart, heart channel of hand shaoyin, Chinese — Wellcome Collection, via Wikimedia Commons, CC BY 4.0 (attribution: Wellcome Collection). The same channel chart used for xǐ above; reused here because jīng's own classical description unsettles the heart before it settles into the kidney, unlike kǒng's kidney-only pairing.",
         "source_deck": "chinese-qing",
-        "source_item_id": "jing",
+        "source_node_id": "jing",
         "deck": "Qíng and the Seven Emotions — Classical Chinese Medicine"
       }
     }

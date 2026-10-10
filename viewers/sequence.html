@@ -126,7 +126,7 @@ let cardTimer=null, cardProgTimer=null, poll=null, autoplay=true;
 (async function(){
   try{
     G=await (await fetch(SRC)).json();
-    const raw=(G.items||[]).slice().sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
+    const raw=(G.nodes||[]).slice().sort((a,b)=>(a.sort_order||0)-(b.sort_order||0));
     items=raw.map(normalize).filter(x=>x.type==='card'||x.video_id);
     if(!items.length) throw new Error('No playable items in this sequence.');
     $('title').innerHTML=esc(G.name||'Sequence')+' <span class="sub">— a program in '+items.length+' parts</span>';

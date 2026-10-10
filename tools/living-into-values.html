@@ -118,8 +118,9 @@ const SUPPORT = [
 ];
 const KEY = 'living-into-values-v1';
 
-// State: entities = kept values + emergent groups. Same shape a grammar item
-// would take (composite_of = the emergence field), so Export is a grammar.
+// State: entities = kept values + emergent groups. Close to a grammar node; the
+// saved state (localStorage) keeps its composite_of field so visitors' groupings
+// survive, and Export writes it as a v2 node's parts.
 let S = { stage: 1, entities: [], support: {} };
 try { const raw = localStorage.getItem(KEY); if (raw) S = JSON.parse(raw); } catch (e) {}
 let picked = null; // stage-2 tap-tap selection
@@ -296,10 +297,10 @@ document.getElementById('exportBtn').addEventListener('click', () => {
     name: 'My values (Living Into Values)',
     grammar_type: 'custom',
     description: 'Personal values woven with the Living Into Values practice on repatterning.recursive.eco. Inspired by Brené Brown; questions paraphrased.',
-    items: S.entities.map((e, i) => ({
+    nodes: S.entities.map((e, i) => ({
       id: e.id, name: e.name, category: 'Values', sort_order: i,
       sections: Object.fromEntries(Object.entries(e.sections || {}).filter(([, v]) => v)),
-      ...(isGroup(e) ? { composite_of: e.composite_of } : {}),
+      ...(isGroup(e) ? { parts: e.composite_of } : {}),
     })),
     metadata: { support_answers: S.support },
   };

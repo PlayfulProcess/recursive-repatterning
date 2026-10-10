@@ -57,7 +57,7 @@
       }
     ]
   },
-  "items": [
+  "nodes": [
     {
       "id": "xi",
       "name": "Xǐ (喜) — Joy, Governed by the Heart",
@@ -188,9 +188,8 @@
       "id": "group-five-viscera-emotions",
       "name": "The Five-Viscera Emotion Correspondences",
       "category": "group",
-      "level": 2,
       "sort_order": 6,
-      "composite_of": ["xi", "nu", "si", "bei", "kong"],
+      "parts": ["xi", "nu", "si", "bei", "kong"],
       "sections": {
         "Definition": "The core classical pairing of five emotions to the five yin viscera: heart–joy, liver–anger, spleen–pensiveness, lung–grief, kidney–fear. This is the most stable and most frequently cited part of the qiqing framework, forming the backbone of emotion-as-pathogenic-factor theory in classical and later Chinese medicine."
       },
@@ -201,9 +200,8 @@
       "id": "group-additional-qing",
       "name": "Yōu and Jīng — Completing the Seven",
       "category": "group",
-      "level": 2,
       "sort_order": 10,
-      "composite_of": ["you", "jing"],
+      "parts": ["you", "jing"],
       "sections": {
         "Definition": "The two qīqíng terms that complete the classical seven-emotion list alongside the five-viscera correspondence: yōu (worry), the term the Suwen's own five-zhì table pairs with the lung ahead of bēi, and jīng (fright), the acute, heart-disturbing counterpart to kǒng's sustained, kidney-settling dread."
       },
@@ -214,9 +212,8 @@
       "id": "chinese-qing-root",
       "name": "Qíng and the Seven Emotions",
       "category": "root",
-      "level": 3,
       "sort_order": 7,
-      "composite_of": ["group-five-viscera-emotions", "group-additional-qing"],
+      "parts": ["group-five-viscera-emotions", "group-additional-qing"],
       "sections": {
         "Definition": "Classical Chinese medicine treats qíng (loosely, emotion, though the word's own range runs wider — disposition, circumstance, felt truth of a situation) as one of the recognized categories of pathogenic factor, alongside external climatic influences and internal factors like diet and overexertion. The qiqing (seven emotions — commonly joy, anger, worry, pensiveness, grief, fear, and fright) are held, in excess, duration, or suddenness beyond what a person can adapt to, to disturb the qì of a specific paired organ: heart–joy, liver–anger, spleen–pensiveness, lung–grief (or worry), kidney–fear.",
         "Qíng is wider than \"emotion\"": "This point is worth stating plainly rather than assuming it: qíng is not simply the Chinese word for the English concept \"emotion.\" Depending on context in classical and later Chinese usage, qíng can denote felt emotion, but also temperament, circumstance, or the genuine state of affairs (as in the compound qíngkuàng, situation). Treating qíng and \"emotion\" as interchangeable imports an English category boundary the source language does not draw the same way — which is exactly why this school keys its items to pinyin terms rather than to single English glosses.",

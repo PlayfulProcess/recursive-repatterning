@@ -167,7 +167,7 @@ function select(term){
   });
   const schoolChips=t.schools.map(s=>
     `<span class="chip" style="background:${colourOf[s]}22;color:${colourOf[s]}">${esc(s)}</span>`).join('');
-  const itemLinks=t.items.map(i=>{
+  const itemLinks=t.nodes.map(i=>{
     const [slug,id]=i.split('/');
     return `<a class="chip" href="cards.html?src=../schools/${encodeURIComponent(slug)}/grammar.json">${esc(slug)}</a>`;
   }).join('');

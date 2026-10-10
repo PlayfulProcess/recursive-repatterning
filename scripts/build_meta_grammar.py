@@ -17,11 +17,11 @@ the L1->L2->L3 tree, and it has a builder of its own — scripts/build_constella
 which derives it from _collection.json. Do not write it from here.
 
 Rules this honours (see CLAUDE.md):
-  - Cross-links use metadata.source_deck / source_item_id / deck. That is the
-    ONLY cross-grammar navigation mechanism in this chassis; item_type:
-    "reference" / ref_document_id is documented upstream but unused and
+  - Cross-links use metadata.source_deck / source_node_id / deck. That is the
+    ONLY cross-grammar navigation mechanism in this chassis; node_type:
+    "reference" / ref_grammar_id is documented upstream but unused and
     untested here.
-  - Composite items (anything carrying composite_of) are skipped. Those are
+  - Composite items (anything carrying parts) are skipped. Those are
     groupings, not drawable content — including them would let a cast return
     "Joy family" instead of an actual emotion.
   - metadata.emotion_key is carried through, so a cross-school cast can still
@@ -84,15 +84,15 @@ def build():
         label = g.get("name", slug)
         kept = 0
 
-        for item in g.get("items", []):
+        for item in g.get("nodes", []):
             # Composites are groupings, not drawable content.
-            if item.get("composite_of"):
+            if item.get("parts"):
                 continue
 
             meta = dict(item.get("metadata") or {})
             # The one permitted cross-link pattern.
             meta["source_deck"] = slug
-            meta["source_item_id"] = item.get("id", "")
+            meta["source_node_id"] = item.get("id", "")
             meta["deck"] = label
 
             items.append({
@@ -106,7 +106,7 @@ def build():
             })
             kept += 1
 
-        sources.append({"slug": slug, "name": label, "items": kept})
+        sources.append({"slug": slug, "name": label, "nodes": kept})
         print(f"  ok    {slug}: {kept} items")
 
     return {
@@ -136,7 +136,7 @@ def build():
         "tags": ["emotions", "meta", "generated"],
         "default_preview": "grammar",
         "_sources": sources,
-        "items": items,
+        "nodes": items,
         "_grammar_commons": {
             "schema_version": "1.0",
             "license": "CC-BY-SA-4.0",
@@ -187,7 +187,7 @@ def sync_collection_index():
             "branch": branch_of.get(entry),
             "is_meta": bool(g.get("_generated")) or entry in NEVER_AGGREGATE,
             "default_preview": g.get("default_preview"),
-            "items": len(g.get("items", [])),
+            "nodes": len(g.get("nodes", [])),
             "cover_image_url": g.get("cover_image_url", ""),
             "path": f"schools/{entry}/grammar.json",
             "year": g.get("year"),
@@ -218,7 +218,7 @@ def main():
         if changed:
             print("STALE — run `python scripts/build_meta_grammar.py` and commit the result")
             return 1
-        print(f"up to date: {len(meta['items'])} items from {len(meta['_sources'])} schools")
+        print(f"up to date: {len(meta['nodes'])} items from {len(meta['_sources'])} schools")
         return 0
 
     if changed:
@@ -227,9 +227,9 @@ def main():
             json.dump(meta, fh, ensure_ascii=False, indent=2)
             fh.write("\n")
         print(f"wrote {os.path.relpath(OUT, ROOT)}: "
-              f"{len(meta['items'])} items from {len(meta['_sources'])} schools")
+              f"{len(meta['nodes'])} items from {len(meta['_sources'])} schools")
     else:
-        print(f"up to date: {len(meta['items'])} items from {len(meta['_sources'])} schools")
+        print(f"up to date: {len(meta['nodes'])} items from {len(meta['_sources'])} schools")
 
     # AFTER the aggregator is on disk — the index records its item count, so
     # syncing first would record the previous run's number.

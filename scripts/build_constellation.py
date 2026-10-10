@@ -68,12 +68,22 @@ def load(path):
 
 def root_item_of(grammar):
     """A school's root item — the link target, and where its evidence tier lives."""
-    roots = [i for i in grammar.get("items", []) if i.get("category") == "root"]
+    roots = [i for i in grammar.get("nodes", []) if i.get("category") == "root"]
     if roots:
         return roots[0]
-    # Fall back to the deepest item, the same way the tree viewer finds a root.
-    by_level = sorted(grammar.get("items", []), key=lambda i: i.get("level", 1))
-    return by_level[-1] if by_level else None
+    # Fall back to the deepest node (depth computed from parts), the same way the
+    # tree viewer finds a root.
+    nodes = grammar.get("nodes", [])
+    by_id = {n.get("id"): n for n in nodes}
+
+    def depth(n, seen=()):
+        parts = n.get("parts") or []
+        if not parts or n.get("id") in seen:
+            return 1
+        return 1 + max((depth(by_id[c], seen + (n.get("id"),)) for c in parts if c in by_id), default=0)
+
+    by_depth = sorted(nodes, key=depth)
+    return by_depth[-1] if by_depth else None
 
 
 def build():
@@ -119,13 +129,12 @@ def build():
                 "id": link_id,
                 "name": g.get("name", slug),
                 "category": "school-link",
-                "level": 1,
                 "sort_order": b_order * 100 + s_order,
                 "sections": sections,
                 "keywords": (g.get("tags") or [])[:6],
                 "metadata": {
                     "source_deck": slug,
-                    "source_item_id": root["id"],
+                    "source_node_id": root["id"],
                     "deck": g.get("name", slug),
                     "branch_id": bid,
                 },
@@ -137,11 +146,10 @@ def build():
             "id": branch_id,
             "name": branch.get("name", bid),
             "category": "branch",
-            "level": 2,
             "sort_order": b_order,
         }
         if link_ids:
-            branch_item["composite_of"] = link_ids
+            branch_item["parts"] = link_ids
         prose = (branch.get("_note") or "").strip()
         # An empty branch is left visible on purpose — a placeholder for work not
         # yet done rather than something hidden. That was the hand-authored file's
@@ -158,9 +166,8 @@ def build():
         "id": f"{OUT_SLUG}-root",
         "name": existing.get("name", "Schools of Emotion"),
         "category": "root",
-        "level": 3,
         "sort_order": 1000,
-        "composite_of": branch_ids,
+        "parts": branch_ids,
         "sections": {
             "What this is": (
                 f"The constellation as it currently stands: {n_schools} schools in "
@@ -176,10 +183,10 @@ def build():
     })
 
     # Pass the hand-authored top-level block through untouched; replace only items.
-    out = {k: v for k, v in existing.items() if k != "items"}
+    out = {k: v for k, v in existing.items() if k != "nodes"}
     out["_note"] = GENERATED_NOTE
     out["_generated"] = True
-    out["items"] = items
+    out["nodes"] = items
     return out, missing
 
 
@@ -192,8 +199,8 @@ def main():
 
     existing = load(OUT) if os.path.isfile(OUT) else None
     changed = existing != built
-    n_b = sum(1 for i in built["items"] if i["category"] == "branch")
-    n_s = sum(1 for i in built["items"] if i["category"] == "school-link")
+    n_b = sum(1 for i in built["nodes"] if i["category"] == "branch")
+    n_s = sum(1 for i in built["nodes"] if i["category"] == "school-link")
     summary = f"{n_b} branches, {n_s} schools"
 
     if check:
