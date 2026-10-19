@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://repatterning.recursive.eco/sitemap.xml
