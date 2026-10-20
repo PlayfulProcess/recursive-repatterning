@@ -79,6 +79,7 @@
     ['proximity',  'Proximity',    PFX + 'viewers/proximity.html'],
     ['spiral',     'Spiral',       PFX + 'viewers/spiral.html'],
     ['channels',   'Channels',     PFX + 'pages/channels.html'],
+    ['archive',    'Archive: build your own', PFX + 'archive/index.html'],
   ];
   // [key, label, href, cssClass, external?]
   const TOOLS = [
